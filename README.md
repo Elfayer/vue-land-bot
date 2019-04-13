@@ -6,8 +6,8 @@ Based on guide: https://discordjs.guide/
 
 Not implemented:
 
-https://discordjs.guide/#/command-handling/adding-features?id=guild-only-commands
+https://discordjs.guide/commando/guild-only.html#setting-a-command-as-guild-only
 
-https://discordjs.guide/#/command-handling/adding-features?id=cooldowns
+https://discordjs.guide/command-handling/adding-features.html#cooldowns
 
-https://discordjs.guide/#/command-handling/adding-features?id=command-aliases
+https://discordjs.guide/command-handling/adding-features.html#command-aliases
