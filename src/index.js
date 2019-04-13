@@ -1,7 +1,7 @@
 const fs = require('fs')
 const Discord = require('discord.js')
 const client = require('./client.js')
-const { prefix, token } = require('./config.js/index.js')
+const { prefix, token } = require('./config.json')
 
 // Init commands
 client.commands = new Discord.Collection()
