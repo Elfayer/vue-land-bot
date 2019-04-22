@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "serve": "node ./src/index.js"
+    "serve": "npm run init && node ./src/index.js",
+    "init": "node ./src/scripts/init.js"
   },
   "repository": {
     "type": "git",
