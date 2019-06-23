@@ -3,7 +3,7 @@ module.exports = {
   description: 'Bot status',
   args: false,
   isAvailable: false,
-  execute (message, args) {
+  execute (message) {
     message.channel.send('Running.')
   }
 }
