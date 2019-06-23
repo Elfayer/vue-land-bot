@@ -1,9 +1,11 @@
+const { banWords } = require('../services/ban-words')
+
 module.exports = {
   name: 'ban',
   description: 'Rules to ban',
-  isAvailable: false,
+  isAvailable: true,
   execute (message) {
-    if (message.content.includes('http://discord.amazingsexdating.com')) {
+    if (banWords.some(word => message.content.toLowerCase().includes(word.toLowerCase()))) {
       const user = message.author
       const member = message.guild.member(user)
 
