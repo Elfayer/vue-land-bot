@@ -1,16 +1,14 @@
-const { banWords } = require('../services/ban-words')
+import { banWords } from '../services/ban-words'
 
-/*
-  TODO: ES6 modules; re-implement jobs system.
-*/
-module.exports = {
+export default {
   name: 'ban',
   description: 'Rules to ban',
-  isAvailable: true,
-  execute (message) {
-    if (banWords.some(word => message.content.toLowerCase().includes(word.toLowerCase()))) {
-      const user = message.author
-      const member = message.guild.member(user)
+  enabled: true,
+
+  run(msg) {
+    if (banWords.some(word => msg.content.toLowerCase().includes(word.toLowerCase()))) {
+      const user = msg.author
+      const member = msg.guild.member(user)
 
       // If the member is in the guild
       if (member) {
@@ -21,7 +19,7 @@ module.exports = {
          */
         member.ban('[BOT] ad-block-ban').then(() => {
           console.log(`Banned ${user.username}#${user.discriminator}`)
-          console.log(`Due to message: "${message.content}"`)
+          console.log(`Due to message: "${msg.content}"`)
         }).catch(err => {
           // An error happened
           // This is generally due to the bot not being able to ban the member,
