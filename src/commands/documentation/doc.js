@@ -1,5 +1,8 @@
 import { Command } from "discord.js-commando"
 
+/*
+  TODO: Extract to own file.
+*/
 const links = [{
   name: 'vue',
   aliases: ['home', 'vuejs'],
