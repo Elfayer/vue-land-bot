@@ -4,15 +4,18 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "serve": "npm run init && node ./src/index.js",
-    "init": "node ./src/scripts/init.js"
+    "serve": "node -r esm ./src/index.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Elfayer/vue-land-bot.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Elfayer",
+  "contributors": [
+    "Elfayer",
+    "sustained <sustained.dissonance@gmail.com> [https://sustained.name/]"
+  ],
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Elfayer/vue-land-bot/issues"
