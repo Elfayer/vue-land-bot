@@ -1,5 +1,5 @@
-const embed = require('./embed')
+import * as embed from './embed'
 
-module.exports = {
+export {
   embed
 }
