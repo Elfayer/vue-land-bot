@@ -115,9 +115,9 @@ export default class DocsVueCommand extends Command {
 
     if (!found) {
       const linksName = links.map(link => link.name).join(', ')
-      message.channel.send(`Documentation not found. Try: ${linksName}`)
+      msg.channel.send(`Documentation not found. Try: ${linksName}`)
     } else {
-      message.channel.send(found.value)
+      msg.channel.send(found.value)
     }
   }
 }
