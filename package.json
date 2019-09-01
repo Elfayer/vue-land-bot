@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "serve": "node -r esm ./src/index.js"
+    "serve": "node -r esm -r dotenv/config ./src/index.js"
   },
   "repository": {
     "type": "git",
@@ -24,6 +24,7 @@
   "dependencies": {
     "discord.js": "^11.4.2",
     "discord.js-commando": "^0.10.0",
+    "dotenv": "^8.1.0",
     "esm": "^3.2.25"
   },
   "devDependencies": {
