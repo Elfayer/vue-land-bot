@@ -83,7 +83,7 @@ const links = [{
   value: 'https://vuejs.org/images/props-events.png'
 }]
 
-export default class DocsVueCommand extends Command {
+export default class DocsDocsCommand extends Command {
   constructor(client) {
     super(client, {
       args: [
