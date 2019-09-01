@@ -1,7 +1,7 @@
 import { CommandoClient } from 'discord.js-commando'
 
 const {
-  OWNER = "269617876036616193", // Default to @evan#9589
+  OWNERS_IDS = "269617876036616193", // Default to @evan#9589
   COMMAND_PREFIX = "!"
 } = process.env
 
@@ -9,7 +9,7 @@ const PATH_TYPES = join(__dirname, "types")
 const PATH_COMMANDS = join(__dirname, "commands")
 
 const client = new CommandoClient({
-  owner : OWNER,
+  owner : OWNERS_IDS,
   commandPrefix: COMMAND_PREFIX
 })
 
