@@ -1,3 +1,5 @@
+import { Command } from "discord.js-commando"
+
 const links = [{
   name: 'vue',
   aliases: ['home', 'vuejs'],
@@ -78,17 +80,34 @@ const links = [{
   value: 'https://vuejs.org/images/props-events.png'
 }]
 
-module.exports = {
-  name: 'doc',
-  description: 'Match a key word with a doc link',
-  args: true,
-  isAvailable: true,
-  usage: '<keyword>',
-  execute (message, args) {
-    const value = args[0]
+export default class DocsVueCommand extends Command {
+  constructor(client) {
+    super(client, {
+      args: [
+        {
+          key: "keyword",
+          type: "string",
+          prompt: "keyword to search for?"
+        }
+      ],
+      name: 'docs',
+      group: 'docs',
+      aliases: ['d'],
+      guildOnly: false,
+      memberName: 'docs-docs',
+      description: 'Match a keyword with a documentation link.'
+    })
+  }
+
+  hasPermission(msg) {
+    return true
+  }
+
+  async run(msg, args) {
+    const { keyword } = args
     const found = links.find(
-      link => link.name === value ||
-      (link.aliases && link.aliases.some(alias => alias === value))
+      link => link.name === keyword ||
+      (link.aliases && link.aliases.some(alias => alias === keyword))
     )
 
     if (!found) {
