@@ -1,6 +1,7 @@
 import { Command } from "discord.js-commando"
 
 import { banWords, saveToFile, toString } from "../../services/ban-words"
+import { MODERATOR_ROLE_IDS } from "../../utils/constants"
 
 export default class ModerationAddBanWordCommand extends Command {
   constructor(client) {
@@ -21,11 +22,8 @@ export default class ModerationAddBanWordCommand extends Command {
     })
   }
 
-  /*
-    TODO: Add adequate permission check.
-  */
   hasPermission(msg) {
-    return true
+    return msg.member.roles.some((role) => MODERATOR_ROLE_IDS.includes(role.id))
   }
 
   async run(msg, args) {
