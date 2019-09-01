@@ -19,7 +19,8 @@
   },
   "homepage": "https://github.com/Elfayer/vue-land-bot#readme",
   "dependencies": {
-    "discord.js": "^11.4.2"
+    "discord.js": "^11.4.2",
+    "discord.js-commando": "^0.10.0"
   },
   "devDependencies": {
     "jest": "^24.9.0",
