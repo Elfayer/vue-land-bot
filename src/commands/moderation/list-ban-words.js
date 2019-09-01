@@ -1,11 +1,27 @@
-const banWords = require('../services/ban-words')
+import { Command } from "discord.js-commando"
 
-module.exports = {
-  name: 'list-ban-words', // should match file name
-  description: 'List all ban words used by the ban job.', // for maintainers understanding
-  isAvailable: true, // if false, won't be used
-  usage: '<word>', // if using args, to show users right args usage
-  execute (message) {
-    message.channel.send(`Ban words: ${banWords.toString()}`)
+import { banWords } from '../../services/ban-words'
+
+export default class ModerationListBanWordsCommand extends Command {
+  constructor(client) {
+    super(client, {
+      name: 'list-ban-words',
+      group: 'mod',
+      aliases: ['lbw'],
+      guildOnly: false,
+      memberName: 'mod-list-ban-words',
+      description: 'List all banned words.'
+    })
+  }
+
+  /*
+    TODO: Add adequate permission check.
+  */
+  hasPermission(msg) {
+    return true
+  }
+
+  async run(msg, args) {
+    return msg.channel.send(`Ban words: ${banWords.toString()}`)
   }
 }
