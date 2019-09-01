@@ -1,19 +1,31 @@
-const Discord = require('discord.js')
+import { Command } from "discord.js-commando"
+import { RichEmbed } from "discord.js"
 
-module.exports = {
-  name: 'code',
-  description: 'Show code highlight tips',
-  args: false,
-  isAvailable: true,
-  execute (message) {
-    const embedMessage = new Discord.RichEmbed()
+export default class MiscCodeCommand extends Command {
+  constructor(client) {
+    super(client, {
+      name: 'code',
+      group: 'misc',
+      aliases: ['hl', 'highlight', 'highlighting'],
+      guildOnly: false,
+      memberName: 'misc-code',
+      description: 'Show code highlighting tips.'
+    })
+  }
+
+  hasPermission(msg) {
+    return true
+  }
+
+  async run(msg, args) {
+    const embedMessage = new RichEmbed()
       .setColor('#42b883')
-      .setTitle('Code highlight guide')
+      .setTitle('Code Highlight Guide')
       .addField('Inline code', '\\`code\\`')
       .addField('Multiline code', '\\`\\`\\`\n// code\n\\`\\`\\`')
       .addField('Multiline code coloring', '\\`\\`\\`html\n<template></template>\n<script></script>\n<style></style>\n\\`\\`\\`')
       .setFooter('Note you can use any language name for multiline coloring such as: html, js, css, sql, etc.')
 
-    message.channel.send(embedMessage)
+    msg.channel.send(embedMessage)
   }
 }
