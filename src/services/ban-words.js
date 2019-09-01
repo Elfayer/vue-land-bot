@@ -2,7 +2,7 @@ import fs from 'fs'
 import { resolve } from 'path'
 
 const FILENAME = 'ban-words.txt'
-const PATH = join(__dirname, "../../data/", FILENAME)
+const PATH = resolve(__dirname, "../../data/", FILENAME)
 const SEPARATOR = '\r\n'
 
 export const banWords = []
