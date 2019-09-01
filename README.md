@@ -1,5 +1,7 @@
 # **vue-land-bot**
 
+**UPDATE 02/09/2019:** Aimed to be rewritten using [Commando.js](https://discord.js.org/#/docs/commando/master/general/welcome) for easiness of maintainability.
+
 API Doc: https://discord.js.org
 
 Based on guide: https://discordjs.guide/
