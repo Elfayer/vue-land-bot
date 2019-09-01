@@ -18,6 +18,9 @@ export default class MiscCodeCommand extends Command {
   }
 
   async run(msg, args) {
+    /*
+      TODO: Extract fields and build dynamically? Makes for easier reading + modification.
+    */
     const embedMessage = new RichEmbed()
       .setColor('#42b883')
       .setTitle('Code Highlight Guide')

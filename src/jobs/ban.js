@@ -1,5 +1,8 @@
 const { banWords } = require('../services/ban-words')
 
+/*
+  TODO: ES6 modules; re-implement jobs system.
+*/
 module.exports = {
   name: 'ban',
   description: 'Rules to ban',

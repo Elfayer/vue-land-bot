@@ -1,5 +1,8 @@
 const client = require('../client.js')
 
+/*
+  TODO: ES6 modules; re-implement jobs system.
+*/
 module.exports = {
   name: 'warn',
   description: 'Rules to warn Moderators',
