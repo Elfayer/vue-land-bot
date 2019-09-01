@@ -1,16 +1,38 @@
-const { banWords, saveToFile, toString } = require('../services/ban-words')
+import { Command } from "discord.js-commando"
 
-module.exports = {
-  name: 'add-ban-word',
-  description: 'Add a word to be used by the ban job.',
-  args: true,
-  isAvailable: true,
-  usage: '<word>',
-  execute (message, args) {
-    const word = args[0]
+import { banWords, saveToFile, toString } from "../../services/ban-words"
+
+export default class ModerationAddBanWordCommand extends Command {
+  constructor(client) {
+    super(client, {
+      args: [
+        {
+          key: 'word',
+          type: 'string'
+        }
+      ],
+      name: 'add-ban-word',
+      group: 'mod',
+      aliases: [],
+      guildOnly: true,
+      memberName: 'mod-add-ban-word',
+      description: 'Add a word to the ban list.'
+    })
+  }
+
+  /*
+    TODO: Add adequate permission check.
+  */
+  hasPermission(msg) {
+    return true
+  }
+
+  async run(msg, args) {
+    const { word } = args
 
     banWords.push(word)
     saveToFile()
-    message.channel.send(`Ban words: ${toString()}`)
+
+    return msg.channel.send(`Ban words: ${toString()}`)
   }
 }
