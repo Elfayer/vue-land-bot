@@ -8,7 +8,8 @@ export default class ModerationAddBanWordCommand extends Command {
       args: [
         {
           key: 'word',
-          type: 'string'
+          type: 'string',
+          prompt: 'the word to add?'
         }
       ],
       name: 'add-ban-word',
