@@ -8,7 +8,7 @@ export default class ModerationListBanWordsCommand extends Command {
       name: 'list-ban-words',
       group: 'mod',
       aliases: ['lbw'],
-      guildOnly: false,
+      guildOnly: true,
       memberName: 'mod-list-ban-words',
       description: 'List all banned words.'
     })
