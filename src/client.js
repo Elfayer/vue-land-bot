@@ -1,3 +1,4 @@
+import { Collection } from 'discord.js'
 import { CommandoClient } from 'discord.js-commando'
 
 const {
@@ -5,13 +6,30 @@ const {
   COMMAND_PREFIX = "!"
 } = process.env
 
+const PATH_JOBS = join(__dirname, "jobs")
 const PATH_TYPES = join(__dirname, "types")
 const PATH_COMMANDS = join(__dirname, "commands")
 
 const client = new CommandoClient({
-  owner : OWNERS_IDS,
+  owner: OWNERS_IDS,
   commandPrefix: COMMAND_PREFIX
 })
+
+/*
+  Initialise jobs.
+*/
+
+client.jobs = new Collection()
+
+const jobFiles = fs.readdirSync(PATH_JOBS).filter(file => file.endsWith('.js'))
+
+for (const file of jobFiles) {
+  const job = require(`./jobs/${file}`)
+
+  if (job.enabled) {
+    client.jobs.set(job.name, job)
+  }
+}
 
 /*
   Register command groups.
@@ -63,5 +81,12 @@ client.on('disconnect', () => console.info('Lost connection!'))
 client.on('reconnecting', () => console.info('Attempting to reconnect.'))
 
 process.on('unhandledRejection', console.error)
+
+/*
+  Process jobs.
+*/
+client.on('message', (msg) => {
+  client.jobs.forEach(job => job.run(msg))
+})
 
 export default client
