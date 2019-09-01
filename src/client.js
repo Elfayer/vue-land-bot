@@ -55,9 +55,10 @@ client.registry.registerCommandsIn(PATH_COMMANDS)
 client.on('warn',  console.warn)
 client.on('error', console.error)
 
-client.on('resume', () => console.info('Connection resumed.'))
-client.on('disconnect', () => console.info('Disconnected!'))
-client.on('reconnecting', () => console.info('Reconnecting...'))
+client.on('ready', () => console.info('Client ready!'))
+client.on('resume', () => console.info('Connection resumed!'))
+client.on('disconnect', () => console.info('Lost connection!'))
+client.on('reconnecting', () => console.info('Attempting to reconnect.'))
 
 process.on('unhandledRejection', console.error)
 
