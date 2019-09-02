@@ -39,9 +39,9 @@ module.exports = class JobsEnableCommand extends Command {
 
     if (!job.enabled) {
       job.enabled = true
-      return msg.channel.send(`Job "${job} has been enabled.`)
+      return msg.channel.send(`Job "${job}" has been enabled.`)
     } else {
-      return msg.channel.send(`Job "${job} was already enabled.`)
+      return msg.channel.send(`Job "${job}" was already enabled.`)
     }
   }
 }
