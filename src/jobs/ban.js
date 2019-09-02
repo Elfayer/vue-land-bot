@@ -1,9 +1,14 @@
+import Job from "../lib/job"
 import { banWords } from '../services/ban-words'
 
-export default {
-  name: 'ban',
-  description: 'Rules to ban',
-  enabled: true,
+export default class BanJob extends Job {
+  constructor(client) {
+    super(client, {
+      name: 'ban',
+      enabled: true,
+      description: 'Automatically bans users who violate the banned word list.'
+    })
+  }
 
   run(msg) {
     if (banWords.some(word => msg.content.toLowerCase().includes(word.toLowerCase()))) {
