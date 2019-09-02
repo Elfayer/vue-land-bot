@@ -5,7 +5,7 @@ export default class WarnJob extends Job {
   constructor(client) {
     super(client, {
       name: 'warn',
-      description: 'Rules to warn Moderators',
+      description: 'Warn moderators when a user utters a banned word.',
       enabled: false,
       ignored: {
         roles: [...MODERATOR_ROLE_IDS, ...PROTECTED_ROLE_IDS],
