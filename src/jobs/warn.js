@@ -1,5 +1,6 @@
 import Job from '../lib/job'
 import { MODERATOR_ROLE_IDS, PROTECTED_ROLE_IDS } from '../utils/constants'
+import { banWords } from '../services/ban-words'
 
 export default class WarnJob extends Job {
   constructor(client) {
