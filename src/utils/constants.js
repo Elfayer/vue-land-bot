@@ -1,7 +1,16 @@
-const { NODE_ENV } = process.env
+const { NODE_ENV, OWNERS } = process.env
 
 /*
-  Import user IDs.
+  Bot owner(s) as specified in .env file.
+
+  Permissions:
+
+    - Running commands set as ownerOnly.
+*/
+const OWNER_IDS = OWNERS
+
+/*
+  Various important and or noteworthy user IDs.
 */
 const USERS = {
   EVAN: '269617876036616193',
@@ -9,7 +18,7 @@ const USERS = {
 }
 
 /*
-  Important role IDs.
+  Various important and or noteworthy role IDs.
 */
 const ROLES = {
   MVPS: '443314906050330635',
@@ -20,13 +29,21 @@ const ROLES = {
 }
 
 /*
-  Moderation-related commands etc. will not effect these users.
+  Bot developers IDS.
+
+    - can enable/disable/list jobs
 */
-let PROTECTED_USER_IDS = [USERS.EVAN, USERS.GUSTO]
+const BOT_DEVELOPER_IDS = [
+  '248017273950830593', // Elfayer
+  '136620462821081088', // sustained
+]
 
 /*
-  Moderation-related commands etc. will not effect these roles.
+  Protected users and roles.
+
+    - moderation-related commands have no effect
 */
+let PROTECTED_USER_IDS = [USERS.EVAN, USERS.GUSTO]
 let PROTECTED_ROLE_IDS = [
   ROLES.CORE_TEAM,
   ROLES.MODERATORS,
@@ -34,17 +51,17 @@ let PROTECTED_ROLE_IDS = [
 ]
 
 /*
-  Users with these roles can use moderation-related commands.
+  Moderators.
 
-  Of course the Discord permission hierarchy still applies.
+    - may use commands in the moderation command group
 */
 let MODERATOR_ROLE_IDS = [ROLES.CORE_TEAM, ROLES.MODERATORS]
 
 /*
   Environment-specific adjustments, to make testing easier.
 
-  PRODUCTION  - Live Vue Land server
-  DEVELOPMENT - Vue Land Bot Testing server
+    PRODUCTION  - Live Vue Land server
+    DEVELOPMENT - Vue Land Bot Testing server
 */
 if (NODE_ENV === 'production') {
   // ...
@@ -58,4 +75,6 @@ export {
   PROTECTED_USER_IDS,
   PROTECTED_ROLE_IDS,
   MODERATOR_ROLE_IDS,
+  OWNER_IDS,
+  BOT_DEVELOPER_IDS,
 }

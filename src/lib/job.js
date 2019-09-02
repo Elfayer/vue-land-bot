@@ -33,4 +33,8 @@ export default class Job {
 
     return msg.member.roles.some(role => this.ignored.roles.includes(role.id))
   }
+
+  toString() {
+    return this.name
+  }
 }
