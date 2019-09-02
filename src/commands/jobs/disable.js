@@ -19,7 +19,7 @@ export default class JobsDisbleCommand extends Command {
       ],
       name: 'disable-job',
       group: 'mod',
-      aliases: ['je'],
+      aliases: ['jd'],
       guildOnly: true,
       memberName: 'jobs-disable',
       description: 'Disable a job',
