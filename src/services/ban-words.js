@@ -2,13 +2,13 @@ import fs from 'fs'
 import { resolve } from 'path'
 
 const FILENAME = 'ban-words.txt'
-const PATH = resolve(__dirname, "../../data/", FILENAME)
+const PATH = resolve(__dirname, '../../data/', FILENAME)
 const SEPARATOR = '\r\n'
 
 export const banWords = []
 
-export function saveToFile () {
-  fs.access(PATH, (err) => {
+export function saveToFile() {
+  fs.access(PATH, err => {
     if (err) {
       throw err
     }
@@ -22,12 +22,15 @@ export function saveToFile () {
   })
 }
 
-export function toString () {
-  return banWords.reduce((acc, val) => acc ? `${acc}, \`${val}\`` : `\`${val}\``, '')
+export function toString() {
+  return banWords.reduce(
+    (acc, val) => (acc ? `${acc}, \`${val}\`` : `\`${val}\``),
+    ''
+  )
 }
 
-function _initFromFile () {
-  fs.access(PATH, (err) => {
+function _initFromFile() {
+  fs.access(PATH, err => {
     if (err) {
       throw err
     }
