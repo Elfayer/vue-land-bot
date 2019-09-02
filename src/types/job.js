@@ -1,6 +1,6 @@
 import { ArgumentType } from 'discord.js-commando'
 
-export default class JobArgumentType extends ArgumentType {
+module.exports = class JobArgumentType extends ArgumentType {
   constructor(client, id = 'job') {
     super(client, id)
   }
