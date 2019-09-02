@@ -22,19 +22,23 @@ const ROLES = {
 /*
   Moderation-related commands etc. will not effect these users.
 */
-let PROTECTED_USER_IDS = [USER_EVAN, USER_GUSTO]
+let PROTECTED_USER_IDS = [USERS.EVAN, USERS.GUSTO]
 
 /*
   Moderation-related commands etc. will not effect these roles.
 */
-let PROTECTED_ROLE_IDS = [CORE_TEAM, MODERATORS, COMMUNITY_LEADERS]
+let PROTECTED_ROLE_IDS = [
+  ROLES.CORE_TEAM,
+  ROLES.MODERATORS,
+  ROLES.COMMUNITY_LEADERS,
+]
 
 /*
   Users with these roles can use moderation-related commands.
 
   Of course the Discord permission hierarchy still applies.
 */
-let MODERATOR_ROLE_IDS = [CORE_TEAM, MODERATORS]
+let MODERATOR_ROLE_IDS = [ROLES.CORE_TEAM, ROLES.MODERATORS]
 
 /*
   Environment-specific adjustments, to make testing easier.
@@ -43,7 +47,9 @@ let MODERATOR_ROLE_IDS = [CORE_TEAM, MODERATORS]
   DEVELOPMENT - Vue Land Bot Testing server
 */
 if (NODE_ENV === 'production') {
+  // ...
 } else {
+  // ...
 }
 
 export {
