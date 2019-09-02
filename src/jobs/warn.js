@@ -13,10 +13,10 @@ export default class WarnJob extends Job {
       guildOnly: true,
       config: {
         notifyRole: {
-          name: 'Admin',
+          name: 'Moderators',
         },
         notifyChannel: {
-          name: 'spam',
+          name: 'spam-log',
         },
       },
     })
