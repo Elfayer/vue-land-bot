@@ -26,11 +26,15 @@ client.jobs = new Collection()
 const jobFiles = readdirSync(PATH_JOBS).filter(file => file.endsWith('.js'))
 
 for (const file of jobFiles) {
-  const jobDefinition = require(`./jobs/${file}`)
+  try {
+    const { default: jobDefinition } = require(`./jobs/${file}`)
 
-  const jobInstance = new jobDefinition()
+    const jobInstance = new jobDefinition()
 
-  client.jobs.set(jobInstance.name, jobInstance)
+    client.jobs.set(jobInstance.name, jobInstance)
+  } catch (e) {
+    console.warn('Could not load job file: ' + file)
+  }
 }
 
 /*
