@@ -45,4 +45,8 @@ export default class Job {
   getStatus() {
     return this.enabled ? 'enabled' : 'disabled'
   }
+
+  setEnabled(enabled) {
+    this.enabled = enabled
+  }
 }
