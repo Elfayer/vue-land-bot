@@ -87,7 +87,11 @@ process.on('unhandledRejection', console.error)
   Process jobs.
 */
 client.on('message', msg => {
-  client.jobs.filter(job => job.enabled).forEach(job => job.run(msg))
+  client.jobs
+    .filter(job => job.enabled)
+    .forEach(job => {
+      if (job.shouldExecute(msg)) job.run(msg)
+    })
 })
 
 export default client

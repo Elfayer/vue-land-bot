@@ -1,4 +1,5 @@
 import Job from '../lib/job'
+import { MODERATOR_ROLE_IDS, PROTECTED_ROLE_IDS } from '../utils/constants'
 
 export default class WarnJob extends Job {
   constructor(client) {
@@ -6,6 +7,10 @@ export default class WarnJob extends Job {
       name: 'warn',
       description: 'Rules to warn Moderators',
       enabled: false,
+      ignored: {
+        roles: [...MODERATOR_ROLE_IDS, ...PROTECTED_ROLE_IDS],
+      },
+      guildOnly: true,
     })
   }
 

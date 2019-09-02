@@ -1,5 +1,6 @@
 import Job from '../lib/job'
 import { banWords } from '../services/ban-words'
+import { MODERATOR_ROLE_IDS, PROTECTED_ROLE_IDS } from '../utils/constants'
 
 export default class BanJob extends Job {
   constructor(client) {
@@ -7,6 +8,10 @@ export default class BanJob extends Job {
       name: 'ban',
       enabled: true,
       description: 'Automatically bans users who violate the banned word list.',
+      ignored: {
+        roles: [...MODERATOR_ROLE_IDS, ...PROTECTED_ROLE_IDS],
+      },
+      guildOnly: true,
     })
   }
 
