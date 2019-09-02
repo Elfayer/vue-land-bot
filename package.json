@@ -22,10 +22,16 @@
   },
   "homepage": "https://github.com/Elfayer/vue-land-bot#readme",
   "dependencies": {
+    "@vue/eslint-config-prettier": "^5.0.0",
+    "babel-eslint": "^10.0.3",
     "discord.js": "^11.4.2",
     "discord.js-commando": "^0.10.0",
     "dotenv": "^8.1.0",
-    "esm": "^3.2.25"
+    "eslint": "^6.3.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-vue": "^5.2.3",
+    "esm": "^3.2.25",
+    "prettier": "^1.18.2"
   },
   "devDependencies": {
     "jest": "^24.9.0",
