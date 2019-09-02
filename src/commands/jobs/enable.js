@@ -25,7 +25,7 @@ export default class JobsEnableCommand extends Command {
       group: 'jobs',
       aliases: ['je'],
       guildOnly: true,
-      memberName: 'jobs-enable',
+      memberName: 'enable',
       description: 'Enable a job',
     })
   }

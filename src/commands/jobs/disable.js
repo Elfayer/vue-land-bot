@@ -21,7 +21,7 @@ export default class JobsDisableCommand extends Command {
       group: 'jobs',
       aliases: ['jd'],
       guildOnly: true,
-      memberName: 'jobs-disable',
+      memberName: 'disable',
       description: 'Disable a job',
     })
   }
