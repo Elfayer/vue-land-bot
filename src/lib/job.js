@@ -32,7 +32,10 @@ export default class Job {
       return true
     }
 
-    return msg.member.roles.some(role => this.ignored.roles.includes(role.id))
+    if (this.ignored.roles.length)
+      return msg.member.roles.some(role => this.ignored.roles.includes(role.id))
+
+    return true
   }
 
   toString() {
