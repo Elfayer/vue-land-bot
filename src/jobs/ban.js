@@ -7,6 +7,9 @@ import {
   EMPTY_MESSAGE,
 } from '../utils/constants'
 
+// Don't *actually* ban - real bans make testing hard!
+const DEBUG_MODE = true
+
 export default class BanJob extends Job {
   constructor(client) {
     super(client, {
@@ -36,14 +39,15 @@ export default class BanJob extends Job {
 
     // We don't have permission to ban - bail.
     if (!msg.channel.permissionsFor(msg.client.user).has('BAN_MEMBERS'))
-      return false
+      return !!console.warn('[BanJob] Cannot ban - lacking permission.')
 
     const botMember = msg.guild.member(msg.client.user)
     const botHighestRole = botMember.highestRole.calculatedPosition
     const userHighestRole = msg.member.highestRole.calculatedPosition
 
     // Our role is not high enough in the hierarchy to ban - bail.
-    if (botHighestRole < userHighestRole) return false
+    if (botHighestRole < userHighestRole)
+      return !!console.warn('[BanJob] Cannot ban - role too low.')
 
     return true
   }
@@ -58,23 +62,29 @@ export default class BanJob extends Job {
         `WarnJob: Could not find channel with name ${this.config.logChannel.name}`
       )
 
+    if (DEBUG_MODE) {
+      return this.log(msg, logChannel)
+    }
+
     msg.member
       .ban(`[${msg.client.user.name}] Automated anti-spam measures.`)
-      .then(() => {
-        if (!logChannel)
-          return console.log(
-            `Banned user: ${msg.author}`,
-            `Due to message: ${msg.cleanContent}`
-          )
-
-        const embed = new RichEmbed()
-        embed.setTitle('Banned User')
-        embed.setAuthor(msg.author, msg.author.avatarURL)
-        embed.setTimestamp()
-        embed.addField('Triggering Message', msg.content)
-
-        logChannel.send(EMPTY_MESSAGE, { embed })
-      })
+      .then(() => this.log(msg, logChannel))
       .catch(console.error) // Shouldn't happen due to shouldExecute checks but...
+  }
+
+  log(msg, logChannel) {
+    if (!logChannel)
+      return console.info(
+        `Banned user: ${msg.author}`,
+        `Due to message: ${msg.cleanContent}`
+      )
+
+    const embed = new RichEmbed()
+    embed.setTitle('Banned User')
+    embed.setAuthor(msg.author, msg.author.avatarURL)
+    embed.setTimestamp()
+    embed.addField('Triggering Message', msg.content)
+
+    logChannel.send(EMPTY_MESSAGE, { embed })
   }
 }
