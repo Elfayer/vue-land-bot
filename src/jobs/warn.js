@@ -16,7 +16,7 @@ export default class WarnJob extends Job {
     )
 
     notifyChannel.send(
-      `${notifyRole} Suspicious user: ${message.author} in channel ${message.channel}`
+      `${notifyRole} Suspicious user: ${msg.author} in channel ${msg.channel}`
     )
   }
 }
