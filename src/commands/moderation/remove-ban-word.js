@@ -6,6 +6,13 @@ import { MODERATOR_ROLE_IDS } from '../../utils/constants'
 module.exports = class ModerationRemoveBanWordCommand extends Command {
   constructor(client) {
     super(client, {
+      args: [
+        {
+          key: 'word',
+          type: 'string',
+          prompt: 'the word to add?',
+        },
+      ],
       name: 'remove-ban-word',
       group: 'mod',
       aliases: ['rbw'],
