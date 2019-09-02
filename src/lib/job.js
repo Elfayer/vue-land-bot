@@ -14,6 +14,10 @@ export default class Job {
       if (!options.ignored[key]) options.ignored[key] = []
     })
 
+    if (!options.config) {
+      options.config = {}
+    }
+
     this.name = options.name
     this.enabled = options.enabled || true
     this.ignored = options.ignored

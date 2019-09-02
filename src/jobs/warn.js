@@ -11,14 +11,29 @@ export default class WarnJob extends Job {
         roles: [...MODERATOR_ROLE_IDS, ...PROTECTED_ROLE_IDS],
       },
       guildOnly: true,
+      config: {
+        notifyRole: {
+          name: 'Admin',
+        },
+        notifyChannel: {
+          name: 'spam',
+        },
+      },
     })
   }
 
   run(msg) {
-    const notifyRole = msg.guild.roles.find(role => role.name === 'Admin')
-    const notifyChannel = msg.client.channels.find(
-      channel => channel.name === 'spam'
+    const notifyRole = msg.guild.roles.find(
+      role => role.name === this.config.notifyRole.name
     )
+    const notifyChannel = msg.client.channels.find(
+      channel => channel.name === this.config.notifyChannel.name
+    )
+
+    if (!notifyChannel)
+      return console.warn(
+        `WarnJob: Could not find channel with name ${this.config.notifyRole.name}`
+      )
 
     notifyChannel.send(
       `${notifyRole} Suspicious user: ${msg.author} in channel ${msg.channel}`
