@@ -34,6 +34,7 @@ for (const file of jobFiles) {
     client.jobs.set(jobInstance.name, jobInstance)
   } catch (e) {
     console.warn('Could not load job file: ' + file)
+    console.error(e)
   }
 }
 
@@ -44,19 +45,19 @@ for (const file of jobFiles) {
 */
 client.registry.registerGroups([
   {
-    id: 'dev',
+    id: 'development',
     name: 'Development',
   },
   {
-    id: 'docs',
+    id: 'documentation',
     name: 'Documentation',
   },
   {
-    id: 'misc',
+    id: 'miscellaneous',
     name: 'Miscellaneous',
   },
   {
-    id: 'mod',
+    id: 'moderation',
     name: 'Moderation',
   },
   {
