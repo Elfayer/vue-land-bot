@@ -1,7 +1,6 @@
-const { NODE_ENV } = process.env
+const { NODE_ENV = 'development' } = process.env
 
-const IMPORT_FILE =
-  (NODE_ENV === 'production' ? 'production' : 'development') + '.js'
+const IMPORT_FILE = `./${NODE_ENV}.js`
 
 const {
   USERS,
@@ -9,13 +8,14 @@ const {
   OWNER_IDS,
   BOT_DEVELOPER_IDS,
   PROTECTED_USER_IDS,
-} = import(IMPORT_FILE)
+} = require(IMPORT_FILE)
 
 /*
   Protected roles.
 
     - moderation-related commands have no effect
 */
+
 const PROTECTED_ROLE_IDS = Object.freeze([
   ROLES.CORE_TEAM,
   ROLES.MODERATORS,
@@ -38,7 +38,7 @@ const MODERATOR_ROLE_IDS = Object.freeze([ROLES.CORE_TEAM, ROLES.MODERATORS])
 */
 const EMPTY_MESSAGE = '\u200b'
 
-export default {
+export {
   USERS,
   ROLES,
   OWNER_IDS,

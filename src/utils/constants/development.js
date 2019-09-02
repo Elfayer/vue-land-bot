@@ -1,7 +1,7 @@
 /*
   Various important and or noteworthy user IDs.
 */
-const USERS = Object.freeze({
+export const USERS = Object.freeze({
   EVAN: '269617876036616193',
   GUSTO: '287377476647124992',
   ELFAYER: '248017273950830593',
@@ -11,7 +11,7 @@ const USERS = Object.freeze({
 /*
   Various important and or noteworthy role IDs.
 */
-const ROLES = Object.freeze({
+export const ROLES = Object.freeze({
   MVPS: '618043190590701569',
   CORE_TEAM: '618043190590701569',
   MODERATORS: '618043190590701569',
@@ -24,7 +24,7 @@ const ROLES = Object.freeze({
 
     - can enable/disable/list jobs
 */
-const BOT_DEVELOPER_IDS = Object.freeze([
+export const BOT_DEVELOPER_IDS = Object.freeze([
   '248017273950830593', // Elfayer
   '136620462821081088', // sustained
 ])
@@ -37,13 +37,11 @@ const BOT_DEVELOPER_IDS = Object.freeze([
 
     - can run commands set as ownerOnly
 */
-const OWNER_IDS = Object.freeze(BOT_DEVELOPER_IDS)
+export const OWNER_IDS = Object.freeze(BOT_DEVELOPER_IDS)
 
 /*
   Protected roles.
 
     - moderation-related commands have no effect
 */
-const PROTECTED_USER_IDS = Object.freeze([USERS.EVAN, USERS.GUSTO])
-
-export { USERS, ROLES, OWNER_IDS, PROTECTED_USER_IDS, BOT_DEVELOPER_IDS }
+export const PROTECTED_USER_IDS = Object.freeze([USERS.EVAN, USERS.GUSTO])
