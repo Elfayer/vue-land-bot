@@ -13,7 +13,7 @@ export function saveToFile() {
       throw err
     }
 
-    fs.writeFile(PATH, banWords.join(SEPARATOR), 'utf8', (err, data) => {
+    fs.writeFile(PATH, banWords.join(SEPARATOR), 'utf8', err => {
       if (err) {
         throw err
       }
