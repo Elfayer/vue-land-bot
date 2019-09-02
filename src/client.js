@@ -26,7 +26,8 @@ client.jobs = new Collection()
 const jobFiles = readdirSync(PATH_JOBS).filter(file => file.endsWith('.js'))
 
 for (const file of jobFiles) {
-  const jobDefinition = import(`./jobs/${file}`)
+  const jobDefinition = require(`./jobs/${file}`)
+
   const jobInstance = new jobDefinition()
 
   client.jobs.set(jobInstance.name, jobInstance)
