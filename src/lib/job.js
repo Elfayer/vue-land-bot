@@ -37,4 +37,8 @@ export default class Job {
   toString() {
     return this.name
   }
+
+  getStatus() {
+    return this.enabled ? 'enabled' : 'disabled'
+  }
 }
