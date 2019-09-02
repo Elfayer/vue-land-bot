@@ -22,6 +22,12 @@ export default class WarnJob extends Job {
     })
   }
 
+  shouldExecute(msg) {
+    return banWords.some(word =>
+      msg.content.toLowerCase().includes(word.toLowerCase())
+    )
+  }
+
   run(msg) {
     const notifyRole = msg.guild.roles.find(
       role => role.name === this.config.notifyRole.name
