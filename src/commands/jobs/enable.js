@@ -22,7 +22,7 @@ export default class JobsEnableCommand extends Command {
         },
       ],
       name: 'enable-job',
-      group: 'mod',
+      group: 'jobs',
       aliases: ['je'],
       guildOnly: true,
       memberName: 'jobs-enable',
