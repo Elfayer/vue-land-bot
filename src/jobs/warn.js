@@ -32,7 +32,7 @@ export default class WarnJob extends Job {
 
     if (!notifyChannel)
       return console.warn(
-        `WarnJob: Could not find channel with name ${this.config.notifyRole.name}`
+        `WarnJob: Could not find channel with name ${this.config.notifyChannel.name}`
       )
 
     notifyChannel.send(
