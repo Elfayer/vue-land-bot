@@ -5,7 +5,11 @@ import {
   MODERATOR_ROLE_IDS,
 } from '../../utils/constants'
 
-const ALLOWED_ROLES = [...OWNER_IDS, ...BOT_DEVELOPER_IDS, MODERATOR_ROLE_IDS]
+const ALLOWED_ROLES = [
+  ...OWNER_IDS,
+  ...BOT_DEVELOPER_IDS,
+  ...MODERATOR_ROLE_IDS,
+]
 
 export default class JobsEnableCommand extends Command {
   constructor(client) {
