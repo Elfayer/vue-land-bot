@@ -9,7 +9,7 @@ export default class TestJob extends Job {
     })
   }
 
-  run(msg) {
-    return msg.channel.send('test job executed')
+  run() {
+    console.log('test job executed')
   }
 }
