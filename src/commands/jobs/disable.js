@@ -7,7 +7,7 @@ import {
 
 const ALLOWED_ROLES = [...OWNER_IDS, ...BOT_DEVELOPER_IDS, MODERATOR_ROLE_IDS]
 
-export default class JobsDisableCommand extends Command {
+module.exports = class JobsDisableCommand extends Command {
   constructor(client) {
     super(client, {
       args: [

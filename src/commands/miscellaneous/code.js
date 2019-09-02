@@ -1,7 +1,7 @@
 import { Command } from 'discord.js-commando'
 import { RichEmbed } from 'discord.js'
 
-export default class MiscCodeCommand extends Command {
+module.exports = class MiscCodeCommand extends Command {
   constructor(client) {
     super(client, {
       name: 'code',

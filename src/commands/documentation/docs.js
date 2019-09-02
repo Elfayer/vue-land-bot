@@ -2,7 +2,7 @@ import { Command } from 'discord.js-commando'
 
 import links from '../../../data/documentation'
 
-export default class DocsDocsCommand extends Command {
+module.exports = class DocsDocsCommand extends Command {
   constructor(client) {
     super(client, {
       args: [

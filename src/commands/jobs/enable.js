@@ -11,7 +11,7 @@ const ALLOWED_ROLES = [
   ...MODERATOR_ROLE_IDS,
 ]
 
-export default class JobsEnableCommand extends Command {
+module.exports = class JobsEnableCommand extends Command {
   constructor(client) {
     super(client, {
       args: [

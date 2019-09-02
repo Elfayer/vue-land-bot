@@ -3,7 +3,7 @@ import { Command } from 'discord.js-commando'
 import { banWords, saveToFile, toString } from '../../services/ban-words'
 import { MODERATOR_ROLE_IDS } from '../../utils/constants'
 
-export default class ModerationAddBanWordCommand extends Command {
+module.exports = class ModerationAddBanWordCommand extends Command {
   constructor(client) {
     super(client, {
       args: [
