@@ -54,6 +54,10 @@ client.registry.registerGroups([
     id: 'mod',
     name: 'Moderation',
   },
+  {
+    id: 'jobs',
+    name: 'Jobs',
+  },
 ])
 
 /*
