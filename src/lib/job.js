@@ -18,9 +18,11 @@ export default class Job {
       options.config = {}
     }
 
+    if (typeof options.enabled === 'undefined') options.enabled = false
+
     this.name = options.name
     this.config = options.config
-    this.enabled = options.enabled || true
+    this.enabled = options.enabled
     this.ignored = options.ignored
     this.guildOnly = options.guildOnly || true
   }
