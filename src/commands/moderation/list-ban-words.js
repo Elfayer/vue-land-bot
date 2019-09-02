@@ -7,10 +7,10 @@ module.exports = class ModerationListBanWordsCommand extends Command {
   constructor(client) {
     super(client, {
       name: 'list-ban-words',
-      group: 'mod',
+      group: 'moderation',
       aliases: ['lbw'],
       guildOnly: true,
-      memberName: 'mod-list-ban-words',
+      memberName: 'list-ban-words',
       description: 'List all banned words.',
     })
   }

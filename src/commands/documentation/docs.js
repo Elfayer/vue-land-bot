@@ -13,10 +13,10 @@ module.exports = class DocsDocsCommand extends Command {
         },
       ],
       name: 'docs',
-      group: 'docs',
+      group: 'documentation',
       aliases: ['d'],
       guildOnly: false,
-      memberName: 'docs-docs',
+      memberName: 'docs',
       description: 'Match a keyword with a documentation link.',
     })
   }

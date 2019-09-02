@@ -5,10 +5,10 @@ module.exports = class MiscCodeCommand extends Command {
   constructor(client) {
     super(client, {
       name: 'code',
-      group: 'misc',
+      group: 'miscellaneous',
       aliases: ['hl', 'highlight', 'highlighting'],
       guildOnly: false,
-      memberName: 'misc-code',
+      memberName: 'code',
       description: 'Show code highlighting tips.',
     })
   }

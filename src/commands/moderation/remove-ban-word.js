@@ -14,10 +14,10 @@ module.exports = class ModerationRemoveBanWordCommand extends Command {
         },
       ],
       name: 'remove-ban-word',
-      group: 'mod',
-      aliases: ['rbw'],
+      group: 'moderation',
+      aliases: ['rbw', 'del-ban-word', 'rm-ban-word'],
       guildOnly: true,
-      memberName: 'mod-remove-ban-word',
+      memberName: 'remove-ban-word',
       description: 'Remove a banned word.',
     })
   }

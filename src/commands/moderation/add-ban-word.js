@@ -14,10 +14,10 @@ module.exports = class ModerationAddBanWordCommand extends Command {
         },
       ],
       name: 'add-ban-word',
-      group: 'mod',
-      aliases: [],
+      group: 'moderation',
+      aliases: ['abw'],
       guildOnly: true,
-      memberName: 'mod-add-ban-word',
+      memberName: 'add-ban-word',
       description: 'Add a word to the ban list.',
     })
   }
