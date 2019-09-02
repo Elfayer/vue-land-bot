@@ -3,7 +3,7 @@ import { resolve } from 'path'
 
 const FILENAME = 'ban-words.txt'
 const PATH = resolve(__dirname, '../../data/', FILENAME)
-const SEPARATOR = '\r\n'
+const SEPARATOR = '\n'
 
 export const banWords = []
 
@@ -39,7 +39,8 @@ function _initFromFile() {
       if (err) {
         throw err
       }
-      banWords.push(...data.split(SEPARATOR))
+
+      banWords.push(...data.split(/\r?\n/))
     })
   })
 }
