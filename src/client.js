@@ -26,11 +26,10 @@ client.jobs = new Collection()
 const jobFiles = readdirSync(PATH_JOBS).filter(file => file.endsWith('.js'))
 
 for (const file of jobFiles) {
-  const job = require(`./jobs/${file}`)
+  const jobDefinition = import(`./jobs/${file}`)
+  const jobInstance = new jobDefinition()
 
-  if (job.enabled) {
-    client.jobs.set(job.name, job)
-  }
+  client.jobs.set(jobInstance.name, jobInstance)
 }
 
 /*
@@ -88,7 +87,7 @@ process.on('unhandledRejection', console.error)
   Process jobs.
 */
 client.on('message', msg => {
-  client.jobs.forEach(job => job.run(msg))
+  client.jobs.filter(job => job.enabled).forEach(job => job.run(msg))
 })
 
 export default client
