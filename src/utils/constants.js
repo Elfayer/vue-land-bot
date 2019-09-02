@@ -33,29 +33,38 @@ const ROLES = {
 
     - can enable/disable/list jobs
 */
-const BOT_DEVELOPER_IDS = [
+const BOT_DEVELOPER_IDS = Object.freeze([
   '248017273950830593', // Elfayer
   '136620462821081088', // sustained
-]
+])
 
 /*
   Protected users and roles.
 
     - moderation-related commands have no effect
 */
-let PROTECTED_USER_IDS = [USERS.EVAN, USERS.GUSTO]
-let PROTECTED_ROLE_IDS = [
+const PROTECTED_USER_IDS = Object.freeze([USERS.EVAN, USERS.GUSTO])
+const PROTECTED_ROLE_IDS = Object.freeze([
   ROLES.CORE_TEAM,
   ROLES.MODERATORS,
   ROLES.COMMUNITY_LEADERS,
-]
+])
 
 /*
   Moderators.
 
     - may use commands in the moderation command group
 */
-let MODERATOR_ROLE_IDS = [ROLES.CORE_TEAM, ROLES.MODERATORS]
+const MODERATOR_ROLE_IDS = Object.freeze([ROLES.CORE_TEAM, ROLES.MODERATORS])
+
+/*
+  Used to send an embed-only message:
+
+  Example:
+  
+    `channel.send(EMPTY_MESSAGE, { embed })`
+*/
+const EMPTY_MESSAGE = '\u200b'
 
 /*
   Environment-specific adjustments, to make testing easier.
@@ -77,4 +86,5 @@ export {
   MODERATOR_ROLE_IDS,
   OWNER_IDS,
   BOT_DEVELOPER_IDS,
+  EMPTY_MESSAGE,
 }
