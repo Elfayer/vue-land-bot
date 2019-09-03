@@ -29,7 +29,7 @@ for (const file of jobFiles) {
   try {
     const { default: jobDefinition } = require(`./jobs/${file}`)
 
-    const jobInstance = new jobDefinition()
+    const jobInstance = new jobDefinition(client)
 
     client.jobs.set(jobInstance.name, jobInstance)
   } catch (e) {
