@@ -40,6 +40,10 @@ export default class Job extends EventEmitter {
       options.enabled = false
     }
 
+    if (typeof options.guildOnly === 'undefined') {
+      options.guildOnly = true
+    }
+
     this.name = options.name
     this.events = options.events
     this.config = options.config
