@@ -1,10 +1,43 @@
 import EventEmitter from 'events'
+
+/**
+ * A Job is a task which by default runs for every single message received so
+ * long as it is enabled and its shouldExecute() returns true.
+ *
+ * Example usages:
+ *
+ *   - Check message contents against a banned word list (and optionally warn/kick/ban)
+ *   - etc.
+ *
+ * A Job does not necessarily need to process messages however - there is a
+ * concept of event-only jobs. Such a job should simply return false in
+ * shouldExecute and specify a list of Discord/Commando events via JobOptions.events.
+ *
+ * When the job is enabled, listeners for those events will be attached to the
+ * CommandoClient and when the job is disabled they will be removed.
+ *
+ * See `src/jobs/log.js` for an example of an event-only job.
+ *
+ * @event Job#enabled
+ * @event Job#disabled
+ * @extends EventEmitter
+ * @abstract
+ */
 export default class Job extends EventEmitter {
+  /**
+   * Create a new Job.
+   * @param {CommandoClient} client The CommandoClient instance.
+   * @param {JobOptions} options The options for the Job.
+   */
   constructor(client, options = {}) {
     super()
 
     this.client = client
 
+    /*
+      Jobs are stored as a key-value pair in a Collection (Map) on the client.
+      The name is used as the key, as such it must be both provided and unique.
+    */
     if (!options.name) {
       throw new Error('Job lacks required option - name.')
     }
@@ -15,6 +48,11 @@ export default class Job extends EventEmitter {
       )
     }
 
+    /*
+      A list of user, role, channel and category IDs.
+
+      If any of these match then the job will NEVER be executed.
+    */
     if (!options.ignored) {
       options.ignored = {}
     }
@@ -25,6 +63,9 @@ export default class Job extends EventEmitter {
       }
     })
 
+    /*
+      Arbitrary configuration e.g. log channels, mention roles etc.
+    */
     if (!options.config) {
       options.config = {}
     }
@@ -58,6 +99,10 @@ export default class Job extends EventEmitter {
     this.enabled = options.enabled
   }
 
+  /**
+   * Attach listeners to the `DiscordClient` for every event in `this.events`,
+   * provided that there is an instance method matching the event name.
+   */
   attachEventListeners() {
     for (const event of this.events) {
       if (!isValidEvent(event)) {
@@ -93,6 +138,15 @@ export default class Job extends EventEmitter {
     }
   }
 
+  /**
+   * The job will not be ran if this returns `false` - even if the job is enabled.
+   *
+   * By default it checks `this.ignored.roles|users|channels`, returning `false` for
+   * any matches - if no matches are found, it returns `true`.
+   *
+   * @param {CommandoMessage} msg
+   * @returns {boolean} Whether to run (execute) the Job or not.
+   */
   shouldExecute(msg) {
     if (msg.channel.type === 'dm') {
       if (this.guildOnly) {
@@ -119,13 +173,28 @@ export default class Job extends EventEmitter {
     return true
   }
 
+  /**
+   * The job itself - ran if `enabled` is `true` and `shouldExecute` returns `true`.
+   *
+   * @param {CommandoMessage} message
+   */
   /* eslint-disable no-unused-vars */
   run(msg) {}
 
+  /**
+   * Returns a string representation of the Job.
+   *
+   * @return {string} The string representation (e.g. <Job#log>).
+   */
   toString() {
     return `<Job#${this.name}>`
   }
 
+  /**
+   * Returns the enabled status of the Job as a string.
+   *
+   * @return {string} Either `enabled` or `disabled`.
+   */
   getStatus() {
     return this.enabled ? 'enabled' : 'disabled'
   }
