@@ -45,6 +45,8 @@ export default class Job extends EventEmitter {
     this.config = options.config
     this.ignored = options.ignored
     this.guildOnly = options.guildOnly
+    this.description = options.description || ''
+
     this.on('enabled', this.attachEventListeners)
     this.on('disabled', this.removeEventListeners)
 
