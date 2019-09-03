@@ -19,7 +19,7 @@ export default class Job extends EventEmitter {
       options.ignored = {}
     }
 
-    ;['roles', 'users', 'channels', 'categories'].forEach(key => {
+    ;['roles', 'users', 'channels'].forEach(key => {
       if (!options.ignored[key]) {
         options.ignored[key] = []
       }
