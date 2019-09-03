@@ -11,14 +11,18 @@ export default class Job {
     }
 
     ;['roles', 'users', 'channels', 'categories'].forEach(key => {
-      if (!options.ignored[key]) options.ignored[key] = []
+      if (!options.ignored[key]) {
+        options.ignored[key] = []
+      }
     })
 
     if (!options.config) {
       options.config = {}
     }
 
-    if (typeof options.enabled === 'undefined') options.enabled = false
+    if (typeof options.enabled === 'undefined') {
+      options.enabled = false
+    }
 
     this.name = options.name
     this.config = options.config
@@ -29,13 +33,16 @@ export default class Job {
 
   shouldExecute(msg) {
     if (msg.channel.type === 'dm') {
-      if (this.guildOnly) return
+      if (this.guildOnly) {
+        return
+      }
 
       return true
     }
 
-    if (this.ignored.roles.length)
+    if (this.ignored.roles.length) {
       return msg.member.roles.some(role => this.ignored.roles.includes(role.id))
+    }
 
     return true
   }

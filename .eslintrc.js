@@ -9,7 +9,8 @@ module.exports = {
     'prettier/prettier': 'error',
     'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'off',
     'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
-    'func-call-spacing': 'warn',
+    'func-call-spacing': 'error',
+    'curly': 'error'
   },
   parserOptions: {
     parser: 'babel-eslint',

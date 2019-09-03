@@ -98,12 +98,16 @@ process.on('unhandledRejection', console.error)
 */
 client.on('message', msg => {
   // Don't process own messages.
-  if (msg.author.id === msg.client.user.id) return
+  if (msg.author.id === msg.client.user.id) {
+    return
+  }
 
   client.jobs
     .filter(job => job.enabled)
     .forEach(job => {
-      if (job.shouldExecute(msg)) job.run(msg)
+      if (job.shouldExecute(msg)) {
+        job.run(msg)
+      }
     })
 })
 

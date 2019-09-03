@@ -37,10 +37,11 @@ export default class WarnJob extends Job {
       channel => channel.name === this.config.notifyChannel.name
     )
 
-    if (!notifyChannel)
+    if (!notifyChannel) {
       return console.warn(
         `WarnJob: Could not find channel with name ${this.config.notifyChannel.name}`
       )
+    }
 
     notifyChannel.send(
       `${notifyRole} Suspicious user: ${msg.author} in channel ${msg.channel}`

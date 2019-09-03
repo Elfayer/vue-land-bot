@@ -30,8 +30,9 @@ module.exports = class JobsEnableCommand extends Command {
   }
 
   hasPermission(msg) {
-    if (msg.member.roles.some(role => ALLOWED_ROLES.includes(role.id)))
+    if (msg.member.roles.some(role => ALLOWED_ROLES.includes(role.id))) {
       return true
+    }
 
     return ALLOWED_USERS.includes(msg.author.id)
   }
@@ -43,7 +44,9 @@ module.exports = class JobsEnableCommand extends Command {
       return msg.guild.roles.get(roleId).name
     })
 
-    if (!ignoredRoles.length) ignoredRoles = ['None']
+    if (!ignoredRoles.length) {
+      ignoredRoles = ['None']
+    }
 
     const embed = new RichEmbed()
     embed.setTitle('Job (' + job.name + ')')

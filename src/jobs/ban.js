@@ -34,20 +34,23 @@ export default class BanJob extends Job {
       !banWords.some(word =>
         msg.content.toLowerCase().includes(word.toLowerCase())
       )
-    )
+    ) {
       return false
+    }
 
     // We don't have permission to ban - bail.
-    if (!msg.channel.permissionsFor(msg.client.user).has('BAN_MEMBERS'))
+    if (!msg.channel.permissionsFor(msg.client.user).has('BAN_MEMBERS')) {
       return !!console.warn('[BanJob] Cannot ban - lacking permission.')
+    }
 
     const botMember = msg.guild.member(msg.client.user)
     const botHighestRole = botMember.highestRole.calculatedPosition
     const userHighestRole = msg.member.highestRole.calculatedPosition
 
     // Our role is not high enough in the hierarchy to ban - bail.
-    if (botHighestRole < userHighestRole)
+    if (botHighestRole < userHighestRole) {
       return !!console.warn('[BanJob] Cannot ban - role too low.')
+    }
 
     return true
   }
@@ -57,10 +60,11 @@ export default class BanJob extends Job {
       channel => channel.name === this.config.logChannel.name
     )
 
-    if (!logChannel)
+    if (!logChannel) {
       return console.warn(
         `WarnJob: Could not find channel with name ${this.config.logChannel.name}`
       )
+    }
 
     if (DEBUG_MODE) {
       return this.log(msg, logChannel)
@@ -73,11 +77,12 @@ export default class BanJob extends Job {
   }
 
   log(msg, logChannel) {
-    if (!logChannel)
+    if (!logChannel) {
       return console.info(
         `Banned user: ${msg.author}`,
         `Due to message: ${msg.cleanContent}`
       )
+    }
 
     const embed = new RichEmbed()
     embed.setTitle('Banned User')
