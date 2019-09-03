@@ -106,6 +106,16 @@ export default class Job extends EventEmitter {
       return msg.member.roles.some(role => this.ignored.roles.includes(role.id))
     }
 
+    if (this.ignored.users.length) {
+      return this.ignored.users.some(userId => msg.author.id === userId)
+    }
+
+    if (this.ignored.channels.length) {
+      return this.ignored.channels.some(
+        channelId => msg.channel.id === channelId
+      )
+    }
+
     return true
   }
 
