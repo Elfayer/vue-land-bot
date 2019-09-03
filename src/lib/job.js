@@ -48,7 +48,7 @@ export default class Job {
   }
 
   toString() {
-    return this.name
+    return `<Job#${this.name}>`
   }
 
   getStatus() {
