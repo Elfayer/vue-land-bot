@@ -9,6 +9,12 @@ export default class Job extends EventEmitter {
       throw new Error('Job lacks required option - name.')
     }
 
+    if (client.jobs.has(options.name)) {
+      throw new Error(
+        `Job names must be unique, conflicting name - ${options.name}.`
+      )
+    }
+
     if (!options.ignored) {
       options.ignored = {}
     }
