@@ -119,6 +119,9 @@ export default class Job extends EventEmitter {
     return true
   }
 
+  /* eslint-disable no-unused-vars */
+  run(msg) {}
+
   toString() {
     return `<Job#${this.name}>`
   }
