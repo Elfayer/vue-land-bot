@@ -1,3 +1,5 @@
+import client from '../client'
+
 /*
   Delete a message safely, if possible.
 
@@ -24,6 +26,35 @@ export function tryDelete(msg, delay = 0) {
 
   msg.delete(delay)
   return true
+}
+
+/*
+  Try to send a message to a channel by id or name if it exists.
+*/
+export function trySend(channelResolvable, message, embed = {}) {
+  let channel
+
+  if (channelResolvable.name) {
+    channel = client.channels.find(
+      channel => channel.name === channelResolvable.name
+    )
+
+    if (!channel) {
+      return
+    }
+  } else {
+    if (!channelResolvable.id) {
+      channelResolvable = { id: channelResolvable }
+    }
+
+    channel = client.channels.get(channelResolvable.id)
+
+    if (!channel) {
+      return
+    }
+  }
+
+  channel.send(message, embed)
 }
 
 /*
