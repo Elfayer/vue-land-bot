@@ -92,7 +92,7 @@ export default class Job extends EventEmitter {
   shouldExecute(msg) {
     if (msg.channel.type === 'dm') {
       if (this.guildOnly) {
-        return
+        return false
       }
 
       return true
