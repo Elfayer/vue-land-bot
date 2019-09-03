@@ -39,7 +39,7 @@ module.exports = class JobsDisableCommand extends Command {
     const { job } = args
 
     if (job.enabled) {
-      job.setEnabled(false)
+      job.enabled = false
       return msg.channel.send(`Job "${job}" has been disabled.`)
     } else {
       return msg.channel.send(`Job "${job}" was already disabled.`)
