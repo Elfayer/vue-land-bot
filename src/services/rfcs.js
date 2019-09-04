@@ -108,28 +108,30 @@ export async function getRFC(number) {
 }
 
 /**
- * Filter RFCs by title, or body, or labels, or author name.
+ * Filter RFCs by title, body, labels or author name.
  *
  * @returns {Array} An array of RFCs that matched the filter.
  */
-export async function filterRFCs(filter) {
+export function filterRFCs(filter, value) {
   let filtered
 
-  if (filter.title) {
-    filtered = rfcs.filter(rfc =>
-      rfc.title.toLowerCase().includes(filter.title)
-    )
-  } else if (filter.body) {
-    filtered = rfcs.filter(rfc => rfc.body.toLowerCase().includes(filter.body))
-  } else if (filter.author) {
-    filtered = rfcs.filter(rfc =>
-      rfc.user.login.toLowerCase().includes(filter.author)
-    )
-  } else if (filter.labels) {
+  if (filter === 'id') {
+    return getRFC(value)
+  } else if (filter === 'title') {
+    filtered = rfcs.filter(rfc => rfc.title.toLowerCase().includes(value))
+  } else if (filter === 'body') {
+    filtered = rfcs.filter(rfc => rfc.body.toLowerCase().includes(value))
+  } else if (filter === 'author') {
+    filtered = rfcs.filter(rfc => rfc.user.login.toLowerCase().includes(value))
+  } else if (filter === 'labels') {
+    if (!Array.isArray(value)) {
+      value = value.split(',')
+    }
+
     filtered = rfcs.filter(rfc =>
       rfc.labels
         .map(label => label.name)
-        .every(labelName => filter.labels.includes(labelName))
+        .every(labelName => value.includes(labelName))
     )
   }
 
