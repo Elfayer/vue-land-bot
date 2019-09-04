@@ -61,7 +61,7 @@ module.exports = class RFCsCommand extends Command {
         msg.channel.send(EMPTY_MESSAGE, { embed })
       })
       .catch(({ response }) => {
-        if (response.status === 404) {
+        if (response && response.status === 404) {
           return msg.reply('An RFC with that ID does not exist.')
         }
 
