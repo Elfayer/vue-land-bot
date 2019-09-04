@@ -1,12 +1,10 @@
-const Discord = require('discord.js')
+import { RichEmbed } from 'discord.js'
 
-function embedMessage (title, description) {
-  return new Discord.RichEmbed()
-    .setColor('#42b883')
+const DEFAULT_EMBED_COLOUR = '#42b883'
+
+export function embedMessage(title, description) {
+  return new RichEmbed()
+    .setColor(DEFAULT_EMBED_COLOUR)
     .setTitle(title)
     .setDescription(description)
-}
-
-module.exports = {
-  embedMessage
 }

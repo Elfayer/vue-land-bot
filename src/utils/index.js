@@ -1,5 +1,5 @@
-const embed = require('./embed')
+import * as embed from './embed'
+import * as messages from './messages'
+import * as constants from './constants'
 
-module.exports = {
-  embed
-}
+export { embed, messages, constants }

@@ -1,15 +1,50 @@
-const client = require('../client.js')
+import Job from '../lib/job'
+import { MODERATOR_ROLE_IDS, PROTECTED_ROLE_IDS } from '../utils/constants'
+import { banWords } from '../services/ban-words'
 
-module.exports = {
-  name: 'warn',
-  description: 'Rules to warn Moderators',
-  isAvailable: false,
-  execute (message) {
-    const notifyRole = message.guild.roles.find(role => role.name === 'Admin')
-    const notifyChannel = client.channels.find(channel => channel.name === 'spam')
+export default class WarnJob extends Job {
+  constructor(client) {
+    super(client, {
+      name: 'warn',
+      description: 'Warn moderators when a user utters a banned word.',
+      enabled: false,
+      ignored: {
+        roles: [...MODERATOR_ROLE_IDS, ...PROTECTED_ROLE_IDS],
+      },
+      guildOnly: true,
+      config: {
+        notifyRole: {
+          name: 'Moderators',
+        },
+        notifyChannel: {
+          name: 'spam-log',
+        },
+      },
+    })
+  }
 
-    console.log(notifyRole)
+  shouldExecute(msg) {
+    return banWords.some(word =>
+      msg.content.toLowerCase().includes(word.toLowerCase())
+    )
+  }
 
-    notifyChannel.send(`${notifyRole} Suspicious user: ${message.author} in channel ${message.channel}`)
+  run(msg) {
+    const notifyRole = msg.guild.roles.find(
+      role => role.name === this.config.notifyRole.name
+    )
+    const notifyChannel = msg.client.channels.find(
+      channel => channel.name === this.config.notifyChannel.name
+    )
+
+    if (!notifyChannel) {
+      return console.warn(
+        `WarnJob: Could not find channel with name ${this.config.notifyChannel.name}`
+      )
+    }
+
+    notifyChannel.send(
+      `${notifyRole} Suspicious user: ${msg.author} in channel ${msg.channel}`
+    )
   }
 }
