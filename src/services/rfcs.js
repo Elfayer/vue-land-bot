@@ -24,6 +24,8 @@ if (!existsSync(PATH_CACHE_FILE)) {
 /**
  * Write the PRs for the RFC repo to disc then return them.
  *
+ * Does not check the `CACHE_TTL` as `getAllRFCs` does.
+ *
  * @returns {Promise<Array>} An array of RFC PRs.
  */
 export async function reloadCache() {
