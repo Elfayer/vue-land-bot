@@ -5,7 +5,7 @@ export default class LogJob extends Job {
   constructor(client) {
     super(client, {
       name: 'log',
-      events: ['ready', 'commandRun', 'unknownCommand'],
+      events: ['ready', 'resume', 'commandRun', 'unknownCommand'],
       description:
         'Logs various events (connection, command invocations etc.) for debugging purposes/to aid development.',
       enabled: false,
