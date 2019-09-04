@@ -98,7 +98,7 @@ export async function getRFC(number) {
     await reloadCache()
   }
 
-  const rfc = rfcs.filter(rfc => rfc.number === number)
+  const rfc = rfcs.filter(rfc => rfc.number === parseInt(number))
 
   if (!rfc) {
     throw new RFCDoesNotExistError(`Could not find RFC number ${number}.`)
