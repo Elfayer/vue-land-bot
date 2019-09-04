@@ -1,6 +1,6 @@
 import { Command } from 'discord.js-commando'
 import { RichEmbed } from 'discord.js'
-import { rfcs } from '../../github'
+import { getRFC, RFCDoesNotExistError } from '../../services/rfcs'
 import { EMPTY_MESSAGE } from '../../utils/constants'
 
 module.exports = class RFCsCommand extends Command {
@@ -34,15 +34,8 @@ module.exports = class RFCsCommand extends Command {
       )
     }
 
-    rfcs
-      .getPullRequest(rfc)
-      .then(({ status, data: rfc }) => {
-        if (status !== 200) {
-          return msg.reply(
-            `Sorry, something went wrong while communicating with the Github API (${status}).`
-          )
-        }
-
+    getRFC(rfc)
+      .then(rfc => {
         const embed = new RichEmbed()
           .setTitle(`RFC #${rfc.number} - ${rfc.title}`)
           .setDescription(rfc.body)
@@ -60,10 +53,12 @@ module.exports = class RFCsCommand extends Command {
 
         msg.channel.send(EMPTY_MESSAGE, { embed })
       })
-      .catch(({ response }) => {
-        if (response && response.status === 404) {
+      .catch(error => {
+        if (error instanceof RFCDoesNotExistError) {
           return msg.reply('An RFC with that ID does not exist.')
         }
+
+        console.error(error)
 
         return msg.reply('Sorry, an unknown error occured.')
       })

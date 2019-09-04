@@ -1,6 +1,6 @@
 import { Command } from 'discord.js-commando'
 import { RichEmbed } from 'discord.js'
-import { rfcs } from '../../github'
+import { getAllRFCs } from '../../services/rfcs'
 import { EMPTY_MESSAGE } from '../../utils/constants'
 
 module.exports = class RFCsCommand extends Command {
@@ -32,13 +32,8 @@ module.exports = class RFCsCommand extends Command {
   async run(msg, args) {
     const { filter } = args
 
-    rfcs
-      .listPullRequests()
-      .then(({ status, data: rfcs }) => {
-        if (status !== 200) {
-          return console.warn(`Got status code ${status} when fetching RFCs.`)
-        }
-
+    getAllRFCs()
+      .then(rfcs => {
         if (filter === 'open') {
           rfcs = rfcs.filter(rfc => rfc.state === 'open')
         } else if (filter === 'closed') {
