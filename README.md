@@ -90,7 +90,7 @@ npm run serve
 
 # FAQ
 
-## When I run `npm run serve` I get an earror
+## When I run `npm run serve` I get an error
 
 ### "The environmental variable BOT_TOKEN is required but was not present!"
 
