@@ -10,7 +10,7 @@ export const repository = github.getRepo('vuejs', 'rfcs')
 
 export let rfcs = []
 
-class RFCDoesNotExistError extends Error {}
+export class RFCDoesNotExistError extends Error {}
 
 /*
   Initial cache.
