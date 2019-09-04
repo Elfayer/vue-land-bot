@@ -100,11 +100,11 @@ export async function getRFC(number) {
 
   const rfc = rfcs.filter(rfc => rfc.number === parseInt(number))
 
-  if (!rfc) {
+  if (!rfc.length) {
     throw new RFCDoesNotExistError(`Could not find RFC number ${number}.`)
   }
 
-  return rfc
+  return rfc[0]
 }
 
 /**
