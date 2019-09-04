@@ -43,7 +43,7 @@ const EMPTY_MESSAGE = '\u200b'
   Various paths.
 */
 
-const DATA_DIR = resolve(__dirname, '../../data')
+const DATA_DIR = resolve(__dirname, '../../../data')
 
 export {
   USERS,
