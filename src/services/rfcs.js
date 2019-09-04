@@ -33,7 +33,7 @@ if (!existsSync(PATH_CACHE_FILE)) {
  */
 export async function reloadCache() {
   try {
-    const data = await repository.listPullRequests()
+    const { data } = await repository.listPullRequests()
 
     if (Array.isArray(data) && data.length) {
       await writeFile(PATH_CACHE_FILE, JSON.stringify(data))
