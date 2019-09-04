@@ -1,10 +1,17 @@
 import client from './client.js'
 
-const { BOT_TOKEN } = process.env
+const { BOT_TOKEN, GITHUB_TOKEN } = process.env
 
 if (!BOT_TOKEN) {
   console.error(
     'The environmental variable BOT_TOKEN is required but was not present!'
+  )
+  process.exit()
+}
+
+if (!GITHUB_TOKEN) {
+  console.error(
+    'The environmental variable GITHUB_TOKEN is required but was not present!'
   )
   process.exit()
 }
