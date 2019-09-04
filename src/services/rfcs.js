@@ -1,5 +1,5 @@
 import { join } from 'path'
-import { promises, existsSync } from 'fs'
+import { promises, existsSync, readFileSync } from 'fs'
 import github from '../github'
 import { DATA_DIR } from '../utils/constants'
 const { stat, writeFile } = promises
@@ -19,6 +19,9 @@ if (!existsSync(PATH_CACHE_FILE)) {
   reloadCache()
     .then('Performed initial caching of RFC data!')
     .catch(console.error)
+} else {
+  console.info('Cache file was found at startup!')
+  rfcs = JSON.parse(readFileSync(PATH_CACHE_FILE))
 }
 
 /**
