@@ -5,5 +5,3 @@ const github = new Github({
 })
 
 export default github
-
-export const rfcs = github.getRepo('vuejs', 'rfcs')
