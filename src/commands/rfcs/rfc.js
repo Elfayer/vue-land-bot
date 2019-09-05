@@ -38,6 +38,8 @@ module.exports = class RFCsCommand extends Command {
         '!rfc body:empty node',
         '!rfc author:yyx',
         '!rfc label:core',
+        '!rfc label:breaking change,router',
+        '!rfc label:3.x | core',
       ],
       group: 'rfcs',
       guildOnly: true,
