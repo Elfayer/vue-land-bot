@@ -16,7 +16,7 @@ module.exports = class RFCsCommand extends Command {
           key: 'query',
           type: 'optional-kv-pair',
           prompt: 'an RFC number, title, body, author or label to search for?',
-          validate(val, msg, arg) {
+          validate(val) {
             if (Array.isArray(val)) {
               return ['id', 'title', 'body', 'author', 'label'].includes(val[0])
             }
