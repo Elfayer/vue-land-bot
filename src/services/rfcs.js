@@ -112,12 +112,14 @@ export async function getRFC(number) {
  *
  * @returns {Array} An array of RFCs that matched the filter.
  */
-export async function filterRFCs(filter, value) {
-  let filtered
+export async function filterRFCsBy(filter, value) {
+  let filtered = []
 
   if (filter === 'id') {
-    filtered = await getRFC(value)
-    filtered = [filtered]
+    try {
+      filtered = await getRFC(value)
+      filtered = [filtered]
+    } catch (e) {}
   } else if (filter === 'title') {
     filtered = rfcs.filter(rfc => rfc.title.toLowerCase().includes(value))
   } else if (filter === 'body') {
