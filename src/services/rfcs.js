@@ -138,3 +138,27 @@ export async function filterRFCs(filter, value) {
 
   return filtered
 }
+
+/**
+ * Tries to find RFCs using filterRFCsBy for every possible filter.
+ *
+ * @returns {Array} An array of RFCs that matched the filter.
+ */
+export async function findRFCs(value) {
+  const filters = ['id', 'title', 'body', 'author', 'label']
+
+  for (const filter of filters) {
+    console.debug(`looking for ${value} in ${filter}`)
+    const filtered = await filterRFCsBy(filter, value)
+
+    if (filtered.length) {
+      console.debug('found!')
+      return filtered
+    } else {
+      console.debug('continuing')
+    }
+  }
+
+  console.debug('not found!')
+  return []
+}
