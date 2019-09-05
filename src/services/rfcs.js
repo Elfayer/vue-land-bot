@@ -119,7 +119,9 @@ export async function filterRFCsBy(filter, value) {
     try {
       filtered = await getRFC(value)
       filtered = [filtered]
-    } catch (e) {}
+    } catch (e) {
+      /* eslint-disable no-empty */
+    }
   } else if (filter === 'title') {
     filtered = rfcs.filter(rfc => rfc.title.toLowerCase().includes(value))
   } else if (filter === 'body') {
