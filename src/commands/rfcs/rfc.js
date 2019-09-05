@@ -1,6 +1,10 @@
 import { Command } from 'discord.js-commando'
 import { RichEmbed } from 'discord.js'
-import { filterRFCs, RFCDoesNotExistError } from '../../services/rfcs'
+import {
+  findRFCs,
+  filterRFCsBy,
+  RFCDoesNotExistError,
+} from '../../services/rfcs'
 import { EMPTY_MESSAGE } from '../../utils/constants'
 import { tryDelete } from '../../utils/messages'
 
@@ -48,15 +52,21 @@ module.exports = class RFCsCommand extends Command {
   }
 
   async run(msg, args) {
-    let { filter, value } = args
+    let { query } = args
     let success = false
 
-    let embed = new RichEmbed()
-      .setTitle(`RFC Request`)
-      .setDescription(`Filter: ${filter}=${value}`)
+    let [filter, value] = query
+
+    let embed = new RichEmbed().setTitle(`RFC Request`)
 
     try {
-      const filtered = await filterRFCs(filter, value)
+      let filtered
+
+      if (filter === 'empty') {
+        filtered = await findRFCs(value)
+      } else {
+        filtered = await filterRFCsBy(filter, value)
+      }
 
       if (filtered.length === 0) {
         throw new RFCDoesNotExistError()
