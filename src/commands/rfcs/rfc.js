@@ -38,7 +38,7 @@ module.exports = class RFCsCommand extends Command {
       group: 'rfcs',
       guildOnly: true,
       memberName: 'rfc',
-      description: 'View a specific RFC.',
+      description: 'Search for and view a Vue RFC.',
       argsPromptLimit: 1,
     })
   }
