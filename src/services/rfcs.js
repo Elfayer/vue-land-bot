@@ -130,13 +130,17 @@ export async function filterRFCsBy(filter, value) {
     filtered = rfcs.filter(rfc => rfc.user.login.toLowerCase().includes(value))
   } else if (filter === 'label') {
     if (!Array.isArray(value)) {
-      value = value.split(',')
+      if (value.includes(',')) {
+        value = value.split(',')
+      } else if (value.includes('|')) {
+        value = value.split('|')
+      }
     }
 
     filtered = rfcs.filter(rfc =>
-      rfc.labels
-        .map(label => label.name)
-        .every(labelName => value.includes(labelName))
+      value.every(labelName =>
+        rfc.labels.find(label => label.name === labelName)
+      )
     )
   }
 
