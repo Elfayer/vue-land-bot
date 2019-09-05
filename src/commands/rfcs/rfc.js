@@ -107,7 +107,7 @@ module.exports = class RFCsCommand extends Command {
       ['core', 'vuex', 'router'].includes(label.name)
     )
 
-    if (labelsWithColours) {
+    if (labelsWithColours.length) {
       embed.setColor(`#${labelsWithColours[0].color}`)
     }
 
