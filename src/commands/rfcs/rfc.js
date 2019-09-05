@@ -9,19 +9,16 @@ module.exports = class RFCsCommand extends Command {
     super(client, {
       args: [
         {
-          key: 'filter',
-          type: 'string',
-          prompt: 'the filter (id, body, state, title, labels, author)?',
-          error:
-            'filter must be one of: id, body, state, title, labels, author',
-          validate(value) {
-            return ['id', 'body', 'title', 'author', 'labels'].includes(value)
+          key: 'query',
+          type: 'optional-kv-pair',
+          prompt: 'an RFC number, title, body, author or label to search for?',
+          validate(val, msg, arg) {
+            if (Array.isArray(val)) {
+              return ['id', 'title', 'body', 'author', 'label'].includes(val[0])
+            }
+
+            return true
           },
-        },
-        {
-          key: 'value',
-          type: 'string',
-          prompt: 'the value?',
         },
       ],
       name: 'rfc',
