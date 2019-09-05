@@ -92,16 +92,40 @@ module.exports = class RFCsCommand extends Command {
   }
 
   buildEmbedSingle(embed, rfc, author, filter, value) {
+    let footerSections = []
+
+    if (rfc.created_at) {
+      footerSections.push(
+        'Created: ' + new Date(rfc.created_at).toLocaleString()
+      )
+    }
+
+    if (rfc.updated_at) {
+      footerSections.push(
+        'Updated: ' + new Date(rfc.updated_at).toLocaleString()
+      )
+    }
+
     embed
       .setTitle(`RFC #${rfc.number} - ${rfc.title}`)
       .setDescription(rfc.body)
       .setAuthor(rfc.user.login, rfc.user.avatar_url, rfc.user.html_url)
-      .setTimestamp(rfc.created_at)
       .setURL(rfc.html_url)
-      .addField('Status', rfc.state)
+      .addField('Status', rfc.state, true)
+
+    if (footerSections.length) {
+      embed.setFooter(footerSections.join(' | '))
+    }
 
     if (rfc.labels.length) {
-      embed.addField('Labels', rfc.labels.map(label => label.name).join(', '))
+      embed.addField(
+        'Labels',
+        rfc.labels.map(label => label.name).join(', '),
+        true
+      )
+
+      embed.addBlankField()
+      // embed.addField('\u200b', '\u200b', true)
     }
 
     let labelsWithColours = rfc.labels.filter(label =>
