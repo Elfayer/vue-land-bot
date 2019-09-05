@@ -17,12 +17,12 @@ module.exports = class OptionalKeyValuePairArgumentType extends ArgumentType {
     let v = val
 
     if (val.includes(':')) {
-      ;[k, v] = val.split(':').map(part => part.trim())
+      ;[k, v] = val.split(/:(.+)/)
     } else if (val.indexOf('#') === 0) {
       k = 'id'
       v = val.substr(1)
     }
 
-    return [k, v]
+    return [k.trim(), v.trim()]
   }
 }
