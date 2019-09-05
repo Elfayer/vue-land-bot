@@ -38,6 +38,7 @@ module.exports = class RFCsCommand extends Command {
       guildOnly: true,
       memberName: 'rfc',
       description: 'View a specific RFC.',
+      argsPromptLimit: 1,
     })
   }
 
