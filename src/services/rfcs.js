@@ -137,6 +137,8 @@ export async function filterRFCsBy(filter, value) {
       }
     }
 
+    value = value.map(label => label.trim())
+
     filtered = rfcs.filter(rfc =>
       value.every(labelName =>
         rfc.labels.find(label => label.name === labelName)
