@@ -126,7 +126,7 @@ export async function filterRFCsBy(filter, value) {
     filtered = rfcs.filter(rfc => rfc.body.toLowerCase().includes(value))
   } else if (filter === 'author') {
     filtered = rfcs.filter(rfc => rfc.user.login.toLowerCase().includes(value))
-  } else if (filter === 'labels') {
+  } else if (filter === 'label') {
     if (!Array.isArray(value)) {
       value = value.split(',')
     }
