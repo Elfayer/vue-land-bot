@@ -146,9 +146,8 @@ module.exports = class RFCsCommand extends Command {
       embed.setColor(`#${labelsWithColours[0].color}`)
     }
 
-    if (filter !== 'id') {
-      embed.addField('Request this RFC', `\`!rfc ${filter} '${value}'\``)
-    }
+    embed.addField('Requested by', author, true)
+    this.addRequestThisRFCField(embed, filter, value)
 
     return embed
   }
@@ -159,12 +158,27 @@ module.exports = class RFCsCommand extends Command {
 
     // TODO: Could exceed max allowed number of fields (25)?
     for (const rfc of rfcs) {
-      embed.addField(rfc.title, `\`!rfc id ${rfc.number}\``)
+      embed.addField(rfc.title, `\`!rfc #${rfc.number}\``)
     }
 
-    embed.addField('Requested by', author)
+    embed.addField('Requested by', author, true)
+    this.addRequestThisRFCField(embed, filter, value)
 
     return embed
+  }
+
+  addRequestThisRFCField(embed, filter, value) {
+    let requestSyntax = ['`', '!rfc', ' ']
+
+    if (filter === 'empty') {
+      requestSyntax.push(value)
+    } else {
+      requestSyntax.push(filter + ':' + value)
+    }
+
+    requestSyntax.push('`')
+
+    embed.addField('Command', requestSyntax.join(''), true)
   }
 }
 
