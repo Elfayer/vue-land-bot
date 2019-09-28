@@ -4,22 +4,34 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "serve": "npm run init && node ./src/index.js",
-    "init": "node ./src/scripts/init.js"
+    "serve": "node -r esm -r dotenv/config ./src/index.js"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/Elfayer/vue-land-bot.git"
   },
   "keywords": [],
-  "author": "",
+  "author": "Elfayer",
+  "contributors": [
+    "Elfayer",
+    "sustained <sustained.dissonance@gmail.com> [https://sustained.name/]"
+  ],
   "license": "ISC",
   "bugs": {
     "url": "https://github.com/Elfayer/vue-land-bot/issues"
   },
   "homepage": "https://github.com/Elfayer/vue-land-bot#readme",
   "dependencies": {
-    "discord.js": "^11.4.2"
+    "@vue/eslint-config-prettier": "^5.0.0",
+    "babel-eslint": "^10.0.3",
+    "discord.js": "^11.5.1",
+    "discord.js-commando": "^0.10.0",
+    "dotenv": "^8.1.0",
+    "eslint": "^6.3.0",
+    "eslint-plugin-prettier": "^3.1.0",
+    "eslint-plugin-vue": "^5.2.3",
+    "esm": "^3.2.25",
+    "prettier": "^1.18.2"
   },
   "devDependencies": {
     "jest": "^24.9.0",

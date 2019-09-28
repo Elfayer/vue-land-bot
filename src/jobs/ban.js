@@ -1,36 +1,95 @@
-const { banWords } = require('../services/ban-words')
+import { RichEmbed } from 'discord.js'
+import Job from '../lib/job'
+import { banWords } from '../services/ban-words'
+import {
+  MODERATOR_ROLE_IDS,
+  PROTECTED_ROLE_IDS,
+  EMPTY_MESSAGE,
+} from '../utils/constants'
 
-module.exports = {
-  name: 'ban',
-  description: 'Rules to ban',
-  isAvailable: true,
-  execute (message) {
-    if (banWords.some(word => message.content.toLowerCase().includes(word.toLowerCase()))) {
-      const user = message.author
-      const member = message.guild.member(user)
+// Don't *actually* ban - real bans make testing hard!
+const DEBUG_MODE = true
 
-      // If the member is in the guild
-      if (member) {
-        /**
-         * Ban the member
-         * Make sure you run this on a member, not a user!
-         * There are big differences between a user and a member
-         */
-        member.ban('[BOT] ad-block-ban').then(() => {
-          console.log(`Banned ${user.username}#${user.discriminator}`)
-          console.log(`Due to message: "${message.content}"`)
-        }).catch(err => {
-          // An error happened
-          // This is generally due to the bot not being able to ban the member,
-          // either due to missing permissions or role hierarchy
-          console.log('I was unable to kick the member')
-          // Log the error
-          console.error(err)
-        })
-      } else {
-        // The mentioned user isn't in this guild
-        console.log('I was unable to kick the member, user isn\'t in this guild')
-      }
+export default class BanJob extends Job {
+  constructor(client) {
+    super(client, {
+      name: 'ban',
+      description: 'Automatically bans users who violate the banned word list.',
+      enabled: false,
+      ignored: {
+        roles: [...MODERATOR_ROLE_IDS, ...PROTECTED_ROLE_IDS],
+      },
+      guildOnly: true,
+      config: {
+        logChannel: {
+          name: 'ban-log',
+        },
+      },
+    })
+  }
+
+  shouldExecute(msg) {
+    // None of the ban words were mentioned - bail.
+    if (
+      !banWords.some(word =>
+        msg.content.toLowerCase().includes(word.toLowerCase())
+      )
+    ) {
+      return false
     }
+
+    // We don't have permission to ban - bail.
+    if (!msg.channel.permissionsFor(msg.client.user).has('BAN_MEMBERS')) {
+      return !!console.warn('[BanJob] Cannot ban - lacking permission.')
+    }
+
+    const botMember = msg.guild.member(msg.client.user)
+    const botHighestRole = botMember.highestRole.calculatedPosition
+    const userHighestRole = msg.member.highestRole.calculatedPosition
+
+    // Our role is not high enough in the hierarchy to ban - bail.
+    if (botHighestRole < userHighestRole) {
+      return !!console.warn('[BanJob] Cannot ban - role too low.')
+    }
+
+    return true
+  }
+
+  run(msg) {
+    const logChannel = msg.client.channels.find(
+      channel => channel.name === this.config.logChannel.name
+    )
+
+    if (!logChannel) {
+      return console.warn(
+        `WarnJob: Could not find channel with name ${this.config.logChannel.name}`
+      )
+    }
+
+    if (DEBUG_MODE) {
+      return this.log(msg, logChannel)
+    }
+
+    msg.member
+      .ban(`[${msg.client.user.name}] Automated anti-spam measures.`)
+      .then(() => this.log(msg, logChannel))
+      .catch(console.error) // Shouldn't happen due to shouldExecute checks but...
+  }
+
+  log(msg, logChannel) {
+    if (!logChannel) {
+      return console.info(
+        `Banned user: ${msg.author}`,
+        `Due to message: ${msg.cleanContent}`
+      )
+    }
+
+    const embed = new RichEmbed()
+    embed.setTitle('Banned User')
+    embed.setAuthor(msg.author, msg.author.avatarURL)
+    embed.setTimestamp()
+    embed.addField('Triggering Message', msg.content)
+
+    logChannel.send(EMPTY_MESSAGE, { embed })
   }
 }
