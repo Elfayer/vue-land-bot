@@ -23,9 +23,17 @@ module.exports = class RFCsCommand extends Command {
       name: 'list-rfcs',
       group: 'rfcs',
       aliases: ['rfcs'],
+      examples: [
+        '!rfcs',
+        '!rfcs all',
+        '!rfcs open',
+        '!rfcs closed',
+        '!rfcs merged',
+        '!rfcs popular',
+      ],
       guildOnly: false,
       memberName: 'rfcs',
-      description: 'List all RFCs.',
+      description: 'List all (open/closed/merged/popular) RFCs.',
     })
   }
 
