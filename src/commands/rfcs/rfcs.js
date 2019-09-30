@@ -2,7 +2,10 @@ import { Command } from 'discord.js-commando'
 import { RichEmbed } from 'discord.js'
 import { getAllRFCs } from '../../services/rfcs'
 import { tryDelete } from '../../utils/messages'
-import { respondWithPaginatedEmbed } from '../../utils/embed'
+import {
+  respondWithPaginatedEmbed,
+  DEFAULT_EMBED_COLOUR,
+} from '../../utils/embed'
 
 const RFCS_PER_PAGE = 8
 
@@ -44,7 +47,10 @@ module.exports = class RFCsCommand extends Command {
   async run(msg, args) {
     const { filter } = args
 
-    const embed = new RichEmbed().setTitle('Vue.js RFC List')
+    const embed = new RichEmbed()
+      .setTitle('Vue.js Requests for Comments')
+      .setDescription(`Viewing RFCs filtered by: ${filter}.`)
+      .setColor(DEFAULT_EMBED_COLOUR)
 
     try {
       let rfcs = await getAllRFCs()
