@@ -1,7 +1,10 @@
 import { Command } from 'discord.js-commando'
 import { RichEmbed } from 'discord.js'
 import { getAllRFCs } from '../../services/rfcs'
-import { EMPTY_MESSAGE } from '../../utils/constants'
+import { tryDelete } from '../../utils/messages'
+import { respondWithPaginatedEmbed } from '../../utils/embed'
+
+const RFCS_PER_PAGE = 8
 
 module.exports = class RFCsCommand extends Command {
   constructor(client) {
@@ -14,12 +17,13 @@ module.exports = class RFCsCommand extends Command {
             return ['all', 'open', 'closed', 'popular'].includes(value)
           },
           prompt: 'the filter (all, open, closed, merged, popular)?',
+          default: 'all',
         },
       ],
       name: 'list-rfcs',
       group: 'rfcs',
       aliases: ['rfcs'],
-      guildOnly: true,
+      guildOnly: false,
       memberName: 'rfcs',
       description: 'List all RFCs.',
     })
@@ -32,37 +36,32 @@ module.exports = class RFCsCommand extends Command {
   async run(msg, args) {
     const { filter } = args
 
-    getAllRFCs()
-      .then(rfcs => {
-        if (filter === 'open') {
-          rfcs = rfcs.filter(rfc => rfc.state === 'open')
-        } else if (filter === 'closed') {
-          rfcs = rfcs.filter(rfc => rfc.state === 'closed')
-        } else if (filter === 'popular') {
-          return msg.reply('Not yet implemented')
-        }
+    const embed = new RichEmbed().setTitle('Vue.js RFC List')
 
-        const embeds = [new RichEmbed('Request for Comments')]
+    try {
+      let rfcs = await getAllRFCs()
 
-        for (let i = 0, j = 0; i < rfcs.length; i++) {
-          // Max 25 fields per embed.
-          if (i > 0 && i % 25 === 0) {
-            embeds.push(new RichEmbed().setTitle('Continued'))
-            j++
-          }
+      if (filter === 'open' || filter === 'closed') {
+        rfcs = rfcs.filter(rfc => rfc.state === filter)
+      } else if (filter === 'popular') {
+        return msg.reply('Not yet implemented')
+      }
 
-          const rfc = rfcs[i]
-          const embed = embeds[j]
-
-          embed.addField(`${rfc.number} - ${rfc.title}`, rfc.html_url)
-        }
-
-        for (const embed of embeds) {
-          msg.channel.send(EMPTY_MESSAGE, { embed })
+      rfcs = rfcs.map(rfc => {
+        return {
+          name: `#${rfc.number} - ${rfc.title}`,
+          value: rfc.html_url,
         }
       })
-      .catch(() => {
-        return msg.reply('Sorry, an unknown error occured.')
+
+      respondWithPaginatedEmbed(msg, embed, rfcs, {
+        itemsPerPage: RFCS_PER_PAGE,
+        observeReactionsFor: 1000 * 60 * 5,
       })
+    } catch (e) {
+      const response = await msg.reply('Sorry, an unknown error occured.')
+      tryDelete(msg)
+      tryDelete(response, 7500)
+    }
   }
 }
