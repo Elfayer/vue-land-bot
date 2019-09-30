@@ -134,6 +134,8 @@ export async function filterRFCsBy(filter, value) {
         value = value.split(',')
       } else if (value.includes('|')) {
         value = value.split('|')
+      } else {
+        value = [value]
       }
     }
 
