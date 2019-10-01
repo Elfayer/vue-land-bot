@@ -179,9 +179,7 @@ export async function respondWithPaginatedEmbed(
       embed.setFooter(`Page ${pageCurrent} of ${pageLast}.`)
     }
 
-    /*
-      NOTE: The API won't let us remove even our own reactions in a DM message...
-    */
+    // NOTE: The API disallows removing reactions in DMs.
     if (channel.type !== 'dm') {
       await reaction.remove(author.id)
     }
@@ -190,9 +188,14 @@ export async function respondWithPaginatedEmbed(
   })
 
   /*
-    Remove buttons once we're done.
+    Remove the buttons once we're done.
   */
-  collector.on('end', () => response.clearReactions())
+  collector.on('end', () => {
+    // NOTE: The API disallows removing reactions in DMs.
+    if (channel.type !== 'dm') {
+      response.clearReactions()
+    }
+  })
 }
 
 /**
