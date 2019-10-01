@@ -1,5 +1,3 @@
-// utils/embed.js
-
 import { RichEmbed } from 'discord.js'
 import { EMPTY_MESSAGE } from './constants'
 import { CommandMessage } from 'discord.js-commando'
