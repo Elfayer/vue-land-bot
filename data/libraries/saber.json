@@ -5,10 +5,8 @@
   "icon": "saber.png",
   "colour": "#00838F",
   "url": {
-    "site": "http://bit.ly/2nk4CqF",
-    "docs": "http://bit.ly/2obzJVm",
-    "repo": "http://bit.ly/2ogrHu8",
-    "bugs": "http://bit.ly/2mJr3oQ"
+    "site": "https://saber.land/",
+    "repo": "https://github.com/saberland/saber"
   },
   "fields": [
     {

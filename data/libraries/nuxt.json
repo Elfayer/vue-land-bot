@@ -5,10 +5,8 @@
   "icon": "nuxt.png",
   "colour": "#00c58",
   "url": {
-    "site": "https://bit.ly/2p0OcDW",
-    "docs": "https://bit.ly/2nxzALV",
-    "repo": "https://bit.ly/2ofhgXI",
-    "bugs": "https://bit.ly/2mHQSWi"
+    "site": "https://nuxtjs.org/",
+    "repo": "https://github.com/nuxt/nuxt.js"
   },
   "fields": [
     {

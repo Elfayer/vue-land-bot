@@ -15,10 +15,8 @@
   "icon": "quasar.png",
   "colour": "#42A5F5",
   "url": {
-    "site": "http://bit.ly/2p1xkNn",
-    "docs": "http://bit.ly/2oWheo4",
-    "repo": "http://bit.ly/2p1f5HR",
-    "bugs": "http://bit.ly/2oa9m27"
+    "site": "https://quasar.dev/",
+    "repo": "https://github.com/quasarframework/quasar"
   },
   "fields": [
     "Quasar (pronounced /ˈkweɪ.zɑɹ/) is an MIT licensed open-source Vue.js based framework, which allows you as a web developer to quickly create responsive++ websites/apps in many flavours.",

@@ -96,7 +96,7 @@ module.exports = class DocumentationLibraryCommand extends Command {
     }
 
     for (const [name, url] of Object.entries(library.url)) {
-      embed.addField(uppercaseFirst(name), url, true)
+      embed.addField(uppercaseFirst(name), url)
     }
 
     return embed

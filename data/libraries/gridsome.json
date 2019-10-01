@@ -5,10 +5,8 @@
   "icon": "gridsome.png",
   "colour": "#01A672",
   "url": {
-    "site": "https://bit.ly/2o95aj8",
-    "docs": "https://bit.ly/2oTjNXY",
-    "repo": "https://bit.ly/2nwQcTQ",
-    "bugs": "https://bit.ly/2mHG4Yc"
+    "site": "https://gridsome.org/",
+    "repo": "https://github.com/gridsome/gridsome"
   },
   "fields": [
     {

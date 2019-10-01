@@ -5,10 +5,8 @@
   "icon": "vuetify.png",
   "colour": "#7BC6FF",
   "url": {
-    "site": "http://bit.ly/2mI2j08",
-    "docs": "http://bit.ly/2mCZeyf",
-    "repo": "http://bit.ly/2mA5Nl8",
-    "bugs": "http://bit.ly/2obGNkI"
+    "site": "https://vuetifyjs.com/en/",
+    "repo": "https://github.com/vuetifyjs/vuetify"
   },
   "fields": [
     "Vuetify is a semantic component framework for Vue. It aims to provide clean, semantic and reusable components that make building your application a breeze.",

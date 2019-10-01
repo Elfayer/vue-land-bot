@@ -5,10 +5,8 @@
   "icon": "vuepress.png",
   "colour": "#2C9566",
   "url": {
-    "site": "http://bit.ly/2ohJ79G",
-    "docs": "http://bit.ly/2nxekWq",
-    "repo": "http://bit.ly/2ofy298",
-    "bugs": "http://bit.ly/2mI17tG"
+    "site": "https://vuepress.vuejs.org/",
+    "repo": "https://github.com/vuejs/vuepress"
   },
   "fields": [
     {
