@@ -10,7 +10,7 @@
     "repo": "https://bit.ly/2ofhgXI",
     "bugs": "https://bit.ly/2mHQSWi"
   },
-  "description": [
+  "fields": [
     "Vuetify is a semantic component framework for Vue. It aims to provide clean, semantic and reusable components that make building your application a breeze.",
     "Build amazing applications with the power of Vue, Material Design and a massive library of beautifully crafted components and features. Built according to Google's Material Design Spec, Vuetify components feature an easy-to-remember semantic design that shifts remembering complex classes and markup, to type-as-you speak properties that have simple and clear names.",
     "Harness the power of the Vuetify community and get help 24/7 from the development team and our talented community members across the world. Become a backer and get access to dedicated support from the team."
