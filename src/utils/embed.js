@@ -201,7 +201,7 @@ export async function respondWithPaginatedEmbed(
 /**
  * Internal/private function used by {@link respondWithPaginatedEmbed}.
  * Allows for fields to be an object mirroring the `RichEmbed`'s `addField`
- * params grants optional control on how the fields are displayed.
+ * params, granting optional control over how the fields are displayed.
  *
  * So the following are both valid `fields` arrays:
  *
