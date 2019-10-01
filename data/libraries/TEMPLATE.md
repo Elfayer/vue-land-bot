@@ -15,7 +15,6 @@
     "bugs": ""
   },
   "fields": ["..."],
-  "description": ["..."],
   "author": {
     "name": "",
     "url": "",
