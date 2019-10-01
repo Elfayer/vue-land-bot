@@ -213,7 +213,11 @@ function _addFieldsToEmbed(embed, fields, inlineFields) {
   for (let i = 0; i < fields.length; i++) {
     const field = fields[i]
 
-    if (typeof field === 'object' && field.name && field.value) {
+    if (
+      typeof field === 'object' &&
+      typeof field.name !== 'undefined' &&
+      typeof field.value !== 'undefined'
+    ) {
       embed.addField(
         field.name,
         field.value,
