@@ -73,7 +73,7 @@ module.exports = class DevelopmentPaginateCommand extends Command {
   async run(msg, args) {
     const { observeReactionsFor } = args
 
-    let embed = new RichEmbed()
+    const embed = new RichEmbed()
       .setColor('RANDOM')
       .setTitle('Pagination Test')
       .setDescription(
