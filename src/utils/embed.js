@@ -35,8 +35,6 @@ export async function respondWithPaginatedEmbed(
   extraFields = [],
   options = {}
 ) {
-  const { author, channel } = msg
-
   if (!Array.isArray(items)) {
     throw new Error('Cannot paginate a non-array!')
   }
@@ -44,6 +42,8 @@ export async function respondWithPaginatedEmbed(
   if (!(msg instanceof CommandMessage)) {
     throw new Error('Invalid message passed!')
   }
+
+  const { author, channel } = msg
 
   if (!(embed instanceof RichEmbed)) {
     throw new Error('Invalid embed passed!')
