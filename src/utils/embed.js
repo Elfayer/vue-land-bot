@@ -145,6 +145,11 @@ export async function respondWithPaginatedEmbed(
         return false
       }
 
+      // NOTE: Avoids the bot triggering pagination when adding reactions!
+      if (!options.authorOnly && user.id === msg.client.user.id) {
+        return false
+      }
+
       return ['⬅', '➡'].includes(reaction.emoji.name)
     },
     {
