@@ -1,0 +1,52 @@
+{
+  "name": "Gridsome",
+  "tagline": "A Vue.js framework for Static Websites",
+  "tags": ["jamstack", "pwa", "static", "generation", "graphql", "markdown"],
+  "icon": "gridsome.png",
+  "colour": "#01A672",
+  "url": {
+    "site": "https://bit.ly/2o95aj8",
+    "docs": "https://bit.ly/2oTjNXY",
+    "repo": "https://bit.ly/2nwQcTQ",
+    "bugs": "https://bit.ly/2mHG4Yc"
+  },
+  "fields": [
+    {
+      "name": "**Why Gridsome?**",
+      "value": "Gridsome makes it easy for developers to build modern websites, apps & PWAs that are fast by default 🚀"
+    },
+    {
+      "name": "Local development with hot-reloading",
+      "value": "See code changes in real-time."
+    },
+    {
+      "name": "Data source plugins",
+      "value": "Connect to any popular Headless CMSs, APIs or Markdown-files."
+    },
+    {
+      "name": "File-based page routing",
+      "value": "Quickly create and manage routes with files."
+    },
+    {
+      "name": "Centralized data management",
+      "value": "Pull data into a local, unified GraphQL data layer."
+    },
+    {
+      "name": "Vue.js for front-end",
+      "value": "A lightweight and approachable front-end framework."
+    },
+    {
+      "name": "Auto-optimized code",
+      "value": "Get code-splitting and asset optimization out-of-the-box."
+    },
+    {
+      "name": "Static files generation",
+      "value": "Deploy securely to any CDN or static web host."
+    }
+  ],
+  "author": {
+    "name": "Hans-Jørgen Vedvik",
+    "url": "https://github.com/hjvedvik",
+    "avatar": "hjvedvik.png"
+  }
+}

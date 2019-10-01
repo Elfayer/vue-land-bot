@@ -1,0 +1,32 @@
+{
+  "name": "Saber",
+  "tagline": "Build static sites in Vue.js, without the hassle",
+  "tags": ["static", "generation", "markdown", "universal"],
+  "icon": "saber.png",
+  "colour": "#00838F",
+  "url": {
+    "site": "http://bit.ly/2nk4CqF",
+    "docs": "http://bit.ly/2obzJVm",
+    "repo": "http://bit.ly/2ogrHu8",
+    "bugs": "http://bit.ly/2mJr3oQ"
+  },
+  "fields": [
+    {
+      "name": "Zero Setup",
+      "value": "Automatic code splitting, file-system based routing, hot code reloading and built-in Markdown support."
+    },
+    {
+      "name": "Bring Your Own Data",
+      "value": "Build sites with the data you want: Pull data from headless CMS, SaaS services, APIs, your file-system, and more."
+    },
+    {
+      "name": "Fully Extensible",
+      "value": "With Saber's powerful APIs and plugin system, you can customize almost everything."
+    }
+  ],
+  "author": {
+    "name": "Egoist",
+    "url": "https://egoist.sh",
+    "avatar": "egoist.jpeg"
+  }
+}

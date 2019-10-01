@@ -1,0 +1,32 @@
+{
+  "name": "VuePress",
+  "tagline": "Minimalistic Vue-powered static site generator",
+  "tags": ["static", "generation", "markdown", "official"],
+  "icon": "vuepress.png",
+  "colour": "#2C9566",
+  "url": {
+    "site": "http://bit.ly/2ohJ79G",
+    "docs": "http://bit.ly/2nxekWq",
+    "repo": "http://bit.ly/2ofy298",
+    "bugs": "http://bit.ly/2mI17tG"
+  },
+  "fields": [
+    {
+      "name": "Simplicity First",
+      "value": "Minimal setup with markdown-centered project structure helps you focus on writing."
+    },
+    {
+      "name": "Vue-Powered",
+      "value": "Enjoy the dev experience of Vue + webpack, use Vue components in markdown, and develop custom themes with Vue."
+    },
+    {
+      "name": "Performant",
+      "value": "VuePress generates pre-rendered static HTML for each page, and runs as an SPA once a page is loaded."
+    }
+  ],
+  "author": {
+    "name": "Evan You",
+    "url": "http://evanyou.me",
+    "avatar": "yyx990803.jpeg"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "name": "Vuetify",
+  "tagline": "Material Design Component Framework.",
+  "tags": ["ui", "framework", "material", "design", "component", "library"],
+  "icon": "vuetify.png",
+  "colour": "#7BC6FF",
+  "url": {
+    "site": "http://bit.ly/2mI2j08",
+    "docs": "http://bit.ly/2mCZeyf",
+    "repo": "http://bit.ly/2mA5Nl8",
+    "bugs": "http://bit.ly/2obGNkI"
+  },
+  "description": [
+    "Vuetify is a semantic component framework for Vue. It aims to provide clean, semantic and reusable components that make building your application a breeze.",
+    "Build amazing applications with the power of Vue, Material Design and a massive library of beautifully crafted components and features. Built according to Google's Material Design Spec, Vuetify components feature an easy-to-remember semantic design that shifts remembering complex classes and markup, to type-as-you speak properties that have simple and clear names.",
+    "Harness the power of the Vuetify community and get help 24/7 from the development team and our talented community members across the world. Become a backer and get access to dedicated support from the team."
+  ],
+  "author": {
+    "name": "John Leider",
+    "url": "https://github.com/johnleider",
+    "avatar": "johnleider.png"
+  }
+}

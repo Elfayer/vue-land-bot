@@ -1,0 +1,23 @@
+{
+  "name": "Nuxt",
+  "tagline": "The Progressive Vue.js Framework",
+  "tags": ["ssr", "universal", "static", "generation", "spa"],
+  "icon": "nuxt.png",
+  "colour": "#00c58",
+  "url": {
+    "site": "https://bit.ly/2p0OcDW",
+    "docs": "https://bit.ly/2nxzALV",
+    "repo": "https://bit.ly/2ofhgXI",
+    "bugs": "https://bit.ly/2mHQSWi"
+  },
+  "description": [
+    "Vuetify is a semantic component framework for Vue. It aims to provide clean, semantic and reusable components that make building your application a breeze.",
+    "Build amazing applications with the power of Vue, Material Design and a massive library of beautifully crafted components and features. Built according to Google's Material Design Spec, Vuetify components feature an easy-to-remember semantic design that shifts remembering complex classes and markup, to type-as-you speak properties that have simple and clear names.",
+    "Harness the power of the Vuetify community and get help 24/7 from the development team and our talented community members across the world. Become a backer and get access to dedicated support from the team."
+  ],
+  "author": {
+    "name": "Sébastien Chopin",
+    "url": "https://atinux.com/",
+    "avatar": "atinux.jpeg"
+  }
+}
