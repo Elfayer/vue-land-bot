@@ -1,21 +1,13 @@
-import { join, resolve } from 'path'
+import { join, resolve, extname, basename } from 'path'
+import { readdirSync } from 'fs'
 
 const DATA_DIR = resolve(__dirname, '../../data/libraries')
 const AVATAR_BASE_URL =
   'https://raw.githubusercontent.com/sustained/vue-land-bot/feat-library/assets/images/avatars/'
 
-/*
-  TODO: We should probably just scan the directory but not sure how to handle 
-        exporting things which are loaded in a callback or a promise then handler?
-*/
-const LIBRARY_NAMES = [
-  'gridsome',
-  'nuxt',
-  'quasar',
-  'saber',
-  'vuepress',
-  'vuetify',
-]
+const LIBRARY_NAMES = readdirSync(DATA_DIR)
+  .filter(file => extname(file) === '.json')
+  .map(file => basename(file, '.json'))
 
 const libraries = {}
 
