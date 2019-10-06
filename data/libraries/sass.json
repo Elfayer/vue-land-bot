@@ -1,0 +1,22 @@
+{
+  "name": "sass",
+  "icon": "sass.png",
+  "full_name": "sass/sass",
+  "description": "Sass makes CSS fun!",
+  "topics": [],
+  "license": null,
+  "owner": {
+    "login": "sass",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/317889?v=4"
+  },
+  "organization": {
+    "login": "sass",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/317889?v=4"
+  },
+  "links": {
+    "site": "https://sass-lang.com",
+    "repo": "https://github.com/sass/sass"
+  },
+  "aliases": ["scss", "sasslang", "sass-lang"],
+  "colour": "#4FC08D"
+}
