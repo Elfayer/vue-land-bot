@@ -39,7 +39,8 @@
   },
   "links": {
     "site": "https://storybook.js.org",
-    "repo": "https://github.com/storybookjs/storybook"
+    "repo": "https://github.com/storybookjs/storybook",
+    "chat": "https://discord.gg/NzrwbJ5"
   },
   "aliases": [],
   "colour": "#4FC08D"

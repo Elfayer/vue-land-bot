@@ -33,7 +33,8 @@
   },
   "links": {
     "site": "https://bootstrap-vue.js.org",
-    "repo": "https://github.com/bootstrap-vue/bootstrap-vue"
+    "repo": "https://github.com/bootstrap-vue/bootstrap-vue",
+    "chat": "https://discord.gg/B8pcyCd"
   },
   "aliases": [],
   "colour": "#4FC08D"

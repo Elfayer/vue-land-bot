@@ -39,7 +39,8 @@
   },
   "links": {
     "site": "https://vuetifyjs.com",
-    "repo": "https://github.com/vuetifyjs/vuetify"
+    "repo": "https://github.com/vuetifyjs/vuetify",
+    "chat": "https://discord.gg/m9jP5vy"
   },
   "aliases": [],
   "colour": "#4FC08D"

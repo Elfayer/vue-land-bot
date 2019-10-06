@@ -29,7 +29,8 @@
   },
   "links": {
     "site": "http://iview.talkingdata.com",
-    "repo": "https://github.com/iview/iview"
+    "repo": "https://github.com/iview/iview",
+    "chat": "https://gitter.im/iview/iview"
   },
   "aliases": [],
   "colour": "#4FC08D"

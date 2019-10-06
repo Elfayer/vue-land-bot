@@ -26,7 +26,8 @@
   },
   "links": {
     "site": "https://element.eleme.io/",
-    "repo": "https://github.com/ElemeFE/element"
+    "repo": "https://github.com/ElemeFE/element",
+    "chat": "https://gitter.im/ElemeFE/element"
   },
   "aliases": [],
   "colour": "#4FC08D"

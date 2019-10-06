@@ -26,7 +26,8 @@
   },
   "links": {
     "site": "https://tailwindcss.com/",
-    "repo": "https://github.com/tailwindcss/tailwindcss"
+    "repo": "https://github.com/tailwindcss/tailwindcss",
+    "chat": "https://discord.gg/vRmXppU"
   },
   "aliases": [],
   "colour": "#4FC08D"
