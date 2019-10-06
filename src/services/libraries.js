@@ -14,7 +14,7 @@ const libraries = {}
 for (const libraryName of LIBRARY_NAMES) {
   try {
     const library = require(join(DATA_DIR, `${libraryName}.json`))
-    libraries[libraryName] = _validateLibrary(library)
+    libraries[libraryName.toLowerCase()] = _validateLibrary(library)
   } catch (error) {
     console.warn(
       `[LibraryService] Something went wrong when requiring or validating "${libraryName}.json":`
@@ -25,7 +25,7 @@ for (const libraryName of LIBRARY_NAMES) {
 
 for (const library of Object.values(libraries)) {
   for (const alias of library.aliases) {
-    aliasMap[alias] = library.name
+    aliasMap[alias.toLowerCase()] = library.name.toLowerCase()
   }
 }
 
@@ -49,6 +49,8 @@ export default libraries
  * @returns {LibraryDefinition} The library object.
  */
 export function getLibrary(name) {
+  name = name.toLowerCase()
+
   if (libraries[name]) {
     return libraries[name]
   }
