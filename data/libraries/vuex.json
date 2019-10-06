@@ -1,5 +1,6 @@
 {
   "name": "vuex",
+  "icon": "vue.png",
   "full_name": "vuejs/vuex",
   "description": "🗃️ Centralized State Management for Vue.js.",
   "topics": [
@@ -7,7 +8,8 @@
     "javascript",
     "vuex",
     "state-management",
-    "time-travel"
+    "time-travel",
+    "official"
   ],
   "license": {
     "key": "mit",

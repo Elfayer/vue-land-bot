@@ -1,13 +1,9 @@
 {
   "name": "vue",
+  "icon": "vue.png",
   "full_name": "vuejs/vue",
   "description": "🖖 Vue.js is a progressive, incrementally-adoptable JavaScript framework for building UI on the web.",
-  "topics": [
-    "vue",
-    "javascript",
-    "frontend",
-    "framework"
-  ],
+  "topics": ["vue", "javascript", "frontend", "framework", "official"],
   "license": {
     "key": "mit",
     "url": "https://api.github.com/licenses/mit",

@@ -1,12 +1,9 @@
 {
   "name": "vue-router",
+  "icon": "vue.png",
   "full_name": "vuejs/vue-router",
   "description": "🚦 The official router for Vue.js.",
-  "topics": [
-    "vue",
-    "javascript",
-    "router"
-  ],
+  "topics": ["vue", "javascript", "router", "official"],
   "license": {
     "key": "mit",
     "url": "https://api.github.com/licenses/mit",
