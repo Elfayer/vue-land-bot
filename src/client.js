@@ -64,6 +64,10 @@ client.registry.registerGroups([
     id: 'jobs',
     name: 'Jobs',
   },
+  {
+    id: 'rfcs',
+    name: 'RFCs',
+  },
 ])
 
 /*
