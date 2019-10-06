@@ -1,0 +1,26 @@
+{
+  "name": "vue-class-component",
+  "icon": "vue.png",
+  "full_name": "vuejs/vue-class-component",
+  "description": "ES / TypeScript decorator for class-style Vue components.",
+  "topics": ["official"],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "vuejs",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/6128107?v=4"
+  },
+  "organization": {
+    "login": "vuejs",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/6128107?v=4"
+  },
+  "links": {
+    "site": null,
+    "repo": "https://github.com/vuejs/vue-class-component"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

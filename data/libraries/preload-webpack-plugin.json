@@ -1,0 +1,26 @@
+{
+  "name": "preload-webpack-plugin",
+  "icon": "vue.png",
+  "full_name": "vuejs/preload-webpack-plugin",
+  "description": "A Webpack plugin for wiring up `<link rel='preload'>` (and prefetch) - supports async chunks",
+  "topics": ["official"],
+  "license": {
+    "key": "apache-2.0",
+    "url": "https://api.github.com/licenses/apache-2.0",
+    "name": "Apache License 2.0"
+  },
+  "owner": {
+    "login": "vuejs",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/6128107?v=4"
+  },
+  "organization": {
+    "login": "vuejs",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/6128107?v=4"
+  },
+  "links": {
+    "site": null,
+    "repo": "https://github.com/vuejs/preload-webpack-plugin"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

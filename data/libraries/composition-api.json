@@ -1,0 +1,22 @@
+{
+  "name": "composition-api",
+  "icon": "vue.png",
+  "full_name": "vuejs/composition-api",
+  "description": "Vue2 plugin for the Composition API.",
+  "topics": ["official"],
+  "license": null,
+  "owner": {
+    "login": "vuejs",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/6128107?v=4"
+  },
+  "organization": {
+    "login": "vuejs",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/6128107?v=4"
+  },
+  "links": {
+    "site": "https://vue-composition-api-rfc.netlify.com/",
+    "repo": "https://github.com/vuejs/composition-api"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

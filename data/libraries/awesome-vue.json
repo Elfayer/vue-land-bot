@@ -1,0 +1,22 @@
+{
+  "name": "awesome-vue",
+  "icon": "vue.png",
+  "full_name": "vuejs/awesome-vue",
+  "description": "🎉 A curated list of awesome things related to Vue.js",
+  "topics": ["official"],
+  "license": null,
+  "owner": {
+    "login": "vuejs",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/6128107?v=4"
+  },
+  "organization": {
+    "login": "vuejs",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/6128107?v=4"
+  },
+  "links": {
+    "site": null,
+    "repo": "https://github.com/vuejs/awesome-vue"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

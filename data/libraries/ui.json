@@ -1,0 +1,22 @@
+{
+  "name": "ui",
+  "icon": "vue.png",
+  "full_name": "vuejs/ui",
+  "description": "💻 UI components for official Vue organization apps",
+  "topics": ["official"],
+  "license": null,
+  "owner": {
+    "login": "vuejs",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/6128107?v=4"
+  },
+  "organization": {
+    "login": "vuejs",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/6128107?v=4"
+  },
+  "links": {
+    "site": "https://vuejs.github.io/ui/",
+    "repo": "https://github.com/vuejs/ui"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

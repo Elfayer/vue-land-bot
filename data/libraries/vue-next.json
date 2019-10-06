@@ -1,0 +1,22 @@
+{
+  "name": "vue-next",
+  "icon": "vue.png",
+  "full_name": "vuejs/vue-next",
+  "description": null,
+  "topics": ["official"],
+  "license": null,
+  "owner": {
+    "login": "vuejs",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/6128107?v=4"
+  },
+  "organization": {
+    "login": "vuejs",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/6128107?v=4"
+  },
+  "links": {
+    "site": null,
+    "repo": "https://github.com/vuejs/vue-next"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

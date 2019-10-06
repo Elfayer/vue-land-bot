@@ -1,0 +1,22 @@
+{
+  "name": "vue-curated",
+  "icon": "vue.png",
+  "full_name": "vuejs/vue-curated",
+  "description": "🖼️ The curated Vue packages list",
+  "topics": ["official"],
+  "license": null,
+  "owner": {
+    "login": "vuejs",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/6128107?v=4"
+  },
+  "organization": {
+    "login": "vuejs",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/6128107?v=4"
+  },
+  "links": {
+    "site": "https://curated.vuejs.org/",
+    "repo": "https://github.com/vuejs/vue-curated"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}
