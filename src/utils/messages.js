@@ -8,19 +8,21 @@ import client from '../client'
 export function tryDelete(msg, delay = 0) {
   console.debug(`Attempting to delete msg #${msg.id}.`)
 
-  if (msg.channel.type === 'dm' && msg.author.id !== msg.client.user.id) {
-    console.debug('Cannot delete - is DM.')
-    return false
-  }
+  if (msg.channel.type === 'dm') {
+    if (msg.author.id !== msg.client.user.id) {
+      console.debug('Cannot delete - is DM.')
+      return false
+    }
+  } else {
+    if (!msg.guild.me.hasPermission('MANAGE_MESSAGES')) {
+      console.debug('Cannot delete - lacking permissions.')
+      return false
+    }
 
-  if (!msg.guild.me.hasPermission('MANAGE_MESSAGES')) {
-    console.debug('Cannot delete - lacking permissions.')
-    return false
-  }
-
-  if (msg.member.hasPermission('ADMINISTRATOR')) {
-    if (!msg.guild.me.hasPermission('ADMINISTRATOR')) {
-      console.debug('Cannot delete - user is admin but I am not.')
+    if (msg.member.hasPermission('ADMINISTRATOR')) {
+      if (!msg.guild.me.hasPermission('ADMINISTRATOR')) {
+        console.debug('Cannot delete - user is admin but I am not.')
+      }
     }
   }
 
