@@ -15,7 +15,7 @@ module.exports = class DocumentationLibraryCommand extends Command {
         {
           key: 'name',
           type: 'string',
-          prompt: 'which library to look up?',
+          prompt: 'Enter a tool, library or framework to look up?',
         },
       ],
       name: 'library',
@@ -31,7 +31,7 @@ module.exports = class DocumentationLibraryCommand extends Command {
       ],
       guildOnly: false,
       memberName: 'library',
-      description: 'Look up a library/framework by name.',
+      description: 'Look up a tool, library or framework by name.',
     })
   }
 
@@ -44,7 +44,6 @@ module.exports = class DocumentationLibraryCommand extends Command {
 
     try {
       let library = getLibrary(name)
-
       const embed = this.buildResponseEmbed(library)
 
       await msg.channel.send(EMPTY_MESSAGE, { embed })
