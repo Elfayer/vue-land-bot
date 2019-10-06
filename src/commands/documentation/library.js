@@ -45,7 +45,8 @@ module.exports = class DocumentationLibraryCommand extends Command {
       let library = getLibrary(name)
       const embed = this.buildResponseEmbed(library)
 
-      return msg.channel.send(EMPTY_MESSAGE, { embed })
+      await msg.channel.send(EMPTY_MESSAGE, { embed })
+      tryDelete(msg)
     } catch (error) {
       console.error(error)
       const embed = this.buildErrorEmbed(name)
