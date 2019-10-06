@@ -1,0 +1,29 @@
+{
+  "name": "vue-express-mongo-boilerplate",
+  "full_name": "icebob/vue-express-mongo-boilerplate",
+  "description": ":star: MEVN Full stack JS web app boilerplate with NodeJS, Express, Mongo and VueJS",
+  "topics": [
+    "vue",
+    "nodejs",
+    "express",
+    "boilerplate",
+    "mongo",
+    "webpack",
+    "vuejs",
+    "graphql",
+    "fullstack",
+    "fullstack-boilerplate"
+  ],
+  "license": null,
+  "owner": {
+    "login": "icebob",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/306521?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "http://vemapp.moleculer.services/",
+    "repo": "https://github.com/icebob/vue-express-mongo-boilerplate"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

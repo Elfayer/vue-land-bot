@@ -1,0 +1,24 @@
+{
+  "name": "vue-grd",
+  "full_name": "1000ch/vue-grd",
+  "description": "Simple, Light-weight and Flexible Vue.js component for grid layout.",
+  "topics": [
+    "vue",
+    "grid",
+    "flexbox",
+    "framework",
+    "css"
+  ],
+  "license": null,
+  "owner": {
+    "login": "1000ch",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/1800018?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://1000ch.github.io/vue-grd/",
+    "repo": "https://github.com/1000ch/vue-grd"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

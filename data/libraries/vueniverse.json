@@ -1,0 +1,33 @@
+{
+  "name": "vueniverse",
+  "full_name": "rlindskog/vueniverse",
+  "description": "Full stack, user based, PWA, Vue template.",
+  "topics": [
+    "vue",
+    "vuejs",
+    "vuejs2",
+    "universal-app",
+    "isomorphic",
+    "hot-reload",
+    "code-splitting",
+    "webpack",
+    "webpack2",
+    "isomorphic-applications"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "rlindskog",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/7436773?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/rlindskog/vueniverse"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

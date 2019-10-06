@@ -1,0 +1,22 @@
+{
+  "name": "vue-confirmation-button",
+  "full_name": "imRohan/vue-confirmation-button",
+  "description": "A Vuejs component that asks uses to confirm before performing an action",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "imRohan",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/3347296?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/imRohan/vue-confirmation-button"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

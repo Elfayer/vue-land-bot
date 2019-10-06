@@ -1,0 +1,27 @@
+{
+  "name": "vue-tailwind",
+  "full_name": "alfonsobries/vue-tailwind",
+  "description": "Vue UI components with configurable classes ready for TailwindCSS",
+  "topics": [
+    "vue",
+    "tailwindcss",
+    "vue-tailwind",
+    "vuejs"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "alfonsobries",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/17262776?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://www.vue-tailwind.com/",
+    "repo": "https://github.com/alfonsobries/vue-tailwind"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

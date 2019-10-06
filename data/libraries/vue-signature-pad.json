@@ -1,0 +1,27 @@
+{
+  "name": "vue-signature-pad",
+  "full_name": "neighborhood999/vue-signature-pad",
+  "description": "🖋 Vue Signature Pad Component",
+  "topics": [
+    "vue",
+    "components",
+    "vue-components",
+    "signature-pad"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "neighborhood999",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/10325111?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/neighborhood999/vue-signature-pad"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

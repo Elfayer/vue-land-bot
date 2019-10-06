@@ -1,0 +1,32 @@
+{
+  "name": "flox",
+  "full_name": "devfake/flox",
+  "description": "Self Hosted Movie, Series and Anime Watch List",
+  "topics": [
+    "movie",
+    "movie-database",
+    "self-hosted",
+    "tv",
+    "laravel",
+    "vue",
+    "movies",
+    "episodes",
+    "tmdb"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "devfake",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/2204770?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "http://80.240.132.120/flox-demo/public/",
+    "repo": "https://github.com/devfake/flox"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,27 @@
+{
+  "name": "vue-container-component",
+  "full_name": "kavalcante/vue-container-component",
+  "description": "Simple container component inspired on Bootstrap Container",
+  "topics": [
+    "vue",
+    "component",
+    "vuejs2",
+    "vuejs-components"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "kavalcante",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/13931503?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/kavalcante/vue-container-component"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

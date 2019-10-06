@@ -1,0 +1,28 @@
+{
+  "name": "vue-smart-route",
+  "full_name": "f/vue-smart-route",
+  "description": "Smart route search to make intelligent looking apps with Vue.js.",
+  "topics": [
+    "vue",
+    "vue-router",
+    "vue-smart-widget",
+    "vue-search",
+    "router"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "f",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/196477?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://f.github.io/vue-smart-route",
+    "repo": "https://github.com/f/vue-smart-route"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

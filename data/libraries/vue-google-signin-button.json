@@ -1,0 +1,21 @@
+{
+  "name": "vue-google-signin-button",
+  "full_name": "phanan/vue-google-signin-button",
+  "description": "🔐 A simple Vue plugin to include a Google sign-in button into your web app.",
+  "topics": [
+    "vue",
+    "javascript"
+  ],
+  "license": null,
+  "owner": {
+    "login": "phanan",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/8056274?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/phanan/vue-google-signin-button"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

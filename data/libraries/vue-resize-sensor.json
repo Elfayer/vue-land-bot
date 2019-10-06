@@ -1,0 +1,29 @@
+{
+  "name": "vue-resize-sensor",
+  "full_name": "FranckFreiburger/vue-resize-sensor",
+  "description": "detect container resizing",
+  "topics": [
+    "vuejs2",
+    "element",
+    "resize",
+    "sensor",
+    "onresize",
+    "event-based"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "FranckFreiburger",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/25509586?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/FranckFreiburger/vue-resize-sensor"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

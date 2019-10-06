@@ -1,0 +1,37 @@
+{
+  "name": "vue-wait",
+  "full_name": "f/vue-wait",
+  "description": "Complex Loader and Progress Management for Vue/Vuex and Nuxt Applications",
+  "topics": [
+    "vue",
+    "vuex",
+    "loading",
+    "loader",
+    "loaders",
+    "activity-indicator",
+    "vuex-store",
+    "nuxt-module",
+    "vue-components",
+    "progress",
+    "progress-bar",
+    "vue-progress",
+    "loader-component",
+    "spinner"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "f",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/196477?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/f/vue-wait"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

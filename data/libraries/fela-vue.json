@@ -1,0 +1,31 @@
+{
+  "name": "fela-vue",
+  "full_name": "houd1ni/fela-vue",
+  "description": "Fela mixin for Vue designed for flexibility yet team-oriented.",
+  "topics": [
+    "vue",
+    "vuejs",
+    "fela",
+    "css-in-js",
+    "styles",
+    "css",
+    "styling",
+    "strongly-typed"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "houd1ni",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/7501201?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://houd1ni.github.io/fela-vue/",
+    "repo": "https://github.com/houd1ni/fela-vue"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

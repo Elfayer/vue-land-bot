@@ -1,0 +1,32 @@
+{
+  "name": "vue-aplayer",
+  "full_name": "SevenOutman/vue-aplayer",
+  "description": ":cake: Easy-to-use music player for Vue 2.x",
+  "topics": [
+    "aplayer",
+    "vue",
+    "vue2",
+    "vue-aplayer",
+    "html5-music-player",
+    "awesome-vue",
+    "vue-components",
+    "music",
+    "music-player"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "SevenOutman",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/8225666?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://vue-aplayer.js.org",
+    "repo": "https://github.com/SevenOutman/vue-aplayer"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

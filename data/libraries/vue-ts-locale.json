@@ -1,0 +1,22 @@
+{
+  "name": "vue-ts-locale",
+  "full_name": "twcapps/vue-ts-locale",
+  "description": "Advanced localization support for VueJS",
+  "topics": [],
+  "license": {
+    "key": "apache-2.0",
+    "url": "https://api.github.com/licenses/apache-2.0",
+    "name": "Apache License 2.0"
+  },
+  "owner": {
+    "login": "twcapps",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/5710723?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/twcapps/vue-ts-locale"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

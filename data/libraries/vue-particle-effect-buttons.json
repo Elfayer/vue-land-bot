@@ -1,0 +1,28 @@
+{
+  "name": "vue-particle-effect-buttons",
+  "full_name": "dreambo8563/vue-particle-effect-buttons",
+  "description": "A bursting particles effects buttons component ✨💥❄️🌋",
+  "topics": [
+    "particles",
+    "vue",
+    "buttons",
+    "anime",
+    "animations"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "dreambo8563",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/6948318?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://dreambo8563.github.io/vue-particle-effect-buttons/",
+    "repo": "https://github.com/dreambo8563/vue-particle-effect-buttons"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,37 @@
+{
+  "name": "vue-warehouse",
+  "full_name": "bazzite/vue-warehouse",
+  "description": "A Cross-browser storage for Vue.js and Nuxt.js, with plugins support and easy extensibility based on Store.js. ",
+  "topics": [
+    "vue",
+    "localstorage",
+    "cookie",
+    "cross-browser",
+    "storage",
+    "vue-plugin",
+    "bazzite",
+    "nuxt",
+    "nuxt-module",
+    "browser-storage",
+    "storage-functionality"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "bazzite",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/13593031?v=4"
+  },
+  "organization": {
+    "login": "bazzite",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/13593031?v=4"
+  },
+  "links": {
+    "site": "https://www.bazzite.com/docs/vue-warehouse",
+    "repo": "https://github.com/bazzite/vue-warehouse"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,22 @@
+{
+  "name": "amazon-cognito-vuex-module",
+  "full_name": "Botre/amazon-cognito-vuex-module",
+  "description": "Vuex module for Amazon Cognito",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "Botre",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/10811687?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/Botre/amazon-cognito-vuex-module"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

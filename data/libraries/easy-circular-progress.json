@@ -1,0 +1,27 @@
+{
+  "name": "easy-circular-progress",
+  "full_name": "dreambo8563/easy-circular-progress",
+  "description": "easy circular progress component with counting effect 💫🏺🎡",
+  "topics": [
+    "circular-progress-bar",
+    "countdown",
+    "vue",
+    "theme"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "dreambo8563",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/6948318?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://dreambo8563.github.io/easy-circular-progress/",
+    "repo": "https://github.com/dreambo8563/easy-circular-progress"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

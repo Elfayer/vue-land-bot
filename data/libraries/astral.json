@@ -1,0 +1,30 @@
+{
+  "name": "astral",
+  "full_name": "astralapp/astral",
+  "description": "Organize Your GitHub Stars With Ease",
+  "topics": [
+    "github",
+    "stars",
+    "organize",
+    "tags"
+  ],
+  "license": {
+    "key": "bsd-3-clause",
+    "url": "https://api.github.com/licenses/bsd-3-clause",
+    "name": "BSD 3-Clause \"New\" or \"Revised\" License"
+  },
+  "owner": {
+    "login": "astralapp",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/11477125?v=4"
+  },
+  "organization": {
+    "login": "astralapp",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/11477125?v=4"
+  },
+  "links": {
+    "site": "https://astralapp.com",
+    "repo": "https://github.com/astralapp/astral"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

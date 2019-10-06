@@ -1,0 +1,30 @@
+{
+  "name": "vue2-simplert",
+  "full_name": "mazipan/vue2-simplert",
+  "description": "⚠️ Vue 2 Simple Alert Component (SweetAlert Inspired)",
+  "topics": [
+    "vue-sweatalert",
+    "vue2-sweatalert",
+    "vue-popup",
+    "vue2-popup",
+    "vue-alert",
+    "vue2-alert",
+    "vue2-simplert"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "mazipan",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/7221389?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://vue2-simplert.gitbook.io/docs/",
+    "repo": "https://github.com/mazipan/vue2-simplert"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

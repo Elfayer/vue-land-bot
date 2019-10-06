@@ -1,0 +1,46 @@
+{
+  "name": "raven-reader",
+  "full_name": "hello-efficiency-inc/raven-reader",
+  "description": "📖 Simple RSS Reader app made using electron and vue.js",
+  "topics": [
+    "electron",
+    "vue",
+    "javascript",
+    "vuejs",
+    "electron-app",
+    "reader",
+    "rss-feed",
+    "desktop-app",
+    "rss-reader",
+    "feed-reader",
+    "desktop-application",
+    "electron-vue",
+    "electron-application",
+    "newsfeed",
+    "newsreader",
+    "offline-app",
+    "offline-reader",
+    "windows",
+    "linux",
+    "macos"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "hello-efficiency-inc",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/51937412?v=4"
+  },
+  "organization": {
+    "login": "hello-efficiency-inc",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/51937412?v=4"
+  },
+  "links": {
+    "site": null,
+    "repo": "https://github.com/hello-efficiency-inc/raven-reader"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

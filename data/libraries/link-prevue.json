@@ -1,0 +1,28 @@
+{
+  "name": "link-prevue",
+  "full_name": "nivaldomartinez/link-prevue",
+  "description": "Vue component for generate a link preview",
+  "topics": [
+    "link-prevue",
+    "preview",
+    "link-preview",
+    "vue",
+    "vuejs"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "nivaldomartinez",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/33522894?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/nivaldomartinez/link-prevue"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,22 @@
+{
+  "name": "cabloy",
+  "full_name": "zhennann/cabloy",
+  "description": "CabloyJS是一款顶级NodeJS全栈业务开发框架, 基于KoaJS + EggJS + VueJS + Framework7",
+  "topics": [],
+  "license": {
+    "key": "lgpl-3.0",
+    "url": "https://api.github.com/licenses/lgpl-3.0",
+    "name": "GNU Lesser General Public License v3.0"
+  },
+  "owner": {
+    "login": "zhennann",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/24246985?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://cabloy.com",
+    "repo": "https://github.com/zhennann/cabloy"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

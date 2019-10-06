@@ -1,0 +1,33 @@
+{
+  "name": "spa-starter-kit",
+  "full_name": "codecasts/spa-starter-kit",
+  "description": "A highly opinionated starter kit for building Single Page Applications with Laravel and Vue.js",
+  "topics": [
+    "vue",
+    "laravel",
+    "starter-kit",
+    "spa",
+    "single-page-app",
+    "php",
+    "javascript"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "codecasts",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/8230756?v=4"
+  },
+  "organization": {
+    "login": "codecasts",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/8230756?v=4"
+  },
+  "links": {
+    "site": null,
+    "repo": "https://github.com/codecasts/spa-starter-kit"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,43 @@
+{
+  "name": "v-oogle",
+  "full_name": "VeryWow/v-oogle",
+  "description": "Google.com, reVued. 🔎",
+  "topics": [
+    "google",
+    "dart",
+    "javascript",
+    "vue",
+    "search",
+    "engine",
+    "unreal",
+    "absurd",
+    "rich",
+    "feature",
+    "cool",
+    "nice",
+    "stupid",
+    "joke",
+    "not-really-google",
+    "hello-tag-readers",
+    "parody"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "VeryWow",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/26734308?v=4"
+  },
+  "organization": {
+    "login": "VeryWow",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/26734308?v=4"
+  },
+  "links": {
+    "site": "http://v-oogle.com",
+    "repo": "https://github.com/VeryWow/v-oogle"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

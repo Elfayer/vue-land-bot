@@ -1,0 +1,26 @@
+{
+  "name": "vue-axios-plugin",
+  "full_name": "yugasun/vue-axios-plugin",
+  "description": "axios plugin for Vuejs project",
+  "topics": [
+    "vuejs",
+    "axios",
+    "vuejs-plugin"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "yugasun",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/8536173?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/yugasun/vue-axios-plugin"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

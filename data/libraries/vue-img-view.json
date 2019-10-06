@@ -1,0 +1,21 @@
+{
+  "name": "vue-img-view",
+  "full_name": "la7ender/vue-img-view",
+  "description": "a plugin for Vue.js,  you can drag / view / rotate pictures anywhere",
+  "topics": [
+    "vue",
+    "img"
+  ],
+  "license": null,
+  "owner": {
+    "login": "la7ender",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/18119569?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://la7ender.github.io/vue-img-view/",
+    "repo": "https://github.com/la7ender/vue-img-view"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

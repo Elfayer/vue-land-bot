@@ -1,0 +1,30 @@
+{
+  "name": "vue-spinners",
+  "full_name": "Saeris/vue-spinners",
+  "description": "💫 A collection of loading spinner components for Vuejs",
+  "topics": [
+    "loader",
+    "spinners",
+    "loading-indicator",
+    "vue",
+    "vuejs",
+    "vue-components",
+    "vuejs-components"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "Saeris",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/3144549?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://vue-spinners.saeris.io/",
+    "repo": "https://github.com/Saeris/vue-spinners"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,30 @@
+{
+  "name": "vue-responsive-text",
+  "full_name": "shwilliam/vue-responsive-text",
+  "description": "↔ Vue component that scales its child node in relation to its parent node's width",
+  "topics": [
+    "component",
+    "vue",
+    "responsive",
+    "text",
+    "scale",
+    "resize",
+    "tools"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "shwilliam",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/38357771?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://www.npmjs.com/package/vue-responsive-text",
+    "repo": "https://github.com/shwilliam/vue-responsive-text"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

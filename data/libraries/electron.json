@@ -1,0 +1,34 @@
+{
+  "name": "electron",
+  "full_name": "electron/electron",
+  "description": ":electron: Build cross-platform desktop apps with JavaScript, HTML, and CSS",
+  "topics": [
+    "electron",
+    "javascript",
+    "c-plus-plus",
+    "html",
+    "css",
+    "chrome",
+    "nodejs",
+    "v8"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "electron",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/13409222?v=4"
+  },
+  "organization": {
+    "login": "electron",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/13409222?v=4"
+  },
+  "links": {
+    "site": "https://electronjs.org",
+    "repo": "https://github.com/electron/electron"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

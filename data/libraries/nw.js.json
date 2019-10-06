@@ -1,0 +1,31 @@
+{
+  "name": "nw.js",
+  "full_name": "nwjs/nw.js",
+  "description": "Call all Node.js modules directly from DOM/WebWorker and enable a new way of writing applications with all Web technologies.",
+  "topics": [
+    "web-application-framework",
+    "javascript",
+    "desktop",
+    "node-webkit",
+    "nwjs"
+  ],
+  "license": {
+    "key": "other",
+    "url": null,
+    "name": "Other"
+  },
+  "owner": {
+    "login": "nwjs",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/10180421?v=4"
+  },
+  "organization": {
+    "login": "nwjs",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/10180421?v=4"
+  },
+  "links": {
+    "site": "https://nwjs.io",
+    "repo": "https://github.com/nwjs/nw.js"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,22 @@
+{
+  "name": "vue-prerender",
+  "full_name": "eldarc/vue-prerender",
+  "description": "Prerender Vue.js pages as HTML.",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "eldarc",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/19530967?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/eldarc/vue-prerender"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

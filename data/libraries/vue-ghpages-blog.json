@@ -1,0 +1,26 @@
+{
+  "name": "vue-ghpages-blog",
+  "full_name": "viko16/vue-ghpages-blog",
+  "description": "[DEPRECATED] ✏️ A blog based on GitHub Pages built with Vue.js 2 + webpack 3.",
+  "topics": [
+    "vue",
+    "blog",
+    "github-pages"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "viko16",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/5064777?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://viko16.github.io/vue-ghpages-blog/",
+    "repo": "https://github.com/viko16/vue-ghpages-blog"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

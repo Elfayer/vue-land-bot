@@ -1,0 +1,22 @@
+{
+  "name": "vue-qriously",
+  "full_name": "theomessin/vue-qriously",
+  "description": "A Vue component to draw QR codes using Qrious.",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "theomessin",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/7229472?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "http://jsfiddle.net/2tjtcsqe/1/",
+    "repo": "https://github.com/theomessin/vue-qriously"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

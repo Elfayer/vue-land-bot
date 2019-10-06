@@ -1,0 +1,28 @@
+{
+  "name": "vue-tables-2",
+  "full_name": "matfish2/vue-tables-2",
+  "description": "Vue.js 2 grid components",
+  "topics": [
+    "vue",
+    "table",
+    "grid",
+    "vue-components",
+    "datatable"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "matfish2",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/1510460?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://www.npmjs.com/package/vue-tables-2",
+    "repo": "https://github.com/matfish2/vue-tables-2"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,27 @@
+{
+  "name": "vue-promise-btn",
+  "full_name": "STUkh/vue-promise-btn",
+  "description": "Vue.js plugin that handles buttons async lock state. Demo: https://stukh.github.io/vue-promise-btn/",
+  "topics": [
+    "vue",
+    "promise-btn",
+    "vue-promise-btn",
+    "spinner"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "STUkh",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/6096083?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/STUkh/vue-promise-btn"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

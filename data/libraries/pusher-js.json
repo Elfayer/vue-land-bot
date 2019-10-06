@@ -1,0 +1,25 @@
+{
+  "name": "pusher-js",
+  "full_name": "pusher/pusher-js",
+  "description": "Pusher Javascript library | owner=@leesio",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "pusher",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/739550?v=4"
+  },
+  "organization": {
+    "login": "pusher",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/739550?v=4"
+  },
+  "links": {
+    "site": "http://pusher.com",
+    "repo": "https://github.com/pusher/pusher-js"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

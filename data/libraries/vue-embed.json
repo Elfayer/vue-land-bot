@@ -1,0 +1,22 @@
+{
+  "name": "vue-embed",
+  "full_name": "Gomah/vue-embed",
+  "description": "Vue 2.x component based on embed.js https://github.com/ritz078/embed.js",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "Gomah",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/2362138?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://www.npmjs.com/package/vue-embed",
+    "repo": "https://github.com/Gomah/vue-embed"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,22 @@
+{
+  "name": "vue-anime",
+  "full_name": "BenAHammond/vue-anime",
+  "description": "A Vue plugin for adding Anime bindings to Vue components",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "BenAHammond",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/3516389?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/BenAHammond/vue-anime"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,32 @@
+{
+  "name": "vue-toasted",
+  "full_name": "shakee93/vue-toasted",
+  "description": "🖖 Responsive Touch Compatible Toast plugin for VueJS 2+",
+  "topics": [
+    "toast",
+    "vue",
+    "vue-toasted",
+    "responsive",
+    "touch-compatible",
+    "toast-plugin",
+    "notification",
+    "vue-notification",
+    "toastr"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "shakee93",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/14835725?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://shakee93.github.io/vue-toasted/",
+    "repo": "https://github.com/shakee93/vue-toasted"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

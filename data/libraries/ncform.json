@@ -1,0 +1,33 @@
+{
+  "name": "ncform",
+  "full_name": "ncform/ncform",
+  "description": "🍻 ncform, a very nice configuration generation way to develop forms ( vue, json-schema, form, generator )",
+  "topics": [
+    "json-schema",
+    "vue",
+    "form",
+    "form-schema",
+    "generator",
+    "playground",
+    "schema-generation"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "ncform",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/47234409?v=4"
+  },
+  "organization": {
+    "login": "ncform",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/47234409?v=4"
+  },
+  "links": {
+    "site": null,
+    "repo": "https://github.com/ncform/ncform"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

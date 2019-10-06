@@ -1,0 +1,21 @@
+{
+  "name": "advanced-select",
+  "full_name": "myENA/advanced-select",
+  "description": "Custom select component using Vue.JS",
+  "topics": [],
+  "license": null,
+  "owner": {
+    "login": "myENA",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/17278275?v=4"
+  },
+  "organization": {
+    "login": "myENA",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/17278275?v=4"
+  },
+  "links": {
+    "site": null,
+    "repo": "https://github.com/myENA/advanced-select"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,26 @@
+{
+  "name": "vue-input-code",
+  "full_name": "zhouyuexie/vue-input-code",
+  "description": "base on vue2.0+ verification code input component. (基于Vue2.0+的移动端验证码输入组件)",
+  "topics": [
+    "vue",
+    "code",
+    "input"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "zhouyuexie",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/7876750?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/zhouyuexie/vue-input-code"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

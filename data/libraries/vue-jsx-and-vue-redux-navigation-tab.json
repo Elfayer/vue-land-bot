@@ -1,0 +1,26 @@
+{
+  "name": "vue-jsx-and-vue-redux-navigation-tab",
+  "full_name": "ShuvoHabib/vue-jsx-and-vue-redux-navigation-tab",
+  "description": "Navigation Tab with both plain VUE and VUE + Redux . Featured in Awesome-Vue",
+  "topics": [
+    "vue-tab",
+    "vuejsx-tab",
+    "vuejs2",
+    "vue-redux-boilerplate",
+    "vue-redux-tab",
+    "navigation-tab",
+    "vue-redux-navigation-tab"
+  ],
+  "license": null,
+  "owner": {
+    "login": "ShuvoHabib",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/7802528?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/ShuvoHabib/vue-jsx-and-vue-redux-navigation-tab"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

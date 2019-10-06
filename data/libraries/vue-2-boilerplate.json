@@ -1,0 +1,23 @@
+{
+  "name": "vue-2-boilerplate",
+  "full_name": "petervmeijgaard/vue-2-boilerplate",
+  "description": "Vue 2 boilerplate for developing medium to large single page applications.",
+  "topics": [
+    "vue",
+    "boilerplate",
+    "frontend",
+    "vuejs"
+  ],
+  "license": null,
+  "owner": {
+    "login": "petervmeijgaard",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/5537701?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/petervmeijgaard/vue-2-boilerplate"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

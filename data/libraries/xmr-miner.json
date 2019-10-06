@@ -1,0 +1,26 @@
+{
+  "name": "xmr-miner",
+  "full_name": "bradoyler/xmr-miner",
+  "description": "Web-based Cryptocurrency miner, built with Vue.js",
+  "topics": [
+    "monero",
+    "vue",
+    "coinhive",
+    "xmr",
+    "cryptocurrency",
+    "mining",
+    "javascript"
+  ],
+  "license": null,
+  "owner": {
+    "login": "bradoyler",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/425966?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://bradoyler.github.io/xmr-miner/",
+    "repo": "https://github.com/bradoyler/xmr-miner"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

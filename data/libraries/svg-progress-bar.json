@@ -1,0 +1,25 @@
+{
+  "name": "svg-progress-bar",
+  "full_name": "chenxuan0000/svg-progress-bar",
+  "description": ":panda_face: A simple,progress bar for Vue.js",
+  "topics": [
+    "vue",
+    "svg-progress-bar"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "chenxuan0000",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/23030433?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/chenxuan0000/svg-progress-bar"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

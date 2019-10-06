@@ -1,0 +1,30 @@
+{
+  "name": "hotel",
+  "full_name": "typicode/hotel",
+  "description": "🏩 A simple process manager for developers. Start apps from your browser and access them using local domains",
+  "topics": [
+    "process-manager",
+    "front-end",
+    "devtools",
+    "https",
+    "local",
+    "local-domain",
+    "proxy"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "typicode",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/5502029?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/typicode/hotel"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

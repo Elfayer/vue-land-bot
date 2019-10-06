@@ -1,0 +1,23 @@
+{
+  "name": "vue-storybook",
+  "full_name": "mattrothenberg/vue-storybook",
+  "description": "Custom <story> blocks for Vue single file components",
+  "topics": [
+    "vue",
+    "storybook",
+    "styleguide",
+    "vuejs"
+  ],
+  "license": null,
+  "owner": {
+    "login": "mattrothenberg",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/5148596?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/mattrothenberg/vue-storybook"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

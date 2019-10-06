@@ -1,0 +1,22 @@
+{
+  "name": "vue-material-dashboard",
+  "full_name": "lucduong/vue-material-dashboard",
+  "description": "Vue Material Dashboard - Inspired by Material Dashboard of Creative Tim.",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "lucduong",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/2667418?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/lucduong/vue-material-dashboard"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,35 @@
+{
+  "name": "protovue",
+  "full_name": "v1Labs/protovue",
+  "description": "A prototyping component library",
+  "topics": [
+    "vuejs",
+    "vuejs2",
+    "vuejs-components",
+    "vuejs-plugin",
+    "prototype-kit",
+    "prototyping",
+    "prototyping-interactions",
+    "prototyping-html-layouts",
+    "component-library"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "v1Labs",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/39070366?v=4"
+  },
+  "organization": {
+    "login": "v1Labs",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/39070366?v=4"
+  },
+  "links": {
+    "site": null,
+    "repo": "https://github.com/v1Labs/protovue"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

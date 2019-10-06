@@ -1,0 +1,31 @@
+{
+  "name": "vue-api-request",
+  "full_name": "ftgibran/vue-api-request",
+  "description": "Control your API calls by using an amazing component which supports axios and vue-resource",
+  "topics": [
+    "api",
+    "request",
+    "vuejs",
+    "axios",
+    "vue-resource",
+    "ajax",
+    "component",
+    "loader"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "ftgibran",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/5324787?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://ftgibran.github.io/#/vue-api-request",
+    "repo": "https://github.com/ftgibran/vue-api-request"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

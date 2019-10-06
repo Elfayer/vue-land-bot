@@ -1,0 +1,28 @@
+{
+  "name": "vue-multiselect",
+  "full_name": "shentao/vue-multiselect",
+  "description": "Universal select/multiselect/tagging component for Vue.js",
+  "topics": [
+    "vue",
+    "dropdown",
+    "select",
+    "component",
+    "javascript"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "shentao",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/3737591?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://vue-multiselect.js.org/",
+    "repo": "https://github.com/shentao/vue-multiselect"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

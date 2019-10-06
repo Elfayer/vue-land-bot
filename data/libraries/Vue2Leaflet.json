@@ -1,0 +1,27 @@
+{
+  "name": "Vue2Leaflet",
+  "full_name": "KoRiGaN/Vue2Leaflet",
+  "description": "Vue 2 components for Leaflet maps",
+  "topics": [
+    "map",
+    "leaflet",
+    "vue",
+    "vuejs"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "KoRiGaN",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/924890?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/KoRiGaN/Vue2Leaflet"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

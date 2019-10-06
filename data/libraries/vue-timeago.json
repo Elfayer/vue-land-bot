@@ -1,0 +1,22 @@
+{
+  "name": "vue-timeago",
+  "full_name": "egoist/vue-timeago",
+  "description": "A timeago component for Vue.",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "egoist",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/8784712?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://vue-timeago.egoist.sh",
+    "repo": "https://github.com/egoist/vue-timeago"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,26 @@
+{
+  "name": "vue2-siema",
+  "full_name": "sainf/vue2-siema",
+  "description": "A vue 2 plugin wrapper for the great siema carousel",
+  "topics": [
+    "vue",
+    "carousel-plugin",
+    "siema"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "sainf",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/1210947?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/sainf/vue2-siema"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

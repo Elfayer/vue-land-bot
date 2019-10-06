@@ -1,0 +1,30 @@
+{
+  "name": "vue-patterns",
+  "full_name": "learn-vuejs/vue-patterns",
+  "description": "Useful Vue patterns, techniques, tips and tricks and helpful curated links.",
+  "topics": [
+    "vue",
+    "vuejs",
+    "vue-patterns",
+    "vue-components"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "learn-vuejs",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/38835652?v=4"
+  },
+  "organization": {
+    "login": "learn-vuejs",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/38835652?v=4"
+  },
+  "links": {
+    "site": "https://learn-vuejs.github.io/vue-patterns/",
+    "repo": "https://github.com/learn-vuejs/vue-patterns"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

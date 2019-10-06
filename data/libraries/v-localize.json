@@ -1,0 +1,32 @@
+{
+  "name": "v-localize",
+  "full_name": "neetjn/v-localize",
+  "description": "Simple localization plugin for the amazing Vue.js.",
+  "topics": [
+    "vuejs",
+    "javascript",
+    "i18n",
+    "language",
+    "babel",
+    "es6",
+    "vue",
+    "locale",
+    "localize"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "neetjn",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/6997592?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://neetjn.github.io/v-localize/",
+    "repo": "https://github.com/neetjn/v-localize"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

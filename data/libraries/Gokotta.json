@@ -1,0 +1,26 @@
+{
+  "name": "Gokotta",
+  "full_name": "Zhangdroid/Gokotta",
+  "description": "A simple music player built by electron and vue",
+  "topics": [
+    "electron",
+    "vue",
+    "music-player"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "Zhangdroid",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/6471705?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/Zhangdroid/Gokotta"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

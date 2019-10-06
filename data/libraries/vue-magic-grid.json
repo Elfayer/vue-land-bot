@@ -1,0 +1,26 @@
+{
+  "name": "vue-magic-grid",
+  "full_name": "imlinus/vue-magic-grid",
+  "description": "🧙‍♂️🔌 Responsive Magic Grid for Vue",
+  "topics": [
+    "grid",
+    "masonry",
+    "vue"
+  ],
+  "license": {
+    "key": "unlicense",
+    "url": "https://api.github.com/licenses/unlicense",
+    "name": "The Unlicense"
+  },
+  "owner": {
+    "login": "imlinus",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/2436222?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://npmjs.com/package/vue-magic-grid",
+    "repo": "https://github.com/imlinus/vue-magic-grid"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,31 +1,45 @@
 {
-  "name": "Quasar",
-  "tagline": "Build high-performance VueJS user interfaces in record time",
-  "tags": [
-    "ui",
-    "framework",
-    "material",
-    "design",
-    "component",
-    "library",
-    "cordova",
-    "mobile",
-    "electron"
-  ],
+  "name": "quasar",
   "icon": "quasar.png",
-  "colour": "#42A5F5",
-  "url": {
-    "site": "https://quasar.dev/",
+  "full_name": "quasarframework/quasar",
+  "description": "Quasar Framework - Build high-performance VueJS user interfaces in record time",
+  "topics": [
+    "quasar-framework",
+    "vuejs",
+    "vuejs2",
+    "vue",
+    "vue-component",
+    "javascript",
+    "ios",
+    "android",
+    "electron",
+    "material",
+    "vue-components",
+    "material-theme",
+    "material-design",
+    "material-components",
+    "vue2",
+    "pwa",
+    "ssr",
+    "server-side-rendering"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "quasarframework",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/23064371?v=4"
+  },
+  "organization": {
+    "login": "quasarframework",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/23064371?v=4"
+  },
+  "links": {
+    "site": "https://quasar.dev",
     "repo": "https://github.com/quasarframework/quasar"
   },
-  "fields": [
-    "Quasar (pronounced /ˈkweɪ.zɑɹ/) is an MIT licensed open-source Vue.js based framework, which allows you as a web developer to quickly create responsive++ websites/apps in many flavours.",
-    "Quasar’s motto is: write code once and simultaneously deploy it as a website, a Mobile App and/or an Electron App. Yes, one codebase for all of them, helping you develop an app in record time by using a state of the art CLI and backed by best-practice, blazing fast Quasar web components.",
-    "When using Quasar, you won’t need additional heavy libraries like Hammerjs, Momentjs or Bootstrap. It’s got those needs covered internally, and all with a small footprint!"
-  ],
-  "author": {
-    "name": "Razvan Stoenescu",
-    "url": "https://github.com/rstoenescu",
-    "avatar": "rstoenescu.jpeg"
-  }
+  "aliases": [],
+  "colour": "#4FC08D"
 }

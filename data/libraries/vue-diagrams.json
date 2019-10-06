@@ -1,0 +1,27 @@
+{
+  "name": "vue-diagrams",
+  "full_name": "gwenaelp/vue-diagrams",
+  "description": "Diagram component for vue.js, inspired by react-diagrams",
+  "topics": [
+    "vue",
+    "diagram",
+    "vue-components",
+    "vue-component"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "gwenaelp",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/5365267?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/gwenaelp/vue-diagrams"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

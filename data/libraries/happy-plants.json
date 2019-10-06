@@ -1,0 +1,29 @@
+{
+  "name": "happy-plants",
+  "full_name": "morkro/happy-plants",
+  "description": "🌵 Web application to manage plants",
+  "topics": [
+    "vuejs",
+    "pwa",
+    "plants",
+    "happy-plants",
+    "gardening",
+    "green-technologies"
+  ],
+  "license": {
+    "key": "bsd-3-clause",
+    "url": "https://api.github.com/licenses/bsd-3-clause",
+    "name": "BSD 3-Clause \"New\" or \"Revised\" License"
+  },
+  "owner": {
+    "login": "morkro",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/2461956?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://happyplants.garden",
+    "repo": "https://github.com/morkro/happy-plants"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

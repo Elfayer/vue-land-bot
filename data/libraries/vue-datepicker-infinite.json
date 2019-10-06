@@ -1,0 +1,18 @@
+{
+  "name": "vue-datepicker-infinite",
+  "full_name": "leepyng/vue-datepicker-infinite",
+  "description": "easy datepicker of a vue 2.0 component",
+  "topics": [],
+  "license": null,
+  "owner": {
+    "login": "leepyng",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/10140473?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/leepyng/vue-datepicker-infinite"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,32 @@
+{
+  "name": "pretty-checkbox-vue",
+  "full_name": "hamed-ehtesham/pretty-checkbox-vue",
+  "description": "Quickly integrate pretty checkbox components with Vue.js",
+  "topics": [
+    "checkbox",
+    "radio-buttons",
+    "css",
+    "html",
+    "bootstrap",
+    "animation",
+    "scss",
+    "vuejs2",
+    "js"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "hamed-ehtesham",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/14082075?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/hamed-ehtesham/pretty-checkbox-vue"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

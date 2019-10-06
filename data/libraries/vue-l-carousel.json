@@ -1,0 +1,27 @@
+{
+  "name": "vue-l-carousel",
+  "full_name": "lsycxyj/vue-l-carousel",
+  "description": "A responsive carousel(namely slider or swiper) component for Vue.js v2.x+.",
+  "topics": [
+    "vue",
+    "carousel",
+    "swipe",
+    "slide"
+  ],
+  "license": {
+    "key": "lgpl-3.0",
+    "url": "https://api.github.com/licenses/lgpl-3.0",
+    "name": "GNU Lesser General Public License v3.0"
+  },
+  "owner": {
+    "login": "lsycxyj",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/916567?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/lsycxyj/vue-l-carousel"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

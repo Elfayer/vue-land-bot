@@ -1,0 +1,33 @@
+{
+  "name": "Vue-Bootstrap-with-Material-Design",
+  "full_name": "mdbootstrap/Vue-Bootstrap-with-Material-Design",
+  "description": "Vue Bootstrap with Material Design - Powerful and free UI KIT",
+  "topics": [
+    "vue",
+    "bootstrap",
+    "frontend",
+    "vuejs",
+    "framework",
+    "css",
+    "material-design",
+    "design",
+    "bootstrap4",
+    "material-design-for-bootstrap"
+  ],
+  "license": {
+    "key": "other",
+    "url": null,
+    "name": "Other"
+  },
+  "owner": {
+    "login": "mdbootstrap",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/20553039?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://mdbootstrap.com/docs/vue/",
+    "repo": "https://github.com/mdbootstrap/Vue-Bootstrap-with-Material-Design"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,28 @@
+{
+  "name": "vue-simple-bem",
+  "full_name": "mlturner88/vue-simple-bem",
+  "description": "A simple Vue.js directive to map BEM CSS class names.",
+  "topics": [
+    "vue",
+    "vuejs",
+    "bem",
+    "bem-css",
+    "typescript"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "mlturner88",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/6932385?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/mlturner88/vue-simple-bem"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

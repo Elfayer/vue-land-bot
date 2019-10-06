@@ -1,0 +1,26 @@
+{
+  "name": "vue-masked-input",
+  "full_name": "niksmr/vue-masked-input",
+  "description": "Masked input component for Vue.js",
+  "topics": [
+    "vue",
+    "inputmask",
+    "ui-components"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "niksmr",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/25283632?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://niksmr.github.io/vue-masked-input/",
+    "repo": "https://github.com/niksmr/vue-masked-input"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

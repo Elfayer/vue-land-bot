@@ -1,0 +1,31 @@
+{
+  "name": "vue-datetime",
+  "full_name": "mariomka/vue-datetime",
+  "description": "Mobile friendly datetime picker for Vue. Supports date and datetime modes, i18n and disabling dates.",
+  "topics": [
+    "datepicker",
+    "datetimepicker",
+    "date",
+    "time",
+    "datetime",
+    "timepicker",
+    "vue",
+    "mobile-friendly"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "mariomka",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/1822472?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "http://mariomka.github.io/vue-datetime",
+    "repo": "https://github.com/mariomka/vue-datetime"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

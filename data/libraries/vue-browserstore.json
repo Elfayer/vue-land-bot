@@ -1,0 +1,22 @@
+{
+  "name": "vue-browserstore",
+  "full_name": "gvost/vue-browserstore",
+  "description": "A very thin VueJS wrapper around local & session browser storage",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "gvost",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/3539870?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/gvost/vue-browserstore"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

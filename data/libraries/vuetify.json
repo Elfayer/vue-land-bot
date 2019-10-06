@@ -1,21 +1,46 @@
 {
-  "name": "Vuetify",
-  "tagline": "Material Design Component Framework.",
-  "tags": ["ui", "framework", "material", "design", "component", "library"],
+  "name": "vuetify",
   "icon": "vuetify.png",
-  "colour": "#7BC6FF",
-  "url": {
-    "site": "https://vuetifyjs.com/en/",
+  "full_name": "vuetifyjs/vuetify",
+  "description": "🐉 Material Component Framework for Vue.js 2",
+  "topics": [
+    "vue",
+    "vuejs",
+    "vuejs2",
+    "vue2",
+    "vue-components",
+    "vue-component",
+    "material-design",
+    "material",
+    "material-theme",
+    "material-components",
+    "javascript",
+    "semantic",
+    "vue-material",
+    "vuetify",
+    "vuetifyjs",
+    "ui",
+    "ui-components",
+    "ui-kit",
+    "typescript"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "vuetifyjs",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/22138497?v=4"
+  },
+  "organization": {
+    "login": "vuetifyjs",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/22138497?v=4"
+  },
+  "links": {
+    "site": "https://vuetifyjs.com",
     "repo": "https://github.com/vuetifyjs/vuetify"
   },
-  "fields": [
-    "Vuetify is a semantic component framework for Vue. It aims to provide clean, semantic and reusable components that make building your application a breeze.",
-    "Build amazing applications with the power of Vue, Material Design and a massive library of beautifully crafted components and features. Built according to Google's Material Design Spec, Vuetify components feature an easy-to-remember semantic design that shifts remembering complex classes and markup, to type-as-you speak properties that have simple and clear names.",
-    "Harness the power of the Vuetify community and get help 24/7 from the development team and our talented community members across the world. Become a backer and get access to dedicated support from the team."
-  ],
-  "author": {
-    "name": "John Leider",
-    "url": "https://github.com/johnleider",
-    "avatar": "johnleider.png"
-  }
+  "aliases": [],
+  "colour": "#4FC08D"
 }

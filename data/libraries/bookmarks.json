@@ -1,0 +1,27 @@
+{
+  "name": "bookmarks",
+  "full_name": "dyu/bookmarks",
+  "description": "a simple self-hosted bookmarking app that can import bookmarks from delicious and chrome",
+  "topics": [
+    "bookmarking",
+    "bookmarklet",
+    "self-hosted",
+    "desktop-app"
+  ],
+  "license": {
+    "key": "apache-2.0",
+    "url": "https://api.github.com/licenses/apache-2.0",
+    "name": "Apache License 2.0"
+  },
+  "owner": {
+    "login": "dyu",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/79355?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://apps.dyuproject.com/bookmarks/",
+    "repo": "https://github.com/dyu/bookmarks"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,28 @@
+{
+  "name": "vue-3d-model",
+  "full_name": "hujiulong/vue-3d-model",
+  "description": "📷 vue.js 3D model viewer component",
+  "topics": [
+    "vue",
+    "components",
+    "webgl",
+    "threejs",
+    "vue-3d-model"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "hujiulong",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/13267437?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://hujiulong.github.io/vue-3d-model/#/demo-basic",
+    "repo": "https://github.com/hujiulong/vue-3d-model"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

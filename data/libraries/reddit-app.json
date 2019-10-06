@@ -1,0 +1,35 @@
+{
+  "name": "reddit-app",
+  "full_name": "yujiahaol68/reddit-app",
+  "description": "A reddit web app using vue + webpack. Data from reddit API",
+  "topics": [
+    "vue-webpack",
+    "reddit-web",
+    "vue2",
+    "vue-cli",
+    "vuex",
+    "vue-router",
+    "axios",
+    "sass",
+    "es6",
+    "spa",
+    "reddit-api",
+    "sass-loader"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "yujiahaol68",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/8140208?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/yujiahaol68/reddit-app"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

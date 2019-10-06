@@ -1,0 +1,22 @@
+{
+  "name": "vue-insomnia",
+  "full_name": "gorbypark/vue-insomnia",
+  "description": "Prevents the display of a mobile device from going to sleep by playing a small mp4 video that's positioned off screen on a loop (aka wake lock).",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "gorbypark",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/19569469?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/gorbypark/vue-insomnia"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

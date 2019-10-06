@@ -1,0 +1,33 @@
+{
+  "name": "vue-load-image",
+  "full_name": "john015/vue-load-image",
+  "description": "A Vue component for showing loader during image loading https://john015.github.io/vue-load-image/",
+  "topics": [
+    "image-loader",
+    "image",
+    "vue-image-loader",
+    "loader",
+    "image-preloader",
+    "vue-load-image",
+    "vuejs",
+    "vue-components",
+    "vue",
+    "vue-image"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "john015",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/32455422?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/john015/vue-load-image"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

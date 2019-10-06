@@ -1,0 +1,18 @@
+{
+  "name": "vue-bulma-accordion",
+  "full_name": "Lunrtick/vue-bulma-accordion",
+  "description": "A simple, easily configurable accordion or collapsible for Vue, styled with Bulma",
+  "topics": [],
+  "license": null,
+  "owner": {
+    "login": "Lunrtick",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/31224135?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://lunrtick.github.io/vue-bulma-accordion/",
+    "repo": "https://github.com/Lunrtick/vue-bulma-accordion"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

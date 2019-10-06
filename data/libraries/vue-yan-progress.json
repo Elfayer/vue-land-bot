@@ -1,0 +1,29 @@
+{
+  "name": "vue-yan-progress",
+  "full_name": "Yangfan2016/vue-yan-progress",
+  "description": "This is a cascading progress bar plugin based on vue",
+  "topics": [
+    "vue",
+    "vue-plugin",
+    "progress-bar",
+    "webapck4",
+    "jest",
+    "coveralls"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "Yangfan2016",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/17830872?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/Yangfan2016/vue-yan-progress"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

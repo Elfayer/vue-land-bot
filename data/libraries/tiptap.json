@@ -1,0 +1,34 @@
+{
+  "name": "tiptap",
+  "full_name": "scrumpy/tiptap",
+  "description": "A rich-text editor for Vue.js",
+  "topics": [
+    "js",
+    "vue",
+    "wysiwyg",
+    "wysiwyg-editor",
+    "rich-text",
+    "editor",
+    "javascript",
+    "browser"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "scrumpy",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/37333181?v=4"
+  },
+  "organization": {
+    "login": "scrumpy",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/37333181?v=4"
+  },
+  "links": {
+    "site": "https://tiptap.scrumpy.io",
+    "repo": "https://github.com/scrumpy/tiptap"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

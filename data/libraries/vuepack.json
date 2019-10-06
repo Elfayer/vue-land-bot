@@ -1,0 +1,22 @@
+{
+  "name": "vuepack",
+  "full_name": "egoist/vuepack",
+  "description": ":package: A modern starter  which uses Vue 2, Vuex, Vue-router and Webpack 2 (and even Electron)",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "egoist",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/8784712?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "http://vuepack.surge.sh",
+    "repo": "https://github.com/egoist/vuepack"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

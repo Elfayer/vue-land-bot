@@ -1,0 +1,25 @@
+{
+  "name": "mm",
+  "full_name": "iutbay/mm",
+  "description": "Open source Web File Manager (Javascript + VueJS 2)",
+  "topics": [],
+  "license": {
+    "key": "bsd-3-clause",
+    "url": "https://api.github.com/licenses/bsd-3-clause",
+    "name": "BSD 3-Clause \"New\" or \"Revised\" License"
+  },
+  "owner": {
+    "login": "iutbay",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/5923324?v=4"
+  },
+  "organization": {
+    "login": "iutbay",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/5923324?v=4"
+  },
+  "links": {
+    "site": "https://www.iutbayonne.univ-pau.fr/~klevron/mm/",
+    "repo": "https://github.com/iutbay/mm"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

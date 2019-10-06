@@ -1,0 +1,26 @@
+{
+  "name": "vue2-filters",
+  "full_name": "freearhey/vue2-filters",
+  "description": "A collection of Vue.js filters",
+  "topics": [
+    "vue",
+    "vue2-filters",
+    "filters"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "freearhey",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/7253922?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/freearhey/vue2-filters"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

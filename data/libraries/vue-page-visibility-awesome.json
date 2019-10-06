@@ -1,0 +1,22 @@
+{
+  "name": "vue-page-visibility-awesome",
+  "full_name": "stefanodotit/vue-page-visibility-awesome",
+  "description": "A Vue 2.x component of easy-to-config page visibility api",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "stefanodotit",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/4629716?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/stefanodotit/vue-page-visibility-awesome"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

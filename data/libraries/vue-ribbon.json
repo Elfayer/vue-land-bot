@@ -1,0 +1,29 @@
+{
+  "name": "vue-ribbon",
+  "full_name": "P3trur0/vue-ribbon",
+  "description": "Vue component for GitHub ribbons",
+  "topics": [
+    "vue",
+    "vuejs",
+    "vue-components",
+    "vuejs-components",
+    "ribbon",
+    "github"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "P3trur0",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/11474157?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "http://flatmap.it/vue-ribbon",
+    "repo": "https://github.com/P3trur0/vue-ribbon"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

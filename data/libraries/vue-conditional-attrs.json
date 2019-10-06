@@ -1,0 +1,22 @@
+{
+  "name": "vue-conditional-attrs",
+  "full_name": "FL3NKEY/vue-conditional-attrs",
+  "description": "A Vue.js component for conditional rendering attributes and directives.",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "FL3NKEY",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/23209987?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/FL3NKEY/vue-conditional-attrs"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

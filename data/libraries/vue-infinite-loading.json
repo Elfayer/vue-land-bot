@@ -1,0 +1,25 @@
+{
+  "name": "vue-infinite-loading",
+  "full_name": "PeachScript/vue-infinite-loading",
+  "description": "An infinite scroll plugin for Vue.js.",
+  "topics": [
+    "vue",
+    "infinite-scroll-plugin"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "PeachScript",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/5035925?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://peachscript.github.io/vue-infinite-loading/",
+    "repo": "https://github.com/PeachScript/vue-infinite-loading"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,18 @@
+{
+  "name": "vuejs-noty",
+  "full_name": "renoguyon/vuejs-noty",
+  "description": "A Vue JS wrapper around Noty",
+  "topics": [],
+  "license": null,
+  "owner": {
+    "login": "renoguyon",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/2380881?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/renoguyon/vuejs-noty"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

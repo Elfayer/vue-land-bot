@@ -1,0 +1,22 @@
+{
+  "name": "vue-quick-menu",
+  "full_name": "AshleyLv/vue-quick-menu",
+  "description": "This is web navigation component base on vue2.0+. It can be used in both PC and mobile.",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "AshleyLv",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/20264075?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/AshleyLv/vue-quick-menu"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

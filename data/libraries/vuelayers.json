@@ -1,0 +1,35 @@
+{
+  "name": "vuelayers",
+  "full_name": "ghettovoice/vuelayers",
+  "description": "Web map Vue components with the power of OpenLayers",
+  "topics": [
+    "vue",
+    "vue2",
+    "vuejs",
+    "vuejs2",
+    "openlayers",
+    "ol",
+    "ol3",
+    "openlayers3",
+    "openlayers4",
+    "vue-components",
+    "vuejs-components",
+    "vuelayers"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "ghettovoice",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/4323000?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://vuelayers.github.io/",
+    "repo": "https://github.com/ghettovoice/vuelayers"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

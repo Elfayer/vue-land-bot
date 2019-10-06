@@ -1,0 +1,22 @@
+{
+  "name": "vue-router-lite",
+  "full_name": "ccqgithub/vue-router-lite",
+  "description": "A component-based, declarative router for Vue 2.6+. ",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "ccqgithub",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/1654761?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/ccqgithub/vue-router-lite"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

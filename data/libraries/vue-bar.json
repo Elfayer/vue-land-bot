@@ -1,0 +1,28 @@
+{
+  "name": "vue-bar",
+  "full_name": "DeviaVir/vue-bar",
+  "description": "Simple, elegant spark bars for Vue.js",
+  "topics": [
+    "vue",
+    "chart",
+    "bar",
+    "css",
+    "svg"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "DeviaVir",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/777823?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://deviavir.github.io/vue-bar/",
+    "repo": "https://github.com/DeviaVir/vue-bar"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

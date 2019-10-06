@@ -1,0 +1,24 @@
+{
+  "name": "vue-moment-jalaali",
+  "full_name": "saman/vue-moment-jalaali",
+  "description": "Jalaali Moment.js filters for your Vue.js project",
+  "topics": [
+    "vue",
+    "vuejs",
+    "momentjs",
+    "jalaali",
+    "datetime"
+  ],
+  "license": null,
+  "owner": {
+    "login": "saman",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/1576246?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/saman/vue-moment-jalaali"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,29 @@
+{
+  "name": "vue-command",
+  "full_name": "ndabAP/vue-command",
+  "description": "A fully working, most feature-rich Vue.js terminal emulator",
+  "topics": [
+    "vue",
+    "terminal",
+    "javascript",
+    "cmd",
+    "bash",
+    "vuejs"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "ndabAP",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/8510570?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://ndabap.github.io/vue-command/",
+    "repo": "https://github.com/ndabAP/vue-command"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

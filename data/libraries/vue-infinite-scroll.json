@@ -1,0 +1,21 @@
+{
+  "name": "vue-infinite-scroll",
+  "full_name": "ElemeFE/vue-infinite-scroll",
+  "description": "An infinite scroll directive for vue.js.",
+  "topics": [],
+  "license": null,
+  "owner": {
+    "login": "ElemeFE",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/12810740?v=4"
+  },
+  "organization": {
+    "login": "ElemeFE",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/12810740?v=4"
+  },
+  "links": {
+    "site": null,
+    "repo": "https://github.com/ElemeFE/vue-infinite-scroll"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

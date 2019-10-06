@@ -1,0 +1,22 @@
+{
+  "name": "vue-separate-files-webpack-loader",
+  "full_name": "NetCZ/vue-separate-files-webpack-loader",
+  "description": "Vue separated components loader for Webpack",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "NetCZ",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/388278?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/NetCZ/vue-separate-files-webpack-loader"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

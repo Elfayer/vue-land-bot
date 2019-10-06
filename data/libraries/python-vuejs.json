@@ -1,0 +1,30 @@
+{
+  "name": "python-vuejs",
+  "full_name": "cstrap/python-vuejs",
+  "description": "Gluing Python web frameworks and Vue.js with a set of scripts... basically a wrapper :smile:",
+  "topics": [
+    "python",
+    "python3",
+    "vuejs2",
+    "vuejs",
+    "django",
+    "flask",
+    "wrapper"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "cstrap",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/146691?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/cstrap/python-vuejs"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,22 @@
+{
+  "name": "vue-worker",
+  "full_name": "israelss/vue-worker",
+  "description": "A Vue.js plugin to use webworkers in a simply way.",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "israelss",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/8899819?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/israelss/vue-worker"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

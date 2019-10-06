@@ -1,0 +1,36 @@
+{
+  "name": "vue-cli-plugin-element",
+  "full_name": "codetrial/vue-cli-plugin-element",
+  "description": "Quickly build an enterprise application with vue-cli and element-ui in seconds.",
+  "topics": [
+    "vue",
+    "vue-cli",
+    "vue-plugin",
+    "vue-cli-plugin",
+    "element",
+    "element-ui",
+    "dashboard",
+    "admin",
+    "template",
+    "boilerplate"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "codetrial",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/42104494?v=4"
+  },
+  "organization": {
+    "login": "codetrial",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/42104494?v=4"
+  },
+  "links": {
+    "site": "https://element-admin.now.sh",
+    "repo": "https://github.com/codetrial/vue-cli-plugin-element"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

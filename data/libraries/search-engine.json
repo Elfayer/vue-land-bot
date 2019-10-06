@@ -1,0 +1,31 @@
+{
+  "name": "search-engine",
+  "full_name": "approach0/search-engine",
+  "description": "A math-aware search engine.",
+  "topics": [
+    "fulltext-search",
+    "information-retrieval",
+    "mathematics",
+    "math-search",
+    "search-engine"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "approach0",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/21076782?v=4"
+  },
+  "organization": {
+    "login": "approach0",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/21076782?v=4"
+  },
+  "links": {
+    "site": "http://approach0.xyz",
+    "repo": "https://github.com/approach0/search-engine"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

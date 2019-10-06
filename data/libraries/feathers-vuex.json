@@ -1,0 +1,25 @@
+{
+  "name": "feathers-vuex",
+  "full_name": "feathers-plus/feathers-vuex",
+  "description": "Integration of FeathersJS, Vue, and Nuxt for the artisan developer",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "feathers-plus",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/32211607?v=4"
+  },
+  "organization": {
+    "login": "feathers-plus",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/32211607?v=4"
+  },
+  "links": {
+    "site": "https://feathers-vuex.feathers-plus.com",
+    "repo": "https://github.com/feathers-plus/feathers-vuex"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

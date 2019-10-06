@@ -1,0 +1,22 @@
+{
+  "name": "vue-default-value",
+  "full_name": "termosa/vue-default-value",
+  "description": "Vue.js 2.x directive to set a default value for editable elements with no affect to the model state",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "termosa",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/494013?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/termosa/vue-default-value"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

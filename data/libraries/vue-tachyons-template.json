@@ -1,0 +1,27 @@
+{
+  "name": "vue-tachyons-template",
+  "full_name": "colorful-tones/vue-tachyons-template",
+  "description": "A Vue.js project starter template w/ Tachyons, Webpack, and ESLint",
+  "topics": [
+    "vue",
+    "vuejs",
+    "vuejs2",
+    "vue-cli",
+    "vue-template",
+    "tachyons",
+    "tachyons-css",
+    "wordpress"
+  ],
+  "license": null,
+  "owner": {
+    "login": "colorful-tones",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/405912?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/colorful-tones/vue-tachyons-template"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

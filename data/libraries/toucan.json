@@ -1,0 +1,32 @@
+{
+  "name": "toucan",
+  "full_name": "mrellipse/toucan",
+  "description": "Boilerplate template using Vue.js, TypeScript and .NET Core 2.1, based on SOLID design principles",
+  "topics": [
+    "vuejs2",
+    "vuex2",
+    "vue-router2",
+    "typescript2",
+    "dotnetcore",
+    "c-sharp",
+    "structuremap",
+    "oauth2-client",
+    "axios"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "mrellipse",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/6157405?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/mrellipse/toucan"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

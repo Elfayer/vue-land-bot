@@ -1,0 +1,27 @@
+{
+  "name": "vue-currency-input",
+  "full_name": "dm4t2/vue-currency-input",
+  "description": "Easy input of currency formatted numbers for Vue.js.",
+  "topics": [
+    "vue",
+    "currency-format",
+    "input-mask",
+    "i18n"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "dm4t2",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/11592259?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://dm4t2.github.io/vue-currency-input/",
+    "repo": "https://github.com/dm4t2/vue-currency-input"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

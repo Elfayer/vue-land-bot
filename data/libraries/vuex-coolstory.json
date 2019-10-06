@@ -1,0 +1,22 @@
+{
+  "name": "vuex-coolstory",
+  "full_name": "Niklv/vuex-coolstory",
+  "description": "Vuex plugin for redux-saga",
+  "topics": [
+    "vuex",
+    "redux-saga",
+    "saga"
+  ],
+  "license": null,
+  "owner": {
+    "login": "Niklv",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/3831943?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/Niklv/vuex-coolstory"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

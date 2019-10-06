@@ -1,0 +1,18 @@
+{
+  "name": "vue2-photo-carousel",
+  "full_name": "leepyng/vue2-photo-carousel",
+  "description": "A component for photo carousel",
+  "topics": [],
+  "license": null,
+  "owner": {
+    "login": "leepyng",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/10140473?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/leepyng/vue2-photo-carousel"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,29 @@
+{
+  "name": "pure-vue-chart",
+  "full_name": "djaxho/pure-vue-chart",
+  "description": "Simple and lightweight vue chart component without using chart library dependencies",
+  "topics": [
+    "vue",
+    "vuejs",
+    "vue-components",
+    "vue2",
+    "vue3",
+    "graph",
+    "chart",
+    "charts",
+    "svg",
+    "trend"
+  ],
+  "license": null,
+  "owner": {
+    "login": "djaxho",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/9688456?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/djaxho/pure-vue-chart"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

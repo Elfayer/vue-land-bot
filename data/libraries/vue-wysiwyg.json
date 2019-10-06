@@ -1,0 +1,27 @@
+{
+  "name": "vue-wysiwyg",
+  "full_name": "chmln/vue-wysiwyg",
+  "description": "A lightweight WYSIWYG HTML editor for Vue.js",
+  "topics": [
+    "wysiwyg",
+    "vue",
+    "wysiwyg-editor",
+    "wysiwyg-html-editor"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "chmln",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/11352152?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://chmln.github.io/vue-wysiwyg/",
+    "repo": "https://github.com/chmln/vue-wysiwyg"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

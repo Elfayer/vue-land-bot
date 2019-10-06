@@ -1,0 +1,30 @@
+{
+  "name": "vue-backtotop",
+  "full_name": "caiofsouza/vue-backtotop",
+  "description": "A Back-to-top component for Vue.js, which scroll page to the top when clicked",
+  "topics": [
+    "vue",
+    "vuejs",
+    "javascript",
+    "component",
+    "backtotop",
+    "js",
+    "npm"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "caiofsouza",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/8903926?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://caiofsouza.github.io/vue-backtotop/example/",
+    "repo": "https://github.com/caiofsouza/vue-backtotop"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

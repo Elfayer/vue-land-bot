@@ -1,0 +1,28 @@
+{
+  "name": "vue-rate",
+  "full_name": "SinanMtl/vue-rate",
+  "description": "Rate component for Vue",
+  "topics": [
+    "vue",
+    "vue-components",
+    "vuejs",
+    "javascript",
+    "component"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "SinanMtl",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/4516938?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://sinanmtl.github.io/vue-rate/",
+    "repo": "https://github.com/SinanMtl/vue-rate"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,26 @@
+{
+  "name": "vue-markdown",
+  "full_name": "miaolz123/vue-markdown",
+  "description": "A Powerful and Highspeed Markdown Parser for Vue",
+  "topics": [
+    "vue",
+    "markdown",
+    "vue-components"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "miaolz123",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/4599928?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://miaolz123.github.io/vue-markdown/",
+    "repo": "https://github.com/miaolz123/vue-markdown"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

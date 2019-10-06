@@ -1,0 +1,32 @@
+{
+  "name": "vue-org-chart",
+  "full_name": "Hoogkamer/vue-org-chart",
+  "description": "Manage and publish your interactive organization chart (orgchart), free and no webserver required.",
+  "topics": [
+    "nuxt",
+    "vue",
+    "vuejs",
+    "organization",
+    "chart",
+    "javascript",
+    "vuex",
+    "orgchart",
+    "department"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "Hoogkamer",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/17671871?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://hoogkamer.github.io/vue-org-chart/#/",
+    "repo": "https://github.com/Hoogkamer/vue-org-chart"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

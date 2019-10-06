@@ -1,0 +1,27 @@
+{
+  "name": "vuex-action",
+  "full_name": "varHarrie/vuex-action",
+  "description": ":hammer: Utilities for vuex to easily create and manage actions.",
+  "topics": [
+    "vuex",
+    "vuex-action",
+    "vuejs",
+    "vuejs2"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "varHarrie",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/14304201?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/varHarrie/vuex-action"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

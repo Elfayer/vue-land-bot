@@ -1,0 +1,29 @@
+{
+  "name": "vue-event-manager",
+  "full_name": "pagekit/vue-event-manager",
+  "description": "The event manager for Vue.js",
+  "topics": [
+    "vue",
+    "javascript",
+    "events"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "pagekit",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/510472?v=4"
+  },
+  "organization": {
+    "login": "pagekit",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/510472?v=4"
+  },
+  "links": {
+    "site": null,
+    "repo": "https://github.com/pagekit/vue-event-manager"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

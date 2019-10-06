@@ -1,0 +1,29 @@
+{
+  "name": "vue-canvas-nest",
+  "full_name": "ZYSzys/vue-canvas-nest",
+  "description": ":dizzy: A Vue.js background component for canvas-nest.",
+  "topics": [
+    "canvas",
+    "canvas-nest",
+    "vue-components",
+    "nest",
+    "html5-canvas",
+    "particles"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "ZYSzys",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/23313266?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "http://zyszys.github.io/vue-canvas-nest/",
+    "repo": "https://github.com/ZYSzys/vue-canvas-nest"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

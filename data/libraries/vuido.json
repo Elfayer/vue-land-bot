@@ -1,0 +1,27 @@
+{
+  "name": "vuido",
+  "full_name": "mimecorg/vuido",
+  "description": "Native desktop applications using Vue.js.",
+  "topics": [
+    "vuido",
+    "vue",
+    "libui",
+    "desktop"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "mimecorg",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/36986002?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://vuido.mimec.org/",
+    "repo": "https://github.com/mimecorg/vuido"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

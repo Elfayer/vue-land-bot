@@ -1,0 +1,35 @@
+{
+  "name": "pwa-module",
+  "full_name": "nuxt-community/pwa-module",
+  "description": "⚡ Supercharge Nuxt with a heavily tested, updated and stable PWA solution",
+  "topics": [
+    "nuxt",
+    "nuxtjs",
+    "pwa",
+    "manifest",
+    "workbox",
+    "offline",
+    "serviceworker",
+    "meta",
+    "nuxt-module"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "nuxt-community",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/29566738?v=4"
+  },
+  "organization": {
+    "login": "nuxt-community",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/29566738?v=4"
+  },
+  "links": {
+    "site": "https://pwa.nuxtjs.org",
+    "repo": "https://github.com/nuxt-community/pwa-module"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

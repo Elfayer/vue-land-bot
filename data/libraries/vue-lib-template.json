@@ -1,0 +1,40 @@
+{
+  "name": "vue-lib-template",
+  "full_name": "biigpongsatorn/vue-lib-template",
+  "description": "🛠 A simple template for building and publishing Vue component/library as a opensource.",
+  "topics": [
+    "vue",
+    "cli",
+    "generator",
+    "component",
+    "publishing",
+    "building",
+    "npm",
+    "npm-package",
+    "npm-module",
+    "generate",
+    "template",
+    "lib",
+    "library",
+    "boilerplate",
+    "webpack",
+    "simple",
+    "opensource"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "biigpongsatorn",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/10693658?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/biigpongsatorn/vue-lib-template"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

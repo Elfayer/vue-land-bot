@@ -1,0 +1,33 @@
+{
+  "name": "vue-comment-grid",
+  "full_name": "TugayYaldiz/vue-comment-grid",
+  "description": "💬 Responsive Vue.js comment system plugin that built with CSS Grid and Firebase REST API + Authentication. https://tugayyaldiz.github.io/vue-comment-grid",
+  "topics": [
+    "vuejs",
+    "grid-system",
+    "css-grid",
+    "firebase",
+    "firebase-rest-api",
+    "firebase-authentication",
+    "plugin",
+    "vue-comment",
+    "comment-grid",
+    "vue"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "TugayYaldiz",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/22748758?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/TugayYaldiz/vue-comment-grid"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

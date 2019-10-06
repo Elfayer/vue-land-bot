@@ -1,0 +1,31 @@
+{
+  "name": "form-create",
+  "full_name": "xaboy/form-create",
+  "description": ":fire::fire::fire: 强大的表单生成器|Form builder with dynamic rendering, data collection, validation and submission capabilities, built-in 17 common form components, support for two-way data binding, event extension, and support for building built-in components and any vue components using json.",
+  "topics": [
+    "iview",
+    "form-builder",
+    "element-ui",
+    "vuejs",
+    "json-forms",
+    "form-generator",
+    "vue-components",
+    "crmeb"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "xaboy",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/21242408?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "http://www.form-create.com/v2/",
+    "repo": "https://github.com/xaboy/form-create"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

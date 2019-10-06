@@ -1,0 +1,22 @@
+{
+  "name": "vue-js-popover",
+  "full_name": "euvl/vue-js-popover",
+  "description": ":dango: Vue.js 2 library for dropdowns / popovers / tooltips",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "euvl",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/1577802?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "http://vue-js-dropdown.yev.io/",
+    "repo": "https://github.com/euvl/vue-js-popover"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

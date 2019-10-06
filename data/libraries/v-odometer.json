@@ -1,0 +1,29 @@
+{
+  "name": "v-odometer",
+  "full_name": "JefferyHus/v-odometer",
+  "description": "Odometer VueJS component",
+  "topics": [
+    "vuejs2",
+    "vuejs",
+    "vue-components",
+    "odometer",
+    "animations",
+    "transitions"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "JefferyHus",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/3521144?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/JefferyHus/v-odometer"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

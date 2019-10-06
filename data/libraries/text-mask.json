@@ -1,0 +1,33 @@
+{
+  "name": "text-mask",
+  "full_name": "text-mask/text-mask",
+  "description": "Input mask for React, Angular, Ember, Vue, & plain JavaScript",
+  "topics": [
+    "input-mask",
+    "inputmask",
+    "text-formatting",
+    "react",
+    "angular",
+    "vue",
+    "ember"
+  ],
+  "license": {
+    "key": "unlicense",
+    "url": "https://api.github.com/licenses/unlicense",
+    "name": "The Unlicense"
+  },
+  "owner": {
+    "login": "text-mask",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/21117230?v=4"
+  },
+  "organization": {
+    "login": "text-mask",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/21117230?v=4"
+  },
+  "links": {
+    "site": "https://text-mask.github.io/text-mask/",
+    "repo": "https://github.com/text-mask/text-mask"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

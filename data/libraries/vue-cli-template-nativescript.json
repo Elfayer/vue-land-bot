@@ -1,0 +1,22 @@
+{
+  "name": "vue-cli-template-nativescript",
+  "full_name": "julon/vue-cli-template-nativescript",
+  "description": "Template for starting new nativescript+vue projects with rollup+babel+eslint+SemanticRelease",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "julon",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/11995684?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/julon/vue-cli-template-nativescript"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

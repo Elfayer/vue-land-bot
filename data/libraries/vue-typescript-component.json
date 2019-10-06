@@ -1,0 +1,25 @@
+{
+  "name": "vue-typescript-component",
+  "full_name": "locoslab/vue-typescript-component",
+  "description": "[DEPRECATED] Decorators to use TypeScript classes as Vue.js 2.0 components",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "locoslab",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/15248135?v=4"
+  },
+  "organization": {
+    "login": "locoslab",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/15248135?v=4"
+  },
+  "links": {
+    "site": null,
+    "repo": "https://github.com/locoslab/vue-typescript-component"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,40 @@
+{
+  "name": "easy-vue",
+  "full_name": "TIGERB/easy-vue",
+  "description": "Learn vueJS Easily :ghost:",
+  "topics": [
+    "vuejs",
+    "vuex",
+    "vue",
+    "vue2",
+    "webpack2",
+    "vue-resource",
+    "vue-demo",
+    "webpack",
+    "webpack3",
+    "vue-router2",
+    "vuejs2",
+    "vue2-demo",
+    "webpack3-demo",
+    "webpack2-demo",
+    "vuex-demo",
+    "vuex2-demo",
+    "webpack4"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "TIGERB",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/12149373?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "http://vue.tigerb.cn",
+    "repo": "https://github.com/TIGERB/easy-vue"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

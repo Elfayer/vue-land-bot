@@ -1,0 +1,27 @@
+{
+  "name": "vue-pull-to",
+  "full_name": "stackjie/vue-pull-to",
+  "description": "⚡️  A pull-down refresh and pull-up load more and infinite scroll component for Vue.js --Vue下拉刷新组件",
+  "topics": [
+    "pull-to-refresh",
+    "infinite-scroll",
+    "load-more",
+    "vue-component"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "stackjie",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/16393749?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/stackjie/vue-pull-to"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

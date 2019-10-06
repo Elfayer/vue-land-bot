@@ -1,0 +1,29 @@
+{
+  "name": "crypto-news",
+  "full_name": "Bartozzz/crypto-news",
+  "description": "Crypto News allows you to convert cryptocurrencies, view latest news and exchange rates for each ICO – all the data from the world of cryptocurrencies in one place.",
+  "topics": [
+    "crypto",
+    "cryptocurrencies",
+    "vue",
+    "vue-app",
+    "cryptocompare",
+    "cryptocompare-api"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "Bartozzz",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/6741707?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://laniewski.me/crypto-news/",
+    "repo": "https://github.com/Bartozzz/crypto-news"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

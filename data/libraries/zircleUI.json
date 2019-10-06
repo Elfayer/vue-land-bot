@@ -1,0 +1,36 @@
+{
+  "name": "zircleUI",
+  "full_name": "zircleUI/zircleUI",
+  "description": "🚀 zircle-ui is a frontend library to develop zoomable user interfaces.",
+  "topics": [
+    "javascript",
+    "html",
+    "css",
+    "vue",
+    "zircle-ui",
+    "design",
+    "uikit",
+    "ui-components",
+    "frontend-library",
+    "experimental"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "zircleUI",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/22689823?v=4"
+  },
+  "organization": {
+    "login": "zircleUI",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/22689823?v=4"
+  },
+  "links": {
+    "site": "http://zircle.io",
+    "repo": "https://github.com/zircleUI/zircleUI"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

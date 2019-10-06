@@ -1,0 +1,28 @@
+{
+  "name": "npmcharts.com",
+  "full_name": "cheapsteak/npmcharts.com",
+  "description": "Compare npm package downloads over time",
+  "topics": [
+    "vue",
+    "npm",
+    "chart",
+    "data-visualization",
+    "graph"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "cheapsteak",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/743976?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://npmcharts.com/",
+    "repo": "https://github.com/cheapsteak/npmcharts.com"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

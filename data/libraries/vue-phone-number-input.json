@@ -1,0 +1,25 @@
+{
+  "name": "vue-phone-number-input",
+  "full_name": "LouisMazel/vue-phone-number-input",
+  "description": "A phone number input made with Vue JS (format & valid phone number)",
+  "topics": [
+    "vue",
+    "vuejs",
+    "phone",
+    "number",
+    "phonenumber",
+    "input"
+  ],
+  "license": null,
+  "owner": {
+    "login": "LouisMazel",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/12446546?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://louismazel.github.io/vue-phone-number-input",
+    "repo": "https://github.com/LouisMazel/vue-phone-number-input"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

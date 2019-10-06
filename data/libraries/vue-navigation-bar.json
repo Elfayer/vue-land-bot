@@ -1,0 +1,29 @@
+{
+  "name": "vue-navigation-bar",
+  "full_name": "johndatserakis/vue-navigation-bar",
+  "description": "🧭 A simple, pretty navbar for your Vue projects.",
+  "topics": [
+    "vue",
+    "nav",
+    "navbar",
+    "bar",
+    "menu",
+    "navigation"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "johndatserakis",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/9972969?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://johndatserakis.github.io/vue-navigation-bar/",
+    "repo": "https://github.com/johndatserakis/vue-navigation-bar"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

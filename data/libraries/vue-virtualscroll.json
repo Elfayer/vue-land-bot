@@ -1,0 +1,22 @@
+{
+  "name": "vue-virtualscroll",
+  "full_name": "ddgll/vue-virtualscroll",
+  "description": "Vuejs library for virtual scrolling",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "ddgll",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/5771917?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/ddgll/vue-virtualscroll"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

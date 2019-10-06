@@ -1,0 +1,33 @@
+{
+  "name": "vue-standalone-component",
+  "full_name": "InCuca/vue-standalone-component",
+  "description": "Vuejs template to build components with livecoding, tests, documentation and demos",
+  "topics": [
+    "vuejs",
+    "vuejs2",
+    "vuejs-templates",
+    "karma",
+    "vue-styleguidist",
+    "jsdoc",
+    "component"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "InCuca",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/30161651?v=4"
+  },
+  "organization": {
+    "login": "InCuca",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/30161651?v=4"
+  },
+  "links": {
+    "site": null,
+    "repo": "https://github.com/InCuca/vue-standalone-component"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

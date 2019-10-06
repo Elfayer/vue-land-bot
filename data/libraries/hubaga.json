@@ -1,0 +1,22 @@
+{
+  "name": "hubaga",
+  "full_name": "picocodes/hubaga",
+  "description": "A WordPress eCommerce platform for developers",
+  "topics": [],
+  "license": {
+    "key": "gpl-3.0",
+    "url": "https://api.github.com/licenses/gpl-3.0",
+    "name": "GNU General Public License v3.0"
+  },
+  "owner": {
+    "login": "picocodes",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/19934448?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/picocodes/hubaga"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

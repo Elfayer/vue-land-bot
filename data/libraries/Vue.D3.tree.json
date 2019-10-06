@@ -1,0 +1,27 @@
+{
+  "name": "Vue.D3.tree",
+  "full_name": "David-Desmaisons/Vue.D3.tree",
+  "description": "Vue component to display tree based on D3.js layout.",
+  "topics": [
+    "d3js",
+    "vuejs2",
+    "component",
+    "tree"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "David-Desmaisons",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/524617?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://david-desmaisons.github.io/Vue.D3.tree/tree",
+    "repo": "https://github.com/David-Desmaisons/Vue.D3.tree"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,32 @@
+{
+  "name": "material-components-vue",
+  "full_name": "matsp/material-components-vue",
+  "description": "Material Design styled components for Vue.js",
+  "topics": [
+    "material-design-components",
+    "material-components-web",
+    "vuejs",
+    "vue-components",
+    "mdc",
+    "material",
+    "material-components-vue",
+    "material-design",
+    "vuejs-components"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "matsp",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/2205242?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://matsp.github.io/material-components-vue",
+    "repo": "https://github.com/matsp/material-components-vue"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

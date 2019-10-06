@@ -1,0 +1,22 @@
+{
+  "name": "v-calendar",
+  "full_name": "nathanreyes/v-calendar",
+  "description": "A lightweight, dependency-free plugin for building attributed calendars in Vue.js",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "nathanreyes",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/2107487?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://vcalendar.io",
+    "repo": "https://github.com/nathanreyes/v-calendar"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

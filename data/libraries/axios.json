@@ -1,0 +1,30 @@
+{
+  "name": "axios",
+  "full_name": "axios/axios",
+  "description": "Promise based HTTP client for the browser and node.js",
+  "topics": [
+    "http-client",
+    "javascript",
+    "nodejs",
+    "promise"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "axios",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/32372333?v=4"
+  },
+  "organization": {
+    "login": "axios",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/32372333?v=4"
+  },
+  "links": {
+    "site": null,
+    "repo": "https://github.com/axios/axios"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,26 @@
+{
+  "name": "Vue.resize",
+  "full_name": "David-Desmaisons/Vue.resize",
+  "description": "Vue directive to detect resize events  with deboucing and throttling capacity.",
+  "topics": [
+    "vuejs2",
+    "resize-events",
+    "vue-directive"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "David-Desmaisons",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/524617?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/David-Desmaisons/Vue.resize"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

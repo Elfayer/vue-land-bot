@@ -1,0 +1,29 @@
+{
+  "name": "vue-flexible-link",
+  "full_name": "saintplay/vue-flexible-link",
+  "description": "Tiny Vue component for Electron to open links in a browser. Ideal for cross environment apps (Web & Native)",
+  "topics": [
+    "vue",
+    "electron",
+    "electron-vue",
+    "cross-platform",
+    "desktop-app",
+    "webpack"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "saintplay",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/9372893?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/saintplay/vue-flexible-link"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

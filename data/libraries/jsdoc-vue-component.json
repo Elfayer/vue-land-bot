@@ -1,0 +1,24 @@
+{
+  "name": "jsdoc-vue-component",
+  "full_name": "ccqgithub/jsdoc-vue-component",
+  "description": "A simple plugin for jsdoc (`pase vue SFC info to description`)",
+  "topics": [
+    "jsdoc-plugin"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "ccqgithub",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/1654761?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/ccqgithub/jsdoc-vue-component"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

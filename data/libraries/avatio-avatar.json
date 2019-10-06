@@ -1,0 +1,26 @@
+{
+  "name": "avatio-avatar",
+  "full_name": "trunda/avatio-avatar",
+  "description": "VueJS component to display SVG avatars.",
+  "topics": [
+    "vuejs",
+    "component",
+    "svg-avatar",
+    "svg",
+    "avatar",
+    "avatar-generator",
+    "avatar-component"
+  ],
+  "license": null,
+  "owner": {
+    "login": "trunda",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/466388?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://avatio.cool",
+    "repo": "https://github.com/trunda/avatio-avatar"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

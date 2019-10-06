@@ -1,0 +1,27 @@
+{
+  "name": "muse-ui",
+  "full_name": "museui/muse-ui",
+  "description": "Material Design UI library for Vuejs 2.0",
+  "topics": [
+    "muse-ui",
+    "material",
+    "vuejs2",
+    "vue2",
+    "vue"
+  ],
+  "license": null,
+  "owner": {
+    "login": "museui",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/22283362?v=4"
+  },
+  "organization": {
+    "login": "museui",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/22283362?v=4"
+  },
+  "links": {
+    "site": "https://muse-ui.org",
+    "repo": "https://github.com/museui/muse-ui"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

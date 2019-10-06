@@ -1,0 +1,26 @@
+{
+  "name": "vue-twentytwenty",
+  "full_name": "mhayes/vue-twentytwenty",
+  "description": "Image comparison utility",
+  "topics": [
+    "vuejs",
+    "image-viewer",
+    "widget"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "mhayes",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/125222?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/mhayes/vue-twentytwenty"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

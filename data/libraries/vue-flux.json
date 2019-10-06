@@ -1,0 +1,27 @@
+{
+  "name": "vue-flux",
+  "full_name": "deulos/vue-flux",
+  "description": "Image slider which comes with 20 cool transitions",
+  "topics": [
+    "vue",
+    "image",
+    "slider",
+    "parallax"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "deulos",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/6222619?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://deulos.github.io/vue-flux/",
+    "repo": "https://github.com/deulos/vue-flux"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

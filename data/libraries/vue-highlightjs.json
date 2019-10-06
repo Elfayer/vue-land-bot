@@ -1,0 +1,24 @@
+{
+  "name": "vue-highlightjs",
+  "full_name": "metachris/vue-highlightjs",
+  "description": "Syntax highlighting with highlight.js for Vue.js 2.x",
+  "topics": [
+    "javascript",
+    "vuejs",
+    "vuejs2",
+    "highlighting",
+    "highlightjs"
+  ],
+  "license": null,
+  "owner": {
+    "login": "metachris",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/116939?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/metachris/vue-highlightjs"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

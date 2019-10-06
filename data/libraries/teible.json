@@ -1,0 +1,22 @@
+{
+  "name": "teible",
+  "full_name": "hiendv/teible",
+  "description": "Lightweight and flexible table component for the web :zap:",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "hiendv",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/1917947?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://hiendv.github.io/teible/",
+    "repo": "https://github.com/hiendv/teible"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

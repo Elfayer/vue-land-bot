@@ -1,0 +1,32 @@
+{
+  "name": "devextreme-vue",
+  "full_name": "DevExpress/devextreme-vue",
+  "description": "Vue UI and data visualization components",
+  "topics": [
+    "devextreme",
+    "vue",
+    "ui",
+    "components",
+    "frontend",
+    "javascript"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "DevExpress",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/4243232?v=4"
+  },
+  "organization": {
+    "login": "DevExpress",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/4243232?v=4"
+  },
+  "links": {
+    "site": "https://js.devexpress.com/Demos/",
+    "repo": "https://github.com/DevExpress/devextreme-vue"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

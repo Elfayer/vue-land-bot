@@ -1,0 +1,34 @@
+{
+  "name": "aspnetcore-Vue-starter",
+  "full_name": "TrilonIO/aspnetcore-Vue-starter",
+  "description": "*NEW* Asp.net Core & Vue.js (ES6) SPA Starter kit - Vuex, webpack, Web API, Docker, and more! By @TrilonIO",
+  "topics": [
+    "vue",
+    "aspnet",
+    "aspnetcore",
+    "ssr",
+    "dotnet-template",
+    "vuejs2",
+    "vue2",
+    "trilon"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "TrilonIO",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/44442279?v=4"
+  },
+  "organization": {
+    "login": "TrilonIO",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/44442279?v=4"
+  },
+  "links": {
+    "site": "https://www.trilon.io",
+    "repo": "https://github.com/TrilonIO/aspnetcore-Vue-starter"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

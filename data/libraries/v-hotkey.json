@@ -1,0 +1,26 @@
+{
+  "name": "v-hotkey",
+  "full_name": "Dafrok/v-hotkey",
+  "description": "Vue 2.x directive for binding hotkeys to components.",
+  "topics": [
+    "vue",
+    "hotkey",
+    "directive"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "Dafrok",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/6159588?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://dafrok.github.io/v-hotkey",
+    "repo": "https://github.com/Dafrok/v-hotkey"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

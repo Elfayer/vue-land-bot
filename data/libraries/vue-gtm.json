@@ -1,0 +1,22 @@
+{
+  "name": "vue-gtm",
+  "full_name": "mib200/vue-gtm",
+  "description": "Simple implementation of Google Tag Manager in Vue.js 2.0",
+  "topics": [],
+  "license": {
+    "key": "apache-2.0",
+    "url": "https://api.github.com/licenses/apache-2.0",
+    "name": "Apache License 2.0"
+  },
+  "owner": {
+    "login": "mib200",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/3087190?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/mib200/vue-gtm"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

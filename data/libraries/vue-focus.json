@@ -1,0 +1,24 @@
+{
+  "name": "vue-focus",
+  "full_name": "simplesmiler/vue-focus",
+  "description": "A reusable focus directive for reusable Vue.js components",
+  "topics": [
+    "vue"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "simplesmiler",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/550229?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/simplesmiler/vue-focus"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

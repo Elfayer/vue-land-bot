@@ -1,0 +1,30 @@
+{
+  "name": "vue-pivot-table",
+  "full_name": "MarketConnect/vue-pivot-table",
+  "description": "A vue component for pivot table",
+  "topics": [
+    "vue",
+    "vue-components",
+    "pivot-tables",
+    "pivot"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "MarketConnect",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/6051618?v=4"
+  },
+  "organization": {
+    "login": "MarketConnect",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/6051618?v=4"
+  },
+  "links": {
+    "site": null,
+    "repo": "https://github.com/MarketConnect/vue-pivot-table"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

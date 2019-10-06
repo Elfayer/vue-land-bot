@@ -1,0 +1,22 @@
+{
+  "name": "vue-component-generator",
+  "full_name": "lakb248/vue-component-generator",
+  "description": "A generator for vue component",
+  "topics": [
+    "vue",
+    "vue-components",
+    "vue-cli"
+  ],
+  "license": null,
+  "owner": {
+    "login": "lakb248",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/5069587?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/lakb248/vue-component-generator"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

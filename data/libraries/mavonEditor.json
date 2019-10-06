@@ -1,0 +1,29 @@
+{
+  "name": "mavonEditor",
+  "full_name": "hinesboy/mavonEditor",
+  "description": "mavonEditor - A markdown editor based on Vue that supports a variety of personalized features",
+  "topics": [
+    "vue",
+    "markdown",
+    "editor",
+    "javascript",
+    "html",
+    "webpack"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "hinesboy",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/26454305?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://www.zhystar.com",
+    "repo": "https://github.com/hinesboy/mavonEditor"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

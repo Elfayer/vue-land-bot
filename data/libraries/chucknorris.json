@@ -1,0 +1,30 @@
+{
+  "name": "chucknorris",
+  "full_name": "mazipan/chucknorris",
+  "description": "🏋️ Chuck Norris Jokes Generator",
+  "topics": [
+    "vue",
+    "vuejs",
+    "vue2",
+    "vuejs2",
+    "chuck",
+    "chuck-norris-jokes",
+    "chuck-norris"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "mazipan",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/7221389?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://mazipan.github.io/chucknorris/",
+    "repo": "https://github.com/mazipan/chucknorris"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

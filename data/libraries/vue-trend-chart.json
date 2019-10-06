@@ -1,0 +1,29 @@
+{
+  "name": "vue-trend-chart",
+  "full_name": "dmtrbrl/vue-trend-chart",
+  "description": "Simple trend charts for Vue.js",
+  "topics": [
+    "vue",
+    "trends",
+    "chart",
+    "vue-component",
+    "svg-chart",
+    "line-charts"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "dmtrbrl",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/7405155?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://dmtrbrl.github.io/vue-trend-chart/",
+    "repo": "https://github.com/dmtrbrl/vue-trend-chart"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

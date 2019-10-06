@@ -1,0 +1,30 @@
+{
+  "name": "VuejsSSRSample",
+  "full_name": "mgyongyosi/VuejsSSRSample",
+  "description": "ASP.NET Core Vue.js server-side rendering sample:",
+  "topics": [
+    "vuejs2",
+    "vuex",
+    "asp-net",
+    "asp-net-core",
+    "server-side-rendering",
+    "vuejs",
+    "vue"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "mgyongyosi",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/1585112?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "http://mgyongyosi.com/2016/Vuejs-server-side-rendering-with-aspnet-core/",
+    "repo": "https://github.com/mgyongyosi/VuejsSSRSample"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,27 @@
+{
+  "name": "vue-i18n",
+  "full_name": "MattyRad/vue-i18n",
+  "description": "A small package for implementing translations in Vue.js",
+  "topics": [
+    "vue",
+    "i18n",
+    "translation",
+    "translates",
+    "l10n",
+    "vuejs",
+    "language",
+    "locale"
+  ],
+  "license": null,
+  "owner": {
+    "login": "MattyRad",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/1143595?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/MattyRad/vue-i18n"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,22 @@
+{
+  "name": "vue-slot-checker",
+  "full_name": "mya-ake/vue-slot-checker",
+  "description": "Provide the function to check slot like checking props.",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "mya-ake",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/16383815?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://www.npmjs.com/package/vue-slot-checker",
+    "repo": "https://github.com/mya-ake/vue-slot-checker"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

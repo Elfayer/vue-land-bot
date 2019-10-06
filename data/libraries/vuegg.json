@@ -1,0 +1,36 @@
+{
+  "name": "vuegg",
+  "full_name": "vuegg/vuegg",
+  "description": ":hatching_chick: vue GUI generator",
+  "topics": [
+    "vue",
+    "gui",
+    "generator",
+    "mdc",
+    "rapid",
+    "prototyping",
+    "vuegg",
+    "drag",
+    "drop",
+    "resize"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "vuegg",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/31865909?v=4"
+  },
+  "organization": {
+    "login": "vuegg",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/31865909?v=4"
+  },
+  "links": {
+    "site": "https://vuegg.now.sh/",
+    "repo": "https://github.com/vuegg/vuegg"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

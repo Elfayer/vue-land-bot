@@ -1,0 +1,25 @@
+{
+  "name": "vue-canvas-effect",
+  "full_name": "chenxuan0000/vue-canvas-effect",
+  "description": ":tada: vue canvas动效库",
+  "topics": [
+    "canvas",
+    "vue-components"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "chenxuan0000",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/23030433?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/chenxuan0000/vue-canvas-effect"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

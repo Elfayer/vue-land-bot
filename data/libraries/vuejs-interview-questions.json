@@ -1,0 +1,29 @@
+{
+  "name": "vuejs-interview-questions",
+  "full_name": "sudheerj/vuejs-interview-questions",
+  "description": "List of 300 VueJS Interview Questions And Answers",
+  "topics": [
+    "vuejs",
+    "vuejs2",
+    "javascript",
+    "vuejs-interview-questions",
+    "vuejs-tutorial",
+    "vuex",
+    "vue-router",
+    "interview-questions",
+    "javascript-interview-questions",
+    "front-end-developer"
+  ],
+  "license": null,
+  "owner": {
+    "login": "sudheerj",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/3127317?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/sudheerj/vuejs-interview-questions"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

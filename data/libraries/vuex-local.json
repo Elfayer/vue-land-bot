@@ -1,0 +1,26 @@
+{
+  "name": "vuex-local",
+  "full_name": "ktsn/vuex-local",
+  "description": "Local state management within Vuex",
+  "topics": [
+    "vue",
+    "vuex",
+    "state-management"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "ktsn",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/2194624?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/ktsn/vuex-local"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

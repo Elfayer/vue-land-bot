@@ -1,0 +1,26 @@
+{
+  "name": "vuex-pagination",
+  "full_name": "cyon/vuex-pagination",
+  "description": "Use paginated resources in your Vue/Vuex app with ease",
+  "topics": [
+    "vue",
+    "vuejs",
+    "pagination",
+    "vuex"
+  ],
+  "license": null,
+  "owner": {
+    "login": "cyon",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/956240?v=4"
+  },
+  "organization": {
+    "login": "cyon",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/956240?v=4"
+  },
+  "links": {
+    "site": null,
+    "repo": "https://github.com/cyon/vuex-pagination"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

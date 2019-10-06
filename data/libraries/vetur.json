@@ -1,0 +1,29 @@
+{
+  "name": "vetur",
+  "full_name": "vuejs/vetur",
+  "description": "Vue tooling for VS Code.",
+  "topics": [
+    "vscode",
+    "vue",
+    "visual-studio-code"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "vuejs",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/6128107?v=4"
+  },
+  "organization": {
+    "login": "vuejs",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/6128107?v=4"
+  },
+  "links": {
+    "site": "https://marketplace.visualstudio.com/items?itemName=octref.vetur",
+    "repo": "https://github.com/vuejs/vetur"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

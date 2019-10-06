@@ -1,0 +1,22 @@
+{
+  "name": "vuex-map-fields",
+  "full_name": "maoberlehner/vuex-map-fields",
+  "description": "Enable two-way data binding for form fields saved in a Vuex store",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "maoberlehner",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/6883314?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/maoberlehner/vuex-map-fields"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

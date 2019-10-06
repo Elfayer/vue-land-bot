@@ -1,0 +1,30 @@
+{
+  "name": "vue-croppa",
+  "full_name": "zhanziyang/vue-croppa",
+  "description": "A simple straightforward customizable mobile-friendly image cropper for Vue 2.0.",
+  "topics": [
+    "vue",
+    "cropper",
+    "image-cropper",
+    "vue-component",
+    "upload",
+    "vue-cropper-component",
+    "image-preview"
+  ],
+  "license": {
+    "key": "isc",
+    "url": "https://api.github.com/licenses/isc",
+    "name": "ISC License"
+  },
+  "owner": {
+    "login": "zhanziyang",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/10041024?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://zhanziyang.github.io/vue-croppa/",
+    "repo": "https://github.com/zhanziyang/vue-croppa"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

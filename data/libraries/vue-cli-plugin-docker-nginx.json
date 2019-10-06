@@ -1,0 +1,24 @@
+{
+  "name": "vue-cli-plugin-docker-nginx",
+  "full_name": "truefalse10/vue-cli-plugin-docker-nginx",
+  "description": "vue-cli plugin that adds minimal docker deployment using nginx",
+  "topics": [
+    "vue",
+    "vue-cli",
+    "vue-cli-plugin",
+    "docker",
+    "nginx"
+  ],
+  "license": null,
+  "owner": {
+    "login": "truefalse10",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/15369187?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/truefalse10/vue-cli-plugin-docker-nginx"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

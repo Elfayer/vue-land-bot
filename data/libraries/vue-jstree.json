@@ -1,0 +1,23 @@
+{
+  "name": "vue-jstree",
+  "full_name": "zdy1988/vue-jstree",
+  "description": "A Tree Plugin For Vue2.0+",
+  "topics": [
+    "vue",
+    "tree",
+    "treeview",
+    "vue2"
+  ],
+  "license": null,
+  "owner": {
+    "login": "zdy1988",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/6028407?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "http://zdy1988.github.io/vue-jstree",
+    "repo": "https://github.com/zdy1988/vue-jstree"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

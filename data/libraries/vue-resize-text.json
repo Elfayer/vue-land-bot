@@ -1,0 +1,31 @@
+{
+  "name": "vue-resize-text",
+  "full_name": "JayeshLab/vue-resize-text",
+  "description": "A vue directive which automatically resize font size based on element width.",
+  "topics": [
+    "vue",
+    "vuejs",
+    "text",
+    "resize",
+    "font",
+    "responsive",
+    "fittext",
+    "rescale"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "JayeshLab",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/36194663?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://jayeshlab.github.io/vue-resize-text/index.html",
+    "repo": "https://github.com/JayeshLab/vue-resize-text"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

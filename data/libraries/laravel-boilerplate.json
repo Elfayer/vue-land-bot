@@ -1,0 +1,30 @@
+{
+  "name": "laravel-boilerplate",
+  "full_name": "adr1enbe4udou1n/laravel-boilerplate",
+  "description": "Laravel 5.7 Boilerplate based on Bootstrap 4 and Vue Tabler for Backend.",
+  "topics": [
+    "laravel-boilerplate",
+    "bootstrap4",
+    "vue",
+    "bootstrap-vue",
+    "tabler",
+    "tabler-ui",
+    "laravel57"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "adr1enbe4udou1n",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/3679080?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://laravel-boilerplate.okami101.io",
+    "repo": "https://github.com/adr1enbe4udou1n/laravel-boilerplate"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

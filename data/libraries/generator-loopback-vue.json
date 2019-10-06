@@ -1,0 +1,29 @@
+{
+  "name": "generator-loopback-vue",
+  "full_name": "qxl1231/generator-loopback-vue",
+  "description": "app版本管理,(热更新)前后端分离,vue page分页功能,authenticate 权限控制,accesstoken机制,credentials,CI,docker",
+  "topics": [
+    "loopback-vue",
+    "slc-loopback",
+    "vue",
+    "loopback",
+    "daocloud",
+    "docker",
+    "restful-api",
+    "version-manager",
+    "accesstoken",
+    "vue-resoure"
+  ],
+  "license": null,
+  "owner": {
+    "login": "qxl1231",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/8305742?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/qxl1231/generator-loopback-vue"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

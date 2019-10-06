@@ -1,0 +1,28 @@
+{
+  "name": "vue-i18next",
+  "full_name": "panter/vue-i18next",
+  "description": "Internationalization for vue using the i18next i18n ecosystem.",
+  "topics": [
+    "vue",
+    "i18n",
+    "i18next",
+    "javascript",
+    "plugin",
+    "typescript"
+  ],
+  "license": null,
+  "owner": {
+    "login": "panter",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/157435?v=4"
+  },
+  "organization": {
+    "login": "panter",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/157435?v=4"
+  },
+  "links": {
+    "site": "https://panter.github.io/vue-i18next/",
+    "repo": "https://github.com/panter/vue-i18next"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

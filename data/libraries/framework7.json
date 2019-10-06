@@ -1,0 +1,37 @@
+{
+  "name": "framework7",
+  "full_name": "framework7io/framework7",
+  "description": "Full featured HTML framework for building iOS & Android apps",
+  "topics": [
+    "framework",
+    "ios",
+    "material",
+    "material-design",
+    "android",
+    "cordova",
+    "phonegap",
+    "mobile",
+    "touch",
+    "components",
+    "library"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "framework7io",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/31954178?v=4"
+  },
+  "organization": {
+    "login": "framework7io",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/31954178?v=4"
+  },
+  "links": {
+    "site": "http://framework7.io",
+    "repo": "https://github.com/framework7io/framework7"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

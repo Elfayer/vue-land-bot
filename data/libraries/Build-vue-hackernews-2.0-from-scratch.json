@@ -1,0 +1,24 @@
+{
+  "name": "Build-vue-hackernews-2.0-from-scratch",
+  "full_name": "Detachment/Build-vue-hackernews-2.0-from-scratch",
+  "description": "A tutorial for beginners to build a complex project with Vue.js 2.0 step by step",
+  "topics": [
+    "vuejs2",
+    "vuex2",
+    "vue-router",
+    "webpack2",
+    "javascript"
+  ],
+  "license": null,
+  "owner": {
+    "login": "Detachment",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/11611875?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/Detachment/Build-vue-hackernews-2.0-from-scratch"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,22 @@
+{
+  "name": "vue-vtree",
+  "full_name": "XAHTEP26/vue-vtree",
+  "description": "Universal and flexible tree component for Vue.js",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "XAHTEP26",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/16738756?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/XAHTEP26/vue-vtree"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

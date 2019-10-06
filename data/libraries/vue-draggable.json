@@ -1,0 +1,29 @@
+{
+  "name": "vue-draggable",
+  "full_name": "Vivify-Ideas/vue-draggable",
+  "description": "Vue Drag and Drop library without any dependency 👌",
+  "topics": [
+    "vue",
+    "javascript",
+    "drag-and-drop"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "Vivify-Ideas",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/5213804?v=4"
+  },
+  "organization": {
+    "login": "Vivify-Ideas",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/5213804?v=4"
+  },
+  "links": {
+    "site": "https://vivify-ideas.github.io/vue-draggable/",
+    "repo": "https://github.com/Vivify-Ideas/vue-draggable"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

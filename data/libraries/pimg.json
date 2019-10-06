@@ -1,0 +1,30 @@
+{
+  "name": "pimg",
+  "full_name": "ooade/pimg",
+  "description": ":camera: Mini Image Lazy Loader for P(R)eact and Vue",
+  "topics": [
+    "image-processing",
+    "cloudinary",
+    "image",
+    "preact",
+    "react",
+    "lazy-loading",
+    "lazy"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "ooade",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/11811904?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://pimg.surge.sh",
+    "repo": "https://github.com/ooade/pimg"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

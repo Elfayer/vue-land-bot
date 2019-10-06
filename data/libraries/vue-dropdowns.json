@@ -1,0 +1,22 @@
+{
+  "name": "vue-dropdowns",
+  "full_name": "mikerodham/vue-dropdowns",
+  "description": "A better way to display select boxes when using `v-for` on objects.",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "mikerodham",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/7014362?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://mikerodham.github.io/vue-dropdowns/",
+    "repo": "https://github.com/mikerodham/vue-dropdowns"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,28 @@
+{
+  "name": "formvuelar",
+  "full_name": "janiskelemen/formvuelar",
+  "description": "Vue form components with server side validation in mind",
+  "topics": [
+    "vuejs2",
+    "vue-components",
+    "form-validation",
+    "form",
+    "laravel"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "janiskelemen",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/20318292?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://janiskelemen.github.io/formvuelar/",
+    "repo": "https://github.com/janiskelemen/formvuelar"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

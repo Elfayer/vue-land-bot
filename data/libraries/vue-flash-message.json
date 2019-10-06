@@ -1,0 +1,27 @@
+{
+  "name": "vue-flash-message",
+  "full_name": "keen-on-design/vue-flash-message",
+  "description": "Vue js flash messages component",
+  "topics": [
+    "vuejs",
+    "flash-messages",
+    "notifications",
+    "javascript"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "keen-on-design",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/20759267?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/keen-on-design/vue-flash-message"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

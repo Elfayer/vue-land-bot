@@ -1,0 +1,26 @@
+{
+  "name": "vue-starter",
+  "full_name": "rohitkrai03/vue-starter",
+  "description": "A Vue.js starter kit that lets you focus on more programming and less configuration.",
+  "topics": [
+    "vuejs",
+    "javascript",
+    "boilerplate"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "rohitkrai03",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/6041994?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "http://arkpod.in/vue-starter",
+    "repo": "https://github.com/rohitkrai03/vue-starter"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

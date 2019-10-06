@@ -1,0 +1,31 @@
+{
+  "name": "mint-ui",
+  "full_name": "ElemeFE/mint-ui",
+  "description": "Mobile UI elements for Vue.js",
+  "topics": [
+    "vue",
+    "vue-components",
+    "component",
+    "ui-kit",
+    "mobile"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "ElemeFE",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/12810740?v=4"
+  },
+  "organization": {
+    "login": "ElemeFE",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/12810740?v=4"
+  },
+  "links": {
+    "site": "http://mint-ui.github.io/#!/en",
+    "repo": "https://github.com/ElemeFE/mint-ui"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

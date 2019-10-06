@@ -1,0 +1,24 @@
+{
+  "name": "vue-progress-path",
+  "full_name": "Akryum/vue-progress-path",
+  "description": "Progress bars and loading indicators for Vue.js",
+  "topics": [
+    "vuejs",
+    "vuejs2",
+    "loading-spinner",
+    "loading-bar",
+    "spinner"
+  ],
+  "license": null,
+  "owner": {
+    "login": "Akryum",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/2798204?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://akryum.github.io/vue-progress-path/",
+    "repo": "https://github.com/Akryum/vue-progress-path"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

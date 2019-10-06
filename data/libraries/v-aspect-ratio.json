@@ -1,0 +1,22 @@
+{
+  "name": "v-aspect-ratio",
+  "full_name": "andrewvasilchuk/v-aspect-ratio",
+  "description": "Vue.js derective for setting an aspect ratio",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "andrewvasilchuk",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/44983823?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/andrewvasilchuk/v-aspect-ratio"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,29 @@
+{
+  "name": "laravel-vue-validator",
+  "full_name": "val-bubbleflat/laravel-vue-validator",
+  "description": " Simple package to display error in vue from laravel validation",
+  "topics": [
+    "vue",
+    "vuejs",
+    "validation",
+    "validation-library",
+    "laravel-validation",
+    "laravel"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "val-bubbleflat",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/27195374?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/val-bubbleflat/laravel-vue-validator"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

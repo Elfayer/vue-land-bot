@@ -1,0 +1,22 @@
+{
+  "name": "vue-8-puzzle",
+  "full_name": "meganetaaan/vue-8-puzzle",
+  "description": "A simple 8-puzzle game made as a Vue.js component",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "meganetaaan",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/1918755?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/meganetaaan/vue-8-puzzle"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

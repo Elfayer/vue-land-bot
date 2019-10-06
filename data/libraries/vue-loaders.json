@@ -1,0 +1,43 @@
+{
+  "name": "vue-loaders",
+  "full_name": "Hokid/vue-loaders",
+  "description": "Vue + loaders.css",
+  "topics": [
+    "vue",
+    "vuejs",
+    "css",
+    "loader",
+    "animate",
+    "wait",
+    "animation",
+    "component",
+    "vue-components",
+    "waiting",
+    "spinner",
+    "loading",
+    "busy",
+    "ide",
+    "indicator",
+    "progress",
+    "ui",
+    "css3",
+    "lib",
+    "plugin"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "Hokid",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/7846990?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/Hokid/vue-loaders"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

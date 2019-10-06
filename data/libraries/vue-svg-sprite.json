@@ -1,0 +1,22 @@
+{
+  "name": "vue-svg-sprite",
+  "full_name": "thierrymichel/vue-svg-sprite",
+  "description": "Vue.js directive to simply use SVG sprite",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "thierrymichel",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/806883?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/thierrymichel/vue-svg-sprite"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

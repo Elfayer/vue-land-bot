@@ -1,0 +1,35 @@
+{
+  "name": "vue-link",
+  "full_name": "Developmint/vue-link",
+  "description": "One component to link them all 🔗",
+  "topics": [
+    "vue",
+    "vuejs",
+    "vue-components",
+    "vue-plugin",
+    "nuxt",
+    "nuxtjs",
+    "linking",
+    "links",
+    "link"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "Developmint",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/29969219?v=4"
+  },
+  "organization": {
+    "login": "Developmint",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/29969219?v=4"
+  },
+  "links": {
+    "site": null,
+    "repo": "https://github.com/Developmint/vue-link"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,22 @@
+{
+  "name": "joy-proxy",
+  "full_name": "sh0cked/joy-proxy",
+  "description": "Chrome proxy extension",
+  "topics": [
+    "chrome",
+    "extension",
+    "proxy"
+  ],
+  "license": null,
+  "owner": {
+    "login": "sh0cked",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/36301414?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://chrome.google.com/webstore/detail/joyproxy/cfdjgedemlfeincnkcmhegbgkicofekg/hl=en-US",
+    "repo": "https://github.com/sh0cked/joy-proxy"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

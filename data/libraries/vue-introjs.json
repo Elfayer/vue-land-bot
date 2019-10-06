@@ -1,0 +1,25 @@
+{
+  "name": "vue-introjs",
+  "full_name": "alex-oleshkevich/vue-introjs",
+  "description": "intro.js bindings for Vue.",
+  "topics": [
+    "vue",
+    "introjs"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "alex-oleshkevich",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/635848?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/alex-oleshkevich/vue-introjs"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

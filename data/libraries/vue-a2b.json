@@ -1,0 +1,29 @@
+{
+  "name": "vue-a2b",
+  "full_name": "fromAtoB/vue-a2b",
+  "description": "Split Testing for Vue.js",
+  "topics": [
+    "vue",
+    "split-testing",
+    "ab-testing"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "fromAtoB",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/13185405?v=4"
+  },
+  "organization": {
+    "login": "fromAtoB",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/13185405?v=4"
+  },
+  "links": {
+    "site": null,
+    "repo": "https://github.com/fromAtoB/vue-a2b"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

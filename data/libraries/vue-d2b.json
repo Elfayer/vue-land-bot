@@ -1,0 +1,25 @@
+{
+  "name": "vue-d2b",
+  "full_name": "d2bjs/vue-d2b",
+  "description": "Vue components for d2b charts.",
+  "topics": [],
+  "license": {
+    "key": "bsd-3-clause",
+    "url": "https://api.github.com/licenses/bsd-3-clause",
+    "name": "BSD 3-Clause \"New\" or \"Revised\" License"
+  },
+  "owner": {
+    "login": "d2bjs",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/25933194?v=4"
+  },
+  "organization": {
+    "login": "d2bjs",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/25933194?v=4"
+  },
+  "links": {
+    "site": "https://d2bjs.github.io/vue-d2b",
+    "repo": "https://github.com/d2bjs/vue-d2b"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,27 @@
+{
+  "name": "vuex-iframe-sync",
+  "full_name": "L-Chris/vuex-iframe-sync",
+  "description": "Vuex state synchronization between iframe/window",
+  "topics": [
+    "vue",
+    "vuex",
+    "iframe",
+    "sync"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "L-Chris",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/22991560?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://l-chris.github.io/vuex-iframe-sync/",
+    "repo": "https://github.com/L-Chris/vuex-iframe-sync"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

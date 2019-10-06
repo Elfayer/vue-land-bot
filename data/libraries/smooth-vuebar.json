@@ -1,0 +1,26 @@
+{
+  "name": "smooth-vuebar",
+  "full_name": "scaccogatto/smooth-vuebar",
+  "description": "Vue directive wrapper for smooth-scrollbar",
+  "topics": [
+    "scrollbar",
+    "vue",
+    "smooth-scrolling"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "scaccogatto",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/3670888?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/scaccogatto/smooth-vuebar"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

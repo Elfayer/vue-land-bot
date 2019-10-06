@@ -1,0 +1,22 @@
+{
+  "name": "vue-tuicalendar",
+  "full_name": "lkmadushan/vue-tuicalendar",
+  "description": "Vue.js wrapper for TOAST UI Calendar",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "lkmadushan",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/6853192?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/lkmadushan/vue-tuicalendar"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,28 @@
+{
+  "name": "koel",
+  "full_name": "phanan/koel",
+  "description": "🐦 A personal music streaming server that works.",
+  "topics": [
+    "laravel",
+    "vue",
+    "audio",
+    "streaming",
+    "mp3player"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "phanan",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/8056274?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://koel.phanan.net",
+    "repo": "https://github.com/phanan/koel"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

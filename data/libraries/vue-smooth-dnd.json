@@ -1,0 +1,30 @@
+{
+  "name": "vue-smooth-dnd",
+  "full_name": "kutlugsahin/vue-smooth-dnd",
+  "description": "Vue wrappers components for smooth-dnd",
+  "topics": [
+    "vue",
+    "vuejs2",
+    "drag-and-drop",
+    "drag",
+    "drop",
+    "sortable",
+    "draggable"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "kutlugsahin",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/4080691?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/kutlugsahin/vue-smooth-dnd"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

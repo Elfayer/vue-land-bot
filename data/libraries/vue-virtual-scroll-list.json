@@ -1,0 +1,28 @@
+{
+  "name": "vue-virtual-scroll-list",
+  "full_name": "tangbc/vue-virtual-scroll-list",
+  "description": "⚡️ A vue component support big amount data list with high scroll performance.",
+  "topics": [
+    "vue",
+    "virtual-list",
+    "big-data",
+    "big-list",
+    "infinite-scroll"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "tangbc",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/6846113?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/tangbc/vue-virtual-scroll-list"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

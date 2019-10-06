@@ -1,0 +1,22 @@
+{
+  "name": "vue-flat-surface-shader",
+  "full_name": "grzhan/vue-flat-surface-shader",
+  "description": "A Vue component for flat surface shader",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "grzhan",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/2235314?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/grzhan/vue-flat-surface-shader"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

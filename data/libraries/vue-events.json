@@ -1,0 +1,28 @@
+{
+  "name": "vue-events",
+  "full_name": "cklmercer/vue-events",
+  "description": "Simple event handling for Vue.js",
+  "topics": [
+    "vue",
+    "vue-events",
+    "event-bus",
+    "plugin",
+    "events"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "cklmercer",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/5618812?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/cklmercer/vue-events"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

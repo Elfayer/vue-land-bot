@@ -1,0 +1,32 @@
+{
+  "name": "vue-qrcode-reader",
+  "full_name": "gruhn/vue-qrcode-reader",
+  "description": "A set of Vue.js components for detecting and decoding QR codes.",
+  "topics": [
+    "qrcode-reader",
+    "qrcode",
+    "vuejs",
+    "qrcode-scanner",
+    "vue",
+    "webrtc",
+    "vue-component",
+    "qr-codes",
+    "vue-components"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "gruhn",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/26570572?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://gruhn.github.io/vue-qrcode-reader",
+    "repo": "https://github.com/gruhn/vue-qrcode-reader"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

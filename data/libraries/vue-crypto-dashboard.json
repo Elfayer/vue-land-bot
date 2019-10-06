@@ -1,0 +1,28 @@
+{
+  "name": "vue-crypto-dashboard",
+  "full_name": "JayeshLab/vue-crypto-dashboard",
+  "description": "Cryptocurrency Dashboard made with Vue",
+  "topics": [
+    "vuejs",
+    "cryptocurrencies",
+    "binance",
+    "amcharts",
+    "svg",
+    "charts",
+    "websocket",
+    "vue",
+    "vuex"
+  ],
+  "license": null,
+  "owner": {
+    "login": "JayeshLab",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/36194663?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://jayeshlab.github.io/vue-crypto-dashboard/",
+    "repo": "https://github.com/JayeshLab/vue-crypto-dashboard"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

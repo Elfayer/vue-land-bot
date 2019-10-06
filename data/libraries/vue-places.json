@@ -1,0 +1,30 @@
+{
+  "name": "vue-places",
+  "full_name": "Gomah/vue-places",
+  "description": "Places component is based on places.js for Vue 2.x. Turn any <input> into an address autocomplete.",
+  "topics": [
+    "vue",
+    "vuejs",
+    "vuejs2",
+    "places",
+    "algolia",
+    "autocomplete",
+    "input"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "Gomah",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/2362138?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://www.npmjs.com/package/vue-places",
+    "repo": "https://github.com/Gomah/vue-places"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

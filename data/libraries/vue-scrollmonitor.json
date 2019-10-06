@@ -1,0 +1,23 @@
+{
+  "name": "vue-scrollmonitor",
+  "full_name": "AlexandreBonaventure/vue-scrollmonitor",
+  "description": "Wrapper to use the awesome scrollMonitor with Vue@2.4.x",
+  "topics": [
+    "scroll",
+    "vuejs2",
+    "viewport",
+    "fixed"
+  ],
+  "license": null,
+  "owner": {
+    "login": "AlexandreBonaventure",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/4596409?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/AlexandreBonaventure/vue-scrollmonitor"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,22 @@
+{
+  "name": "vue-waterfall",
+  "full_name": "MopTym/vue-waterfall",
+  "description": "A waterfall layout component for Vue.js",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "MopTym",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/5057445?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/MopTym/vue-waterfall"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

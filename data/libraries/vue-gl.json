@@ -1,0 +1,45 @@
+{
+  "name": "vue-gl",
+  "full_name": "vue-gl/vue-gl",
+  "description": "Vue.js components rendering 3D graphics reactively via three.js",
+  "topics": [
+    "vuejs",
+    "vuejs2",
+    "vue2",
+    "vue-components",
+    "threejs",
+    "three-js",
+    "three",
+    "vue",
+    "3d",
+    "3d-graphics",
+    "webgl",
+    "graphics",
+    "tags",
+    "tag",
+    "element",
+    "elements",
+    "custom",
+    "html",
+    "web"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "vue-gl",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/32152845?v=4"
+  },
+  "organization": {
+    "login": "vue-gl",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/32152845?v=4"
+  },
+  "links": {
+    "site": "https://vue-gl.github.io/vue-gl/",
+    "repo": "https://github.com/vue-gl/vue-gl"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

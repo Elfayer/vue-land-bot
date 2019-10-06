@@ -1,0 +1,22 @@
+{
+  "name": "vue-dummy",
+  "full_name": "paulcollett/vue-dummy",
+  "description": "Placeholder Images and Lorem Ipsum Dummy Text for Vue.js projects",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "paulcollett",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/1904774?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://git.io/vue-dummy-example",
+    "repo": "https://github.com/paulcollett/vue-dummy"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

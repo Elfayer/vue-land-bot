@@ -1,0 +1,33 @@
+{
+  "name": "vue-swatches",
+  "full_name": "saintplay/vue-swatches",
+  "description": ":art: Help the user picking beautiful colors!",
+  "topics": [
+    "vue",
+    "vuejs",
+    "color-picker",
+    "color-palette",
+    "swatches",
+    "ui-components",
+    "component",
+    "vue-components",
+    "vuejs2",
+    "vuejs-components"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "saintplay",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/9372893?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://saintplay.github.io/vue-swatches/",
+    "repo": "https://github.com/saintplay/vue-swatches"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

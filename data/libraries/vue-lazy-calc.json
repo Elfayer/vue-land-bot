@@ -1,0 +1,28 @@
+{
+  "name": "vue-lazy-calc",
+  "full_name": "dreambo8563/vue-lazy-calc",
+  "description": "simple calculation lib with lazy feature 🎲➕➖➗✖️",
+  "topics": [
+    "lazy-evaluation",
+    "calculator",
+    "vue",
+    "typescript",
+    "chaining"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "dreambo8563",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/6948318?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/dreambo8563/vue-lazy-calc"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

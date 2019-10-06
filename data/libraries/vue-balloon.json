@@ -1,0 +1,18 @@
+{
+  "name": "vue-balloon",
+  "full_name": "kevinwarne/vue-balloon",
+  "description": "A zoomable fixed balloon container. Useful for adding tutorial videos or other page specific content. ",
+  "topics": [],
+  "license": null,
+  "owner": {
+    "login": "kevinwarne",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/2204405?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/kevinwarne/vue-balloon"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

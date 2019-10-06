@@ -1,0 +1,24 @@
+{
+  "name": "vue-music163",
+  "full_name": "pluto1114/vue-music163",
+  "description": "A webapp what base Vue2.0 contains seaching and playing music ",
+  "topics": [
+    "vue-router",
+    "vuex",
+    "mint-ui",
+    "vue",
+    "music"
+  ],
+  "license": null,
+  "owner": {
+    "login": "pluto1114",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/8563341?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "http://weixin.nmict.cn/vue-music163/",
+    "repo": "https://github.com/pluto1114/vue-music163"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

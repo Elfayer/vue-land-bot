@@ -1,0 +1,42 @@
+{
+  "name": "vue-img-orientation-changer",
+  "full_name": "nikli2009/vue-img-orientation-changer",
+  "description": "A vue plugin that can help you display image in correct orientation.",
+  "topics": [
+    "vue",
+    "vue-component",
+    "vue-directive",
+    "vue-image",
+    "image-orientation",
+    "jpeg-orientation",
+    "tiff-orientation",
+    "image-exif",
+    "vue-plugin",
+    "vue-jpeg",
+    "vue-jpg",
+    "vue-tiff",
+    "auto-orient",
+    "jpg-direction",
+    "img-direction",
+    "jpg-rotation",
+    "img-rotation",
+    "jpg-rotate",
+    "img-rotate"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "nikli2009",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/10917606?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/nikli2009/vue-img-orientation-changer"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

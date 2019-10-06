@@ -1,0 +1,33 @@
+{
+  "name": "element",
+  "full_name": "ElemeFE/element",
+  "description": "A Vue.js 2.0 UI Toolkit for Web",
+  "topics": [
+    "vue",
+    "components",
+    "javascript",
+    "vue-components",
+    "ui-kit",
+    "element-ui",
+    "vuejs"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "ElemeFE",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/12810740?v=4"
+  },
+  "organization": {
+    "login": "ElemeFE",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/12810740?v=4"
+  },
+  "links": {
+    "site": "https://element.eleme.io/",
+    "repo": "https://github.com/ElemeFE/element"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

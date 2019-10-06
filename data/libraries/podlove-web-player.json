@@ -1,0 +1,25 @@
+{
+  "name": "podlove-web-player",
+  "full_name": "podlove/podlove-web-player",
+  "description": "Podlove Web Player is a Podcast-optimized, HTML5-based audio player based on VueJS.",
+  "topics": [],
+  "license": {
+    "key": "other",
+    "url": null,
+    "name": "Other"
+  },
+  "owner": {
+    "login": "podlove",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/1937991?v=4"
+  },
+  "organization": {
+    "login": "podlove",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/1937991?v=4"
+  },
+  "links": {
+    "site": "https://docs.podlove.org/podlove-web-player/",
+    "repo": "https://github.com/podlove/podlove-web-player"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

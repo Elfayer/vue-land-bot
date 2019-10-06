@@ -1,0 +1,20 @@
+{
+  "name": "vue-pano",
+  "full_name": "ChiChou/vue-pano",
+  "description": "A WebGL driven panorama vue.js component",
+  "topics": [
+    "webgl"
+  ],
+  "license": null,
+  "owner": {
+    "login": "ChiChou",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/2802045?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://chichou.github.io/vue-pano",
+    "repo": "https://github.com/ChiChou/vue-pano"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,27 @@
+{
+  "name": "office-ui-fabric-vue",
+  "full_name": "aidewoode/office-ui-fabric-vue",
+  "description": "Office UI Fabric implementation for Vue.js",
+  "topics": [
+    "vue",
+    "office-ui-fabric",
+    "ui-framework",
+    "vuejs2"
+  ],
+  "license": {
+    "key": "other",
+    "url": null,
+    "name": "Other"
+  },
+  "owner": {
+    "login": "aidewoode",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/6188618?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://aidewoode.github.io/office-ui-fabric-vue/",
+    "repo": "https://github.com/aidewoode/office-ui-fabric-vue"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

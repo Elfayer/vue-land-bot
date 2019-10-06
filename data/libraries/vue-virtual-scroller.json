@@ -1,0 +1,24 @@
+{
+  "name": "vue-virtual-scroller",
+  "full_name": "Akryum/vue-virtual-scroller",
+  "description": "⚡️ Blazing fast scrolling for any amount of data",
+  "topics": [
+    "vuejs",
+    "vuejs2",
+    "virtual-scroller",
+    "scroller",
+    "vuejs-components"
+  ],
+  "license": null,
+  "owner": {
+    "login": "Akryum",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/2798204?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://akryum.github.io/vue-virtual-scroller/",
+    "repo": "https://github.com/Akryum/vue-virtual-scroller"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

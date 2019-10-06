@@ -1,0 +1,31 @@
+{
+  "name": "mdi-vue",
+  "full_name": "therufa/mdi-vue",
+  "description": "Material design icons for vue.js",
+  "topics": [
+    "vuejs2",
+    "vuejs",
+    "vue",
+    "material-design-icons",
+    "icons",
+    "material",
+    "mdi",
+    "material-design"
+  ],
+  "license": {
+    "key": "other",
+    "url": null,
+    "name": "Other"
+  },
+  "owner": {
+    "login": "therufa",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/315825?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://www.npmjs.com/package/mdi-vue",
+    "repo": "https://github.com/therufa/mdi-vue"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

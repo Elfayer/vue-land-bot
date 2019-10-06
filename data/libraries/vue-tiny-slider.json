@@ -1,0 +1,25 @@
+{
+  "name": "vue-tiny-slider",
+  "full_name": "viktorlarsson/vue-tiny-slider",
+  "description": "Vanilla javascript slider for all purposes created by ganlanyuan in Vue.",
+  "topics": [
+    "javascript",
+    "vue"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "viktorlarsson",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/722315?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/viktorlarsson/vue-tiny-slider"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

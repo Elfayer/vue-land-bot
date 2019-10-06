@@ -1,0 +1,22 @@
+{
+  "name": "vuex-jsdata-plugin",
+  "full_name": "AlexandreBonaventure/vuex-jsdata-plugin",
+  "description": "A plugin for syncing Vuex store with js-data",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "AlexandreBonaventure",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/4596409?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/AlexandreBonaventure/vuex-jsdata-plugin"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

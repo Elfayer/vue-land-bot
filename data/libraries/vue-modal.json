@@ -1,0 +1,30 @@
+{
+  "name": "vue-modal",
+  "full_name": "MelMacaluso/vue-modal",
+  "description": "Reusable Modal component, supports own custom HTML, text and classes.",
+  "topics": [
+    "javascript",
+    "vue",
+    "vuejs",
+    "vue2",
+    "vuecomponent",
+    "vuecomponents",
+    "modal",
+    "modals",
+    "dialog",
+    "popup",
+    "reusable"
+  ],
+  "license": null,
+  "owner": {
+    "login": "MelMacaluso",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/24974216?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/MelMacaluso/vue-modal"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

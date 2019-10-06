@@ -1,0 +1,26 @@
+{
+  "name": "vue2-dragula",
+  "full_name": "kristianmandrup/vue2-dragula",
+  "description": ":ok_hand: Drag and drop so simple it hurts http://astray-git.github.io/vue-dragula",
+  "topics": [
+    "dnd",
+    "dragula",
+    "vuejs2"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "kristianmandrup",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/125005?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/kristianmandrup/vue2-dragula"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

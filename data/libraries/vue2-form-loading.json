@@ -1,0 +1,22 @@
+{
+  "name": "vue2-form-loading",
+  "full_name": "hussam-m/vue2-form-loading",
+  "description": "A VueJS directive can be used with forms in order to disable submit button and make every input readonly after submitting",
+  "topics": [
+    "vue",
+    "vuejs2",
+    "form"
+  ],
+  "license": null,
+  "owner": {
+    "login": "hussam-m",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/3871973?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://hussam.online/vue/form_loading",
+    "repo": "https://github.com/hussam-m/vue2-form-loading"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

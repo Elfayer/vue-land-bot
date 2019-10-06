@@ -1,0 +1,22 @@
+{
+  "name": "vue-dropzone",
+  "full_name": "rowanwins/vue-dropzone",
+  "description": "A Vue.js component for Dropzone.js - a drag’n’drop file uploads utility with image previews",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "rowanwins",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/6735870?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://rowanwins.github.io/vue-dropzone/docs/dist",
+    "repo": "https://github.com/rowanwins/vue-dropzone"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

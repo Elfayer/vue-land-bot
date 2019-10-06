@@ -1,0 +1,29 @@
+{
+  "name": "vue-currency-filter",
+  "full_name": "mazipan/vue-currency-filter",
+  "description": "🍒 Lightweight vue currency filter based on accounting.js",
+  "topics": [
+    "vue",
+    "vue2",
+    "vue-filters",
+    "vue-currency",
+    "vue-filter-currency",
+    "vue-currency-filter"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "mazipan",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/7221389?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://mazipan.github.io/vue-currency-filter/",
+    "repo": "https://github.com/mazipan/vue-currency-filter"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

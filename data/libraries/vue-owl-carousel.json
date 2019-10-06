@@ -1,0 +1,22 @@
+{
+  "name": "vue-owl-carousel",
+  "full_name": "s950329/vue-owl-carousel",
+  "description": "Vue component for Owl Carousel 2",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "s950329",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/13188254?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/s950329/vue-owl-carousel"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

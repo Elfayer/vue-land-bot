@@ -1,0 +1,22 @@
+{
+  "name": "Core-Server",
+  "full_name": "Skyhark-Projects/Core-Server",
+  "description": "A Vue based web server with an integrated API system",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "Skyhark-Projects",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/28492958?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/Skyhark-Projects/Core-Server"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

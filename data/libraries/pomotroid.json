@@ -1,0 +1,29 @@
+{
+  "name": "pomotroid",
+  "full_name": "Splode/pomotroid",
+  "description": ":tomato: Simple and visually-pleasing Pomodoro timer",
+  "topics": [
+    "pomodoro",
+    "vue",
+    "electron",
+    "javascript",
+    "electron-vue",
+    "pomodoro-timer"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "Splode",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/13758438?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://splode.github.io/pomotroid/",
+    "repo": "https://github.com/Splode/pomotroid"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

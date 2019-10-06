@@ -1,0 +1,25 @@
+{
+  "name": "vue-poll",
+  "full_name": "ppietris/vue-poll",
+  "description": "A Vue.js component for voting",
+  "topics": [
+    "vue",
+    "vuejs",
+    "vuejs2",
+    "vote",
+    "voting",
+    "poll"
+  ],
+  "license": null,
+  "owner": {
+    "login": "ppietris",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/7735320?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://ppietris.github.io/vue-poll/index.html",
+    "repo": "https://github.com/ppietris/vue-poll"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

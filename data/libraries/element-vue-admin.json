@@ -1,0 +1,27 @@
+{
+  "name": "element-vue-admin",
+  "full_name": "TonyLuo/element-vue-admin",
+  "description": "vue admin template base on element 2",
+  "topics": [
+    "vue",
+    "vuex",
+    "admin-dashboard",
+    "element-ui"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "TonyLuo",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/3250305?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://tonyluo.github.io/element-vue-admin",
+    "repo": "https://github.com/TonyLuo/element-vue-admin"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

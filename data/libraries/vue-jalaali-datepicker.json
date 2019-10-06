@@ -1,0 +1,22 @@
+{
+  "name": "vue-jalaali-datepicker",
+  "full_name": "pepour/vue-jalaali-datepicker",
+  "description": "Jalaali calendar and datepicker for vue.js 2",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "pepour",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/10605157?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/pepour/vue-jalaali-datepicker"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

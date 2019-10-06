@@ -1,0 +1,23 @@
+{
+  "name": "vue-paginate-al",
+  "full_name": "alziqziq/vue-paginate-al",
+  "description": "Vue paginate with return your data",
+  "topics": [
+    "pagination",
+    "vuejs",
+    "vue",
+    "paginate"
+  ],
+  "license": null,
+  "owner": {
+    "login": "alziqziq",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/29282122?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/alziqziq/vue-paginate-al"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

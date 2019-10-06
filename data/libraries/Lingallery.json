@@ -1,0 +1,18 @@
+{
+  "name": "Lingallery",
+  "full_name": "ChristophAnastasiades/Lingallery",
+  "description": "Lingallery is a simple image gallery component for Vue.js",
+  "topics": [],
+  "license": null,
+  "owner": {
+    "login": "ChristophAnastasiades",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/6797181?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/ChristophAnastasiades/Lingallery"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,22 @@
+{
+  "name": "vue-bootstrap-select",
+  "full_name": "Sandalf/vue-bootstrap-select",
+  "description": "A vue version of bootstrap select",
+  "topics": [
+    "vue",
+    "bootstrap",
+    "select"
+  ],
+  "license": null,
+  "owner": {
+    "login": "Sandalf",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/16421088?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/Sandalf/vue-bootstrap-select"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

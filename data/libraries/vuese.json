@@ -1,0 +1,25 @@
+{
+  "name": "vuese",
+  "full_name": "vue-contrib/vuese",
+  "description": "🤗 One-stop solution for vue component documentation. Original org: https://github.com/vuese",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "vue-contrib",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/53168964?v=4"
+  },
+  "organization": {
+    "login": "vue-contrib",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/53168964?v=4"
+  },
+  "links": {
+    "site": "https://vuese.org/",
+    "repo": "https://github.com/vue-contrib/vuese"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

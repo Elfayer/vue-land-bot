@@ -1,0 +1,22 @@
+{
+  "name": "vue-audio-recorder",
+  "full_name": "grishkovelli/vue-audio-recorder",
+  "description": "A simple audio recorder for VueJS applications",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "grishkovelli",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/5354813?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/grishkovelli/vue-audio-recorder"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

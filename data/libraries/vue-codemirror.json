@@ -1,0 +1,41 @@
+{
+  "name": "vue-codemirror",
+  "full_name": "surmon-china/vue-codemirror",
+  "description": "⌨️ @codemirror component for @vuejs",
+  "topics": [
+    "vue",
+    "codemirror",
+    "vue-codemirror",
+    "codemirror-component",
+    "vuejs",
+    "vuejs2",
+    "vue2",
+    "vue-components",
+    "vue-component",
+    "vue-resource",
+    "codemirror-themes",
+    "codemirror-editor",
+    "code-editor",
+    "co",
+    "vue-directive",
+    "vue-plugin",
+    "text-editor",
+    "web-editor"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "surmon-china",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/14019524?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://surmon-china.github.io/vue-codemirror",
+    "repo": "https://github.com/surmon-china/vue-codemirror"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

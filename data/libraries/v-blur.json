@@ -1,0 +1,26 @@
+{
+  "name": "v-blur",
+  "full_name": "ndelvalle/v-blur",
+  "description": "⬜️ Vue directive to blur an element dynamically",
+  "topics": [
+    "vue",
+    "vuejs",
+    "vue-directive"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "ndelvalle",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/6719053?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/ndelvalle/v-blur"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

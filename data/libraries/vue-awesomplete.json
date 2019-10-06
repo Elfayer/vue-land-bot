@@ -1,0 +1,21 @@
+{
+  "name": "vue-awesomplete",
+  "full_name": "sandi-racy/vue-awesomplete",
+  "description": "Vue wrapper for Awesomplete",
+  "topics": [
+    "vue",
+    "awesomplete"
+  ],
+  "license": null,
+  "owner": {
+    "login": "sandi-racy",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/2135208?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/sandi-racy/vue-awesomplete"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

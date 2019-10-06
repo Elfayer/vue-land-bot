@@ -1,0 +1,28 @@
+{
+  "name": "vue-window",
+  "full_name": "michitaro/vue-window",
+  "description": "Window component for vue2",
+  "topics": [
+    "vue",
+    "window",
+    "typescript",
+    "component",
+    "pc-environment"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "michitaro",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/3928908?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://github.com/michitaro/vue-window",
+    "repo": "https://github.com/michitaro/vue-window"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

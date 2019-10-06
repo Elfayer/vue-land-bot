@@ -1,0 +1,25 @@
+{
+  "name": "vue-table",
+  "full_name": "myENA/vue-table",
+  "description": "Vue component for rendering tables used in ENA projects",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "myENA",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/17278275?v=4"
+  },
+  "organization": {
+    "login": "myENA",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/17278275?v=4"
+  },
+  "links": {
+    "site": null,
+    "repo": "https://github.com/myENA/vue-table"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

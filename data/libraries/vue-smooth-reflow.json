@@ -1,0 +1,29 @@
+{
+  "name": "vue-smooth-reflow",
+  "full_name": "guanzo/vue-smooth-reflow",
+  "description": "Transition an elements reflow when the data changes.",
+  "topics": [
+    "vue",
+    "transition",
+    "animation",
+    "reflow",
+    "auto",
+    "mixin"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "guanzo",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/4676043?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/guanzo/vue-smooth-reflow"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

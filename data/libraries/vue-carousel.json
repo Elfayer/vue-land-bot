@@ -1,0 +1,29 @@
+{
+  "name": "vue-carousel",
+  "full_name": "SSENSE/vue-carousel",
+  "description": "A flexible, responsive, touch-friendly carousel for Vue.js",
+  "topics": [
+    "vue",
+    "vue-carousel",
+    "carousel-component"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "SSENSE",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/17600947?v=4"
+  },
+  "organization": {
+    "login": "SSENSE",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/17600947?v=4"
+  },
+  "links": {
+    "site": "https://ssense.github.io/vue-carousel/",
+    "repo": "https://github.com/SSENSE/vue-carousel"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

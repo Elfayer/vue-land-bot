@@ -1,0 +1,22 @@
+{
+  "name": "vuex-async-module",
+  "full_name": "liqueflies/vuex-async-module",
+  "description": "Reduce async boilerplate code generating Vuex modules. Compatible with Vue 2.x.",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "liqueflies",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/12168237?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/liqueflies/vuex-async-module"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

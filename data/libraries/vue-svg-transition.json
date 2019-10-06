@@ -1,0 +1,24 @@
+{
+  "name": "vue-svg-transition",
+  "full_name": "kai-oswald/vue-svg-transition",
+  "description": "Create 2-state, SVG-powered transitions",
+  "topics": [
+    "vue",
+    "vuejs",
+    "svg",
+    "transition",
+    "vue-component"
+  ],
+  "license": null,
+  "owner": {
+    "login": "kai-oswald",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/10707779?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://kai-oswald.github.io/vue-svg-transition/",
+    "repo": "https://github.com/kai-oswald/vue-svg-transition"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

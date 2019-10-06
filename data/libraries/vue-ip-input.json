@@ -1,0 +1,22 @@
+{
+  "name": "vue-ip-input",
+  "full_name": "lakb248/vue-ip-input",
+  "description": "An ip input implament by vuejs",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "lakb248",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/5069587?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://lakb248.github.io/vue-ip-input",
+    "repo": "https://github.com/lakb248/vue-ip-input"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

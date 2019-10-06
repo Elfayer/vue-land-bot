@@ -1,0 +1,24 @@
+{
+  "name": "vue-ip",
+  "full_name": "peteringram0/vue-ip",
+  "description": "IP Address input for VueJS 2.x",
+  "topics": [
+    "vuejs2",
+    "ip",
+    "input",
+    "material-design",
+    "material"
+  ],
+  "license": null,
+  "owner": {
+    "login": "peteringram0",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/6588942?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://peteringram0.github.io/vue-ip/",
+    "repo": "https://github.com/peteringram0/vue-ip"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

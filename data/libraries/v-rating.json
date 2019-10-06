@@ -1,0 +1,32 @@
+{
+  "name": "v-rating",
+  "full_name": "vinayakkulkarni/v-rating",
+  "description": ":star: Rating component in Semantic-UI made with VueJS (< 1kB, blazing fast)",
+  "topics": [
+    "vue",
+    "vuejs",
+    "vue2",
+    "vuejs2",
+    "vue-components",
+    "vuejs-components",
+    "vue-semantic-ui-rating",
+    "vue-rating",
+    "v-rating"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "vinayakkulkarni",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/19776877?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://bit.ly/v-rating",
+    "repo": "https://github.com/vinayakkulkarni/v-rating"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

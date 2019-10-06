@@ -1,0 +1,37 @@
+{
+  "name": "vue-izitoast",
+  "full_name": "arthurvasconcelos/vue-izitoast",
+  "description": "Elegant, responsive, flexible and lightweight notification plugin implemented for Vue 2 of iziToast",
+  "topics": [
+    "vue",
+    "izitoast",
+    "toaster",
+    "toast",
+    "message",
+    "notification",
+    "vue-izitoast",
+    "alert",
+    "info",
+    "success",
+    "warning",
+    "confirm",
+    "question",
+    "js"
+  ],
+  "license": {
+    "key": "apache-2.0",
+    "url": "https://api.github.com/licenses/apache-2.0",
+    "name": "Apache License 2.0"
+  },
+  "owner": {
+    "login": "arthurvasconcelos",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/1286768?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://arthurvasconcelos.com.br/vue-izitoast",
+    "repo": "https://github.com/arthurvasconcelos/vue-izitoast"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,30 @@
+{
+  "name": "surfbird",
+  "full_name": "pixeldesu/surfbird",
+  "description": "A Microblogging client built on Electron and Vue",
+  "topics": [
+    "twitter",
+    "twitter-api",
+    "vue",
+    "electron",
+    "twitter-client",
+    "desktop-app",
+    "electron-app"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "pixeldesu",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/1774242?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/pixeldesu/surfbird"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,21 @@
+{
+  "name": "vue-laravel-example",
+  "full_name": "jcc/vue-laravel-example",
+  "description": "⚡ Vue - Laravel - Example is a simple example to set Vue with Laravel.",
+  "topics": [
+    "laravel",
+    "vue"
+  ],
+  "license": null,
+  "owner": {
+    "login": "jcc",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/12684082?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/jcc/vue-laravel-example"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,26 @@
+{
+  "name": "vue-router-storage",
+  "full_name": "ElderJames/vue-router-storage",
+  "description": "A vue router storage solution. -If your vue application needs to jump to a third party page, and then jump back, want to restore to the original history and continue to operate, the use of this plug-in is the best solution.如果你的vue应用需要跳转到第三方页面，再跳转回来时，想恢复到原来的历史记录并继续操作，使用本插件是最好的解决方案。",
+  "topics": [
+    "vue",
+    "vue-router-storage",
+    "vue-router"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "ElderJames",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/7550366?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/ElderJames/vue-router-storage"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,22 @@
+{
+  "name": "vue-autocompile",
+  "full_name": "paulpflug/vue-autocompile",
+  "description": "Auto compile vue file on save",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "paulpflug",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/1881921?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/paulpflug/vue-autocompile"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

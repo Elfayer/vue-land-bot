@@ -1,0 +1,18 @@
+{
+  "name": "vuetest",
+  "full_name": "sjerrys/vuetest",
+  "description": "an ad admin web, with vue, bootstrap, user auth, uploader and WYSIWYG editor in iframe.",
+  "topics": [],
+  "license": null,
+  "owner": {
+    "login": "sjerrys",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/121523?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/sjerrys/vuetest"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

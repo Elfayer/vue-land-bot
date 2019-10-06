@@ -1,0 +1,32 @@
+{
+  "name": "vue-easy-slider",
+  "full_name": "shhdgit/vue-easy-slider",
+  "description": "Slider Component of Vue.js.",
+  "topics": [
+    "slider",
+    "vue-slider",
+    "slides",
+    "carrousel",
+    "vue-directive",
+    "vue-plugin",
+    "vue-swiper",
+    "swiper",
+    "swipe"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "shhdgit",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/11549583?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/shhdgit/vue-easy-slider"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

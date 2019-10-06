@@ -1,0 +1,26 @@
+{
+  "name": "vue-text-highlight",
+  "full_name": "AlbertLucianto/vue-text-highlight",
+  "description": "Text highlighter library for Vue.js :lipstick:",
+  "topics": [
+    "vue",
+    "highlight",
+    "text-highlighter"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "AlbertLucianto",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/23165866?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://albertlucianto.github.io/vue-text-highlight",
+    "repo": "https://github.com/AlbertLucianto/vue-text-highlight"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

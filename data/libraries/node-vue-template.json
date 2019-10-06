@@ -1,0 +1,28 @@
+{
+  "name": "node-vue-template",
+  "full_name": "mubaidr/node-vue-template",
+  "description": "A starter template for building complete application using Node.js and Vue.js with some included packages and configurations to help start the development quickly.",
+  "topics": [
+    "nodejs",
+    "vuejs",
+    "javascript",
+    "vue",
+    "starter-template"
+  ],
+  "license": {
+    "key": "apache-2.0",
+    "url": "https://api.github.com/licenses/apache-2.0",
+    "name": "Apache License 2.0"
+  },
+  "owner": {
+    "login": "mubaidr",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/2222702?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/mubaidr/node-vue-template"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

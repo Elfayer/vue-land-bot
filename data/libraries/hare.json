@@ -1,0 +1,34 @@
+{
+  "name": "hare",
+  "full_name": "clarkdo/hare",
+  "description": "🐇 Application boilerplate based on Vue.js 2.x, Koa 2.x, Element-UI and Nuxt.js",
+  "topics": [
+    "web",
+    "javascript",
+    "nodejs",
+    "babel",
+    "vue2",
+    "nuxtjs",
+    "koa2",
+    "element-ui",
+    "ava",
+    "yarn",
+    "scaffold"
+  ],
+  "license": {
+    "key": "other",
+    "url": null,
+    "name": "Other"
+  },
+  "owner": {
+    "login": "clarkdo",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/4312154?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://nuxt-hare.herokuapp.com",
+    "repo": "https://github.com/clarkdo/hare"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

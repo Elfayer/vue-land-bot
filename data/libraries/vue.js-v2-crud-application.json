@@ -1,0 +1,23 @@
+{
+  "name": "vue.js-v2-crud-application",
+  "full_name": "shershen08/vue.js-v2-crud-application",
+  "description": "Vue.js demo app ",
+  "topics": [
+    "crud-application",
+    "vue",
+    "vuejs2",
+    "demo-app"
+  ],
+  "license": null,
+  "owner": {
+    "login": "shershen08",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/1363772?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/shershen08/vue.js-v2-crud-application"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

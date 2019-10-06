@@ -1,0 +1,25 @@
+{
+  "name": "vue-typescript-jest",
+  "full_name": "locoslab/vue-typescript-jest",
+  "description": "[DEPRECATED] Jest preprocessor.js for Vue.js components (supporting html, pug, and babel) and TypeScript",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "locoslab",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/15248135?v=4"
+  },
+  "organization": {
+    "login": "locoslab",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/15248135?v=4"
+  },
+  "links": {
+    "site": null,
+    "repo": "https://github.com/locoslab/vue-typescript-jest"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

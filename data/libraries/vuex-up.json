@@ -1,0 +1,30 @@
+{
+  "name": "vuex-up",
+  "full_name": "Hokid/vuex-up",
+  "description": "Brings mixins and DI support to vuex modules",
+  "topics": [
+    "vuex",
+    "vuex-module",
+    "module",
+    "up",
+    "mixin",
+    "vuex-mixin",
+    "vuex-service",
+    "service",
+    "store",
+    "vuex-plugin",
+    "vuex-store"
+  ],
+  "license": null,
+  "owner": {
+    "login": "Hokid",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/7846990?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/Hokid/vuex-up"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

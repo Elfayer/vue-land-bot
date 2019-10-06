@@ -1,0 +1,22 @@
+{
+  "name": "mtodo",
+  "full_name": "satriaajiputra/mtodo",
+  "description": "MToDo is a simple to do app build with vue.js",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "satriaajiputra",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/11694404?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/satriaajiputra/mtodo"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

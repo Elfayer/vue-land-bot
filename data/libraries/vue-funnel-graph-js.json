@@ -1,0 +1,28 @@
+{
+  "name": "vue-funnel-graph-js",
+  "full_name": "greghub/vue-funnel-graph-js",
+  "description": "Vue.js component drawing SVG Funnel Graphs",
+  "topics": [
+    "vue",
+    "vue-graphs",
+    "vue-chart",
+    "vue-funnel-chart",
+    "vue-charting"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "greghub",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/1955172?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/greghub/vue-funnel-graph-js"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

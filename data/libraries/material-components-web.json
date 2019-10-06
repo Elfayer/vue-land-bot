@@ -1,0 +1,31 @@
+{
+  "name": "material-components-web",
+  "full_name": "material-components/material-components-web",
+  "description": "Modular and customizable Material Design UI components for the web",
+  "topics": [
+    "material-components",
+    "material-design",
+    "web",
+    "css",
+    "javascript"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "material-components",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/19478152?v=4"
+  },
+  "organization": {
+    "login": "material-components",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/19478152?v=4"
+  },
+  "links": {
+    "site": "https://material.io/develop/",
+    "repo": "https://github.com/material-components/material-components-web"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

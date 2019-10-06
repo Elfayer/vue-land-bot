@@ -1,0 +1,43 @@
+{
+  "name": "laqul",
+  "full_name": "laqul/laqul",
+  "description": " A complete starter kit that allows you create amazing apps that look native thanks to the Quasar Framework. Powered by an API developed in Laravel Framework using the easy GraphQL queries language. And ready to use the Google Firebase features.",
+  "topics": [
+    "laravel",
+    "quasar-framework",
+    "api",
+    "api-client",
+    "php",
+    "graphql",
+    "javascript",
+    "oauth2",
+    "firebase",
+    "firebase-auth",
+    "firebase-cloud-messaging",
+    "token-authetication",
+    "social-login",
+    "spa",
+    "pwa",
+    "mobile-app",
+    "dashboard",
+    "user-roles",
+    "login-system",
+    "registration-system"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "laqul",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/39128437?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://laqul.github.io/",
+    "repo": "https://github.com/laqul/laqul"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

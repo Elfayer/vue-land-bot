@@ -1,0 +1,38 @@
+{
+  "name": "vuesax",
+  "full_name": "lusaxweb/vuesax",
+  "description": "New Framework Components for Vue.js 2",
+  "topics": [
+    "vue",
+    "vuejs",
+    "javascript",
+    "component",
+    "vuesax",
+    "lusaxweb",
+    "componets",
+    "framework",
+    "library",
+    "vuejs2",
+    "vue2",
+    "vue-components"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "lusaxweb",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/35979086?v=4"
+  },
+  "organization": {
+    "login": "lusaxweb",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/35979086?v=4"
+  },
+  "links": {
+    "site": "https://lusaxweb.github.io/vuesax/",
+    "repo": "https://github.com/lusaxweb/vuesax"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,28 @@
+{
+  "name": "vue-awesome-mui",
+  "full_name": "Wscats/vue-awesome-mui",
+  "description": ":trophy:Mui component for Vue.js(1.x ~ 2.x)",
+  "topics": [
+    "mui",
+    "vue",
+    "vue2",
+    "vue2js",
+    "vue-awesome-mui",
+    "vue-mui",
+    "vue-directive",
+    "vue-components",
+    "vue-ui"
+  ],
+  "license": null,
+  "owner": {
+    "login": "Wscats",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/17243165?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://wscats.github.io/vue-awesome-mui/public/#/index",
+    "repo": "https://github.com/Wscats/vue-awesome-mui"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

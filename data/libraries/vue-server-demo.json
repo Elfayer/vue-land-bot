@@ -1,0 +1,24 @@
+{
+  "name": "vue-server-demo",
+  "full_name": "fritx/vue-server-demo",
+  "description": "\"Vue\" is a language.",
+  "topics": [
+    "vue",
+    "server",
+    "koa",
+    "vue-koa",
+    "bindings"
+  ],
+  "license": null,
+  "owner": {
+    "login": "fritx",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/6647633?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/fritx/vue-server-demo"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

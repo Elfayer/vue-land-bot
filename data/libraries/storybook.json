@@ -1,0 +1,46 @@
+{
+  "name": "storybook",
+  "full_name": "storybookjs/storybook",
+  "description": "📓 UI component dev & test: React, Vue, Angular, React Native, Ember, Web Components & more!",
+  "topics": [
+    "storybook",
+    "styleguide",
+    "testing",
+    "components",
+    "library",
+    "webpack",
+    "ui",
+    "react",
+    "vue",
+    "react-native",
+    "design-systems",
+    "javascript",
+    "angular",
+    "polymer",
+    "svelte",
+    "ember",
+    "marko",
+    "ui-components",
+    "documentation",
+    "web-components"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "storybookjs",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/22632046?v=4"
+  },
+  "organization": {
+    "login": "storybookjs",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/22632046?v=4"
+  },
+  "links": {
+    "site": "https://storybook.js.org",
+    "repo": "https://github.com/storybookjs/storybook"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

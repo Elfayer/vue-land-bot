@@ -1,0 +1,33 @@
+{
+  "name": "Vuc",
+  "full_name": "loo41/Vuc",
+  "description": "🎨 基于 Vuejs 的 Canvas 组件库",
+  "topics": [
+    "vue",
+    "vue-components",
+    "canvas",
+    "effects",
+    "material",
+    "vue-canvas",
+    "vue-input",
+    "vue-identify",
+    "vue-carousel",
+    "vue-image"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "loo41",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/28095677?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "http://vuc.tianchenyong.top",
+    "repo": "https://github.com/loo41/Vuc"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

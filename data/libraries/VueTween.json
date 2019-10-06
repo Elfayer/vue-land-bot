@@ -1,0 +1,28 @@
+{
+  "name": "VueTween",
+  "full_name": "SeregPie/VueTween",
+  "description": "Allows the components to tween their properties.",
+  "topics": [
+    "animation",
+    "mixin",
+    "plugin",
+    "tween",
+    "vue"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "SeregPie",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/1217953?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://seregpie.github.io/VueTween/",
+    "repo": "https://github.com/SeregPie/VueTween"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

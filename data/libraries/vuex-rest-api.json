@@ -1,0 +1,32 @@
+{
+  "name": "vuex-rest-api",
+  "full_name": "christianmalek/vuex-rest-api",
+  "description": "A helper utility to simplify the usage of REST APIs with Vuex.",
+  "topics": [
+    "vuex",
+    "vue",
+    "rest",
+    "api",
+    "vue2",
+    "utility",
+    "helper",
+    "middleware",
+    "axios"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "christianmalek",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/2873986?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "http://vuex-rest-api.org",
+    "repo": "https://github.com/christianmalek/vuex-rest-api"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

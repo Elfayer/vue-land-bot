@@ -1,0 +1,29 @@
+{
+  "name": "vue-cli-plugin-modular-vuex",
+  "full_name": "PureConstructs/vue-cli-plugin-modular-vuex",
+  "description": "Create Modular Vuex stores for Vue CLI 3 plugin",
+  "topics": [
+    "vuex-plugin",
+    "vue-cli-3",
+    "vuex"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "PureConstructs",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/33675671?v=4"
+  },
+  "organization": {
+    "login": "PureConstructs",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/33675671?v=4"
+  },
+  "links": {
+    "site": null,
+    "repo": "https://github.com/PureConstructs/vue-cli-plugin-modular-vuex"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

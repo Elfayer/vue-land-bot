@@ -1,0 +1,32 @@
+{
+  "name": "vue-visible",
+  "full_name": "javisperez/vue-visible",
+  "description": "v-visible directive for VueJS",
+  "topics": [
+    "vuejs",
+    "directive",
+    "visible",
+    "visibility",
+    "v-visible",
+    "vue-visible",
+    "v-show",
+    "hidden",
+    "plugin"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "javisperez",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/4766570?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/javisperez/vue-visible"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

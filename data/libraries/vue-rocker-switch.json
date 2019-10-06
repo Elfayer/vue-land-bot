@@ -1,0 +1,22 @@
+{
+  "name": "vue-rocker-switch",
+  "full_name": "DannyFeliz/vue-rocker-switch",
+  "description": "A customizable rocker switch component for Vue.js.",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "DannyFeliz",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/5460365?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://codesandbox.io/s/qvw4o1k24",
+    "repo": "https://github.com/DannyFeliz/vue-rocker-switch"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

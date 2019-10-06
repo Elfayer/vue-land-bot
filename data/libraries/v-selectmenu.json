@@ -1,0 +1,32 @@
+{
+  "name": "v-selectmenu",
+  "full_name": "TerryZ/v-selectmenu",
+  "description": "SelectMenu for Vuejs, A simple, easier and highly customized menu solution",
+  "topics": [
+    "javascript",
+    "vuejs",
+    "menu",
+    "multiple-level",
+    "multiple-group",
+    "embed",
+    "contextmenu",
+    "i18n",
+    "quick-search"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "TerryZ",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/854406?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://terryz.github.io/vue/#/selectmenu",
+    "repo": "https://github.com/TerryZ/v-selectmenu"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

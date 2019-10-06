@@ -1,0 +1,31 @@
+{
+  "name": "vue-my-photos",
+  "full_name": "am283721/vue-my-photos",
+  "description": "Simple lightbox component for Vue applications",
+  "topics": [
+    "vue",
+    "lightbox",
+    "lightbox-gallery",
+    "lightbox-gallery-plugin",
+    "vuejs2",
+    "vue-component",
+    "image-gallery",
+    "vuejs"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "am283721",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/27497493?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/am283721/vue-my-photos"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

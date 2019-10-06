@@ -1,0 +1,25 @@
+{
+  "name": "vue-chess",
+  "full_name": "gustaYo/vue-chess",
+  "description": "Multiplayer online chess game use Vue , Nodejs, Webpack, Em6, Socket.io, Mongodb, Express",
+  "topics": [
+    "socket-io",
+    "mongodb",
+    "vuejs",
+    "webpack",
+    "express",
+    "chess-game"
+  ],
+  "license": null,
+  "owner": {
+    "login": "gustaYo",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/12780682?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/gustaYo/vue-chess"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

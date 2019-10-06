@@ -1,0 +1,26 @@
+{
+  "name": "vue-coverflow",
+  "full_name": "OrangeXC/vue-coverflow",
+  "description": "🔆 Vue coverflow component(vue)",
+  "topics": [
+    "vue-coverflow",
+    "vue-component",
+    "npm"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "OrangeXC",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/16081320?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://OrangeX_C.coding.me/vue-coverflow",
+    "repo": "https://github.com/OrangeXC/vue-coverflow"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

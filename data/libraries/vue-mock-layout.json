@@ -1,0 +1,30 @@
+{
+  "name": "vue-mock-layout",
+  "full_name": "promosis/vue-mock-layout",
+  "description": "💻 Easily mock the layout of your Vue apps.",
+  "topics": [
+    "vue",
+    "mock",
+    "layout",
+    "template"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "promosis",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/30876777?v=4"
+  },
+  "organization": {
+    "login": "promosis",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/30876777?v=4"
+  },
+  "links": {
+    "site": "https://promosis.github.io/vue-mock-layout/",
+    "repo": "https://github.com/promosis/vue-mock-layout"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

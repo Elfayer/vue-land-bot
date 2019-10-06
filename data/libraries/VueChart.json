@@ -1,0 +1,39 @@
+{
+  "name": "VueChart",
+  "full_name": "SeregPie/VueChart",
+  "description": "A simple wrapper for Chart.",
+  "topics": [
+    "vue",
+    "chart",
+    "component",
+    "plugin",
+    "canvas",
+    "bar",
+    "line",
+    "radar",
+    "scatter",
+    "area",
+    "pie",
+    "doughnut",
+    "polar",
+    "diagram",
+    "javascript",
+    "chartjs"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "SeregPie",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/1217953?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://seregpie.github.io/VueChart/",
+    "repo": "https://github.com/SeregPie/VueChart"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

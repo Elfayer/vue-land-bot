@@ -1,0 +1,25 @@
+{
+  "name": "vue-scroll-stop",
+  "full_name": "voxtobox/vue-scroll-stop",
+  "description": "A tiny Vue directive that stop propagation scroll when edge reached",
+  "topics": [
+    "vue",
+    "vuejs2",
+    "vue2",
+    "scroll",
+    "scrolling",
+    "vue-directive"
+  ],
+  "license": null,
+  "owner": {
+    "login": "voxtobox",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/13472105?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/voxtobox/vue-scroll-stop"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

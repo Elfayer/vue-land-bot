@@ -1,0 +1,30 @@
+{
+  "name": "vue-auth-plugin",
+  "full_name": "d0whc3r/vue-auth-plugin",
+  "description": "Vue auth plugin with typescript",
+  "topics": [
+    "vue",
+    "vue-plugin",
+    "vue-cli",
+    "vue-2",
+    "authorization",
+    "authentication",
+    "typescript"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "d0whc3r",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/1378986?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://vue-auth-plugin.netlify.com",
+    "repo": "https://github.com/d0whc3r/vue-auth-plugin"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

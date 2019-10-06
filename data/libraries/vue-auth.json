@@ -1,0 +1,27 @@
+{
+  "name": "vue-auth",
+  "full_name": "websanova/vue-auth",
+  "description": "Jwt Auth library for Vue.js.",
+  "topics": [
+    "vue",
+    "vuejs",
+    "vuejs2",
+    "vue-auth"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "websanova",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/1645771?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/websanova/vue-auth"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,22 @@
+{
+  "name": "vue-easeljs",
+  "full_name": "dankuck/vue-easeljs",
+  "description": "A Vue.js plugin to control an HTML5 canvas using EaselJS",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "dankuck",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/277837?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/dankuck/vue-easeljs"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

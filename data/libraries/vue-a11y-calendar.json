@@ -1,0 +1,31 @@
+{
+  "name": "vue-a11y-calendar",
+  "full_name": "IBM/vue-a11y-calendar",
+  "description": "Accessible, internationalized Vue calendar",
+  "topics": [
+    "accessibility",
+    "internationalization",
+    "vue",
+    "calendar",
+    "vue-component"
+  ],
+  "license": {
+    "key": "apache-2.0",
+    "url": "https://api.github.com/licenses/apache-2.0",
+    "name": "Apache License 2.0"
+  },
+  "owner": {
+    "login": "IBM",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/1459110?v=4"
+  },
+  "organization": {
+    "login": "IBM",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/1459110?v=4"
+  },
+  "links": {
+    "site": "https://ibm.github.io/vue-a11y-calendar/",
+    "repo": "https://github.com/IBM/vue-a11y-calendar"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

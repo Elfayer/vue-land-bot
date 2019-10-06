@@ -1,0 +1,33 @@
+{
+  "name": "vux",
+  "full_name": "airyland/vux",
+  "description": "Mobile UI Components based on Vue & WeUI",
+  "topics": [
+    "vux",
+    "weui",
+    "vue",
+    "vue-components",
+    "components",
+    "web-app",
+    "wechat",
+    "javascript",
+    "mobile-web",
+    "vue2"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "airyland",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/559179?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://vux.li/",
+    "repo": "https://github.com/airyland/vux"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,22 @@
+{
+  "name": "vue-animate-scroll",
+  "full_name": "mike-prince/vue-animate-scroll",
+  "description": "A small Vue component that provides an easy way to animate elements as they scroll into view.",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "mike-prince",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/42186654?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/mike-prince/vue-animate-scroll"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

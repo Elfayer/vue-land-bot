@@ -1,0 +1,40 @@
+{
+  "name": "vue-cli-template-registry",
+  "full_name": "eliranmal/vue-cli-template-registry",
+  "description": "a solution for installing vue-cli custom templates hosted on private/enterprise repositories",
+  "topics": [
+    "tooling",
+    "cli",
+    "terminal",
+    "github",
+    "github-enterprise",
+    "ghe",
+    "private-repository",
+    "vue-cli",
+    "shell",
+    "vue-cli-templates",
+    "vue-cli-2x",
+    "vue-js",
+    "vue",
+    "command-line-interface",
+    "command-line-tool",
+    "gitlab",
+    "hosting"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "eliranmal",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/1401288?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/eliranmal/vue-cli-template-registry"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

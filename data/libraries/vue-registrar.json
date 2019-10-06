@@ -1,0 +1,29 @@
+{
+  "name": "vue-registrar",
+  "full_name": "AmirrezaNasiri/vue-registrar",
+  "description": "☘️ A package that dynamically registers your components and vuex modules",
+  "topics": [
+    "vue",
+    "vuex",
+    "vuejs",
+    "component",
+    "register",
+    "store"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "AmirrezaNasiri",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/19557224?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://amirrezanasiri.github.io/vue-registrar",
+    "repo": "https://github.com/AmirrezaNasiri/vue-registrar"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

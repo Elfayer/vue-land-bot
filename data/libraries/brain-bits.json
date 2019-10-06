@@ -1,0 +1,28 @@
+{
+  "name": "brain-bits",
+  "full_name": "dashersw/brain-bits",
+  "description": "A P300 online spelling mechanism for Emotiv headsets. It's completely written in Node.js, and the GUI is based on Electron and Vue.",
+  "topics": [
+    "bci",
+    "p300",
+    "electron",
+    "nodejs",
+    "neural-networks"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "dashersw",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/698308?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/dashersw/brain-bits"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,26 @@
+{
+  "name": "props-to-local",
+  "full_name": "skyrpex/props-to-local",
+  "description": "Vue mixin that maps props to local data",
+  "topics": [
+    "vue",
+    "mixin",
+    "props"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "skyrpex",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/1077520?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://www.npmjs.com/package/@skyrpex/props-to-local",
+    "repo": "https://github.com/skyrpex/props-to-local"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,27 @@
+{
+  "name": "vue-morris",
+  "full_name": "bbonnin/vue-morris",
+  "description": "VueJS component wrapping Morris.js",
+  "topics": [
+    "chart",
+    "vuejs",
+    "javascript",
+    "vue"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "bbonnin",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/1908593?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/bbonnin/vue-morris"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,18 @@
+{
+  "name": "sublime-vue-formatter",
+  "full_name": "luozhihua/sublime-vue-formatter",
+  "description": "Formatter Vue Components For ES6/7/Less/Sass",
+  "topics": [],
+  "license": null,
+  "owner": {
+    "login": "luozhihua",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/3764249?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/luozhihua/sublime-vue-formatter"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

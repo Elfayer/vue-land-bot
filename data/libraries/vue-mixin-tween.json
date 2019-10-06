@@ -1,0 +1,22 @@
+{
+  "name": "vue-mixin-tween",
+  "full_name": "lukechinworth/vue-mixin-tween",
+  "description": "Vue mixin factory to tween component numerical data",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "lukechinworth",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/5613424?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/lukechinworth/vue-mixin-tween"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,22 @@
+{
+  "name": "vue-simple-pwa",
+  "full_name": "BosNaufal/vue-simple-pwa",
+  "description": "Simple Progressive Web App Built with Vue Js. https://bosnaufal.github.io/vue-simple-pwa",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "BosNaufal",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/12091318?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/BosNaufal/vue-simple-pwa"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

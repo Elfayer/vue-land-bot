@@ -1,0 +1,23 @@
+{
+  "name": "Vueg----page-transition-plugin",
+  "full_name": "jaweii/Vueg----page-transition-plugin",
+  "description": "为Vue应用添加页面间的转场特效( Page level transition plugin for vue-router)",
+  "topics": [
+    "vue-router",
+    "transition",
+    "vue-transition",
+    "router-transition"
+  ],
+  "license": null,
+  "owner": {
+    "login": "jaweii",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/22613580?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/jaweii/Vueg----page-transition-plugin"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

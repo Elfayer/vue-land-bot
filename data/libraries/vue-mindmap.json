@@ -1,0 +1,26 @@
+{
+  "name": "vue-mindmap",
+  "full_name": "anteriovieira/vue-mindmap",
+  "description": "VueMindmap is a vue component for mindnode maps",
+  "topics": [
+    "vue",
+    "mindmap",
+    "d3"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "anteriovieira",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/1490347?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://codesandbox.io/s/jv7pl7wn15",
+    "repo": "https://github.com/anteriovieira/vue-mindmap"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

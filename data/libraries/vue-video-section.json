@@ -1,0 +1,29 @@
+{
+  "name": "vue-video-section",
+  "full_name": "johndatserakis/vue-video-section",
+  "description": "📼 A simple video header/section component for Vue. Good for video backgrounds and overlaying content on them.",
+  "topics": [
+    "vue",
+    "video",
+    "section",
+    "header",
+    "background",
+    "animated"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "johndatserakis",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/9972969?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://johndatserakis.github.io/vue-video-section/",
+    "repo": "https://github.com/johndatserakis/vue-video-section"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,23 @@
+{
+  "name": "xmr-paper",
+  "full_name": "bradoyler/xmr-paper",
+  "description": "Monero (XMR) wallet generator, built with Vue.js",
+  "topics": [
+    "vuejs",
+    "monero",
+    "wallet",
+    "xmr"
+  ],
+  "license": null,
+  "owner": {
+    "login": "bradoyler",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/425966?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://bradoyler.github.io/xmr-paper/",
+    "repo": "https://github.com/bradoyler/xmr-paper"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

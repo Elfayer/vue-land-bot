@@ -1,0 +1,22 @@
+{
+  "name": "vue-strap",
+  "full_name": "wffranco/vue-strap",
+  "description": "Bootstrap components built with Vue.js",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "wffranco",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/1977287?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "http://wffranco.github.io/vue-strap/",
+    "repo": "https://github.com/wffranco/vue-strap"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

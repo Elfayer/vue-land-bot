@@ -1,0 +1,32 @@
+{
+  "name": "vue-form-wizard",
+  "full_name": "BinarCode/vue-form-wizard",
+  "description": "Vue.js 2 wizard",
+  "topics": [
+    "vue",
+    "vuejs",
+    "vuejs2",
+    "component",
+    "tabs-management",
+    "form"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "BinarCode",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/41368819?v=4"
+  },
+  "organization": {
+    "login": "BinarCode",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/41368819?v=4"
+  },
+  "links": {
+    "site": "https://binarcode.github.io/vue-form-wizard/#/",
+    "repo": "https://github.com/BinarCode/vue-form-wizard"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,29 @@
+{
+  "name": "vue2-storage",
+  "full_name": "yarkovaleksei/vue2-storage",
+  "description": "Wrapper over browser storage for Vue.js",
+  "topics": [
+    "vue",
+    "javascript",
+    "browser",
+    "storage",
+    "localstorage",
+    "sessionstorage"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "yarkovaleksei",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/6022892?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "http://yarkovaleksei.github.io/vue2-storage/",
+    "repo": "https://github.com/yarkovaleksei/vue2-storage"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

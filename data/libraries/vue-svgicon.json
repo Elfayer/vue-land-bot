@@ -1,0 +1,34 @@
+{
+  "name": "vue-svgicon",
+  "full_name": "MMF-FE/vue-svgicon",
+  "description": "A tool to create svg icon components. (vue 2.x). Using inline svg.",
+  "topics": [
+    "vuejs2",
+    "vuejs",
+    "svg",
+    "vue-svgicon",
+    "svgo",
+    "icon",
+    "mutil-colors",
+    "ssr"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "MMF-FE",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/25544689?v=4"
+  },
+  "organization": {
+    "login": "MMF-FE",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/25544689?v=4"
+  },
+  "links": {
+    "site": "https://mmf-fe.github.io/vue-svgicon/v3/",
+    "repo": "https://github.com/MMF-FE/vue-svgicon"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,30 @@
+{
+  "name": "vue-goodshare",
+  "full_name": "koddr/vue-goodshare",
+  "description": "🍿 Vue.js component for social share. A simple way to share a link on the pages of your website in the most popular (and not so) social networks. Powered by goodshare.js project.",
+  "topics": [
+    "vue",
+    "vuejs2",
+    "social-buttons",
+    "share",
+    "components",
+    "vue-components",
+    "share-buttons"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "koddr",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/11155743?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://koddr.github.io/vue-goodshare/",
+    "repo": "https://github.com/koddr/vue-goodshare"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

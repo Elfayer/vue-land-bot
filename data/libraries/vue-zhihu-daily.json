@@ -1,0 +1,25 @@
+{
+  "name": "vue-zhihu-daily",
+  "full_name": "hilongjw/vue-zhihu-daily",
+  "description": "zhihu daily spa with vue  线上演示在这里 ---->",
+  "topics": [
+    "vue",
+    "zhihu-daily",
+    "zhihu",
+    "nodejs",
+    "leancloud",
+    "vuejs"
+  ],
+  "license": null,
+  "owner": {
+    "login": "hilongjw",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/5835766?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "http://zhihu.bood.in/",
+    "repo": "https://github.com/hilongjw/vue-zhihu-daily"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

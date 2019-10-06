@@ -1,0 +1,35 @@
+{
+  "name": "vue-electron-template",
+  "full_name": "mubaidr/vue-electron-template",
+  "description": "An Electron & Vue.js template with Hot-reloading enabled and common Vue plugins, dev, debug and build scripts configured.",
+  "topics": [
+    "electron",
+    "vue",
+    "boilerplate",
+    "electronjs",
+    "webpack4",
+    "rollup",
+    "rollup-js",
+    "webpack",
+    "starter-template",
+    "starter",
+    "electron-vue",
+    "bulma"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "mubaidr",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/2222702?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/mubaidr/vue-electron-template"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

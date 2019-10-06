@@ -1,0 +1,30 @@
+{
+  "name": "vue-audio-visual",
+  "full_name": "staskobzar/vue-audio-visual",
+  "description": "VueJS audio visualization components",
+  "topics": [
+    "vue",
+    "vuejs",
+    "http5-audio-api",
+    "canvas",
+    "http5-audio-visualizer",
+    "audio",
+    "waveform"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "staskobzar",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/147280?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/staskobzar/vue-audio-visual"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

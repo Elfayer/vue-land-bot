@@ -1,0 +1,27 @@
+{
+  "name": "vuetable-2",
+  "full_name": "ratiw/vuetable-2",
+  "description": "data table simplify! -- datatable component for Vue 2.x. See documentation at ",
+  "topics": [
+    "vue",
+    "component",
+    "datatable",
+    "pagination-components"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "ratiw",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/807017?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://vuetable.com",
+    "repo": "https://github.com/ratiw/vuetable-2"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

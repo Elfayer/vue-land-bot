@@ -1,0 +1,27 @@
+{
+  "name": "vue-draggableCal",
+  "full_name": "liloow/vue-draggableCal",
+  "description": "Not your ordinary datepicker. A Vuejs draggable date selector with a fresh responsive design, mobile ready and 0 dependencies, 17kb gzipped",
+  "topics": [
+    "vuejs",
+    "vue-component",
+    "datepicker",
+    "mobile",
+    "draggable",
+    "responsive",
+    "calendar",
+    "lightweight"
+  ],
+  "license": null,
+  "owner": {
+    "login": "liloow",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/13866828?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/liloow/vue-draggableCal"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

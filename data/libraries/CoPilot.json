@@ -1,0 +1,29 @@
+{
+  "name": "CoPilot",
+  "full_name": "misterGF/CoPilot",
+  "description": "Responsive Bootstrap 3 Admin Template based on AdminLTE with vue.js",
+  "topics": [
+    "vuejs2",
+    "vue",
+    "dashboard",
+    "vuex",
+    "vue-resource",
+    "vue-router",
+    "copilot",
+    "vue-devtools",
+    "adminlte",
+    "bootstrap"
+  ],
+  "license": null,
+  "owner": {
+    "login": "misterGF",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/1244785?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://copilot.misterGF.io",
+    "repo": "https://github.com/misterGF/CoPilot"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

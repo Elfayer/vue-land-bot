@@ -1,0 +1,26 @@
+{
+  "name": "web-learn",
+  "full_name": "freearhey/web-learn",
+  "description": "A free service which provides simple access to thousands of video lessons on web developing and programming",
+  "topics": [
+    "video-lessons",
+    "vue",
+    "youtube"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "freearhey",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/7253922?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://freearhey.github.io/web-learn",
+    "repo": "https://github.com/freearhey/web-learn"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

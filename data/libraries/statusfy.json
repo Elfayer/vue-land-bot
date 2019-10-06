@@ -1,0 +1,32 @@
+{
+  "name": "statusfy",
+  "full_name": "bazzite/statusfy",
+  "description": "A Marvelous Open Source Status Page System",
+  "topics": [
+    "bazzite",
+    "statusfy",
+    "web-application",
+    "vue",
+    "statuspage",
+    "nuxt"
+  ],
+  "license": {
+    "key": "apache-2.0",
+    "url": "https://api.github.com/licenses/apache-2.0",
+    "name": "Apache License 2.0"
+  },
+  "owner": {
+    "login": "bazzite",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/13593031?v=4"
+  },
+  "organization": {
+    "login": "bazzite",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/13593031?v=4"
+  },
+  "links": {
+    "site": "https://statusfy.co",
+    "repo": "https://github.com/bazzite/statusfy"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

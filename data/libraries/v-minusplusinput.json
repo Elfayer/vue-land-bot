@@ -1,0 +1,18 @@
+{
+  "name": "v-minusplusinput",
+  "full_name": "manjufy/v-minusplusinput",
+  "description": "A number input with plus and minus buttons, as a Vue component.",
+  "topics": [],
+  "license": null,
+  "owner": {
+    "login": "manjufy",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/5035624?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/manjufy/v-minusplusinput"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

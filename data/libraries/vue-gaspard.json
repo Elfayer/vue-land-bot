@@ -1,0 +1,24 @@
+{
+  "name": "vue-gaspard",
+  "full_name": "lucaperret/vue-gaspard",
+  "description": "DOM helpers plugin for Vue.js",
+  "topics": [
+    "vue",
+    "vue-plugin",
+    "youmightnotneed",
+    "javascript",
+    "dom-manipulation"
+  ],
+  "license": null,
+  "owner": {
+    "login": "lucaperret",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/1887122?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://lucaperret.github.io/vue-gaspard",
+    "repo": "https://github.com/lucaperret/vue-gaspard"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

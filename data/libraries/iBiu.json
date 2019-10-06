@@ -1,0 +1,29 @@
+{
+  "name": "iBiu",
+  "full_name": "bobiscool/iBiu",
+  "description": "Build Vue Spa Faster 🍏  🍔  🍜",
+  "topics": [
+    "ibiu",
+    "vue-cli",
+    "vue",
+    "element-ui",
+    "iview",
+    "scaffold"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "bobiscool",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/9073321?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://github.com/bobiscool/iBiu",
+    "repo": "https://github.com/bobiscool/iBiu"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

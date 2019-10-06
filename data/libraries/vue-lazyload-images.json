@@ -1,0 +1,30 @@
+{
+  "name": "vue-lazyload-images",
+  "full_name": "yyh1102/vue-lazyload-images",
+  "description": "A plugin of lazy-load images for Vue2.x",
+  "topics": [
+    "vue",
+    "vue2",
+    "lazyload-images",
+    "vue-plugin",
+    "lazy-loading",
+    "vue-components",
+    "vue-lazyload-images"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "yyh1102",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/10328169?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/yyh1102/vue-lazyload-images"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

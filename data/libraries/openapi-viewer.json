@@ -1,0 +1,32 @@
+{
+  "name": "openapi-viewer",
+  "full_name": "koumoul-dev/openapi-viewer",
+  "description": "Browse and test a REST API described with the OpenAPI 3.0 Specification",
+  "topics": [
+    "openapi",
+    "openapi3",
+    "swagger",
+    "swagger-ui",
+    "api",
+    "api-documentation"
+  ],
+  "license": {
+    "key": "agpl-3.0",
+    "url": "https://api.github.com/licenses/agpl-3.0",
+    "name": "GNU Affero General Public License v3.0"
+  },
+  "owner": {
+    "login": "koumoul-dev",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/16051219?v=4"
+  },
+  "organization": {
+    "login": "koumoul-dev",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/16051219?v=4"
+  },
+  "links": {
+    "site": null,
+    "repo": "https://github.com/koumoul-dev/openapi-viewer"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

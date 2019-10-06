@@ -1,0 +1,25 @@
+{
+  "name": "a11y-dialog",
+  "full_name": "edenspiekermann/a11y-dialog",
+  "description": "A very lightweight and flexible accessible modal dialog.",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "edenspiekermann",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/110320?v=4"
+  },
+  "organization": {
+    "login": "edenspiekermann",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/110320?v=4"
+  },
+  "links": {
+    "site": null,
+    "repo": "https://github.com/edenspiekermann/a11y-dialog"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,29 @@
+{
+  "name": "vue-long-click",
+  "full_name": "ittus/vue-long-click",
+  "description": "Long click directive library for VueJS",
+  "topics": [
+    "vuejs",
+    "longclick",
+    "longpress",
+    "directive",
+    "vue-directive",
+    "vue-library"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "ittus",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/5120965?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://ittus.github.io/vue-long-click/",
+    "repo": "https://github.com/ittus/vue-long-click"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

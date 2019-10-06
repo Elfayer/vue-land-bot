@@ -1,0 +1,27 @@
+{
+  "name": "vue-checkbox-radio",
+  "full_name": "mariomka/vue-checkbox-radio",
+  "description": "Checkbox and radio component for Vue.js",
+  "topics": [
+    "checkbox",
+    "radio",
+    "vue",
+    "switcher"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "mariomka",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/1822472?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://mariomka.github.io/vue-checkbox-radio/",
+    "repo": "https://github.com/mariomka/vue-checkbox-radio"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,30 @@
+{
+  "name": "vuedo",
+  "full_name": "Vuedo/vuedo",
+  "description": "Vuedo is a blog platform, built with Laravel and Vue.js.",
+  "topics": [
+    "laravel",
+    "vuejs",
+    "blog",
+    "vue"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "Vuedo",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/20322540?v=4"
+  },
+  "organization": {
+    "login": "Vuedo",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/20322540?v=4"
+  },
+  "links": {
+    "site": "https://vuejsfeed.com/",
+    "repo": "https://github.com/Vuedo/vuedo"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

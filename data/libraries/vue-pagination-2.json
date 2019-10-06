@@ -1,0 +1,25 @@
+{
+  "name": "vue-pagination-2",
+  "full_name": "matfish2/vue-pagination-2",
+  "description": "Vue.js 2 pagination component",
+  "topics": [
+    "vue",
+    "pagination"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "matfish2",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/1510460?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://www.npmjs.com/package/vue-pagination-2",
+    "repo": "https://github.com/matfish2/vue-pagination-2"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

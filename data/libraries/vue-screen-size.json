@@ -1,0 +1,32 @@
+{
+  "name": "vue-screen-size",
+  "full_name": "promosis/vue-screen-size",
+  "description": "🖥 Get easy and reactive access to the width and height of your screen.",
+  "topics": [
+    "vue",
+    "screen",
+    "size",
+    "width",
+    "hight",
+    "resize"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "promosis",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/30876777?v=4"
+  },
+  "organization": {
+    "login": "promosis",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/30876777?v=4"
+  },
+  "links": {
+    "site": "https://promosis.github.io/vue-screen-size/",
+    "repo": "https://github.com/promosis/vue-screen-size"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

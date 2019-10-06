@@ -1,0 +1,34 @@
+{
+  "name": "plugin-graphql",
+  "full_name": "vuex-orm/plugin-graphql",
+  "description": "Vuex ORM persistence plugin to sync the store against a GraphQL API.",
+  "topics": [
+    "apollo",
+    "vuex-orm-plugin",
+    "graphql-api",
+    "graphql-client",
+    "vuex",
+    "vue",
+    "vuex-plugin",
+    "vuex-orm"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "vuex-orm",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/35442703?v=4"
+  },
+  "organization": {
+    "login": "vuex-orm",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/35442703?v=4"
+  },
+  "links": {
+    "site": "https://vuex-orm.github.io/plugin-graphql/",
+    "repo": "https://github.com/vuex-orm/plugin-graphql"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

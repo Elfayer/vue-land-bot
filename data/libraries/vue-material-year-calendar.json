@@ -1,0 +1,22 @@
+{
+  "name": "vue-material-year-calendar",
+  "full_name": "nono1526/vue-material-year-calendar",
+  "description": "A full 12-Month view calendar made by vue.js.",
+  "topics": [],
+  "license": {
+    "key": "wtfpl",
+    "url": "https://api.github.com/licenses/wtfpl",
+    "name": "Do What The F*ck You Want To Public License"
+  },
+  "owner": {
+    "login": "nono1526",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/17609874?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://nono1526.github.io/vue-material-year-calendar/",
+    "repo": "https://github.com/nono1526/vue-material-year-calendar"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

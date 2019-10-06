@@ -1,0 +1,43 @@
+{
+  "name": "Epiboard",
+  "full_name": "Alexays/Epiboard",
+  "description": "Web Extension — A new tab page extension with material design and useful features :new: :tada:",
+  "topics": [
+    "chrome",
+    "material",
+    "new-tab",
+    "customizable",
+    "firefox",
+    "webextension",
+    "vuejs",
+    "card",
+    "storage",
+    "cpu",
+    "epitech",
+    "isefac",
+    "rss",
+    "material-design",
+    "weather",
+    "lastfm",
+    "trends",
+    "igoogle",
+    "google-trends",
+    "dashboard"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "Alexays",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/13947260?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/Alexays/Epiboard"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

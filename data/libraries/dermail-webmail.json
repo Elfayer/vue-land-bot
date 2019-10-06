@@ -1,0 +1,22 @@
+{
+  "name": "dermail-webmail",
+  "full_name": "zllovesuki/dermail-webmail",
+  "description": "Webmail component for Dermail",
+  "topics": [],
+  "license": {
+    "key": "gpl-3.0",
+    "url": "https://api.github.com/licenses/gpl-3.0",
+    "name": "GNU General Public License v3.0"
+  },
+  "owner": {
+    "login": "zllovesuki",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/298453?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/zllovesuki/dermail-webmail"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

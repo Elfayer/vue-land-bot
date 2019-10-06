@@ -1,0 +1,22 @@
+{
+  "name": "vue-atomic-design",
+  "full_name": "alexander-elgin/vue-atomic-design",
+  "description": "Vue front-end boilerplate based on atomic design methodology",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "alexander-elgin",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/1811689?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/alexander-elgin/vue-atomic-design"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

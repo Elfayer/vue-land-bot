@@ -1,0 +1,33 @@
+{
+  "name": "vue-meteor",
+  "full_name": "meteor-vue/vue-meteor",
+  "description": "🌠 Vue first-class integration in Meteor",
+  "topics": [
+    "meteor",
+    "vue-components",
+    "vuejs",
+    "vuejs2",
+    "vuex",
+    "apollo",
+    "vue-router",
+    "blaze",
+    "ssr",
+    "vue",
+    "meteor-package"
+  ],
+  "license": null,
+  "owner": {
+    "login": "meteor-vue",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/29751912?v=4"
+  },
+  "organization": {
+    "login": "meteor-vue",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/29751912?v=4"
+  },
+  "links": {
+    "site": null,
+    "repo": "https://github.com/meteor-vue/vue-meteor"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

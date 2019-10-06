@@ -1,0 +1,26 @@
+{
+  "name": "v-unicode",
+  "full_name": "ndelvalle/v-unicode",
+  "description": "🛡 Vue directive to restrict an input by unicode values",
+  "topics": [
+    "vue",
+    "vuejs",
+    "vue-directive"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "ndelvalle",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/6719053?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/ndelvalle/v-unicode"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

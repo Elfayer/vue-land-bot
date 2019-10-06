@@ -1,0 +1,30 @@
+{
+  "name": "vue-dialog-drag",
+  "full_name": "emiliorizzo/vue-dialog-drag",
+  "description": "Simple vue draggable dialog",
+  "topics": [
+    "vue",
+    "vue2",
+    "dialog",
+    "draggable",
+    "touch",
+    "ui-components",
+    "webcomponent"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "emiliorizzo",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/3934196?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://emiliorizzo.github.io/vue-dialog-drag/",
+    "repo": "https://github.com/emiliorizzo/vue-dialog-drag"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

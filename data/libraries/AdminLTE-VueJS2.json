@@ -1,0 +1,22 @@
+{
+  "name": "AdminLTE-VueJS2",
+  "full_name": "otezz/AdminLTE-VueJS2",
+  "description": "AdminLTE + VueJS 2",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "otezz",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/2015833?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "http://adminlte-vuejs2.otezz.com/",
+    "repo": "https://github.com/otezz/AdminLTE-VueJS2"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

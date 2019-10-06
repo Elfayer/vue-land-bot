@@ -1,0 +1,30 @@
+{
+  "name": "vue-content-placeholders",
+  "full_name": "michalsnik/vue-content-placeholders",
+  "description": "Composable components for rendering fake (progressive) content like facebook in vue",
+  "topics": [
+    "lazy-loading",
+    "progressive-rendering",
+    "loader",
+    "fake-content",
+    "skeleton",
+    "vue",
+    "vue-components"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "michalsnik",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/4093559?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/michalsnik/vue-content-placeholders"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,22 @@
+{
+  "name": "vue-lazy-background-images",
+  "full_name": "darrynten/vue-lazy-background-images",
+  "description": "Lazy load background images for Vue 2",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "darrynten",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/3657251?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/darrynten/vue-lazy-background-images"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

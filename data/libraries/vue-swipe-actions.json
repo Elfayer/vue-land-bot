@@ -1,0 +1,30 @@
+{
+  "name": "vue-swipe-actions",
+  "full_name": "eCollect/vue-swipe-actions",
+  "description": "iOS style swipe actions",
+  "topics": [
+    "vuejs",
+    "swipe-cards",
+    "swipe",
+    "javascript"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "eCollect",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/5518685?v=4"
+  },
+  "organization": {
+    "login": "eCollect",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/5518685?v=4"
+  },
+  "links": {
+    "site": "https://ecollect.github.io/vue-swipe-actions/",
+    "repo": "https://github.com/eCollect/vue-swipe-actions"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

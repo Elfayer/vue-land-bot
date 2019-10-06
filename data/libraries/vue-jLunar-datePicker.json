@@ -1,0 +1,18 @@
+{
+  "name": "vue-jLunar-datePicker",
+  "full_name": "tuhe32/vue-jLunar-datePicker",
+  "description": "VUE  chinese-lunar date-picker component with festivals and solar terms",
+  "topics": [],
+  "license": null,
+  "owner": {
+    "login": "tuhe32",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/18496264?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/tuhe32/vue-jLunar-datePicker"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,22 @@
+{
+  "name": "iview-table-page",
+  "full_name": "MengFangui/iview-table-page",
+  "description": "Combines Table and Pagination components of iview UI together. Based on Vue 2.x.",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "MengFangui",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/29647764?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/MengFangui/iview-table-page"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

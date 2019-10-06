@@ -1,0 +1,27 @@
+{
+  "name": "vuex-cli-scaffold",
+  "full_name": "ndabAP/vuex-cli-scaffold",
+  "description": "NOT MAINTAINED Scaffold vuex actions, mutations, getters and the state",
+  "topics": [
+    "vuex",
+    "cli",
+    "scaffold",
+    "vue"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "ndabAP",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/8510570?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://www.npmjs.com/package/vuex-cli-scaffold",
+    "repo": "https://github.com/ndabAP/vuex-cli-scaffold"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

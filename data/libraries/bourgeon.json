@@ -1,0 +1,22 @@
+{
+  "name": "bourgeon",
+  "full_name": "rayfranco/bourgeon",
+  "description": "Bourgeon is an opinionated-featured VueJS 2.0 setup for Webpack",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "rayfranco",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/456620?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/rayfranco/bourgeon"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

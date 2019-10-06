@@ -1,0 +1,26 @@
+{
+  "name": "vue-creativecommons",
+  "full_name": "julon/vue-creativecommons",
+  "description": "CreativeCommons.org Vue.js components library ©️!",
+  "topics": [
+    "vue",
+    "vue-components",
+    "creative-commons"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "julon",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/11995684?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/julon/vue-creativecommons"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

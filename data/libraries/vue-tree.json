@@ -1,0 +1,27 @@
+{
+  "name": "vue-tree",
+  "full_name": "halower/vue-tree",
+  "description": "tree and multi-select component based on Vue.js 2.0",
+  "topics": [
+    "vue-tree",
+    "vue2",
+    "vue",
+    "javascript"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "halower",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/4995227?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://github.com/halower/vue2-tree/blob/master/README.md",
+    "repo": "https://github.com/halower/vue-tree"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,27 @@
+{
+  "name": "vue-contacts",
+  "full_name": "chiaweilee/vue-contacts",
+  "description": "Mobile contacts component for Vue",
+  "topics": [
+    "vue",
+    "contacts",
+    "contacts-book",
+    "vue-ui"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "chiaweilee",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/29817353?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/chiaweilee/vue-contacts"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,22 @@
+{
+  "name": "gitrelease-app",
+  "full_name": "ChangJoo-Park/gitrelease-app",
+  "description": "Release Tracker for github",
+  "topics": [],
+  "license": {
+    "key": "cc0-1.0",
+    "url": "https://api.github.com/licenses/cc0-1.0",
+    "name": "Creative Commons Zero v1.0 Universal"
+  },
+  "owner": {
+    "login": "ChangJoo-Park",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/1451365?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/ChangJoo-Park/gitrelease-app"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

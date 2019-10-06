@@ -1,0 +1,40 @@
+{
+  "name": "vue-drag-zone",
+  "full_name": "surmon-china/vue-drag-zone",
+  "description": "😎Drag Zone component for @vuejs",
+  "topics": [
+    "vue-drag-zone",
+    "drag-zone-component",
+    "vue",
+    "vue-components",
+    "vuejs2",
+    "vuejs",
+    "vue2",
+    "vue-component",
+    "vue-resource",
+    "vue-plugin",
+    "vue-directive",
+    "vue-demo",
+    "drag-and-drop",
+    "draggable",
+    "web-dr",
+    "surmon",
+    "surmon-china"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "surmon-china",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/14019524?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://surmon-china.github.io/vue-drag-zone/",
+    "repo": "https://github.com/surmon-china/vue-drag-zone"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

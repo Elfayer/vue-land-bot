@@ -1,0 +1,22 @@
+{
+  "name": "vue-chartist",
+  "full_name": "lakb248/vue-chartist",
+  "description": "A component of Chartist implement by vuejs 2.0",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "lakb248",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/5069587?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/lakb248/vue-chartist"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,31 @@
+{
+  "name": "vue-tagsinput",
+  "full_name": "voerro/vue-tagsinput",
+  "description": "A simple tags input with typeahead (autocomplete) built with Vue.js 2.",
+  "topics": [
+    "vuejs2",
+    "tagsinput",
+    "typeahead",
+    "vue",
+    "component"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "voerro",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/37165135?v=4"
+  },
+  "organization": {
+    "login": "voerro",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/37165135?v=4"
+  },
+  "links": {
+    "site": "https://voerro.github.io/vue-tagsinput/",
+    "repo": "https://github.com/voerro/vue-tagsinput"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

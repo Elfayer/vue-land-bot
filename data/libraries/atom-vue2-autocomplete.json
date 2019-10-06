@@ -1,0 +1,22 @@
+{
+  "name": "atom-vue2-autocomplete",
+  "full_name": "ealves-pt/atom-vue2-autocomplete",
+  "description": "Vue.js 2.0 autocomplete",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "ealves-pt",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/5909095?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/ealves-pt/atom-vue2-autocomplete"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,22 @@
+{
+  "name": "vue-plyr",
+  "full_name": "redxtech/vue-plyr",
+  "description": "A Vue component for the plyr video & audio player.",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "redxtech",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/18155001?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/redxtech/vue-plyr"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,26 @@
+{
+  "name": "vue-css-modules",
+  "full_name": "fjc0k/vue-css-modules",
+  "description": "Seamless mapping of class names to CSS Modules inside of Vue components.",
+  "topics": [
+    "vue",
+    "vuejs",
+    "css-modules"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "fjc0k",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/13151189?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://npm.im/vue-css-modules",
+    "repo": "https://github.com/fjc0k/vue-css-modules"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

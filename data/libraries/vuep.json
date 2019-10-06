@@ -1,0 +1,29 @@
+{
+  "name": "vuep",
+  "full_name": "QingWei-Li/vuep",
+  "description": "🎡 A component for rendering Vue components with live editor and preview.",
+  "topics": [
+    "vue",
+    "playground",
+    "component",
+    "vue-components",
+    "editor",
+    "preview"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "QingWei-Li",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/7565692?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://cinwell.com/vuep/",
+    "repo": "https://github.com/QingWei-Li/vuep"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,25 @@
+{
+  "name": "vue-easy-polls",
+  "full_name": "updivision/vue-easy-polls",
+  "description": "A Vue.js component for creating polls, voting and showing results. It’s easy to implement and easy to customize.",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "updivision",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/26758620?v=4"
+  },
+  "organization": {
+    "login": "updivision",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/26758620?v=4"
+  },
+  "links": {
+    "site": null,
+    "repo": "https://github.com/updivision/vue-easy-polls"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,26 @@
+{
+  "name": "vuex-lite",
+  "full_name": "Rayraegah/vuex-lite",
+  "description": "A 1KB alternative to Vuex",
+  "topics": [
+    "state-management",
+    "vue",
+    "javascript"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "Rayraegah",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/1559650?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://goo.gl/yE4vYP",
+    "repo": "https://github.com/Rayraegah/vuex-lite"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

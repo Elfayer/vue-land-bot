@@ -1,0 +1,33 @@
+{
+  "name": "Semantic-UI-Vue",
+  "full_name": "Semantic-UI-Vue/Semantic-UI-Vue",
+  "description": "Semantic UI integration for Vue",
+  "topics": [
+    "vue",
+    "vuejs2",
+    "vue2",
+    "semantic-ui",
+    "components",
+    "vue-components",
+    "semantic-ui-vue"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "Semantic-UI-Vue",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/31376168?v=4"
+  },
+  "organization": {
+    "login": "Semantic-UI-Vue",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/31376168?v=4"
+  },
+  "links": {
+    "site": "https://semantic-ui-vue.github.io",
+    "repo": "https://github.com/Semantic-UI-Vue/Semantic-UI-Vue"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

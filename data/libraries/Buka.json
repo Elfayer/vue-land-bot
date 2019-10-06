@@ -1,0 +1,29 @@
+{
+  "name": "Buka",
+  "full_name": "oguzhaninan/Buka",
+  "description": "EBook Management",
+  "topics": [
+    "ebook",
+    "book",
+    "reader",
+    "pdf",
+    "pdf-viewer",
+    "book-management"
+  ],
+  "license": {
+    "key": "gpl-3.0",
+    "url": "https://api.github.com/licenses/gpl-3.0",
+    "name": "GNU General Public License v3.0"
+  },
+  "owner": {
+    "login": "oguzhaninan",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/16149251?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/oguzhaninan/Buka"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

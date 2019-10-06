@@ -1,0 +1,32 @@
+{
+  "name": "vue-plaid-link",
+  "full_name": "roundupapp/vue-plaid-link",
+  "description": "Easy to use Vue component for Plaid Link",
+  "topics": [
+    "vuejs",
+    "plaid-link",
+    "vue-components",
+    "plaid",
+    "vue",
+    "javascript"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "roundupapp",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/36827235?v=4"
+  },
+  "organization": {
+    "login": "roundupapp",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/36827235?v=4"
+  },
+  "links": {
+    "site": null,
+    "repo": "https://github.com/roundupapp/vue-plaid-link"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

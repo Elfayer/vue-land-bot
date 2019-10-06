@@ -1,0 +1,32 @@
+{
+  "name": "duic",
+  "full_name": "zhudyos/duic",
+  "description": "分布式配置中心，集中化配置管理，应用配置权限管理，配置实时更新等功能",
+  "topics": [
+    "configuration",
+    "configuration-management",
+    "distributed-configuration",
+    "kotlin",
+    "spring-webflux",
+    "spring-boot"
+  ],
+  "license": {
+    "key": "apache-2.0",
+    "url": "https://api.github.com/licenses/apache-2.0",
+    "name": "Apache License 2.0"
+  },
+  "owner": {
+    "login": "zhudyos",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/26728733?v=4"
+  },
+  "organization": {
+    "login": "zhudyos",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/26728733?v=4"
+  },
+  "links": {
+    "site": "https://duic.zhudy.io/index.html",
+    "repo": "https://github.com/zhudyos/duic"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,22 @@
+{
+  "name": "vue2-scrollspy",
+  "full_name": "ibufu/vue2-scrollspy",
+  "description": "Scrollspy for Vue2",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "ibufu",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/12270392?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://ibufu.github.io/vue2-scrollspy/",
+    "repo": "https://github.com/ibufu/vue2-scrollspy"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

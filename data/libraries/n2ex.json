@@ -1,0 +1,32 @@
+{
+  "name": "n2ex",
+  "full_name": "OrangeXC/n2ex",
+  "description": "🌈 V2ex built with Nuxt.js (vue&ssr)",
+  "topics": [
+    "nuxt",
+    "vuejs",
+    "muse-ui",
+    "ssr",
+    "v2ex",
+    "vue",
+    "element-ui",
+    "ava",
+    "axios"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "OrangeXC",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/16081320?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://n2ex.herokuapp.com/",
+    "repo": "https://github.com/OrangeXC/n2ex"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

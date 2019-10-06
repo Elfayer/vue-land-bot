@@ -1,0 +1,22 @@
+{
+  "name": "vue-parcel-electron",
+  "full_name": "fritx/vue-parcel-electron",
+  "description": "[WIP] Boilerplate for stack of Vue/Parcel/Electron",
+  "topics": [
+    "vue",
+    "parcel",
+    "electron"
+  ],
+  "license": null,
+  "owner": {
+    "login": "fritx",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/6647633?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/fritx/vue-parcel-electron"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

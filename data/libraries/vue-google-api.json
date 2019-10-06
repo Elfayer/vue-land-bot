@@ -1,0 +1,22 @@
+{
+  "name": "vue-google-api",
+  "full_name": "vertcitron/vue-google-api",
+  "description": null,
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "vertcitron",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/37158119?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/vertcitron/vue-google-api"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

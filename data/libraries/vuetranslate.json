@@ -1,0 +1,29 @@
+{
+  "name": "vuetranslate",
+  "full_name": "javisperez/vuetranslate",
+  "description": "VueJS plugin for translations",
+  "topics": [
+    "vuejs",
+    "translation",
+    "language",
+    "vue-translate",
+    "locales",
+    "multilingual"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "javisperez",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/4766570?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/javisperez/vuetranslate"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

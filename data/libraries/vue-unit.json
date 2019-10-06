@@ -1,0 +1,27 @@
+{
+  "name": "vue-unit",
+  "full_name": "wrseward/vue-unit",
+  "description": "Component testing utilities for Vue.js",
+  "topics": [
+    "vue",
+    "javascript",
+    "testing",
+    "unit-testing"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "wrseward",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/1389211?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/wrseward/vue-unit"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

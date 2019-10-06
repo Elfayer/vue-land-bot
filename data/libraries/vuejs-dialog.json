@@ -1,0 +1,29 @@
+{
+  "name": "vuejs-dialog",
+  "full_name": "Godofbrowser/vuejs-dialog",
+  "description": "A lightweight, promise based alert, prompt and confirm dialog",
+  "topics": [
+    "vue",
+    "dialog",
+    "promise",
+    "confirm",
+    "alert",
+    "prompt"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "Godofbrowser",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/20337551?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/Godofbrowser/vuejs-dialog"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

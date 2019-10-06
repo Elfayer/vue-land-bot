@@ -1,0 +1,26 @@
+{
+  "name": "gamebrary",
+  "full_name": "romancm/gamebrary",
+  "description": "Gamebrary - Open source tool to organize video game collections.",
+  "topics": [
+    "vuejs",
+    "gaming",
+    "game-collecting"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "romancm",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/645310?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://gamebrary.com",
+    "repo": "https://github.com/romancm/gamebrary"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

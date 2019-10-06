@@ -1,0 +1,28 @@
+{
+  "name": "vue-zdog",
+  "full_name": "AlexandreBonaventure/vue-zdog",
+  "description": "Vue wrapper for zDog",
+  "topics": [
+    "vuejs",
+    "zdog",
+    "3d",
+    "canvas",
+    "engine3d"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "AlexandreBonaventure",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/4596409?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://alexandrebonaventure.github.io/vue-zdog/",
+    "repo": "https://github.com/AlexandreBonaventure/vue-zdog"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

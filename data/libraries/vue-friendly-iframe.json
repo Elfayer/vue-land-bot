@@ -1,0 +1,18 @@
+{
+  "name": "vue-friendly-iframe",
+  "full_name": "officert/vue-friendly-iframe",
+  "description": "A Vue js component for creating super fast loading, non-blocking iframes.",
+  "topics": [],
+  "license": null,
+  "owner": {
+    "login": "officert",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/4620560?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://officert.github.io/vue-friendly-iframe/",
+    "repo": "https://github.com/officert/vue-friendly-iframe"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

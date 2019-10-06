@@ -1,0 +1,24 @@
+{
+  "name": "vue-drag-drop",
+  "full_name": "cameronhimself/vue-drag-drop",
+  "description": "A lightweight Vue wrapper that abstracts away the wonkier parts of the Drag and Drop Browser API",
+  "topics": [
+    "vue",
+    "vue2",
+    "vuejs",
+    "vuejs2",
+    "drag-and-drop"
+  ],
+  "license": null,
+  "owner": {
+    "login": "cameronhimself",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/1534628?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/cameronhimself/vue-drag-drop"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

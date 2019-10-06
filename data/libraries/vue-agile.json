@@ -1,0 +1,33 @@
+{
+  "name": "vue-agile",
+  "full_name": "lukaszflorczak/vue-agile",
+  "description": "A carousel component for Vue.js",
+  "topics": [
+    "vue",
+    "carousel-component",
+    "vue-agile",
+    "vuejs",
+    "vue-component",
+    "slick",
+    "slide",
+    "carousel",
+    "javascript",
+    "js"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "lukaszflorczak",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/1818979?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/lukaszflorczak/vue-agile"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

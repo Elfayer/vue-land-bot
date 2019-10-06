@@ -1,0 +1,26 @@
+{
+  "name": "vue-messenger",
+  "full_name": "fjc0k/vue-messenger",
+  "description": "A series of useful enhancements to Vue component props.",
+  "topics": [
+    "vue",
+    "vue-messenger",
+    "two-way-bindings"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "fjc0k",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/13151189?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://npm.im/vue-messenger",
+    "repo": "https://github.com/fjc0k/vue-messenger"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,36 @@
+{
+  "name": "vue-content-loading",
+  "full_name": "LucasLeandro1204/vue-content-loading",
+  "description": "Vue component to easily build (or use presets) SVG loading cards Facebook like.",
+  "topics": [
+    "vue",
+    "svg",
+    "facebook",
+    "loading-animations",
+    "loading",
+    "card",
+    "cards",
+    "ui",
+    "ux",
+    "animation",
+    "vuejs",
+    "placeholder",
+    "skeleton"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "LucasLeandro1204",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/13268691?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://lucasleandro1204.github.io/vue-content-loading/",
+    "repo": "https://github.com/LucasLeandro1204/vue-content-loading"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

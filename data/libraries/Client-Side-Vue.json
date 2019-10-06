@@ -1,0 +1,22 @@
+{
+  "name": "Client-Side-Vue",
+  "full_name": "justinwash/Client-Side-Vue",
+  "description": "Vue.js client-side for tiny, quick-loading, node.js-less Single Page Apps.",
+  "topics": [],
+  "license": {
+    "key": "gpl-3.0",
+    "url": "https://api.github.com/licenses/gpl-3.0",
+    "name": "GNU General Public License v3.0"
+  },
+  "owner": {
+    "login": "justinwash",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/6236852?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/justinwash/Client-Side-Vue"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

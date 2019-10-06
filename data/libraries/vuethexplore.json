@@ -1,0 +1,28 @@
+{
+  "name": "vuethexplore",
+  "full_name": "sc0Vu/vuethexplore",
+  "description": "A simple app explore ethereum blockchain with vuejs.",
+  "topics": [
+    "vue",
+    "ethereum",
+    "blockchain",
+    "explore",
+    "vuethexplore"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "sc0Vu",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/10494397?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://vuethexplore.herokuapp.com/",
+    "repo": "https://github.com/sc0Vu/vuethexplore"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

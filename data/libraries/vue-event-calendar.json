@@ -1,0 +1,22 @@
+{
+  "name": "vue-event-calendar",
+  "full_name": "GeoffZhu/vue-event-calendar",
+  "description": "A simple events calendar for Vue2, no dependencies except Vue2.",
+  "topics": [
+    "vue",
+    "event-calendar",
+    "vue-calendar"
+  ],
+  "license": null,
+  "owner": {
+    "login": "GeoffZhu",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/10768286?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "http://geoffzhu.cn/vue-event-calendar/",
+    "repo": "https://github.com/GeoffZhu/vue-event-calendar"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

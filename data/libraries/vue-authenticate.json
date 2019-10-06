@@ -1,0 +1,26 @@
+{
+  "name": "vue-authenticate",
+  "full_name": "dgrubelic/vue-authenticate",
+  "description": "Simple Vue.js authentication library",
+  "topics": [
+    "vuejs",
+    "vuejs2",
+    "authentication",
+    "auth",
+    "oauth",
+    "oauth2",
+    "vue"
+  ],
+  "license": null,
+  "owner": {
+    "login": "dgrubelic",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/1304876?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/dgrubelic/vue-authenticate"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

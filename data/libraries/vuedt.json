@@ -1,0 +1,18 @@
+{
+  "name": "vuedt",
+  "full_name": "nkoehring/vuedt",
+  "description": "crazy lightweight Vuejs Date and Time picker component",
+  "topics": [],
+  "license": null,
+  "owner": {
+    "login": "nkoehring",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/246402?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/nkoehring/vuedt"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

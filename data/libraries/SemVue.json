@@ -1,0 +1,22 @@
+{
+  "name": "SemVue",
+  "full_name": "guilhermewaess/SemVue",
+  "description": "Semantic-ui components easy in your vue project",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "guilhermewaess",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/5339165?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://guilhermewaess.github.io/SemVue",
+    "repo": "https://github.com/guilhermewaess/SemVue"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,22 @@
+{
+  "name": "m-button",
+  "full_name": "mengdu/m-button",
+  "description": "A beautiful button component for vue.",
+  "topics": [
+    "vue-m-button",
+    "m-button",
+    "button"
+  ],
+  "license": null,
+  "owner": {
+    "login": "mengdu",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/11366654?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://mengdu.github.io/m-button/example/",
+    "repo": "https://github.com/mengdu/m-button"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

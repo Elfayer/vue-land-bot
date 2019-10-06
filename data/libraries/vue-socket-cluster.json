@@ -1,0 +1,23 @@
+{
+  "name": "vue-socket-cluster",
+  "full_name": "nigeltiany/vue-socket-cluster",
+  "description": "Vue socket cluster wrapper",
+  "topics": [
+    "socket-cluster",
+    "websockets",
+    "vuejs",
+    "vuejs2"
+  ],
+  "license": null,
+  "owner": {
+    "login": "nigeltiany",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/8957192?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/nigeltiany/vue-socket-cluster"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

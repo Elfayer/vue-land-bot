@@ -1,0 +1,25 @@
+{
+  "name": "vue-inject",
+  "full_name": "jpex-js/vue-inject",
+  "description": "Dependency Injection for vue",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "jpex-js",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/26362827?v=4"
+  },
+  "organization": {
+    "login": "jpex-js",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/26362827?v=4"
+  },
+  "links": {
+    "site": null,
+    "repo": "https://github.com/jpex-js/vue-inject"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

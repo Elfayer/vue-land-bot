@@ -1,0 +1,35 @@
+{
+  "name": "express-vue",
+  "full_name": "express-vue/express-vue",
+  "description": "Vue rendering engine for Express.js. Use .Vue files as templates using streams",
+  "topics": [
+    "expressjs",
+    "express",
+    "node",
+    "nodejs",
+    "vue",
+    "vuejs",
+    "vuejs2",
+    "vue2",
+    "vue2-ssr"
+  ],
+  "license": {
+    "key": "other",
+    "url": null,
+    "name": "Other"
+  },
+  "owner": {
+    "login": "express-vue",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/26716945?v=4"
+  },
+  "organization": {
+    "login": "express-vue",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/26716945?v=4"
+  },
+  "links": {
+    "site": null,
+    "repo": "https://github.com/express-vue/express-vue"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

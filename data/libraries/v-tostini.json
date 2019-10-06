@@ -1,0 +1,31 @@
+{
+  "name": "v-tostini",
+  "full_name": "marverix/v-tostini",
+  "description": "Toast plugin for Vue.js 2.x",
+  "topics": [
+    "vue",
+    "vuejs",
+    "vuejs2",
+    "vue-component",
+    "vue-components",
+    "vue-plugin",
+    "toast",
+    "toast-notifications"
+  ],
+  "license": {
+    "key": "isc",
+    "url": "https://api.github.com/licenses/isc",
+    "name": "ISC License"
+  },
+  "owner": {
+    "login": "marverix",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/2142811?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/marverix/v-tostini"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

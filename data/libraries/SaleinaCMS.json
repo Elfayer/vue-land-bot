@@ -1,0 +1,31 @@
+{
+  "name": "SaleinaCMS",
+  "full_name": "saleina/SaleinaCMS",
+  "description": "An Open Source Static Site CMS Built With Love & Vue.",
+  "topics": [
+    "cms",
+    "static-site",
+    "static-site-cms",
+    "vuejs",
+    "vue"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "saleina",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/40492552?v=4"
+  },
+  "organization": {
+    "login": "saleina",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/40492552?v=4"
+  },
+  "links": {
+    "site": null,
+    "repo": "https://github.com/saleina/SaleinaCMS"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

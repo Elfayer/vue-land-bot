@@ -1,0 +1,22 @@
+{
+  "name": "vue-underscore",
+  "full_name": "HKskn/vue-underscore",
+  "description": "simple vue plugin to implement underscore",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "HKskn",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/1541857?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/HKskn/vue-underscore"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

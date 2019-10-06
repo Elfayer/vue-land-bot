@@ -1,0 +1,32 @@
+{
+  "name": "vue-programmatic-invisible-google-recaptcha",
+  "full_name": "promosis/vue-programmatic-invisible-google-recaptcha",
+  "description": "🔒A simple invisible Google reCAPTCHA component focused solely on programmatic invocation.",
+  "topics": [
+    "vue",
+    "google",
+    "recaptcha",
+    "invisible",
+    "programmatic",
+    "v2"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "promosis",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/30876777?v=4"
+  },
+  "organization": {
+    "login": "promosis",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/30876777?v=4"
+  },
+  "links": {
+    "site": "https://promosis.github.io/vue-programmatic-invisible-google-recaptcha/",
+    "repo": "https://github.com/promosis/vue-programmatic-invisible-google-recaptcha"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,26 @@
+{
+  "name": "vue-multiple-pages",
+  "full_name": "Plortinus/vue-multiple-pages",
+  "description": "A multiple Pages Starter use Vue-cli3",
+  "topics": [
+    "vue",
+    "elementui",
+    "management-system",
+    "vue-cli",
+    "webpack",
+    "webpack3",
+    "webpack4"
+  ],
+  "license": null,
+  "owner": {
+    "login": "Plortinus",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/20693993?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/Plortinus/vue-multiple-pages"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

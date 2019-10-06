@@ -1,0 +1,28 @@
+{
+  "name": "vue-facebook-login-component",
+  "full_name": "adi518/vue-facebook-login-component",
+  "description": "A renderless component for composing Facebook login",
+  "topics": [
+    "vue",
+    "facebook",
+    "login",
+    "component",
+    "renderless"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "adi518",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/12032248?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://adi518.github.io/vue-facebook-login-component/#/",
+    "repo": "https://github.com/adi518/vue-facebook-login-component"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

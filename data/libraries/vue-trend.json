@@ -1,0 +1,27 @@
+{
+  "name": "vue-trend",
+  "full_name": "QingWei-Li/vue-trend",
+  "description": "🌈 Simple, elegant spark lines for Vue.js",
+  "topics": [
+    "vue",
+    "vue-components",
+    "trending",
+    "trend"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "QingWei-Li",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/7565692?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://cinwell.com/vue-trend/",
+    "repo": "https://github.com/QingWei-Li/vue-trend"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

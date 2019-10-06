@@ -1,0 +1,38 @@
+{
+  "name": "lulumi-browser",
+  "full_name": "LulumiProject/lulumi-browser",
+  "description": "Lulumi-browser is a lightweight browser coded with Vue.js 2 and Electron.",
+  "topics": [
+    "electron",
+    "browser",
+    "vue",
+    "vue-cli",
+    "electron-vue",
+    "lightweight",
+    "vuejs",
+    "vuejs2",
+    "vuex",
+    "vue-router",
+    "extensions",
+    "framework"
+  ],
+  "license": {
+    "key": "apache-2.0",
+    "url": "https://api.github.com/licenses/apache-2.0",
+    "name": "Apache License 2.0"
+  },
+  "owner": {
+    "login": "LulumiProject",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/33147938?v=4"
+  },
+  "organization": {
+    "login": "LulumiProject",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/33147938?v=4"
+  },
+  "links": {
+    "site": null,
+    "repo": "https://github.com/LulumiProject/lulumi-browser"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

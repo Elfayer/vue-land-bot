@@ -1,0 +1,26 @@
+{
+  "name": "vue-head",
+  "full_name": "ktquez/vue-head",
+  "description": "Manager the meta information of the head tag, a simple and easy way",
+  "topics": [
+    "vue",
+    "meta-tags",
+    "head"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "ktquez",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/8084606?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/ktquez/vue-head"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

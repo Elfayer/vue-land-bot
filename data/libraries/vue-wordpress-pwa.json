@@ -1,0 +1,40 @@
+{
+  "name": "vue-wordpress-pwa",
+  "full_name": "bstavroulakis/vue-wordpress-pwa",
+  "description": "An offline-first SPA using Vue.js, the WordPress REST API and Progressive Web Apps",
+  "topics": [
+    "vue",
+    "wordpress",
+    "offline",
+    "azure",
+    "spa",
+    "service-worker",
+    "es6-javascript",
+    "webpack",
+    "vuejs2",
+    "vuejs",
+    "vuejs-components",
+    "progressive-web-app",
+    "pwa-apps",
+    "pwa",
+    "pwapp",
+    "wordpress-theme",
+    "wordpress-starter-theme"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "bstavroulakis",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/180432?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://www.fullstackweekly.com/",
+    "repo": "https://github.com/bstavroulakis/vue-wordpress-pwa"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

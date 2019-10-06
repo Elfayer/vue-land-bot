@@ -1,0 +1,27 @@
+{
+  "name": "vue-draggable-resizable",
+  "full_name": "mauricius/vue-draggable-resizable",
+  "description": "Vue2 Component for draggable and resizable elements.",
+  "topics": [
+    "vuejs2",
+    "draggable",
+    "resizable",
+    "component"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "mauricius",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/7000852?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://mauricius.github.io/vue-draggable-resizable/",
+    "repo": "https://github.com/mauricius/vue-draggable-resizable"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,22 @@
+{
+  "name": "RosterWebApp",
+  "full_name": "SnakeyHips/RosterWebApp",
+  "description": "Open source rostering ASP.NET Core. MVC app with Vue.js & Vuetify frontend.",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "SnakeyHips",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/8283818?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/SnakeyHips/RosterWebApp"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

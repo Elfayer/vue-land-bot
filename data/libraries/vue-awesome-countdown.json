@@ -1,0 +1,22 @@
+{
+  "name": "vue-awesome-countdown",
+  "full_name": "mlinquan/vue-awesome-countdown",
+  "description": "Countdown plug-in with high performance and high accuracy for [Vue](http://vuejs.org/)2.5.0+.",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "mlinquan",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/5937330?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://vac.js.org",
+    "repo": "https://github.com/mlinquan/vue-awesome-countdown"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

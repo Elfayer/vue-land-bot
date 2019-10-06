@@ -1,0 +1,28 @@
+{
+  "name": "vue-jazzicon",
+  "full_name": "man15h/vue-jazzicon",
+  "description": "A dead-simple jazzicon component for VueJS",
+  "topics": [
+    "vuejs",
+    "metamask",
+    "jazzicon",
+    "ethereum",
+    "component"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "man15h",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/13364153?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/man15h/vue-jazzicon"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

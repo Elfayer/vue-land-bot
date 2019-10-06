@@ -1,0 +1,18 @@
+{
+  "name": "vue-mouse-parallax",
+  "full_name": "Aminerman/vue-mouse-parallax",
+  "description": "Mouse Parallax Effect in Vue.js",
+  "topics": [],
+  "license": null,
+  "owner": {
+    "login": "Aminerman",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/7825144?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://aminerman.com/playground/vuejs-mouse-parallax/",
+    "repo": "https://github.com/Aminerman/vue-mouse-parallax"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

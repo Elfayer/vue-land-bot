@@ -1,0 +1,18 @@
+{
+  "name": "vue-sync",
+  "full_name": "buhrmi/vue-sync",
+  "description": "Sync and store vue state with browser URL params",
+  "topics": [],
+  "license": null,
+  "owner": {
+    "login": "buhrmi",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/51177?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://buhrmi.github.io/vue-sync",
+    "repo": "https://github.com/buhrmi/vue-sync"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

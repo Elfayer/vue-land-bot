@@ -1,0 +1,22 @@
+{
+  "name": "json-editor",
+  "full_name": "tangram-js/json-editor",
+  "description": "A schema-aware editor for JSON document. It provides a tree view to present the structure of JSON document, user could manipulate the JSON from context menu. It also has a text view to present the content of JSON document, user may edit JSON within. Develop with Vue.js 2.",
+  "topics": [],
+  "license": {
+    "key": "gpl-3.0",
+    "url": "https://api.github.com/licenses/gpl-3.0",
+    "name": "GNU General Public License v3.0"
+  },
+  "owner": {
+    "login": "tangram-js",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/28283781?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://json-editor.tangramjs.com",
+    "repo": "https://github.com/tangram-js/json-editor"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

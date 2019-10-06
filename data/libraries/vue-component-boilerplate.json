@@ -1,0 +1,33 @@
+{
+  "name": "vue-component-boilerplate",
+  "full_name": "codetheorist/vue-component-boilerplate",
+  "description": "A VueJS template for building re-usable, packaged, VueJS components.",
+  "topics": [
+    "vue",
+    "vuejs",
+    "vuejs-components",
+    "vue-cli",
+    "vue-component",
+    "vue-boilerplate",
+    "javascript",
+    "webpack",
+    "template",
+    "boilerplate"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "codetheorist",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/22813671?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/codetheorist/vue-component-boilerplate"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

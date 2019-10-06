@@ -1,0 +1,29 @@
+{
+  "name": "vue-multi-select",
+  "full_name": "IneoO/vue-multi-select",
+  "description": "This component gives you a multi/single select with the power of Vuejs components.",
+  "topics": [
+    "vuejs",
+    "vuejs-components",
+    "multi-select",
+    "vuejs2",
+    "vue-components",
+    "vue"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "IneoO",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/8982189?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/IneoO/vue-multi-select"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

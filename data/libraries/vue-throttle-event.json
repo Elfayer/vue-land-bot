@@ -1,0 +1,22 @@
+{
+  "name": "vue-throttle-event",
+  "full_name": "scaccogatto/vue-throttle-event",
+  "description": "throttle events based on requestAnimationFrame",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "scaccogatto",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/3670888?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/scaccogatto/vue-throttle-event"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

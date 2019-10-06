@@ -1,0 +1,27 @@
+{
+  "name": "vue-memo",
+  "full_name": "akifo/vue-memo",
+  "description": "Using Vue.js for memo web App. webpack, vuex, vue-router, Firebase.",
+  "topics": [
+    "vuejs2",
+    "vue-router",
+    "vuex",
+    "firebase"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "akifo",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/7263054?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://vue-memo.firebaseapp.com/",
+    "repo": "https://github.com/akifo/vue-memo"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

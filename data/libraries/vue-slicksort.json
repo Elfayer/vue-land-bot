@@ -1,0 +1,33 @@
+{
+  "name": "vue-slicksort",
+  "full_name": "Jexordexan/vue-slicksort",
+  "description": "A set of vue mixins to turn any list into an animated, touch-friendly, sortable list ✌️",
+  "topics": [
+    "drag",
+    "grid",
+    "drop",
+    "vue-slicksort",
+    "mixin-components",
+    "sortable-helper",
+    "sort",
+    "animated",
+    "dependency",
+    "free"
+  ],
+  "license": {
+    "key": "other",
+    "url": null,
+    "name": "Other"
+  },
+  "owner": {
+    "login": "Jexordexan",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/7380810?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "http://jexordexan.github.io/vue-slicksort/",
+    "repo": "https://github.com/Jexordexan/vue-slicksort"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

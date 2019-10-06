@@ -1,0 +1,33 @@
+{
+  "name": "tailwindcss",
+  "full_name": "tailwindcss/tailwindcss",
+  "description": "A utility-first CSS framework for rapid UI development.",
+  "topics": [
+    "tailwindcss",
+    "css",
+    "css-framework",
+    "postcss",
+    "functional-css",
+    "utility-classes",
+    "responsive"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "tailwindcss",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/30317862?v=4"
+  },
+  "organization": {
+    "login": "tailwindcss",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/30317862?v=4"
+  },
+  "links": {
+    "site": "https://tailwindcss.com/",
+    "repo": "https://github.com/tailwindcss/tailwindcss"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

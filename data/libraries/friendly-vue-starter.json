@@ -1,0 +1,32 @@
+{
+  "name": "friendly-vue-starter",
+  "full_name": "mcongy/friendly-vue-starter",
+  "description": "Full featured Vue.js starter project for browser apps",
+  "topics": [
+    "javascript",
+    "vue",
+    "vue-router",
+    "eslint",
+    "prettier",
+    "graphql",
+    "apollo-client",
+    "webpack",
+    "vuex"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "mcongy",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/20205489?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/mcongy/friendly-vue-starter"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

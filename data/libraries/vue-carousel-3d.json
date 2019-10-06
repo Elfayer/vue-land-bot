@@ -1,0 +1,22 @@
+{
+  "name": "vue-carousel-3d",
+  "full_name": "Wlada/vue-carousel-3d",
+  "description": "Vue Carousel 3D - Beautiful, flexible and touch supported 3D Carousel for Vue.js",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "Wlada",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/1298077?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/Wlada/vue-carousel-3d"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

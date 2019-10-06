@@ -1,0 +1,26 @@
+{
+  "name": "vuejs-sublime-complete",
+  "full_name": "BrainBuzzer/vuejs-sublime-complete",
+  "description": "Better Vue.js completions for sublime text with syntax highlighting.",
+  "topics": [
+    "vuejs",
+    "sublime",
+    "snippets"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "BrainBuzzer",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/10351046?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/BrainBuzzer/vuejs-sublime-complete"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

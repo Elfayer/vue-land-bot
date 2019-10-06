@@ -1,0 +1,27 @@
+{
+  "name": "vue-websocket",
+  "full_name": "icebob/vue-websocket",
+  "description": "Simple websocket (socket.io) plugin for Vue.js",
+  "topics": [
+    "websocket",
+    "vue",
+    "vuejs",
+    "vue-websocket"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "icebob",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/306521?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/icebob/vue-websocket"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

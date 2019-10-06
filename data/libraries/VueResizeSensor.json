@@ -1,0 +1,33 @@
+{
+  "name": "VueResizeSensor",
+  "full_name": "SeregPie/VueResizeSensor",
+  "description": "A container that supports the resize event.",
+  "topics": [
+    "vue",
+    "resize",
+    "event",
+    "component",
+    "iframe",
+    "sensor",
+    "size",
+    "width",
+    "height",
+    "aspect"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "SeregPie",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/1217953?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/SeregPie/VueResizeSensor"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,30 @@
+{
+  "name": "vue-notifyjs",
+  "full_name": "BinarCode/vue-notifyjs",
+  "description": "Minimalist 1kb Notification component",
+  "topics": [
+    "vuejs2",
+    "vue",
+    "component",
+    "notifications"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "BinarCode",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/41368819?v=4"
+  },
+  "organization": {
+    "login": "BinarCode",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/41368819?v=4"
+  },
+  "links": {
+    "site": null,
+    "repo": "https://github.com/BinarCode/vue-notifyjs"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

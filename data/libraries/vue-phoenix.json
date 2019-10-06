@@ -1,0 +1,22 @@
+{
+  "name": "vue-phoenix",
+  "full_name": "vip30/vue-phoenix",
+  "description": "Vue-Phoenix is a Phoenix integration for Vuejs.",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "vip30",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/4260833?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/vip30/vue-phoenix"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

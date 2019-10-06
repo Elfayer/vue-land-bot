@@ -1,0 +1,22 @@
+{
+  "name": "tb-skeleton",
+  "full_name": "anthinkingcoder/tb-skeleton",
+  "description": "a vue component about toy bricks of skeleton screen loading",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "anthinkingcoder",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/17498633?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/anthinkingcoder/tb-skeleton"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

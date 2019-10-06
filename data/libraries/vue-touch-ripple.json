@@ -1,0 +1,36 @@
+{
+  "name": "vue-touch-ripple",
+  "full_name": "surmon-china/vue-touch-ripple",
+  "description": "👆 Touch ripple component for @vuejs",
+  "topics": [
+    "vue",
+    "vue-touch-ripple",
+    "touch-ripple-component",
+    "vuejs2",
+    "vue2",
+    "vue-components",
+    "vue-component",
+    "touch",
+    "ripple",
+    "vue-resource",
+    "vue-demo",
+    "vue-plugin",
+    "rippleview"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "surmon-china",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/14019524?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://surmon-china.github.io/vue-touch-ripple/",
+    "repo": "https://github.com/surmon-china/vue-touch-ripple"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,22 @@
+{
+  "name": "vue-simple-line-icons",
+  "full_name": "nkoik/vue-simple-line-icons",
+  "description": "😸 Vue component for Simple Line Icons and you may choose a SVG or a Font icon just with a prop.",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "nkoik",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/24964750?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/nkoik/vue-simple-line-icons"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

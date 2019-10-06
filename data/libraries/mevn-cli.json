@@ -1,0 +1,46 @@
+{
+  "name": "mevn-cli",
+  "full_name": "madlabsinc/mevn-cli",
+  "description": "Light speed setup for MEVN(Mongo Express Vue Node)  Apps",
+  "topics": [
+    "npm-package",
+    "mevn",
+    "cli",
+    "vue",
+    "vuejs",
+    "express",
+    "javascript",
+    "nodejs",
+    "mongodb",
+    "mongoose",
+    "gssoc19",
+    "babel7",
+    "babel-es6",
+    "babel-preset",
+    "prettier",
+    "eslint",
+    "hacktoberfest",
+    "hacktoberfest2019",
+    "hacktoberfest19",
+    "hacktoberfest-2019"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "madlabsinc",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/40263810?v=4"
+  },
+  "organization": {
+    "login": "madlabsinc",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/40263810?v=4"
+  },
+  "links": {
+    "site": "https://mevn.madlabs.xyz",
+    "repo": "https://github.com/madlabsinc/mevn-cli"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

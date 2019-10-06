@@ -1,0 +1,22 @@
+{
+  "name": "vue-router-hackernews",
+  "full_name": "kazupon/vue-router-hackernews",
+  "description": "HackerNews clone with vue.js + vue-router",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "kazupon",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/72989?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/kazupon/vue-router-hackernews"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

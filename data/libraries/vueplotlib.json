@@ -1,0 +1,27 @@
+{
+  "name": "vueplotlib",
+  "full_name": "keller-mark/vueplotlib",
+  "description": "Declarative, interactive, linked 📊📈 components",
+  "topics": [
+    "vue",
+    "vuejs",
+    "d3",
+    "visualization",
+    "interactive-visualization",
+    "plots",
+    "javascript",
+    "vue-components"
+  ],
+  "license": null,
+  "owner": {
+    "login": "keller-mark",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/7525285?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://keller-mark.github.io/vueplotlib/",
+    "repo": "https://github.com/keller-mark/vueplotlib"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

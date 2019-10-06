@@ -1,0 +1,28 @@
+{
+  "name": "vue-property-decorator",
+  "full_name": "kaorun343/vue-property-decorator",
+  "description": "Vue.js and Property Decorator",
+  "topics": [
+    "vue-property-decorator",
+    "vue",
+    "vue-class-component",
+    "typescript",
+    "decorators"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "kaorun343",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/5625395?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/kaorun343/vue-property-decorator"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

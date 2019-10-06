@@ -1,0 +1,22 @@
+{
+  "name": "babel-plugin-jsx-v-model",
+  "full_name": "nickmessing/babel-plugin-jsx-v-model",
+  "description": "JSX Syntactic Sugar Plugin for v-model",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "nickmessing",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/1633826?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/nickmessing/babel-plugin-jsx-v-model"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

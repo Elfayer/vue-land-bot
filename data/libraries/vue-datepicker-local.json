@@ -1,0 +1,27 @@
+{
+  "name": "vue-datepicker-local",
+  "full_name": "weifeiyue/vue-datepicker-local",
+  "description": "A Beautiful Datepicker Component For Vue2",
+  "topics": [
+    "vue",
+    "component",
+    "datepicker",
+    "javascript"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "weifeiyue",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/19370201?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://weifeiyue.github.io/vue-datepicker-local/",
+    "repo": "https://github.com/weifeiyue/vue-datepicker-local"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

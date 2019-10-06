@@ -1,0 +1,18 @@
+{
+  "name": "vuexpresso",
+  "full_name": "Ethaan/vuexpresso",
+  "description": ":crystal_ball: VueJS + Express + GraphQL Boilerplate ",
+  "topics": [],
+  "license": null,
+  "owner": {
+    "login": "Ethaan",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/8289486?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/Ethaan/vuexpresso"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

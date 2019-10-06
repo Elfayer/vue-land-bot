@@ -1,0 +1,26 @@
+{
+  "name": "vgauge",
+  "full_name": "amroessam/vgauge",
+  "description": "A wrapper library for GaugeJS",
+  "topics": [
+    "vue",
+    "vuejs",
+    "js",
+    "charts",
+    "chartsjs",
+    "gauge",
+    "gaugejs"
+  ],
+  "license": null,
+  "owner": {
+    "login": "amroessam",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/15579070?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/amroessam/vgauge"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

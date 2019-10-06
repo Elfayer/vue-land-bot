@@ -1,0 +1,18 @@
+{
+  "name": "vue-slider",
+  "full_name": "fanyeh/vue-slider",
+  "description": "A Netflix like slider developed using Vuejs",
+  "topics": [],
+  "license": null,
+  "owner": {
+    "login": "fanyeh",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/6197438?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/fanyeh/vue-slider"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

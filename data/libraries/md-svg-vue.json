@@ -1,0 +1,33 @@
+{
+  "name": "md-svg-vue",
+  "full_name": "IPRIT/md-svg-vue",
+  "description": "Material design icons by Google for Vue.js & Nuxt.js (server side support & inline svg with path)",
+  "topics": [
+    "material-design",
+    "icons",
+    "vue",
+    "vuejs2",
+    "server-side-rendering",
+    "chunking",
+    "bundling",
+    "svg-icons",
+    "svg",
+    "inline-svg"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "IPRIT",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/1553519?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/IPRIT/md-svg-vue"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

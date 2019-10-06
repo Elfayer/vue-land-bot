@@ -1,0 +1,27 @@
+{
+  "name": "vue-wamp",
+  "full_name": "lajosbencz/vue-wamp",
+  "description": "AutobahnJS wrapper library fo Vue.js",
+  "topics": [
+    "vue",
+    "autobahn",
+    "wamp",
+    "websocket"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "lajosbencz",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/8420835?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/lajosbencz/vue-wamp"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

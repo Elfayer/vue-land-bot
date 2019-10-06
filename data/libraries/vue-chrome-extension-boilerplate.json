@@ -1,0 +1,30 @@
+{
+  "name": "vue-chrome-extension-boilerplate",
+  "full_name": "mubaidr/vue-chrome-extension-boilerplate",
+  "description": "Boilerplate for Chrome extension using Vue.js and Webpack with Hot Reloading Enabled",
+  "topics": [
+    "chrome",
+    "vue",
+    "extension",
+    "webpack4",
+    "chrome-extension",
+    "boilerplate",
+    "webpack"
+  ],
+  "license": {
+    "key": "apache-2.0",
+    "url": "https://api.github.com/licenses/apache-2.0",
+    "name": "Apache License 2.0"
+  },
+  "owner": {
+    "login": "mubaidr",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/2222702?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/mubaidr/vue-chrome-extension-boilerplate"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

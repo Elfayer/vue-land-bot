@@ -1,0 +1,22 @@
+{
+  "name": "vue-fast-axios",
+  "full_name": "leonardovilarinho/vue-fast-axios",
+  "description": "> Solution to remove and simplify axios in components vue",
+  "topics": [],
+  "license": {
+    "key": "gpl-3.0",
+    "url": "https://api.github.com/licenses/gpl-3.0",
+    "name": "GNU General Public License v3.0"
+  },
+  "owner": {
+    "login": "leonardovilarinho",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/12480135?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://leonardovilarinho.github.io/vue-fast-axios",
+    "repo": "https://github.com/leonardovilarinho/vue-fast-axios"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

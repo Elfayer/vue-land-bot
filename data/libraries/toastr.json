@@ -1,0 +1,25 @@
+{
+  "name": "toastr",
+  "full_name": "CodeSeven/toastr",
+  "description": "Simple javascript toast notifications",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "CodeSeven",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/1694332?v=4"
+  },
+  "organization": {
+    "login": "CodeSeven",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/1694332?v=4"
+  },
+  "links": {
+    "site": "http://www.toastrjs.com",
+    "repo": "https://github.com/CodeSeven/toastr"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

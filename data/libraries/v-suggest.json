@@ -1,0 +1,28 @@
+{
+  "name": "v-suggest",
+  "full_name": "TerryZ/v-suggest",
+  "description": "A Vue2 plugin for input content suggestions, support using keyboard to navigate and quick pick, it make use experience like search engine input element",
+  "topics": [
+    "javascript",
+    "vuejs",
+    "input",
+    "suggestions",
+    "autocomplete"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "TerryZ",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/854406?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://terryz.github.io/vue/#/suggest",
+    "repo": "https://github.com/TerryZ/v-suggest"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

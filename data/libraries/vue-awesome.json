@@ -1,0 +1,27 @@
+{
+  "name": "vue-awesome",
+  "full_name": "Justineo/vue-awesome",
+  "description": "Awesome SVG icon component for Vue.js, built-in with Font Awesome icons.",
+  "topics": [
+    "icon",
+    "vue",
+    "svg",
+    "font-awesome"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "Justineo",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/1726061?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://justineo.github.io/vue-awesome/demo/",
+    "repo": "https://github.com/Justineo/vue-awesome"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

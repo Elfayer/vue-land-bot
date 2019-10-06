@@ -1,0 +1,18 @@
+{
+  "name": "blessed-vue",
+  "full_name": "lyonlai/blessed-vue",
+  "description": "A VueJS runtime to let you write command line UI in Vue",
+  "topics": [],
+  "license": null,
+  "owner": {
+    "login": "lyonlai",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/1623058?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/lyonlai/blessed-vue"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

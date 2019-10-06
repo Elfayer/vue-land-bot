@@ -1,0 +1,37 @@
+{
+  "name": "shards-dashboard-vue",
+  "full_name": "DesignRevision/shards-dashboard-vue",
+  "description": "A free Vue admin dashboard template pack featuring a modern design system  and lots of custom templates and components.",
+  "topics": [
+    "vue",
+    "vuejs",
+    "uikit",
+    "dashboard",
+    "admin",
+    "admin-dashboard",
+    "template",
+    "design",
+    "design-system",
+    "ux",
+    "modern"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "DesignRevision",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/8946731?v=4"
+  },
+  "organization": {
+    "login": "DesignRevision",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/8946731?v=4"
+  },
+  "links": {
+    "site": "https://designrevision.com/downloads/shards-dashboard-lite-vue/",
+    "repo": "https://github.com/DesignRevision/shards-dashboard-vue"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

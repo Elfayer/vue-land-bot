@@ -1,0 +1,25 @@
+{
+  "name": "vue-notify-me",
+  "full_name": "PygmySlowLoris/vue-notify-me",
+  "description": "Stackable notification Alert for Vue",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "PygmySlowLoris",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/27635664?v=4"
+  },
+  "organization": {
+    "login": "PygmySlowLoris",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/27635664?v=4"
+  },
+  "links": {
+    "site": null,
+    "repo": "https://github.com/PygmySlowLoris/vue-notify-me"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

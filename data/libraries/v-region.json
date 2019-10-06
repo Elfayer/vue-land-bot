@@ -1,0 +1,29 @@
+{
+  "name": "v-region",
+  "full_name": "TerryZ/v-region",
+  "description": "A simple region cascade selector, provide 4 levels Chinese administrative division data",
+  "topics": [
+    "vue",
+    "vuejs",
+    "vue2",
+    "region-selector",
+    "citypicker",
+    "javascript"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "TerryZ",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/854406?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://terryz.github.io/vue/#/region",
+    "repo": "https://github.com/TerryZ/v-region"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

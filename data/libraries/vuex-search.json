@@ -1,0 +1,28 @@
+{
+  "name": "vuex-search",
+  "full_name": "AlbertLucianto/vuex-search",
+  "description": "Vuex binding for client-side search with indexers and Web Workers :green_book::mag:",
+  "topics": [
+    "vuex",
+    "search",
+    "vue",
+    "web-worker",
+    "index"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "AlbertLucianto",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/23165866?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://albertlucianto.github.io/vuex-search/",
+    "repo": "https://github.com/AlbertLucianto/vuex-search"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

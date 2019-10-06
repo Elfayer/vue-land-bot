@@ -1,0 +1,27 @@
+{
+  "name": "vue-twitter",
+  "full_name": "chiaweilee/vue-twitter",
+  "description": "Twitter widgets for Vue.js",
+  "topics": [
+    "twitter",
+    "widgets",
+    "twitter-timeline",
+    "vue"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "chiaweilee",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/29817353?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/chiaweilee/vue-twitter"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

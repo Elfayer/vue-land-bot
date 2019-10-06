@@ -1,0 +1,30 @@
+{
+  "name": "myfirebase",
+  "full_name": "myfirebase/myfirebase",
+  "description": ":fire: A SPA/PWA framework which is highly compatible with Google Firebase",
+  "topics": [
+    "firebase",
+    "vuejs",
+    "single-page-app",
+    "progressive-web-app"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "myfirebase",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/26170250?v=4"
+  },
+  "organization": {
+    "login": "myfirebase",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/26170250?v=4"
+  },
+  "links": {
+    "site": "https://myfirebase.github.io",
+    "repo": "https://github.com/myfirebase/myfirebase"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

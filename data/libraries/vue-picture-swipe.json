@@ -1,0 +1,31 @@
+{
+  "name": "vue-picture-swipe",
+  "full_name": "rap2hpoutre/vue-picture-swipe",
+  "description": "🖼 Vue Picture Swipe Gallery (a gallery of image with thumbnails, lazy-load and swipe) backed by photoswipe",
+  "topics": [
+    "vue",
+    "vuejs",
+    "component",
+    "gallery",
+    "swipe",
+    "picture",
+    "photoswipe",
+    "carousel"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "rap2hpoutre",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/1575946?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/rap2hpoutre/vue-picture-swipe"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

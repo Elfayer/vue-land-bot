@@ -1,0 +1,22 @@
+{
+  "name": "vuex-cache",
+  "full_name": "superwf/vuex-cache",
+  "description": "cache vuex action when dispatch",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "superwf",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/308262?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/superwf/vuex-cache"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

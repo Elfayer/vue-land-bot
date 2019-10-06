@@ -1,0 +1,22 @@
+{
+  "name": "vuelm",
+  "full_name": "keuller/vuelm",
+  "description": "Elm-inspired Application State Management for Vue.js.",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "keuller",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/2074316?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/keuller/vuelm"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,29 @@
+{
+  "name": "modaltor",
+  "full_name": "davodaslanifakor/modaltor",
+  "description": "modal component for vuejs",
+  "topics": [
+    "vue",
+    "javascript",
+    "vuejs",
+    "modal",
+    "vue-modal",
+    "modaltor"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "davodaslanifakor",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/14367811?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://davodaslanifakor.github.io/modaltor",
+    "repo": "https://github.com/davodaslanifakor/modaltor"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

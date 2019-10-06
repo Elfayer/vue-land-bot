@@ -1,0 +1,28 @@
+{
+  "name": "chrome-ribbon-reminder",
+  "full_name": "johndatserakis/chrome-ribbon-reminder",
+  "description": "🎀 A Chrome extension written using Vue and Async/Await. Uses a popup display and changes badge counts.",
+  "topics": [
+    "chrome-extension",
+    "vue",
+    "async",
+    "await",
+    "chrome",
+    "webpack",
+    "bootstrap",
+    "fontawesome",
+    "bootstrap4"
+  ],
+  "license": null,
+  "owner": {
+    "login": "johndatserakis",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/9972969?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://chrome.google.com/webstore/detail/ribbon-reminder/ahdegcekcodbkojmccabgmfcfddabnbd",
+    "repo": "https://github.com/johndatserakis/chrome-ribbon-reminder"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

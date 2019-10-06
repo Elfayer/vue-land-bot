@@ -1,0 +1,22 @@
+{
+  "name": "activity-automation",
+  "full_name": "mubaidr/activity-automation",
+  "description": "Manage daily activities and get reports on timely basis. ",
+  "topics": ["nodejs", "expressjs", "vuejs2", "bootstrap4"],
+  "license": {
+    "key": "apache-2.0",
+    "url": "https://api.github.com/licenses/apache-2.0",
+    "name": "Apache License 2.0"
+  },
+  "owner": {
+    "login": "mubaidr",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/2222702?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/mubaidr/activity-automation"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

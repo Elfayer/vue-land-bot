@@ -1,0 +1,29 @@
+{
+  "name": "web-riimote",
+  "full_name": "konaraddi/web-riimote",
+  "description": ":tada: Turn your smartphone into a 3D controller with a web app",
+  "topics": [
+    "vuejs",
+    "nodejs",
+    "web",
+    "sockets",
+    "wiimote",
+    "3d-controller"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "konaraddi",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/19355185?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://web-riimote.herokuapp.com",
+    "repo": "https://github.com/konaraddi/web-riimote"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

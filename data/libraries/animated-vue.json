@@ -1,0 +1,25 @@
+{
+  "name": "animated-vue",
+  "full_name": "radical-dreamers/animated-vue",
+  "description": " A plugin to use animate.css animations as Vue2 transitions",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "radical-dreamers",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/21295455?v=4"
+  },
+  "organization": {
+    "login": "radical-dreamers",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/21295455?v=4"
+  },
+  "links": {
+    "site": null,
+    "repo": "https://github.com/radical-dreamers/animated-vue"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

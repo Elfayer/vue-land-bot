@@ -1,0 +1,27 @@
+{
+  "name": "vue-nestable",
+  "full_name": "rhwilr/vue-nestable",
+  "description": "A simple drag & drop hierarchical list made as a vue component.",
+  "topics": [
+    "vue",
+    "vue-components",
+    "vue-nestable",
+    "drag"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "rhwilr",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/4346833?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://rhwilr.github.io/vue-nestable/",
+    "repo": "https://github.com/rhwilr/vue-nestable"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

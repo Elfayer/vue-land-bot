@@ -1,0 +1,22 @@
+{
+  "name": "vue-pagination-bootstrap",
+  "full_name": "brunoseco/vue-pagination-bootstrap",
+  "description": "Server-side paging component in vue, template based on bootstrap",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "brunoseco",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/9052611?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/brunoseco/vue-pagination-bootstrap"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

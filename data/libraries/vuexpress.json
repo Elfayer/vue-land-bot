@@ -1,0 +1,25 @@
+{
+  "name": "vuexpress",
+  "full_name": "vuexpress/vuexpress",
+  "description": "Vue + Express.js = VueXpress / A server side rendering engine for Express.js. Use .vue files as your express.js templates.",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "vuexpress",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/36099754?v=4"
+  },
+  "organization": {
+    "login": "vuexpress",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/36099754?v=4"
+  },
+  "links": {
+    "site": null,
+    "repo": "https://github.com/vuexpress/vuexpress"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

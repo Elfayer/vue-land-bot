@@ -1,0 +1,27 @@
+{
+  "name": "vue-clicky",
+  "full_name": "Herteby/vue-clicky",
+  "description": "Handy debugging function for Vue",
+  "topics": [
+    "vuejs",
+    "debug",
+    "tool",
+    "vue"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "Herteby",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/6474685?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/Herteby/vue-clicky"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,29 @@
+{
+  "name": "vue-clazy-load",
+  "full_name": "matheusgrieger/vue-clazy-load",
+  "description": "Component-based lazy (CLazy) load images in Vue.js 2",
+  "topics": [
+    "vuejs2",
+    "vue",
+    "vue-components",
+    "lazy-loading",
+    "lazy-load",
+    "intersectionobserver"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "matheusgrieger",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/6992464?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://matheusgrieger.github.io/vue-clazy-load/",
+    "repo": "https://github.com/matheusgrieger/vue-clazy-load"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

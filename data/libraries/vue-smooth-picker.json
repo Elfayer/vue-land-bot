@@ -1,0 +1,31 @@
+{
+  "name": "vue-smooth-picker",
+  "full_name": "hiyali/vue-smooth-picker",
+  "description": "🏄🏼  A SmoothPicker for Vue 2 (like native datetime picker of iOS)",
+  "topics": [
+    "vue",
+    "picker",
+    "datetime",
+    "smooth",
+    "awesome",
+    "data",
+    "vue-picker",
+    "vue2"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "hiyali",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/8447900?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/hiyali/vue-smooth-picker"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

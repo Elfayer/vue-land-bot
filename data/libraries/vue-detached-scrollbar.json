@@ -1,0 +1,22 @@
+{
+  "name": "vue-detached-scrollbar",
+  "full_name": "ozangulle/vue-detached-scrollbar",
+  "description": null,
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "ozangulle",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/1334150?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/ozangulle/vue-detached-scrollbar"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

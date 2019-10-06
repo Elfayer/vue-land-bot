@@ -1,0 +1,34 @@
+{
+  "name": "vue-responsive-image",
+  "full_name": "HCESrl/vue-responsive-image",
+  "description": "A Vue component that lets you quickly create responsive image tags with an optimal number of image sources for all devices.",
+  "topics": [
+    "vue-components",
+    "vue",
+    "vuejs",
+    "responsive-images",
+    "responsive-web-design",
+    "responsive-design",
+    "front-end",
+    "srcset"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "HCESrl",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/18146357?v=4"
+  },
+  "organization": {
+    "login": "HCESrl",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/18146357?v=4"
+  },
+  "links": {
+    "site": null,
+    "repo": "https://github.com/HCESrl/vue-responsive-image"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

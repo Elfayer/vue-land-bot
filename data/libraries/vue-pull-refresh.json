@@ -1,0 +1,22 @@
+{
+  "name": "vue-pull-refresh",
+  "full_name": "lakb248/vue-pull-refresh",
+  "description": "A pull down refresh component implement by vuejs",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "lakb248",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/5069587?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/lakb248/vue-pull-refresh"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

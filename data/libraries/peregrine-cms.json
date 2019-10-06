@@ -1,0 +1,27 @@
+{
+  "name": "peregrine-cms",
+  "full_name": "headwirecom/peregrine-cms",
+  "description": "an api first, head optional cms with based on vuejs and apache sling",
+  "topics": [
+    "cms",
+    "headless-cms",
+    "api-first",
+    "apache-sling",
+    "vuejs2"
+  ],
+  "license": null,
+  "owner": {
+    "login": "headwirecom",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/5902889?v=4"
+  },
+  "organization": {
+    "login": "headwirecom",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/5902889?v=4"
+  },
+  "links": {
+    "site": null,
+    "repo": "https://github.com/headwirecom/peregrine-cms"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

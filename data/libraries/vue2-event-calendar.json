@@ -1,0 +1,18 @@
+{
+  "name": "vue2-event-calendar",
+  "full_name": "kitwon/vue2-event-calendar",
+  "description": "Full calendar base on Vue2 and momentjs.",
+  "topics": [],
+  "license": null,
+  "owner": {
+    "login": "kitwon",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/8209061?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/kitwon/vue2-event-calendar"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

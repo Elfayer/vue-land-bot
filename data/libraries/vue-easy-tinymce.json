@@ -1,0 +1,28 @@
+{
+  "name": "vue-easy-tinymce",
+  "full_name": "m3esma/vue-easy-tinymce",
+  "description": "A simple and powerful package for easy usage of tinymce in Vue.js project.",
+  "topics": [
+    "vue",
+    "tinymce",
+    "javascript",
+    "component",
+    "vue-component"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "m3esma",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/14247909?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/m3esma/vue-easy-tinymce"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

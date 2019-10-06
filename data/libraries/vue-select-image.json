@@ -1,0 +1,28 @@
+{
+  "name": "vue-select-image",
+  "full_name": "mazipan/vue-select-image",
+  "description": "✅ Vue 2.x component for selecting image from list",
+  "topics": [
+    "vue",
+    "vue-image-picker",
+    "vue-select-image",
+    "vue2-component",
+    "vue-image-select"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "mazipan",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/7221389?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://mazipan.github.io/vue-select-image/",
+    "repo": "https://github.com/mazipan/vue-select-image"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

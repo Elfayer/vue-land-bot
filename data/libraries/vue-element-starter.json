@@ -1,0 +1,34 @@
+{
+  "name": "vue-element-starter",
+  "full_name": "Metnew/vue-element-starter",
+  "description": " Vue starter with Element-UI [READY, unmaintained now]",
+  "topics": [
+    "starter",
+    "vue",
+    "vuejs2",
+    "vuex",
+    "boilerplate",
+    "template",
+    "setup",
+    "js",
+    "javascript",
+    "webpack",
+    "element-ui"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "Metnew",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/10862289?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://metnew.github.io/vue-element-starter/",
+    "repo": "https://github.com/Metnew/vue-element-starter"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

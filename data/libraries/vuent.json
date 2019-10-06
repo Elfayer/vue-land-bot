@@ -1,0 +1,37 @@
+{
+  "name": "vuent",
+  "full_name": "arturmiz/vuent",
+  "description": "🎨 Vue.js components implementing Microsoft Fluent Design",
+  "topics": [
+    "fluent-design",
+    "library",
+    "microsoft-fluent",
+    "vue",
+    "frontend",
+    "frontend-library",
+    "vue-components",
+    "component-library",
+    "vue-plugin",
+    "vuent",
+    "fluent",
+    "uwp",
+    "uwp-dev",
+    "vuejs2"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "arturmiz",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/4509515?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://vuentjs.org",
+    "repo": "https://github.com/arturmiz/vuent"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

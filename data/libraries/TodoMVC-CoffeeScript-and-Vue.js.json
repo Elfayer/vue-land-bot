@@ -1,0 +1,22 @@
+{
+  "name": "TodoMVC-CoffeeScript-and-Vue.js",
+  "full_name": "anfelor/TodoMVC-CoffeeScript-and-Vue.js",
+  "description": "A TodoMVC implementation based on the official example by Evan You - DEPRECATED based on Vue 1.0 ",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "anfelor",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/16764214?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/anfelor/TodoMVC-CoffeeScript-and-Vue.js"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

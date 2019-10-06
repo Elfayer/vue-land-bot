@@ -1,0 +1,33 @@
+{
+  "name": "vue-identify-network",
+  "full_name": "vinayakkulkarni/vue-identify-network",
+  "description": ":zap: Identify what kinda internet your users are using!",
+  "topics": [
+    "vuejs",
+    "vue",
+    "vue2",
+    "vuejs2",
+    "navigator",
+    "window",
+    "dom",
+    "network",
+    "browser",
+    "identify-network"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "vinayakkulkarni",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/19776877?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://vinayak.pw/identify-network/",
+    "repo": "https://github.com/vinayakkulkarni/vue-identify-network"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

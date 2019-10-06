@@ -1,0 +1,25 @@
+{
+  "name": "vue-music-qq",
+  "full_name": "pluto1114/vue-music-qq",
+  "description": "A qq-music project is based on vue-cli.  The pages are simple and smooth",
+  "topics": [
+    "vuex",
+    "muse-ui",
+    "vue-router",
+    "vue",
+    "music",
+    "qq"
+  ],
+  "license": null,
+  "owner": {
+    "login": "pluto1114",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/8563341?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "http://weixin.nmict.cn/vue-music-qq/",
+    "repo": "https://github.com/pluto1114/vue-music-qq"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

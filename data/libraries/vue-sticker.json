@@ -1,0 +1,25 @@
+{
+  "name": "vue-sticker",
+  "full_name": "KamilOcean/vue-sticker",
+  "description": "Vue component, that helps to make sticky effects",
+  "topics": [
+    "vue-components",
+    "stickers"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "KamilOcean",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/16609819?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://kamilocean.github.io/vue-sticker/#/",
+    "repo": "https://github.com/KamilOcean/vue-sticker"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

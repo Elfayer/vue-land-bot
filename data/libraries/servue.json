@@ -1,0 +1,21 @@
+{
+  "name": "servue",
+  "full_name": "futureaus/servue",
+  "description": "Server-side rendering engine that renders vue files into html strings",
+  "topics": [],
+  "license": null,
+  "owner": {
+    "login": "futureaus",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/45965211?v=4"
+  },
+  "organization": {
+    "login": "futureaus",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/45965211?v=4"
+  },
+  "links": {
+    "site": "https://futureaus.github.io/servue",
+    "repo": "https://github.com/futureaus/servue"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

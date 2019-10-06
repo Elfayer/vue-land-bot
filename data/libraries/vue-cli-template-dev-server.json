@@ -1,0 +1,38 @@
+{
+  "name": "vue-cli-template-dev-server",
+  "full_name": "eliranmal/vue-cli-template-dev-server",
+  "description": "development server for building vue-cli custom templates",
+  "topics": [
+    "vue",
+    "vuejs",
+    "tools",
+    "development",
+    "developer-tools",
+    "dx",
+    "developer-experience",
+    "cli",
+    "server",
+    "watcher",
+    "dev-server",
+    "vue-cli",
+    "vue-init",
+    "vue-init-template",
+    "vue-cli-template"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "eliranmal",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/1401288?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/eliranmal/vue-cli-template-dev-server"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

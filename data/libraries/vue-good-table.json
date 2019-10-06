@@ -1,0 +1,28 @@
+{
+  "name": "vue-good-table",
+  "full_name": "xaksis/vue-good-table",
+  "description": "An easy to use powerful data table for vuejs with advanced customizations including sorting, column filtering, pagination, grouping etc",
+  "topics": [
+    "vue",
+    "vuejs",
+    "table",
+    "datatable",
+    "plugin"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "xaksis",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/4627120?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://xaksis.github.io/vue-good-table/",
+    "repo": "https://github.com/xaksis/vue-good-table"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,30 @@
+{
+  "name": "vue-fa",
+  "full_name": "Cweili/vue-fa",
+  "description": "Tiny FontAwesome 5 component for Vue.js.",
+  "topics": [
+    "vue",
+    "vuejs",
+    "fontawesome",
+    "font-awesome",
+    "icon",
+    "svg",
+    "component"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "Cweili",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/2128450?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://cweili.github.io/vue-fa/",
+    "repo": "https://github.com/Cweili/vue-fa"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

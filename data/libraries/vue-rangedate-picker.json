@@ -1,0 +1,31 @@
+{
+  "name": "vue-rangedate-picker",
+  "full_name": "bliblidotcom/vue-rangedate-picker",
+  "description": "Range date picker with simple usage",
+  "topics": [
+    "vue-datepicker",
+    "vue-daterange",
+    "daterangepicker",
+    "vue-daterange-picker",
+    "vue-range-picker"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "bliblidotcom",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/11690962?v=4"
+  },
+  "organization": {
+    "login": "bliblidotcom",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/11690962?v=4"
+  },
+  "links": {
+    "site": "https://bliblidotcom.github.io/vue-rangedate-picker/demo/",
+    "repo": "https://github.com/bliblidotcom/vue-rangedate-picker"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

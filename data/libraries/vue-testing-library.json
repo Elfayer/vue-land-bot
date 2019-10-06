@@ -1,0 +1,33 @@
+{
+  "name": "vue-testing-library",
+  "full_name": "testing-library/vue-testing-library",
+  "description": "🦎 Simple and complete Vue.js testing utilities that encourage good testing practices.",
+  "topics": [
+    "vuejs",
+    "testing",
+    "vue",
+    "test",
+    "testing-tools",
+    "dom-testing-library",
+    "vue-testing-library"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "testing-library",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/49996085?v=4"
+  },
+  "organization": {
+    "login": "testing-library",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/49996085?v=4"
+  },
+  "links": {
+    "site": "http://testing-library.com/vue",
+    "repo": "https://github.com/testing-library/vue-testing-library"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

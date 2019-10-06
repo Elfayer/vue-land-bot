@@ -1,0 +1,28 @@
+{
+  "name": "vue-tiny-lazyload-img",
+  "full_name": "mazipan/vue-tiny-lazyload-img",
+  "description": "🐌 A small size Vue.js directive for lazy loading images using IntersectionObserver API",
+  "topics": [
+    "vue",
+    "vue2",
+    "lazy-loading",
+    "lazy-load-img",
+    "vue-lazyload-images"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "mazipan",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/7221389?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://mazipan.github.io/vue-tiny-lazyload-img/",
+    "repo": "https://github.com/mazipan/vue-tiny-lazyload-img"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

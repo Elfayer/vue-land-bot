@@ -1,0 +1,18 @@
+{
+  "name": "vuejs-learn",
+  "full_name": "bhnddowinf/vuejs-learn",
+  "description": "(vue.js official website tutorials ，contains video , codes, baudi yun, youtube) 网路上有很多 VUE 综合应用的视频，但大部份的视频 ，都当你已经了解官网 所以讲的节奏难免偏快。 此视频(都是上代码)，以官网为重，将官网的观念，以视频搭配代码，实际演示。 如果官网有看不懂的地方，比对一下，视频跟代码，就会了解了。 减少你摸索的时间。(註：mvvm 的框架，不管是 ng , react, vue, avalonjs, 都是好的框架，而有经验的前端，至少都会两套以上的 mvvm。)",
+  "topics": [],
+  "license": null,
+  "owner": {
+    "login": "bhnddowinf",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/3215677?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/bhnddowinf/vuejs-learn"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

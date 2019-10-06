@@ -1,0 +1,25 @@
+{
+  "name": "vue-dropdown-menu",
+  "full_name": "Innologica/vue-dropdown-menu",
+  "description": "Dropdown menu component for Vue",
+  "topics": [
+    "vue",
+    "dropdown",
+    "menu"
+  ],
+  "license": null,
+  "owner": {
+    "login": "Innologica",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/8224044?v=4"
+  },
+  "organization": {
+    "login": "Innologica",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/8224044?v=4"
+  },
+  "links": {
+    "site": "https://innologica.github.io/vue-dropdown-menu/",
+    "repo": "https://github.com/Innologica/vue-dropdown-menu"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

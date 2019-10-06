@@ -1,0 +1,21 @@
+{
+  "name": "astrum",
+  "full_name": "NoDivide/astrum",
+  "description": "A lightweight pattern library designed to be included with any web project.",
+  "topics": [],
+  "license": null,
+  "owner": {
+    "login": "NoDivide",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/5468267?v=4"
+  },
+  "organization": {
+    "login": "NoDivide",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/5468267?v=4"
+  },
+  "links": {
+    "site": "http://astrum.nodividestudio.com",
+    "repo": "https://github.com/NoDivide/astrum"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

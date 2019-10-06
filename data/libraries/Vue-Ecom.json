@@ -1,0 +1,18 @@
+{
+  "name": "Vue-Ecom",
+  "full_name": "rash0/Vue-Ecom",
+  "description": "🛍️ A Full Vue Store-Front open Source Templet.",
+  "topics": [],
+  "license": null,
+  "owner": {
+    "login": "rash0",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/40761345?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "http://vue-ecom.herokuapp.com",
+    "repo": "https://github.com/rash0/Vue-Ecom"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

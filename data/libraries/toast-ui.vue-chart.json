@@ -1,0 +1,28 @@
+{
+  "name": "toast-ui.vue-chart",
+  "full_name": "nhn/toast-ui.vue-chart",
+  "description": "Toast UI Chart for Vue",
+  "topics": [
+    "vue",
+    "chart"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "nhn",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/7907400?v=4"
+  },
+  "organization": {
+    "login": "nhn",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/7907400?v=4"
+  },
+  "links": {
+    "site": null,
+    "repo": "https://github.com/nhn/toast-ui.vue-chart"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

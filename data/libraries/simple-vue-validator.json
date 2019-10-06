@@ -1,0 +1,22 @@
+{
+  "name": "simple-vue-validator",
+  "full_name": "semisleep/simple-vue-validator",
+  "description": "A simple yet flexible validator library for vue.js",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "semisleep",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/9045392?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/semisleep/simple-vue-validator"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,18 @@
+{
+  "name": "v-autocomplete",
+  "full_name": "paliari/v-autocomplete",
+  "description": "Autocomplete component for Vue.js",
+  "topics": [],
+  "license": null,
+  "owner": {
+    "login": "paliari",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/2801041?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/paliari/v-autocomplete"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

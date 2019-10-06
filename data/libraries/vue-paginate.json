@@ -1,0 +1,22 @@
+{
+  "name": "vue-paginate",
+  "full_name": "TahaSh/vue-paginate",
+  "description": "A simple vue.js plugin to paginate data",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "TahaSh",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/5775341?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/TahaSh/vue-paginate"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

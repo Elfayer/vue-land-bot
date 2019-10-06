@@ -1,0 +1,33 @@
+{
+  "name": "vue-native-core",
+  "full_name": "GeekyAnts/vue-native-core",
+  "description": "Vue Native is a framework to build cross platform native mobile apps using JavaScript",
+  "topics": [
+    "vue-native",
+    "vue",
+    "framework",
+    "javascript",
+    "ios",
+    "android",
+    "mobile-app-development"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "GeekyAnts",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/18482943?v=4"
+  },
+  "organization": {
+    "login": "GeekyAnts",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/18482943?v=4"
+  },
+  "links": {
+    "site": "https://vue-native.io",
+    "repo": "https://github.com/GeekyAnts/vue-native-core"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

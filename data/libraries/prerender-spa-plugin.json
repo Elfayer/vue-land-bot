@@ -1,0 +1,29 @@
+{
+  "name": "prerender-spa-plugin",
+  "full_name": "chrisvfritz/prerender-spa-plugin",
+  "description": "Prerenders static HTML in a single-page application.",
+  "topics": [
+    "prerender",
+    "seo",
+    "spa",
+    "webpack",
+    "webpack-plugin",
+    "static-site-generator"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "chrisvfritz",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/2327556?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/chrisvfritz/prerender-spa-plugin"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

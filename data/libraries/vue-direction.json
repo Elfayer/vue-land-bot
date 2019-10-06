@@ -1,0 +1,28 @@
+{
+  "name": "vue-direction",
+  "full_name": "shwilliam/vue-direction",
+  "description": "👋 Declarative, direction-aware hover in Vuejs",
+  "topics": [
+    "component",
+    "vue",
+    "mouse",
+    "direction",
+    "hover"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "shwilliam",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/38357771?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://www.npmjs.com/package/vue-direction",
+    "repo": "https://github.com/shwilliam/vue-direction"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

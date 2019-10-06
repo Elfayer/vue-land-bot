@@ -1,0 +1,31 @@
+{
+  "name": "vue-css-donut-chart",
+  "full_name": "dumptyd/vue-css-donut-chart",
+  "description": "Lightweight Vue component for drawing pure CSS donut charts",
+  "topics": [
+    "chart",
+    "donut",
+    "css",
+    "vue",
+    "doughnut",
+    "radial-progress",
+    "progress-bar",
+    "pie-chart"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "dumptyd",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/16368429?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://dumptyd.github.io/vue-css-donut-chart/",
+    "repo": "https://github.com/dumptyd/vue-css-donut-chart"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

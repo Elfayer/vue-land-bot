@@ -1,0 +1,33 @@
+{
+  "name": "vue-numeric",
+  "full_name": "kevinongko/vue-numeric",
+  "description": "Input field component to display a formatted currency value based on Vue.js",
+  "topics": [
+    "vue",
+    "vue-numeric",
+    "numeric",
+    "input",
+    "currency",
+    "vue2",
+    "maskedinput",
+    "currency-prefix",
+    "separator-symbol",
+    "money"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "kevinongko",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/15880638?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://kevinongko.github.io/vue-numeric/",
+    "repo": "https://github.com/kevinongko/vue-numeric"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

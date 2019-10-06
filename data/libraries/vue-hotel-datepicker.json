@@ -1,0 +1,31 @@
+{
+  "name": "vue-hotel-datepicker",
+  "full_name": "krystalcampioni/vue-hotel-datepicker",
+  "description": "Vue date range picker component ",
+  "topics": [
+    "vue",
+    "vuejs",
+    "vuejs-components",
+    "vuejs-plugin",
+    "vuejs2",
+    "calendar",
+    "datepicker",
+    "datepicker-component"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "krystalcampioni",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/4037781?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://krystalcampioni.github.io/vue-hotel-datepicker/",
+    "repo": "https://github.com/krystalcampioni/vue-hotel-datepicker"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

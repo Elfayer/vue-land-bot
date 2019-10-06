@@ -1,0 +1,39 @@
+{
+  "name": "eth-vue",
+  "full_name": "DOkwufulueze/eth-vue",
+  "description": "This Truffle Box provides everything you need to quickly build Ethereum dApps that have authentication features with vue, including configuration for easy deployment to the Ropsten Network. It's also Gravatar-enabled. Connecting to a running Ganache blockchain network from Truffle is also possible -- for fast development and testing purposes. Built on Truffle 4, eth-vue uses vuex for state management, vuex-persist for local storage of app state, and vue-router for routing. Authentication functionalities are handled by Smart Contracts running on the Ethereum blockchain.",
+  "topics": [
+    "vuejs",
+    "ethereum",
+    "ethereum-contract",
+    "dapp",
+    "ethereum-dapp",
+    "eth-vue",
+    "blockchain",
+    "truffle",
+    "truffle-framework",
+    "vue-router",
+    "vue-components",
+    "contracts",
+    "boilerplate",
+    "vuex",
+    "vuex-persist",
+    "web3"
+  ],
+  "license": {
+    "key": "gpl-3.0",
+    "url": "https://api.github.com/licenses/gpl-3.0",
+    "name": "GNU General Public License v3.0"
+  },
+  "owner": {
+    "login": "DOkwufulueze",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/13135088?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/DOkwufulueze/eth-vue"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

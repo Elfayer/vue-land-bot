@@ -1,0 +1,30 @@
+{
+  "name": "vue-color-picker",
+  "full_name": "radial-color-picker/vue-color-picker",
+  "description": "Radial Color Picker - Vue",
+  "topics": [
+    "vue",
+    "color-picker",
+    "nuxt-module",
+    "hue"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "radial-color-picker",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/37274714?v=4"
+  },
+  "organization": {
+    "login": "radial-color-picker",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/37274714?v=4"
+  },
+  "links": {
+    "site": "https://radial-color-picker.github.io/vue-color-picker/",
+    "repo": "https://github.com/radial-color-picker/vue-color-picker"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

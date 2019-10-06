@@ -1,0 +1,26 @@
+{
+  "name": "vuejs-boilerplate",
+  "full_name": "storyblok/vuejs-boilerplate",
+  "description": "Storyblok - JavaScript - VueJS Boilerplate",
+  "topics": [
+    "storyblok",
+    "boilerplate",
+    "storyblok-boilerplate",
+    "vuejs"
+  ],
+  "license": null,
+  "owner": {
+    "login": "storyblok",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/13880908?v=4"
+  },
+  "organization": {
+    "login": "storyblok",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/13880908?v=4"
+  },
+  "links": {
+    "site": null,
+    "repo": "https://github.com/storyblok/vuejs-boilerplate"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

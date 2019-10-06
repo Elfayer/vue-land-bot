@@ -1,0 +1,26 @@
+{
+  "name": "vue-ionicons",
+  "full_name": "mazipan/vue-ionicons",
+  "description": "⛄️ Vue Icon Set Components from Ionic Team",
+  "topics": [
+    "vue-icon",
+    "ionicons",
+    "vue-ionicons"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "mazipan",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/7221389?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://mazipan.github.io/vue-ionicons",
+    "repo": "https://github.com/mazipan/vue-ionicons"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

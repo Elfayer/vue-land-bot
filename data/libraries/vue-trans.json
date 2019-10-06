@@ -1,0 +1,31 @@
+{
+  "name": "vue-trans",
+  "full_name": "Digelly/vue-trans",
+  "description": "A simple filter to *use Symfony translations in vue",
+  "topics": [
+    "vuejs2",
+    "symfony",
+    "translation",
+    "filter",
+    "javascript"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "Digelly",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/30735076?v=4"
+  },
+  "organization": {
+    "login": "Digelly",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/30735076?v=4"
+  },
+  "links": {
+    "site": null,
+    "repo": "https://github.com/Digelly/vue-trans"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

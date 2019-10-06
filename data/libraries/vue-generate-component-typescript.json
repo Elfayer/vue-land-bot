@@ -1,0 +1,18 @@
+{
+  "name": "vue-generate-component-typescript",
+  "full_name": "Kamar-Meddah/vue-generate-component-typescript",
+  "description": "Vue js component generator",
+  "topics": [],
+  "license": null,
+  "owner": {
+    "login": "Kamar-Meddah",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/23506176?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://www.npmjs.com/package/vue-generate-component-typescript",
+    "repo": "https://github.com/Kamar-Meddah/vue-generate-component-typescript"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

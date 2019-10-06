@@ -1,0 +1,27 @@
+{
+  "name": "vue-froala-wysiwyg",
+  "full_name": "froala/vue-froala-wysiwyg",
+  "description": "Vue component for Froala WYSIWYG HTML Rich Text Editor.",
+  "topics": [
+    "vue-froala-wyswiyg",
+    "froala-editor",
+    "wysiwyg-editor",
+    "wysiwyg-html-editor",
+    "rich-text-editor"
+  ],
+  "license": null,
+  "owner": {
+    "login": "froala",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/7966884?v=4"
+  },
+  "organization": {
+    "login": "froala",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/7966884?v=4"
+  },
+  "links": {
+    "site": "https://froala.com/wysiwyg-editor",
+    "repo": "https://github.com/froala/vue-froala-wysiwyg"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,26 @@
+{
+  "name": "vue-stash",
+  "full_name": "cklmercer/vue-stash",
+  "description": "Easily share reactive data between your Vue components.",
+  "topics": [
+    "vue",
+    "state-management",
+    "plugin"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "cklmercer",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/5618812?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/cklmercer/vue-stash"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

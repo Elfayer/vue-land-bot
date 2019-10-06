@@ -1,0 +1,35 @@
+{
+  "name": "eslint-plugin-vue",
+  "full_name": "vuejs/eslint-plugin-vue",
+  "description": "Official ESLint plugin for Vue.js",
+  "topics": [
+    "vue",
+    "eslint",
+    "eslint-plugin",
+    "npm",
+    "npm-package",
+    "npm-module",
+    "javascript",
+    "html",
+    "static-analysis"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "vuejs",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/6128107?v=4"
+  },
+  "organization": {
+    "login": "vuejs",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/6128107?v=4"
+  },
+  "links": {
+    "site": "https://eslint.vuejs.org/",
+    "repo": "https://github.com/vuejs/eslint-plugin-vue"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

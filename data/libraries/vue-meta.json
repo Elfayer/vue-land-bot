@@ -1,0 +1,30 @@
+{
+  "name": "vue-meta",
+  "full_name": "nuxt/vue-meta",
+  "description": "Manage HTML metadata in Vue.js components with SSR support",
+  "topics": [
+    "vue",
+    "metadata",
+    "meta",
+    "seo"
+  ],
+  "license": {
+    "key": "other",
+    "url": null,
+    "name": "Other"
+  },
+  "owner": {
+    "login": "nuxt",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/23360933?v=4"
+  },
+  "organization": {
+    "login": "nuxt",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/23360933?v=4"
+  },
+  "links": {
+    "site": "https://vue-meta.nuxtjs.org",
+    "repo": "https://github.com/nuxt/vue-meta"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,30 @@
+{
+  "name": "vue-scrollto",
+  "full_name": "rigor789/vue-scrollto",
+  "description": "Adds a directive that listens for click events and scrolls to elements.",
+  "topics": [
+    "vue",
+    "vuejs",
+    "directive",
+    "vue-plugin",
+    "easings",
+    "request-animation-frame",
+    "nuxt-module"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "rigor789",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/879060?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://vue-scrollto.netlify.com/",
+    "repo": "https://github.com/rigor789/vue-scrollto"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

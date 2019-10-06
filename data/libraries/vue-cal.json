@@ -1,0 +1,22 @@
+{
+  "name": "vue-cal",
+  "full_name": "antoniandre/vue-cal",
+  "description": "A Vue JS full calendar, no dependency, no BS. :metal: ",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "antoniandre",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/22971289?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://antoniandre.github.io/vue-cal",
+    "repo": "https://github.com/antoniandre/vue-cal"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

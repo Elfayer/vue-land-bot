@@ -1,0 +1,30 @@
+{
+  "name": "vue-facebook-account-kit",
+  "full_name": "biessek/vue-facebook-account-kit",
+  "description": "DEPRECATED - Vue wrapper to facebook account kit: https://www.accountkit.com/",
+  "topics": [
+    "javascript",
+    "vue2",
+    "facebook-account-kit",
+    "passwordless-login",
+    "archived",
+    "obsolete",
+    "deprecated"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "biessek",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/11032516?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/biessek/vue-facebook-account-kit"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,18 @@
+{
+  "name": "vue-table-pagination",
+  "full_name": "echoVic/vue-table-pagination",
+  "description": "一款用vue.js制作的带有导航菜单的表格，同时使用boostrap样式。",
+  "topics": [],
+  "license": null,
+  "owner": {
+    "login": "echoVic",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/16428813?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/echoVic/vue-table-pagination"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

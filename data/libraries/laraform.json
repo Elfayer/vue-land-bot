@@ -1,0 +1,31 @@
+{
+  "name": "laraform",
+  "full_name": "laraform/laraform",
+  "description": "Reactive Form Builder for Vue.js with Laravel Support",
+  "topics": [
+    "vue",
+    "vuejs",
+    "laravel",
+    "laravel-framework",
+    "form",
+    "form-builder",
+    "form-generator",
+    "laraform"
+  ],
+  "license": {
+    "key": "other",
+    "url": null,
+    "name": "Other"
+  },
+  "owner": {
+    "login": "laraform",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/45842259?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://laraform.io",
+    "repo": "https://github.com/laraform/laraform"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

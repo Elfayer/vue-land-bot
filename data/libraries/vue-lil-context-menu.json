@@ -1,0 +1,27 @@
+{
+  "name": "vue-lil-context-menu",
+  "full_name": "timwis/vue-lil-context-menu",
+  "description": "A flexible context menu component for Vue",
+  "topics": [
+    "vue",
+    "context-menu",
+    "menu",
+    "vuejs"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "timwis",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/761444?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/timwis/vue-lil-context-menu"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

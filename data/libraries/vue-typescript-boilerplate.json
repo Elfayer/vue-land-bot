@@ -1,0 +1,22 @@
+{
+  "name": "vue-typescript-boilerplate",
+  "full_name": "twcapps/vue-typescript-boilerplate",
+  "description": "VueJs boilerplate using Typescript, Vuex and Vue Router",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "twcapps",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/5710723?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/twcapps/vue-typescript-boilerplate"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

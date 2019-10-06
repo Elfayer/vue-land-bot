@@ -1,0 +1,18 @@
+{
+  "name": "vue-adminLte-vue-router",
+  "full_name": "liujians/vue-adminLte-vue-router",
+  "description": "SPA about vue-cli+adminLte+vue-router",
+  "topics": [],
+  "license": null,
+  "owner": {
+    "login": "liujians",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/22309837?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/liujians/vue-adminLte-vue-router"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

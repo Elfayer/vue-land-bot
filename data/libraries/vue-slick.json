@@ -1,0 +1,18 @@
+{
+  "name": "vue-slick",
+  "full_name": "staskjs/vue-slick",
+  "description": "Vue component for Slick-carousel (http://kenwheeler.github.io/slick)",
+  "topics": [],
+  "license": null,
+  "owner": {
+    "login": "staskjs",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/1155633?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/staskjs/vue-slick"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

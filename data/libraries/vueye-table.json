@@ -1,0 +1,23 @@
+{
+  "name": "vueye-table",
+  "full_name": "boussadjra/vueye-table",
+  "description": "A data table created using Vue.js",
+  "topics": [
+    "vuejs2",
+    "vue-components",
+    "datatables",
+    "vue-datatable"
+  ],
+  "license": null,
+  "owner": {
+    "login": "boussadjra",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/11801238?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/boussadjra/vueye-table"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

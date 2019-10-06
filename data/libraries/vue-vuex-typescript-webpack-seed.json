@@ -1,0 +1,30 @@
+{
+  "name": "vue-vuex-typescript-webpack-seed",
+  "full_name": "IsraelZablianov/vue-vuex-typescript-webpack-seed",
+  "description": "A seed project with vue, vuex, typescript & webpack with hot reloading and all the good stuf",
+  "topics": [
+    "vue",
+    "vuejs2",
+    "vuex",
+    "vuex-typescript",
+    "typescript",
+    "webpack",
+    "seed"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "IsraelZablianov",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/20207244?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/IsraelZablianov/vue-vuex-typescript-webpack-seed"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

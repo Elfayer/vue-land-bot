@@ -1,0 +1,18 @@
+{
+  "name": "vue-top-progress",
+  "full_name": "dalphyx/vue-top-progress",
+  "description": "Yet another top progress loading bar component for Vue.js.",
+  "topics": [],
+  "license": null,
+  "owner": {
+    "login": "dalphyx",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/1576121?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/dalphyx/vue-top-progress"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

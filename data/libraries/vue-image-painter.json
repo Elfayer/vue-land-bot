@@ -1,0 +1,28 @@
+{
+  "name": "vue-image-painter",
+  "full_name": "wannaxiao/vue-image-painter",
+  "description": "🙋‍♀️ Image magic animation drawing effect component for Vue 2.x | 图像动态绘制效果",
+  "topics": [
+    "vue",
+    "image",
+    "image-drawer",
+    "img-draw",
+    "image-painter"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "wannaxiao",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/13219417?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://wannaxiao.github.io/vue-image-painter/demo/dist/",
+    "repo": "https://github.com/wannaxiao/vue-image-painter"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,27 @@
+{
+  "name": "vue-particles",
+  "full_name": "creotip/vue-particles",
+  "description": "Vue.js component for particles backgrounds ✨",
+  "topics": [
+    "vuejs2",
+    "vuejs",
+    "vue-components",
+    "vue-particles",
+    "particles-backgrounds",
+    "vue-component",
+    "vue",
+    "vue2"
+  ],
+  "license": null,
+  "owner": {
+    "login": "creotip",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/3135968?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "http://vue-particles.netlify.com/",
+    "repo": "https://github.com/creotip/vue-particles"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

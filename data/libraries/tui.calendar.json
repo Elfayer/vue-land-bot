@@ -1,0 +1,38 @@
+{
+  "name": "tui.calendar",
+  "full_name": "nhn/tui.calendar",
+  "description": "🍞📅A JavaScript calendar that has everything you need.",
+  "topics": [
+    "calendar",
+    "fullcalendar",
+    "frontend",
+    "schedule",
+    "javascript",
+    "monthly",
+    "weekly",
+    "daily",
+    "task",
+    "milestone",
+    "jquery",
+    "jquery-plugin"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "nhn",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/7907400?v=4"
+  },
+  "organization": {
+    "login": "nhn",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/7907400?v=4"
+  },
+  "links": {
+    "site": "http://ui.toast.com/tui-calendar",
+    "repo": "https://github.com/nhn/tui.calendar"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

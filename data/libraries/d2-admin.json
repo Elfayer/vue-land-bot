@@ -1,0 +1,46 @@
+{
+  "name": "d2-admin",
+  "full_name": "d2-projects/d2-admin",
+  "description": ":rainbow: An elegant dashboard",
+  "topics": [
+    "vue",
+    "admin",
+    "element-ui",
+    "axios",
+    "vuex",
+    "vue-cli",
+    "vue-cli3",
+    "element",
+    "vue-admin",
+    "admin-template",
+    "mock",
+    "admin-dashboard",
+    "desktop",
+    "management-system",
+    "webpack",
+    "i18n",
+    "dashboar",
+    "xlsx",
+    "csv",
+    "fontawesome"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "d2-projects",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/40857578?v=4"
+  },
+  "organization": {
+    "login": "d2-projects",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/40857578?v=4"
+  },
+  "links": {
+    "site": "https://d2admin.fairyever.com",
+    "repo": "https://github.com/d2-projects/d2-admin"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

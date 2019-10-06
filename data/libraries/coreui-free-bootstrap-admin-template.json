@@ -1,0 +1,46 @@
+{
+  "name": "coreui-free-bootstrap-admin-template",
+  "full_name": "coreui/coreui-free-bootstrap-admin-template",
+  "description": "CoreUI is free bootstrap admin template",
+  "topics": [
+    "bootstrap",
+    "bootstrap4",
+    "admin",
+    "admin-ui",
+    "admin-theme",
+    "angular",
+    "angularjs",
+    "angular2",
+    "angular-2",
+    "angular-cli",
+    "react",
+    "reactjs",
+    "dashboard",
+    "scss",
+    "css",
+    "vue",
+    "vuejs",
+    "vuejs2",
+    "angular4",
+    "angular-4"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "coreui",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/36859861?v=4"
+  },
+  "organization": {
+    "login": "coreui",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/36859861?v=4"
+  },
+  "links": {
+    "site": "http://coreui.io",
+    "repo": "https://github.com/coreui/coreui-free-bootstrap-admin-template"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

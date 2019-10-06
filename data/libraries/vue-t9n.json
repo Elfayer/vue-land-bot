@@ -1,0 +1,22 @@
+{
+  "name": "vue-t9n",
+  "full_name": "Ni55aN/vue-t9n",
+  "description": "Plugin for translation your Vue.js applications without headache",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "Ni55aN",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/8259641?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/Ni55aN/vue-t9n"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

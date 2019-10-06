@@ -1,0 +1,22 @@
+{
+  "name": "vuejs_boilerplate",
+  "full_name": "arunredhu/vuejs_boilerplate",
+  "description": "Large scale Vue.js application boilerplate",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "arunredhu",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/20160469?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/arunredhu/vuejs_boilerplate"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,27 @@
+{
+  "name": "vuejs-paginate",
+  "full_name": "lokyoung/vuejs-paginate",
+  "description": "A Vue.js(v2.x+) component for creating pagination.",
+  "topics": [
+    "pagination",
+    "vue-components",
+    "vue",
+    "vue2"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "lokyoung",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/14074079?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/lokyoung/vuejs-paginate"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,26 @@
+{
+  "name": "vue-niege",
+  "full_name": "P3trur0/vue-niege",
+  "description": "Vue component to add a snowfall on your page",
+  "topics": [
+    "component",
+    "snow",
+    "canvas",
+    "single-file",
+    "vuejs",
+    "vuejs-components",
+    "snowfall"
+  ],
+  "license": null,
+  "owner": {
+    "login": "P3trur0",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/11474157?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/P3trur0/vue-niege"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

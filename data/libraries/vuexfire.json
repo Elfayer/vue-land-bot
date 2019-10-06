@@ -1,0 +1,27 @@
+{
+  "name": "vuexfire",
+  "full_name": "posva/vuexfire",
+  "description": "Check",
+  "topics": [
+    "vuex",
+    "firebase",
+    "vue",
+    "vuefire"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "posva",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/664177?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://github.com/vuejs/vuefire",
+    "repo": "https://github.com/posva/vuexfire"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,25 @@
+{
+  "name": "awesome-mask",
+  "full_name": "wirecardBrasil/awesome-mask",
+  "description": "The awesome-mask runs with Vue.js and uses the vanilla-masker to make your form awesome with masks.",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "wirecardBrasil",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/5281980?v=4"
+  },
+  "organization": {
+    "login": "wirecardBrasil",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/5281980?v=4"
+  },
+  "links": {
+    "site": null,
+    "repo": "https://github.com/wirecardBrasil/awesome-mask"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

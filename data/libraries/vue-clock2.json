@@ -1,0 +1,27 @@
+{
+  "name": "vue-clock2",
+  "full_name": "bestvist/vue-clock2",
+  "description": "vue clock component",
+  "topics": [
+    "vue",
+    "component",
+    "clock",
+    "time"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "bestvist",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/22828569?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://bestvist.github.io/vue-clock2/docs/",
+    "repo": "https://github.com/bestvist/vue-clock2"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

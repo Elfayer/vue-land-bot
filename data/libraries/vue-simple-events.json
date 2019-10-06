@@ -1,0 +1,29 @@
+{
+  "name": "vue-simple-events",
+  "full_name": "VeryWow/vue-simple-events",
+  "description": "Yet another event management plugin, but WITHOUT Vue instance",
+  "topics": [
+    "vue",
+    "vuejs2",
+    "events",
+    "management-system",
+    "simple",
+    "typescript",
+    "event-management"
+  ],
+  "license": null,
+  "owner": {
+    "login": "VeryWow",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/26734308?v=4"
+  },
+  "organization": {
+    "login": "VeryWow",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/26734308?v=4"
+  },
+  "links": {
+    "site": "https://www.npmjs.com/package/vue-simple-events",
+    "repo": "https://github.com/VeryWow/vue-simple-events"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

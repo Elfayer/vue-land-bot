@@ -1,0 +1,22 @@
+{
+  "name": "vue-webpack-buefy",
+  "full_name": "ndro/vue-webpack-buefy",
+  "description": "Vue.js starter with full-featured Webpack and Buefy",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "ndro",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/7077106?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://ndro.github.io/vue-webpack-buefy/",
+    "repo": "https://github.com/ndro/vue-webpack-buefy"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

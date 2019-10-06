@@ -1,0 +1,22 @@
+{
+  "name": "vue-drag-verify",
+  "full_name": "AshleyLv/vue-drag-verify",
+  "description": "This is a vue component, which is sliding to unlock some functionalities, such as login or sign up. This is used to protect your web app from attack.",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "AshleyLv",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/20264075?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/AshleyLv/vue-drag-verify"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

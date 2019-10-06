@@ -1,0 +1,23 @@
+{
+  "name": "vue-progress-button",
+  "full_name": "websmurf/vue-progress-button",
+  "description": "Animated button for VueJS",
+  "topics": [
+    "vuejs",
+    "button",
+    "animation",
+    "progress"
+  ],
+  "license": null,
+  "owner": {
+    "login": "websmurf",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/4027236?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/websmurf/vue-progress-button"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

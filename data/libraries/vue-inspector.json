@@ -1,0 +1,29 @@
+{
+  "name": "vue-inspector",
+  "full_name": "calirojas506/vue-inspector",
+  "description": "Vue.js Inspector for Mobile Devices",
+  "topics": [
+    "vuejs-components",
+    "vuejs",
+    "vue-router",
+    "awesome-vue",
+    "vuex",
+    "vue-inspector"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "calirojas506",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/33777773?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/calirojas506/vue-inspector"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

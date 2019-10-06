@@ -1,0 +1,42 @@
+{
+  "name": "vue-quill-editor",
+  "full_name": "surmon-china/vue-quill-editor",
+  "description": "🍡@quilljs editor component for @vuejs",
+  "topics": [
+    "vue",
+    "vue-quill-editor",
+    "quill",
+    "editor",
+    "vue-components",
+    "vuejs",
+    "vuejs2",
+    "vue-component",
+    "vue2",
+    "editor-plugin",
+    "quilljs",
+    "quill-editor",
+    "vue-resource",
+    "vue-plugin",
+    "web-editor",
+    "text-editor",
+    "vue-directive",
+    "quil",
+    "quill-vue"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "surmon-china",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/14019524?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://surmon-china.github.io/vue-quill-editor/",
+    "repo": "https://github.com/surmon-china/vue-quill-editor"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,35 @@
+{
+  "name": "vue-notification-bell",
+  "full_name": "mrastiak/vue-notification-bell",
+  "description": "Vue.js notification bell component.",
+  "topics": [
+    "vue",
+    "vuejs",
+    "vuejs2",
+    "vue-components",
+    "vue-component",
+    "vue2",
+    "vue-notification-bell",
+    "notifications",
+    "notification",
+    "vuejs-components",
+    "vue-notifications",
+    "vue-notification"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "mrastiak",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/26276312?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://mrastiak.github.io/vue-notification-bell/",
+    "repo": "https://github.com/mrastiak/vue-notification-bell"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

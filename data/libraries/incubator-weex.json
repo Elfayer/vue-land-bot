@@ -1,0 +1,27 @@
+{
+  "name": "incubator-weex",
+  "full_name": "apache/incubator-weex",
+  "description": "Apache Weex (Incubating)",
+  "topics": [
+    "weex"
+  ],
+  "license": {
+    "key": "apache-2.0",
+    "url": "https://api.github.com/licenses/apache-2.0",
+    "name": "Apache License 2.0"
+  },
+  "owner": {
+    "login": "apache",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/47359?v=4"
+  },
+  "organization": {
+    "login": "apache",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/47359?v=4"
+  },
+  "links": {
+    "site": "https://weex.apache.org",
+    "repo": "https://github.com/apache/incubator-weex"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

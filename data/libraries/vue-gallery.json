@@ -1,0 +1,35 @@
+{
+  "name": "vue-gallery",
+  "full_name": "RobinCK/vue-gallery",
+  "description": ":camera: Responsive and customizable image and video gallery, carousel and lightbox, optimized for both mobile and desktop web browsers.",
+  "topics": [
+    "vuejs",
+    "vue",
+    "vue-component",
+    "gallery",
+    "images",
+    "pictures",
+    "carousel",
+    "slider",
+    "touch",
+    "mobile",
+    "nuxtjs",
+    "nuxt"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "RobinCK",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/10226014?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://robinck.github.io/vue-gallery/",
+    "repo": "https://github.com/RobinCK/vue-gallery"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

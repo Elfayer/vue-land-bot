@@ -1,0 +1,40 @@
+{
+  "name": "bootstrap-vue",
+  "full_name": "bootstrap-vue/bootstrap-vue",
+  "description": "BootstrapVue, with over 40 plugins and more than 80 custom components, provides one of the most comprehensive implementations of Bootstrap v4 components and grid system for Vue.js. With extensive and automated WAI-ARIA accessibility markup.",
+  "topics": [
+    "bootstrap",
+    "vue",
+    "bootstrap4",
+    "webpack",
+    "nuxt",
+    "nuxtjs",
+    "wai-aria",
+    "bootstrapvue",
+    "components",
+    "vuejs2",
+    "vuejs-components",
+    "vuejs-plugin",
+    "grid",
+    "bootstrap-vue"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "bootstrap-vue",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/22965283?v=4"
+  },
+  "organization": {
+    "login": "bootstrap-vue",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/22965283?v=4"
+  },
+  "links": {
+    "site": "https://bootstrap-vue.js.org",
+    "repo": "https://github.com/bootstrap-vue/bootstrap-vue"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

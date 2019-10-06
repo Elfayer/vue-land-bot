@@ -1,0 +1,25 @@
+{
+  "name": "vue-context",
+  "full_name": "rawilk/vue-context",
+  "description": "A simple vue context menu component.",
+  "topics": [
+    "vue",
+    "vue-context"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "rawilk",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/22842525?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/rawilk/vue-context"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

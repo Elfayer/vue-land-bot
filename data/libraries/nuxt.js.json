@@ -1,0 +1,37 @@
+{
+  "name": "nuxt.js",
+  "icon": "nuxt.png",
+  "full_name": "nuxt/nuxt.js",
+  "description": "The Vue.js Framework",
+  "topics": [
+    "framework",
+    "isomorphic",
+    "universal",
+    "vue",
+    "ssr",
+    "nuxt",
+    "web-app",
+    "vuex",
+    "vue-router",
+    "server-rendering"
+  ],
+  "license": {
+    "key": "other",
+    "url": null,
+    "name": "Other"
+  },
+  "owner": {
+    "login": "nuxt",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/23360933?v=4"
+  },
+  "organization": {
+    "login": "nuxt",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/23360933?v=4"
+  },
+  "links": {
+    "site": "https://nuxtjs.org",
+    "repo": "https://github.com/nuxt/nuxt.js"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

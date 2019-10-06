@@ -1,0 +1,28 @@
+{
+  "name": "vue-navigation",
+  "full_name": "zack24q/vue-navigation",
+  "description": "A page navigation library, record routes and cache pages, like native app navigation. 一个页面导航库，记录路由并缓存页面，像原生APP导航一样。",
+  "topics": [
+    "page",
+    "navigation",
+    "cache",
+    "vue",
+    "vue-router"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "zack24q",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/9154859?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/zack24q/vue-navigation"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,27 @@
+{
+  "name": "flamme",
+  "full_name": "alicin/flamme",
+  "description": "An open source tinder desktop client built with electron and Vue.js for educational purposes",
+  "topics": [
+    "vue",
+    "electron",
+    "tinder",
+    "tinder-desktop"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "alicin",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/1202034?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/alicin/flamme"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

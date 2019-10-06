@@ -1,0 +1,37 @@
+{
+  "name": "vue2-datatable",
+  "full_name": "OneWayTech/vue2-datatable",
+  "description": "The best Datatable for Vue.js 2.x which never sucks. Give us a star 🌟 if you like it! (DEPRECATED. As I, @kenberkeley, the only maintainer, no longer works for OneWay. Bugs may be fixed but new features or breaking changes might not be merged. However, it's still the best in my mind because of its extremely flexible usage of dynamic components) ",
+  "topics": [
+    "vue",
+    "vue2",
+    "vuejs",
+    "vuejs2",
+    "datatable",
+    "table",
+    "columns",
+    "rows",
+    "grid",
+    "fixed",
+    "sticky"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "OneWayTech",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/26107553?v=4"
+  },
+  "organization": {
+    "login": "OneWayTech",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/26107553?v=4"
+  },
+  "links": {
+    "site": null,
+    "repo": "https://github.com/OneWayTech/vue2-datatable"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

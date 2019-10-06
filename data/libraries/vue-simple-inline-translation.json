@@ -1,0 +1,28 @@
+{
+  "name": "vue-simple-inline-translation",
+  "full_name": "alidrus/vue-simple-inline-translation",
+  "description": "A Vue component that simplifies the way text is translated: by translating it inline.",
+  "topics": [
+    "javascript",
+    "vuejs",
+    "i18n",
+    "translations",
+    "vue-component"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "alidrus",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/873041?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/alidrus/vue-simple-inline-translation"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,27 @@
+{
+  "name": "timeline-vuejs",
+  "full_name": "pablosirera/timeline-vuejs",
+  "description": "Minimalist Timeline with VueJS",
+  "topics": [
+    "vue",
+    "timeline",
+    "frontend",
+    "npm"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "pablosirera",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/25353031?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/pablosirera/timeline-vuejs"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

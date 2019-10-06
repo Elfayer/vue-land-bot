@@ -1,0 +1,22 @@
+{
+  "name": "vue-auth-href",
+  "full_name": "nachodd/vue-auth-href",
+  "description": "A VueJS directive for downloading files that are under a protected route schema",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "nachodd",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/4997040?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/nachodd/vue-auth-href"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

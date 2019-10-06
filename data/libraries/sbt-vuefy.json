@@ -1,0 +1,32 @@
+{
+  "name": "sbt-vuefy",
+  "full_name": "GIVESocialMovement/sbt-vuefy",
+  "description": "Use Vue.js with Playframework",
+  "topics": [
+    "playframework",
+    "vue",
+    "vuejs",
+    "scala",
+    "typescript",
+    "javascript"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "GIVESocialMovement",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/1713754?v=4"
+  },
+  "organization": {
+    "login": "GIVESocialMovement",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/1713754?v=4"
+  },
+  "links": {
+    "site": null,
+    "repo": "https://github.com/GIVESocialMovement/sbt-vuefy"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

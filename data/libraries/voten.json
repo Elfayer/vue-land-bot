@@ -1,0 +1,38 @@
+{
+  "name": "voten",
+  "full_name": "voten-co/voten",
+  "description": "The code that powers voten.co",
+  "topics": [
+    "social-network",
+    "social",
+    "bookmarking",
+    "vuejs",
+    "laravel",
+    "social-bookmarking",
+    "reddit",
+    "reddit-alternative",
+    "forum",
+    "community",
+    "php",
+    "websocket"
+  ],
+  "license": {
+    "key": "apache-2.0",
+    "url": "https://api.github.com/licenses/apache-2.0",
+    "name": "Apache License 2.0"
+  },
+  "owner": {
+    "login": "voten-co",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/28759401?v=4"
+  },
+  "organization": {
+    "login": "voten-co",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/28759401?v=4"
+  },
+  "links": {
+    "site": "https://voten.co",
+    "repo": "https://github.com/voten-co/voten"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

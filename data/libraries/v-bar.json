@@ -1,0 +1,38 @@
+{
+  "name": "v-bar",
+  "full_name": "luiguild/v-bar",
+  "description": "The virtual responsive crossbrowser scrollbar component for VueJS 2x",
+  "topics": [
+    "vuejs-2x",
+    "vue",
+    "vuejs",
+    "component",
+    "sass",
+    "pug",
+    "vbar",
+    "javascript",
+    "scrolling",
+    "scroll",
+    "scrollbar",
+    "scroller",
+    "vuejs2",
+    "vue2",
+    "vue-components"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "luiguild",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/16566338?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/luiguild/v-bar"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

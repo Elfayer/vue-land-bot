@@ -1,0 +1,32 @@
+{
+  "name": "vue-beautiful-chat",
+  "full_name": "mattmezza/vue-beautiful-chat",
+  "description": "A simple and beautiful Vue chat component backend agnostic, fully customisable and extendable.",
+  "topics": [
+    "vue",
+    "chat",
+    "vuejs",
+    "frontend",
+    "message",
+    "support",
+    "colors",
+    "marketing",
+    "customer-support"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "mattmezza",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/1915989?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://mattmezza.github.io/vue-beautiful-chat/",
+    "repo": "https://github.com/mattmezza/vue-beautiful-chat"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

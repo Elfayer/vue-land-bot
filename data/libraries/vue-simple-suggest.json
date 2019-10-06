@@ -1,0 +1,46 @@
+{
+  "name": "vue-simple-suggest",
+  "full_name": "KazanExpress/vue-simple-suggest",
+  "description": "Feature-rich autocomplete component for Vue.js",
+  "topics": [
+    "vue",
+    "vuejs",
+    "suggestions",
+    "autocomplete-component",
+    "search",
+    "suggest",
+    "autocomplete",
+    "autocomplete-suggestions",
+    "vue-components",
+    "customizable",
+    "slot",
+    "accessibility",
+    "aria",
+    "aria-attributes",
+    "wai-aria",
+    "zero-configuration",
+    "zero-config",
+    "versatile",
+    "autosuggest",
+    "autosuggestion"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "KazanExpress",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/36857287?v=4"
+  },
+  "organization": {
+    "login": "KazanExpress",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/36857287?v=4"
+  },
+  "links": {
+    "site": "https://kazanexpress.github.io/vue-simple-suggest/",
+    "repo": "https://github.com/KazanExpress/vue-simple-suggest"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

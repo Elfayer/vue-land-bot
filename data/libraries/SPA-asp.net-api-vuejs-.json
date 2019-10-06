@@ -1,0 +1,24 @@
+{
+  "name": "SPA-asp.net-api-vuejs-",
+  "full_name": "mubaidr/SPA-asp.net-api-vuejs-",
+  "description": "A Vue.js single page application for basic Management By Objective tasks using ASP .NET Webapi 2 and SQL server",
+  "topics": [
+    "vuejs",
+    "sql-server",
+    "api",
+    "asp",
+    "website"
+  ],
+  "license": null,
+  "owner": {
+    "login": "mubaidr",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/2222702?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/mubaidr/SPA-asp.net-api-vuejs-"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

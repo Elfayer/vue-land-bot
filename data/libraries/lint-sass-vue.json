@@ -1,0 +1,23 @@
+{
+  "name": "lint-sass-vue",
+  "full_name": "fsblemos/lint-sass-vue",
+  "description": "Atom linter for Vue.js",
+  "topics": [
+    "vue",
+    "linter",
+    "sass-lint",
+    "sass"
+  ],
+  "license": null,
+  "owner": {
+    "login": "fsblemos",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/14933454?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://atom.io/packages/lint-sass-vue",
+    "repo": "https://github.com/fsblemos/lint-sass-vue"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

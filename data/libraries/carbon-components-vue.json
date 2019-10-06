@@ -1,0 +1,25 @@
+{
+  "name": "carbon-components-vue",
+  "full_name": "carbon-design-system/carbon-components-vue",
+  "description": "Vue implementation of the Carbon Design System",
+  "topics": [],
+  "license": {
+    "key": "apache-2.0",
+    "url": "https://api.github.com/licenses/apache-2.0",
+    "name": "Apache License 2.0"
+  },
+  "owner": {
+    "login": "carbon-design-system",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/25179978?v=4"
+  },
+  "organization": {
+    "login": "carbon-design-system",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/25179978?v=4"
+  },
+  "links": {
+    "site": "http://vue.carbondesignsystem.com",
+    "repo": "https://github.com/carbon-design-system/carbon-components-vue"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

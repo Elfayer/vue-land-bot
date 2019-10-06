@@ -1,0 +1,33 @@
+{
+  "name": "GenVue",
+  "full_name": "herbat73/GenVue",
+  "description": "GenVue is a hostable, web application that lets confidential users upload and share private files. Tech stack: Net Core 2.0 + Vue.js + Vuex + OpenIddict + Vuetifyjs + EF +  SQLServer/Postgress",
+  "topics": [
+    "vue",
+    "vuejs2",
+    "netcore2",
+    "netcore",
+    "webapi",
+    "openiddict",
+    "babel",
+    "vuetifyjs",
+    "sqlserver",
+    "postgressql"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "herbat73",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/21688799?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/herbat73/GenVue"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

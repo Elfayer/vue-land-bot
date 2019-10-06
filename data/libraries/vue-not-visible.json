@@ -1,0 +1,27 @@
+{
+  "name": "vue-not-visible",
+  "full_name": "PxyUp/vue-not-visible",
+  "description": "Vue directive for conditional rendering element on screen smaller than breakpoints",
+  "topics": [
+    "vue",
+    "vuejs",
+    "directives",
+    "vue-directive"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "PxyUp",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/14249932?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://pxyup.github.io/vue-not-visible/index.html",
+    "repo": "https://github.com/PxyUp/vue-not-visible"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

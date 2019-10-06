@@ -1,0 +1,31 @@
+{
+  "name": "vuelidate",
+  "full_name": "vuelidate/vuelidate",
+  "description": "Simple, lightweight model-based validation for Vue.js",
+  "topics": [
+    "vue",
+    "javascript",
+    "validation",
+    "vuelidate",
+    "vuejs"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "vuelidate",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/48122861?v=4"
+  },
+  "organization": {
+    "login": "vuelidate",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/48122861?v=4"
+  },
+  "links": {
+    "site": "https://vuelidate.netlify.com",
+    "repo": "https://github.com/vuelidate/vuelidate"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

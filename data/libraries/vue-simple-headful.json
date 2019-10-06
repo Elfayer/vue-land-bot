@@ -1,0 +1,25 @@
+{
+  "name": "vue-simple-headful",
+  "full_name": "VeryWow/vue-simple-headful",
+  "description": "Easily set meta-tags with vue.js - a `vue-headful` alternative",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "VeryWow",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/26734308?v=4"
+  },
+  "organization": {
+    "login": "VeryWow",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/26734308?v=4"
+  },
+  "links": {
+    "site": "https://verywow.github.io/vue-simple-headful/",
+    "repo": "https://github.com/VeryWow/vue-simple-headful"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

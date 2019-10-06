@@ -1,0 +1,33 @@
+{
+  "name": "v-offline",
+  "full_name": "vinayakkulkarni/v-offline",
+  "description": ":electric_plug: Simple VueJS component to detect offline & online changes.",
+  "topics": [
+    "vue",
+    "vue2",
+    "vuejs",
+    "offline",
+    "online",
+    "detection-network",
+    "vue-components",
+    "network",
+    "vue2-component",
+    "awesome-vue"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "vinayakkulkarni",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/19776877?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://am-i-online.site/",
+    "repo": "https://github.com/vinayakkulkarni/v-offline"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

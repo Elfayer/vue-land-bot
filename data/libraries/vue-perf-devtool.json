@@ -1,0 +1,29 @@
+{
+  "name": "vue-perf-devtool",
+  "full_name": "vue-perf-devtool/vue-perf-devtool",
+  "description": "Vue Performance Devtool is a browser extension for inspecting the performance of Vue Components.",
+  "topics": [
+    "vue",
+    "devtools",
+    "vue-devtools",
+    "performance",
+    "devtool",
+    "extension",
+    "chrome-extension"
+  ],
+  "license": null,
+  "owner": {
+    "login": "vue-perf-devtool",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/36115807?v=4"
+  },
+  "organization": {
+    "login": "vue-perf-devtool",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/36115807?v=4"
+  },
+  "links": {
+    "site": null,
+    "repo": "https://github.com/vue-perf-devtool/vue-perf-devtool"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,18 @@
+{
+  "name": "vue-native-websocket",
+  "full_name": "nathantsoi/vue-native-websocket",
+  "description": "native websocket with vuex integration",
+  "topics": [],
+  "license": null,
+  "owner": {
+    "login": "nathantsoi",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/399770?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/nathantsoi/vue-native-websocket"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

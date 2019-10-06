@@ -1,0 +1,25 @@
+{
+  "name": "vue-paypal-checkout",
+  "full_name": "khoanguyen96/vue-paypal-checkout",
+  "description": "A simple Vue.js wrapper component for paypal-checkout",
+  "topics": [
+    "vue",
+    "paypal"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "khoanguyen96",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/7454142?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/khoanguyen96/vue-paypal-checkout"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

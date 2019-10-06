@@ -1,0 +1,31 @@
+{
+  "name": "vue-uix",
+  "full_name": "juijs/vue-uix",
+  "description": "Vue components based on the JUI components available in Vue.js",
+  "topics": [
+    "vuejs",
+    "ui",
+    "vue-components",
+    "color-picker",
+    "accordion",
+    "picker",
+    "calendar",
+    "combobox",
+    "notifications"
+  ],
+  "license": null,
+  "owner": {
+    "login": "juijs",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/10917072?v=4"
+  },
+  "organization": {
+    "login": "juijs",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/10917072?v=4"
+  },
+  "links": {
+    "site": "https://codepen.io/collection/AWjJbN/",
+    "repo": "https://github.com/juijs/vue-uix"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

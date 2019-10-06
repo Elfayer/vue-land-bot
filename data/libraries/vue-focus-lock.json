@@ -1,0 +1,22 @@
+{
+  "name": "vue-focus-lock",
+  "full_name": "theKashey/vue-focus-lock",
+  "description": "It is a trap! A lock for a Focus. A11y util for scoping a focus.",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "theKashey",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/582410?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/theKashey/vue-focus-lock"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

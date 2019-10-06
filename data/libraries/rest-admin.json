@@ -1,0 +1,30 @@
+{
+  "name": "rest-admin",
+  "full_name": "wxs77577/rest-admin",
+  "description": "Restful Admin Dashboard Based on Vue and Boostrap 4",
+  "topics": [
+    "restful",
+    "admin",
+    "dashboard",
+    "crud",
+    "adonisjs",
+    "bootstrap",
+    "vue"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "wxs77577",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/1990059?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "http://rest-admin.genyii.com",
+    "repo": "https://github.com/wxs77577/rest-admin"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

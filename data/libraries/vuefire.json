@@ -1,0 +1,25 @@
+{
+  "name": "vuefire",
+  "full_name": "nigeltiany/vuefire",
+  "description": null,
+  "topics": [
+    "vuejs",
+    "vuex",
+    "firebase",
+    "firebase-database",
+    "firebase-storage",
+    "vuefire"
+  ],
+  "license": null,
+  "owner": {
+    "login": "nigeltiany",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/8957192?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/nigeltiany/vuefire"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

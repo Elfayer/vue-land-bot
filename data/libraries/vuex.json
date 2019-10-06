@@ -1,0 +1,31 @@
+{
+  "name": "vuex",
+  "full_name": "vuejs/vuex",
+  "description": "🗃️ Centralized State Management for Vue.js.",
+  "topics": [
+    "vue",
+    "javascript",
+    "vuex",
+    "state-management",
+    "time-travel"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "vuejs",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/6128107?v=4"
+  },
+  "organization": {
+    "login": "vuejs",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/6128107?v=4"
+  },
+  "links": {
+    "site": "https://vuex.vuejs.org",
+    "repo": "https://github.com/vuejs/vuex"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

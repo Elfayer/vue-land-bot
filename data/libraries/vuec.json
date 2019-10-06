@@ -1,0 +1,22 @@
+{
+  "name": "vuec",
+  "full_name": "dealloc/vuec",
+  "description": "A simple IoC container for VueJS 2",
+  "topics": [
+    "vue",
+    "plugin",
+    "dependency-injection"
+  ],
+  "license": null,
+  "owner": {
+    "login": "dealloc",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/2164354?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/dealloc/vuec"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,28 @@
+{
+  "name": "YouGet",
+  "full_name": "zeybek/YouGet",
+  "description": "YouGet - YouTube Video/Playlist Downloader/Cutter - MP3 Converter",
+  "topics": [
+    "youtube",
+    "downloader",
+    "mp3",
+    "subtitle",
+    "download",
+    "cut",
+    "cutter",
+    "electron",
+    "vue"
+  ],
+  "license": null,
+  "owner": {
+    "login": "zeybek",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/30319707?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/zeybek/YouGet"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

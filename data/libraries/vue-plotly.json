@@ -1,0 +1,22 @@
+{
+  "name": "vue-plotly",
+  "full_name": "David-Desmaisons/vue-plotly",
+  "description": "📈 vue wrapper for plotly.js",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "David-Desmaisons",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/524617?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://david-desmaisons.github.io/vue-plotly/",
+    "repo": "https://github.com/David-Desmaisons/vue-plotly"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

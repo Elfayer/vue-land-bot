@@ -1,0 +1,21 @@
+{
+  "name": "vue-ya-metrica",
+  "full_name": "shershen08/vue-ya-metrica",
+  "description": "Yandex.Metrica component for Vue.js",
+  "topics": [
+    "vuejs2",
+    "yandex-metrika"
+  ],
+  "license": null,
+  "owner": {
+    "login": "shershen08",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/1363772?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/shershen08/vue-ya-metrica"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

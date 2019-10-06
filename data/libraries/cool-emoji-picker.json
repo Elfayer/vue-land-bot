@@ -1,0 +1,29 @@
+{
+  "name": "cool-emoji-picker",
+  "full_name": "kevinfaguiar/cool-emoji-picker",
+  "description": "Cool Emoji Picker - A fast plug-n-play [Tw]emoji Picker (+textarea for Twemoji rendering) for Vue.",
+  "topics": [
+    "emoji",
+    "emoji-picker",
+    "emoji-unicode",
+    "twemoji",
+    "vue",
+    "textarea-component"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "kevinfaguiar",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/18222497?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://kevinfaguiar.github.io/cool-emoji-picker/#home",
+    "repo": "https://github.com/kevinfaguiar/cool-emoji-picker"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

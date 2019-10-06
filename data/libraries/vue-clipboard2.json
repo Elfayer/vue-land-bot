@@ -1,0 +1,29 @@
+{
+  "name": "vue-clipboard2",
+  "full_name": "Inndy/vue-clipboard2",
+  "description": "A simple vue2 binding to clipboard.js",
+  "topics": [
+    "vue",
+    "vuejs",
+    "vue2",
+    "vuejs2",
+    "clipboard",
+    "copy"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "Inndy",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/3402337?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://vue-clipboard2.inndy.tw/",
+    "repo": "https://github.com/Inndy/vue-clipboard2"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

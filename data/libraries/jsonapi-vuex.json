@@ -1,0 +1,29 @@
+{
+  "name": "jsonapi-vuex",
+  "full_name": "mrichar1/jsonapi-vuex",
+  "description": "Use a JSONAPI api with a Vuex store, with data restructuring/normalization.",
+  "topics": [
+    "jsonapi",
+    "vue",
+    "vuejs2",
+    "vuex",
+    "normalize",
+    "rest"
+  ],
+  "license": {
+    "key": "agpl-3.0",
+    "url": "https://api.github.com/licenses/agpl-3.0",
+    "name": "GNU Affero General Public License v3.0"
+  },
+  "owner": {
+    "login": "mrichar1",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/478653?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/mrichar1/jsonapi-vuex"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,22 @@
+{
+  "name": "vue-lifecycle",
+  "full_name": "FL3NKEY/vue-lifecycle",
+  "description": "☀️ A Vue.js lifecycle directives.",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "FL3NKEY",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/23209987?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/FL3NKEY/vue-lifecycle"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,28 @@
+{
+  "name": "vue-grid-styled",
+  "full_name": "mattrothenberg/vue-grid-styled",
+  "description": "Lightweight set of functional grid components",
+  "topics": [
+    "vue",
+    "vuejs",
+    "grid",
+    "css",
+    "functional"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "mattrothenberg",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/5148596?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://vue-grid-styled.netlify.com/",
+    "repo": "https://github.com/mattrothenberg/vue-grid-styled"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

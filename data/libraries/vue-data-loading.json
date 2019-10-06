@@ -1,0 +1,23 @@
+{
+  "name": "vue-data-loading",
+  "full_name": "bedlate/vue-data-loading",
+  "description": "Another component for infinite scroll and pull down/up to load data.",
+  "topics": [
+    "vue",
+    "infinite-scroll",
+    "pull-to-refresh",
+    "vue-components"
+  ],
+  "license": null,
+  "owner": {
+    "login": "bedlate",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/11674510?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "http://hacknews.xyz/",
+    "repo": "https://github.com/bedlate/vue-data-loading"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

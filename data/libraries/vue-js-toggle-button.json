@@ -1,0 +1,32 @@
+{
+  "name": "vue-js-toggle-button",
+  "full_name": "euvl/vue-js-toggle-button",
+  "description": ":fish_cake: Vue.js 2 toggle / switch button - simple, pretty, customizable",
+  "topics": [
+    "javascript",
+    "vuejs",
+    "vue",
+    "vue-component",
+    "toggle-buttons",
+    "toggle-switches",
+    "button",
+    "switch",
+    "vue-plugin"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "euvl",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/1577802?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "http://vue-js-toggle-button.yev.io/",
+    "repo": "https://github.com/euvl/vue-js-toggle-button"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

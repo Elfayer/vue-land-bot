@@ -1,0 +1,29 @@
+{
+  "name": "vue-numeric-input",
+  "full_name": "JayeshLab/vue-numeric-input",
+  "description": "Number input component with controls",
+  "topics": [
+    "vue",
+    "vuejs",
+    "vue-component",
+    "vue-numeric-input",
+    "numeric",
+    "input"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "JayeshLab",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/36194663?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://jayeshlab.github.io/vue-numeric-input/index.html",
+    "repo": "https://github.com/JayeshLab/vue-numeric-input"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

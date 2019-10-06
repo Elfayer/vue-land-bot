@@ -1,0 +1,27 @@
+{
+  "name": "vue-notice",
+  "full_name": "nikitamarcius/vue-notice",
+  "description": "Vue.js non-blocking notifications, based on noty.js",
+  "topics": [
+    "vuejs",
+    "vue-notifications",
+    "vue-notice",
+    "notyjs",
+    "vuejs2",
+    "noty",
+    "vue",
+    "blocking-notifications"
+  ],
+  "license": null,
+  "owner": {
+    "login": "nikitamarcius",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/10992863?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "http://ned.im/noty/",
+    "repo": "https://github.com/nikitamarcius/vue-notice"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

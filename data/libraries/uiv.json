@@ -1,0 +1,34 @@
+{
+  "name": "uiv",
+  "full_name": "wxsms/uiv",
+  "description": "Bootstrap 3 components implemented by Vue 2.",
+  "topics": [
+    "vue",
+    "bootstrap",
+    "vuejs",
+    "vuejs2",
+    "vue2",
+    "bootstrap3",
+    "ui",
+    "ui-components",
+    "web",
+    "component-library",
+    "vue-bootstrap"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "wxsms",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/5960988?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://uiv.wxsm.space",
+    "repo": "https://github.com/wxsms/uiv"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

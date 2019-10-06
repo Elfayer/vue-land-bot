@@ -1,0 +1,27 @@
+{
+  "name": "vue-jd-table",
+  "full_name": "jamesdruhan/vue-jd-table",
+  "description": "An advanced and flexible Vue.js 2.x component for displaying data tables.",
+  "topics": [
+    "javascript",
+    "vue",
+    "vuejs2",
+    "vue-components",
+    "vuejs",
+    "table",
+    "datatables",
+    "datatable"
+  ],
+  "license": null,
+  "owner": {
+    "login": "jamesdruhan",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/16739712?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://jamesdruhan.github.io/vue-jd-table/",
+    "repo": "https://github.com/jamesdruhan/vue-jd-table"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

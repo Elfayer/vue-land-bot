@@ -1,0 +1,26 @@
+{
+  "name": "vue-switches",
+  "full_name": "drewjbartlett/vue-switches",
+  "description": "An on/off switch component for Vue.js with theme support.",
+  "topics": [
+    "vue",
+    "bulma",
+    "theme-support",
+    "bootstrap",
+    "switch-control",
+    "demo",
+    "vue-components"
+  ],
+  "license": null,
+  "owner": {
+    "login": "drewjbartlett",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/2146829?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "http://drewjbartlett.com/demos/vue-switches/",
+    "repo": "https://github.com/drewjbartlett/vue-switches"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

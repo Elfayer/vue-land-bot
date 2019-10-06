@@ -1,0 +1,27 @@
+{
+  "name": "viewerjs",
+  "full_name": "fengyuanchen/viewerjs",
+  "description": "JavaScript image viewer.",
+  "topics": [
+    "javascript",
+    "viewer",
+    "image",
+    "image-viewer"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "fengyuanchen",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/3456749?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://fengyuanchen.github.io/viewerjs/",
+    "repo": "https://github.com/fengyuanchen/viewerjs"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

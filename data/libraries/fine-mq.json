@@ -1,0 +1,31 @@
+{
+  "name": "fine-mq",
+  "full_name": "nash403/fine-mq",
+  "description": "A fine API to manage media queries in JS with ease. It has first-class integration with VueJS.",
+  "topics": [
+    "mq",
+    "media-queries",
+    "media-query",
+    "matchmedia",
+    "rwd",
+    "responsive",
+    "mobile",
+    "mobile-first"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "nash403",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/9727258?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/nash403/fine-mq"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

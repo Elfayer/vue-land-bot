@@ -1,0 +1,29 @@
+{
+  "name": "vue-eva-icons",
+  "full_name": "antonreshetov/vue-eva-icons",
+  "description": "Is a pack of more than 480 beautiful open source Eva icons as Vue components",
+  "topics": [
+    "vue",
+    "vue-components",
+    "vue-icons",
+    "icons",
+    "svg",
+    "svg-icons"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "antonreshetov",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/17480987?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://antonreshetov.github.io/vue-eva-icons/",
+    "repo": "https://github.com/antonreshetov/vue-eva-icons"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

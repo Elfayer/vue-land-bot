@@ -1,0 +1,22 @@
+{
+  "name": "distrochooser",
+  "full_name": "cmllr/distrochooser",
+  "description": "An orientation guide for Linux newbies",
+  "topics": [],
+  "license": {
+    "key": "mpl-2.0",
+    "url": "https://api.github.com/licenses/mpl-2.0",
+    "name": "Mozilla Public License 2.0"
+  },
+  "owner": {
+    "login": "cmllr",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/2878201?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://distrochooser.de",
+    "repo": "https://github.com/cmllr/distrochooser"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

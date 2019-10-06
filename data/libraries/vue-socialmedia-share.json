@@ -1,0 +1,29 @@
+{
+  "name": "vue-socialmedia-share",
+  "full_name": "mbj36/vue-socialmedia-share",
+  "description": "🔊 Vue component for social sharing of links - https://codesandbox.io/s/kk0mqj11lv",
+  "topics": [
+    "vuejs2",
+    "vue",
+    "vue-components",
+    "social-network",
+    "sharing-platform",
+    "vue2"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "mbj36",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/9936881?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/mbj36/vue-socialmedia-share"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

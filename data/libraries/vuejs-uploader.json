@@ -1,0 +1,26 @@
+{
+  "name": "vuejs-uploader",
+  "full_name": "charliekassel/vuejs-uploader",
+  "description": "Vue multipart file uploader",
+  "topics": [
+    "vue",
+    "uploader",
+    "multipart-uploads"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "charliekassel",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/3069972?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/charliekassel/vuejs-uploader"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

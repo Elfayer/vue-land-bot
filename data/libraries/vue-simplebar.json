@@ -1,0 +1,22 @@
+{
+  "name": "vue-simplebar",
+  "full_name": "hfalucas/vue-simplebar",
+  "description": "Vue.js wrapper for simplebar",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "hfalucas",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/7132610?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://hfalucas.github.io/vue-simplebar/",
+    "repo": "https://github.com/hfalucas/vue-simplebar"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

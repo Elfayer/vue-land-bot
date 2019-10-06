@@ -1,0 +1,29 @@
+{
+  "name": "Book-Trading-Club",
+  "full_name": "mubaidr/Book-Trading-Club",
+  "description": "A sample application using node.js api and vuejs",
+  "topics": [
+    "nodejs",
+    "expressjs",
+    "vuejs",
+    "javascript",
+    "mongodb",
+    "axios"
+  ],
+  "license": {
+    "key": "apache-2.0",
+    "url": "https://api.github.com/licenses/apache-2.0",
+    "name": "Apache License 2.0"
+  },
+  "owner": {
+    "login": "mubaidr",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/2222702?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://mubaidr.github.io/Book-Trading-Club/",
+    "repo": "https://github.com/mubaidr/Book-Trading-Club"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,29 @@
+{
+  "name": "vue-mq",
+  "full_name": "AlexandreBonaventure/vue-mq",
+  "description": "📱 💻   Define your breakpoints and build responsive design semantically and declaratively in a mobile-first way with Vue.",
+  "topics": [
+    "vuejs",
+    "vuejs2",
+    "media",
+    "mediaqueries",
+    "viewport",
+    "breakpoints"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "AlexandreBonaventure",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/4596409?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://alexandrebonaventure.github.io/vue-mq",
+    "repo": "https://github.com/AlexandreBonaventure/vue-mq"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

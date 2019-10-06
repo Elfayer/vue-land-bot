@@ -1,0 +1,27 @@
+{
+  "name": "vue-plugin-boilerplate",
+  "full_name": "kazupon/vue-plugin-boilerplate",
+  "description": ":nut_and_bolt: Boilerplate for Vue.js plugin",
+  "topics": [
+    "vue",
+    "boilerplate",
+    "plugin",
+    "vue-cli"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "kazupon",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/72989?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/kazupon/vue-plugin-boilerplate"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

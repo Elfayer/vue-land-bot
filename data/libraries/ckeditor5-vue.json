@@ -1,0 +1,25 @@
+{
+  "name": "ckeditor5-vue",
+  "full_name": "ckeditor/ckeditor5-vue",
+  "description": "Official CKEditor 5 Vue.js component.",
+  "topics": [],
+  "license": {
+    "key": "other",
+    "url": null,
+    "name": "Other"
+  },
+  "owner": {
+    "login": "ckeditor",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/825710?v=4"
+  },
+  "organization": {
+    "login": "ckeditor",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/825710?v=4"
+  },
+  "links": {
+    "site": "https://ckeditor.com/ckeditor-5",
+    "repo": "https://github.com/ckeditor/ckeditor5-vue"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

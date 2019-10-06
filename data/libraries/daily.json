@@ -1,0 +1,32 @@
+{
+  "name": "daily",
+  "full_name": "dailynowco/daily",
+  "description": "Curated dev news delivered to your new tab 👩🏽‍💻",
+  "topics": [
+    "chrome-extension",
+    "productivity",
+    "developer-tools",
+    "news",
+    "daily",
+    "firefox-addon"
+  ],
+  "license": {
+    "key": "agpl-3.0",
+    "url": "https://api.github.com/licenses/agpl-3.0",
+    "name": "GNU Affero General Public License v3.0"
+  },
+  "owner": {
+    "login": "dailynowco",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/41463883?v=4"
+  },
+  "organization": {
+    "login": "dailynowco",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/41463883?v=4"
+  },
+  "links": {
+    "site": "https://www.dailynow.co",
+    "repo": "https://github.com/dailynowco/daily"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

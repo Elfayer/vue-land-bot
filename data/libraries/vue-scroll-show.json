@@ -1,0 +1,24 @@
+{
+  "name": "vue-scroll-show",
+  "full_name": "AlekseyPleshkov/vue-scroll-show",
+  "description": "Showing the element if the user reached it after scroll",
+  "topics": [
+    "vue",
+    "vuejs2",
+    "vue-plugin",
+    "vue-scroll",
+    "vue-directive"
+  ],
+  "license": null,
+  "owner": {
+    "login": "AlekseyPleshkov",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/11446603?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/AlekseyPleshkov/vue-scroll-show"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,21 @@
+{
+  "name": "vue-settler",
+  "full_name": "weavingbird/vue-settler",
+  "description": "An opinionated Vue 2.0 SPA Starter",
+  "topics": [],
+  "license": null,
+  "owner": {
+    "login": "weavingbird",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/23385993?v=4"
+  },
+  "organization": {
+    "login": "weavingbird",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/23385993?v=4"
+  },
+  "links": {
+    "site": null,
+    "repo": "https://github.com/weavingbird/vue-settler"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

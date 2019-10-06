@@ -1,0 +1,30 @@
+{
+  "name": "vue-countable",
+  "full_name": "johndatserakis/vue-countable",
+  "description": "✍️ Vue binding for countable.js. Provides real-time paragraph, sentence, word, and character counting.",
+  "topics": [
+    "vue",
+    "counter",
+    "countable",
+    "count",
+    "characters",
+    "words",
+    "paragraphs"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "johndatserakis",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/9972969?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://johndatserakis.github.io/vue-countable/",
+    "repo": "https://github.com/johndatserakis/vue-countable"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

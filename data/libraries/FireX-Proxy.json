@@ -1,0 +1,24 @@
+{
+  "name": "FireX-Proxy",
+  "full_name": "Orogenesis/FireX-Proxy",
+  "description": "FireX Proxy for Mozilla Firefox, Google Chrome",
+  "topics": [
+    "javascript",
+    "chrome-extension",
+    "firefox-extension",
+    "webextension",
+    "vue"
+  ],
+  "license": null,
+  "owner": {
+    "login": "Orogenesis",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/3242387?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/Orogenesis/FireX-Proxy"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

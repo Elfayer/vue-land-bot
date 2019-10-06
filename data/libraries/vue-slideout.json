@@ -1,0 +1,18 @@
+{
+  "name": "vue-slideout",
+  "full_name": "vouill/vue-slideout",
+  "description": "Simple vue implementation of Slideout.js touch sidebar / sidemenu library",
+  "topics": [],
+  "license": null,
+  "owner": {
+    "login": "vouill",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/9969161?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/vouill/vue-slideout"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

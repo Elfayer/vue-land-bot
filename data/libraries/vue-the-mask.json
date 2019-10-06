@@ -1,0 +1,21 @@
+{
+  "name": "vue-the-mask",
+  "full_name": "vuejs-tips/vue-the-mask",
+  "description": "Tiny (<2k gzipped) and dependency free mask input for Vue.js",
+  "topics": [],
+  "license": null,
+  "owner": {
+    "login": "vuejs-tips",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/26045453?v=4"
+  },
+  "organization": {
+    "login": "vuejs-tips",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/26045453?v=4"
+  },
+  "links": {
+    "site": "https://vuejs-tips.github.io/vue-the-mask/",
+    "repo": "https://github.com/vuejs-tips/vue-the-mask"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

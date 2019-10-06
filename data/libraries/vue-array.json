@@ -1,0 +1,22 @@
+{
+  "name": "vue-array",
+  "full_name": "BlackHole1/vue-array",
+  "description": "Array object operation under Vue",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "BlackHole1",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/8198408?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/BlackHole1/vue-array"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

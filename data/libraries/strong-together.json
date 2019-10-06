@@ -1,0 +1,22 @@
+{
+  "name": "strong-together",
+  "full_name": "websemantics/strong-together",
+  "description": "A starter project to build single page Vue.js apps as stand-alone or for Laravel / Laravel Spark projects; based on Browserify and Semantic-UI.",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "websemantics",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/2190455?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "http://websemantics.github.io/strong-together",
+    "repo": "https://github.com/websemantics/strong-together"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

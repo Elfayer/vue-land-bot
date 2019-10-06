@@ -1,0 +1,25 @@
+{
+  "name": "vue-syntax-highlight",
+  "full_name": "vuejs/vue-syntax-highlight",
+  "description": "💡 Sublime Text syntax highlighting for single-file Vue components",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "vuejs",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/6128107?v=4"
+  },
+  "organization": {
+    "login": "vuejs",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/6128107?v=4"
+  },
+  "links": {
+    "site": null,
+    "repo": "https://github.com/vuejs/vue-syntax-highlight"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

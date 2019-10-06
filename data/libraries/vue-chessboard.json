@@ -1,0 +1,28 @@
+{
+  "name": "vue-chessboard",
+  "full_name": "vitogit/vue-chessboard",
+  "description": "Chessboard vue component to load positions, create positions and see threats",
+  "topics": [
+    "chessboard",
+    "vue-chessboard",
+    "vue",
+    "vuejs",
+    "chess"
+  ],
+  "license": {
+    "key": "gpl-3.0",
+    "url": "https://api.github.com/licenses/gpl-3.0",
+    "name": "GNU General Public License v3.0"
+  },
+  "owner": {
+    "login": "vitogit",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/5280619?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/vitogit/vue-chessboard"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

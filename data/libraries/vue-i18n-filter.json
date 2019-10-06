@@ -1,0 +1,26 @@
+{
+  "name": "vue-i18n-filter",
+  "full_name": "chiaweilee/vue-i18n-filter",
+  "description": "🌐 { 'vue-i18n' | t }",
+  "topics": [
+    "vue",
+    "i18n",
+    "filter"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "chiaweilee",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/29817353?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/chiaweilee/vue-i18n-filter"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

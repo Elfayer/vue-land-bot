@@ -1,0 +1,34 @@
+{
+  "name": "ream",
+  "full_name": "ream/ream",
+  "description": "🚀 Framework for building universal web app and static website in Vue.js (beta)",
+  "topics": [
+    "vue",
+    "server-rendering",
+    "universal",
+    "webpack",
+    "server",
+    "express",
+    "koa",
+    "http"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "ream",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/26676772?v=4"
+  },
+  "organization": {
+    "login": "ream",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/26676772?v=4"
+  },
+  "links": {
+    "site": "https://ream.js.org",
+    "repo": "https://github.com/ream/ream"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

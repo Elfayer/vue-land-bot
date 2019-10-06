@@ -1,0 +1,31 @@
+{
+  "name": "vue-innersearch",
+  "full_name": "InnerSearch/vue-innersearch",
+  "description": ":mag_right: UI components built with Vue.js for ElasticSearch",
+  "topics": [
+    "elasticsearch",
+    "vuejs",
+    "vuejs-components",
+    "javascript",
+    "search"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "InnerSearch",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/36237410?v=4"
+  },
+  "organization": {
+    "login": "InnerSearch",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/36237410?v=4"
+  },
+  "links": {
+    "site": "https://innersearch.github.io/vue-innersearch",
+    "repo": "https://github.com/InnerSearch/vue-innersearch"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

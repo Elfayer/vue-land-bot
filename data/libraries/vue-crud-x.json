@@ -1,0 +1,42 @@
+{
+  "name": "vue-crud-x",
+  "full_name": "ais-one/vue-crud-x",
+  "description": "Vue+Express Cookbook & CRUD Component",
+  "topics": [
+    "vue",
+    "crud",
+    "firebase",
+    "vuetify",
+    "nuxt",
+    "rest",
+    "rxjs",
+    "express",
+    "nodejs",
+    "websocket",
+    "knex",
+    "jwt",
+    "openapi",
+    "recaptcha",
+    "material-design",
+    "2fa",
+    "boilerplate",
+    "hackathon",
+    "ssr"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "ais-one",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/4284574?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://dev.to/aisone/vuejs-expressjs-crud-cookbook-46l0",
+    "repo": "https://github.com/ais-one/vue-crud-x"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

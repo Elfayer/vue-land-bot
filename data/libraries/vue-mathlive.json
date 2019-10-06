@@ -1,0 +1,27 @@
+{
+  "name": "vue-mathlive",
+  "full_name": "arnog/vue-mathlive",
+  "description": "Example of using the Vue wrapper for MathLive math editor",
+  "topics": [
+    "vue",
+    "vuejs",
+    "math",
+    "editor"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "arnog",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/760798?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/arnog/vue-mathlive"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

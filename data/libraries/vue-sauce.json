@@ -1,0 +1,29 @@
+{
+  "name": "vue-sauce",
+  "full_name": "byteboomers/vue-sauce",
+  "description": "\"View source\" directive for Vue",
+  "topics": [
+    "vue",
+    "vuejs2",
+    "vue-sauce"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "byteboomers",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/46481387?v=4"
+  },
+  "organization": {
+    "login": "byteboomers",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/46481387?v=4"
+  },
+  "links": {
+    "site": "https://byteboomers.github.io/vue-sauce",
+    "repo": "https://github.com/byteboomers/vue-sauce"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

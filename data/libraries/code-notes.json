@@ -1,0 +1,41 @@
+{
+  "name": "code-notes",
+  "full_name": "lauthieb/code-notes",
+  "description": "A simple code snippet & gist manager for developers built with Electron & Vue.js 🚀",
+  "topics": [
+    "snippets",
+    "manager",
+    "electron",
+    "vue",
+    "vuejs",
+    "developers",
+    "code",
+    "notes",
+    "github",
+    "gist",
+    "gist-client",
+    "github-gist",
+    "gists",
+    "gist-manager",
+    "gists-files",
+    "snippets-editor",
+    "editor",
+    "hacktoberfest"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "lauthieb",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/9600228?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://lauthieb.github.io/code-notes",
+    "repo": "https://github.com/lauthieb/code-notes"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

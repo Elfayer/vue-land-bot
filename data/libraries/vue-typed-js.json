@@ -1,0 +1,30 @@
+{
+  "name": "vue-typed-js",
+  "full_name": "Orlandster/vue-typed-js",
+  "description": "Typed.js integration for vue.js. Create a typing animation.",
+  "topics": [
+    "typed-js",
+    "typing-animation",
+    "typing",
+    "typed",
+    "vuejs",
+    "vuejs2",
+    "vue"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "Orlandster",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/18451642?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "http://www.mattboldt.com/demos/typed-js/",
+    "repo": "https://github.com/Orlandster/vue-typed-js"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

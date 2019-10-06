@@ -1,0 +1,29 @@
+{
+  "name": "vuejs-uib-pagination",
+  "full_name": "sant123/vuejs-uib-pagination",
+  "description": "Best and complete pagination plugin for Vue.js. Inspired in Angular Bootstrap Pagination.",
+  "topics": [
+    "vue",
+    "vuejs2",
+    "vuejs-pagination",
+    "uib-pagination",
+    "vuejs-uib-pagination",
+    "vue-pagination"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "sant123",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/7959437?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/sant123/vuejs-uib-pagination"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

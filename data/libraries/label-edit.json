@@ -1,0 +1,27 @@
+{
+  "name": "label-edit",
+  "full_name": "myokyawhtun/label-edit",
+  "description": "Click to show input text box Vue Component ... inspired by Trello. This is my first time publishing Vue Component via npm package and let me know if you encounter any issues, bugs, or improvement. Thanks!",
+  "topics": [
+    "vue",
+    "vuejs-components",
+    "vuejs",
+    "vuejs2"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "myokyawhtun",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/295096?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/myokyawhtun/label-edit"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

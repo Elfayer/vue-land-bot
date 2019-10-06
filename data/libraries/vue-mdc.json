@@ -1,0 +1,32 @@
+{
+  "name": "vue-mdc",
+  "full_name": "posva/vue-mdc",
+  "description": "Material web components for Vue.js",
+  "topics": [
+    "mdl",
+    "vue",
+    "material",
+    "design",
+    "lite",
+    "google",
+    "mdc",
+    "components",
+    "web"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "posva",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/664177?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/posva/vue-mdc"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

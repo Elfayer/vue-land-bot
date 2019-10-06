@@ -1,0 +1,26 @@
+{
+  "name": "vue-easytable",
+  "full_name": "huangshuwei/vue-easytable",
+  "description": "🍉 Vue table components, support for cell edit,multi-head fixed, multi-column fixed, clumn drag, sort,conditional filter, custom column ...（vue table 组件，支持 单元格合并、单元格编辑、多表头固定、多列固定、列拖动、排序、自定义列、条件过滤、分页... ）",
+  "topics": [
+    "vuejs2",
+    "table",
+    "component"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "huangshuwei",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/6047141?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "http://doc.huangsw.com/vue-easytable/app.html",
+    "repo": "https://github.com/huangshuwei/vue-easytable"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

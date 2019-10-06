@@ -1,0 +1,28 @@
+{
+  "name": "vue-design",
+  "full_name": "L-Chris/vue-design",
+  "description": "Be the best website visualization builder with Vue and Electron.",
+  "topics": [
+    "vue",
+    "electron",
+    "visualization",
+    "website-builder",
+    "axure"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "L-Chris",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/22991560?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/L-Chris/vue-design"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

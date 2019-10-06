@@ -1,0 +1,18 @@
+{
+  "name": "vue-snake-game",
+  "full_name": "Seokky/vue-snake-game",
+  "description": "Snake game on Vue.js without canvas",
+  "topics": [],
+  "license": null,
+  "owner": {
+    "login": "Seokky",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/26835215?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://seokky.github.io/vue-snake-game/",
+    "repo": "https://github.com/Seokky/vue-snake-game"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,28 @@
+{
+  "name": "vue-virtual-collection",
+  "full_name": "starkwang/vue-virtual-collection",
+  "description": "Vue component for efficiently rendering large collection data",
+  "topics": [
+    "slot",
+    "vue-components",
+    "performance",
+    "scroll",
+    "collection"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "starkwang",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/10933333?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://starkwang.github.io/vue-virtual-collection/demo/dist/index.html",
+    "repo": "https://github.com/starkwang/vue-virtual-collection"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

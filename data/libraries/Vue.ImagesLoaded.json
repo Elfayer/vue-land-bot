@@ -1,0 +1,26 @@
+{
+  "name": "Vue.ImagesLoaded",
+  "full_name": "David-Desmaisons/Vue.ImagesLoaded",
+  "description": "Vue.js 2.0 directive to detect images loading",
+  "topics": [
+    "vue2",
+    "imagesloaded",
+    "directive"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "David-Desmaisons",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/524617?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/David-Desmaisons/Vue.ImagesLoaded"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

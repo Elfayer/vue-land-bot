@@ -1,0 +1,25 @@
+{
+  "name": "vue-axe",
+  "full_name": "vue-a11y/vue-axe",
+  "description": "Accessibility auditing for Vue.js applications.",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "vue-a11y",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/38933658?v=4"
+  },
+  "organization": {
+    "login": "vue-a11y",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/38933658?v=4"
+  },
+  "links": {
+    "site": "https://vue-axe.surge.sh/",
+    "repo": "https://github.com/vue-a11y/vue-axe"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,22 @@
+{
+  "name": "bp-vuejs-dropdown",
+  "full_name": "borisbutenko/bp-vuejs-dropdown",
+  "description": "Dropdown component for Vuejs",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "borisbutenko",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/22274752?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/borisbutenko/bp-vuejs-dropdown"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

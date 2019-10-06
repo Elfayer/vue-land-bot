@@ -1,0 +1,27 @@
+{
+  "name": "v-cascade",
+  "full_name": "zanseven007/v-cascade",
+  "description": "a lovely component of cascade selector with vue.js ",
+  "topics": [
+    "javascript",
+    "vue",
+    "vue2",
+    "cascade"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "zanseven007",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/12459778?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://zanseven007.github.io/v-cascade/",
+    "repo": "https://github.com/zanseven007/v-cascade"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

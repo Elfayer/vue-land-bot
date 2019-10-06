@@ -1,0 +1,22 @@
+{
+  "name": "vue-stickto",
+  "full_name": "JALBAA/vue-stickto",
+  "description": "A vue directive that support multiple DOM Node stick to top automatically (一个支持多DOM元素自动吸顶的vue指令)",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "JALBAA",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/6257388?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "http://docs.gomeminus.com/vue-stickto/examples/dist/index.html",
+    "repo": "https://github.com/JALBAA/vue-stickto"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

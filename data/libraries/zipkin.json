@@ -1,0 +1,31 @@
+{
+  "name": "zipkin",
+  "full_name": "openzipkin/zipkin",
+  "description": "Zipkin is a distributed tracing system",
+  "topics": [
+    "zipkin",
+    "distributed-tracing",
+    "tracing",
+    "openzipkin",
+    "observability"
+  ],
+  "license": {
+    "key": "apache-2.0",
+    "url": "https://api.github.com/licenses/apache-2.0",
+    "name": "Apache License 2.0"
+  },
+  "owner": {
+    "login": "openzipkin",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/11860887?v=4"
+  },
+  "organization": {
+    "login": "openzipkin",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/11860887?v=4"
+  },
+  "links": {
+    "site": "https://zipkin.io/",
+    "repo": "https://github.com/openzipkin/zipkin"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,27 @@
+{
+  "name": "vue-dplayer",
+  "full_name": "MoePlayer/vue-dplayer",
+  "description": "📹 A Vue 2.x video player component based on DPlayer",
+  "topics": [
+    "vbuild",
+    "vue",
+    "player",
+    "video",
+    "component"
+  ],
+  "license": null,
+  "owner": {
+    "login": "MoePlayer",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/30426040?v=4"
+  },
+  "organization": {
+    "login": "MoePlayer",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/30426040?v=4"
+  },
+  "links": {
+    "site": "https://dplayer.netlify.com/",
+    "repo": "https://github.com/MoePlayer/vue-dplayer"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,31 @@
+{
+  "name": "goldfish",
+  "full_name": "Caiyeon/goldfish",
+  "description": "A HashiCorp Vault UI written with VueJS and Vault native Go API",
+  "topics": [
+    "vuejs",
+    "vault-ui",
+    "vue-admin",
+    "bulma-css",
+    "hashicorp-vault",
+    "vault",
+    "golang",
+    "go"
+  ],
+  "license": {
+    "key": "mpl-2.0",
+    "url": "https://api.github.com/licenses/mpl-2.0",
+    "name": "Mozilla Public License 2.0"
+  },
+  "owner": {
+    "login": "Caiyeon",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/6126493?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://vault-ui.io",
+    "repo": "https://github.com/Caiyeon/goldfish"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

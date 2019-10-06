@@ -1,0 +1,27 @@
+{
+  "name": "jade-press",
+  "full_name": "jade-press/jade-press",
+  "description": "cms based on mongodb, nodejs, koa, vue and more",
+  "topics": [
+    "jade-press"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "jade-press",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/18645671?v=4"
+  },
+  "organization": {
+    "login": "jade-press",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/18645671?v=4"
+  },
+  "links": {
+    "site": null,
+    "repo": "https://github.com/jade-press/jade-press"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

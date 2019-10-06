@@ -1,0 +1,30 @@
+{
+  "name": "vue-lpage",
+  "full_name": "byteboomers/vue-lpage",
+  "description": "Low-level Vue pagination component",
+  "topics": [
+    "vue-lpage",
+    "vue",
+    "vuejs",
+    "pagination"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "byteboomers",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/46481387?v=4"
+  },
+  "organization": {
+    "login": "byteboomers",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/46481387?v=4"
+  },
+  "links": {
+    "site": null,
+    "repo": "https://github.com/byteboomers/vue-lpage"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

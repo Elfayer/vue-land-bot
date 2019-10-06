@@ -1,0 +1,25 @@
+{
+  "name": "vue-maze",
+  "full_name": "meganetaaan/vue-maze",
+  "description": "A Vue.js component of a simple maze game.",
+  "topics": [
+    "vue",
+    "component"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "meganetaaan",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/1918755?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/meganetaaan/vue-maze"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

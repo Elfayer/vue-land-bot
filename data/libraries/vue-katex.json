@@ -1,0 +1,25 @@
+{
+  "name": "vue-katex",
+  "full_name": "lucpotage/vue-katex",
+  "description": "Vue plugin for KaTeX",
+  "topics": [
+    "vue",
+    "katex"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "lucpotage",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/7230764?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/lucpotage/vue-katex"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

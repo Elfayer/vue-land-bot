@@ -1,0 +1,44 @@
+{
+  "name": "vue-crud",
+  "full_name": "what-crud/vue-crud",
+  "description": "Vue.js based REST-ful CRUD system",
+  "topics": [
+    "crm",
+    "crud",
+    "vue",
+    "vuejs2",
+    "vuex",
+    "vuetify",
+    "rest",
+    "crud-application",
+    "vue-crud",
+    "cms",
+    "crm-system",
+    "javascript",
+    "material-design",
+    "webpack",
+    "single-page-app",
+    "spa",
+    "boilerplate-application",
+    "boilerplate"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "what-crud",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/48915550?v=4"
+  },
+  "organization": {
+    "login": "what-crud",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/48915550?v=4"
+  },
+  "links": {
+    "site": "https://vue-crud.github.io/",
+    "repo": "https://github.com/what-crud/vue-crud"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

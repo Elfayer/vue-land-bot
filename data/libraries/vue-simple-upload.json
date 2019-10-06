@@ -1,0 +1,26 @@
+{
+  "name": "vue-simple-upload",
+  "full_name": "saivarunk/vue-simple-upload",
+  "description": "Simple File upload component for Vue.js",
+  "topics": [
+    "vue",
+    "vue-component",
+    "vue-components"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "saivarunk",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/2976867?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://saivarunk.github.io/vue-simple-upload/",
+    "repo": "https://github.com/saivarunk/vue-simple-upload"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

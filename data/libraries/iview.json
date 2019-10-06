@@ -1,0 +1,36 @@
+{
+  "name": "iview",
+  "full_name": "iview/iview",
+  "description": "A high quality UI Toolkit built on Vue.js 2.0",
+  "topics": [
+    "vue",
+    "components",
+    "ui-kit",
+    "vue-components",
+    "javascript",
+    "ui-design",
+    "css",
+    "design-systems",
+    "frontend",
+    "iview"
+  ],
+  "license": {
+    "key": "other",
+    "url": null,
+    "name": "Other"
+  },
+  "owner": {
+    "login": "iview",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/20693613?v=4"
+  },
+  "organization": {
+    "login": "iview",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/20693613?v=4"
+  },
+  "links": {
+    "site": "http://iview.talkingdata.com",
+    "repo": "https://github.com/iview/iview"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,28 @@
+{
+  "name": "vue-knob-control",
+  "full_name": "kramer99/vue-knob-control",
+  "description": "A rotary knob control for Vue.js",
+  "topics": [
+    "vue",
+    "vuejs",
+    "vuejs2",
+    "knob",
+    "control"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "kramer99",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/6402557?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/kramer99/vue-knob-control"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}
