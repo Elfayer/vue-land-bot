@@ -1,0 +1,26 @@
+{
+  "name": "react",
+  "full_name": "facebook/react",
+  "description": "A declarative, efficient, and flexible JavaScript library for building user interfaces.",
+  "topics": ["javascript", "react", "frontend", "declarative", "ui", "library"],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "facebook",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/69631?v=4"
+  },
+  "organization": {
+    "login": "facebook",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/69631?v=4"
+  },
+  "links": {
+    "site": "https://reactjs.org",
+    "repo": "https://github.com/facebook/react",
+    "chat": "https://discord.gg/gtan9Ju"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

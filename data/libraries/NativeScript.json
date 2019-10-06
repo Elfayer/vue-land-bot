@@ -1,0 +1,37 @@
+{
+  "name": "NativeScript",
+  "full_name": "NativeScript/NativeScript",
+  "description": "NativeScript is an open source framework for building truly native mobile apps with JavaScript. Use web skills, like Angular and Vue.js, FlexBox and CSS, and get native UI and performance on iOS and Android.",
+  "topics": [
+    "nativescript",
+    "android",
+    "ios",
+    "angular",
+    "vue",
+    "flexbox",
+    "css",
+    "typescript",
+    "javascript",
+    "cross-platform"
+  ],
+  "license": {
+    "key": "apache-2.0",
+    "url": "https://api.github.com/licenses/apache-2.0",
+    "name": "Apache License 2.0"
+  },
+  "owner": {
+    "login": "NativeScript",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/7392261?v=4"
+  },
+  "organization": {
+    "login": "NativeScript",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/7392261?v=4"
+  },
+  "links": {
+    "site": "https://www.nativescript.org",
+    "repo": "https://github.com/NativeScript/NativeScript",
+    "chat": "https://developer.telerik.com/wp-login.php?action=slack-invitation"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}
