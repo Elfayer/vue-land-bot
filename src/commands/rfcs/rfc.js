@@ -183,15 +183,3 @@ module.exports = class RFCsCommand extends Command {
     embed.addField('Command', requestSyntax.join(''), true)
   }
 }
-
-/*
-  labels
-  body
-  url
-  state (open, closed)
-  title
-  created_at
-  updated_at
-  closed_at
-  merged_at
-*/
