@@ -1,0 +1,960 @@
+{
+  categories: [
+    {
+      title: Global Config
+      items: [
+        {
+          title: silent
+          type: boolean
+          default: 'false'
+          link: https://vuejs.org/v2/api/#silent
+        }
+        {
+          title: optionMergeStrategies
+          type: '{ [key: string]: Function }'
+          default: '{}'
+          link: https://vuejs.org/v2/api/#optionMergeStrategies
+          see: [
+            https://vuejs.org/v2/guide/mixins.html#Custom-Option-Merge-Strategies
+          ]
+        }
+        {
+          title: devtools
+          type: boolean
+          default: 'true (false in production)'
+          link: https://vuejs.org/v2/api/#devtools
+          see: [
+            https://github.com/vuejs/vue-devtools
+          ]
+        }
+        {
+          title: errorHandler
+          type: Function
+          default: undefined
+          link: https://vuejs.org/v2/api/#errorHandler
+        }
+        {
+          title: warnHandler
+          type: Function
+          default: undefined
+          link: https://vuejs.org/v2/api/#warnHandler
+        }
+        {
+          title: ignoredElements
+          type: Array<string | RegExp>
+          default: `[]`
+          link: https://vuejs.org/v2/api/#ignoredElements
+        }
+        {
+          title: keyCodes
+          type: '{ [key: string]: number | Array<number> }'
+          default: '{}'
+          link: https://vuejs.org/v2/api/#keyCodes
+        }
+        {
+          title: performance
+          type: boolean
+          default: 'false (from 2.2.3+)'
+          version: 2.2.0+
+          link: https://vuejs.org/v2/api/#performance
+          see: [
+            https://developer.mozilla.org/en-US/docs/Web/API/Performance/mark
+          ]
+        }
+        {
+          title: productionTip
+          type: boolean
+          default: true
+          version: 2.2.0+
+          link: https://vuejs.org/v2/api/#productionTip
+        }
+      ]
+    }
+    {
+      title: Global API
+      items: [
+        {
+          title: Vue.extend( options )
+          arguments: [
+            '{Object} options'
+          ]
+          link: https://vuejs.org/v2/api/#Vue-extend
+          see: [
+            https://vuejs.org/v2/guide/components.html
+          ]
+        }
+        {
+          title: Vue.nextTick( [callback, context] )
+          arguments: [
+            '{Function} [callback]'
+            '{Object} [context]'
+          ]
+          link: https://vuejs.org/v2/api/#Vue-nextTick
+          see: [
+            https://vuejs.org/v2/guide/reactivity.html#Async-Update-Queue
+          ]
+        }
+        {
+          title: Vue.set( target, propertyName/index, value )
+          arguments: [
+          '{Object | Array} target'
+          '{string | number} propertyName/index'
+          '{any} value'
+          ]
+          returns: the set value
+          link: https://vuejs.org/v2/api/#Vue-set
+          see: [
+            https://vuejs.org/v2/guide/reactivity.html
+          ]
+        }
+        {
+          title: Vue.delete( target, propertyName/index )
+          arguments: [
+            '{Object | Array} target'
+            '{string | number} propertyName/index'
+          ]
+          link: https://vuejs.org/v2/api/#Vue-delete
+          see: [
+            https://vuejs.org/v2/guide/reactivity.html
+          ]
+        }
+        {
+          title: Vue.directive( id, [definition] )
+          arguments: [
+            '{string} id'
+            '{Function | Object} [definition]'
+          ]
+          link: https://vuejs.org/v2/api/#Vue-directive
+          see: [
+            https://vuejs.org/v2/guide/custom-directive.html
+          ]
+        }
+        {
+          title: Vue.filter( id, [definition] )
+          arguments: [
+          '{string} id'
+          '{Function} [definition]'
+          ]
+          link: https://vuejs.org/v2/api/#Vue-filter
+          see: [
+            https://vuejs.org/v2/guide/filters.html
+          ]
+        }
+        {
+          title: .
+          arguments: [
+            '{string} id'
+            '{Function | Object} [definition]'
+          ]
+          link: https://vuejs.org/v2/api/#Vue-component
+          see: [
+            https://vuejs.org/v2/guide/components.html
+          ]
+        }
+        {
+          title: Vue.use( plugin )
+          arguments: [
+            '{Object | Function} plugin'
+          ]
+          link: https://vuejs.org/v2/api/#Vue-use
+          see: [
+            https://vuejs.org/v2/guide/plugins.html
+          ]
+        }
+        {
+          title: Vue.mixin( mixin )
+          arguments: [
+            '{Object} mixin'
+          ]
+          link: https://vuejs.org/v2/api/#Vue-mixin
+          see: [
+            https://vuejs.org/v2/guide/mixins.html#Global-Mixin
+          ]
+        }
+        {
+          title: Vue.compile( template )
+          arguments: [
+            '{string} template'
+          ]
+          link: https://vuejs.org/v2/api/#Vue-compile
+          see: [
+            https://vuejs.org/v2/guide/render-function.html
+          ]
+        }
+        {
+          title: Vue.observable( object )
+          arguments: [
+            '{Object} object'
+          ]
+          link: https://vuejs.org/v2/api/#Vue-observable
+          see: [
+            https://vuejs.org/v2/guide/reactivity.html
+          ]
+        }
+        {
+          title: Vue.version
+          link: https://vuejs.org/v2/api/#Vue-version
+        }
+      ]
+    }
+    {
+      title: "Options / Data"
+      items: [
+        {
+          title: data
+          type: Object | Function
+          link: https://vuejs.org/v2/api/#data
+          see: [
+            https://vuejs.org/v2/guide/reactivity.html
+          ]
+        }
+        {
+          title: props
+          type: Array<string> | Object
+          link: https://vuejs.org/v2/api/#props
+          see: [
+            https://vuejs.org/v2/guide/components-props.html
+          ]
+        }
+        {
+          title: propsData
+          type: '{ [key: string]: any }'
+          link: https://vuejs.org/v2/api/#propsData
+        }
+        {
+          title: computed
+          type: '{ [key: string]: Function | { get: Function, set: Function } }'
+          link: https://vuejs.org/v2/api/#computed
+          see: [
+            https://vuejs.org/v2/guide/computed.html
+          ]
+        }
+        {
+          title: methods
+          type: '{ [key: string]: Function'
+          link: https://vuejs.org/v2/api/#methods
+          see: [
+            https://vuejs.org/v2/guide/events.html
+          ]
+        }
+        {
+          title: watcg
+          type: '{ [key: string]: string | Function | Object | Array}'
+          link: https://vuejs.org/v2/api/#watch
+          see: [
+            https://vuejs.org/v2/api/#vm-watch
+          ]
+        }
+      ]
+    }
+    {
+      title: Options / DOM
+      items: [
+        {
+          title: el
+          type: string | Element
+          link: https://vuejs.org/v2/api/#el
+          see: [
+            https://vuejs.org/v2/guide/instance.html#Lifecycle-Diagram
+            https://vuejs.org/v2/guide/installation.html#Runtime-Compiler-vs-Runtime-only
+          ]
+        }
+        {
+          title: template
+          type: string
+          link: https://vuejs.org/v2/api/#template
+          see: [
+            https://vuejs.org/v2/guide/instance.html#Lifecycle-Diagram
+            https://vuejs.org/v2/guide/components.html#Content-Distribution-with-Slots
+          ]
+        }
+        {
+          title: render
+          type: (createElement: () => VNode) => VNode
+          link: https://vuejs.org/v2/api/#render
+          see: [
+            https://vuejs.org/v2/guide/render-function.html
+          ]
+        }
+        {
+          title: renderError
+          type: (createElement: () => VNode, error: Error) => Vnode
+          version: 2.2.0+
+          link: https://vuejs.org/v2/api/#renderError
+          see: [
+            https://vuejs.org/v2/guide/render-function.html
+          ]
+        }
+      ]
+    }
+    {
+      title: Options / Lifecycle Hooks
+      items: [
+        {
+          title: beforeCreate
+          type: Function
+          link: https://vuejs.org/v2/api/#beforeCreate
+          see: [
+            https://vuejs.org/v2/guide/instance.html#Lifecycle-Diagram
+          ]
+        }
+        {
+          title: created
+          type: Function
+          link: https://vuejs.org/v2/api/#created
+          see: [
+            https://vuejs.org/v2/guide/instance.html#Lifecycle-Diagram
+          ]
+        }
+        {
+          title: beforeMount
+          type: Function
+          link: https://vuejs.org/v2/api/#beforeMount
+          see: [
+            https://vuejs.org/v2/guide/instance.html#Lifecycle-Diagram
+          ]
+        }
+        {
+          title: mounted
+          type: Function
+          link: https://vuejs.org/v2/api/#mounted
+          see: [
+            https://vuejs.org/v2/guide/instance.html#Lifecycle-Diagram
+          ]
+        }
+        {
+          title: beforeUpdate
+          type: Function
+          link: https://vuejs.org/v2/api/#beforeUpdate
+          see: [
+            https://vuejs.org/v2/guide/instance.html#Lifecycle-Diagram
+          ]
+        }
+        {
+          title: updated
+          type: Function
+          link: https://vuejs.org/v2/api/#updated
+          see: [
+            https://vuejs.org/v2/guide/instance.html#Lifecycle-Diagram
+          ]
+        }
+        {
+          title: activated
+          type: Function
+          link: https://vuejs.org/v2/api/#activated
+          see: [
+            https://vuejs.org/v2/api/#keep-alive
+            https://vuejs.org/v2/guide/components.html#keep-alive
+          ]
+        }
+        {
+          title: deactivated
+          type: Function
+          link: https://vuejs.org/v2/api/#deactivated
+          see: [
+            https://vuejs.org/v2/api/#keep-alive
+            https://vuejs.org/v2/guide/components.html#keep-alive
+          ]
+        }
+        {
+          title: beforeDestroy
+          type: Function
+          link: https://vuejs.org/v2/api/#beforeDestroy
+          see: [
+            https://vuejs.org/v2/guide/instance.html#Lifecycle-Diagram
+          ]
+        }
+        {
+          title: destroyed
+          type: Function
+          link: https://vuejs.org/v2/api/#destroyed
+          see: [
+            https://vuejs.org/v2/guide/instance.html#Lifecycle-Diagram
+          ]
+        }
+        {
+          title: errorCaptured
+          type: '(err: Error, vm: Component, info: string) => ?boolean'
+          link: https://vuejs.org/v2/api/#errorCaptured
+          see: [
+            
+          ]
+        }
+      ]
+    }
+    {
+      title: Options / Assets
+      items: [
+        {
+          title: directives
+          type: Object
+          link: https://vuejs.org/v2/api/#directives
+          see: [
+            https://vuejs.org/v2/guide/custom-directive.html
+          ]
+        }
+        {
+          title: filters
+          type: Object
+          link: https://vuejs.org/v2/api/#filters
+          see: [
+            https://vuejs.org/v2/api/#Vue-filter
+          ]
+        }
+        {
+          title: components
+          type: Object
+          link: https://vuejs.org/v2/api/#components
+          see: [
+            https://vuejs.org/v2/guide/components.html
+          ]
+        }
+      ]
+    }
+    {
+      title: Options / Composition
+      items: [
+        {
+          title: parent
+          type: Vue instance
+          link: https://vuejs.org/v2/api/#parent
+        }
+        {
+          title: mixins
+          type: Array<Object>
+          link: https://vuejs.org/v2/api/#mixins
+          see: [
+            https://vuejs.org/v2/guide/mixins.html
+          ]
+        }
+        {
+          title: extends
+          type: Object | Function
+          link: https://vuejs.org/v2/api/#extends
+        }
+        {
+          title: provide
+          type: Object | () => Object
+          link: https://vuejs.org/v2/api/#provide-inject
+        }
+        {
+          title: inject
+          type: Array<string> | { [key: string]: string | Symbol | Object }
+          link: https://vuejs.org/v2/api/#provide-inject
+        }
+      ]
+    }
+    {
+      title: Options / Misc.
+      items: [
+        {
+          title: name
+          type: string
+          link: https://vuejs.org/v2/api/#name
+        }
+        {
+          title: delimiters
+          type: Array<string>
+          default: '["{{", "}}"]'
+          link: https://vuejs.org/v2/api/#delimiters
+        }
+        {
+          title: functional
+          type: boolean
+          link: https://vuejs.org/v2/api/#functional
+          see: [
+            https://vuejs.org/v2/guide/render-function.html#Functional-Components
+          ]
+        }
+        {
+          title: model
+          type: '{ prop?: string, event?: string }'
+          version: 2.2.0+
+          link: https://vuejs.org/v2/api/#model
+        }
+        {
+          title: inheritAttrs
+          type: boolean
+          default: 'true'
+          version: 2.4.0+
+          link: https://vuejs.org/v2/api/#inheritAttrs
+        }
+        {
+          title: comments
+          type: boolean
+          default: 'false'
+          version: 2.4.0+
+        }
+      ]
+    }
+    {
+      title: Instance Properties
+      items: [
+        {
+          title: vm.$data
+          type: Object
+          link: https://vuejs.org/v2/api/#vm-data
+          see: [
+
+          ]
+        }
+        {
+          title: vm.$props
+          type: Object
+          link: https://vuejs.org/v2/api/#vm-props
+          see: [
+            
+          ]
+        }
+        {
+          title: vm.$el
+          type: Element
+          link: https://vuejs.org/v2/api/#vm-el
+          see: [
+            
+          ]
+        }
+        {
+          title: vm.$options
+          type: Object
+          link: https://vuejs.org/v2/api/#vm-options
+          see: [
+            
+          ]
+        }
+        {
+          title: vm.$parent
+          type: Vue instance
+          link: https://vuejs.org/v2/api/#vm-parent
+          see: [
+            
+          ]
+        }
+        {
+          title: vm.$root
+          type: Vue instance
+          link: https://vuejs.org/v2/api/#vm-root
+          see: [
+            
+          ]
+        }
+        {
+          title: vm.$children
+          type: Array<Vue instance>
+          link: https://vuejs.org/v2/api/#vm-children
+          see: [
+            
+          ]
+        }
+        {
+          title: vm.$slots
+          type: '{ [name: string]: ?Array<VNode> }'
+          link: https://vuejs.org/v2/api/#vm-slots
+          see: [
+            https://vuejs.org/v2/api/#slot
+            https://vuejs.org/v2/guide/components.html#Content-Distribution-with-Slots
+            https://vuejs.org/v2/guide/render-function.html#Slots
+          ]
+        }
+        {
+          title: vm.$scopedSlots
+          type: '{ [name: string]: props => Array<VNode> | undefined }'
+          link: https://vuejs.org/v2/api/#vm-scopedSlots
+          version: 2.1.0+
+          see: [
+            https://vuejs.org/v2/api/#slot
+            https://vuejs.org/v2/guide/components.html#Scoped-Slots
+            https://vuejs.org/v2/guide/render-function.html#Slots
+          ]
+        }
+        {
+          title: vm.$refs
+          type: Object
+          link: https://vuejs.org/v2/api/#vm-refs
+          see: [
+            https://vuejs.org/v2/guide/components.html#Child-Component-Refs
+            https://vuejs.org/v2/api/#ref
+          ]
+        }
+        {
+          title: vm.$isServer
+          type: boolean
+          link: https://vuejs.org/v2/api/#vm-isServer
+          see: [
+            https://vuejs.org/v2/guide/ssr.html
+          ]
+        }
+        {
+          title: vm.$attrs
+          type: '{ [key: string]: string }'
+          link: https://vuejs.org/v2/api/#vm-attrs
+          version: 2.4.0+
+        }
+        {
+          title: vm.$listeners
+          type: '{ [key: string]: Function | Array<Function> }'
+          link: https://vuejs.org/v2/api/#vm-listeners
+          version: 2.4.0+
+        }
+      ]
+    }
+    {
+      title: Instance Methods / Data
+      items: [
+        {
+          title: vm.$watch (expOrFn, callback, [options] )
+          arguments: [
+            '{string | Function} expOrFn'
+            '{Function | Object} callback'
+            '{Object} [options]'
+              // {boolean} deep
+              // {boolean} immediate
+          ]
+          returns: '{Function} unwatch'
+          link: https://vuejs.org/v2/api/#vm-watch
+        }
+        {
+          title: vm.$set( target, propertyName/index, value )
+          arguments: [
+            '{Object | Array} target'
+            '{string | number} propertyName/index'
+            '{any} value'
+          ]
+          returns: the set value
+          link: https://vuejs.org/v2/api/#vm-set
+          see: [
+            https://vuejs.org/v2/api/#Vue-set
+          ]
+        }
+        {
+          title: vm.$delete( target, propertyName/index )
+          arguments: [
+            '{Object | Array} target'
+            '{string | number} propertyName/index'
+          ]
+          returns: .
+          link: https://vuejs.org/v2/api/#vm-delete
+          see: [
+            https://vuejs.org/v2/api/#Vue-delete
+          ]
+        }
+      ]
+    }
+    {
+      title: Instance Methods / Events
+      items: [
+        {
+          title: vm.$on( event, callback )
+          arguments: [
+            '{string | Array<string>} event (array only supported in 2.2.0+)'
+            '{Function} callback'
+          ]
+          link: https://vuejs.org/v2/api/#vm-on
+        }
+        {
+          title: vm.$once( event, callback )
+          arguments: [
+            '{string} event'
+            '{Function} callback'
+          ]
+          link: https://vuejs.org/v2/api/#vm-once
+        }
+        {
+          title: vm.$off( [event, callback] )
+          arguments: [
+            '{string | Array<string>} event (array only supported in 2.2.2+)'
+            '{Function} [callback]'
+          ]
+          link: https://vuejs.org/v2/api/#vm-once
+        }
+        {
+          title: vm.$emit( eventName, [...args] )
+          arguments: [
+            '{string} eventName'
+            '[...args]'
+          ]
+          link: https://vuejs.org/v2/api/#vm-emit
+        }
+      ]
+    }
+    {
+      title: Instance Methods / LifeCycle
+      items: [
+        {
+          title: vm.$mount( [elementOrSelector] )
+          arguments: [
+            '{Element | string} [elementOrSelector]'
+            '{boolean} [hydrating]'
+          ]
+          returns: vm - the instance itself
+          link: https://vuejs.org/v2/api/#vm-mount
+          see: [
+            https://vuejs.org/v2/guide/instance.html#Lifecycle-Diagram
+            https://vuejs.org/v2/guide/ssr.html
+          ]
+        }
+        {
+          title: vm.$forceUpdate()
+          link: https://vuejs.org/v2/api/#vm-forceUpdate
+        }
+        {
+          title: vm.$nextTick( [callback] )
+          arguments: [
+            '{Function} [callback]'
+          ]
+          link: https://vuejs.org/v2/api/#vm-nextTick
+          see: [
+            https://vuejs.org/v2/api/#Vue-nextTick
+            https://vuejs.org/v2/guide/reactivity.html#Async-Update-Queue
+          ]
+        }
+        {
+          title: vm.$destroy()
+          link: https://vuejs.org/v2/api/#vm-destroy
+          see: [
+            https://vuejs.org/v2/guide/instance.html#Lifecycle-Diagram
+          ]
+        }
+      ]
+    }
+    {
+      title: Directives
+      items: [
+        {
+          title: v-text
+          link: https://vuejs.org/v2/api/#v-text
+          see: [
+            https://vuejs.org/v2/guide/syntax.html#Text
+          ]
+        }
+        {
+          title: v-html
+          link: https://vuejs.org/v2/api/#v-html
+          see: [
+            https://vuejs.org/v2/guide/syntax.html#Raw-HTML
+          ]
+        }
+        {
+          title: v-show
+          link: https://vuejs.org/v2/api/#v-show
+          see: [
+            https://vuejs.org/v2/guide/conditional.html#v-show
+          ]
+        }
+        {
+          title: v-if
+          link: https://vuejs.org/v2/api/#v-if
+          see: [
+            https://vuejs.org/v2/guide/conditional.html
+          ]
+        }
+        {
+          title: v-else
+          link: https://vuejs.org/v2/api/#v-else
+          see: [
+            https://vuejs.org/v2/guide/conditional.html#v-else
+          ]
+        }
+        {
+          title: v-else-if
+          link: https://vuejs.org/v2/api/#v-else-if
+          version: 2.1.0+
+          see: [
+            https://vuejs.org/v2/guide/conditional.html#v-else-if
+          ]
+        }
+        {
+          title: v-for
+          link: https://vuejs.org/v2/api/#v-for
+          see: [
+            https://vuejs.org/v2/guide/list.html
+            https://vuejs.org/v2/guide/list.html#key
+          ]
+        }
+        {
+          title: v-on
+          aliases: [
+            @
+          ]
+          link: https://vuejs.org/v2/api/#v-on
+          see: [
+            https://vuejs.org/v2/guide/events.html
+            https://vuejs.org/v2/guide/components.html#Custom-Events
+          ]
+        }
+        {
+          title: v-bind
+          aliases: [
+            ':'
+          ]
+          link: https://vuejs.org/v2/api/#v-bind
+          see: [
+            https://vuejs.org/v2/guide/class-and-style.html
+            https://vuejs.org/v2/guide/components.html#Props
+            https://vuejs.org/v2/guide/components.html#sync-Modifier
+          ]
+        }
+        {
+          title: v-model
+          link: https://vuejs.org/v2/api/#v-model
+          see: [
+            https://vuejs.org/v2/guide/forms.html
+            https://vuejs.org/v2/guide/components.html#Form-Input-Components-using-Custom-Events
+          ]
+        }
+        {
+          title: v-slot
+          aliases: [
+            '#'
+          ]
+          link: https://vuejs.org/v2/api/#v-slot
+          see: [
+            https://vuejs.org/v2/guide/components-slots.html
+            https://github.com/vuejs/rfcs/blob/master/active-rfcs/0001-new-slot-syntax.md
+          ]
+        }
+        {
+          title: v-pre
+          link: https://vuejs.org/v2/api/#v-pre
+        }
+        {
+          title: v-cloak
+          link: https://vuejs.org/v2/api/#v-cloak
+        }
+        {
+          title: v-once
+          link: https://vuejs.org/v2/api/#v-once
+          see: [
+            https://vuejs.org/v2/guide/syntax.html#Text
+            https://vuejs.org/v2/guide/components.html#Cheap-Static-Components-with-v-once
+          ]
+        }
+      ]
+    }
+    {
+      title: Special Attributes
+      items: [
+        {
+          title: key
+          link: https://vuejs.org/v2/api/#key
+          see: [
+
+          ]
+        }
+        {
+          title: ref
+          link: https://vuejs.org/v2/api/#ref
+          see: [
+            https://vuejs.org/v2/guide/components.html#Child-Component-Refs
+          ]
+        }
+        {
+          title: is
+          link: https://vuejs.org/v2/api/#is
+          see: [
+            https://vuejs.org/v2/guide/components.html#Dynamic-Components
+            https://vuejs.org/v2/guide/components.html#DOM-Template-Parsing-Caveats
+          ]
+        }
+        {
+          title: slot
+          link: https://vuejs.org/v2/api/#slot-deprecated
+          status: deprecated
+          see: [
+            https://vuejs.org/v2/api/#v-slot
+            https://vuejs.org/v2/guide/components.html#Named-Slots-with-slot
+          ]
+        }
+        {
+          title: slot-scope
+          link: https://vuejs.org/v2/api/#slot-scope-deprecated
+          status: deprecated
+          see: [
+            https://vuejs.org/v2/api/#slot-scope-deprecated
+            https://vuejs.org/v2/guide/components.html#Scoped-Slots-with-slot-scope
+          ]
+        }
+        {
+          title: scope
+          link: https://vuejs.org/v2/api/#scope-removed
+          status: removed
+          see: [
+            https://vuejs.org/v2/api/#slot-scope
+            https://vuejs.org/v2/api/#v-slot
+          ]
+        }
+      ]
+    }
+    {
+      title: Built-in Components
+      items: [
+        {
+          title: component
+          props: [
+            'is - string | ComponentDefinition | ComponentConstructor'
+            'inline-template - boolean'
+          ]
+          link: https://vuejs.org/v2/api/#component
+          see: [
+            https://vuejs.org/v2/guide/components.html#Dynamic-Components
+          ]
+        }
+        {
+          title: transition
+          link: https://vuejs.org/v2/api/#transition
+          see: [
+            https://vuejs.org/v2/guide/transitions.html
+          ]
+        }
+        {
+          title: transition-group
+          props: [
+            'tag - string, defaults to span.'
+            'move-class - overwrite CSS class applied during moving transition.'
+            'exposes the same props as <transition> except mode.'
+          ]
+          link: https://vuejs.org/v2/api/#transition-group
+          see: [
+            https://vuejs.org/v2/guide/transitions.html
+          ]
+        }
+        {
+          title: keep-alive
+          props: [
+            'include - string'
+            'exclude - string'
+            'max - number'
+          ]
+          link: https://vuejs.org/v2/api/#keep-alive
+          see: [
+            https://vuejs.org/v2/guide/components.html#keep-alive
+          ]
+        }
+        {
+          title: slot
+          props: [
+            'name - string'
+          ]
+          see: [
+            https://vuejs.org/v2/guide/components.html#Content-Distribution-with-Slots
+          ]
+        }
+      ]
+    }
+  ]
+}
+
+/*
+  TODO:
+    Directives:
+      - expects?
+      - arguments?
+      - limited to?
+    
+    Components:
+      - props?
+      - events?
+    
+    Other:
+      - maybe add some more info. for some of the smaller/shorter items?
+*/
