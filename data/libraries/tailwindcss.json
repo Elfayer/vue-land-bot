@@ -29,6 +29,6 @@
     "repo": "https://github.com/tailwindcss/tailwindcss",
     "chat": "https://discord.gg/vRmXppU"
   },
-  "aliases": [],
+  "aliases": ["tailwind"],
   "colour": "#4FC08D"
 }

@@ -7,6 +7,7 @@ const LIBRARY_NAMES = readdirSync(DATA_DIR)
   .filter(file => extname(file) === '.json')
   .map(file => basename(file, '.json'))
 
+const aliasMap = {}
 const libraries = {}
 
 for (const libraryName of LIBRARY_NAMES) {
@@ -18,6 +19,12 @@ for (const libraryName of LIBRARY_NAMES) {
       `[LibraryService] Something went wrong when requiring or validating "${libraryName}.json":`
     )
     console.error(error)
+  }
+}
+
+for (const library of Object.values(libraries)) {
+  for (const alias of library.aliases) {
+    aliasMap[alias] = library.name
   }
 }
 
@@ -35,6 +42,7 @@ export default libraries
  */
 
 /**
+ * Return a library.
  *
  * @param {string} name The name of the library.
  * @returns {LibraryDefinition} The library object.
@@ -44,10 +52,21 @@ export function getLibrary(name) {
     return libraries[name]
   }
 
-  // TODO: Check aliases and/or use an algorithm such as the
-  //       Levenshtein distance to find the nearest match.
+  if (aliasMap[name]) {
+    return libraries[aliasMap[name]]
+  }
+
+  // TODO: Use Levenshtein distance to find the nearest match.
 
   throw new Error(`[LibraryService] Could not find library: ${name}`)
+}
+
+/**
+ * Return all libraries.
+ * @returns {LibraryDefinition[]} The libraries array.
+ */
+export function getLibraries() {
+  return libraries
 }
 
 /**

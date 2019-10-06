@@ -32,6 +32,6 @@
     "site": "https://nuxtjs.org",
     "repo": "https://github.com/nuxt/nuxt.js"
   },
-  "aliases": [],
+  "aliases": ["nuxtjs", "nuxt"],
   "colour": "#4FC08D"
 }
