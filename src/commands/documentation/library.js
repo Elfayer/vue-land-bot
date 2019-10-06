@@ -1,10 +1,11 @@
 import { Command } from 'discord.js-commando'
-import { getLibrary } from '../../services/libraries'
+import { getLibrary, findPossibleMatches } from '../../services/libraries'
 import { RichEmbed } from 'discord.js'
 import { EMPTY_MESSAGE } from '../../utils/constants'
 import { tryDelete } from '../../utils/messages'
 import { uppercaseFirst } from '../../utils/string'
 
+const DELETE_MESSAGES_AFTER = 7500
 const DELETE_ERRORS_AFTER = 30000
 
 module.exports = class DocumentationLibraryCommand extends Command {
@@ -43,18 +44,44 @@ module.exports = class DocumentationLibraryCommand extends Command {
 
     try {
       let library = getLibrary(name)
+
       const embed = this.buildResponseEmbed(library)
 
       await msg.channel.send(EMPTY_MESSAGE, { embed })
-      tryDelete(msg)
+      tryDelete(msg, DELETE_MESSAGES_AFTER)
     } catch (error) {
-      console.error(error)
-      const embed = this.buildErrorEmbed(name)
-      const response = await msg.channel.send(EMPTY_MESSAGE, { embed })
+      const matches = findPossibleMatches(name)
 
-      tryDelete(msg)
-      tryDelete(response, DELETE_ERRORS_AFTER)
+      if (matches.length) {
+        const embed = this.buildDisambiguationEmbed(name, matches)
+        const response = await msg.channel.send(EMPTY_MESSAGE, { embed })
+
+        tryDelete(msg, DELETE_MESSAGES_AFTER)
+        tryDelete(response, DELETE_ERRORS_AFTER)
+      } else {
+        const embed = this.buildErrorEmbed(name)
+        const response = await msg.channel.send(EMPTY_MESSAGE, { embed })
+
+        tryDelete(msg, DELETE_MESSAGES_AFTER)
+        tryDelete(response, DELETE_ERRORS_AFTER)
+      }
     }
+  }
+
+  buildDisambiguationEmbed(name, matches) {
+    let matchingNames = matches.map(match => '`' + match.name + '`').join(', ')
+
+    // Don't overwhelm the user with information.
+    if (matchingNames.length >= 15) {
+      matchingNames = matchingNames.slice(0, 15)
+    }
+
+    return new RichEmbed()
+      .setTitle('Library Lookup')
+      .setColor('ORANGE')
+      .setDescription(
+        `Could not find library \`${name}\`, did you mean one of these:\n\n${matchingNames}?`
+      )
   }
 
   buildResponseEmbed(library) {

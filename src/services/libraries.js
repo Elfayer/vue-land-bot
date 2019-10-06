@@ -1,5 +1,6 @@
 import { join, resolve, extname, basename } from 'path'
 import { readdirSync } from 'fs'
+import { distanceBetween } from '../utils/string'
 
 const DATA_DIR = resolve(__dirname, '../../data/libraries')
 
@@ -56,17 +57,33 @@ export function getLibrary(name) {
     return libraries[aliasMap[name]]
   }
 
-  // TODO: Use Levenshtein distance to find the nearest match.
-
   throw new Error(`[LibraryService] Could not find library: ${name}`)
 }
 
 /**
- * Return all libraries.
- * @returns {LibraryDefinition[]} The libraries array.
+ * Find potentially matching libraries using the Levenshtein distance algorithm.
+ *
+ * @param {string} name The library name to match against.
+ * @returns {LibraryDefinition[]} The matching libraries.
  */
-export function getLibraries() {
-  return libraries
+export function findPossibleMatches(name) {
+  const threshold = 0.5
+
+  return Object.entries(libraries).reduce((matches, [libraryName, library]) => {
+    const distance = distanceBetween(name, libraryName)
+
+    if (distance >= threshold) {
+      matches.push(library)
+    }
+
+    return matches
+  }, [])
+}
+
+for (const library of Object.values(libraries)) {
+  for (const alias of library.aliases) {
+    aliasMap[alias] = library.name
+  }
 }
 
 /**
