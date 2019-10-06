@@ -75,6 +75,10 @@
       items: [
         {
           title: Vue.extend( options )
+          aliases: [
+            Vue.extend
+            extend
+          ]
           arguments: [
             '{Object} options'
           ]
@@ -85,6 +89,10 @@
         }
         {
           title: Vue.nextTick( [callback, context] )
+          aliases: [
+            Vue.nextTick
+            nextTick
+          ]
           arguments: [
             '{Function} [callback]'
             '{Object} [context]'
@@ -96,6 +104,10 @@
         }
         {
           title: Vue.set( target, propertyName/index, value )
+          aliases: [
+            Vue.set
+            set
+          ]
           arguments: [
           '{Object | Array} target'
           '{string | number} propertyName/index'
@@ -109,6 +121,10 @@
         }
         {
           title: Vue.delete( target, propertyName/index )
+          aliases: [
+            Vue.delete
+            delete
+          ]
           arguments: [
             '{Object | Array} target'
             '{string | number} propertyName/index'
@@ -120,6 +136,10 @@
         }
         {
           title: Vue.directive( id, [definition] )
+          aliases: [
+            Vue.directive
+            directive
+          ]
           arguments: [
             '{string} id'
             '{Function | Object} [definition]'
@@ -131,6 +151,10 @@
         }
         {
           title: Vue.filter( id, [definition] )
+          aliases: [
+            Vue.filter
+            filter
+          ]
           arguments: [
           '{string} id'
           '{Function} [definition]'
@@ -141,7 +165,11 @@
           ]
         }
         {
-          title: .
+          title: Vue.component( id, [definition] )
+          aliases: [
+            Vue.component
+            component
+          ]
           arguments: [
             '{string} id'
             '{Function | Object} [definition]'
@@ -153,6 +181,10 @@
         }
         {
           title: Vue.use( plugin )
+          aliases: [
+            Vue.use
+            use
+          ]
           arguments: [
             '{Object | Function} plugin'
           ]
@@ -163,6 +195,10 @@
         }
         {
           title: Vue.mixin( mixin )
+          aliases: [
+            Vue.mixin
+            mixin
+          ]
           arguments: [
             '{Object} mixin'
           ]
@@ -173,6 +209,10 @@
         }
         {
           title: Vue.compile( template )
+          aliases: [
+            Vue.compile
+            compile
+          ]
           arguments: [
             '{string} template'
           ]
@@ -183,6 +223,10 @@
         }
         {
           title: Vue.observable( object )
+          aliases: [
+            Vue.observable
+            observable
+          ]
           arguments: [
             '{Object} object'
           ]
@@ -193,6 +237,9 @@
         }
         {
           title: Vue.version
+          aliases: [
+            version
+          ]
           link: https://vuejs.org/v2/api/#Vue-version
         }
       ]
@@ -492,6 +539,9 @@
       items: [
         {
           title: vm.$data
+          aliases: [
+            $data
+          ]
           type: Object
           link: https://vuejs.org/v2/api/#vm-data
           see: [
@@ -500,6 +550,9 @@
         }
         {
           title: vm.$props
+          aliases: [
+            $props
+          ]
           type: Object
           link: https://vuejs.org/v2/api/#vm-props
           see: [
@@ -508,6 +561,9 @@
         }
         {
           title: vm.$el
+          aliases: [
+            $el
+          ]
           type: Element
           link: https://vuejs.org/v2/api/#vm-el
           see: [
@@ -516,6 +572,9 @@
         }
         {
           title: vm.$options
+          aliases: [
+            $options
+          ]
           type: Object
           link: https://vuejs.org/v2/api/#vm-options
           see: [
@@ -524,6 +583,9 @@
         }
         {
           title: vm.$parent
+          aliases: [
+            $parent
+          ]
           type: Vue instance
           link: https://vuejs.org/v2/api/#vm-parent
           see: [
@@ -532,6 +594,9 @@
         }
         {
           title: vm.$root
+          aliases: [
+            $root
+          ]
           type: Vue instance
           link: https://vuejs.org/v2/api/#vm-root
           see: [
@@ -540,6 +605,9 @@
         }
         {
           title: vm.$children
+          aliases: [
+            $children
+          ]
           type: Array<Vue instance>
           link: https://vuejs.org/v2/api/#vm-children
           see: [
@@ -548,6 +616,9 @@
         }
         {
           title: vm.$slots
+          aliases: [
+            $slots
+          ]
           type: '{ [name: string]: ?Array<VNode> }'
           link: https://vuejs.org/v2/api/#vm-slots
           see: [
@@ -558,6 +629,9 @@
         }
         {
           title: vm.$scopedSlots
+          aliases: [
+            $scopedSlots
+          ]
           type: '{ [name: string]: props => Array<VNode> | undefined }'
           link: https://vuejs.org/v2/api/#vm-scopedSlots
           version: 2.1.0+
@@ -569,6 +643,9 @@
         }
         {
           title: vm.$refs
+          aliases: [
+            $refs
+          ]
           type: Object
           link: https://vuejs.org/v2/api/#vm-refs
           see: [
@@ -578,6 +655,9 @@
         }
         {
           title: vm.$isServer
+          aliases: [
+            $isServer
+          ]
           type: boolean
           link: https://vuejs.org/v2/api/#vm-isServer
           see: [
@@ -586,12 +666,18 @@
         }
         {
           title: vm.$attrs
+          aliases: [
+            $attrs
+          ]
           type: '{ [key: string]: string }'
           link: https://vuejs.org/v2/api/#vm-attrs
           version: 2.4.0+
         }
         {
           title: vm.$listeners
+          aliases: [
+            $listeners
+          ]
           type: '{ [key: string]: Function | Array<Function> }'
           link: https://vuejs.org/v2/api/#vm-listeners
           version: 2.4.0+
@@ -603,6 +689,10 @@
       items: [
         {
           title: vm.$watch (expOrFn, callback, [options] )
+          aliases: [
+            vm.$watch
+            $watch
+          ]
           arguments: [
             '{string | Function} expOrFn'
             '{Function | Object} callback'
@@ -615,6 +705,10 @@
         }
         {
           title: vm.$set( target, propertyName/index, value )
+          aliases: [
+            vm.$set
+            $set
+          ]
           arguments: [
             '{Object | Array} target'
             '{string | number} propertyName/index'
@@ -628,6 +722,10 @@
         }
         {
           title: vm.$delete( target, propertyName/index )
+          aliases: [
+            vm.$delete
+            $delete
+          ]
           arguments: [
             '{Object | Array} target'
             '{string | number} propertyName/index'
@@ -645,6 +743,10 @@
       items: [
         {
           title: vm.$on( event, callback )
+          aliases: [
+            vm.$on
+            $on
+          ]
           arguments: [
             '{string | Array<string>} event (array only supported in 2.2.0+)'
             '{Function} callback'
@@ -653,6 +755,10 @@
         }
         {
           title: vm.$once( event, callback )
+          aliases: [
+            vm.$once
+            $once
+          ]
           arguments: [
             '{string} event'
             '{Function} callback'
@@ -661,6 +767,10 @@
         }
         {
           title: vm.$off( [event, callback] )
+          aliases: [
+            vm.$off
+            $off
+          ]
           arguments: [
             '{string | Array<string>} event (array only supported in 2.2.2+)'
             '{Function} [callback]'
@@ -669,6 +779,10 @@
         }
         {
           title: vm.$emit( eventName, [...args] )
+          aliases: [
+            vm.$emit
+            $emit
+          ]
           arguments: [
             '{string} eventName'
             '[...args]'
@@ -682,6 +796,10 @@
       items: [
         {
           title: vm.$mount( [elementOrSelector] )
+          aliases: [
+            vm.$mount
+            $mount
+          ]
           arguments: [
             '{Element | string} [elementOrSelector]'
             '{boolean} [hydrating]'
@@ -695,10 +813,18 @@
         }
         {
           title: vm.$forceUpdate()
+          aliases: [
+            vm.$forceUpdate
+            $forceUpdate
+          ]
           link: https://vuejs.org/v2/api/#vm-forceUpdate
         }
         {
           title: vm.$nextTick( [callback] )
+          aliases: [
+            vm.$nextTick
+            $nextTick
+          ]
           arguments: [
             '{Function} [callback]'
           ]
@@ -710,6 +836,10 @@
         }
         {
           title: vm.$destroy()
+          aliases: [
+            vm.$destroy
+            $destroy
+          ]
           link: https://vuejs.org/v2/api/#vm-destroy
           see: [
             https://vuejs.org/v2/guide/instance.html#Lifecycle-Diagram
