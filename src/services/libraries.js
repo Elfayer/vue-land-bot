@@ -2,8 +2,6 @@ import { join, resolve, extname, basename } from 'path'
 import { readdirSync } from 'fs'
 
 const DATA_DIR = resolve(__dirname, '../../data/libraries')
-const AVATAR_BASE_URL =
-  'https://raw.githubusercontent.com/sustained/vue-land-bot/feat-library/assets/images/avatars/'
 
 const LIBRARY_NAMES = readdirSync(DATA_DIR)
   .filter(file => extname(file) === '.json')
@@ -24,8 +22,6 @@ for (const libraryName of LIBRARY_NAMES) {
 }
 
 export default libraries
-
-console.log(libraries['saber'])
 
 /**
  * @typedef {Object} LibraryDefinition
