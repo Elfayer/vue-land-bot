@@ -58,16 +58,21 @@ module.exports = class DocumentationLibraryCommand extends Command {
 
   buildResponseEmbed(library) {
     const embed = new RichEmbed()
-      .setURL(library.url.site)
-      .setTitle(library.name)
+      .setTitle(uppercaseFirst(library.name))
       .setColor(library.colour)
 
-    if (library.tagline) {
-      embed.setDescription(library.tagline)
+    if (library.links.site) {
+      embed.setURL(library.links.site)
+    } else {
+      embed.setURL(library.links.repo)
     }
 
-    if (library.tags.length) {
-      embed.setFooter('Tags: ' + library.tags.join(', '))
+    if (library.description) {
+      embed.setDescription(library.description)
+    }
+
+    if (library.topics.length) {
+      embed.setFooter('Tags: ' + library.topics.join(', '))
     }
 
     if (library.icon) {
@@ -77,12 +82,13 @@ module.exports = class DocumentationLibraryCommand extends Command {
       })
     }
 
-    if (library.author) {
+    if (library.organization) {
       embed.setAuthor(
-        library.author.name,
-        library.author.avatar,
-        library.author.url
+        library.organization.login,
+        library.organization.avatar_url
       )
+    } else {
+      embed.setAuthor(library.owner.login, library.owner.avatar_url)
     }
 
     if (library.fields) {
@@ -95,8 +101,14 @@ module.exports = class DocumentationLibraryCommand extends Command {
       }
     }
 
-    for (const [name, url] of Object.entries(library.url)) {
-      embed.addField(uppercaseFirst(name), url)
+    for (const [name, url] of Object.entries(library.links)) {
+      if (url !== null) {
+        embed.addField(uppercaseFirst(name), url)
+      }
+    }
+
+    if (library.license) {
+      embed.addField('License', library.license.name, true)
     }
 
     return embed

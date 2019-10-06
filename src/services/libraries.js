@@ -71,28 +71,16 @@ function _validateLibrary(library) {
     throw new Error('Field "name" required')
   }
 
-  if (typeof library.url === 'undefined') {
-    throw new Error('Field "url" required')
+  if (typeof library.fields !== 'undefined' && !Array.isArray(library.fields)) {
+    throw new TypeError('Field "fields", if present, must be of type "Array"')
   }
 
-  if (typeof library.fields === 'undefined') {
-    throw new Error('Field "fields" required')
-  }
-
-  if (!Array.isArray(library.fields)) {
-    throw new TypeError('Field "fields" must be of type "Array"')
-  }
-
-  if (!Array.isArray(library.tags)) {
-    library.tags = []
+  if (!Array.isArray(library.topics)) {
+    library.topics = []
   }
 
   if (typeof library.colour === 'undefined') {
     library.colour = 'RANDOM'
-  }
-
-  if (library.author && library.author.avatar) {
-    library.author.avatar = AVATAR_BASE_URL + library.author.avatar
   }
 
   return library
