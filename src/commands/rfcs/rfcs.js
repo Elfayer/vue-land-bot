@@ -49,7 +49,6 @@ module.exports = class RFCsCommand extends Command {
 
     const embed = new RichEmbed()
       .setTitle('Vue.js Requests for Comments')
-      .setDescription(`Viewing RFCs filtered by: ${filter}.`)
       .setColor(DEFAULT_EMBED_COLOUR)
 
     try {
@@ -67,6 +66,10 @@ module.exports = class RFCsCommand extends Command {
           value: rfc.html_url,
         }
       })
+
+      embed.setDescription(
+        `Viewing ${rfcs.length} RFCs filtered by: ${filter}.`
+      )
 
       respondWithPaginatedEmbed(msg, embed, rfcs, {
         itemsPerPage: RFCS_PER_PAGE,
