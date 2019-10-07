@@ -50,6 +50,11 @@ module.exports = class RFCsCommand extends Command {
     const embed = new RichEmbed()
       .setTitle('Vue.js Requests for Comments')
       .setColor(DEFAULT_EMBED_COLOUR)
+      .setAuthor(
+        'Requested by: ' +
+          (msg.member ? msg.member.displayName : msg.author.username),
+        msg.author.avatarURL
+      )
 
     try {
       let rfcs = await getAllRFCs()
