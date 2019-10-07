@@ -42,7 +42,7 @@ export async function reloadCache() {
       await writeFile(PATH_CACHE_FILE, JSON.stringify(data))
     }
 
-    console.info('Cached RFCs to disc!')
+    console.info(`Cached ${data.length} RFCs to disc!`)
 
     rfcs = data
     return rfcs
