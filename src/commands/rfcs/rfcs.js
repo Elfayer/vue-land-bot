@@ -65,18 +65,11 @@ module.exports = class RFCsCommand extends Command {
         rfcs = rfcs.filter(rfc => rfc.merged_at !== null)
       }
 
-      rfcs = rfcs.map(rfc => {
-        return {
-          name: `#${rfc.number} - ${rfc.title}`,
-          value: rfc.html_url,
-        }
-      })
-
       embed.setDescription(
         `Viewing ${rfcs.length} RFCs filtered by: ${filter}.\n\nTo view a specific RFC, use: \`!rfc <number>\``
       )
 
-      respondWithPaginatedEmbed(msg, embed, rfcs, {
+      respondWithPaginatedEmbed(msg, embed, this.createRFCFields(rfcs), {
         itemsPerPage: RFCS_PER_PAGE,
         observeReactionsFor: 1000 * 60 * 5,
       })
@@ -86,5 +79,14 @@ module.exports = class RFCsCommand extends Command {
       tryDelete(msg)
       tryDelete(response, 7500)
     }
+  }
+
+  createRFCFields(rfcs) {
+    return rfcs.map(rfc => {
+      return {
+        name: `#${rfc.number} - ${rfc.title}`,
+        value: rfc.html_url,
+      }
+    })
   }
 }
