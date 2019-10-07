@@ -284,7 +284,7 @@ const VALID_DISCORD_EVENTS = [
   'warn',
   'webhookUpdate',
   // Commando Events
-  'commandBlock',
+  'commandBlocked', // NOTE: Is commandBlocked in older versions and commandBlock in newer.
   'commandCancel',
   'commandError',
   'commandPrefixChange',
