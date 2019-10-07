@@ -1,5 +1,6 @@
-const { NODE_ENV = 'development' } = process.env
+import { resolve } from 'path'
 
+const { NODE_ENV = 'development' } = process.env
 const IMPORT_FILE = `./${NODE_ENV}.js`
 
 const {
@@ -38,6 +39,12 @@ const MODERATOR_ROLE_IDS = Object.freeze([ROLES.CORE_TEAM, ROLES.MODERATORS])
 */
 const EMPTY_MESSAGE = '\u200b'
 
+/*
+  Various paths.
+*/
+
+const DATA_DIR = resolve(__dirname, '../../../data')
+
 export {
   USERS,
   ROLES,
@@ -47,4 +54,5 @@ export {
   MODERATOR_ROLE_IDS,
   BOT_DEVELOPER_IDS,
   EMPTY_MESSAGE,
+  DATA_DIR,
 }
