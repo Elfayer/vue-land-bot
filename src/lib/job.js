@@ -92,6 +92,19 @@ export default class Job extends EventEmitter {
     this.guildOnly = options.guildOnly
     this.description = options.description || ''
 
+    // NOTE: We need to bind the events here else their `this` will be `CommandoClient`.
+    for (const event of this.events) {
+      if (!isValidEvent(event)) {
+        continue
+      }
+
+      if (typeof this[event] !== 'function') {
+        console.warn(`Missing event handler for event ${event} for ${this}.`)
+      }
+
+      this[event] = this[event].bind(this)
+    }
+
     this.on('enabled', this.attachEventListeners)
     this.on('disabled', this.removeEventListeners)
 
