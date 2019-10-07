@@ -23,6 +23,10 @@ module.exports = class MiscCodeCommand extends Command {
   async run(msg) {
     const embedMessage = new RichEmbed()
       .setColor('#42b883')
+      .setAuthor(
+        msg.member ? msg.member.displayName : msg.author.username,
+        msg.author.avatarURL
+      )
       .setTitle('Vue Land Roles')
       .setDescription(
         '**NOTE:** Please do not ping any of these roles (except Moderators).'
