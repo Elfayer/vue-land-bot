@@ -80,6 +80,7 @@ module.exports = class RFCsCommand extends Command {
         itemsPerPage: RFCS_PER_PAGE,
         observeReactionsFor: 1000 * 60 * 5,
       })
+      tryDelete(msg, 2500)
     } catch (e) {
       const response = await msg.reply('Sorry, an unknown error occured.')
       tryDelete(msg)
