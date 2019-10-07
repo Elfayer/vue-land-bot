@@ -17,9 +17,10 @@ module.exports = class RFCsCommand extends Command {
           key: 'filter',
           type: 'string',
           validate(value) {
-            return ['all', 'open', 'closed', 'popular'].includes(value)
+            return ['all', 'open', 'closed', 'merged'].includes(value)
           },
-          prompt: 'the filter (all, open, closed, merged, popular)?',
+          prompt:
+            'Would you like to view `all`, `open`, `closed` or `merged` RFCs?',
           default: 'all',
         },
       ],
@@ -32,11 +33,10 @@ module.exports = class RFCsCommand extends Command {
         '!rfcs open',
         '!rfcs closed',
         '!rfcs merged',
-        '!rfcs popular',
       ],
       guildOnly: false,
       memberName: 'rfcs',
-      description: 'List all (open/closed/merged/popular) RFCs.',
+      description: 'List all (open/closed/merged) RFCs.',
     })
   }
 
@@ -57,7 +57,7 @@ module.exports = class RFCsCommand extends Command {
 
       if (filter === 'open' || filter === 'closed') {
         rfcs = rfcs.filter(rfc => rfc.state === filter)
-      } else if (filter === 'popular' || filter === 'merged') {
+      } else if (filter === 'merged') {
         return msg.reply('Not yet implemented')
       }
 
