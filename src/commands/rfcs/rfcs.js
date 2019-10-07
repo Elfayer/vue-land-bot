@@ -58,7 +58,7 @@ module.exports = class RFCsCommand extends Command {
       if (filter === 'open' || filter === 'closed') {
         rfcs = rfcs.filter(rfc => rfc.state === filter)
       } else if (filter === 'merged') {
-        return msg.reply('Not yet implemented')
+        rfcs = rfcs.filter(rfc => rfc.merged_at !== null)
       }
 
       rfcs = rfcs.map(rfc => {
