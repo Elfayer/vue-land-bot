@@ -26,8 +26,7 @@ export function tryDelete(msg, delay = 0) {
     }
   }
 
-  msg.delete(delay)
-  return true
+  return msg.delete(delay)
 }
 
 /*
