@@ -1,6 +1,7 @@
 import { Command } from 'discord.js-commando'
 import { RichEmbed } from 'discord.js'
 import { ROLES } from '../../utils/constants'
+import { tryDelete } from '../../utils/messages'
 
 module.exports = class MiscCodeCommand extends Command {
   constructor(client) {
@@ -55,6 +56,6 @@ module.exports = class MiscCodeCommand extends Command {
         `The <@&${ROLES.NITRO_BOOSTERS}> role consists of people who have boosted the server with their Discord Nitro membership (thanks)!`
       )
 
-    msg.channel.send(embedMessage)
+    msg.channel.send(embedMessage).then(() => tryDelete(msg))
   }
 }
