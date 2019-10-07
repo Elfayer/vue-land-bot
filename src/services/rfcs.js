@@ -4,7 +4,10 @@ import github from '../github'
 import { DATA_DIR } from '../utils/constants'
 const { stat, writeFile } = promises
 
-export const CACHE_TTL = 1000 * 60
+const { NODE_ENV = 'development' } = process
+
+export const CACHE_TTL =
+  NODE_ENV === 'development' ? 1000 * 60 * 5 : 1000 * 60 * 60 * 3
 export const PATH_CACHE_FILE = join(DATA_DIR, 'rfcs/', 'rfcs.json')
 export const repository = github.getRepo('vuejs', 'rfcs')
 
