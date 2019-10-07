@@ -118,6 +118,10 @@ module.exports = class DocumentationAPICommand extends Command {
       embed.addField('Default', inlineCode(api.default), true)
     }
 
+    if (api.version) {
+      embed.addField('Since', api.version, true)
+    }
+
     if (api.arguments) {
       embed.addField(
         'Arguments',
