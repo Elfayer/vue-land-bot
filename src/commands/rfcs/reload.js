@@ -1,8 +1,10 @@
 import { Command } from 'discord.js-commando'
 import { RichEmbed } from 'discord.js'
 import { reloadCache } from '../../services/rfcs'
-import { EMPTY_MESSAGE } from '../../utils/constants'
+import { EMPTY_MESSAGE, ROLES } from '../../utils/constants'
 import { tryDelete } from '../../utils/messages'
+
+const ALLOWED_ROLES = [ROLES.MODERATORS, ROLES.CORE_TEAM, ROLES.BOT_DEVELOPERS]
 
 module.exports = class RFCsCommand extends Command {
   constructor(client) {
@@ -15,8 +17,12 @@ module.exports = class RFCsCommand extends Command {
     })
   }
 
-  hasPermission() {
-    return true
+  hasPermission(msg) {
+    if (msg.member.roles.some(role => ALLOWED_ROLES.includes(role.id))) {
+      return true
+    }
+
+    return false
   }
 
   async run(msg) {
