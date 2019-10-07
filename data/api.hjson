@@ -987,7 +987,11 @@
           ]
         }
         {
-          title: slot
+          title: attr:slot
+          aliases: [
+            slot
+          ]
+          description: "*NOTE: Looking for the component? Try `!api <slot>`.*"
           link: https://vuejs.org/v2/api/#slot-deprecated
           status: deprecated
           see: [
@@ -1019,7 +1023,10 @@
       title: Built-in Components
       items: [
         {
-          title: component
+          title: <component>
+          aliases: [
+            component
+          ]
           props: [
             'is - string | ComponentDefinition | ComponentConstructor'
             'inline-template - boolean'
@@ -1030,14 +1037,20 @@
           ]
         }
         {
-          title: transition
+          title: <transition>
+          aliases: [
+            transition
+          ]
           link: https://vuejs.org/v2/api/#transition
           see: [
             https://vuejs.org/v2/guide/transitions.html
           ]
         }
         {
-          title: transition-group
+          title: <transition-group>
+          aliases: [
+            transition-group
+          ]
           props: [
             'tag - string, defaults to span.'
             'move-class - overwrite CSS class applied during moving transition.'
@@ -1049,7 +1062,10 @@
           ]
         }
         {
-          title: keep-alive
+          title: <keep-alive>
+          aliases: [
+            keep-alive
+          ]
           props: [
             'include - string'
             'exclude - string'
@@ -1061,7 +1077,12 @@
           ]
         }
         {
-          title: slot
+          title: <slot>
+          description: "*NOTE: Looking for the attribute? Try `!api slot`.*"
+          aliases: [
+            c:slot
+          ]
+          link: https://vuejs.org/v2/api/#slot
           props: [
             'name - string'
           ]
