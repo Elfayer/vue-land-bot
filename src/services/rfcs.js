@@ -36,7 +36,16 @@ if (!existsSync(PATH_CACHE_FILE)) {
  */
 export async function reloadCache() {
   try {
-    const { data } = await repository.listPullRequests()
+    /*
+      WORKAROUND: We should be using repo.listPullRequests({ state: 'all' }) but it's 
+                  not working at the moment due to some pagination-related issues.
+
+      https://github.com/github-tools/github/issues/593
+      https://github.com/github-tools/github/issues/578
+    */
+    const { data } = await repository._requestAllPages(
+      `/repos/${repository.__fullname}/pulls?state=all`
+    )
 
     if (Array.isArray(data) && data.length) {
       await writeFile(PATH_CACHE_FILE, JSON.stringify(data))
