@@ -73,7 +73,7 @@ module.exports = class RFCsCommand extends Command {
       })
 
       embed.setDescription(
-        `Viewing ${rfcs.length} RFCs filtered by: ${filter}.`
+        `Viewing ${rfcs.length} RFCs filtered by: ${filter}.\n\nTo view a specific RFC, use: \`!rfc <number>\``
       )
 
       respondWithPaginatedEmbed(msg, embed, rfcs, {
