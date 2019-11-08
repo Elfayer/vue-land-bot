@@ -1,0 +1,41 @@
+{
+  "name": "epic-spinners",
+  "full_name": "epicmaxco/epic-spinners",
+  "description": "Easy to use css spinners collection with Vue.js integration",
+  "topics": [
+    "vue",
+    "css-spinners-collection",
+    "css-animations",
+    "javascript",
+    "css-loaders",
+    "vue-components",
+    "spinner",
+    "css",
+    "gallery",
+    "html",
+    "vue-spinner-component",
+    "animations",
+    "loading-animations",
+    "loading-screen",
+    "loading-spinner"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "epicmaxco",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/30595047?v=4"
+  },
+  "organization": {
+    "login": "epicmaxco",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/30595047?v=4"
+  },
+  "links": {
+    "site": null,
+    "repo": "https://github.com/epicmaxco/epic-spinners"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

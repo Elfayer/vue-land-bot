@@ -1,0 +1,22 @@
+{
+  "name": "vue-tag-selector",
+  "full_name": "tomquinonero/vue-tag-selector",
+  "description": "A simple tag selector as a vue component.",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "tomquinonero",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/15861247?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "http://tomquinonero.com/vue-tag-selector/",
+    "repo": "https://github.com/tomquinonero/vue-tag-selector"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

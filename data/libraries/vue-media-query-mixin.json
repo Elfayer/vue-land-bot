@@ -1,0 +1,29 @@
+{
+  "name": "vue-media-query-mixin",
+  "full_name": "jofftiquez/vue-media-query-mixin",
+  "description": "A vue mixin to get current media query, xs, sm, md and lg.",
+  "topics": [
+    "vue",
+    "vuejs",
+    "vuejs2",
+    "vue-mixin",
+    "mixins",
+    "media-queries"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "jofftiquez",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/8638243?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/jofftiquez/vue-media-query-mixin"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

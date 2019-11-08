@@ -1,0 +1,22 @@
+{
+  "name": "v-scroll-lock",
+  "full_name": "phegman/v-scroll-lock",
+  "description": "A Vue.js directive for body scroll locking without breaking scrolling of a target element.",
+  "topics": [],
+  "license": {
+    "key": "gpl-3.0",
+    "url": "https://api.github.com/licenses/gpl-3.0",
+    "name": "GNU General Public License v3.0"
+  },
+  "owner": {
+    "login": "phegman",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/4230489?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/phegman/v-scroll-lock"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

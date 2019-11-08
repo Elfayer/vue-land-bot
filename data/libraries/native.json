@@ -1,0 +1,27 @@
+{
+  "name": "native",
+  "full_name": "formschema/native",
+  "description": "Generate a form using JSON Schema and Vue.js",
+  "topics": [
+    "vue",
+    "json",
+    "schema",
+    "form",
+    "component"
+  ],
+  "license": null,
+  "owner": {
+    "login": "formschema",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/36614009?v=4"
+  },
+  "organization": {
+    "login": "formschema",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/36614009?v=4"
+  },
+  "links": {
+    "site": "https://gitlab.com/formschema/native",
+    "repo": "https://github.com/formschema/native"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

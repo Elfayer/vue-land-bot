@@ -1,0 +1,30 @@
+{
+  "name": "vue-generator",
+  "full_name": "hjeti/vue-generator",
+  "description": "A CLI generator for Vue components, views and store modules",
+  "topics": [
+    "generator",
+    "vue",
+    "vuejs",
+    "cli-generators",
+    "vue-components",
+    "vuejs2",
+    "vuex"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "hjeti",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/26173362?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/hjeti/vue-generator"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

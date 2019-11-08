@@ -1,0 +1,30 @@
+{
+  "name": "bili",
+  "full_name": "egoist/bili",
+  "description": "Bili makes it easier to bundle JavaScript libraries.",
+  "topics": [
+    "rollup",
+    "bundle",
+    "buble",
+    "babel",
+    "typescript",
+    "bundler",
+    "package"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "egoist",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/8784712?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://bili.egoist.sh",
+    "repo": "https://github.com/egoist/bili"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

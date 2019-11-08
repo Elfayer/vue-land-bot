@@ -1,0 +1,28 @@
+{
+  "name": "vue-breadcrumbs",
+  "full_name": "samturrell/vue-breadcrumbs",
+  "description": "Breadcrumbs for Vue.js",
+  "topics": [
+    "vue",
+    "breadcrumbs",
+    "vue-breadcrumbs",
+    "javascript",
+    "plugin"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "samturrell",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/5918348?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/samturrell/vue-breadcrumbs"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

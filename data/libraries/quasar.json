@@ -1,0 +1,45 @@
+{
+  "name": "quasar",
+  "icon": "quasar.png",
+  "full_name": "quasarframework/quasar",
+  "description": "Quasar Framework - Build high-performance VueJS user interfaces in record time",
+  "topics": [
+    "quasar-framework",
+    "vuejs",
+    "vuejs2",
+    "vue",
+    "vue-component",
+    "javascript",
+    "ios",
+    "android",
+    "electron",
+    "material",
+    "vue-components",
+    "material-theme",
+    "material-design",
+    "material-components",
+    "vue2",
+    "pwa",
+    "ssr",
+    "server-side-rendering"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "quasarframework",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/23064371?v=4"
+  },
+  "organization": {
+    "login": "quasarframework",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/23064371?v=4"
+  },
+  "links": {
+    "site": "https://quasar.dev",
+    "repo": "https://github.com/quasarframework/quasar"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

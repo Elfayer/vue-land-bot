@@ -1,0 +1,26 @@
+{
+  "name": "vue-icon-font",
+  "full_name": "ganl/vue-icon-font",
+  "description": "IconFont plugin for Vuejs",
+  "topics": [
+    "vue",
+    "vuejs",
+    "vue2",
+    "vue-components",
+    "ico",
+    "icon-font",
+    "icon"
+  ],
+  "license": null,
+  "owner": {
+    "login": "ganl",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/11937688?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://ganl.github.io/vue-icon-font/demo/",
+    "repo": "https://github.com/ganl/vue-icon-font"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

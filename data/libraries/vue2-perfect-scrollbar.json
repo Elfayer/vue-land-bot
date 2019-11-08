@@ -1,0 +1,28 @@
+{
+  "name": "vue2-perfect-scrollbar",
+  "full_name": "mercs600/vue2-perfect-scrollbar",
+  "description": "Vue.js wrapper for perfect scrollbar ",
+  "topics": [
+    "vue",
+    "vuejs2",
+    "vuejs",
+    "perfect-scrollbar",
+    "vuejs-components"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "mercs600",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/7935392?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://mercs600.github.io/vue2-perfect-scrollbar/",
+    "repo": "https://github.com/mercs600/vue2-perfect-scrollbar"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,29 @@
+{
+  "name": "vue-tinymce-editor",
+  "full_name": "dyonir/vue-tinymce-editor",
+  "description": "This a component provides use of tinymce for vue developers",
+  "topics": [
+    "vue",
+    "tinymce",
+    "editor",
+    "component",
+    "vuejs",
+    "vue2",
+    "vue2js"
+  ],
+  "license": null,
+  "owner": {
+    "login": "dyonir",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/31437861?v=4"
+  },
+  "organization": {
+    "login": "dyonir",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/31437861?v=4"
+  },
+  "links": {
+    "site": null,
+    "repo": "https://github.com/dyonir/vue-tinymce-editor"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

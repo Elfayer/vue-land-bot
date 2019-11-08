@@ -1,0 +1,25 @@
+{
+  "name": "vue-medium-editor",
+  "full_name": "FranzSkuffka/vue-medium-editor",
+  "description": "✍️   A MediumEditor component for Vue 2. Demo:",
+  "topics": [
+    "medium-editor",
+    "vue"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "FranzSkuffka",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/7485959?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://franzskuffka.github.io/vue-medium-editor/",
+    "repo": "https://github.com/FranzSkuffka/vue-medium-editor"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

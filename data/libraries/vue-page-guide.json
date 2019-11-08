@@ -1,0 +1,22 @@
+{
+  "name": "vue-page-guide",
+  "full_name": "sschandi/vue-page-guide",
+  "description": "Demo/Docs:",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "sschandi",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/16356559?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://sschandi.github.io/vue-page-guide/",
+    "repo": "https://github.com/sschandi/vue-page-guide"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

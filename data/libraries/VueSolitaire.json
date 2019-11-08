@@ -1,0 +1,31 @@
+{
+  "name": "VueSolitaire",
+  "full_name": "silent-lad/VueSolitaire",
+  "description": "Solitaire made in Vue",
+  "topics": [
+    "vue-solitaire-klondike-spider",
+    "vuejs",
+    "vue",
+    "solitaire",
+    "solitaire-game",
+    "spider-solitaire",
+    "klondike",
+    "vue-solitaire"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "silent-lad",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/30868400?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/silent-lad/VueSolitaire"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

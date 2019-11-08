@@ -1,0 +1,22 @@
+{
+  "name": "v-gallery",
+  "full_name": "TerryZ/v-gallery",
+  "description": "A Vue2 plugin for images show in gallery or carousel",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "TerryZ",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/854406?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://terryz.github.io/vue/#/gallery",
+    "repo": "https://github.com/TerryZ/v-gallery"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

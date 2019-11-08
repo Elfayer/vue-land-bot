@@ -1,0 +1,38 @@
+{
+  "name": "sysmon",
+  "full_name": "Lt0/sysmon",
+  "description": "A B/S mode system monitor for linux (demo http://199.247.1.240:2048)",
+  "topics": [
+    "linux",
+    "system",
+    "monitor",
+    "windows",
+    "android",
+    "iso",
+    "mac-os",
+    "vue",
+    "vuetify",
+    "chartjs",
+    "webapp",
+    "materia",
+    "vuejs2",
+    "javascript",
+    "pwa"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "Lt0",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/4085885?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/Lt0/sysmon"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,28 @@
+{
+  "name": "img-vuer",
+  "full_name": "ssshooter/img-vuer",
+  "description": "An Mobile-First image viewer for Vue2  / 一个移动端优先的 Vue2 图片预览插件",
+  "topics": [
+    "image-gallery",
+    "image",
+    "vue-image-viewer",
+    "vue",
+    "vuejs"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "ssshooter",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/13051472?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://ssshooter.github.io/img-vuer/index.html",
+    "repo": "https://github.com/ssshooter/img-vuer"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

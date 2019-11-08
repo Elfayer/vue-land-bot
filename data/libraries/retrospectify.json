@@ -1,0 +1,29 @@
+{
+  "name": "retrospectify",
+  "full_name": "pepf/retrospectify",
+  "description": "An awesome tool for retrospecting, written in Vue",
+  "topics": [
+    "vue",
+    "retrospectives",
+    "scrum",
+    "agile",
+    "localstorage",
+    "vue-cli"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "pepf",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/1265435?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/pepf/retrospectify"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

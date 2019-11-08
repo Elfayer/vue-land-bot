@@ -1,0 +1,28 @@
+{
+  "name": "Loopa-News",
+  "full_name": "Angarsk8/Loopa-News",
+  "description": "Realtime social news app developed from scratch with Elixir, Phoenix, Vue and Vuex",
+  "topics": [
+    "elixir",
+    "phoenix",
+    "vue",
+    "vuex",
+    "realtime"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "Angarsk8",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/11448559?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://loopa-news.herokuapp.com",
+    "repo": "https://github.com/Angarsk8/Loopa-News"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

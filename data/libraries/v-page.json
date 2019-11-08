@@ -1,0 +1,31 @@
+{
+  "name": "v-page",
+  "full_name": "TerryZ/v-page",
+  "description": "A simple pagination bar, including length Menu, i18n support, based on Vue2.x",
+  "topics": [
+    "vue",
+    "pagination",
+    "i18n",
+    "javascript",
+    "es6",
+    "vue-components",
+    "vue2",
+    "page"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "TerryZ",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/854406?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://terryz.github.io/vue/#/page",
+    "repo": "https://github.com/TerryZ/v-page"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

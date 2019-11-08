@@ -1,0 +1,39 @@
+{
+  "name": "Tuex",
+  "full_name": "Raiondesu/Tuex",
+  "description": "A mostly reasonable alternative to Vuex",
+  "topics": [
+    "vuex",
+    "vue",
+    "vuejs",
+    "tuex",
+    "alternative",
+    "replacement",
+    "typescript",
+    "javascript",
+    "js",
+    "badge",
+    "badges",
+    "topics",
+    "store",
+    "redux",
+    "flux",
+    "beta"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "Raiondesu",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/19854420?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://npmjs.com/package/tuex",
+    "repo": "https://github.com/Raiondesu/Tuex"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

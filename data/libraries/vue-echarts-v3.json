@@ -1,0 +1,31 @@
+{
+  "name": "vue-echarts-v3",
+  "full_name": "xlsdg/vue-echarts-v3",
+  "description": "Vue.js(v2.x+) component wrap for ECharts.js(v3.x+)",
+  "topics": [
+    "echarts",
+    "vue",
+    "vue-echarts",
+    "library",
+    "chart",
+    "visualization",
+    "vuejs",
+    "vue-component"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "xlsdg",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/1203305?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://xlsdg.github.io/vue-echarts-v3-demo/",
+    "repo": "https://github.com/xlsdg/vue-echarts-v3"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

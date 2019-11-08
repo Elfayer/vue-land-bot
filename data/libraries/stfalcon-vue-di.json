@@ -1,0 +1,25 @@
+{
+  "name": "stfalcon-vue-di",
+  "full_name": "stfalcon-studio/stfalcon-vue-di",
+  "description": "Lightweight dependency injection library for Vue.js",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "stfalcon-studio",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/814925?v=4"
+  },
+  "organization": {
+    "login": "stfalcon-studio",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/814925?v=4"
+  },
+  "links": {
+    "site": null,
+    "repo": "https://github.com/stfalcon-studio/stfalcon-vue-di"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

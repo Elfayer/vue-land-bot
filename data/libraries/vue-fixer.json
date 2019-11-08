@@ -1,0 +1,25 @@
+{
+  "name": "vue-fixer",
+  "full_name": "eperedo/vue-fixer",
+  "description": "The simple but powerful vue component for the fixer API",
+  "topics": [
+    "vue",
+    "fixer-io"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "eperedo",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/461124?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "http://fixer.eperedo.com",
+    "repo": "https://github.com/eperedo/vue-fixer"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

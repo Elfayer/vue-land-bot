@@ -1,0 +1,32 @@
+{
+  "name": "beep",
+  "full_name": "ModusCreateOrg/beep",
+  "description": "BEEP Account Security Scanner - Detect if your credentials have been compromised (Vue + Ionic)",
+  "topics": [
+    "ionic",
+    "ionic4",
+    "vue",
+    "vuejs2",
+    "vuejs",
+    "vuejs-samples"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "ModusCreateOrg",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/959059?v=4"
+  },
+  "organization": {
+    "login": "ModusCreateOrg",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/959059?v=4"
+  },
+  "links": {
+    "site": "https://beep.modus.app",
+    "repo": "https://github.com/ModusCreateOrg/beep"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

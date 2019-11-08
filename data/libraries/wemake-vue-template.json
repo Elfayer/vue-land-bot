@@ -1,0 +1,37 @@
+{
+  "name": "wemake-vue-template",
+  "full_name": "wemake-services/wemake-vue-template",
+  "description": "Bleeding edge vue template focused on code quality and developer happiness.",
+  "topics": [
+    "vue",
+    "vue-template",
+    "jest",
+    "docker",
+    "ssr",
+    "nuxt",
+    "nuxtjs",
+    "eslint",
+    "stylelint",
+    "jsdoc",
+    "typescript"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "wemake-services",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/19639014?v=4"
+  },
+  "organization": {
+    "login": "wemake-services",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/19639014?v=4"
+  },
+  "links": {
+    "site": "https://wemake-services.gitbook.io/wemake-vue-template/",
+    "repo": "https://github.com/wemake-services/wemake-vue-template"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,29 @@
+{
+  "name": "vue-option-events",
+  "full_name": "Cweili/vue-option-events",
+  "description": "Bring Vue.js 1 events option and $emit to Vue.js 2.",
+  "topics": [
+    "vue",
+    "vuejs",
+    "vuejs2",
+    "event",
+    "event-emitter",
+    "event-bus"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "Cweili",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/2128450?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/Cweili/vue-option-events"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

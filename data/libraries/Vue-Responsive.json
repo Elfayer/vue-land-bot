@@ -1,0 +1,29 @@
+{
+  "name": "Vue-Responsive",
+  "full_name": "reinerBa/Vue-Responsive",
+  "description": "A plugin for responsive handling with vue.js",
+  "topics": [
+    "vue",
+    "vue-element",
+    "vue-directive",
+    "vuejs",
+    "responsive",
+    "responsive-design"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "reinerBa",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/4329883?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://reinerba.github.io/Vue-Responsive/dist/",
+    "repo": "https://github.com/reinerBa/Vue-Responsive"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

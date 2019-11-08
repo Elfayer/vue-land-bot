@@ -1,0 +1,21 @@
+{
+  "name": "vuex-events-messaging-demo",
+  "full_name": "metricloop/vuex-events-messaging-demo",
+  "description": "A quick demo on how to set up and use Vuex to create a events messaging system",
+  "topics": [],
+  "license": null,
+  "owner": {
+    "login": "metricloop",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/12223550?v=4"
+  },
+  "organization": {
+    "login": "metricloop",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/12223550?v=4"
+  },
+  "links": {
+    "site": null,
+    "repo": "https://github.com/metricloop/vuex-events-messaging-demo"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

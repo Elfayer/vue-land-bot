@@ -1,0 +1,29 @@
+{
+  "name": "vue-simple-context-menu",
+  "full_name": "johndatserakis/vue-simple-context-menu",
+  "description": "📌 Simple context-menu component built for Vue. Works well with both left and right clicks. Nothing too fancy, just works and is simple to use.",
+  "topics": [
+    "vue",
+    "simple",
+    "content",
+    "menu",
+    "right",
+    "click"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "johndatserakis",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/9972969?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://johndatserakis.github.io/vue-simple-context-menu/",
+    "repo": "https://github.com/johndatserakis/vue-simple-context-menu"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

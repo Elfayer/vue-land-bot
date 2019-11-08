@@ -1,0 +1,22 @@
+{
+  "name": "vuex-listener",
+  "full_name": "kiyui/vuex-listener",
+  "description": "A global Vuex action and mutation listener plugin",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "kiyui",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/5292862?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/kiyui/vuex-listener"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

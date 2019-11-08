@@ -1,0 +1,22 @@
+{
+  "name": "vue-tidyroutes",
+  "full_name": "edgarnadal/vue-tidyroutes",
+  "description": "Tidy routes definitions across your entire project",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "edgarnadal",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/1534538?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/edgarnadal/vue-tidyroutes"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,35 @@
+{
+  "name": "vue-build",
+  "full_name": "brianvoe/vue-build",
+  "description": "Ultra Simple, Development, Testing and Production Build Cli",
+  "topics": [
+    "javascript",
+    "vue",
+    "nightwatch",
+    "mocha",
+    "chai",
+    "eslint",
+    "karma",
+    "e2e-tests",
+    "sass",
+    "webpack2",
+    "unit-testing",
+    "babel"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "brianvoe",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/1580910?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "http://vue-build.com",
+    "repo": "https://github.com/brianvoe/vue-build"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

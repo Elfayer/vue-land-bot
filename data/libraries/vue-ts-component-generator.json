@@ -1,0 +1,29 @@
+{
+  "name": "vue-ts-component-generator",
+  "full_name": "frogbob/vue-ts-component-generator",
+  "description": "Generate vue typescript components.",
+  "topics": [
+    "vue",
+    "typescript",
+    "terminal"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "frogbob",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/21225502?v=4"
+  },
+  "organization": {
+    "login": "frogbob",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/21225502?v=4"
+  },
+  "links": {
+    "site": null,
+    "repo": "https://github.com/frogbob/vue-ts-component-generator"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

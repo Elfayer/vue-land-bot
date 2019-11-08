@@ -1,0 +1,25 @@
+{
+  "name": "vue-popper-component",
+  "full_name": "antongorodezkiy/vue-popper-component",
+  "description": "Popper.js directive for Vue.js",
+  "topics": [
+    "popper",
+    "vue"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "antongorodezkiy",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/580599?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://antongorodezkiy.github.io/vue-popper-component/",
+    "repo": "https://github.com/antongorodezkiy/vue-popper-component"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,40 @@
+{
+  "name": "Vuemmerce",
+  "full_name": "ivanlori/Vuemmerce",
+  "description": "👉 Responsive ecommerce template 🛒 built with Vue.js and Nuxt.js",
+  "topics": [
+    "vue",
+    "javascript",
+    "ecommerce",
+    "template",
+    "vuejs2",
+    "shoppingstore",
+    "vuejs",
+    "ecommerce-template",
+    "vuex",
+    "vue-cli",
+    "vue-router",
+    "bulma-css",
+    "vue-components",
+    "vue2",
+    "responsive",
+    "nuxtjs",
+    "nuxt"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "ivanlori",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/7620920?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://vuemmerce-git-master.ivanlori.now.sh/",
+    "repo": "https://github.com/ivanlori/Vuemmerce"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

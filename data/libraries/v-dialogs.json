@@ -1,0 +1,33 @@
+{
+  "name": "v-dialogs",
+  "full_name": "TerryZ/v-dialogs",
+  "description": "A simple and powerful dialog for Vue2, including Modal, Alert, Mask and Toast modes",
+  "topics": [
+    "javascript",
+    "es6",
+    "vue",
+    "vue-components",
+    "modals",
+    "dialog",
+    "alert",
+    "toast",
+    "mask",
+    "vue2"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "TerryZ",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/854406?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://terryz.github.io/vue/#/dialog",
+    "repo": "https://github.com/TerryZ/v-dialogs"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

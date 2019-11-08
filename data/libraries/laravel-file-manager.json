@@ -1,0 +1,22 @@
+{
+  "name": "laravel-file-manager",
+  "full_name": "alexusmai/laravel-file-manager",
+  "description": "File manager for Laravel",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "alexusmai",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/7473505?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "http://webmai.ru/projects/file-manager",
+    "repo": "https://github.com/alexusmai/laravel-file-manager"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

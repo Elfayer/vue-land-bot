@@ -1,0 +1,21 @@
+{
+  "name": "vue-js-workshop",
+  "full_name": "jayway/vue-js-workshop",
+  "description": "Jayway Vue.js workshop",
+  "topics": [],
+  "license": null,
+  "owner": {
+    "login": "jayway",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/89926?v=4"
+  },
+  "organization": {
+    "login": "jayway",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/89926?v=4"
+  },
+  "links": {
+    "site": "https://jayway.github.io/vue-js-workshop/",
+    "repo": "https://github.com/jayway/vue-js-workshop"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

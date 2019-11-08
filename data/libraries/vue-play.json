@@ -1,0 +1,29 @@
+{
+  "name": "vue-play",
+  "full_name": "vue-play/vue-play",
+  "description": "🍭 A minimalistic framework for demonstrating your Vue components",
+  "topics": [
+    "vue",
+    "storybook",
+    "demonstrate"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "vue-play",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/22789873?v=4"
+  },
+  "organization": {
+    "login": "vue-play",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/22789873?v=4"
+  },
+  "links": {
+    "site": null,
+    "repo": "https://github.com/vue-play/vue-play"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,24 @@
+{
+  "name": "vue-acl",
+  "full_name": "leonardovilarinho/vue-acl",
+  "description": "Access Control List plugin for VueJS 2.0",
+  "topics": [
+    "vue-router",
+    "vuex",
+    "acl",
+    "vuejs2",
+    "plugin"
+  ],
+  "license": null,
+  "owner": {
+    "login": "leonardovilarinho",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/12480135?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/leonardovilarinho/vue-acl"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

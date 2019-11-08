@@ -1,0 +1,30 @@
+{
+  "name": "vue-rippler",
+  "full_name": "spemer/vue-rippler",
+  "description": "🎉 Custom ripple effect plugin for @vuejs",
+  "topics": [
+    "vue",
+    "vuejs",
+    "vuejs-plugin",
+    "plugin",
+    "javascript",
+    "ripple",
+    "effect"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "spemer",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/18291697?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://spemer.github.io/vue-rippler/",
+    "repo": "https://github.com/spemer/vue-rippler"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

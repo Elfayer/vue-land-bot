@@ -1,0 +1,22 @@
+{
+  "name": "vue-redux-prepare-props",
+  "full_name": "kolesoffac/vue-redux-prepare-props",
+  "description": "Helper for use props of Redux with Vue.js using Vuex and Vuedeux",
+  "topics": [],
+  "license": {
+    "key": "apache-2.0",
+    "url": "https://api.github.com/licenses/apache-2.0",
+    "name": "Apache License 2.0"
+  },
+  "owner": {
+    "login": "kolesoffac",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/11459507?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/kolesoffac/vue-redux-prepare-props"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

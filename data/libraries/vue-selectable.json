@@ -1,0 +1,23 @@
+{
+  "name": "vue-selectable",
+  "full_name": "JSmith01/vue-selectable",
+  "description": "Directive to create mouse selection of objects in Vue.js applications",
+  "topics": [
+    "vuejs",
+    "directive",
+    "plugin",
+    "vuejs2"
+  ],
+  "license": null,
+  "owner": {
+    "login": "JSmith01",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/6153729?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/JSmith01/vue-selectable"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

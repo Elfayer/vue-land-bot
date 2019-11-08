@@ -1,0 +1,25 @@
+{
+  "name": "rails_vue_melt",
+  "full_name": "midnightSuyama/rails_vue_melt",
+  "description": "Rails view with webpack=vue optimizer",
+  "topics": [
+    "rails",
+    "vue"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "midnightSuyama",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/1808934?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/midnightSuyama/rails_vue_melt"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

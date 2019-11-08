@@ -1,0 +1,22 @@
+{
+  "name": "vue-static-map",
+  "full_name": "eperedo/vue-static-map",
+  "description": "a simple component to generate an static google map",
+  "topics": [
+    "vue",
+    "google-maps",
+    "map"
+  ],
+  "license": null,
+  "owner": {
+    "login": "eperedo",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/461124?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/eperedo/vue-static-map"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

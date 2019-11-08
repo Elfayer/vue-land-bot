@@ -1,0 +1,29 @@
+{
+  "name": "vuejs-logger",
+  "full_name": "justinkames/vuejs-logger",
+  "description": "Provides customizable logging functionality for Vue.js. Compatible with Vue2.",
+  "topics": [
+    "vue",
+    "vuejs-logger",
+    "vuejs2",
+    "vuejs",
+    "typescript",
+    "logger"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "justinkames",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/3469323?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/justinkames/vuejs-logger"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

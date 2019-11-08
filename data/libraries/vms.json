@@ -1,0 +1,31 @@
+{
+  "name": "vms",
+  "full_name": "ericjjj/vms",
+  "description": "A Vue.js 2.0 Content Management System",
+  "topics": [
+    "vue",
+    "vuejs2",
+    "vue-management",
+    "vuex",
+    "vue-router",
+    "vuejs",
+    "vue2",
+    "nodejs"
+  ],
+  "license": {
+    "key": "gpl-3.0",
+    "url": "https://api.github.com/licenses/gpl-3.0",
+    "name": "GNU General Public License v3.0"
+  },
+  "owner": {
+    "login": "ericjjj",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/12462602?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://github.com/GeekPark/gpk_admin",
+    "repo": "https://github.com/ericjjj/vms"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

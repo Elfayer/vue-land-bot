@@ -1,0 +1,22 @@
+{
+  "name": "vue-context-menu-popup",
+  "full_name": "Johnathan/vue-context-menu-popup",
+  "description": null,
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "Johnathan",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/144165?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/Johnathan/vue-context-menu-popup"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

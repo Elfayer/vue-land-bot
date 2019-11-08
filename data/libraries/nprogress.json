@@ -1,0 +1,25 @@
+{
+  "name": "nprogress",
+  "full_name": "vue-bulma/nprogress",
+  "description": "Progress bars is based on nprogress for Vue",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "vue-bulma",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/20152452?v=4"
+  },
+  "organization": {
+    "login": "vue-bulma",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/20152452?v=4"
+  },
+  "links": {
+    "site": null,
+    "repo": "https://github.com/vue-bulma/nprogress"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

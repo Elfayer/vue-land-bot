@@ -1,0 +1,18 @@
+{
+  "name": "vuejs2-learn",
+  "full_name": "bhnddowinf/vuejs2-learn",
+  "description": "vuejs2 官网讲解 (vue.js 2 official website tutorials ，contains video , codes, baudi yun, youtube)",
+  "topics": [],
+  "license": null,
+  "owner": {
+    "login": "bhnddowinf",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/3215677?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/bhnddowinf/vuejs2-learn"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

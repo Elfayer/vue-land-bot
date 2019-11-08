@@ -1,0 +1,26 @@
+{
+  "name": "hello-vue-django",
+  "full_name": "rokups/hello-vue-django",
+  "description": "vuejs and Django integration with hot code reload. Dont use this, use https://github.com/NdagiStanley/vue-django or https://github.com/gtalarico/django-vue-template",
+  "topics": [
+    "blockchain",
+    "nodejs",
+    "minecraft"
+  ],
+  "license": {
+    "key": "unlicense",
+    "url": "https://api.github.com/licenses/unlicense",
+    "name": "The Unlicense"
+  },
+  "owner": {
+    "login": "rokups",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/19151258?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/rokups/hello-vue-django"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

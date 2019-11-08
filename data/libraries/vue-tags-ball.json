@@ -1,0 +1,29 @@
+{
+  "name": "vue-tags-ball",
+  "full_name": "yanthems/vue-tags-ball",
+  "description": "a 3d tags ball for vue",
+  "topics": [
+    "vue",
+    "tags",
+    "3d",
+    "canvas",
+    "ball",
+    "html"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "yanthems",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/37106280?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/yanthems/vue-tags-ball"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

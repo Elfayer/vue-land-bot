@@ -1,0 +1,22 @@
+{
+  "name": "laravel-api-boilerplate-jwt",
+  "full_name": "VPetar/laravel-api-boilerplate-jwt",
+  "description": "An API Boilerplate to create a ready-to-use REST API in seconds.",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "VPetar",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/24390795?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/VPetar/laravel-api-boilerplate-jwt"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

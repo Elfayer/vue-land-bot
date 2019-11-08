@@ -1,0 +1,27 @@
+{
+  "name": "vue-l-lazyload",
+  "full_name": "lsycxyj/vue-l-lazyload",
+  "description": "A lazyload plugin for Vue.js v2.x+.",
+  "topics": [
+    "vue",
+    "vuejs",
+    "vuejs2",
+    "lazyload"
+  ],
+  "license": {
+    "key": "lgpl-3.0",
+    "url": "https://api.github.com/licenses/lgpl-3.0",
+    "name": "GNU Lesser General Public License v3.0"
+  },
+  "owner": {
+    "login": "lsycxyj",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/916567?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/lsycxyj/vue-l-lazyload"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

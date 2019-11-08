@@ -1,0 +1,22 @@
+{
+  "name": "vue-check-view",
+  "full_name": "vtimofeev/vue-check-view",
+  "description": null,
+  "topics": [],
+  "license": {
+    "key": "isc",
+    "url": "https://api.github.com/licenses/isc",
+    "name": "ISC License"
+  },
+  "owner": {
+    "login": "vtimofeev",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/4667897?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/vtimofeev/vue-check-view"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

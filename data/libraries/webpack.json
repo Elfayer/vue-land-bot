@@ -1,0 +1,42 @@
+{
+  "name": "webpack",
+  "full_name": "webpack/webpack",
+  "description": "A bundler for javascript and friends. Packs many modules into a few bundled assets. Code Splitting allows for loading parts of the application on demand. Through \"loaders\", modules can be CommonJs, AMD, ES6 modules, CSS, Images, JSON, Coffeescript, LESS, ... and your custom stuff.",
+  "topics": [
+    "webpack",
+    "javascript",
+    "module-bundler",
+    "loaders",
+    "plugins",
+    "build-tool",
+    "web",
+    "web-performance",
+    "compiler",
+    "javascript-compiler",
+    "commonjs",
+    "amd",
+    "esm",
+    "es6",
+    "es2015",
+    "javascript-modules"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "webpack",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/2105791?v=4"
+  },
+  "organization": {
+    "login": "webpack",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/2105791?v=4"
+  },
+  "links": {
+    "site": "https://webpack.js.org",
+    "repo": "https://github.com/webpack/webpack"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

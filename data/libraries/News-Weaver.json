@@ -1,0 +1,29 @@
+{
+  "name": "News-Weaver",
+  "full_name": "Rud156/News-Weaver",
+  "description": "A web based RSS Aggregator",
+  "topics": [
+    "vuejs2",
+    "rss-aggregator",
+    "framework",
+    "momentjs",
+    "vuetifyjs",
+    "material-ui"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "Rud156",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/17374395?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://news-weaver.firebaseapp.com",
+    "repo": "https://github.com/Rud156/News-Weaver"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

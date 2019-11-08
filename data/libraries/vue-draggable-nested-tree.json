@@ -1,0 +1,31 @@
+{
+  "name": "vue-draggable-nested-tree",
+  "full_name": "phphe/vue-draggable-nested-tree",
+  "description": "Easy to customize and 7kb powerful vue tree component.",
+  "topics": [
+    "treeview",
+    "draggable",
+    "sorted",
+    "draggableview",
+    "nested",
+    "vue-component",
+    "tree-structure",
+    "vue-tree"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "phphe",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/16739787?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://codepen.io/phphe/pen/KRapQm",
+    "repo": "https://github.com/phphe/vue-draggable-nested-tree"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,31 @@
+{
+  "name": "vue-translations",
+  "full_name": "owl1n/vue-translations",
+  "description": "VueJs translations very similar to Laravel Translation system",
+  "topics": [
+    "vue",
+    "i18n",
+    "translation",
+    "vue-translations",
+    "vuejs-translations",
+    "vuejs2",
+    "vuejs",
+    "vue-i18n"
+  ],
+  "license": {
+    "key": "mpl-2.0",
+    "url": "https://api.github.com/licenses/mpl-2.0",
+    "name": "Mozilla Public License 2.0"
+  },
+  "owner": {
+    "login": "owl1n",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/1087387?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/owl1n/vue-translations"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

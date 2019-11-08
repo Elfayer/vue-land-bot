@@ -1,0 +1,28 @@
+{
+  "name": "vue-pdf",
+  "full_name": "FranckFreiburger/vue-pdf",
+  "description": "vue.js pdf viewer",
+  "topics": [
+    "vuejs2",
+    "pdf-viewer",
+    "component",
+    "pdf",
+    "vue-pdf"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "FranckFreiburger",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/25509586?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/FranckFreiburger/vue-pdf"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

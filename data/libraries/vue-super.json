@@ -1,0 +1,22 @@
+{
+  "name": "vue-super",
+  "full_name": "rpkilby/vue-super",
+  "description": "Vue.js plugin that allows you to reference methods on parent classes",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "rpkilby",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/2370209?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/rpkilby/vue-super"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

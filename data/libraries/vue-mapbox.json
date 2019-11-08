@@ -1,0 +1,30 @@
+{
+  "name": "vue-mapbox",
+  "full_name": "soal/vue-mapbox",
+  "description": "Vuejs 2 components for interacting with mapbox-gl-js",
+  "topics": [
+    "mapbox-gj-js",
+    "vue-mapbox",
+    "mapbox-gl",
+    "vue",
+    "vuejs",
+    "vue2",
+    "mapbox"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "soal",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/298585?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://soal.github.io/vue-mapbox",
+    "repo": "https://github.com/soal/vue-mapbox"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

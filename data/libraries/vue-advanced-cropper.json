@@ -1,0 +1,24 @@
+{
+  "name": "vue-advanced-cropper",
+  "full_name": "Norserium/vue-advanced-cropper",
+  "description": "The advanced vue cropper library that gives you opportunity to create your own croppers suited for any website design",
+  "topics": [
+    "vue",
+    "cropper",
+    "advanced",
+    "flexible",
+    "library"
+  ],
+  "license": null,
+  "owner": {
+    "login": "Norserium",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/9862719?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://norserium.github.io/vue-advanced-cropper/",
+    "repo": "https://github.com/Norserium/vue-advanced-cropper"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

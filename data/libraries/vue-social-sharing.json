@@ -1,0 +1,31 @@
+{
+  "name": "vue-social-sharing",
+  "full_name": "nicolasbeauvais/vue-social-sharing",
+  "description": "A Vue.js component for sharing links to social networks, work with Vue.js 1.X and 2.X",
+  "topics": [
+    "vue",
+    "vue-component",
+    "social-shares",
+    "vuejs",
+    "vuejs2",
+    "vuejs-components",
+    "vue-components",
+    "social"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "nicolasbeauvais",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/2951704?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://nicolasbeauvais.github.io/vue-social-sharing/",
+    "repo": "https://github.com/nicolasbeauvais/vue-social-sharing"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,30 @@
+{
+  "name": "vue-parallax",
+  "full_name": "apertureless/vue-parallax",
+  "description": "🌌  Vue.js component for parallax image scroll effects",
+  "topics": [
+    "parallax",
+    "image",
+    "scrolling",
+    "vue",
+    "vuejs",
+    "vuejs2",
+    "fast"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "apertureless",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/4975917?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/apertureless/vue-parallax"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

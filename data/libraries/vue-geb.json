@@ -1,0 +1,22 @@
+{
+  "name": "vue-geb",
+  "full_name": "vouill/vue-geb",
+  "description": "A Vue js Global Event Bus plugin using the power of Observable",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "vouill",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/9969161?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/vouill/vue-geb"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

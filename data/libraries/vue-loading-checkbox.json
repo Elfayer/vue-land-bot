@@ -1,0 +1,22 @@
+{
+  "name": "vue-loading-checkbox",
+  "full_name": "mrastiak/vue-loading-checkbox",
+  "description": "A highly customizable Vue.js checkbox UI component with loading state",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "mrastiak",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/26276312?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/mrastiak/vue-loading-checkbox"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

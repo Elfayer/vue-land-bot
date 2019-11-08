@@ -1,0 +1,33 @@
+{
+  "name": "vue-form-json",
+  "full_name": "14nrv/vue-form-json",
+  "description": "Generate a vue form with validation and bulma style, from json",
+  "topics": [
+    "vue",
+    "vuejs",
+    "bulma",
+    "form",
+    "form-builder",
+    "form-generator",
+    "vee-validate",
+    "vue-form-generator",
+    "vue-component",
+    "vue-form"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "14nrv",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/34603467?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/14nrv/vue-form-json"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

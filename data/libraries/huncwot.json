@@ -1,0 +1,37 @@
+{
+  "name": "huncwot",
+  "full_name": "huncwotjs/huncwot",
+  "description": ":smiley_cat: :cyclone:  Macro framework for monolithic JavaScript applications - batteries included.",
+  "topics": [
+    "nodejs",
+    "web-framework",
+    "http",
+    "es6",
+    "es7",
+    "async-await",
+    "es7-async",
+    "node-js",
+    "graphql",
+    "vuejs",
+    "webpack"
+  ],
+  "license": {
+    "key": "other",
+    "url": null,
+    "name": "Other"
+  },
+  "owner": {
+    "login": "huncwotjs",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/28100723?v=4"
+  },
+  "organization": {
+    "login": "huncwotjs",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/28100723?v=4"
+  },
+  "links": {
+    "site": "https://huncwot.org/",
+    "repo": "https://github.com/huncwotjs/huncwot"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

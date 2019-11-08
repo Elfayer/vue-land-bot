@@ -1,0 +1,28 @@
+{
+  "name": "vue-echarts",
+  "full_name": "ecomfe/vue-echarts",
+  "description": "ECharts component for Vue.js.",
+  "topics": [
+    "vue",
+    "echarts"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "ecomfe",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/2268460?v=4"
+  },
+  "organization": {
+    "login": "ecomfe",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/2268460?v=4"
+  },
+  "links": {
+    "site": "https://ecomfe.github.io/vue-echarts/demo/",
+    "repo": "https://github.com/ecomfe/vue-echarts"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

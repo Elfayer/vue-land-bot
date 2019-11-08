@@ -1,0 +1,42 @@
+{
+  "name": "vue-element-admin",
+  "full_name": "PanJiaChen/vue-element-admin",
+  "description": ":tada: A magical vue admin                                                                https://panjiachen.github.io/vue-element-admin",
+  "topics": [
+    "vue",
+    "admin",
+    "element-ui",
+    "axios",
+    "vuex",
+    "vue-cli",
+    "element",
+    "vue-admin",
+    "admin-template",
+    "mock",
+    "admin-dashboard",
+    "desktop",
+    "management-system",
+    "webpack",
+    "i18n",
+    "dashboard",
+    "tinymce",
+    "webpack4",
+    "xlsx"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "PanJiaChen",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/8121621?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/PanJiaChen/vue-element-admin"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

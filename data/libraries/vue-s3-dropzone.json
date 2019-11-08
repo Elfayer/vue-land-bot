@@ -1,0 +1,18 @@
+{
+  "name": "vue-s3-dropzone",
+  "full_name": "kfei/vue-s3-dropzone",
+  "description": ":droplet: Vue.js component works with AWS S3 serverlessly",
+  "topics": [],
+  "license": null,
+  "owner": {
+    "login": "kfei",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/1492892?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/kfei/vue-s3-dropzone"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

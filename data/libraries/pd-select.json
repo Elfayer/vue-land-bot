@@ -1,0 +1,36 @@
+{
+  "name": "pd-select",
+  "full_name": "k186/pd-select",
+  "description": "vue components ,like ios 3D picker style,vue 3d 选择器组件,3D滚轮",
+  "topics": [
+    "vuejs2",
+    "vue-components",
+    "picker",
+    "wheel",
+    "scrolling",
+    "mobile",
+    "datepicker",
+    "scroll",
+    "components",
+    "npm-package",
+    "didi",
+    "3d",
+    "mobile-picker"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "k186",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/15086330?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://www.k186studio.com/demos/iosPicker/",
+    "repo": "https://github.com/k186/pd-select"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,31 @@
+{
+  "name": "vue-form-generator",
+  "full_name": "vue-generators/vue-form-generator",
+  "description": ":clipboard: A schema-based form generator component for Vue.js",
+  "topics": [
+    "vue",
+    "generator",
+    "form",
+    "schema",
+    "vuejs2"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "vue-generators",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/33808724?v=4"
+  },
+  "organization": {
+    "login": "vue-generators",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/33808724?v=4"
+  },
+  "links": {
+    "site": null,
+    "repo": "https://github.com/vue-generators/vue-form-generator"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

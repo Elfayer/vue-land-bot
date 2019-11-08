@@ -1,0 +1,22 @@
+{
+  "name": "vue-2-crumbs",
+  "full_name": "Suruat/vue-2-crumbs",
+  "description": "Breadcrumbs plugin for Vue.js 2 framework that allows to select parent route in route meta object with no need of sub-routing",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "Suruat",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/5148082?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/Suruat/vue-2-crumbs"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

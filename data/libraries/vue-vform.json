@@ -1,0 +1,28 @@
+{
+  "name": "vue-vform",
+  "full_name": "joseluisq/vue-vform",
+  "description": "Vue.js 2 form component that integrates jQuery Validation and Axios.",
+  "topics": [
+    "vue",
+    "component",
+    "form",
+    "validation",
+    "request"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "joseluisq",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/1700322?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/joseluisq/vue-vform"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

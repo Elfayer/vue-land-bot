@@ -1,0 +1,27 @@
+{
+  "name": "vue-moment-lib",
+  "full_name": "julon/vue-moment-lib",
+  "description": "A simple Vue.js 2.0 MomentJS library (filters & globals)",
+  "topics": [
+    "vue",
+    "vue-plugin",
+    "momentjs",
+    "vue-moment"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "julon",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/11995684?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/julon/vue-moment-lib"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

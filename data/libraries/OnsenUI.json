@@ -1,0 +1,41 @@
+{
+  "name": "OnsenUI",
+  "full_name": "OnsenUI/OnsenUI",
+  "description": "Mobile app development framework and SDK using HTML5 and JavaScript. Create beautiful and performant cross-platform mobile apps. Based on Web Components, and provides bindings for Angular 1, 2, React and Vue.js.",
+  "topics": [
+    "onsen-ui",
+    "cordova",
+    "react",
+    "angular",
+    "monaca",
+    "hybrid-apps",
+    "javascript",
+    "webcomponents",
+    "customelements",
+    "vue",
+    "material",
+    "android",
+    "ios",
+    "html",
+    "pwa"
+  ],
+  "license": {
+    "key": "apache-2.0",
+    "url": "https://api.github.com/licenses/apache-2.0",
+    "name": "Apache License 2.0"
+  },
+  "owner": {
+    "login": "OnsenUI",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/5972822?v=4"
+  },
+  "organization": {
+    "login": "OnsenUI",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/5972822?v=4"
+  },
+  "links": {
+    "site": "https://onsen.io/",
+    "repo": "https://github.com/OnsenUI/OnsenUI"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

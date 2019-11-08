@@ -1,0 +1,43 @@
+{
+  "name": "vue-awesome-swiper",
+  "full_name": "surmon-china/vue-awesome-swiper",
+  "description": "🏆 Swiper component for @vuejs",
+  "topics": [
+    "swipe",
+    "slide",
+    "vue",
+    "vue-swiper",
+    "vue-components",
+    "vue-awesome-swiper",
+    "ssr",
+    "nuxtjs",
+    "nuxt",
+    "vuejs",
+    "vuejs2",
+    "vue2",
+    "vue-component",
+    "vue-resource",
+    "carrousel",
+    "slides",
+    "slider",
+    "swiper",
+    "vue-plugin",
+    "vue-directive"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "surmon-china",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/14019524?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://surmon-china.github.io/vue-awesome-swiper/",
+    "repo": "https://github.com/surmon-china/vue-awesome-swiper"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

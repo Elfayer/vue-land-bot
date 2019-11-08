@@ -1,0 +1,28 @@
+{
+  "name": "vue-displacement-slideshow",
+  "full_name": "AlbanCrepel/vue-displacement-slideshow",
+  "description": "A Vue.js 2.0 slideshow component working with Three.js",
+  "topics": [
+    "threejs",
+    "webgl",
+    "vuejs",
+    "images",
+    "slideshow"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "AlbanCrepel",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/16259856?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://vue-displacement-slideshow.now.sh",
+    "repo": "https://github.com/AlbanCrepel/vue-displacement-slideshow"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

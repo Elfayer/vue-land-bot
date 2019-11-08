@@ -1,0 +1,28 @@
+{
+  "name": "vue-mce",
+  "full_name": "Eazymov/vue-mce",
+  "description": "VueJS component for TinyMCE",
+  "topics": [
+    "vue",
+    "javascript",
+    "component",
+    "tinymce",
+    "plugin"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "Eazymov",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/26853518?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/Eazymov/vue-mce"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

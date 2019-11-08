@@ -1,0 +1,29 @@
+{
+  "name": "ComponentFixture",
+  "full_name": "David-Desmaisons/ComponentFixture",
+  "description": "🛠️Interactive sandox playground for vue components",
+  "topics": [
+    "vuejs",
+    "component",
+    "fixture-test",
+    "sandbox",
+    "testing-tools",
+    "playground"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "David-Desmaisons",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/524617?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://david-desmaisons.github.io/ComponentFixture/",
+    "repo": "https://github.com/David-Desmaisons/ComponentFixture"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

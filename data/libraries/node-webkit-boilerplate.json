@@ -1,0 +1,22 @@
+{
+  "name": "node-webkit-boilerplate",
+  "full_name": "brandonjpierce/node-webkit-boilerplate",
+  "description": "[Unmaintained]",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "brandonjpierce",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/5483779?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/brandonjpierce/node-webkit-boilerplate"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

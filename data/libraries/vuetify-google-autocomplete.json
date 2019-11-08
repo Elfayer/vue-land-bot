@@ -1,0 +1,28 @@
+{
+  "name": "vuetify-google-autocomplete",
+  "full_name": "MadimetjaShika/vuetify-google-autocomplete",
+  "description": "A Vuetify ready Vue.js autosuggest component for the Google Places API.",
+  "topics": [
+    "vuejs",
+    "vuetifyjs",
+    "google-places-api",
+    "autocomplete",
+    "vue-component"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "MadimetjaShika",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/6643245?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://madimetjashika.github.io/vuetify-google-autocomplete/",
+    "repo": "https://github.com/MadimetjaShika/vuetify-google-autocomplete"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

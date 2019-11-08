@@ -1,0 +1,32 @@
+{
+  "name": "banshee",
+  "full_name": "banshee-ui/banshee",
+  "description": "A mostly renderless Vue UI component and utility framework.",
+  "topics": [
+    "vue",
+    "vuejs",
+    "component-library",
+    "components",
+    "javascript",
+    "vue2"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "banshee-ui",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/39532188?v=4"
+  },
+  "organization": {
+    "login": "banshee-ui",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/39532188?v=4"
+  },
+  "links": {
+    "site": null,
+    "repo": "https://github.com/banshee-ui/banshee"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,18 @@
+{
+  "name": "vue-responsive-components",
+  "full_name": "Kelin2025/vue-responsive-components",
+  "description": "Create responsive components with ResizeObserver",
+  "topics": [],
+  "license": null,
+  "owner": {
+    "login": "Kelin2025",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/4208480?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/Kelin2025/vue-responsive-components"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

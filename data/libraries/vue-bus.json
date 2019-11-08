@@ -1,0 +1,26 @@
+{
+  "name": "vue-bus",
+  "full_name": "fffixed/vue-bus",
+  "description": "Tiny simple central event bus plugin for Vue.js",
+  "topics": [
+    "vuejs",
+    "vue-plugin",
+    "events"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "fffixed",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/3769666?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/fffixed/vue-bus"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

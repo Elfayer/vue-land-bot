@@ -1,0 +1,36 @@
+{
+  "name": "vue-ls",
+  "full_name": "RobinCK/vue-ls",
+  "description": ":boom: Vue plugin for work with local storage, session storage and memory storage from Vue context",
+  "topics": [
+    "localstorage",
+    "vuejs",
+    "local-storage",
+    "vue-ls",
+    "storage",
+    "vue-plugin",
+    "vue-local-storage",
+    "json",
+    "es6-modules",
+    "vue",
+    "docker",
+    "docker-compose",
+    "sessionstorage"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "RobinCK",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/10226014?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://robinck.gitbooks.io/vue-storage/",
+    "repo": "https://github.com/RobinCK/vue-ls"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

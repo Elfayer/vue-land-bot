@@ -1,0 +1,22 @@
+{
+  "name": "vue2-flip-countdown",
+  "full_name": "philipjkim/vue2-flip-countdown",
+  "description": "A countdown timer with flip effect for Vue 2.x",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "philipjkim",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/197533?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/philipjkim/vue2-flip-countdown"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

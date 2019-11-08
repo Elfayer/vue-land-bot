@@ -1,0 +1,24 @@
+{
+  "name": "vue-translation-manager",
+  "full_name": "cyon/vue-translation-manager",
+  "description": "Interactively translate strings in Vue single file components",
+  "topics": [
+    "vuejs",
+    "i18n"
+  ],
+  "license": null,
+  "owner": {
+    "login": "cyon",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/956240?v=4"
+  },
+  "organization": {
+    "login": "cyon",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/956240?v=4"
+  },
+  "links": {
+    "site": null,
+    "repo": "https://github.com/cyon/vue-translation-manager"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

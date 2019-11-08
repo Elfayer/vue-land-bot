@@ -1,0 +1,22 @@
+{
+  "name": "sl-vue-tree",
+  "full_name": "holiber/sl-vue-tree",
+  "description": "Customizable draggable tree component for Vue.js",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "holiber",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/3768346?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/holiber/sl-vue-tree"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

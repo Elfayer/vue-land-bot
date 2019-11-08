@@ -1,0 +1,32 @@
+{
+  "name": "wp-vue",
+  "full_name": "alexmacarthur/wp-vue",
+  "description": "A simple Vue blog template that displays posts from any WordPress REST API endpoint.",
+  "topics": [
+    "wordpress",
+    "vue",
+    "blogging",
+    "javascript",
+    "rest-api",
+    "theme",
+    "starter-template",
+    "netlify",
+    "vue-blog"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "alexmacarthur",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/8398220?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://wp.netlify.com",
+    "repo": "https://github.com/alexmacarthur/wp-vue"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

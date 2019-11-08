@@ -1,0 +1,18 @@
+{
+  "name": "vue-ts-amd",
+  "full_name": "Micene09/vue-ts-amd",
+  "description": "A full-featured Vue.js 2 boilerplate using AMD pattern (Require.js) and Typescript",
+  "topics": [],
+  "license": null,
+  "owner": {
+    "login": "Micene09",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/14896521?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/Micene09/vue-ts-amd"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,22 @@
+{
+  "name": "vue-bootstrap-typeahead",
+  "full_name": "alexurquhart/vue-bootstrap-typeahead",
+  "description": "An autocomplete/typeahead component for Vue 2 and Bootstrap 4",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "alexurquhart",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/3111563?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://alexurquhart.github.io/vue-bootstrap-typeahead/",
+    "repo": "https://github.com/alexurquhart/vue-bootstrap-typeahead"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

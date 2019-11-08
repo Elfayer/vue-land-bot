@@ -1,0 +1,31 @@
+{
+  "name": "vue-atlas",
+  "full_name": "nvms/vue-atlas",
+  "description": "A Vue.js 2 UI component library.",
+  "topics": [
+    "vuejs",
+    "vuejs2",
+    "vuejs-components",
+    "vue",
+    "component-library",
+    "javascript",
+    "vue2",
+    "ui"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "nvms",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/17074357?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/nvms/vue-atlas"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

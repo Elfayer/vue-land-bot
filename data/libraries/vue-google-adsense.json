@@ -1,0 +1,27 @@
+{
+  "name": "vue-google-adsense",
+  "full_name": "mazipan/vue-google-adsense",
+  "description": "💰 Vue.js Google Adsense Component with InFeed and InArticle Ads support",
+  "topics": [
+    "vue-adsense",
+    "vue-google-adsense",
+    "vuejs-adsense",
+    "vue-ads"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "mazipan",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/7221389?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://mazipan.github.io/vue-google-adsense/",
+    "repo": "https://github.com/mazipan/vue-google-adsense"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

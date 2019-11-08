@@ -1,0 +1,27 @@
+{
+  "name": "vue-progressive-image",
+  "full_name": "MatteoGabriele/vue-progressive-image",
+  "description": "Vue progressive image loading plugin",
+  "topics": [
+    "progressive",
+    "image",
+    "vue",
+    "plugin"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "MatteoGabriele",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/5337152?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/MatteoGabriele/vue-progressive-image"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

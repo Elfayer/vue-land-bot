@@ -1,0 +1,28 @@
+{
+  "name": "vue-chat-scroll",
+  "full_name": "theomessin/vue-chat-scroll",
+  "description": "Automatic scroll-to-bottom directive for Vue.",
+  "topics": [
+    "javascript",
+    "vuejs",
+    "vuejs2",
+    "scrolling",
+    "chat"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "theomessin",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/7229472?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://theomessin.github.io/vue-chat-scroll/",
+    "repo": "https://github.com/theomessin/vue-chat-scroll"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

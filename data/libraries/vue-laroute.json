@@ -1,0 +1,29 @@
+{
+  "name": "vue-laroute",
+  "full_name": "samturrell/vue-laroute",
+  "description": "Wrapper for injecting laravel routes into your vue application",
+  "topics": [
+    "vue",
+    "javascript",
+    "plugin",
+    "laroute",
+    "laravel",
+    "routes"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "samturrell",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/5918348?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/samturrell/vue-laroute"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

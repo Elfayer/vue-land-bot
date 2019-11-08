@@ -1,0 +1,29 @@
+{
+  "name": "vuex-module-decorators",
+  "full_name": "championswimmer/vuex-module-decorators",
+  "description": "TypeScript/ES7 Decorators to create Vuex modules declaratively",
+  "topics": [
+    "vue",
+    "vuejs",
+    "vuex",
+    "vuex-modules",
+    "typescript",
+    "javascript"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "championswimmer",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/1327050?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://championswimmer.in/vuex-module-decorators/",
+    "repo": "https://github.com/championswimmer/vuex-module-decorators"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

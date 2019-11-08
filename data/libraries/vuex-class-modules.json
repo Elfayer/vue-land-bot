@@ -1,0 +1,22 @@
+{
+  "name": "vuex-class-modules",
+  "full_name": "gertqin/vuex-class-modules",
+  "description": "Typescript class decorators for vuex modules",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "gertqin",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/17803278?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/gertqin/vuex-class-modules"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,31 @@
+{
+  "name": "fundamental-vue",
+  "full_name": "SAP/fundamental-vue",
+  "description": "Vue.js components implementation of SAP Fundamental Styles guidelines. The library is aiming to provide a Vue.js implementation of the components designed in Fundamental Styles design system.",
+  "topics": [
+    "open-source",
+    "fundamental",
+    "vuejs",
+    "sap-fundamentals",
+    "vue-components"
+  ],
+  "license": {
+    "key": "apache-2.0",
+    "url": "https://api.github.com/licenses/apache-2.0",
+    "name": "Apache License 2.0"
+  },
+  "owner": {
+    "login": "SAP",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/2531208?v=4"
+  },
+  "organization": {
+    "login": "SAP",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/2531208?v=4"
+  },
+  "links": {
+    "site": null,
+    "repo": "https://github.com/SAP/fundamental-vue"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

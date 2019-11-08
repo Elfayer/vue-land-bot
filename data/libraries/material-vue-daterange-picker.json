@@ -1,0 +1,30 @@
+{
+  "name": "material-vue-daterange-picker",
+  "full_name": "ly525/material-vue-daterange-picker",
+  "description": "a date-range-picker follows the Material Design spec powered by vue.js (alpha)",
+  "topics": [
+    "vuejs",
+    "material-design",
+    "datepicker",
+    "daterangepicker",
+    "datepicker-component",
+    "range-picker",
+    "material"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "ly525",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/12668546?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://ly525.github.io/material-vue-daterange-picker/",
+    "repo": "https://github.com/ly525/material-vue-daterange-picker"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

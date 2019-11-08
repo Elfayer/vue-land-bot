@@ -1,0 +1,22 @@
+{
+  "name": "vue-backbone",
+  "full_name": "mikeapr4/vue-backbone",
+  "description": "Vue.js Plugin to facilitate Backbone integration",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "mikeapr4",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/13482786?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/mikeapr4/vue-backbone"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

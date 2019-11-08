@@ -1,0 +1,34 @@
+{
+  "name": "require-vuejs",
+  "full_name": "edgardleal/require-vuejs",
+  "description": "RequireJS plugin to async and dynamic load and parse .vue components ",
+  "topics": [
+    "javascript",
+    "vuejs",
+    "vue",
+    "vuejs2",
+    "requirejs",
+    "require",
+    "amd",
+    "vue-components",
+    "dynamic",
+    "async",
+    "requirejs-plugin"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "edgardleal",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/1612250?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://edgardleal.github.io/require-vuejs/",
+    "repo": "https://github.com/edgardleal/require-vuejs"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,25 @@
+{
+  "name": "vue-brunch",
+  "full_name": "nblackburn/vue-brunch",
+  "description": "Adds support to Brunch for pre-compiling single file Vue components.",
+  "topics": [
+    "brunch",
+    "vue"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "nblackburn",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/2931085?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/nblackburn/vue-brunch"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

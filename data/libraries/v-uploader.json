@@ -1,0 +1,30 @@
+{
+  "name": "v-uploader",
+  "full_name": "TerryZ/v-uploader",
+  "description": "A Vue2 plugin make files upload simple and easier, single file upload with image preview, multiple upload with drag and drop",
+  "topics": [
+    "javascript",
+    "vue",
+    "vuejs2",
+    "uploader",
+    "file-upload",
+    "multiple-files-upload",
+    "fine-uploader"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "TerryZ",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/854406?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://terryz.github.io/vue/#/upload",
+    "repo": "https://github.com/TerryZ/v-uploader"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

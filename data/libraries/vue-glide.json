@@ -1,0 +1,30 @@
+{
+  "name": "vue-glide",
+  "full_name": "antonreshetov/vue-glide",
+  "description": "A slider and carousel as vue component on top of the Glide.js",
+  "topics": [
+    "vue",
+    "vuejs",
+    "glide",
+    "slider",
+    "carousel",
+    "component",
+    "vue-components"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "antonreshetov",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/17480987?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://antonreshetov.github.io/vue-glide/",
+    "repo": "https://github.com/antonreshetov/vue-glide"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

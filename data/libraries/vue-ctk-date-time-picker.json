@@ -1,0 +1,39 @@
+{
+  "name": "vue-ctk-date-time-picker",
+  "full_name": "chronotruck/vue-ctk-date-time-picker",
+  "description": "VueJS component to select dates & time, including a range mode",
+  "topics": [
+    "vuejs",
+    "datepicker",
+    "timepicker",
+    "dialog",
+    "responsive",
+    "input",
+    "vue-component",
+    "javascript",
+    "range",
+    "picker",
+    "date",
+    "time",
+    "calendar"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "chronotruck",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/13090012?v=4"
+  },
+  "organization": {
+    "login": "chronotruck",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/13090012?v=4"
+  },
+  "links": {
+    "site": "https://chronotruck.github.io/vue-ctk-date-time-picker/",
+    "repo": "https://github.com/chronotruck/vue-ctk-date-time-picker"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

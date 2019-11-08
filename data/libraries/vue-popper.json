@@ -1,0 +1,28 @@
+{
+  "name": "vue-popper",
+  "full_name": "RobinCK/vue-popper",
+  "description": ":whale: VueJS popover component based popper.js",
+  "topics": [
+    "vuejs",
+    "popover",
+    "vue",
+    "popper",
+    "vue-component"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "RobinCK",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/10226014?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://robinck.github.io/vue-popper/",
+    "repo": "https://github.com/RobinCK/vue-popper"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

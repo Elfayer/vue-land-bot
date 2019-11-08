@@ -1,0 +1,27 @@
+{
+  "name": "vue-core-image-upload",
+  "full_name": "Vanthink-UED/vue-core-image-upload",
+  "description": "a vue plugin for image to crop and upload ",
+  "topics": [
+    "vue",
+    "vue-plugin",
+    "upload",
+    "crop",
+    "vue-component"
+  ],
+  "license": null,
+  "owner": {
+    "login": "Vanthink-UED",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/12745158?v=4"
+  },
+  "organization": {
+    "login": "Vanthink-UED",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/12745158?v=4"
+  },
+  "links": {
+    "site": "http://vanthink-ued.github.io/vue-core-image-upload/index.html",
+    "repo": "https://github.com/Vanthink-UED/vue-core-image-upload"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

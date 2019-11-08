@@ -1,0 +1,22 @@
+{
+  "name": "vue-query-builder",
+  "full_name": "dabernathy89/vue-query-builder",
+  "description": "A UI component for building complex queries with nested conditionals.",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "dabernathy89",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/2709404?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://dabernathy89.github.io/vue-query-builder/",
+    "repo": "https://github.com/dabernathy89/vue-query-builder"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

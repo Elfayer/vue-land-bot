@@ -1,0 +1,31 @@
+{
+  "name": "slideout",
+  "full_name": "Mango/slideout",
+  "description": "A touch slideout navigation menu for your mobile web apps.",
+  "topics": [
+    "slideout-menu",
+    "touch-events",
+    "sidebar",
+    "offcanvas",
+    "menu-navigation"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "Mango",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/5920385?v=4"
+  },
+  "organization": {
+    "login": "Mango",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/5920385?v=4"
+  },
+  "links": {
+    "site": "https://slideout.js.org",
+    "repo": "https://github.com/Mango/slideout"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

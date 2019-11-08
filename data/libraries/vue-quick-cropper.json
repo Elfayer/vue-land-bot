@@ -1,0 +1,22 @@
+{
+  "name": "vue-quick-cropper",
+  "full_name": "duyanpeng/vue-quick-cropper",
+  "description": "A mobile image cropping upload plugin for Vue----vue的移动端头像裁剪插件",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "duyanpeng",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/29807692?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/duyanpeng/vue-quick-cropper"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

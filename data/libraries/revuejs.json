@@ -1,0 +1,27 @@
+{
+  "name": "revuejs",
+  "full_name": "dwqs/revuejs",
+  "description": ":rabbit2: A tiny, light and handy state management for vuejs 2, writing less verbose code.",
+  "topics": [
+    "vuejs2",
+    "vue",
+    "state-management",
+    "modules"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "dwqs",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/7871813?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/dwqs/revuejs"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

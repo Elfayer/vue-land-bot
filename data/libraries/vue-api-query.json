@@ -1,0 +1,30 @@
+{
+  "name": "vue-api-query",
+  "full_name": "robsontenorio/vue-api-query",
+  "description": "💎 Elegant and simple way to build requests for REST API",
+  "topics": [
+    "vue",
+    "nuxt",
+    "nuxtjs",
+    "api",
+    "rest",
+    "query-builder",
+    "laravel"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "robsontenorio",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/118955?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/robsontenorio/vue-api-query"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

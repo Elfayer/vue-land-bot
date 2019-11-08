@@ -1,0 +1,25 @@
+{
+  "name": "vue-stripe-checkout",
+  "full_name": "jofftiquez/vue-stripe-checkout",
+  "description": "A vue plugin for Stripe checkout.",
+  "topics": [
+    "vue",
+    "vuejs",
+    "plugin",
+    "stripe",
+    "stripe-checkout",
+    "javascript"
+  ],
+  "license": null,
+  "owner": {
+    "login": "jofftiquez",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/8638243?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://jofftiquez.github.io/vue-stripe-checkout/",
+    "repo": "https://github.com/jofftiquez/vue-stripe-checkout"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

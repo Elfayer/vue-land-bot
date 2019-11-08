@@ -1,0 +1,31 @@
+{
+  "name": "verte",
+  "full_name": "baianat/verte",
+  "description": "🎨 A Color picker component. Built from the bottom to work with Vue.js.",
+  "topics": [
+    "color-picker",
+    "color-picker-popup",
+    "component",
+    "vuejs",
+    "vue"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "baianat",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/5085038?v=4"
+  },
+  "organization": {
+    "login": "baianat",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/5085038?v=4"
+  },
+  "links": {
+    "site": "https://baianat.github.io/verte/",
+    "repo": "https://github.com/baianat/verte"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

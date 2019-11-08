@@ -1,0 +1,18 @@
+{
+  "name": "layout-simple",
+  "full_name": "ktquez/layout-simple",
+  "description": "A simple Webpack + Vue extend layout + vue-loader setup for quick prototyping",
+  "topics": [],
+  "license": null,
+  "owner": {
+    "login": "ktquez",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/8084606?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "http://layout-simple.surge.sh/",
+    "repo": "https://github.com/ktquez/layout-simple"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

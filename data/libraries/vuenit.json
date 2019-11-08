@@ -1,0 +1,18 @@
+{
+  "name": "vuenit",
+  "full_name": "jackmellis/vuenit",
+  "description": "Vue Unit Test Helpers for server-side testing of client-side code",
+  "topics": [],
+  "license": null,
+  "owner": {
+    "login": "jackmellis",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/12736176?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/jackmellis/vuenit"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

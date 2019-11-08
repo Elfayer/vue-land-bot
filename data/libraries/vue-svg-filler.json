@@ -1,0 +1,38 @@
+{
+  "name": "vue-svg-filler",
+  "full_name": "biigpongsatorn/vue-svg-filler",
+  "description": "🎨 Vue component for customize your svg file. (For Vue CLI 2)",
+  "topics": [
+    "svg",
+    "fill",
+    "color",
+    "vue",
+    "component",
+    "plugin",
+    "vue-svg-filler",
+    "vue-components",
+    "customization",
+    "svg-files",
+    "change",
+    "width",
+    "height",
+    "fill-color",
+    "demo"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "biigpongsatorn",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/10693658?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://biigpongsatorn.github.io/#/vue-svg-filler",
+    "repo": "https://github.com/biigpongsatorn/vue-svg-filler"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

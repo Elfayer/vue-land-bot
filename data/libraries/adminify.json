@@ -1,0 +1,33 @@
+{
+  "name": "adminify",
+  "full_name": "topfullstack/adminify",
+  "description": "An Admin Dashboard based on Vuetify material",
+  "topics": [
+    "admin",
+    "dashboard",
+    "vuetify",
+    "adonisjs",
+    "sidebar",
+    "vue",
+    "vuejs"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "topfullstack",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/43437874?v=4"
+  },
+  "organization": {
+    "login": "topfullstack",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/43437874?v=4"
+  },
+  "links": {
+    "site": null,
+    "repo": "https://github.com/topfullstack/adminify"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

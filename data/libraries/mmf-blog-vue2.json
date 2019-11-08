@@ -1,0 +1,28 @@
+{
+  "name": "mmf-blog-vue2",
+  "full_name": "lincenying/mmf-blog-vue2",
+  "description": "mmf-blog vue2.0 (vue2, vue-router, vuex)",
+  "topics": [
+    "vue",
+    "vue-router",
+    "vuex",
+    "spa",
+    "mmf-blog"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "lincenying",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/10840991?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "http://vue2.mmxiaowu.com",
+    "repo": "https://github.com/lincenying/mmf-blog-vue2"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

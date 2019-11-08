@@ -1,0 +1,36 @@
+{
+  "name": "vue-fullpage.js",
+  "full_name": "alvarotrigo/vue-fullpage.js",
+  "description": "Official Vue.js wrapper for fullPage.js http://alvarotrigo.com/vue-fullpage/",
+  "topics": [
+    "vue",
+    "vuejs",
+    "vue-wrapper",
+    "fullpage",
+    "fullpagejs",
+    "javascript",
+    "vue-components",
+    "onepage",
+    "snap",
+    "fullscreen",
+    "slideshow",
+    "mousewheel",
+    "scrolling"
+  ],
+  "license": {
+    "key": "gpl-3.0",
+    "url": "https://api.github.com/licenses/gpl-3.0",
+    "name": "GNU General Public License v3.0"
+  },
+  "owner": {
+    "login": "alvarotrigo",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/1706326?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/alvarotrigo/vue-fullpage.js"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

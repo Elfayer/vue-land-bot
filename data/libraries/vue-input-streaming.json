@@ -1,0 +1,33 @@
+{
+  "name": "vue-input-streaming",
+  "full_name": "aofdev/vue-input-streaming",
+  "description": "A Vue2 Input Streaming RealTime And Two Way Data Binding Broadcasting with Pusher",
+  "topics": [
+    "vue2",
+    "vue",
+    "pwa",
+    "input",
+    "streaming",
+    "pusher",
+    "realtime",
+    "vue-form-builder",
+    "nodejs",
+    "express"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "aofdev",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/24493279?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/aofdev/vue-input-streaming"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

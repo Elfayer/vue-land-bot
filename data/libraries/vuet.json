@@ -1,0 +1,33 @@
+{
+  "name": "vuet",
+  "full_name": "medatc/vuet",
+  "description": "允许你定义飙车过程的集中式状态管理模式",
+  "topics": [
+    "vue",
+    "vuejs2",
+    "vue-router",
+    "vuex",
+    "vuet",
+    "vuejs",
+    "vue-plugin"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "medatc",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/13973738?v=4"
+  },
+  "organization": {
+    "login": "medatc",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/13973738?v=4"
+  },
+  "links": {
+    "site": null,
+    "repo": "https://github.com/medatc/vuet"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

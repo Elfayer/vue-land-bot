@@ -1,0 +1,46 @@
+{
+  "name": "ridereceipts",
+  "full_name": "hello-efficiency-inc/ridereceipts",
+  "description": "🚕 Simple automation desktop app to download and organize your receipts from Uber/Lyft. Try out our new Ride Receipts PRO !",
+  "topics": [
+    "puppeteer",
+    "browser-automation",
+    "scrapping",
+    "javascript",
+    "chromium",
+    "invoices",
+    "utility",
+    "headless-chrome",
+    "headless",
+    "uber",
+    "scraper",
+    "vuejs",
+    "electron",
+    "electron-app",
+    "productivity",
+    "desktop-app",
+    "tax-invoices",
+    "lyft",
+    "travel",
+    "personal-invoices"
+  ],
+  "license": {
+    "key": "other",
+    "url": null,
+    "name": "Other"
+  },
+  "owner": {
+    "login": "hello-efficiency-inc",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/51937412?v=4"
+  },
+  "organization": {
+    "login": "hello-efficiency-inc",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/51937412?v=4"
+  },
+  "links": {
+    "site": "https://www.ridereceipts.io",
+    "repo": "https://github.com/hello-efficiency-inc/ridereceipts"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

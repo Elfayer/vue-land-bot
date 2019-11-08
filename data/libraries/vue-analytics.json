@@ -1,0 +1,30 @@
+{
+  "name": "vue-analytics",
+  "full_name": "MatteoGabriele/vue-analytics",
+  "description": "Google Analytics plugin for Vue",
+  "topics": [
+    "vue",
+    "google-analytics",
+    "analytics",
+    "tracking",
+    "vue-plugin",
+    "vue-analytics",
+    "vuejs"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "MatteoGabriele",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/5337152?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://matteogabriele.gitbooks.io/vue-analytics/content",
+    "repo": "https://github.com/MatteoGabriele/vue-analytics"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

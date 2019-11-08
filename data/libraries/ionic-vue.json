@@ -1,0 +1,31 @@
+{
+  "name": "ionic-vue",
+  "full_name": "ModusCreateOrg/ionic-vue",
+  "description": "Vuejs integration for Ionic v4",
+  "topics": [
+    "vue",
+    "vuejs",
+    "vue-router",
+    "ionic",
+    "ionic4"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "ModusCreateOrg",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/959059?v=4"
+  },
+  "organization": {
+    "login": "ModusCreateOrg",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/959059?v=4"
+  },
+  "links": {
+    "site": null,
+    "repo": "https://github.com/ModusCreateOrg/ionic-vue"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,22 @@
+{
+  "name": "vue-badger-accordion",
+  "full_name": "vanderb/vue-badger-accordion",
+  "description": "Badger-Accordion Component for Vue 2.0",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "vanderb",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/2151453?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/vanderb/vue-badger-accordion"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

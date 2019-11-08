@@ -1,0 +1,22 @@
+{
+  "name": "apollo-connector-kit",
+  "full_name": "ecerroni/apollo-connector-kit",
+  "description": null,
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "ecerroni",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/11174327?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://blog.mvp-space.com/authentication-and-authorization-boilerplate-with-apollo-2-0-b77042aba3f6",
+    "repo": "https://github.com/ecerroni/apollo-connector-kit"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,18 @@
+{
+  "name": "vue-blockui",
+  "full_name": "realdah/vue-blockui",
+  "description": "BlockUI for vue 2, similiar to jquery blockUI, can be used for loading screen.",
+  "topics": [],
+  "license": null,
+  "owner": {
+    "login": "realdah",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/1226199?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/realdah/vue-blockui"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

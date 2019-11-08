@@ -1,0 +1,29 @@
+{
+  "name": "vue-select",
+  "full_name": "sagalbot/vue-select",
+  "description": "Everything you wish the HTML <select> element could do, wrapped up into a lightweight, extensible Vue component.",
+  "topics": [
+    "vue-component",
+    "vue-select",
+    "vue",
+    "select",
+    "selector",
+    "selecting"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "sagalbot",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/692538?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://vue-select.org",
+    "repo": "https://github.com/sagalbot/vue-select"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

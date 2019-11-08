@@ -1,0 +1,26 @@
+{
+  "name": "femtoTween",
+  "full_name": "pearofducks/femtoTween",
+  "description": "a minimalistic tween library",
+  "topics": [
+    "tween",
+    "javascript",
+    "vue"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "pearofducks",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/736895?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://pearofducks.github.io/femtoTween/",
+    "repo": "https://github.com/pearofducks/femtoTween"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,25 @@
+{
+  "name": "vue-async-data",
+  "full_name": "kamijin-fanta/vue-async-data",
+  "description": "Async data loading plugin for Vue.js 2.0",
+  "topics": [
+    "vue",
+    "vuejs2"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "kamijin-fanta",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/1541187?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/kamijin-fanta/vue-async-data"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

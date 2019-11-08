@@ -1,0 +1,36 @@
+{
+  "name": "vue-styleguidist",
+  "full_name": "vue-styleguidist/vue-styleguidist",
+  "description": "Created from react styleguidist for Vue Components with a living style guide",
+  "topics": [
+    "vue-components",
+    "styleguide",
+    "vuejs",
+    "vue",
+    "parser",
+    "vuejs2",
+    "doc",
+    "styleguidist",
+    "markdown",
+    "documentation"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "vue-styleguidist",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/29342568?v=4"
+  },
+  "organization": {
+    "login": "vue-styleguidist",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/29342568?v=4"
+  },
+  "links": {
+    "site": "https://vue-styleguidist.github.io",
+    "repo": "https://github.com/vue-styleguidist/vue-styleguidist"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

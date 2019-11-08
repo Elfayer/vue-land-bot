@@ -1,0 +1,28 @@
+{
+  "name": "vue-scroll-behavior",
+  "full_name": "jeneser/vue-scroll-behavior",
+  "description": "Customize the scrolling position on route navigation. Especially hash mode.",
+  "topics": [
+    "vue",
+    "vue2",
+    "vue-router",
+    "vue-cli",
+    "scroll-behavior"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "jeneser",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/15034042?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://jeneser.github.io/vue-scroll-behavior",
+    "repo": "https://github.com/jeneser/vue-scroll-behavior"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

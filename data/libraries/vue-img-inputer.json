@@ -1,0 +1,24 @@
+{
+  "name": "vue-img-inputer",
+  "full_name": "waynecz/vue-img-inputer",
+  "description": "🏞 A graceful image type inputer / uploader",
+  "topics": [
+    "vue",
+    "vue2",
+    "ui",
+    "component",
+    "input"
+  ],
+  "license": null,
+  "owner": {
+    "login": "waynecz",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/11238540?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "http://waynecz.github.io/VueImgInputer/index.html",
+    "repo": "https://github.com/waynecz/vue-img-inputer"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

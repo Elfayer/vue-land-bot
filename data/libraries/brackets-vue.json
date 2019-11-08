@@ -1,0 +1,22 @@
+{
+  "name": "brackets-vue",
+  "full_name": "pandao/brackets-vue",
+  "description": "Brackets extension for Vue.js",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "pandao",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/2695717?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/pandao/brackets-vue"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

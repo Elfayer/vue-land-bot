@@ -1,0 +1,33 @@
+{
+  "name": "vue-grid-layout",
+  "full_name": "jbaysolutions/vue-grid-layout",
+  "description": "A draggable and resizable grid layout, for Vue.js.",
+  "topics": [
+    "drag-and-drop",
+    "vue",
+    "vuejs2",
+    "grid",
+    "grid-layout",
+    "widget",
+    "resize"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "jbaysolutions",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/9052797?v=4"
+  },
+  "organization": {
+    "login": "jbaysolutions",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/9052797?v=4"
+  },
+  "links": {
+    "site": "https://jbaysolutions.github.io/vue-grid-layout/examples/01-basic.html",
+    "repo": "https://github.com/jbaysolutions/vue-grid-layout"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

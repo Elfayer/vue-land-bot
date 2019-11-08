@@ -1,0 +1,22 @@
+{
+  "name": "VuePack",
+  "full_name": "madskristensen/VuePack",
+  "description": null,
+  "topics": [],
+  "license": {
+    "key": "other",
+    "url": null,
+    "name": "Other"
+  },
+  "owner": {
+    "login": "madskristensen",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/1258877?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/madskristensen/VuePack"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

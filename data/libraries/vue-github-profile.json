@@ -1,0 +1,18 @@
+{
+  "name": "vue-github-profile",
+  "full_name": "GabrielBibiano/vue-github-profile",
+  "description": "A vue component to view the profile and repos of determined user",
+  "topics": [],
+  "license": null,
+  "owner": {
+    "login": "GabrielBibiano",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/13936553?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/GabrielBibiano/vue-github-profile"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

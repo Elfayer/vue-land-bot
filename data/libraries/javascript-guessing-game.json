@@ -1,0 +1,23 @@
+{
+  "name": "javascript-guessing-game",
+  "full_name": "samiheikki/javascript-guessing-game",
+  "description": "You know there are too many JavaScript libraries when there is a game for it 🎯",
+  "topics": [
+    "javascript",
+    "game",
+    "javascript-guessing-game",
+    "js-library"
+  ],
+  "license": null,
+  "owner": {
+    "login": "samiheikki",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/8615573?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://javascript-game.firebaseapp.com/",
+    "repo": "https://github.com/samiheikki/javascript-guessing-game"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

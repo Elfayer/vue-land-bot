@@ -1,0 +1,31 @@
+{
+  "name": "pesdk-wrapper-vuejs",
+  "full_name": "imgly/pesdk-wrapper-vuejs",
+  "description": "Vue.js plugin for PhotoEditor SDK",
+  "topics": [
+    "vuejs",
+    "plugin",
+    "photoeditorsdk",
+    "html",
+    "javascript"
+  ],
+  "license": {
+    "key": "other",
+    "url": null,
+    "name": "Other"
+  },
+  "owner": {
+    "login": "imgly",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/6421070?v=4"
+  },
+  "organization": {
+    "login": "imgly",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/6421070?v=4"
+  },
+  "links": {
+    "site": "https://www.photoeditorsdk.com",
+    "repo": "https://github.com/imgly/pesdk-wrapper-vuejs"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

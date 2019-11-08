@@ -1,0 +1,22 @@
+{
+  "name": "vue-soundcloud",
+  "full_name": "mul14/vue-soundcloud",
+  "description": "Vuejs + SoundCloud demo app, for JogjaJS 4th meet up.",
+  "topics": [
+    "vue-soundcloud",
+    "vuejs",
+    "vue"
+  ],
+  "license": null,
+  "owner": {
+    "login": "mul14",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/113989?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://mul14.github.io/vue-soundcloud",
+    "repo": "https://github.com/mul14/vue-soundcloud"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,30 @@
+{
+  "name": "vim-vue-plugin",
+  "full_name": "leafOfTree/vim-vue-plugin",
+  "description": "Vim syntax and indent plugin for .vue files",
+  "topics": [
+    "vim",
+    "vue",
+    "wpy",
+    "syntax",
+    "indent",
+    "vim-vue-plugin",
+    "plugin"
+  ],
+  "license": {
+    "key": "unlicense",
+    "url": "https://api.github.com/licenses/unlicense",
+    "name": "The Unlicense"
+  },
+  "owner": {
+    "login": "leafOfTree",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/13349592?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/leafOfTree/vim-vue-plugin"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,32 @@
+{
+  "name": "douban",
+  "full_name": "jeneser/douban",
+  "description": "Awesome douban DEMO created with Vue2.x + Vuex + Vue-router + Superagent",
+  "topics": [
+    "vue2",
+    "webpack2",
+    "vue-router",
+    "douban",
+    "vuex",
+    "vue-cli",
+    "vue-resoure",
+    "superagent",
+    "vue-demo"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "jeneser",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/15034042?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://jeneser.github.io/douban",
+    "repo": "https://github.com/jeneser/douban"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

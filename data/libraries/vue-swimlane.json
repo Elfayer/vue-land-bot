@@ -1,0 +1,29 @@
+{
+  "name": "vue-swimlane",
+  "full_name": "mubaidr/vue-swimlane",
+  "description": "A Text Swimlane plugin for Vue.js ",
+  "topics": [
+    "vuejs2",
+    "vue-components",
+    "text",
+    "swimlane",
+    "textslider",
+    "vue-plugin"
+  ],
+  "license": {
+    "key": "apache-2.0",
+    "url": "https://api.github.com/licenses/apache-2.0",
+    "name": "Apache License 2.0"
+  },
+  "owner": {
+    "login": "mubaidr",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/2222702?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://mubaidr.github.io/vue-swimlane",
+    "repo": "https://github.com/mubaidr/vue-swimlane"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

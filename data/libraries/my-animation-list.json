@@ -1,0 +1,25 @@
+{
+  "name": "my-animation-list",
+  "full_name": "limichange/my-animation-list",
+  "description": "My Animation List",
+  "topics": [
+    "css",
+    "demo"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "limichange",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/1947344?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://limichange.github.io/my-animation-list",
+    "repo": "https://github.com/limichange/my-animation-list"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,27 @@
+{
+  "name": "laravel-vue-pagination",
+  "full_name": "gilbitron/laravel-vue-pagination",
+  "description": "A Vue.js pagination component for Laravel paginators that works with Bootstrap",
+  "topics": [
+    "laravel",
+    "vue",
+    "pagination",
+    "bootstrap"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "gilbitron",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/203882?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://laravel-vue-pagination.now.sh/",
+    "repo": "https://github.com/gilbitron/laravel-vue-pagination"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

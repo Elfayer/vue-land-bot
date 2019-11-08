@@ -1,0 +1,34 @@
+{
+  "name": "vue-functional-calendar",
+  "full_name": "ManukMinasyan/vue-functional-calendar",
+  "description": "VueJS Functional Calendar | Component/Package",
+  "topics": [
+    "vue",
+    "calendar",
+    "functional-js",
+    "vue-datepicker",
+    "vue-calendar",
+    "datepicker",
+    "calendar-component",
+    "picker",
+    "range",
+    "demo",
+    "calendars"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "ManukMinasyan",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/2556185?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://vue-functional-calendar.now.sh/",
+    "repo": "https://github.com/ManukMinasyan/vue-functional-calendar"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

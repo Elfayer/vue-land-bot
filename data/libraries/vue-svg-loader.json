@@ -1,0 +1,30 @@
+{
+  "name": "vue-svg-loader",
+  "full_name": "visualfanatic/vue-svg-loader",
+  "description": "🔨 webpack loader that lets you use SVG files as Vue components",
+  "topics": [
+    "webpack-loader",
+    "svg",
+    "vue-components",
+    "vue",
+    "javascript",
+    "webpack",
+    "nuxt"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "visualfanatic",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/920747?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://vue-svg-loader.js.org",
+    "repo": "https://github.com/visualfanatic/vue-svg-loader"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

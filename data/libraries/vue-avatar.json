@@ -1,0 +1,25 @@
+{
+  "name": "vue-avatar",
+  "full_name": "lossendae/vue-avatar",
+  "description": "An avatar component for VueJS 2.0",
+  "topics": [
+    "vuejs",
+    "avatar"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "lossendae",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/345686?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/lossendae/vue-avatar"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

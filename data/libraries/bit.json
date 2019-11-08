@@ -1,0 +1,43 @@
+{
+  "name": "bit",
+  "full_name": "teambit/bit",
+  "description": "A tool for developing, distributing and collaborating over reusbale components. Easily share code across projects as a team.",
+  "topics": [
+    "bit",
+    "components",
+    "modules",
+    "javscript",
+    "ui-components",
+    "nodejs",
+    "collaboration",
+    "git",
+    "react",
+    "reactjs",
+    "distributed-systems",
+    "developer-tools",
+    "frontend",
+    "backend",
+    "graphql",
+    "workflow",
+    "reuse"
+  ],
+  "license": {
+    "key": "other",
+    "url": null,
+    "name": "Other"
+  },
+  "owner": {
+    "login": "teambit",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/24789812?v=4"
+  },
+  "organization": {
+    "login": "teambit",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/24789812?v=4"
+  },
+  "links": {
+    "site": "https://bit.dev",
+    "repo": "https://github.com/teambit/bit"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,28 @@
+{
+  "name": "v-dragged",
+  "full_name": "zhanziyang/v-dragged",
+  "description": "Vue directive plugin for drag event detection.",
+  "topics": [
+    "vue",
+    "vue-plugin",
+    "directive",
+    "drag",
+    "event"
+  ],
+  "license": {
+    "key": "isc",
+    "url": "https://api.github.com/licenses/isc",
+    "name": "ISC License"
+  },
+  "owner": {
+    "login": "zhanziyang",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/10041024?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://zhanziyang.github.io/v-dragged/",
+    "repo": "https://github.com/zhanziyang/v-dragged"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

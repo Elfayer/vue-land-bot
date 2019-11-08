@@ -1,0 +1,18 @@
+{
+  "name": "vue-mutation-observer",
+  "full_name": "PNKBizz/vue-mutation-observer",
+  "description": "VueJS directive to observe changes in DOM use MutationObserver API",
+  "topics": [],
+  "license": null,
+  "owner": {
+    "login": "PNKBizz",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/17909924?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/PNKBizz/vue-mutation-observer"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

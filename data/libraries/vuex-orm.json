@@ -1,0 +1,31 @@
+{
+  "name": "vuex-orm",
+  "full_name": "vuex-orm/vuex-orm",
+  "description": "The Vuex plugin to enable Object-Relational Mapping access to the Vuex Store.",
+  "topics": [
+    "vue",
+    "vuex",
+    "vuex-plugin",
+    "orm",
+    "vuex-orm"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "vuex-orm",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/35442703?v=4"
+  },
+  "organization": {
+    "login": "vuex-orm",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/35442703?v=4"
+  },
+  "links": {
+    "site": "https://vuex-orm.github.io/vuex-orm",
+    "repo": "https://github.com/vuex-orm/vuex-orm"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

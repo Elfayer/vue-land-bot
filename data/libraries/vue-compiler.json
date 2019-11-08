@@ -1,0 +1,18 @@
+{
+  "name": "vue-compiler",
+  "full_name": "paulpflug/vue-compiler",
+  "description": "a simple cli wrapper around the vue-component-compiler",
+  "topics": [],
+  "license": null,
+  "owner": {
+    "login": "paulpflug",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/1881921?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/paulpflug/vue-compiler"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

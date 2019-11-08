@@ -1,0 +1,22 @@
+{
+  "name": "vue-ya-stash",
+  "full_name": "qgp9/vue-ya-stash",
+  "description": "Yet Another simple stash storage for Vue",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "qgp9",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/10399430?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/qgp9/vue-ya-stash"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,24 @@
+{
+  "name": "vue-persian-datetime-picker",
+  "full_name": "talkhabi/vue-persian-datetime-picker",
+  "description": "A vue plugin to select jalali date and time",
+  "topics": [
+    "vuejs",
+    "persian",
+    "datepicker",
+    "jalali",
+    "vue-components"
+  ],
+  "license": null,
+  "owner": {
+    "login": "talkhabi",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/21302252?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://talkhabi.github.io/vue-persian-datetime-picker/",
+    "repo": "https://github.com/talkhabi/vue-persian-datetime-picker"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

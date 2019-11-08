@@ -1,0 +1,25 @@
+{
+  "name": "materialize-blog",
+  "full_name": "forehalo/materialize-blog",
+  "description": "redesign blog using material design",
+  "topics": [
+    "vue",
+    "laravel",
+    "material-design",
+    "php",
+    "material",
+    "blog"
+  ],
+  "license": null,
+  "owner": {
+    "login": "forehalo",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/8281226?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/forehalo/materialize-blog"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

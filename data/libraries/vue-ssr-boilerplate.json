@@ -1,0 +1,21 @@
+{
+  "name": "vue-ssr-boilerplate",
+  "full_name": "wallstreetcn/vue-ssr-boilerplate",
+  "description": "Vue.js Server Side Rendering Boilerplate without Polluting Vuex",
+  "topics": [],
+  "license": null,
+  "owner": {
+    "login": "wallstreetcn",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/4260687?v=4"
+  },
+  "organization": {
+    "login": "wallstreetcn",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/4260687?v=4"
+  },
+  "links": {
+    "site": null,
+    "repo": "https://github.com/wallstreetcn/vue-ssr-boilerplate"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

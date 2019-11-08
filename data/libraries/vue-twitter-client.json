@@ -1,0 +1,27 @@
+{
+  "name": "vue-twitter-client",
+  "full_name": "YuheiNakasaka/vue-twitter-client",
+  "description": "Twitter client created with Vue.js + Electron",
+  "topics": [
+    "twitter",
+    "vue",
+    "electron-vue",
+    "twitter-client"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "YuheiNakasaka",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/1421093?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/YuheiNakasaka/vue-twitter-client"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

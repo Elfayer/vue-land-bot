@@ -1,0 +1,26 @@
+{
+  "name": "v-click-outside",
+  "full_name": "ndelvalle/v-click-outside",
+  "description": "🔲 Vue directive to react on clicks outside an element without stopping the event propagation",
+  "topics": [
+    "vue",
+    "vuejs",
+    "vue-directive"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "ndelvalle",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/6719053?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/ndelvalle/v-click-outside"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

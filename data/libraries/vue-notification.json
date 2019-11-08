@@ -1,0 +1,22 @@
+{
+  "name": "vue-notification",
+  "full_name": "euvl/vue-notification",
+  "description": ":icecream: Vue.js 2 library for showing notifications",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "euvl",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/1577802?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "http://vue-notification.yev.io/",
+    "repo": "https://github.com/euvl/vue-notification"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

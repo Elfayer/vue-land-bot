@@ -1,0 +1,22 @@
+{
+  "name": "vue-fullscreen",
+  "full_name": "mirari/vue-fullscreen",
+  "description": "A simple Vue.js component for fullscreen",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "mirari",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/4995159?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/mirari/vue-fullscreen"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

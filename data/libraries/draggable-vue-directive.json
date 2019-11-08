@@ -1,0 +1,36 @@
+{
+  "name": "draggable-vue-directive",
+  "full_name": "IsraelZablianov/draggable-vue-directive",
+  "description": "Vue2 directive that handles drag & drop ",
+  "topics": [
+    "vue2",
+    "directive",
+    "draggable",
+    "draggable-vue-directive",
+    "vue-directive",
+    "vuejs2",
+    "drd",
+    "drag-and-drop",
+    "move",
+    "vuejs",
+    "typescript",
+    "web",
+    "npm"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "IsraelZablianov",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/20207244?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/IsraelZablianov/draggable-vue-directive"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

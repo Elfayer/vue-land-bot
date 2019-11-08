@@ -1,0 +1,33 @@
+{
+  "name": "beauty-vuejs-boilerplate",
+  "full_name": "zmts/beauty-vuejs-boilerplate",
+  "description": "❤️ Real world base Vue.js app. Access/refresh tokens auth, api services, http client, vuex modules",
+  "topics": [
+    "vuejs",
+    "access-token",
+    "refresh-token",
+    "api",
+    "http-wrapper",
+    "spa",
+    "realworld",
+    "enterprise",
+    "data-access-layer",
+    "boilerplate",
+    "vue-boilerplate",
+    "vuex",
+    "jwt",
+    "flux"
+  ],
+  "license": null,
+  "owner": {
+    "login": "zmts",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/6388755?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/zmts/beauty-vuejs-boilerplate"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

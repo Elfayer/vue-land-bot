@@ -1,0 +1,33 @@
+{
+  "name": "vue-share-buttons",
+  "full_name": "Alexandrshy/vue-share-buttons",
+  "description": "🔗A set of social buttons for Vue.js",
+  "topics": [
+    "vue",
+    "vuejs",
+    "vue2",
+    "vuejs2",
+    "vue-components",
+    "component",
+    "share",
+    "share-link",
+    "share-buttons",
+    "social-buttons"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "Alexandrshy",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/14329906?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/Alexandrshy/vue-share-buttons"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

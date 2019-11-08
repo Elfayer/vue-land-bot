@@ -1,0 +1,32 @@
+{
+  "name": "vue-i18n-ally",
+  "full_name": "antfu/vue-i18n-ally",
+  "description": "🌍 Better Vue i18n experiences with VSCode",
+  "topics": [
+    "vscode",
+    "vscode-extension",
+    "vue",
+    "vuejs",
+    "vue-i18n",
+    "vue-i18n-tools",
+    "i18n",
+    "locales",
+    "translation"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "antfu",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/11247099?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://marketplace.visualstudio.com/items?itemName=antfu.vue-i18n-ally",
+    "repo": "https://github.com/antfu/vue-i18n-ally"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,28 @@
+{
+  "name": "vue-sails-example",
+  "full_name": "ndabAP/vue-sails-example",
+  "description": "Vue.js with Sails.js example project with many features",
+  "topics": [
+    "vuejs",
+    "sailsjs",
+    "javascript",
+    "vue",
+    "sails"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "ndabAP",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/8510570?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://vue-sails-example.herokuapp.com/",
+    "repo": "https://github.com/ndabAP/vue-sails-example"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

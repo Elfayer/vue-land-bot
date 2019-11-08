@@ -1,0 +1,30 @@
+{
+  "name": "vue-daval",
+  "full_name": "deulos/vue-daval",
+  "description": "Super vue data validator - Easiness, simplicity, accurate",
+  "topics": [
+    "vue",
+    "data",
+    "validator",
+    "validation",
+    "form",
+    "model",
+    "input"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "deulos",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/6222619?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://deulos.github.io/vue-daval/",
+    "repo": "https://github.com/deulos/vue-daval"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

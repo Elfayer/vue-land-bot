@@ -1,0 +1,22 @@
+{
+  "name": "vue-zhihudaily-2.0",
+  "full_name": "cs1707/vue-zhihudaily-2.0",
+  "description": "Zhihudaily demo built with Vue 2.0, vue-router & vuex, with server-side rendering",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "cs1707",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/5404420?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/cs1707/vue-zhihudaily-2.0"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

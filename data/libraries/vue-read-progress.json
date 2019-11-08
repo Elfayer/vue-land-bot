@@ -1,0 +1,29 @@
+{
+  "name": "vue-read-progress",
+  "full_name": "ajerez/vue-read-progress",
+  "description": "Customizable progress bar at the top of the page that shows the scroll progress",
+  "topics": [
+    "vue",
+    "vuejs",
+    "scroll",
+    "scrollprogress",
+    "scroll-progress-bar",
+    "read-progress"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "ajerez",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/1528301?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://ajerez.github.io/vue-read-progress/",
+    "repo": "https://github.com/ajerez/vue-read-progress"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

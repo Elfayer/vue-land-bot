@@ -1,0 +1,29 @@
+{
+  "name": "vue-visibility-trigger",
+  "full_name": "shwilliam/vue-visibility-trigger",
+  "description": "👁 Declarative Vue component that emits an event when scrolled into view",
+  "topics": [
+    "component",
+    "vue",
+    "scroll",
+    "visible",
+    "view",
+    "tools"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "shwilliam",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/38357771?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://www.npmjs.com/package/vue-visibility-trigger",
+    "repo": "https://github.com/shwilliam/vue-visibility-trigger"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

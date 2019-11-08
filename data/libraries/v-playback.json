@@ -1,0 +1,27 @@
+{
+  "name": "v-playback",
+  "full_name": "TerryZ/v-playback",
+  "description": "A Vue2 plugin to make video play easier",
+  "topics": [
+    "javascript",
+    "vuejs",
+    "video",
+    "videojs"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "TerryZ",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/854406?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://terryz.github.io/vue/#/playback",
+    "repo": "https://github.com/TerryZ/v-playback"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

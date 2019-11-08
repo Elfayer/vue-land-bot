@@ -1,0 +1,29 @@
+{
+  "name": "vue-router-user-roles",
+  "full_name": "anthonygore/vue-router-user-roles",
+  "description": "A Vue.js plugin that protects routes based on user roles. Add your own authentication.",
+  "topics": [
+    "vue",
+    "vue-router",
+    "permissions",
+    "protected",
+    "roles",
+    "authorization"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "anthonygore",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/5368448?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/anthonygore/vue-router-user-roles"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

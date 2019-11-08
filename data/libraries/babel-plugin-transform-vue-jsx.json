@@ -1,0 +1,22 @@
+{
+  "name": "babel-plugin-transform-vue-jsx",
+  "icon": "vue.png",
+  "full_name": "vuejs/babel-plugin-transform-vue-jsx",
+  "description": "babel plugin for vue 2.0 jsx",
+  "topics": ["official"],
+  "license": null,
+  "owner": {
+    "login": "vuejs",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/6128107?v=4"
+  },
+  "organization": {
+    "login": "vuejs",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/6128107?v=4"
+  },
+  "links": {
+    "site": null,
+    "repo": "https://github.com/vuejs/babel-plugin-transform-vue-jsx"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,18 @@
+{
+  "name": "vue-messageBox",
+  "full_name": "zhangxiang958/vue-messageBox",
+  "description": "the messagebox component for Vue",
+  "topics": [],
+  "license": null,
+  "owner": {
+    "login": "zhangxiang958",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/13307374?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://github.com/vuejs/awesome-vue#overlay",
+    "repo": "https://github.com/zhangxiang958/vue-messageBox"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

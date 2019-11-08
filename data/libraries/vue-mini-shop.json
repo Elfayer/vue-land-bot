@@ -1,0 +1,22 @@
+{
+  "name": "vue-mini-shop",
+  "full_name": "BosNaufal/vue-mini-shop",
+  "description": "Mini Online Shop Built With Vue JS",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "BosNaufal",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/12091318?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://bosnaufal.github.io/vue-mini-shop",
+    "repo": "https://github.com/BosNaufal/vue-mini-shop"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,26 @@
+{
+  "name": "bpit-vue",
+  "full_name": "dreambo8563/bpit-vue",
+  "description": "vue effects component package 🚀",
+  "topics": [
+    "vue2",
+    "components",
+    "css3"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "dreambo8563",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/6948318?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://dreambo8563.github.io/bpit-vue/",
+    "repo": "https://github.com/dreambo8563/bpit-vue"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

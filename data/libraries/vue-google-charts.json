@@ -1,0 +1,21 @@
+{
+  "name": "vue-google-charts",
+  "full_name": "devstark-com/vue-google-charts",
+  "description": "Reactive Vue.js wrapper for Google Charts lib",
+  "topics": [],
+  "license": null,
+  "owner": {
+    "login": "devstark-com",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/28802213?v=4"
+  },
+  "organization": {
+    "login": "devstark-com",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/28802213?v=4"
+  },
+  "links": {
+    "site": null,
+    "repo": "https://github.com/devstark-com/vue-google-charts"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

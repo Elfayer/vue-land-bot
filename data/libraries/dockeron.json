@@ -1,0 +1,33 @@
+{
+  "name": "dockeron",
+  "full_name": "dockeron/dockeron",
+  "description": "🤖🤖🤖 Electron + Vue.js for Docker",
+  "topics": [
+    "electron",
+    "electron-vue",
+    "vue",
+    "vuejs",
+    "docker",
+    "vuejs2",
+    "electron-app"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "dockeron",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/26657153?v=4"
+  },
+  "organization": {
+    "login": "dockeron",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/26657153?v=4"
+  },
+  "links": {
+    "site": null,
+    "repo": "https://github.com/dockeron/dockeron"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

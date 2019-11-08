@@ -1,0 +1,22 @@
+{
+  "name": "language-vue-component",
+  "full_name": "CYBAI/language-vue-component",
+  "description": "Adds syntax highlighting to Vue Component files in Atom",
+  "topics": [
+    "atom",
+    "vue-components",
+    "syntax-highlighting"
+  ],
+  "license": null,
+  "owner": {
+    "login": "CYBAI",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/6782666?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://atom.io/packages/language-vue-component",
+    "repo": "https://github.com/CYBAI/language-vue-component"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

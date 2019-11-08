@@ -1,0 +1,23 @@
+{
+  "name": "vuejs-redux",
+  "full_name": "titouancreach/vuejs-redux",
+  "description": "Flexible binding between Vue and Redux",
+  "topics": [
+    "redux",
+    "vuejs2",
+    "vuejs",
+    "render-prop"
+  ],
+  "license": null,
+  "owner": {
+    "login": "titouancreach",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/3995719?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/titouancreach/vuejs-redux"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

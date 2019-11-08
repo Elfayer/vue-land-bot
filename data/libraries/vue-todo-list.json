@@ -1,0 +1,27 @@
+{
+  "name": "vue-todo-list",
+  "full_name": "alexander-elgin/vue-todo-list",
+  "description": "ToDo List sample app based on Vue + Vuex + Vuetify + Vee-Validate",
+  "topics": [
+    "vue",
+    "vuejs",
+    "vue2",
+    "vuejs2",
+    "vuex",
+    "vuetify",
+    "vee-validate",
+    "todolist"
+  ],
+  "license": null,
+  "owner": {
+    "login": "alexander-elgin",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/1811689?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/alexander-elgin/vue-todo-list"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

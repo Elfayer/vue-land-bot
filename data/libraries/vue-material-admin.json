@@ -1,0 +1,28 @@
+{
+  "name": "vue-material-admin",
+  "full_name": "tookit/vue-material-admin",
+  "description": "A vue material design admin template",
+  "topics": [
+    "vue",
+    "vuetifyjs",
+    "admin",
+    "dashboard",
+    "uikit"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "tookit",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/149564?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "http://vma.isocked.com/#/dashboard",
+    "repo": "https://github.com/tookit/vue-material-admin"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

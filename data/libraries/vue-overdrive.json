@@ -1,0 +1,23 @@
+{
+  "name": "vue-overdrive",
+  "full_name": "mattrothenberg/vue-overdrive",
+  "description": "Super easy magic-move transitions for Vue apps",
+  "topics": [
+    "vue",
+    "vuejs",
+    "animations",
+    "vue-router"
+  ],
+  "license": null,
+  "owner": {
+    "login": "mattrothenberg",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/5148596?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/mattrothenberg/vue-overdrive"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

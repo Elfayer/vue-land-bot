@@ -1,0 +1,25 @@
+{
+  "name": "vue-seamless-scroll",
+  "full_name": "chenxuan0000/vue-seamless-scroll",
+  "description": " :beginner:A simple, seamless scrolling for Vue.js  vue无缝滚动component",
+  "topics": [
+    "vue-seamless-scroll",
+    "component"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "chenxuan0000",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/23030433?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/chenxuan0000/vue-seamless-scroll"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,29 @@
+{
+  "name": "vue-loading-overlay",
+  "full_name": "ankurk91/vue-loading-overlay",
+  "description": "Vue.js component for full screen loading indicator",
+  "topics": [
+    "loading",
+    "loader",
+    "overlay",
+    "indicator",
+    "vue",
+    "spinner"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "ankurk91",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/6111524?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://ankurk91.github.io/vue-loading-overlay/",
+    "repo": "https://github.com/ankurk91/vue-loading-overlay"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

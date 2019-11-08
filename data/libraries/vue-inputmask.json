@@ -1,0 +1,26 @@
+{
+  "name": "vue-inputmask",
+  "full_name": "scleriot/vue-inputmask",
+  "description": "Vue.js directive to add inputmask library to your inputs (vanilla javascript).",
+  "topics": [
+    "vuejs",
+    "vue-directive",
+    "inputmask"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "scleriot",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/733474?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/scleriot/vue-inputmask"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

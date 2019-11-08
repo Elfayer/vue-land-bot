@@ -1,0 +1,29 @@
+{
+  "name": "intro-to-vue",
+  "full_name": "sdras/intro-to-vue",
+  "description": "Workshop Materials for my Introduction to Vue.js Workshop",
+  "topics": [
+    "vue",
+    "vuex",
+    "introduction-to-vue",
+    "vue-animations",
+    "vue-cli",
+    "vue-methods",
+    "vue-watchers",
+    "nuxt",
+    "introduction-to-nuxt",
+    "vue-directive"
+  ],
+  "license": null,
+  "owner": {
+    "login": "sdras",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/2281088?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/sdras/intro-to-vue"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

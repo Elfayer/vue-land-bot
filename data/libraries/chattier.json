@@ -1,0 +1,26 @@
+{
+  "name": "chattier",
+  "full_name": "raniesantos/chattier",
+  "description": "Chatty social network from Codecourse tutorial rebuilt from scratch as a single-page app.",
+  "topics": [
+    "laravel",
+    "jwt",
+    "spa",
+    "vue",
+    "vuex",
+    "vue-router",
+    "bulma"
+  ],
+  "license": null,
+  "owner": {
+    "login": "raniesantos",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/8528269?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/raniesantos/chattier"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

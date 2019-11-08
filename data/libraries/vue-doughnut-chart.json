@@ -1,0 +1,26 @@
+{
+  "name": "vue-doughnut-chart",
+  "full_name": "mazipan/vue-doughnut-chart",
+  "description": "🍩 Doughnut chart component for Vue.js, originally created by Greg Willson",
+  "topics": [
+    "vue-chart",
+    "vue-doughnut-chart",
+    "vue-gauge-chart"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "mazipan",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/7221389?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://mazipan.github.io/vue-doughnut-chart/",
+    "repo": "https://github.com/mazipan/vue-doughnut-chart"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

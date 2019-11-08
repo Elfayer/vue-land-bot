@@ -1,0 +1,28 @@
+{
+  "name": "Keen-UI",
+  "full_name": "JosephusPaye/Keen-UI",
+  "description": "A lightweight Vue.js UI library with a simple API, inspired by Google's Material Design.",
+  "topics": [
+    "vue",
+    "material-design",
+    "ui",
+    "components",
+    "javascript"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "JosephusPaye",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/5924865?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://josephuspaye.github.io/Keen-UI/",
+    "repo": "https://github.com/JosephusPaye/Keen-UI"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,31 @@
+{
+  "name": "vue-cool-select",
+  "full_name": "iliyaZelenko/vue-cool-select",
+  "description": "Select with autocomplete, slots, bootstrap and material design themes.",
+  "topics": [
+    "bootstrap",
+    "autocomplete",
+    "vue",
+    "select",
+    "input",
+    "search",
+    "material-design",
+    "searching"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "iliyaZelenko",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/13103045?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/iliyaZelenko/vue-cool-select"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

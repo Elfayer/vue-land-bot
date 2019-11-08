@@ -1,0 +1,33 @@
+{
+  "name": "vue-filter-pluralize",
+  "full_name": "eduardnikolenko/vue-filter-pluralize",
+  "description": "Simple pluralize filter for Vue.js",
+  "topics": [
+    "vue",
+    "vue-filter",
+    "vue-filters",
+    "vuejs",
+    "vuejs2",
+    "pluralize-filter",
+    "plural-rule",
+    "plural-rules",
+    "i18n",
+    "vue-i18n"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "eduardnikolenko",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/4426698?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/eduardnikolenko/vue-filter-pluralize"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

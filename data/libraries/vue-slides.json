@@ -1,0 +1,28 @@
+{
+  "name": "vue-slides",
+  "full_name": "znck/vue-slides",
+  "description": "Present with Vue",
+  "topics": [
+    "vue",
+    "keynote",
+    "presentation-tools",
+    "slideshow",
+    "presentation"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "znck",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/2596484?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://keynote.sh",
+    "repo": "https://github.com/znck/vue-slides"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

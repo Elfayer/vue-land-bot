@@ -1,0 +1,22 @@
+{
+  "name": "yimo-vue-editor",
+  "full_name": "yimogit/yimo-vue-editor",
+  "description": "Vue-editor component modified and encapsulated based on wangeditor2.5.11 source code",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "yimogit",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/15975059?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/yimogit/yimo-vue-editor"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

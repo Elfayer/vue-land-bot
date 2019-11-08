@@ -1,0 +1,30 @@
+{
+  "name": "vue-design-system",
+  "full_name": "viljamis/vue-design-system",
+  "description": "An open source tool for building UI Design Systems with Vue.js",
+  "topics": [
+    "vuejs",
+    "design-systems",
+    "design-system",
+    "vue-styleguidist",
+    "components",
+    "component-library",
+    "vue"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "viljamis",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/671836?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://vueds.com",
+    "repo": "https://github.com/viljamis/vue-design-system"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

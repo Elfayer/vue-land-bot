@@ -1,0 +1,18 @@
+{
+  "name": "tour-of-heroes-vue2",
+  "full_name": "aweber1/tour-of-heroes-vue2",
+  "description": "Angular 2 Tour of Heroes app built with Vue.js 2.0",
+  "topics": [],
+  "license": null,
+  "owner": {
+    "login": "aweber1",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/232242?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/aweber1/tour-of-heroes-vue2"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

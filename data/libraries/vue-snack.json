@@ -1,0 +1,22 @@
+{
+  "name": "vue-snack",
+  "full_name": "zerodois/vue-snack",
+  "description": "A Vue.JS plugin for Snackbars based on Google Material",
+  "topics": [
+    "vuejs2",
+    "snackbar",
+    "material"
+  ],
+  "license": null,
+  "owner": {
+    "login": "zerodois",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/17889248?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://vue-snack.surge.sh",
+    "repo": "https://github.com/zerodois/vue-snack"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

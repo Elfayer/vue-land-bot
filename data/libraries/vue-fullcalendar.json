@@ -1,0 +1,25 @@
+{
+  "name": "vue-fullcalendar",
+  "full_name": "CroudTech/vue-fullcalendar",
+  "description": "FullCalendar Wrapper for vue ",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "CroudTech",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/7942616?v=4"
+  },
+  "organization": {
+    "login": "CroudTech",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/7942616?v=4"
+  },
+  "links": {
+    "site": null,
+    "repo": "https://github.com/CroudTech/vue-fullcalendar"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

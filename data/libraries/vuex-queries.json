@@ -1,0 +1,26 @@
+{
+  "name": "vuex-queries",
+  "full_name": "whtsky/vuex-queries",
+  "description": "Vuex-Queries helps you write query functions in Vuex",
+  "topics": [
+    "vuex",
+    "vuex2",
+    "vue"
+  ],
+  "license": {
+    "key": "bsd-3-clause",
+    "url": "https://api.github.com/licenses/bsd-3-clause",
+    "name": "BSD 3-Clause \"New\" or \"Revised\" License"
+  },
+  "owner": {
+    "login": "whtsky",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/876694?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/whtsky/vuex-queries"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,27 @@
+{
+  "name": "v-image",
+  "full_name": "vinayakkulkarni/v-image",
+  "description": ":camera: Tiny little component for input type=file (< 1kb, gzipped)",
+  "topics": [
+    "vue",
+    "vuejs",
+    "image-component",
+    "vuejs2"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "vinayakkulkarni",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/19776877?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://vinayakkulkarni.github.io/v-image/",
+    "repo": "https://github.com/vinayakkulkarni/v-image"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

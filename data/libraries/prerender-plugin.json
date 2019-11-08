@@ -1,0 +1,30 @@
+{
+  "name": "prerender-plugin",
+  "full_name": "mubaidr/prerender-plugin",
+  "description": "A Node.js/ webpack plugin to prerender static HTML in a single-page application.",
+  "topics": [
+    "prerender",
+    "single-page-applications",
+    "webpack",
+    "webpack4",
+    "nodejs",
+    "spa",
+    "prerender-plugin"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "mubaidr",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/2222702?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/mubaidr/prerender-plugin"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

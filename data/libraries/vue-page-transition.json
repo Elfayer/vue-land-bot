@@ -1,0 +1,28 @@
+{
+  "name": "vue-page-transition",
+  "full_name": "Orlandster/vue-page-transition",
+  "description": "A lightweight Vue.js plugin for page / route transitions.",
+  "topics": [
+    "vue",
+    "vuejs2",
+    "vuejs",
+    "vue-translations",
+    "vue-components"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "Orlandster",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/18451642?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://orlandster.github.io/vue-page-transition",
+    "repo": "https://github.com/Orlandster/vue-page-transition"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

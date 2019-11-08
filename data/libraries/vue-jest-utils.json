@@ -1,0 +1,25 @@
+{
+  "name": "vue-jest-utils",
+  "full_name": "locoslab/vue-jest-utils",
+  "description": "Utilities for testing Vue.js components using Jest",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "locoslab",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/15248135?v=4"
+  },
+  "organization": {
+    "login": "locoslab",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/15248135?v=4"
+  },
+  "links": {
+    "site": null,
+    "repo": "https://github.com/locoslab/vue-jest-utils"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

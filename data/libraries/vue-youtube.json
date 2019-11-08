@@ -1,0 +1,27 @@
+{
+  "name": "vue-youtube",
+  "full_name": "anteriovieira/vue-youtube",
+  "description": "A simple component for a powerful API. vue-youtube provides a simple layer for you to use your imagination while over the YouTube IFrame Player API.",
+  "topics": [
+    "vuejs",
+    "vue-youtube",
+    "player",
+    "youtube"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "anteriovieira",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/1490347?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/anteriovieira/vue-youtube"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

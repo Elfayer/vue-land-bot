@@ -1,0 +1,26 @@
+{
+  "name": "rollup-plugin-vue",
+  "icon": "vue.png",
+  "full_name": "vuejs/rollup-plugin-vue",
+  "description": "Roll .vue files",
+  "topics": ["vue", "rollup", "official"],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "vuejs",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/6128107?v=4"
+  },
+  "organization": {
+    "login": "vuejs",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/6128107?v=4"
+  },
+  "links": {
+    "site": "https://vuejs.github.io/rollup-plugin-vue",
+    "repo": "https://github.com/vuejs/rollup-plugin-vue"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

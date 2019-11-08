@@ -1,0 +1,21 @@
+{
+  "name": "revue",
+  "full_name": "revue/revue",
+  "description": "PSA: This project is dead.",
+  "topics": [],
+  "license": null,
+  "owner": {
+    "login": "revue",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/16144768?v=4"
+  },
+  "organization": {
+    "login": "revue",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/16144768?v=4"
+  },
+  "links": {
+    "site": null,
+    "repo": "https://github.com/revue/revue"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

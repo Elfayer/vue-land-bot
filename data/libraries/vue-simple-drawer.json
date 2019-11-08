@@ -1,0 +1,27 @@
+{
+  "name": "vue-simple-drawer",
+  "full_name": "dreambo8563/vue-simple-drawer",
+  "description": "A tiny Drawer component  with bounced animation for Vue 🚪🎏🗄🔛",
+  "topics": [
+    "vue",
+    "component",
+    "scss",
+    "drawer"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "dreambo8563",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/6948318?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://dreambo8563.github.io/vue-simple-drawer/",
+    "repo": "https://github.com/dreambo8563/vue-simple-drawer"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

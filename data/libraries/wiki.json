@@ -1,0 +1,33 @@
+{
+  "name": "wiki",
+  "full_name": "Requarks/wiki",
+  "description": "Wiki.js | A modern, lightweight and powerful wiki app built on Node.js",
+  "topics": [
+    "wiki",
+    "nodejs",
+    "git",
+    "documentation",
+    "cross-platform",
+    "markdown",
+    "open-source"
+  ],
+  "license": {
+    "key": "agpl-3.0",
+    "url": "https://api.github.com/licenses/agpl-3.0",
+    "name": "GNU Affero General Public License v3.0"
+  },
+  "owner": {
+    "login": "Requarks",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/16729233?v=4"
+  },
+  "organization": {
+    "login": "Requarks",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/16729233?v=4"
+  },
+  "links": {
+    "site": "https://wiki.js.org",
+    "repo": "https://github.com/Requarks/wiki"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,29 @@
+{
+  "name": "vue-treeselect",
+  "full_name": "riophae/vue-treeselect",
+  "description": "A multi-select component with nested options support for Vue.js",
+  "topics": [
+    "vue",
+    "tree",
+    "select",
+    "dropdown",
+    "component",
+    "javascript"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "riophae",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/1289884?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://vue-treeselect.js.org/",
+    "repo": "https://github.com/riophae/vue-treeselect"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

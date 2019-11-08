@@ -1,0 +1,35 @@
+{
+  "name": "v-selectpage",
+  "full_name": "TerryZ/v-selectpage",
+  "description": "SelectPage for Vue2, list or table view of pagination,  use tags for multiple selection, i18n and server side resources supports",
+  "topics": [
+    "javascript",
+    "vuejs",
+    "vue2",
+    "webpack",
+    "selector",
+    "tableview",
+    "i18n",
+    "server-side",
+    "pagination",
+    "tags",
+    "multiple",
+    "front-end"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "TerryZ",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/854406?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://terryz.github.io/vue/#/selectpage",
+    "repo": "https://github.com/TerryZ/v-selectpage"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,26 @@
+{
+  "name": "vuex-shared-mutations",
+  "full_name": "xanf/vuex-shared-mutations",
+  "description": "Share vuex mutations between tabs/windows",
+  "topics": [
+    "vue",
+    "vuejs2",
+    "vuex"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "xanf",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/200997?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/xanf/vuex-shared-mutations"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

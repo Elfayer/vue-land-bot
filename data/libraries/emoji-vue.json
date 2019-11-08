@@ -1,0 +1,28 @@
+{
+  "name": "emoji-vue",
+  "full_name": "shershen08/emoji-vue",
+  "description": "Add emoji keyboard to your vuejs project",
+  "topics": [
+    "vue",
+    "vuejs",
+    "emoji",
+    "input-method",
+    "smileys"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "shershen08",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/1363772?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/shershen08/emoji-vue"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,27 @@
+{
+  "name": "vue2-datepicker",
+  "full_name": "mengxiong10/vue2-datepicker",
+  "description": "A datepicker / datetimepicker component for Vue2 ",
+  "topics": [
+    "vue",
+    "datepicker",
+    "datetimepicker",
+    "vue2-datepicker"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "mengxiong10",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/14135808?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://mengxiong10.github.io/vue2-datepicker/demo/index.html",
+    "repo": "https://github.com/mengxiong10/vue2-datepicker"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

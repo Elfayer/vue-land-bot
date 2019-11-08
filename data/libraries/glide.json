@@ -1,0 +1,32 @@
+{
+  "name": "glide",
+  "full_name": "glidejs/glide",
+  "description": "A dependency-free JavaScript ES6 slider and carousel. It’s lightweight, flexible and fast. Designed to slide. No less, no more",
+  "topics": [
+    "slider",
+    "carousel",
+    "es6",
+    "dependency-free",
+    "javascript",
+    "lightweight"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "glidejs",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/37380006?v=4"
+  },
+  "organization": {
+    "login": "glidejs",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/37380006?v=4"
+  },
+  "links": {
+    "site": "https://glidejs.com",
+    "repo": "https://github.com/glidejs/glide"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

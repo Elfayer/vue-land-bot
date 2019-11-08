@@ -1,0 +1,29 @@
+{
+  "name": "oc-vuetober-theme",
+  "full_name": "scottbedard/oc-vuetober-theme",
+  "description": "A webpack starting point for single page apps with October CMS and Vue",
+  "topics": [
+    "vue",
+    "octobercms",
+    "laravel",
+    "spa",
+    "vuetober",
+    "oc-vuetober-theme"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "scottbedard",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/7980426?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "http://vuetober.scottbedard.net",
+    "repo": "https://github.com/scottbedard/oc-vuetober-theme"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

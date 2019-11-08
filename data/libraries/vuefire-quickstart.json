@@ -1,0 +1,18 @@
+{
+  "name": "vuefire-quickstart",
+  "full_name": "sejr/vuefire-quickstart",
+  "description": "A boilerplate for web applications using Vue.js and Firebase, ft. Webpack and ESLint.",
+  "topics": [],
+  "license": null,
+  "owner": {
+    "login": "sejr",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/2413031?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/sejr/vuefire-quickstart"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

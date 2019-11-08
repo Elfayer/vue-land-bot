@@ -1,0 +1,36 @@
+{
+  "name": "enso",
+  "full_name": "laravel-enso/enso",
+  "description": "Laravel Vue SPA, Bulma themed. For demo login use `admin@laravel-enso.com` & `password` -",
+  "topics": [
+    "laravel",
+    "laravel-enso",
+    "enso",
+    "spa",
+    "bulma",
+    "vue-router",
+    "vuex",
+    "vue",
+    "admin",
+    "boilerplate"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "laravel-enso",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/26483909?v=4"
+  },
+  "organization": {
+    "login": "laravel-enso",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/26483909?v=4"
+  },
+  "links": {
+    "site": "https://www.laravel-enso.com",
+    "repo": "https://github.com/laravel-enso/enso"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,32 @@
+{
+  "name": "buefy",
+  "full_name": "buefy/buefy",
+  "description": "Lightweight UI components for Vue.js based on Bulma",
+  "topics": [
+    "vue",
+    "bulma",
+    "vue-admin",
+    "vue-bulma",
+    "components",
+    "vuejs"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "buefy",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/26799900?v=4"
+  },
+  "organization": {
+    "login": "buefy",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/26799900?v=4"
+  },
+  "links": {
+    "site": "https://buefy.org",
+    "repo": "https://github.com/buefy/buefy"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

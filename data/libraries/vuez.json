@@ -1,0 +1,18 @@
+{
+  "name": "vuez",
+  "full_name": "markselby9/vuez",
+  "description": "A very simple but powerful state management for vuejs projects.",
+  "topics": [],
+  "license": null,
+  "owner": {
+    "login": "markselby9",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/3454734?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://www.npmjs.com/package/vuez",
+    "repo": "https://github.com/markselby9/vuez"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,22 @@
+{
+  "name": "vue-awesome-notifications",
+  "full_name": "f3oall/vue-awesome-notifications",
+  "description": "Vue.js version of Awesome Notifications library",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "f3oall",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/1751835?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/f3oall/vue-awesome-notifications"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

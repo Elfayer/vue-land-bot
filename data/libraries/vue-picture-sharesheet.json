@@ -1,0 +1,22 @@
+{
+  "name": "vue-picture-sharesheet",
+  "full_name": "Onatcer/vue-picture-sharesheet",
+  "description": "A Vue Picture Sharesheet Component heavily inspired by the Image Sharesheet in Apple's Newsroom",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "Onatcer",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/6266887?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://onatcer.github.io/vue-picture-sharesheet/",
+    "repo": "https://github.com/Onatcer/vue-picture-sharesheet"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

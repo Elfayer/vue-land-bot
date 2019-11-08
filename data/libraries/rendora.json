@@ -1,0 +1,44 @@
+{
+  "name": "rendora",
+  "full_name": "rendora/rendora",
+  "description": "dynamic server-side rendering using headless Chrome to effortlessly solve the SEO problem for modern javascript websites",
+  "topics": [
+    "ssr",
+    "react",
+    "vue",
+    "angular",
+    "reactjs",
+    "vuejs",
+    "go",
+    "golang",
+    "chrome-headless",
+    "chrome-devtools",
+    "javascript",
+    "seo",
+    "seo-optimization",
+    "server-side-rendering",
+    "dynamic-rendering",
+    "spa",
+    "crawler",
+    "puppeteer"
+  ],
+  "license": {
+    "key": "apache-2.0",
+    "url": "https://api.github.com/licenses/apache-2.0",
+    "name": "Apache License 2.0"
+  },
+  "owner": {
+    "login": "rendora",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/45144556?v=4"
+  },
+  "organization": {
+    "login": "rendora",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/45144556?v=4"
+  },
+  "links": {
+    "site": "https://rendora.co",
+    "repo": "https://github.com/rendora/rendora"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

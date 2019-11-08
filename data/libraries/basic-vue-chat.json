@@ -1,0 +1,26 @@
+{
+  "name": "basic-vue-chat",
+  "full_name": "jmaczan/basic-vue-chat",
+  "description": "Easy to use VueJS chat.",
+  "topics": [
+    "vue",
+    "vuejs",
+    "vuejs2",
+    "vuex",
+    "chat",
+    "chat-application",
+    "chatroom"
+  ],
+  "license": null,
+  "owner": {
+    "login": "jmaczan",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/18054202?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://www.npmjs.com/package/basic-vue-chat",
+    "repo": "https://github.com/jmaczan/basic-vue-chat"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

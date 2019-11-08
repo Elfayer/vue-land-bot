@@ -1,0 +1,35 @@
+{
+  "name": "vue2-admin-lte",
+  "full_name": "devjin0617/vue2-admin-lte",
+  "description": ":bar_chart: adminLTE to vuejs v2.x converting project ",
+  "topics": [
+    "adminlte",
+    "vue-admin-lte",
+    "vuejs",
+    "bootstrap",
+    "jquery",
+    "webpack",
+    "admin-lte-vue",
+    "vue-adminlte",
+    "adminlte-vue",
+    "vue2-admin-lte",
+    "vue2",
+    "vue2-demo"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "devjin0617",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/5671786?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://devjin0617.github.io/vue2-admin-lte",
+    "repo": "https://github.com/devjin0617/vue2-admin-lte"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

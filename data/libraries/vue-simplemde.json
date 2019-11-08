@@ -1,0 +1,27 @@
+{
+  "name": "vue-simplemde",
+  "full_name": "F-loat/vue-simplemde",
+  "description": "📝 Vue-SimpleMDE - use simplemde with vue.js",
+  "topics": [
+    "vue",
+    "simplemde",
+    "markdown",
+    "editor"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "F-loat",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/16759376?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://F-loat.github.io/vue-simplemde",
+    "repo": "https://github.com/F-loat/vue-simplemde"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

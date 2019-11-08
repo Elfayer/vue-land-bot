@@ -1,0 +1,27 @@
+{
+  "name": "vue-masonry",
+  "full_name": "shershen08/vue-masonry",
+  "description": "💠 Vue.js directive for masonry blocks layouting ✅",
+  "topics": [
+    "masonry",
+    "vuejs",
+    "vuejs2",
+    "layout"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "shershen08",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/1363772?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/shershen08/vue-masonry"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

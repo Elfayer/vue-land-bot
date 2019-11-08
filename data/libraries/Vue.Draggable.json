@@ -1,0 +1,29 @@
+{
+  "name": "Vue.Draggable",
+  "full_name": "SortableJS/Vue.Draggable",
+  "description": "Vue drag-and-drop component based on Sortable.js",
+  "topics": [
+    "drag-and-drop",
+    "vue",
+    "component"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "SortableJS",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/17040762?v=4"
+  },
+  "organization": {
+    "login": "SortableJS",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/17040762?v=4"
+  },
+  "links": {
+    "site": "https://sortablejs.github.io/Vue.Draggable/",
+    "repo": "https://github.com/SortableJS/Vue.Draggable"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,26 @@
+{
+  "name": "svelte",
+  "full_name": "sveltejs/svelte",
+  "description": "Cybernetically enhanced web apps",
+  "topics": ["template", "ui", "compiler"],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "sveltejs",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/23617963?v=4"
+  },
+  "organization": {
+    "login": "sveltejs",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/23617963?v=4"
+  },
+  "links": {
+    "site": "https://svelte.dev",
+    "repo": "https://github.com/sveltejs/svelte",
+    "chat": "https://discord.gg/H87FfaS"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

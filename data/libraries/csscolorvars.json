@@ -1,0 +1,30 @@
+{
+  "name": "csscolorvars",
+  "full_name": "CSSColorVars/csscolorvars",
+  "description": "CSSColorVars (interactive tool code generation), which defines a color palette with CSS variables, improves efficiency in front-end web development.",
+  "topics": [
+    "vue",
+    "vuex",
+    "ecmascript",
+    "localstorage"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "CSSColorVars",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/45489090?v=4"
+  },
+  "organization": {
+    "login": "CSSColorVars",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/45489090?v=4"
+  },
+  "links": {
+    "site": "https://csscolorvars.github.io/",
+    "repo": "https://github.com/CSSColorVars/csscolorvars"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

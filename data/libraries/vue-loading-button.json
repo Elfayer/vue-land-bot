@@ -1,0 +1,28 @@
+{
+  "name": "vue-loading-button",
+  "full_name": "shwilliam/vue-loading-button",
+  "description": "👇 Vue button with slideout loading indicator",
+  "topics": [
+    "tools",
+    "component",
+    "vue",
+    "button",
+    "loading"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "shwilliam",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/38357771?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://codesandbox.io/s/4zywwyjxw7",
+    "repo": "https://github.com/shwilliam/vue-loading-button"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

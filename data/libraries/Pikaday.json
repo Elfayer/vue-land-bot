@@ -1,0 +1,25 @@
+{
+  "name": "Pikaday",
+  "full_name": "Pikaday/Pikaday",
+  "description": "A refreshing JavaScript Datepicker — lightweight, no dependencies, modular CSS",
+  "topics": [],
+  "license": {
+    "key": "other",
+    "url": null,
+    "name": "Other"
+  },
+  "owner": {
+    "login": "Pikaday",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/44224148?v=4"
+  },
+  "organization": {
+    "login": "Pikaday",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/44224148?v=4"
+  },
+  "links": {
+    "site": null,
+    "repo": "https://github.com/Pikaday/Pikaday"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

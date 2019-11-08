@@ -1,0 +1,32 @@
+{
+  "name": "socialhome",
+  "full_name": "jaywink/socialhome",
+  "description": "A federated social home",
+  "topics": [
+    "django",
+    "django-channels",
+    "federation",
+    "diaspora",
+    "social",
+    "social-network",
+    "social-media",
+    "activitypub",
+    "federated-social"
+  ],
+  "license": {
+    "key": "other",
+    "url": null,
+    "name": "Other"
+  },
+  "owner": {
+    "login": "jaywink",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/1174866?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://socialhome.network",
+    "repo": "https://github.com/jaywink/socialhome"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,27 @@
+{
+  "name": "vue-jquery-mask",
+  "full_name": "ankurk91/vue-jquery-mask",
+  "description": "Vue.js component for jQuery mask plugin",
+  "topics": [
+    "vue",
+    "masking",
+    "jquery",
+    "input-mask"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "ankurk91",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/6111524?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/ankurk91/vue-jquery-mask"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

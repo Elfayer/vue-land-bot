@@ -1,0 +1,31 @@
+{
+  "name": "vue-kindergarten",
+  "full_name": "JiriChara/vue-kindergarten",
+  "description": "Modular security for Vue, Vuex, Vue-Router and Nuxt",
+  "topics": [
+    "vuejs",
+    "vue-kindergarten",
+    "vuejs2",
+    "vuex",
+    "vue-router",
+    "kindergarten",
+    "javascript",
+    "nuxt"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "JiriChara",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/668763?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/JiriChara/vue-kindergarten"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,36 @@
+{
+  "name": "laravel-vue-boilerplate",
+  "full_name": "alefesouza/laravel-vue-boilerplate",
+  "description": ":elephant: A Laravel 5.5 SPA boilerplate with a users CRUD using Vue.js 2.5, GraphQL, Bootstrap 4, TypeScript, Sass, and Pug.",
+  "topics": [
+    "boilerplate",
+    "vue",
+    "laravel",
+    "typescript",
+    "sass",
+    "pug",
+    "jest",
+    "phpunit",
+    "docker",
+    "ci",
+    "jwt",
+    "pusher",
+    "graphql"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "alefesouza",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/1693223?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/alefesouza/laravel-vue-boilerplate"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

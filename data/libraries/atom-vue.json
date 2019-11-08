@@ -1,0 +1,22 @@
+{
+  "name": "atom-vue",
+  "full_name": "hedefalk/atom-vue",
+  "description": "Vue component file syntax for Atom",
+  "topics": [],
+  "license": {
+    "key": "other",
+    "url": null,
+    "name": "Other"
+  },
+  "owner": {
+    "login": "hedefalk",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/116520?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/hedefalk/atom-vue"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,28 @@
+{
+  "name": "vue-click-helper",
+  "full_name": "huangshuwei/vue-click-helper",
+  "description": "A Vue directive  to distinguish between click and double click",
+  "topics": [
+    "vue2",
+    "vue-directive",
+    "click",
+    "doubleclick",
+    "dblclick"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "huangshuwei",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/6047141?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/huangshuwei/vue-click-helper"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

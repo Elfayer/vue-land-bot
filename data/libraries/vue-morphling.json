@@ -1,0 +1,31 @@
+{
+  "name": "vue-morphling",
+  "full_name": "jofftiquez/vue-morphling",
+  "description": "Vue filters and directives collection.",
+  "topics": [
+    "vue-filters",
+    "vue",
+    "vuejs",
+    "vuejs2",
+    "javascript",
+    "filter",
+    "highlight",
+    "placeholder"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "jofftiquez",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/8638243?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/jofftiquez/vue-morphling"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

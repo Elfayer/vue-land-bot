@@ -1,0 +1,24 @@
+{
+  "name": "qmk_configurator",
+  "full_name": "qmk/qmk_configurator",
+  "description": "The QMK Configurator",
+  "topics": [
+    "qmk-configurator",
+    "firmware-files"
+  ],
+  "license": null,
+  "owner": {
+    "login": "qmk",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/25358678?v=4"
+  },
+  "organization": {
+    "login": "qmk",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/25358678?v=4"
+  },
+  "links": {
+    "site": "http://config.qmk.fm",
+    "repo": "https://github.com/qmk/qmk_configurator"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

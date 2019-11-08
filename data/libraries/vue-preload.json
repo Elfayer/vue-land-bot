@@ -1,0 +1,18 @@
+{
+  "name": "vue-preload",
+  "full_name": "shershen08/vue-preload",
+  "description": "Plugin SSR Vue adding <link rel=\"preload\" capabilities ",
+  "topics": [],
+  "license": null,
+  "owner": {
+    "login": "shershen08",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/1363772?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/shershen08/vue-preload"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

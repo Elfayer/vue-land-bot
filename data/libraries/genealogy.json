@@ -1,0 +1,41 @@
+{
+  "name": "genealogy",
+  "full_name": "modularsoftware/genealogy",
+  "description": "Genealogy data processing and family tree management. Laravel 5.8 - Vue 2.6",
+  "topics": [
+    "laravel",
+    "genealogy",
+    "vuejs",
+    "bulma",
+    "family-history-applications",
+    "family-tree-website",
+    "php",
+    "php7",
+    "docker-container",
+    "relational-databases",
+    "chart-data",
+    "docker",
+    "opensource",
+    "mysql",
+    "mysql-database"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "modularsoftware",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/39755194?v=4"
+  },
+  "organization": {
+    "login": "modularsoftware",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/39755194?v=4"
+  },
+  "links": {
+    "site": "https://modulargenealogy.co.uk",
+    "repo": "https://github.com/modularsoftware/genealogy"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

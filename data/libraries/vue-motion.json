@@ -1,0 +1,27 @@
+{
+  "name": "vue-motion",
+  "full_name": "posva/vue-motion",
+  "description": "Easy and natural state transitions",
+  "topics": [
+    "vue",
+    "motion",
+    "animation",
+    "transition"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "posva",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/664177?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://posva.net/vue-motion",
+    "repo": "https://github.com/posva/vue-motion"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

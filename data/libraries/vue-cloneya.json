@@ -1,0 +1,29 @@
+{
+  "name": "vue-cloneya",
+  "full_name": "ridaamirini/vue-cloneya",
+  "description": "A Vue.js 2 component to clone DOM elements",
+  "topics": [
+    "vue",
+    "jquery-clone",
+    "clone",
+    "component",
+    "forms",
+    "input"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "ridaamirini",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/14841555?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/ridaamirini/vue-cloneya"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

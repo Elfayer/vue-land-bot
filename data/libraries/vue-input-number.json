@@ -1,0 +1,25 @@
+{
+  "name": "vue-input-number",
+  "full_name": "joseluisq/vue-input-number",
+  "description": "A custom input number component for Vue.js 2",
+  "topics": [
+    "vue",
+    "input-number",
+    "component",
+    "input",
+    "custom-input",
+    "number-input"
+  ],
+  "license": null,
+  "owner": {
+    "login": "joseluisq",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/1700322?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "http://cdpn.io/gGVRBP/",
+    "repo": "https://github.com/joseluisq/vue-input-number"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

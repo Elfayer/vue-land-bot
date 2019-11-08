@@ -1,0 +1,25 @@
+{
+  "name": "vue-pikaday",
+  "full_name": "enrian/vue-pikaday",
+  "description": "VueJS wrapper component for Pikaday datepicker",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "enrian",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/13679692?v=4"
+  },
+  "organization": {
+    "login": "enrian",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/13679692?v=4"
+  },
+  "links": {
+    "site": "https://enrian.github.io/vue-pikaday",
+    "repo": "https://github.com/enrian/vue-pikaday"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

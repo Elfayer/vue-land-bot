@@ -1,0 +1,32 @@
+{
+  "name": "uvue",
+  "full_name": "universal-vue/uvue",
+  "description": "Vue CLI plugin to create universal Vue applications with ease",
+  "topics": [
+    "vue",
+    "ssr",
+    "cli",
+    "pwa",
+    "docker",
+    "universal"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "universal-vue",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/42326204?v=4"
+  },
+  "organization": {
+    "login": "universal-vue",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/42326204?v=4"
+  },
+  "links": {
+    "site": "https://universal-vue.github.io/docs/",
+    "repo": "https://github.com/universal-vue/uvue"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

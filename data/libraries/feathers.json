@@ -1,0 +1,34 @@
+{
+  "name": "feathers",
+  "full_name": "feathersjs/feathers",
+  "description": "A framework for real-time applications and REST APIs with JavaScript and TypeScript",
+  "topics": [
+    "feathersjs",
+    "javascript",
+    "nodejs",
+    "browser",
+    "react-native",
+    "framework",
+    "feathers",
+    "real-time"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "feathersjs",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/5321853?v=4"
+  },
+  "organization": {
+    "login": "feathersjs",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/5321853?v=4"
+  },
+  "links": {
+    "site": "https://feathersjs.com",
+    "repo": "https://github.com/feathersjs/feathers"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,30 @@
+{
+  "name": "json-schema-editor",
+  "full_name": "tangram-js/json-schema-editor",
+  "description": "JSON Schema Editor is an intuitive editor for JSON schema. It provides a tree view to present the structure of schema, and a property inspector to edit the properties of schema element. Develop with Vue.js 2 and Firebase.",
+  "topics": [
+    "vuejs2",
+    "firebase",
+    "json-schema",
+    "editor",
+    "single-page-app",
+    "spa",
+    "javascript"
+  ],
+  "license": {
+    "key": "gpl-2.0",
+    "url": "https://api.github.com/licenses/gpl-2.0",
+    "name": "GNU General Public License v2.0"
+  },
+  "owner": {
+    "login": "tangram-js",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/28283781?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://json-schema-editor.tangramjs.com",
+    "repo": "https://github.com/tangram-js/json-schema-editor"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

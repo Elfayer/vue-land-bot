@@ -1,0 +1,30 @@
+{
+  "name": "vue-realworld-example-app",
+  "full_name": "gothinkster/vue-realworld-example-app",
+  "description": "An exemplary real-world application built with Vue.js, Vuex, axios and different other technologies. This is a good example to discover Vue for beginners.",
+  "topics": [
+    "realworld",
+    "vue",
+    "vuejs",
+    "vue-cli"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "gothinkster",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/8601733?v=4"
+  },
+  "organization": {
+    "login": "gothinkster",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/8601733?v=4"
+  },
+  "links": {
+    "site": "https://vue-vuex-realworld.netlify.com",
+    "repo": "https://github.com/gothinkster/vue-realworld-example-app"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

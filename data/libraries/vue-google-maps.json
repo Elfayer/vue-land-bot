@@ -1,0 +1,18 @@
+{
+  "name": "vue-google-maps",
+  "full_name": "xkjyeah/vue-google-maps",
+  "description": "Google maps component for vue with 2-way data binding",
+  "topics": [],
+  "license": null,
+  "owner": {
+    "login": "xkjyeah",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/2659143?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://xkjyeah.github.io/vue-google-maps/",
+    "repo": "https://github.com/xkjyeah/vue-google-maps"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

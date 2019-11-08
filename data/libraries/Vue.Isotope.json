@@ -1,0 +1,26 @@
+{
+  "name": "Vue.Isotope",
+  "full_name": "David-Desmaisons/Vue.Isotope",
+  "description": ":iphone: Vue component for isotope filter & sort magical layouts",
+  "topics": [
+    "vue",
+    "isotope-layouts",
+    "component"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "David-Desmaisons",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/524617?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/David-Desmaisons/Vue.Isotope"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

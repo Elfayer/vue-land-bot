@@ -1,0 +1,26 @@
+{
+  "name": "vue-cropper",
+  "full_name": "xyxiao001/vue-cropper",
+  "description": "A simple  picture clipping plugin for vue",
+  "topics": [
+    "vue",
+    "cropper",
+    "javascript"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "xyxiao001",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/15681693?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://xyxiao001.github.io/vue-cropper/example/",
+    "repo": "https://github.com/xyxiao001/vue-cropper"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

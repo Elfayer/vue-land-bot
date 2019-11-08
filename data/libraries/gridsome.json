@@ -1,0 +1,35 @@
+{
+  "name": "gridsome",
+  "icon": "gridsome.png",
+  "full_name": "gridsome/gridsome",
+  "description": "⚡️Build lightning fast websites and apps with Vue.js",
+  "topics": [
+    "gridsome",
+    "vuejs",
+    "static-site-generator",
+    "jamstack",
+    "graphql",
+    "pwa",
+    "spa",
+    "vue"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "gridsome",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/17981963?v=4"
+  },
+  "organization": {
+    "login": "gridsome",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/17981963?v=4"
+  },
+  "links": {
+    "site": "https://gridsome.org",
+    "repo": "https://github.com/gridsome/gridsome"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

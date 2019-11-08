@@ -1,0 +1,32 @@
+{
+  "name": "vue-cookie-accept-decline",
+  "full_name": "promosis/vue-cookie-accept-decline",
+  "description": "👋 Show a banner with text, a decline button, and an accept button on your page. Remembers selection using cookies. Emits an event with current selection and on creation. Good for GDPR requirements.",
+  "topics": [
+    "vue",
+    "gdpr",
+    "banner",
+    "accept",
+    "decline",
+    "cookie"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "promosis",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/30876777?v=4"
+  },
+  "organization": {
+    "login": "promosis",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/30876777?v=4"
+  },
+  "links": {
+    "site": "https://promosis.github.io/vue-cookie-accept-decline/",
+    "repo": "https://github.com/promosis/vue-cookie-accept-decline"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

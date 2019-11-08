@@ -1,0 +1,38 @@
+{
+  "name": "firebase-js-sdk",
+  "full_name": "firebase/firebase-js-sdk",
+  "description": "Firebase Javascript SDK",
+  "topics": [
+    "firebase",
+    "firebase-database",
+    "firebase-auth",
+    "firebase-authentication",
+    "firebase-storage",
+    "firebase-messaging",
+    "firebase-cloud-messaging",
+    "firebase-db",
+    "firebase-realtime-database",
+    "javascript",
+    "typescript",
+    "real-time"
+  ],
+  "license": {
+    "key": "apache-2.0",
+    "url": "https://api.github.com/licenses/apache-2.0",
+    "name": "Apache License 2.0"
+  },
+  "owner": {
+    "login": "firebase",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/1335026?v=4"
+  },
+  "organization": {
+    "login": "firebase",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/1335026?v=4"
+  },
+  "links": {
+    "site": "https://firebase.google.com/docs/web/setup",
+    "repo": "https://github.com/firebase/firebase-js-sdk"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,28 @@
+{
+  "name": "vue-quick-loadmore",
+  "full_name": "duyanpeng/vue-quick-loadmore",
+  "description": "A pull-down refresh and pull-up infinite scroll component for Vue.js.--vue移动端下拉刷新上拉无限滚动加载插件,支持更换加载图片，保存和设置滚动距离等。",
+  "topics": [
+    "vue",
+    "javascript",
+    "mobile",
+    "loadmore",
+    "infinite-scroll"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "duyanpeng",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/29807692?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/duyanpeng/vue-quick-loadmore"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

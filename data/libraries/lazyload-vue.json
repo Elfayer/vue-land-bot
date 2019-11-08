@@ -1,0 +1,32 @@
+{
+  "name": "lazyload-vue",
+  "full_name": "Kazap/lazyload-vue",
+  "description": "Vue Plugin for vanilla-lazyload",
+  "topics": [
+    "vanilla-lazyload",
+    "vue-plugin",
+    "lazyload-vue",
+    "lazyload-images",
+    "lazyload-img",
+    "lazyload"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "Kazap",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/1121355?v=4"
+  },
+  "organization": {
+    "login": "Kazap",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/1121355?v=4"
+  },
+  "links": {
+    "site": "https://kazap.github.io/lazyload-vue",
+    "repo": "https://github.com/Kazap/lazyload-vue"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

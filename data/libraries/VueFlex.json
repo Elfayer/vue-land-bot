@@ -1,0 +1,27 @@
+{
+  "name": "VueFlex",
+  "full_name": "SeregPie/VueFlex",
+  "description": "A flexbox grid system.",
+  "topics": [
+    "flex",
+    "box",
+    "grid",
+    "vue"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "SeregPie",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/1217953?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://seregpie.github.io/VueFlex/",
+    "repo": "https://github.com/SeregPie/VueFlex"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

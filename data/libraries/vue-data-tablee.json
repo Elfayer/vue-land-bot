@@ -1,0 +1,29 @@
+{
+  "name": "vue-data-tablee",
+  "full_name": "VitorLuizC/vue-data-tablee",
+  "description": "Yeap, another Vue table component.",
+  "topics": [
+    "vue-data-tablee",
+    "vue-data-table",
+    "vue-table",
+    "data-table",
+    "vue",
+    "javascript"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "VitorLuizC",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/9027363?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://codepen.io/VitorLuizC/pen/qVJZoQ",
+    "repo": "https://github.com/VitorLuizC/vue-data-tablee"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

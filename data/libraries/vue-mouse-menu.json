@@ -1,0 +1,22 @@
+{
+  "name": "vue-mouse-menu",
+  "full_name": "zgj233/vue-mouse-menu",
+  "description": "A right-mouse menu plug-in for vue 2+",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "zgj233",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/18436461?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/zgj233/vue-mouse-menu"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

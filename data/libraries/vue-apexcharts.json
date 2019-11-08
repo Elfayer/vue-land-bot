@@ -1,0 +1,32 @@
+{
+  "name": "vue-apexcharts",
+  "full_name": "apexcharts/vue-apexcharts",
+  "description": "📊 Vue.js component for ApexCharts",
+  "topics": [
+    "apexcharts",
+    "vuejs",
+    "charts",
+    "graphs",
+    "data-visualization",
+    "vue-charts"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "apexcharts",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/37190687?v=4"
+  },
+  "organization": {
+    "login": "apexcharts",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/37190687?v=4"
+  },
+  "links": {
+    "site": "https://apexcharts.com",
+    "repo": "https://github.com/apexcharts/vue-apexcharts"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

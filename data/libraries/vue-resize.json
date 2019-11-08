@@ -1,0 +1,22 @@
+{
+  "name": "vue-resize",
+  "full_name": "Akryum/vue-resize",
+  "description": "A generic component to detect DOM elements resizing",
+  "topics": [
+    "vuejs",
+    "vue",
+    "vuejs2"
+  ],
+  "license": null,
+  "owner": {
+    "login": "Akryum",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/2798204?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/Akryum/vue-resize"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

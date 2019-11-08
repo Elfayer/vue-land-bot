@@ -1,0 +1,22 @@
+{
+  "name": "vue-sequential-entrance",
+  "full_name": "deivthings/vue-sequential-entrance",
+  "description": "Vuejs Plugin for creating epic sequential animation entrances",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "deivthings",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/6585904?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/deivthings/vue-sequential-entrance"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

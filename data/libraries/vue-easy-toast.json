@@ -1,0 +1,23 @@
+{
+  "name": "vue-easy-toast",
+  "full_name": "noru/vue-easy-toast",
+  "description": "A Toast widget for Vue 1 & 2",
+  "topics": [
+    "vue",
+    "vue-easy-toast",
+    "vue2",
+    "toast"
+  ],
+  "license": null,
+  "owner": {
+    "login": "noru",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/6258961?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/noru/vue-easy-toast"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

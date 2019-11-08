@@ -1,0 +1,18 @@
+{
+  "name": "ngexplorer-MEAN",
+  "full_name": "gustaYo/ngexplorer-MEAN",
+  "description": "Group all FTP and / or HTTP sites that meet in one place, thus having the ability to search for information in each (or all simultaneously) in a simple and pleasant way.Use stack MEAN and elasticSearch",
+  "topics": [],
+  "license": null,
+  "owner": {
+    "login": "gustaYo",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/12780682?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/gustaYo/ngexplorer-MEAN"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

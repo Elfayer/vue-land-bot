@@ -1,0 +1,23 @@
+{
+  "name": "leafplayer",
+  "full_name": "paulschwoerer/leafplayer",
+  "description": "LeafPlayer is a fast and modern personal music streaming server, easily installable by using Docker.",
+  "topics": [
+    "music",
+    "streaming",
+    "private",
+    "leafplayer"
+  ],
+  "license": null,
+  "owner": {
+    "login": "paulschwoerer",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/22923578?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/paulschwoerer/leafplayer"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

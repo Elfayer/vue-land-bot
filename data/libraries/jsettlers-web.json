@@ -1,0 +1,18 @@
+{
+  "name": "jsettlers-web",
+  "full_name": "generateui/jsettlers-web",
+  "description": "web client for JSettlers2",
+  "topics": [],
+  "license": null,
+  "owner": {
+    "login": "generateui",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/385772?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/generateui/jsettlers-web"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

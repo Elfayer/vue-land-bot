@@ -1,0 +1,31 @@
+{
+  "name": "vue-country-flag",
+  "full_name": "P3trur0/vue-country-flag",
+  "description": "Vue component for country flags",
+  "topics": [
+    "vuejs",
+    "vuejs2",
+    "vue-components",
+    "country",
+    "i18n",
+    "l10n",
+    "flags",
+    "icons"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "P3trur0",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/11474157?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/P3trur0/vue-country-flag"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

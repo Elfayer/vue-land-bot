@@ -1,0 +1,30 @@
+{
+  "name": "vue-scroll-progress",
+  "full_name": "spemer/vue-scroll-progress",
+  "description": "🎉 Page scroll progress bar component for @vuejs",
+  "topics": [
+    "vue",
+    "vuejs",
+    "javascript",
+    "progress-bar",
+    "scroll",
+    "web",
+    "plugin"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "spemer",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/18291697?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://spemer.github.io/vue-scroll-progress/",
+    "repo": "https://github.com/spemer/vue-scroll-progress"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

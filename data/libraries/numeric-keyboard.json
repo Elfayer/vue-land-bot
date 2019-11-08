@@ -1,0 +1,29 @@
+{
+  "name": "numeric-keyboard",
+  "full_name": "viclm/numeric-keyboard",
+  "description": "Number keyboard for mobile browsers",
+  "topics": [
+    "keyboard",
+    "javascript",
+    "react",
+    "preact",
+    "angular",
+    "vue"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "viclm",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/449103?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/viclm/numeric-keyboard"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

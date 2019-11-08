@@ -1,0 +1,30 @@
+{
+  "name": "vue-piece-slider",
+  "full_name": "dreambo8563/vue-piece-slider",
+  "description": "animated slides in a fragmented look 🐞🌳✡️📐",
+  "topics": [
+    "slides",
+    "slider",
+    "carousel",
+    "images",
+    "vue",
+    "fragments",
+    "piece"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "dreambo8563",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/6948318?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://dreambo8563.github.io/vue-piece-slider/",
+    "repo": "https://github.com/dreambo8563/vue-piece-slider"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

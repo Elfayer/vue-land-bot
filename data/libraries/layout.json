@@ -1,0 +1,18 @@
+{
+  "name": "layout",
+  "full_name": "ktquez/layout",
+  "description": "A full-featured Webpack + Vue extend layout + vue-loader setup with hot reload, linting, testing & css extraction",
+  "topics": [],
+  "license": null,
+  "owner": {
+    "login": "ktquez",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/8084606?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "http://layout-demo.surge.sh/",
+    "repo": "https://github.com/ktquez/layout"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

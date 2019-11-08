@@ -1,0 +1,37 @@
+{
+  "name": "vue-if-bot",
+  "full_name": "Developmint/vue-if-bot",
+  "description": "Hide stuff from bots (especially cookie consents)",
+  "topics": [
+    "vue",
+    "vuejs",
+    "plugin",
+    "component",
+    "functional",
+    "hide",
+    "bot",
+    "user-agent",
+    "javascript",
+    "ssr",
+    "nuxtjs"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "Developmint",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/29969219?v=4"
+  },
+  "organization": {
+    "login": "Developmint",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/29969219?v=4"
+  },
+  "links": {
+    "site": null,
+    "repo": "https://github.com/Developmint/vue-if-bot"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

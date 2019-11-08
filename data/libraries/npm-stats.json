@@ -1,0 +1,25 @@
+{
+  "name": "npm-stats",
+  "full_name": "apertureless/npm-stats",
+  "description": "📈 npm package statistics dashboard build with vue",
+  "topics": [
+    "stats",
+    "statistics",
+    "dashboard",
+    "npm",
+    "npm-search",
+    "charts"
+  ],
+  "license": null,
+  "owner": {
+    "login": "apertureless",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/4975917?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "http://www.npm-stats.org",
+    "repo": "https://github.com/apertureless/npm-stats"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

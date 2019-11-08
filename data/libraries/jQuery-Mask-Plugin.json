@@ -1,0 +1,28 @@
+{
+  "name": "jQuery-Mask-Plugin",
+  "full_name": "igorescobar/jQuery-Mask-Plugin",
+  "description": "A jQuery Plugin to make masks on form fields and HTML elements.",
+  "topics": [
+    "jquery-plugin",
+    "jquery-mask-plugin",
+    "mask",
+    "javascript",
+    "html-element"
+  ],
+  "license": {
+    "key": "other",
+    "url": null,
+    "name": "Other"
+  },
+  "owner": {
+    "login": "igorescobar",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/24032?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "http://igorescobar.github.io/jQuery-Mask-Plugin/",
+    "repo": "https://github.com/igorescobar/jQuery-Mask-Plugin"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,28 @@
+{
+  "name": "Textra",
+  "full_name": "hosein2398/Textra",
+  "description": "Vue js add-on to slide text.",
+  "topics": [
+    "vue",
+    "vue-plugin",
+    "animating",
+    "animating-text",
+    "text-slider"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "hosein2398",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/17067774?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://hosein2398.github.io/textra",
+    "repo": "https://github.com/hosein2398/Textra"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,25 @@
+{
+  "name": "vue-devtools",
+  "full_name": "vuejs/vue-devtools",
+  "description": "⚙️ Browser devtools extension for debugging Vue.js applications.",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "vuejs",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/6128107?v=4"
+  },
+  "organization": {
+    "login": "vuejs",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/6128107?v=4"
+  },
+  "links": {
+    "site": null,
+    "repo": "https://github.com/vuejs/vue-devtools"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

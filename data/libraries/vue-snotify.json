@@ -1,0 +1,33 @@
+{
+  "name": "vue-snotify",
+  "full_name": "artemsky/vue-snotify",
+  "description": "Vuejs 2 Notification Center",
+  "topics": [
+    "toast",
+    "toaster",
+    "notifications",
+    "vuejs",
+    "vuejs2",
+    "vue2",
+    "vue-components",
+    "vue-snotify",
+    "vue",
+    "vue-notification"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "artemsky",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/16777197?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://artemsky.github.io/vue-snotify/",
+    "repo": "https://github.com/artemsky/vue-snotify"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

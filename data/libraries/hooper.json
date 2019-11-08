@@ -1,0 +1,34 @@
+{
+  "name": "hooper",
+  "full_name": "baianat/hooper",
+  "description": "🎠 A customizable accessible carousel slider optimized for Vue",
+  "topics": [
+    "carousel",
+    "carousel-component",
+    "vuejs",
+    "vue",
+    "carousel-slider",
+    "slider",
+    "slide",
+    "hooper"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "baianat",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/5085038?v=4"
+  },
+  "organization": {
+    "login": "baianat",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/5085038?v=4"
+  },
+  "links": {
+    "site": "https://baianat.github.io/hooper/",
+    "repo": "https://github.com/baianat/hooper"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

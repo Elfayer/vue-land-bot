@@ -1,0 +1,29 @@
+{
+  "name": "vue-component-template",
+  "full_name": "IneoO/vue-component-template",
+  "description": "Webpack setup for building & publishing a Vue component/library (with docs/demo site) for other developers to import into their projects. Uses Vue-cli and is based on the Vuejs webpack template",
+  "topics": [
+    "vuejs2",
+    "vue-components",
+    "vue-cli-template",
+    "webpack-setup",
+    "vue-boilerplate",
+    "vuejs"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "IneoO",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/8982189?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/IneoO/vue-component-template"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,27 @@
+{
+  "name": "vue-esc",
+  "full_name": "ianaya89/vue-esc",
+  "description": ":running: Vue.js directive to add a document event listener on escape keyup.",
+  "topics": [
+    "vuejs",
+    "vue-directive",
+    "escape-keyup",
+    "vue-esc"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "ianaya89",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/3258966?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/ianaya89/vue-esc"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

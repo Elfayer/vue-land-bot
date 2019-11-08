@@ -1,0 +1,29 @@
+{
+  "name": "vuelongpress",
+  "full_name": "javisperez/vuelongpress",
+  "description": "Confirmation button for sensitive action, which requires to be hold for an amount of seconds",
+  "topics": [
+    "vuejs",
+    "confirmation",
+    "longpress",
+    "button",
+    "component",
+    "plugin"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "javisperez",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/4766570?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/javisperez/vuelongpress"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

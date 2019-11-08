@@ -1,0 +1,32 @@
+{
+  "name": "vue-image-loader",
+  "full_name": "kevindesousa/vue-image-loader",
+  "description": "Vue progressive image loader plugin like Medium",
+  "topics": [
+    "vue",
+    "vuejs",
+    "vue2",
+    "vuejs2",
+    "vue-components",
+    "medium",
+    "image",
+    "progressive-image",
+    "loading"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "kevindesousa",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/4758092?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://www.kevindesousa.me/vue-image-loader/",
+    "repo": "https://github.com/kevindesousa/vue-image-loader"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

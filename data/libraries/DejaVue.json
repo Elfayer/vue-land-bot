@@ -1,0 +1,31 @@
+{
+  "name": "DejaVue",
+  "full_name": "MiCottOn/DejaVue",
+  "description": "Visualization and debugging tool built for Vue.js",
+  "topics": [
+    "vuejs",
+    "vue",
+    "javascript",
+    "chrome-devtools",
+    "visualization"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "MiCottOn",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/25110441?v=4"
+  },
+  "organization": {
+    "login": "MiCottOn",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/25110441?v=4"
+  },
+  "links": {
+    "site": "http://www.dejavue.co",
+    "repo": "https://github.com/MiCottOn/DejaVue"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

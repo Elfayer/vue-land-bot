@@ -1,0 +1,18 @@
+{
+  "name": "loaders.css",
+  "full_name": "ConnorAtherton/loaders.css",
+  "description": "Delightful, performance-focused pure css loading animations.",
+  "topics": [],
+  "license": null,
+  "owner": {
+    "login": "ConnorAtherton",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/3777511?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://connoratherton.com/loaders",
+    "repo": "https://github.com/ConnorAtherton/loaders.css"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

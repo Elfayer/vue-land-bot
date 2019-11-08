@@ -1,0 +1,29 @@
+{
+  "name": "tables",
+  "full_name": "laravel-enso/tables",
+  "description": "Bulma themed, VueJS powered Datatable with server-side loading and JSON template setup",
+  "topics": [
+    "datatable",
+    "json-template",
+    "laravel-enso",
+    "serverside",
+    "pagination",
+    "demo",
+    "laravel"
+  ],
+  "license": null,
+  "owner": {
+    "login": "laravel-enso",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/26483909?v=4"
+  },
+  "organization": {
+    "login": "laravel-enso",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/26483909?v=4"
+  },
+  "links": {
+    "site": "https://www.laravel-enso.com/examples/table",
+    "repo": "https://github.com/laravel-enso/tables"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,28 @@
+{
+  "name": "vuethwallet",
+  "full_name": "sc0Vu/vuethwallet",
+  "description": "A simple app generate ethereum wallet with vuejs.",
+  "topics": [
+    "vuejs",
+    "ethereum",
+    "ethereum-lightwallet",
+    "ethereum-wallet",
+    "vuethwallet"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "sc0Vu",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/10494397?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://vuethwallet.herokuapp.com/",
+    "repo": "https://github.com/sc0Vu/vuethwallet"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

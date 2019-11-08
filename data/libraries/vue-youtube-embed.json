@@ -1,0 +1,25 @@
+{
+  "name": "vue-youtube-embed",
+  "full_name": "kaorun343/vue-youtube-embed",
+  "description": "Vue.js and YouTube",
+  "topics": [
+    "vue",
+    "youtube"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "kaorun343",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/5625395?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://www.npmjs.com/package/vue-youtube-embed",
+    "repo": "https://github.com/kaorun343/vue-youtube-embed"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

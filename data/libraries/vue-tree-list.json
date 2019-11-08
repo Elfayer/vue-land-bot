@@ -1,0 +1,18 @@
+{
+  "name": "vue-tree-list",
+  "full_name": "ParadeTo/vue-tree-list",
+  "description": "A vue component for tree structure",
+  "topics": [],
+  "license": null,
+  "owner": {
+    "login": "ParadeTo",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/10891388?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/ParadeTo/vue-tree-list"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

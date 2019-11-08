@@ -1,0 +1,27 @@
+{
+  "name": "vue-zoom-on-hover",
+  "full_name": "Intera/vue-zoom-on-hover",
+  "description": "responsive image with zoomed image on hover",
+  "topics": [
+    "vue"
+  ],
+  "license": {
+    "key": "gpl-3.0",
+    "url": "https://api.github.com/licenses/gpl-3.0",
+    "name": "GNU General Public License v3.0"
+  },
+  "owner": {
+    "login": "Intera",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/319003?v=4"
+  },
+  "organization": {
+    "login": "Intera",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/319003?v=4"
+  },
+  "links": {
+    "site": null,
+    "repo": "https://github.com/Intera/vue-zoom-on-hover"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

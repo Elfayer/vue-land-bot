@@ -1,0 +1,35 @@
+{
+  "name": "element-form-builder",
+  "full_name": "codetrial/element-form-builder",
+  "description": "Build element-ui forms with JSON schema.",
+  "topics": [
+    "vue",
+    "element-ui",
+    "element",
+    "form",
+    "form-builder",
+    "form-schema",
+    "form-generator",
+    "json-schema",
+    "json-form"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "codetrial",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/42104494?v=4"
+  },
+  "organization": {
+    "login": "codetrial",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/42104494?v=4"
+  },
+  "links": {
+    "site": "https://element-form-builder.now.sh",
+    "repo": "https://github.com/codetrial/element-form-builder"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

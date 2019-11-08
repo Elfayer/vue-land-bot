@@ -1,0 +1,31 @@
+{
+  "name": "vue-unicons",
+  "full_name": "antonreshetov/vue-unicons",
+  "description": "1000+ Pixel-perfect svg icons for your next project as Vue components",
+  "topics": [
+    "icons",
+    "icon-pack",
+    "iconset",
+    "svg",
+    "svg-icons",
+    "vue",
+    "vue-icons",
+    "vue-components"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "antonreshetov",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/17480987?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://antonreshetov.github.io/vue-unicons/",
+    "repo": "https://github.com/antonreshetov/vue-unicons"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,27 @@
+{
+  "name": "effector",
+  "full_name": "zerobias/effector",
+  "description": "The state manager ☄️",
+  "topics": [
+    "state",
+    "business-logic",
+    "reactive",
+    "event-driven"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "zerobias",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/15912112?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://effector.now.sh/",
+    "repo": "https://github.com/zerobias/effector"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

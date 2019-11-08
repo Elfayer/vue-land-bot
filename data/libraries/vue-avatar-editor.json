@@ -1,0 +1,30 @@
+{
+  "name": "vue-avatar-editor",
+  "full_name": "fpluquet/vue-avatar-editor",
+  "description": "Avatar editor for Vue.js. Demo on : https://fpluquet.github.io/vue-avatar-editor/",
+  "topics": [
+    "vuejs2",
+    "vue-components",
+    "avatar",
+    "js",
+    "rotation",
+    "scale",
+    "canvas2image"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "fpluquet",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/1973975?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/fpluquet/vue-avatar-editor"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,30 @@
+{
+  "name": "vue-pwa-speech",
+  "full_name": "aofdev/vue-pwa-speech",
+  "description": "A Vue2 Performs synchronous speech recognition Speech to text Google Cloud Speech With Progressive Web App",
+  "topics": [
+    "vue",
+    "vuejs2",
+    "pwa",
+    "google-cloud-speech",
+    "speech-to-text",
+    "speech-recognition",
+    "progressive-web-app"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "aofdev",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/24493279?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/aofdev/vue-pwa-speech"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

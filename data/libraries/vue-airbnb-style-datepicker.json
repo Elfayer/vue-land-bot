@@ -1,0 +1,26 @@
+{
+  "name": "vue-airbnb-style-datepicker",
+  "full_name": "MikaelEdebro/vue-airbnb-style-datepicker",
+  "description": "A VueJs datepicker with a similar look and functionality as the popular AirBnb datepicker.",
+  "topics": [
+    "vue",
+    "airbnb-datepicker",
+    "datepicker"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "MikaelEdebro",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/7080577?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://mikaeledebro.gitbooks.io/vue-airbnb-style-datepicker/",
+    "repo": "https://github.com/MikaelEdebro/vue-airbnb-style-datepicker"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

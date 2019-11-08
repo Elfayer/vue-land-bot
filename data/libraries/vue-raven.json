@@ -1,0 +1,28 @@
+{
+  "name": "vue-raven",
+  "full_name": "anteriovieira/vue-raven",
+  "description": "vue-raven automatically reports uncaught JavaScript exceptions triggered from vue component",
+  "topics": [
+    "vuejs",
+    "raven-js",
+    "sentry-plugin",
+    "plugin",
+    "exceptions"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "anteriovieira",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/1490347?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://github.com/getsentry/raven-js",
+    "repo": "https://github.com/anteriovieira/vue-raven"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

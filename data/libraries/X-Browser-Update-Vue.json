@@ -1,0 +1,27 @@
+{
+  "name": "X-Browser-Update-Vue",
+  "full_name": "OXOYO/X-Browser-Update-Vue",
+  "description": "A Vue.js browser-update plugin",
+  "topics": [
+    "vue",
+    "vue-plugin",
+    "browser-update",
+    "browser-update-vue"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "OXOYO",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/5074207?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "http://oxoyo.co/X-Browser-Update-Vue/",
+    "repo": "https://github.com/OXOYO/X-Browser-Update-Vue"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,22 @@
+{
+  "name": "vue-scrolling-table",
+  "full_name": "richardtallent/vue-scrolling-table",
+  "description": "A Vue component to create tables with vertical and horizontal scrolling. Flexbox-based.",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "richardtallent",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/2041718?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/richardtallent/vue-scrolling-table"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

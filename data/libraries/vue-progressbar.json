@@ -1,0 +1,22 @@
+{
+  "name": "vue-progressbar",
+  "full_name": "hilongjw/vue-progressbar",
+  "description": "A lightweight progress bar for vue",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "hilongjw",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/5835766?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "http://hilongjw.github.io/vue-progressbar",
+    "repo": "https://github.com/hilongjw/vue-progressbar"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

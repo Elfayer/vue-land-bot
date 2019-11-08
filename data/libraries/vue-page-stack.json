@@ -1,0 +1,31 @@
+{
+  "name": "vue-page-stack",
+  "full_name": "hezhongfeng/vue-page-stack",
+  "description": "Routing and navigation for your Vue SPA. Vue 单页应用导航管理器",
+  "topics": [
+    "vue",
+    "vue-router",
+    "cache",
+    "stack",
+    "page",
+    "vue-navigation",
+    "vue-spa",
+    "translation"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "hezhongfeng",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/12163050?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/hezhongfeng/vue-page-stack"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

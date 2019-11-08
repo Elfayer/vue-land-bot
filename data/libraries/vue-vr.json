@@ -1,0 +1,36 @@
+{
+  "name": "vue-vr",
+  "full_name": "mudin/vue-vr",
+  "description": "A framework for building VR applications with Vue",
+  "topics": [
+    "vuejs",
+    "vue",
+    "vr",
+    "threejs",
+    "panolens",
+    "webgl",
+    "panorama",
+    "vr-viewer",
+    "vue-vr",
+    "react-vr",
+    "360-video",
+    "video360",
+    "360-photo"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "mudin",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/33612405?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/mudin/vue-vr"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

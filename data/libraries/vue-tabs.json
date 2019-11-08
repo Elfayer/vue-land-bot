@@ -1,0 +1,30 @@
+{
+  "name": "vue-tabs",
+  "full_name": "cristijora/vue-tabs",
+  "description": "Simplified bootstrap tabs",
+  "topics": [
+    "vue-tabs",
+    "vuejs",
+    "vuejs2",
+    "vue-components",
+    "nav",
+    "tabs",
+    "nav-component"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "cristijora",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/15955045?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://cristijora.github.io/vue-tabs/#/",
+    "repo": "https://github.com/cristijora/vue-tabs"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

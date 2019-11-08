@@ -1,0 +1,25 @@
+{
+  "name": "vue-zondicons",
+  "full_name": "TerryMooreII/vue-zondicons",
+  "description": "Vue.js component for accessing Zondicon svg icons",
+  "topics": [
+    "vue",
+    "vuejs",
+    "zondicons",
+    "tailwinds",
+    "svg",
+    "svg-icons"
+  ],
+  "license": null,
+  "owner": {
+    "login": "TerryMooreII",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/602825?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/TerryMooreII/vue-zondicons"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

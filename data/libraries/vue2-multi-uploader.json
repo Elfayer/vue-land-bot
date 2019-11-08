@@ -1,0 +1,30 @@
+{
+  "name": "vue2-multi-uploader",
+  "full_name": "updivision/vue2-multi-uploader",
+  "description": "Drag and drop multiple file uploader with Vue.js v2 and Axios",
+  "topics": [
+    "vuejs2",
+    "upload-images",
+    "upload-pictures",
+    "axios"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "updivision",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/26758620?v=4"
+  },
+  "organization": {
+    "login": "updivision",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/26758620?v=4"
+  },
+  "links": {
+    "site": null,
+    "repo": "https://github.com/updivision/vue2-multi-uploader"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

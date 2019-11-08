@@ -1,0 +1,22 @@
+{
+  "name": "vue-json-component",
+  "full_name": "tylerkrupicka/vue-json-component",
+  "description": "Component for rendering a tree view of JSON.",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "tylerkrupicka",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/5761061?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/tylerkrupicka/vue-json-component"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

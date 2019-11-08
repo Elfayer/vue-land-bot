@@ -1,0 +1,18 @@
+{
+  "name": "vue-script2",
+  "full_name": "taoeffect/vue-script2",
+  "description": "Standardized, designer-friendly <script> behavior for your Single Page App",
+  "topics": [],
+  "license": null,
+  "owner": {
+    "login": "taoeffect",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/138706?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/taoeffect/vue-script2"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

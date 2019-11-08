@@ -1,0 +1,33 @@
+{
+  "name": "cordovue",
+  "full_name": "TheMushrr00m/cordovue",
+  "description": "A sample Apache Cordova application using VueJS.",
+  "topics": [
+    "webpack",
+    "cordova",
+    "vue",
+    "phonegap",
+    "vuejs",
+    "vuejs2",
+    "vue-components",
+    "eslint",
+    "vuex",
+    "vue-router"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "TheMushrr00m",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/6392644?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/TheMushrr00m/cordovue"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

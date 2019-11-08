@@ -1,0 +1,28 @@
+{
+  "name": "vuelidation",
+  "full_name": "cj/vuelidation",
+  "description": "simple, powerful, vuejs validation.",
+  "topics": [
+    "vuejs",
+    "vuejs2",
+    "validation",
+    "vue",
+    "form"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "cj",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/1819?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/cj/vuelidation"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

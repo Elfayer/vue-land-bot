@@ -1,0 +1,22 @@
+{
+  "name": "react-highlight-words",
+  "full_name": "bvaughn/react-highlight-words",
+  "description": "React component to highlight words within a larger body of text",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "bvaughn",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/29597?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://bvaughn.github.io/react-highlight-words/",
+    "repo": "https://github.com/bvaughn/react-highlight-words"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

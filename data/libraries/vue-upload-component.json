@@ -1,0 +1,30 @@
+{
+  "name": "vue-upload-component",
+  "full_name": "lian-yue/vue-upload-component",
+  "description": "Vue.js file upload component, Multi-file upload, Upload directory, Drag upload, Drag the directory, Upload multiple files at the same time, html4 (IE 9), `PUT` method, Customize the filter",
+  "topics": [
+    "uploads",
+    "component",
+    "vue",
+    "drag",
+    "upload",
+    "uploader",
+    "upload-directory"
+  ],
+  "license": {
+    "key": "apache-2.0",
+    "url": "https://api.github.com/licenses/apache-2.0",
+    "name": "Apache License 2.0"
+  },
+  "owner": {
+    "login": "lian-yue",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/6044394?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/lian-yue/vue-upload-component"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

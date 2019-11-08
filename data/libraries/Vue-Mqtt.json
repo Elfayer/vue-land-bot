@@ -1,0 +1,18 @@
+{
+  "name": "Vue-Mqtt",
+  "full_name": "nik-zp/Vue-Mqtt",
+  "description": "Connect to mqtt through websocket, implementation for Vuejs 2",
+  "topics": [],
+  "license": null,
+  "owner": {
+    "login": "nik-zp",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/10129751?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/nik-zp/Vue-Mqtt"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

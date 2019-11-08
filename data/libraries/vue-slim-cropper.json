@@ -1,0 +1,27 @@
+{
+  "name": "vue-slim-cropper",
+  "full_name": "wannaxiao/vue-slim-cropper",
+  "description": "💇 A simple and elegant mobile image crop upload component for Vue 2.x | 简洁易用的 vue 移动端图片裁剪上传组件",
+  "topics": [
+    "vue",
+    "mobile-web",
+    "image-cropper",
+    "image-clip"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "wannaxiao",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/13219417?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/wannaxiao/vue-slim-cropper"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

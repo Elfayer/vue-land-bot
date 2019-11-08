@@ -1,0 +1,28 @@
+{
+  "name": "vue-trix",
+  "full_name": "hanhdt/vue-trix",
+  "description": "Trix text editor component for Vue.js",
+  "topics": [
+    "vuejs",
+    "vue2",
+    "text-editor",
+    "trix",
+    "vue-component"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "hanhdt",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/3414312?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/hanhdt/vue-trix"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

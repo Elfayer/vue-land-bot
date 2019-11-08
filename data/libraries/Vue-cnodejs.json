@@ -1,0 +1,26 @@
+{
+  "name": "Vue-cnodejs",
+  "full_name": "shinygang/Vue-cnodejs",
+  "description": "基于vue.js重写Cnodejs.org社区的webapp",
+  "topics": [
+    "vue-cnodejs",
+    "vuejs2",
+    "vue2",
+    "vue-router",
+    "vue-components",
+    "vue",
+    "webpack"
+  ],
+  "license": null,
+  "owner": {
+    "login": "shinygang",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/7077490?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "http://shinygang.coding.me/",
+    "repo": "https://github.com/shinygang/Vue-cnodejs"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

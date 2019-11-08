@@ -1,0 +1,27 @@
+{
+  "name": "vue-types",
+  "full_name": "dwightjack/vue-types",
+  "description": "Vue Prop Types definitions",
+  "topics": [
+    "vuejs",
+    "proptypes",
+    "props",
+    "vuejs2"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "dwightjack",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/104721?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/dwightjack/vue-types"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

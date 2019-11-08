@@ -1,0 +1,31 @@
+{
+  "name": "bruit.io",
+  "full_name": "Moventes/bruit.io",
+  "description": "bruit.io is a brilliant✨ easy to use feedback tool ",
+  "topics": [
+    "feedback",
+    "stencil",
+    "user-feedback",
+    "webcomponent",
+    "web"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "Moventes",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/38255548?v=4"
+  },
+  "organization": {
+    "login": "Moventes",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/38255548?v=4"
+  },
+  "links": {
+    "site": "https://bruit.io/",
+    "repo": "https://github.com/Moventes/bruit.io"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

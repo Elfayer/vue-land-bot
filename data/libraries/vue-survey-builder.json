@@ -1,0 +1,27 @@
+{
+  "name": "vue-survey-builder",
+  "full_name": "fsrini/vue-survey-builder",
+  "description": "Survey builder for vue.js applications",
+  "topics": [
+    "vue",
+    "vue-survey-builder",
+    "open-source",
+    "survey"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "fsrini",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/25605151?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/fsrini/vue-survey-builder"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

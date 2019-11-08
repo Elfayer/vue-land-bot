@@ -1,0 +1,22 @@
+{
+  "name": "flat-surface-shader",
+  "full_name": "wagerfield/flat-surface-shader",
+  "description": "Flat Surface Shader for rendering illuminated triangles",
+  "topics": [],
+  "license": {
+    "key": "other",
+    "url": null,
+    "name": "Other"
+  },
+  "owner": {
+    "login": "wagerfield",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/412747?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "http://wagerfield.github.io/flat-surface-shader/",
+    "repo": "https://github.com/wagerfield/flat-surface-shader"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

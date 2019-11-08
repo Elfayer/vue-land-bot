@@ -1,0 +1,33 @@
+{
+  "name": "carpoolear",
+  "full_name": "STS-Rosario/carpoolear",
+  "description": "The open source Vue.js frontend (mobile and cordova app) for the argentinian carpooling application: Carpoolear",
+  "topics": [
+    "vuejs",
+    "frontend",
+    "carpooling",
+    "app",
+    "cordova",
+    "mobile",
+    "web"
+  ],
+  "license": {
+    "key": "lgpl-3.0",
+    "url": "https://api.github.com/licenses/lgpl-3.0",
+    "name": "GNU Lesser General Public License v3.0"
+  },
+  "owner": {
+    "login": "STS-Rosario",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/24493883?v=4"
+  },
+  "organization": {
+    "login": "STS-Rosario",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/24493883?v=4"
+  },
+  "links": {
+    "site": "https://carpoolear.com.ar",
+    "repo": "https://github.com/STS-Rosario/carpoolear"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

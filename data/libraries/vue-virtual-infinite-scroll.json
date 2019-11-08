@@ -1,0 +1,22 @@
+{
+  "name": "vue-virtual-infinite-scroll",
+  "full_name": "zuolei828/vue-virtual-infinite-scroll",
+  "description": null,
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "zuolei828",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/3894730?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/zuolei828/vue-virtual-infinite-scroll"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

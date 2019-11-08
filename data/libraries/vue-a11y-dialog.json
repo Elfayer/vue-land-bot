@@ -1,0 +1,30 @@
+{
+  "name": "vue-a11y-dialog",
+  "full_name": "morkro/vue-a11y-dialog",
+  "description": "Vue.js component for a11y-dialog",
+  "topics": [
+    "vue",
+    "a11y",
+    "dialog",
+    "a11y-dialog",
+    "accessibility",
+    "portal-vue",
+    "portal"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "morkro",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/2461956?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://www.npmjs.com/package/vue-a11y-dialog",
+    "repo": "https://github.com/morkro/vue-a11y-dialog"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

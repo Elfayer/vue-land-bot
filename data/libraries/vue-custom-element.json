@@ -1,0 +1,28 @@
+{
+  "name": "vue-custom-element",
+  "full_name": "karol-f/vue-custom-element",
+  "description": "Vue Custom Element - Web Components' Custom Elements for Vue.js",
+  "topics": [
+    "custom-elements",
+    "vuejs",
+    "vuejs2",
+    "web-components",
+    "vue-custom-element"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "karol-f",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/893082?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://karol-f.github.io/vue-custom-element/",
+    "repo": "https://github.com/karol-f/vue-custom-element"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

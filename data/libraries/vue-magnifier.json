@@ -1,0 +1,27 @@
+{
+  "name": "vue-magnifier",
+  "full_name": "zeknoss/vue-magnifier",
+  "description": "A simple VueJS component for image magnifying / product zooming",
+  "topics": [
+    "vue-magnifier",
+    "magnifier",
+    "magnifying",
+    "zoom",
+    "vue",
+    "vuejs",
+    "vuejs2",
+    "vuejs-components"
+  ],
+  "license": null,
+  "owner": {
+    "login": "zeknoss",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/2834599?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://codesandbox.io/s/github/zeknoss/vue-magnifier",
+    "repo": "https://github.com/zeknoss/vue-magnifier"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

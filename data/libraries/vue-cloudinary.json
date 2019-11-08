@@ -1,0 +1,22 @@
+{
+  "name": "vue-cloudinary",
+  "full_name": "diegopamio/vue-cloudinary",
+  "description": "A Vue.js (https://github.com/vuejs/vue) plugin that offers a reusable directive to get image from Cloudinary (https://cloudinary.com)",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "diegopamio",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/2249375?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/diegopamio/vue-cloudinary"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

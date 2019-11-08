@@ -1,0 +1,24 @@
+{
+  "name": "vue-analog-clock-range",
+  "full_name": "f/vue-analog-clock-range",
+  "description": "Vue Analog Clock Range Component",
+  "topics": [
+    "vue",
+    "clock",
+    "time",
+    "component",
+    "canvas"
+  ],
+  "license": null,
+  "owner": {
+    "login": "f",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/196477?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/f/vue-analog-clock-range"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

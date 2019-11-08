@@ -1,0 +1,33 @@
+{
+  "name": "element-admin",
+  "full_name": "codetrial/element-admin",
+  "description": "A dead simple but powerful vue admin with Vue CLI 3 and ElementUI.",
+  "topics": [
+    "vue",
+    "element",
+    "admin",
+    "vue-cli",
+    "dashboard",
+    "element-ui",
+    "vue-admin"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "codetrial",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/42104494?v=4"
+  },
+  "organization": {
+    "login": "codetrial",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/42104494?v=4"
+  },
+  "links": {
+    "site": "https://element-admin.now.sh",
+    "repo": "https://github.com/codetrial/element-admin"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

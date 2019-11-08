@@ -1,0 +1,26 @@
+{
+  "name": "vue-async-computed",
+  "full_name": "foxbenjaminfox/vue-async-computed",
+  "description": "Async computed properties for Vue.js",
+  "topics": [
+    "vue",
+    "vue-plugin",
+    "async"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "foxbenjaminfox",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/4003976?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/foxbenjaminfox/vue-async-computed"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,26 @@
+{
+  "name": "m-message",
+  "full_name": "mengdu/m-message",
+  "description": "A message plugin for vue.",
+  "topics": [
+    "vue-message",
+    "message",
+    "m-message"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "mengdu",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/11366654?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://mengdu.github.io/m-message/example/",
+    "repo": "https://github.com/mengdu/m-message"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

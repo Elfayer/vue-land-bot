@@ -1,0 +1,18 @@
+{
+  "name": "neutrino-preset-vue-static",
+  "full_name": "shyiko/neutrino-preset-vue-static",
+  "description": "A minimalistic starter kit for building static sites using Vue.js",
+  "topics": [],
+  "license": null,
+  "owner": {
+    "login": "shyiko",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/370176?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://www.npmjs.com/package/neutrino-preset-vue-static",
+    "repo": "https://github.com/shyiko/neutrino-preset-vue-static"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

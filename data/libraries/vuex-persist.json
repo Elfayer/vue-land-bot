@@ -1,0 +1,22 @@
+{
+  "name": "vuex-persist",
+  "full_name": "championswimmer/vuex-persist",
+  "description": "A Vuex plugin to persist the store. (Fully Typescript enabled)",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "championswimmer",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/1327050?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "http://championswimmer.in/vuex-persist",
+    "repo": "https://github.com/championswimmer/vuex-persist"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

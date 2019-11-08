@@ -1,0 +1,22 @@
+{
+  "name": "vue-slideout-panel",
+  "full_name": "officert/vue-slideout-panel",
+  "description": "Vue JS component for stackable slideout panels",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "officert",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/4620560?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://vue2-slideout-panel.wrkflows.io/en/articles/1004",
+    "repo": "https://github.com/officert/vue-slideout-panel"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

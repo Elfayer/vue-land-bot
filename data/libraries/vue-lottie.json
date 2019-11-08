@@ -1,0 +1,30 @@
+{
+  "name": "vue-lottie",
+  "full_name": "chenqingspring/vue-lottie",
+  "description": "Render After Effects animations on Vue based on Bodymovin",
+  "topics": [
+    "vuejs2",
+    "vue",
+    "vue-components",
+    "vue-animate",
+    "bodymovin",
+    "lottie-animation",
+    "lottie"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "chenqingspring",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/1265352?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/chenqingspring/vue-lottie"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

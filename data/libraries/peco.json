@@ -1,0 +1,32 @@
+{
+  "name": "peco",
+  "full_name": "upash/peco",
+  "description": "nothing here, move on..",
+  "topics": [
+    "static-site",
+    "static-site-generator",
+    "webpack",
+    "ssg",
+    "vue",
+    "blog"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "upash",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/42094009?v=4"
+  },
+  "organization": {
+    "login": "upash",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/42094009?v=4"
+  },
+  "links": {
+    "site": null,
+    "repo": "https://github.com/upash/peco"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

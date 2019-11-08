@@ -1,0 +1,28 @@
+{
+  "name": "vue-js-modal",
+  "full_name": "euvl/vue-js-modal",
+  "description": ":pizza: Simple to use, highly customizable, mobile friendly Vue.js 2.0+ modal.",
+  "topics": [
+    "vue",
+    "vuejs",
+    "vue-modal",
+    "vue-plugin",
+    "vue-js-modal"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "euvl",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/1577802?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "http://vue-js-modal.yev.io",
+    "repo": "https://github.com/euvl/vue-js-modal"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

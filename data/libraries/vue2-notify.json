@@ -1,0 +1,26 @@
+{
+  "name": "vue2-notify",
+  "full_name": "websmurf/vue2-notify",
+  "description": "Simple Vue2 notification component",
+  "topics": [
+    "vuejs2",
+    "vuejs",
+    "vue-component"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "websmurf",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/4027236?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/websmurf/vue2-notify"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

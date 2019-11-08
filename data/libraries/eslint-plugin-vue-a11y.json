@@ -1,0 +1,22 @@
+{
+  "name": "eslint-plugin-vue-a11y",
+  "full_name": "maranran/eslint-plugin-vue-a11y",
+  "description": "Static AST checker for accessibility rules on elements in .vue",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "maranran",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/6880954?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/maranran/eslint-plugin-vue-a11y"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

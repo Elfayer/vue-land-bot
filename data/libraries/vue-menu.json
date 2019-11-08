@@ -1,0 +1,29 @@
+{
+  "name": "vue-menu",
+  "full_name": "michitaro/vue-menu",
+  "description": "Menu/Contextmenu Component for vue2",
+  "topics": [
+    "vue",
+    "menu",
+    "contextmenu",
+    "component",
+    "typescript",
+    "javascript"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "michitaro",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/3928908?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://michitaro.github.io/vue-menu/",
+    "repo": "https://github.com/michitaro/vue-menu"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

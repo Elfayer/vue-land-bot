@@ -1,0 +1,18 @@
+{
+  "name": "vue-smart-pagination",
+  "full_name": "grinmax/vue-smart-pagination",
+  "description": "VueJS pagination component",
+  "topics": [],
+  "license": null,
+  "owner": {
+    "login": "grinmax",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/17181777?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/grinmax/vue-smart-pagination"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

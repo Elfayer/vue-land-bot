@@ -1,0 +1,30 @@
+{
+  "name": "vue-slider-component",
+  "full_name": "NightCatSama/vue-slider-component",
+  "description": "🌡 A highly customized slider component",
+  "topics": [
+    "vue2",
+    "vue-component",
+    "vue-slider-component",
+    "slider",
+    "vue-slider",
+    "range",
+    "range-slider"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "NightCatSama",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/13888962?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://nightcatsama.github.io/vue-slider-component",
+    "repo": "https://github.com/NightCatSama/vue-slider-component"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,25 @@
+{
+  "name": "vue-async-properties",
+  "full_name": "marketdial/vue-async-properties",
+  "description": "Smart asynchronous data and computed properties for vue components.",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "marketdial",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/19692149?v=4"
+  },
+  "organization": {
+    "login": "marketdial",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/19692149?v=4"
+  },
+  "links": {
+    "site": null,
+    "repo": "https://github.com/marketdial/vue-async-properties"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

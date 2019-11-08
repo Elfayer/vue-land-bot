@@ -1,0 +1,22 @@
+{
+  "name": "vue-async-methods",
+  "full_name": "mokkabonna/vue-async-methods",
+  "description": "Async method support for vue",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "mokkabonna",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/230877?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/mokkabonna/vue-async-methods"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

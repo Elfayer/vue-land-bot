@@ -1,0 +1,22 @@
+{
+  "name": "grid-awesome",
+  "full_name": "louisbourque/grid-awesome",
+  "description": "Use Grid-Awesome to generate boilerplate css for grid layouts using the css display: grid; property.",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "louisbourque",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/1115170?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "http://www.louisbourque.ca/grid-awesome/",
+    "repo": "https://github.com/louisbourque/grid-awesome"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

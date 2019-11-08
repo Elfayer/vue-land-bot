@@ -1,0 +1,24 @@
+{
+  "name": "vue-styleguide-generator",
+  "full_name": "shershen08/vue-styleguide-generator",
+  "description": "React inspired style guide generator for Vue.js",
+  "topics": [
+    "vuejs",
+    "vuejs2",
+    "style-guide",
+    "styleguide",
+    "parser"
+  ],
+  "license": null,
+  "owner": {
+    "login": "shershen08",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/1363772?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/shershen08/vue-styleguide-generator"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

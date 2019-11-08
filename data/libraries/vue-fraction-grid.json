@@ -1,0 +1,27 @@
+{
+  "name": "vue-fraction-grid",
+  "full_name": "brtjkzl/vue-fraction-grid",
+  "description": "Flexbox based responsive fraction grid system for Vue.js",
+  "topics": [
+    "vuejs",
+    "vue",
+    "grid",
+    "flexbox"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "brtjkzl",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/127219?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://brtjkzl.github.io/vue-fraction-grid",
+    "repo": "https://github.com/brtjkzl/vue-fraction-grid"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

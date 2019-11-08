@@ -1,0 +1,22 @@
+{
+  "name": "vue-business-hours",
+  "full_name": "sbarry50/vue-business-hours",
+  "description": "Vue component for selecting business hours.",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "sbarry50",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/3768680?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/sbarry50/vue-business-hours"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

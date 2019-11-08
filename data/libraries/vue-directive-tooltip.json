@@ -1,0 +1,27 @@
+{
+  "name": "vue-directive-tooltip",
+  "full_name": "hekigan/vue-directive-tooltip",
+  "description": "Vue.js tooltip directive. Easy to use, configure and style",
+  "topics": [
+    "vue",
+    "vue2",
+    "directive",
+    "tooltip"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "hekigan",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/1617712?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://hekigan.github.io/vue-directive-tooltip/",
+    "repo": "https://github.com/hekigan/vue-directive-tooltip"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

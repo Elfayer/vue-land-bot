@@ -1,0 +1,35 @@
+{
+  "name": "electron-vue",
+  "full_name": "SimulatedGREG/electron-vue",
+  "description": "An Electron & Vue.js quick start boilerplate with vue-cli scaffolding, common Vue plugins, electron-packager/electron-builder, unit/e2e testing, vue-devtools, and webpack.",
+  "topics": [
+    "electron",
+    "vue",
+    "webpack",
+    "boilerplate",
+    "vue-cli",
+    "documentation",
+    "unit-testing",
+    "end-to-end-testing",
+    "electron-packager",
+    "electron-builder",
+    "es6",
+    "babel"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "SimulatedGREG",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/8327811?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://simulatedgreg.gitbooks.io/electron-vue/content/",
+    "repo": "https://github.com/SimulatedGREG/electron-vue"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

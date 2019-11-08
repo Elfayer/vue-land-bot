@@ -1,0 +1,43 @@
+{
+  "name": "vuestic-admin",
+  "full_name": "epicmaxco/vuestic-admin",
+  "description": "Free and Beautiful Vue.js Admin Template",
+  "topics": [
+    "vue",
+    "vue2",
+    "vuejs",
+    "vuex",
+    "vue-router",
+    "admin-dashboard",
+    "admin-panel",
+    "es6",
+    "dashboard",
+    "admin-template",
+    "admin-dashboard-ui",
+    "admin-ui",
+    "admin-tools",
+    "ui-components",
+    "ui-kit",
+    "ui-kit-",
+    "vue-components"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "epicmaxco",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/30595047?v=4"
+  },
+  "organization": {
+    "login": "epicmaxco",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/30595047?v=4"
+  },
+  "links": {
+    "site": "http://vuestic.epicmax.co",
+    "repo": "https://github.com/epicmaxco/vuestic-admin"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

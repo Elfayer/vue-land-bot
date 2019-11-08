@@ -1,0 +1,31 @@
+{
+  "name": "vue-d3-network",
+  "full_name": "emiliorizzo/vue-d3-network",
+  "description": "Vue component to graph networks using d3-force",
+  "topics": [
+    "network",
+    "graph",
+    "chart",
+    "d3",
+    "d3v4",
+    "vue",
+    "component",
+    "d3-force"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "emiliorizzo",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/3934196?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://emiliorizzo.github.io/vue-d3-network/",
+    "repo": "https://github.com/emiliorizzo/vue-d3-network"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,27 @@
+{
+  "name": "vue-transmit",
+  "full_name": "alexsasharegan/vue-transmit",
+  "description": "Vue.js drag & drop uploader based on Dropzone.js",
+  "topics": [
+    "upload",
+    "uploader",
+    "upload-file",
+    "drag-and-drop"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "alexsasharegan",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/16269252?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://npmjs.com/package/vue-transmit",
+    "repo": "https://github.com/alexsasharegan/vue-transmit"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

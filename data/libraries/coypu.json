@@ -1,0 +1,22 @@
+{
+  "name": "coypu",
+  "full_name": "brtjkzl/coypu",
+  "description": "Text-editor-like weekly planner",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "brtjkzl",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/127219?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://coypu.brtjkzl.com",
+    "repo": "https://github.com/brtjkzl/coypu"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,26 @@
+{
+  "name": "vue-fixed-header",
+  "full_name": "potato4d/vue-fixed-header",
+  "description": "Simple and cross-browser friendly fixed header component for Vue.js written by TypeScript.",
+  "topics": [
+    "javascript",
+    "vue",
+    "vue-components"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "potato4d",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/6993514?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://vue-fixed-header.potato4d.dev/",
+    "repo": "https://github.com/potato4d/vue-fixed-header"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

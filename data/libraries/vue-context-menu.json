@@ -1,0 +1,18 @@
+{
+  "name": "vue-context-menu",
+  "full_name": "vmaimone/vue-context-menu",
+  "description": "A context menu component for vue js",
+  "topics": [],
+  "license": null,
+  "owner": {
+    "login": "vmaimone",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/8013308?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/vmaimone/vue-context-menu"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

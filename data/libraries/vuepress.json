@@ -1,0 +1,33 @@
+{
+  "name": "vuepress",
+  "icon": "vuepress.png",
+  "full_name": "vuejs/vuepress",
+  "description": "📝 Minimalistic Vue-powered static site generator",
+  "topics": [
+    "vue",
+    "vuepress",
+    "seo",
+    "static-site-generator",
+    "docs-generator",
+    "blog-engine"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "vuejs",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/6128107?v=4"
+  },
+  "organization": {
+    "login": "vuejs",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/6128107?v=4"
+  },
+  "links": {
+    "site": "https://v1.vuepress.vuejs.org",
+    "repo": "https://github.com/vuejs/vuepress"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

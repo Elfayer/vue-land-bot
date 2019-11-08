@@ -1,0 +1,27 @@
+{
+  "name": "vue-highlight-text",
+  "full_name": "TonPC64/vue-highlight-text",
+  "description": "🔦 Vue component for highlight multiple instances of a word",
+  "topics": [
+    "vue-highlight-text",
+    "vue",
+    "highlight",
+    "search"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "TonPC64",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/12834601?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "http://vue-highlight-text.surge.sh",
+    "repo": "https://github.com/TonPC64/vue-highlight-text"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

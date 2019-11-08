@@ -1,0 +1,24 @@
+{
+  "name": "vuex-basement",
+  "full_name": "RashadSaleh/vuex-basement",
+  "description": "Vuex state persistance and synchronization between tabs/windows.",
+  "topics": [
+    "vuejs",
+    "vuex",
+    "vuejs2",
+    "vue",
+    "vue2"
+  ],
+  "license": null,
+  "owner": {
+    "login": "RashadSaleh",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/12851655?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/RashadSaleh/vuex-basement"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

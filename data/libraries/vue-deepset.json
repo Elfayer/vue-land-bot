@@ -1,0 +1,30 @@
+{
+  "name": "vue-deepset",
+  "full_name": "bhoriuchi/vue-deepset",
+  "description": "Deep set Vue.js objects",
+  "topics": [
+    "vuex",
+    "mutations",
+    "vue",
+    "vue2",
+    "vuejs",
+    "deepset",
+    "reactive"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "bhoriuchi",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/10199502?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/bhoriuchi/vue-deepset"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

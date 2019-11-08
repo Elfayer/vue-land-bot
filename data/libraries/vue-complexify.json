@@ -1,0 +1,27 @@
+{
+  "name": "vue-complexify",
+  "full_name": "mazipan/vue-complexify",
+  "description": ":cop: Vuejs porting library from jquery.complexify.js",
+  "topics": [
+    "vue-complexify",
+    "complexify",
+    "password-complexity",
+    "complexify-js"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "mazipan",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/7221389?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://mazipan.github.io/vue-complexify/",
+    "repo": "https://github.com/mazipan/vue-complexify"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

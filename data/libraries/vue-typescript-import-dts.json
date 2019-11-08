@@ -1,0 +1,25 @@
+{
+  "name": "vue-typescript-import-dts",
+  "full_name": "locoslab/vue-typescript-import-dts",
+  "description": "TypeScript declaration file that allows using 'import' with *.vue files",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "locoslab",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/15248135?v=4"
+  },
+  "organization": {
+    "login": "locoslab",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/15248135?v=4"
+  },
+  "links": {
+    "site": null,
+    "repo": "https://github.com/locoslab/vue-typescript-import-dts"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

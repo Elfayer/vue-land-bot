@@ -1,0 +1,22 @@
+{
+  "name": "vue2-timepicker",
+  "full_name": "phoenixwong/vue2-timepicker",
+  "description": "A dropdown time picker (hour|minute|second) for Vue 2.x, with flexible time format support",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "phoenixwong",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/6954306?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://phoenixwong.github.io/vue2-timepicker/",
+    "repo": "https://github.com/phoenixwong/vue2-timepicker"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

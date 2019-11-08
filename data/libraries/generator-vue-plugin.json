@@ -1,0 +1,28 @@
+{
+  "name": "generator-vue-plugin",
+  "full_name": "jeneser/generator-vue-plugin",
+  "description": "Yeoman generator generating vue plugin :rocket:",
+  "topics": [
+    "yeoman",
+    "yeoman-generator",
+    "vue",
+    "vue-plugin",
+    "vue2"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "jeneser",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/15034042?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://www.npmjs.com/package/generator-vue-plugin",
+    "repo": "https://github.com/jeneser/generator-vue-plugin"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

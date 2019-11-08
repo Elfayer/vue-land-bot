@@ -1,0 +1,28 @@
+{
+  "name": "vue-typed",
+  "full_name": "vue-typed/vue-typed",
+  "description": "Sets of ECMAScript / Typescript decorators that helps you write Vue component easily.",
+  "topics": [
+    "vue",
+    "typescript"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "vue-typed",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/23116866?v=4"
+  },
+  "organization": {
+    "login": "vue-typed",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/23116866?v=4"
+  },
+  "links": {
+    "site": "http://vue-typed.github.io/vue-typed",
+    "repo": "https://github.com/vue-typed/vue-typed"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

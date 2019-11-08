@@ -1,0 +1,30 @@
+{
+  "name": "vue-i18n-extract",
+  "full_name": "pixari/vue-i18n-extract",
+  "description": "Manage vue-i18n localization with static analysis",
+  "topics": [
+    "javascript",
+    "nodejs",
+    "i18n",
+    "vue-i18n",
+    "vue",
+    "internationalization",
+    "internationalization-plugin"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "pixari",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/7393475?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/pixari/vue-i18n-extract"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,27 @@
+{
+  "name": "Vue.D3.sunburst",
+  "full_name": "David-Desmaisons/Vue.D3.sunburst",
+  "description": "Vue sunburst component based on D3.js",
+  "topics": [
+    "vue",
+    "component",
+    "d3js",
+    "sunburst-chart"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "David-Desmaisons",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/524617?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://david-desmaisons.github.io/Vue.D3.sunburst/",
+    "repo": "https://github.com/David-Desmaisons/Vue.D3.sunburst"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

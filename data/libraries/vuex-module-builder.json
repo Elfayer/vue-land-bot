@@ -1,0 +1,18 @@
+{
+  "name": "vuex-module-builder",
+  "full_name": "oncebot/vuex-module-builder",
+  "description": "Easily create Vuex modules with DRY code",
+  "topics": [],
+  "license": null,
+  "owner": {
+    "login": "oncebot",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/7911857?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/oncebot/vuex-module-builder"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

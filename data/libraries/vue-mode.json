@@ -1,0 +1,27 @@
+{
+  "name": "vue-mode",
+  "full_name": "AdamNiederer/vue-mode",
+  "description": "Emacs major mode for vue.js",
+  "topics": [
+    "vue",
+    "vuejs",
+    "vuejs-components",
+    "emacs"
+  ],
+  "license": {
+    "key": "gpl-2.0",
+    "url": "https://api.github.com/licenses/gpl-2.0",
+    "name": "GNU General Public License v2.0"
+  },
+  "owner": {
+    "login": "AdamNiederer",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/4571394?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/AdamNiederer/vue-mode"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

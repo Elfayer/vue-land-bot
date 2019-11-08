@@ -1,0 +1,29 @@
+{
+  "name": "vuejs-wordpress-theme-starter",
+  "full_name": "EvanAgee/vuejs-wordpress-theme-starter",
+  "description": "A WordPress theme with the guts ripped out and replaced with Vue.",
+  "topics": [
+    "wordpress",
+    "wordpress-theme",
+    "vuejs",
+    "vuejs2",
+    "spa",
+    "vue",
+    "vue-router",
+    "vuex-store",
+    "vuex-modules",
+    "starters"
+  ],
+  "license": null,
+  "owner": {
+    "login": "EvanAgee",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/1692674?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "http://vuewordpress.com/",
+    "repo": "https://github.com/EvanAgee/vuejs-wordpress-theme-starter"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

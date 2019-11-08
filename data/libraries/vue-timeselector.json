@@ -1,0 +1,32 @@
+{
+  "name": "vue-timeselector",
+  "full_name": "alexiscolin/vue-timeselector",
+  "description": "🕒 Simply customizable powerful time picker for Vue.js",
+  "topics": [
+    "timepicker",
+    "vuejs",
+    "timeselector",
+    "datetime",
+    "date",
+    "vuejs2",
+    "vue",
+    "time",
+    "picker"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "alexiscolin",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/7622257?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/alexiscolin/vue-timeselector"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

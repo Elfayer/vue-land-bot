@@ -1,0 +1,18 @@
+{
+  "name": "vue-terminal-ui",
+  "full_name": "shershen08/vue-terminal-ui",
+  "description": "🖥Terminal UI emulator VueJS component",
+  "topics": [],
+  "license": null,
+  "owner": {
+    "login": "shershen08",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/1363772?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/shershen08/vue-terminal-ui"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

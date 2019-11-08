@@ -1,0 +1,22 @@
+{
+  "name": "vue-affix",
+  "full_name": "eddiemf/vue-affix",
+  "description": "A Vue.js plugin that affixes an element on the window while scrolling based on a relative element",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "eddiemf",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/13438035?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/eddiemf/vue-affix"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

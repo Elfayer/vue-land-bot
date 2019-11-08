@@ -1,0 +1,25 @@
+{
+  "name": "vue-async-operations",
+  "full_name": "devstark-com/vue-async-operations",
+  "description": "Managing async operations statuses in your Vue components",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "devstark-com",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/28802213?v=4"
+  },
+  "organization": {
+    "login": "devstark-com",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/28802213?v=4"
+  },
+  "links": {
+    "site": null,
+    "repo": "https://github.com/devstark-com/vue-async-operations"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

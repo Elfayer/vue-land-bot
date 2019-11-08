@@ -1,0 +1,29 @@
+{
+  "name": "vant",
+  "full_name": "youzan/vant",
+  "description": "Lightweight Mobile UI Components built on Vue",
+  "topics": [
+    "vue",
+    "mobile",
+    "components"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "youzan",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/11404085?v=4"
+  },
+  "organization": {
+    "login": "youzan",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/11404085?v=4"
+  },
+  "links": {
+    "site": "https://youzan.github.io/vant",
+    "repo": "https://github.com/youzan/vant"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

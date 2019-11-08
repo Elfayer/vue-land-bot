@@ -1,0 +1,28 @@
+{
+  "name": "vue-html2canvas",
+  "full_name": "mycurelabs/vue-html2canvas",
+  "description": "Vue mixin for Html2Canvas",
+  "topics": [
+    "html2canvas",
+    "vue-mixin"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "mycurelabs",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/39532909?v=4"
+  },
+  "organization": {
+    "login": "mycurelabs",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/39532909?v=4"
+  },
+  "links": {
+    "site": null,
+    "repo": "https://github.com/mycurelabs/vue-html2canvas"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

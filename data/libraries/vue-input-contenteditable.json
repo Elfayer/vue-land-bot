@@ -1,0 +1,28 @@
+{
+  "name": "vue-input-contenteditable",
+  "full_name": "Cobertos/vue-input-contenteditable",
+  "description": "The same features you expect from `<input type=\"text\">` but in a `contenteditable` Vue component",
+  "topics": [
+    "javascript",
+    "vue",
+    "vue-component",
+    "contenteditable",
+    "html"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "Cobertos",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/6759176?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/Cobertos/vue-input-contenteditable"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,34 @@
+{
+  "name": "vue2-calendar",
+  "full_name": "icai/vue2-calendar",
+  "description": "vue 2.x  calendar component",
+  "topics": [
+    "datepicker-component",
+    "vue2",
+    "vue-component",
+    "calendar",
+    "vuejs2",
+    "vue-cli",
+    "vue",
+    "bootstrap-theme",
+    "vue-boilerplate",
+    "webpack4",
+    "webpack4-boilerplate"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "icai",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/1061012?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "http://icai.github.io/vue2-calendar/",
+    "repo": "https://github.com/icai/vue2-calendar"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

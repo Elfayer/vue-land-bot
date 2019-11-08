@@ -1,0 +1,26 @@
+{
+  "name": "vue2-transitions",
+  "full_name": "BinarCode/vue2-transitions",
+  "description": "✨ Reusable Vue 2 transition components",
+  "topics": [
+    "transitions",
+    "vuejs",
+    "vuejs2",
+    "components"
+  ],
+  "license": null,
+  "owner": {
+    "login": "BinarCode",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/41368819?v=4"
+  },
+  "organization": {
+    "login": "BinarCode",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/41368819?v=4"
+  },
+  "links": {
+    "site": "https://binarcode.github.io/vue2-transitions/",
+    "repo": "https://github.com/BinarCode/vue2-transitions"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

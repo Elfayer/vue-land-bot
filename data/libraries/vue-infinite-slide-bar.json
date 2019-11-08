@@ -1,0 +1,35 @@
+{
+  "name": "vue-infinite-slide-bar",
+  "full_name": "biigpongsatorn/vue-infinite-slide-bar",
+  "description": "∞ Infinite slide bar component (no dependency and light weight 1.48 KB)",
+  "topics": [
+    "vue",
+    "infinite",
+    "infinity",
+    "slider",
+    "bar",
+    "component",
+    "vue-infinite-slide",
+    "slide",
+    "auto",
+    "autoscrolling",
+    "slideshow",
+    "slides"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "biigpongsatorn",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/10693658?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://biigpongsatorn.github.io/#/vue-infinite-slide-bar",
+    "repo": "https://github.com/biigpongsatorn/vue-infinite-slide-bar"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,27 @@
+{
+  "name": "vuex-localState",
+  "full_name": "biluochun/vuex-localState",
+  "description": "vuex plugin",
+  "topics": [
+    "vuex-local-state",
+    "vuex-session-state",
+    "vuex",
+    "vuex-plugin"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "biluochun",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/2430646?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/biluochun/vuex-localState"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

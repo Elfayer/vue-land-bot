@@ -1,0 +1,28 @@
+{
+  "name": "vue-mapbox-gl",
+  "full_name": "phegman/vue-mapbox-gl",
+  "description": "A Vue.js component for Mapbox GL JS",
+  "topics": [
+    "vue",
+    "mapbox-gl-js",
+    "vuejs2",
+    "vue2",
+    "javascript"
+  ],
+  "license": {
+    "key": "gpl-3.0",
+    "url": "https://api.github.com/licenses/gpl-3.0",
+    "name": "GNU General Public License v3.0"
+  },
+  "owner": {
+    "login": "phegman",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/4230489?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/phegman/vue-mapbox-gl"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

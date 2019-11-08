@@ -1,0 +1,33 @@
+{
+  "name": "Nucleus",
+  "full_name": "alirizaadiyahsi/Nucleus",
+  "description": "Vue startup application template that uses ASP.NET Core API layered architecture at the back-end and JWT based authentication",
+  "topics": [
+    "vuejs",
+    "entity-framework-core",
+    "asp-net-core",
+    "bootstrap-vue",
+    "swagger",
+    "vue",
+    "typescript",
+    "jwt-authentication",
+    "bootstrap",
+    "vuetify"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "alirizaadiyahsi",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/4375000?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/alirizaadiyahsi/Nucleus"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

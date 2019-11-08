@@ -1,0 +1,22 @@
+{
+  "name": "vue-accordion",
+  "full_name": "zeratulmdq/vue-accordion",
+  "description": "Simple accordion menu component for Vue.js",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "zeratulmdq",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/7724547?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/zeratulmdq/vue-accordion"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

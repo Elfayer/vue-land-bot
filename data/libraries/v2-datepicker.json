@@ -1,0 +1,29 @@
+{
+  "name": "v2-datepicker",
+  "full_name": "dwqs/v2-datepicker",
+  "description": "A simple datepicker component based Vue 2.x: https://dwqs.github.io/v2-datepicker/",
+  "topics": [
+    "vuejs2",
+    "datepicker",
+    "date-picker",
+    "datepicker-component",
+    "daterange",
+    "daterange-picker"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "dwqs",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/7871813?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/dwqs/v2-datepicker"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

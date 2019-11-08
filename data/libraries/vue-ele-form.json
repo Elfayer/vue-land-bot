@@ -1,0 +1,31 @@
+{
+  "name": "vue-ele-form",
+  "full_name": "dream2023/vue-ele-form",
+  "description": "基于element-ui的数据驱动表单组件",
+  "topics": [
+    "vue-ele-form",
+    "vue-form",
+    "element-form",
+    "element",
+    "element-ui",
+    "element-ui-form",
+    "vue-form-generator",
+    "form-builder"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "dream2023",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/19297757?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://dream2023.github.io/vue-ele-form/",
+    "repo": "https://github.com/dream2023/vue-ele-form"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,24 @@
+{
+  "name": "vue-form-send",
+  "full_name": "AlekseyPleshkov/vue-form-send",
+  "description": "A Vue.js directive for sending data from form and primitive validation",
+  "topics": [
+    "vuejs",
+    "vue-directive",
+    "vue-form",
+    "nuxtjs",
+    "vuejs2"
+  ],
+  "license": null,
+  "owner": {
+    "login": "AlekseyPleshkov",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/11446603?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/AlekseyPleshkov/vue-form-send"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

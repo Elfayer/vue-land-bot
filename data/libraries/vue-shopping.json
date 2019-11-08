@@ -1,0 +1,18 @@
+{
+  "name": "vue-shopping",
+  "full_name": "andylei18/vue-shopping",
+  "description": "基于Vue模仿蘑菇街的单页应用http://andylei18.github.io/vue-shopping/",
+  "topics": [],
+  "license": null,
+  "owner": {
+    "login": "andylei18",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/8412644?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/andylei18/vue-shopping"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

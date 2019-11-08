@@ -1,0 +1,25 @@
+{
+  "name": "portal-vue",
+  "full_name": "LinusBorg/portal-vue",
+  "description": "A feature-rich Portal Plugin for Vuejs, for rendering DOM outside of a component, anywhere our app or the entire document.",
+  "topics": [
+    "vuejs",
+    "portal"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "LinusBorg",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/1444526?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "http://portal-vue.linusb.org",
+    "repo": "https://github.com/LinusBorg/portal-vue"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

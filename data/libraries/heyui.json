@@ -1,0 +1,46 @@
+{
+  "name": "heyui",
+  "full_name": "heyui/heyui",
+  "description": "🎉UI Toolkit for Web, Vue2.0 http://www.heyui.top",
+  "topics": [
+    "ui-components",
+    "heyui",
+    "vue",
+    "ui",
+    "table",
+    "modal",
+    "autocomplete",
+    "webpack",
+    "i18n",
+    "form",
+    "select",
+    "validator",
+    "vue2",
+    "vue-components",
+    "button",
+    "tree",
+    "javascript",
+    "modals",
+    "datepicker",
+    "datetimepicker"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "heyui",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/23329069?v=4"
+  },
+  "organization": {
+    "login": "heyui",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/23329069?v=4"
+  },
+  "links": {
+    "site": null,
+    "repo": "https://github.com/heyui/heyui"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

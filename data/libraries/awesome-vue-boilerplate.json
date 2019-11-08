@@ -1,0 +1,35 @@
+{
+  "name": "awesome-vue-boilerplate",
+  "full_name": "NarHakobyan/awesome-vue-boilerplate",
+  "description": "😍 Awesome Vue Boilerplate 🥳 Vue 🥰 Vuex, vuex-pathify 🤗 element-ui 🤲 tailwindcss",
+  "topics": [
+    "vue",
+    "vuejs2",
+    "vue-boilerplate",
+    "boilerplate",
+    "boilerplate-template",
+    "vue-awesome",
+    "awesome",
+    "javascript",
+    "vuex",
+    "vuex-persist",
+    "vuex-pathify",
+    "tailwindcss",
+    "element-ui",
+    "javascript-boilerplate",
+    "eslint",
+    "prettier"
+  ],
+  "license": null,
+  "owner": {
+    "login": "NarHakobyan",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/1781506?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://narhakobyan.github.io/awesome-vue-boilerplate/",
+    "repo": "https://github.com/NarHakobyan/awesome-vue-boilerplate"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

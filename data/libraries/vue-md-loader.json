@@ -1,0 +1,28 @@
+{
+  "name": "vue-md-loader",
+  "full_name": "wxsms/vue-md-loader",
+  "description": ":sparkles: Markdown files to ALIVE Vue components.",
+  "topics": [
+    "vue",
+    "markdown",
+    "webpack",
+    "webpack-loader",
+    "document"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "wxsms",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/5960988?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://www.npmjs.com/package/vue-md-loader",
+    "repo": "https://github.com/wxsms/vue-md-loader"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,25 @@
+{
+  "name": "vue-2-breadcrumbs",
+  "full_name": "Scrum/vue-2-breadcrumbs",
+  "description": "Vue breadcrumbs",
+  "topics": [
+    "vue2",
+    "breadcrumbs"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "Scrum",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/2789192?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/Scrum/vue-2-breadcrumbs"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

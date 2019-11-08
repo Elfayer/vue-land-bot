@@ -1,0 +1,27 @@
+{
+  "name": "vue-data-tables",
+  "full_name": "njleonzhang/vue-data-tables",
+  "description": "A simple, customizable and pageable table with SSR support, based on vue2 and element-ui",
+  "topics": [
+    "vue",
+    "table",
+    "datatables",
+    "datatable"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "njleonzhang",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/13174059?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://njleonzhang.github.io/vue-data-tables",
+    "repo": "https://github.com/njleonzhang/vue-data-tables"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

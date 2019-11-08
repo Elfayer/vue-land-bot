@@ -1,0 +1,28 @@
+{
+  "name": "vuex-module-generator",
+  "full_name": "abdullah/vuex-module-generator",
+  "description": null,
+  "topics": [
+    "vuex",
+    "state-management",
+    "generator",
+    "module",
+    "vue"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "abdullah",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/9568842?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://abdullah.github.io/vuex-module-generator",
+    "repo": "https://github.com/abdullah/vuex-module-generator"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

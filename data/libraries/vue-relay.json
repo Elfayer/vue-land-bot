@@ -1,0 +1,28 @@
+{
+  "name": "vue-relay",
+  "full_name": "ntkme/vue-relay",
+  "description": ":vulcan_salute: :on: :card_index_dividers: A framework for building GraphQL-driven Vue.js applications.",
+  "topics": [
+    "vue",
+    "relay",
+    "graphql",
+    "frontend",
+    "javascript"
+  ],
+  "license": {
+    "key": "bsd-2-clause",
+    "url": "https://api.github.com/licenses/bsd-2-clause",
+    "name": "BSD 2-Clause \"Simplified\" License"
+  },
+  "owner": {
+    "login": "ntkme",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/899645?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://www.npmjs.com/package/vue-relay",
+    "repo": "https://github.com/ntkme/vue-relay"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

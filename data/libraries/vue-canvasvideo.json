@@ -1,0 +1,22 @@
+{
+  "name": "vue-canvasvideo",
+  "full_name": "chrishurlburt/vue-canvasvideo",
+  "description": "A Vue.js component for playing videos on HTML canvas. Useful for achieving autoplay videos in iOS and Safari.",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "chrishurlburt",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/12517963?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/chrishurlburt/vue-canvasvideo"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

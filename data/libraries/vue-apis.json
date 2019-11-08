@@ -1,0 +1,34 @@
+{
+  "name": "vue-apis",
+  "full_name": "Chans-Open-Source/vue-apis",
+  "description": "集成axios的vue插件",
+  "topics": [
+    "vue",
+    "axios",
+    "http",
+    "xhr",
+    "ajax",
+    "browser",
+    "node",
+    "mit-license"
+  ],
+  "license": {
+    "key": "other",
+    "url": null,
+    "name": "Other"
+  },
+  "owner": {
+    "login": "Chans-Open-Source",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/49422419?v=4"
+  },
+  "organization": {
+    "login": "Chans-Open-Source",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/49422419?v=4"
+  },
+  "links": {
+    "site": null,
+    "repo": "https://github.com/Chans-Open-Source/vue-apis"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

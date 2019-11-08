@@ -1,0 +1,30 @@
+{
+  "name": "vuelendar",
+  "full_name": "codesthq/vuelendar",
+  "description": "Simple and clean calendar written in Vue.js",
+  "topics": [
+    "vuejs",
+    "vuejs-components",
+    "calendar",
+    "calendar-component"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "codesthq",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/109820?v=4"
+  },
+  "organization": {
+    "login": "codesthq",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/109820?v=4"
+  },
+  "links": {
+    "site": null,
+    "repo": "https://github.com/codesthq/vuelendar"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

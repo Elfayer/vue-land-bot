@@ -1,0 +1,23 @@
+{
+  "name": "simply-calculator-vuejs",
+  "full_name": "CaiYiLiang/simply-calculator-vuejs",
+  "description": "A simple calculator made by vuejs  用vue.js实现简易计算器",
+  "topics": [
+    "vue",
+    "webpack",
+    "calculator",
+    "vue-cli"
+  ],
+  "license": null,
+  "owner": {
+    "login": "CaiYiLiang",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/14360297?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/CaiYiLiang/simply-calculator-vuejs"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

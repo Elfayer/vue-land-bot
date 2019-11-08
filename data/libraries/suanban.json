@@ -1,0 +1,22 @@
+{
+  "name": "suanban",
+  "full_name": "JasonBai007/suanban",
+  "description": "A web app developed with Vue2.0 and Douban API",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "JasonBai007",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/13450042?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "http://lubanseven.gitee.io/suanban",
+    "repo": "https://github.com/JasonBai007/suanban"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

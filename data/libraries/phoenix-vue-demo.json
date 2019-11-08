@@ -1,0 +1,23 @@
+{
+  "name": "phoenix-vue-demo",
+  "full_name": "Angarsk8/phoenix-vue-demo",
+  "description": "Basic app developed with Phoenix and Vue 2.0, including authentication.",
+  "topics": [
+    "elixir-lang",
+    "phoenix-framework",
+    "ecmascript2015",
+    "vuejs2"
+  ],
+  "license": null,
+  "owner": {
+    "login": "Angarsk8",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/11448559?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://phoenix-vue-auth.herokuapp.com",
+    "repo": "https://github.com/Angarsk8/phoenix-vue-demo"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

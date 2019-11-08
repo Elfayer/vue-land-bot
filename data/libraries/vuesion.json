@@ -1,0 +1,38 @@
+{
+  "name": "vuesion",
+  "full_name": "vuesion/vuesion",
+  "description": "The most complete boilerplate for production-ready PWAs. With focus on performance, development speed, and best practices",
+  "topics": [
+    "vue",
+    "vuex",
+    "vue-router",
+    "webpack",
+    "typescript",
+    "jest",
+    "server-side-rendering",
+    "progressive-web-app",
+    "seo",
+    "i18n",
+    "kitchensink",
+    "best-practices"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "vuesion",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/47367113?v=4"
+  },
+  "organization": {
+    "login": "vuesion",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/47367113?v=4"
+  },
+  "links": {
+    "site": "https://vuesion.herokuapp.com/",
+    "repo": "https://github.com/vuesion/vuesion"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

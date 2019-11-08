@@ -1,0 +1,22 @@
+{
+  "name": "vue-waypoint",
+  "full_name": "scaccogatto/vue-waypoint",
+  "description": "v-waypoint directive for Vue, this is the easiest way to trigger a function when you scroll",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "scaccogatto",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/3670888?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/scaccogatto/vue-waypoint"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

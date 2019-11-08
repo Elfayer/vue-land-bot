@@ -1,0 +1,34 @@
+{
+  "name": "VueWordCloud",
+  "full_name": "SeregPie/VueWordCloud",
+  "description": "Generates a cloud out of the words.",
+  "topics": [
+    "vue",
+    "component",
+    "plugin",
+    "javascript",
+    "word",
+    "cloud",
+    "draw",
+    "tag",
+    "key",
+    "weight",
+    "rotation"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "SeregPie",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/1217953?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://seregpie.github.io/VueWordCloud/",
+    "repo": "https://github.com/SeregPie/VueWordCloud"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

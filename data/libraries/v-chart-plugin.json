@@ -1,0 +1,36 @@
+{
+  "name": "v-chart-plugin",
+  "full_name": "ignoreintuition/v-chart-plugin",
+  "description": "Easily bind a chart to the data stored in your Vue.js components.",
+  "topics": [
+    "vue",
+    "d3",
+    "javascript",
+    "component",
+    "plugin",
+    "datavisualization",
+    "vuejs",
+    "vue-components",
+    "d3js",
+    "d3v4",
+    "d3-visualization",
+    "chart",
+    "graph"
+  ],
+  "license": {
+    "key": "gpl-3.0",
+    "url": "https://api.github.com/licenses/gpl-3.0",
+    "name": "GNU General Public License v3.0"
+  },
+  "owner": {
+    "login": "ignoreintuition",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/5210420?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://resurgencewebdesign.com/v-chart/",
+    "repo": "https://github.com/ignoreintuition/v-chart-plugin"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

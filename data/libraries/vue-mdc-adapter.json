@@ -1,0 +1,24 @@
+{
+  "name": "vue-mdc-adapter",
+  "full_name": "stasson/vue-mdc-adapter",
+  "description": "DEPRECATED",
+  "topics": [
+    "deprecated"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "stasson",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/13608867?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://stasson.github.io/vue-mdc-adapter",
+    "repo": "https://github.com/stasson/vue-mdc-adapter"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

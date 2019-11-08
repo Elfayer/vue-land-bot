@@ -1,0 +1,30 @@
+{
+  "name": "Vuejs-snippets",
+  "full_name": "CorentinAndre/Vuejs-snippets",
+  "description": "Collection of Vuejs 2.0+ snippets",
+  "topics": [
+    "snippets",
+    "vue",
+    "vuejs2",
+    "atom",
+    "atom-package",
+    "vuex",
+    "vuejs-snippets"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "CorentinAndre",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/11957741?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/CorentinAndre/Vuejs-snippets"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

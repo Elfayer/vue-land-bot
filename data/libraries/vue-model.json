@@ -1,0 +1,28 @@
+{
+  "name": "vue-model",
+  "full_name": "aarondfrancis/vue-model",
+  "description": "Model component for Vue.js",
+  "topics": [
+    "vuejs",
+    "vue2",
+    "vue",
+    "laravel",
+    "laravel55"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "aarondfrancis",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/881931?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/aarondfrancis/vue-model"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

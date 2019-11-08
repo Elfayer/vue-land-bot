@@ -1,0 +1,18 @@
+{
+  "name": "vuex-api",
+  "full_name": "vouill/vuex-api",
+  "description": "Deprecated - Effortlessly handle api calls with vuex without repeating yourself.",
+  "topics": [],
+  "license": null,
+  "owner": {
+    "login": "vouill",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/9969161?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/vouill/vuex-api"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

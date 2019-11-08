@@ -1,0 +1,31 @@
+{
+  "name": "vue-json-tree-view",
+  "full_name": "michaelfitzhavey/vue-json-tree-view",
+  "description": "A JSON Tree View Component for Vue.js",
+  "topics": [
+    "json-tree",
+    "vue",
+    "vue-json-tree",
+    "tree",
+    "vuejs2",
+    "vuejs",
+    "javascript",
+    "javascript-library"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "michaelfitzhavey",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/2746248?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://devblog.digimondo.io/building-a-json-tree-view-component-in-vue-js-from-scratch-in-six-steps-ce0c05c2fdd8#.dkwh4jo2m",
+    "repo": "https://github.com/michaelfitzhavey/vue-json-tree-view"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

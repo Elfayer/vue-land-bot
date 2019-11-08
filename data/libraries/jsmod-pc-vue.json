@@ -1,0 +1,20 @@
+{
+  "name": "jsmod-pc-vue",
+  "full_name": "chaogao/jsmod-pc-vue",
+  "description": "high scalability && freedom vue ui components",
+  "topics": [
+    "vue"
+  ],
+  "license": null,
+  "owner": {
+    "login": "chaogao",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/3032192?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "http://jsmod-vue.tedfe.com/",
+    "repo": "https://github.com/chaogao/jsmod-pc-vue"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

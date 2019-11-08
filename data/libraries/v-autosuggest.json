@@ -1,0 +1,29 @@
+{
+  "name": "v-autosuggest",
+  "full_name": "soraino/v-autosuggest",
+  "description": "A simple modular Vuejs component that autosuggest input from a dyanamic or static data querying.",
+  "topics": [
+    "vuejs",
+    "vuejs2",
+    "autocomplete",
+    "autosuggest",
+    "ajax-call",
+    "modular"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "soraino",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/19422867?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/soraino/v-autosuggest"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,30 @@
+{
+  "name": "vue-auth-boilerplate",
+  "full_name": "VPetar/vue-auth-boilerplate",
+  "description": "This is a simple Vue template/starter kit, scaffolded on vue-cli 3, with full Auth functions to Login & Register",
+  "topics": [
+    "vue",
+    "boilerplate",
+    "starter",
+    "starter-template",
+    "vuejs",
+    "spa",
+    "auth"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "VPetar",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/24390795?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/VPetar/vue-auth-boilerplate"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,29 @@
+{
+  "name": "vue-date-range-picker",
+  "full_name": "Owumaro/vue-date-range-picker",
+  "description": "A vue component using Bootstrap 4 styles for date range selection",
+  "topics": [
+    "vue-components",
+    "vue",
+    "range-picker",
+    "datepicker",
+    "range-selection",
+    "daterange-picker"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "Owumaro",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/5205295?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/Owumaro/vue-date-range-picker"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

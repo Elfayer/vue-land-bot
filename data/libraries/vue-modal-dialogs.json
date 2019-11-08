@@ -1,0 +1,28 @@
+{
+  "name": "vue-modal-dialogs",
+  "full_name": "hjkcai/vue-modal-dialogs",
+  "description": "Promisify dialogs in Vue!",
+  "topics": [
+    "vue",
+    "modal",
+    "dialog",
+    "promise",
+    "promisify"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "hjkcai",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/731326?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/hjkcai/vue-modal-dialogs"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,22 @@
+{
+  "name": "vue-m-validator",
+  "full_name": "Silksofthesoul/vue-m-validator",
+  "description": "vue-model-validator",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "Silksofthesoul",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/5890524?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/Silksofthesoul/vue-m-validator"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

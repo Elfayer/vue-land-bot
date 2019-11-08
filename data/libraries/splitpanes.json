@@ -1,0 +1,22 @@
+{
+  "name": "splitpanes",
+  "full_name": "antoniandre/splitpanes",
+  "description": "A Vue JS reliable, simple and touch-ready panes splitter / resizer.",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "antoniandre",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/22971289?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://antoniandre.github.io/splitpanes",
+    "repo": "https://github.com/antoniandre/splitpanes"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

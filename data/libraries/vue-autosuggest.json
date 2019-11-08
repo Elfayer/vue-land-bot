@@ -1,0 +1,29 @@
+{
+  "name": "vue-autosuggest",
+  "full_name": "darrenjennings/vue-autosuggest",
+  "description": "🔍 Vue autosuggest component.",
+  "topics": [
+    "vue",
+    "javascript",
+    "autosuggest",
+    "autocomplete",
+    "typeahead",
+    "accessibility"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "darrenjennings",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/5770711?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://darrenjennings.github.io/vue-autosuggest",
+    "repo": "https://github.com/darrenjennings/vue-autosuggest"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,29 @@
+{
+  "name": "forms",
+  "full_name": "laravel-enso/forms",
+  "description": "Laravel Enso Form Builder is a customizable, template based form creator, so you can quickly create forms with the minimum amount of effort",
+  "topics": [
+    "laravel",
+    "laravel-enso",
+    "form-builder"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "laravel-enso",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/26483909?v=4"
+  },
+  "organization": {
+    "login": "laravel-enso",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/26483909?v=4"
+  },
+  "links": {
+    "site": "https://docs.laravel-enso.com/packages/form-builder.html",
+    "repo": "https://github.com/laravel-enso/forms"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

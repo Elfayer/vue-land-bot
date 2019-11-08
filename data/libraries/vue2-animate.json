@@ -1,0 +1,31 @@
+{
+  "name": "vue2-animate",
+  "full_name": "asika32764/vue2-animate",
+  "description": "A Vue.js 2.0 port of Animate.css. For use with Vue's built-in transitions.",
+  "topics": [
+    "vue2",
+    "transition",
+    "transition-animation",
+    "animation",
+    "vue-transition",
+    "vue",
+    "vuejs",
+    "vuejs2"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "asika32764",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/1639206?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://the-allstars.com/vue2-animate/",
+    "repo": "https://github.com/asika32764/vue2-animate"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

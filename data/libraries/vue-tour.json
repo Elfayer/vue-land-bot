@@ -1,0 +1,29 @@
+{
+  "name": "vue-tour",
+  "full_name": "pulsardev/vue-tour",
+  "description": "Vue Tour is a lightweight, simple and customizable guided tour plugin for use with Vue.js. It provides a quick and easy way to guide your users through your application.",
+  "topics": [
+    "vue",
+    "javascript",
+    "tour"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "pulsardev",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/28827875?v=4"
+  },
+  "organization": {
+    "login": "pulsardev",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/28827875?v=4"
+  },
+  "links": {
+    "site": "https://pulsardev.github.io/vue-tour",
+    "repo": "https://github.com/pulsardev/vue-tour"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

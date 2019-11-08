@@ -1,0 +1,42 @@
+{
+  "name": "vue-storefront",
+  "full_name": "DivanteLtd/vue-storefront",
+  "description": "Vue Storefront - PWA for eCommerce. 100% offline, platform agnostic, headless, Magento 2 supported. Always Open Source, MIT license. Join us as contributor (contributors@vuestorefront.io).",
+  "topics": [
+    "vuejs",
+    "elasticsearch",
+    "vue-storefront",
+    "pwa-apps",
+    "pwa",
+    "headless",
+    "vue",
+    "ecommerce",
+    "magento",
+    "pimcore",
+    "ecommerce-platform",
+    "commerce",
+    "ecommerce-framework",
+    "ecommerce-engine",
+    "javascript",
+    "vuejs2"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "DivanteLtd",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/11463761?v=4"
+  },
+  "organization": {
+    "login": "DivanteLtd",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/11463761?v=4"
+  },
+  "links": {
+    "site": "https://vuestorefront.io",
+    "repo": "https://github.com/DivanteLtd/vue-storefront"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

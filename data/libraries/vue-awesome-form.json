@@ -1,0 +1,18 @@
+{
+  "name": "vue-awesome-form",
+  "full_name": "fightingm/vue-awesome-form",
+  "description": "a vue form component just like json-editor",
+  "topics": [],
+  "license": null,
+  "owner": {
+    "login": "fightingm",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/16569801?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/fightingm/vue-awesome-form"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

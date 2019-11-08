@@ -1,0 +1,39 @@
+{
+  "name": "framevuerk",
+  "full_name": "framevuerk/framevuerk",
+  "description": "Fast, Responsive, Multi Language, Both Direction Support and Configurable UI Framework based on Vue.js.",
+  "topics": [
+    "vue",
+    "framework",
+    "rtl",
+    "ltr",
+    "responsive",
+    "ui",
+    "ux",
+    "multi-language",
+    "toolkit",
+    "configurable",
+    "javascript",
+    "js",
+    "multilanguage"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "framevuerk",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/30461863?v=4"
+  },
+  "organization": {
+    "login": "framevuerk",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/30461863?v=4"
+  },
+  "links": {
+    "site": "http://framevuerk.com/",
+    "repo": "https://github.com/framevuerk/framevuerk"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

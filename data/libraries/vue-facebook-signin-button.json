@@ -1,0 +1,22 @@
+{
+  "name": "vue-facebook-signin-button",
+  "full_name": "phanan/vue-facebook-signin-button",
+  "description": "A simple plugin to include a custom Facebook sign-in button into your web app.",
+  "topics": [
+    "vue",
+    "javascript",
+    "plugin"
+  ],
+  "license": null,
+  "owner": {
+    "login": "phanan",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/8056274?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/phanan/vue-facebook-signin-button"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

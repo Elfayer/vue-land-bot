@@ -1,0 +1,27 @@
+{
+  "name": "vue-swal",
+  "full_name": "anteriovieira/vue-swal",
+  "description": "A small wrapper for integrating SweetAlert to Vuejs",
+  "topics": [
+    "vuejs",
+    "vue-plugin",
+    "vue-swal",
+    "sweetalert"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "anteriovieira",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/1490347?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/anteriovieira/vue-swal"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

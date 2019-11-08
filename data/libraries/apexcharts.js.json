@@ -1,0 +1,33 @@
+{
+  "name": "apexcharts.js",
+  "full_name": "apexcharts/apexcharts.js",
+  "description": "📊 Interactive SVG Charts",
+  "topics": [
+    "charts",
+    "graphs",
+    "javascript",
+    "svg",
+    "data-visualization",
+    "visualization",
+    "interactive"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "apexcharts",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/37190687?v=4"
+  },
+  "organization": {
+    "login": "apexcharts",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/37190687?v=4"
+  },
+  "links": {
+    "site": "https://apexcharts.com",
+    "repo": "https://github.com/apexcharts/apexcharts.js"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

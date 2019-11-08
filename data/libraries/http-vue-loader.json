@@ -1,0 +1,31 @@
+{
+  "name": "http-vue-loader",
+  "full_name": "FranckFreiburger/http-vue-loader",
+  "description": "load .vue files from your html/js",
+  "topics": [
+    "http",
+    "vuejs2",
+    "loader",
+    "vue",
+    "vue-loader",
+    "http-vue-loader",
+    "promise",
+    "vue-files"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "FranckFreiburger",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/25509586?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/FranckFreiburger/http-vue-loader"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

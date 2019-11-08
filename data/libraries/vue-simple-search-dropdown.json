@@ -1,0 +1,23 @@
+{
+  "name": "vue-simple-search-dropdown",
+  "full_name": "romainsimon/vue-simple-search-dropdown",
+  "description": ":eight_pointed_black_star: Vue.js simple autocomplete dropdown component",
+  "topics": [
+    "vue",
+    "vuejs",
+    "dropdown",
+    "component"
+  ],
+  "license": null,
+  "owner": {
+    "login": "romainsimon",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/1733696?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://romainsimon.github.io/vue-simple-search-dropdown/",
+    "repo": "https://github.com/romainsimon/vue-simple-search-dropdown"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

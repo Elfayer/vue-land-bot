@@ -1,0 +1,29 @@
+{
+  "name": "vue-connection-listener",
+  "full_name": "byteboomers/vue-connection-listener",
+  "description": "Vue event bus plugin listening for online/offline changes",
+  "topics": [
+    "vue-connection-listener",
+    "vue",
+    "vuejs"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "byteboomers",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/46481387?v=4"
+  },
+  "organization": {
+    "login": "byteboomers",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/46481387?v=4"
+  },
+  "links": {
+    "site": null,
+    "repo": "https://github.com/byteboomers/vue-connection-listener"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

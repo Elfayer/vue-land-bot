@@ -1,0 +1,32 @@
+{
+  "name": "laravel-vue-semantic-ui-pagination",
+  "full_name": "vinayakkulkarni/laravel-vue-semantic-ui-pagination",
+  "description": "A VueJS 2.x pagination used with Laravel & Semantic-UI :sunny:",
+  "topics": [
+    "vue",
+    "vuejs2",
+    "paginator",
+    "pagination",
+    "vue-pagination",
+    "laravel",
+    "laravel5",
+    "semantic-ui",
+    "semantic-ui-vue"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "vinayakkulkarni",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/19776877?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://www.npmjs.com/package/laravel-vue-semantic-ui-pagination",
+    "repo": "https://github.com/vinayakkulkarni/laravel-vue-semantic-ui-pagination"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

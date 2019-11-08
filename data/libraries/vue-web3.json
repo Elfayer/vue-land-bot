@@ -1,0 +1,31 @@
+{
+  "name": "vue-web3",
+  "full_name": "morrislaptop/vue-web3",
+  "description": "🐙 Web3 blockchain bindings for Vue.js (inspired by Vuefire and Drizzle)",
+  "topics": [
+    "vue",
+    "web3",
+    "ethereum",
+    "ethereum-contract",
+    "ethereum-dapp",
+    "eth",
+    "ethereum-blockchain",
+    "dapp"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "morrislaptop",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/67807?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://www.npmjs.com/package/vue-web3",
+    "repo": "https://github.com/morrislaptop/vue-web3"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

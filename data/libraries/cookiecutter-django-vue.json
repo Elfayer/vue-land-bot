@@ -1,0 +1,33 @@
+{
+  "name": "cookiecutter-django-vue",
+  "full_name": "vchaptsev/cookiecutter-django-vue",
+  "description": "Cookiecutter Django Vue is a template for Django-Vue projects.",
+  "topics": [
+    "cookiecutter",
+    "django",
+    "vue",
+    "vue-cli",
+    "webpack",
+    "docker-compose",
+    "graphql",
+    "apollo",
+    "graphene",
+    "pwa"
+  ],
+  "license": {
+    "key": "bsd-3-clause",
+    "url": "https://api.github.com/licenses/bsd-3-clause",
+    "name": "BSD 3-Clause \"New\" or \"Revised\" License"
+  },
+  "owner": {
+    "login": "vchaptsev",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/9744948?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/vchaptsev/cookiecutter-django-vue"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

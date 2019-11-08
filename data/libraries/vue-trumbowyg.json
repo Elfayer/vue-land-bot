@@ -1,0 +1,28 @@
+{
+  "name": "vue-trumbowyg",
+  "full_name": "ankurk91/vue-trumbowyg",
+  "description": "Vue.js component for Trumbowyg WYSIWYG editor",
+  "topics": [
+    "vue",
+    "trumbowyg",
+    "vue-component",
+    "text-editor",
+    "wysiwyg"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "ankurk91",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/6111524?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://ankurk91.github.io/vue-trumbowyg/",
+    "repo": "https://github.com/ankurk91/vue-trumbowyg"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

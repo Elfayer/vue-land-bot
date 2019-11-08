@@ -1,0 +1,33 @@
+{
+  "name": "vue-routisan",
+  "full_name": "raniesantos/vue-routisan",
+  "description": "[Maintainer needed, see README] Elegant route definitions for Vue Router. Based on Laravel routing system.",
+  "topics": [
+    "vue",
+    "vuejs",
+    "vue-router",
+    "router",
+    "routing",
+    "route",
+    "routes",
+    "laravel",
+    "group",
+    "groups",
+    "guard",
+    "guards",
+    "multi",
+    "multiple"
+  ],
+  "license": null,
+  "owner": {
+    "login": "raniesantos",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/8528269?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/raniesantos/vue-routisan"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,30 @@
+{
+  "name": "vue-element-loading",
+  "full_name": "biigpongsatorn/vue-element-loading",
+  "description": "⏳ Loading inside a container or full screen for Vue.js",
+  "topics": [
+    "loader",
+    "loading",
+    "spinner",
+    "inside",
+    "component",
+    "vue",
+    "vuejs2"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "biigpongsatorn",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/10693658?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://vue-element-loading.netlify.com/",
+    "repo": "https://github.com/biigpongsatorn/vue-element-loading"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

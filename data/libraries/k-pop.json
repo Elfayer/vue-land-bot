@@ -1,0 +1,27 @@
+{
+  "name": "k-pop",
+  "full_name": "ChristianKienle/k-pop",
+  "description": "🕺k-pop: Simple Popover Component using Vue",
+  "topics": [
+    "vue",
+    "vuejs",
+    "component-library",
+    "frontend"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "ChristianKienle",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/153225?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/ChristianKienle/k-pop"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

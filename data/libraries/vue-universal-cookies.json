@@ -1,0 +1,23 @@
+{
+  "name": "vue-universal-cookies",
+  "full_name": "S64/vue-universal-cookies",
+  "description": null,
+  "topics": [
+    "vue",
+    "nuxt",
+    "cookie",
+    "isomorphic"
+  ],
+  "license": null,
+  "owner": {
+    "login": "S64",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/3754272?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/S64/vue-universal-cookies"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

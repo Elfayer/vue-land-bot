@@ -1,0 +1,22 @@
+{
+  "name": "vue-multilanguage",
+  "full_name": "leonardovilarinho/vue-multilanguage",
+  "description": "Plugin for multilanguage VueJS 2.0",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "leonardovilarinho",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/12480135?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/leonardovilarinho/vue-multilanguage"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

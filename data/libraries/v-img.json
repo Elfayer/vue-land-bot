@@ -1,0 +1,33 @@
+{
+  "name": "v-img",
+  "full_name": "crowdbotics/v-img",
+  "description": null,
+  "topics": [
+    "vue",
+    "vuejs",
+    "images",
+    "gallery",
+    "gallery-plugin",
+    "vue-image-gallery",
+    "vuejs-image-gallery"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "crowdbotics",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/24393677?v=4"
+  },
+  "organization": {
+    "login": "crowdbotics",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/24393677?v=4"
+  },
+  "links": {
+    "site": "https://v-img.review/",
+    "repo": "https://github.com/crowdbotics/v-img"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

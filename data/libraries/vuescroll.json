@@ -1,0 +1,34 @@
+{
+  "name": "vuescroll",
+  "full_name": "YvesCoding/vuescroll",
+  "description": "A customizable scrollbar plugin based on vue.js for PC , mobile phone, touch screen, laptop.",
+  "topics": [
+    "javascript",
+    "vue",
+    "vuescroll",
+    "component",
+    "vue-components",
+    "virtual-scrollbar",
+    "scrollbar",
+    "slide"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "YvesCoding",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/39853279?v=4"
+  },
+  "organization": {
+    "login": "YvesCoding",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/39853279?v=4"
+  },
+  "links": {
+    "site": "https://vuescrolljs.yvescoding.org/",
+    "repo": "https://github.com/YvesCoding/vuescroll"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

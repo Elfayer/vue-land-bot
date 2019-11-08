@@ -1,0 +1,23 @@
+{
+  "name": "autoresponsive-vue",
+  "full_name": "xudafeng/autoresponsive-vue",
+  "description": "Auto responsive grid layout library for Vue.",
+  "topics": [
+    "vue",
+    "autoresponsive",
+    "layout",
+    "component"
+  ],
+  "license": null,
+  "owner": {
+    "login": "xudafeng",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/1011681?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://xudafeng.github.io/autoresponsive-vue/",
+    "repo": "https://github.com/xudafeng/autoresponsive-vue"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,24 @@
+{
+  "name": "vue-page-designer",
+  "full_name": "fireyy/vue-page-designer",
+  "description": "Vue component for drag-and-drop to design and build mobile website.",
+  "topics": [
+    "page",
+    "designer",
+    "vue",
+    "builder",
+    "widget"
+  ],
+  "license": null,
+  "owner": {
+    "login": "fireyy",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/66291?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://fireyy.github.io/vue-page-designer/",
+    "repo": "https://github.com/fireyy/vue-page-designer"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

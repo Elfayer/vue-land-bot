@@ -1,0 +1,27 @@
+{
+  "name": "vue-shortkey",
+  "full_name": "iFgR/vue-shortkey",
+  "description": "Vue-ShortKey - plugin for Vue.js",
+  "topics": [
+    "vue-shortkey",
+    "shortcut",
+    "vuejs",
+    "vue"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "iFgR",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/8412591?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/iFgR/vue-shortkey"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

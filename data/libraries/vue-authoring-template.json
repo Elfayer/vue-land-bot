@@ -1,0 +1,26 @@
+{
+  "name": "vue-authoring-template",
+  "full_name": "DrSensor/vue-authoring-template",
+  "description": "Vue project template for authoring component and their use case",
+  "topics": [
+    "vue",
+    "storybook",
+    "vue-components"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "DrSensor",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/4953069?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/DrSensor/vue-authoring-template"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

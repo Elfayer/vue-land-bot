@@ -1,0 +1,26 @@
+{
+  "name": "zhihu-daily-vue",
+  "full_name": "moonou/zhihu-daily-vue",
+  "description": "zhihu daily for vue2.0",
+  "topics": [
+    "vue",
+    "zhihu-daily",
+    "pwa"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "moonou",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/6938877?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/moonou/zhihu-daily-vue"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

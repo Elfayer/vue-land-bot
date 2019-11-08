@@ -1,0 +1,25 @@
+{
+  "name": "vue-infinite-calendar",
+  "full_name": "laleshii/vue-infinite-calendar",
+  "description": "A simple infinite calendar component in Vue 2",
+  "topics": [
+    "vue",
+    "calendar"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "laleshii",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/439314?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/laleshii/vue-infinite-calendar"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

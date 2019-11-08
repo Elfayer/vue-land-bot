@@ -1,0 +1,22 @@
+{
+  "name": "vue-choropleth",
+  "full_name": "voluntadpear/vue-choropleth",
+  "description": "Choropleth Map component for Vue.js",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "voluntadpear",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/10501948?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/voluntadpear/vue-choropleth"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

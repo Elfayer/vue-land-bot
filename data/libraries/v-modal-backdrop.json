@@ -1,0 +1,26 @@
+{
+  "name": "v-modal-backdrop",
+  "full_name": "nash403/v-modal-backdrop",
+  "description": "A simple generic backdrop component for vue",
+  "topics": [
+    "modal",
+    "backdrop",
+    "vue"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "nash403",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/9727258?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/nash403/v-modal-backdrop"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

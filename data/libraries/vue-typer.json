@@ -1,0 +1,30 @@
+{
+  "name": "vue-typer",
+  "full_name": "cngu/vue-typer",
+  "description": "Vue component that simulates a user typing, selecting, and erasing text.",
+  "topics": [
+    "vue-typer",
+    "vue",
+    "vue2",
+    "component",
+    "vue-component",
+    "typewriter",
+    "vuetyper"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "cngu",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/593712?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://cngu.github.io/vue-typer",
+    "repo": "https://github.com/cngu/vue-typer"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

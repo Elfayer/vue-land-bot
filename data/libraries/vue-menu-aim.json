@@ -1,0 +1,22 @@
+{
+  "name": "vue-menu-aim",
+  "full_name": "Dimon24021993/vue-menu-aim",
+  "description": "menu with triangle, for vue (:",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "Dimon24021993",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/23666581?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/Dimon24021993/vue-menu-aim"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

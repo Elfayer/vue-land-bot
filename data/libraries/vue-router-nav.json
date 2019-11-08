@@ -1,0 +1,22 @@
+{
+  "name": "vue-router-nav",
+  "full_name": "classicalConditioning/vue-router-nav",
+  "description": "Minimalistic responsive navigation bar that renders routes of vue-router.",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "classicalConditioning",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/12069556?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/classicalConditioning/vue-router-nav"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

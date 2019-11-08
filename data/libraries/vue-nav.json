@@ -1,0 +1,22 @@
+{
+  "name": "vue-nav",
+  "full_name": "nearspears/vue-nav",
+  "description": "vue navigation manager",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "nearspears",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/1422623?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/nearspears/vue-nav"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

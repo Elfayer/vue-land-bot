@@ -1,0 +1,26 @@
+{
+  "name": "vue-echo",
+  "full_name": "happyDemon/vue-echo",
+  "description": "Vue integration for the Laravel Echo library.",
+  "topics": [
+    "laravel-echo",
+    "vue-echo",
+    "vue",
+    "vuejs",
+    "socket-io",
+    "pusher",
+    "vue2"
+  ],
+  "license": null,
+  "owner": {
+    "login": "happyDemon",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/38573?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/happyDemon/vue-echo"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

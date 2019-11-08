@@ -1,0 +1,24 @@
+{
+  "name": "vue-dragging",
+  "full_name": "hilongjw/vue-dragging",
+  "description": "A sortable list directive with Vue",
+  "topics": [
+    "vue"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "hilongjw",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/5835766?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "http://hilongjw.github.io/vue-dragging/",
+    "repo": "https://github.com/hilongjw/vue-dragging"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

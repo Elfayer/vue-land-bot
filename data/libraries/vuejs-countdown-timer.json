@@ -1,0 +1,22 @@
+{
+  "name": "vuejs-countdown-timer",
+  "full_name": "sagarkbhatt/vuejs-countdown-timer",
+  "description": "Countdown timer",
+  "topics": [],
+  "license": {
+    "key": "gpl-3.0",
+    "url": "https://api.github.com/licenses/gpl-3.0",
+    "name": "GNU General Public License v3.0"
+  },
+  "owner": {
+    "login": "sagarkbhatt",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/13786515?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/sagarkbhatt/vuejs-countdown-timer"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

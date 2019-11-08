@@ -1,0 +1,29 @@
+{
+  "name": "pdfvuer",
+  "full_name": "arkokoley/pdfvuer",
+  "description": "A PDF viewer for Vue using Mozilla's PDF.js",
+  "topics": [
+    "vue",
+    "vue-component",
+    "component",
+    "pdf-viewer",
+    "pdf",
+    "mozilla-pdf"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "arkokoley",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/1412469?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://blog.koley.in/pdfvuer",
+    "repo": "https://github.com/arkokoley/pdfvuer"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,28 @@
+{
+  "name": "vue-instant",
+  "full_name": "santiblanko/vue-instant",
+  "description": "vue instant allows you to easily create custom search controls with auto suggestions for your vue 2 applications",
+  "topics": [
+    "vue",
+    "search",
+    "instant",
+    "autocomplete",
+    "javascript"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "santiblanko",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/5376762?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://jsfiddle.net/santiblanko/dqo6vr57",
+    "repo": "https://github.com/santiblanko/vue-instant"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

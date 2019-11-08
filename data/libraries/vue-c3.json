@@ -1,0 +1,30 @@
+{
+  "name": "vue-c3",
+  "full_name": "chryb/vue-c3",
+  "description": "vue-c3 is a reusable vue component for c3 charts",
+  "topics": [
+    "vuejs",
+    "d3js",
+    "c3js",
+    "npm-package",
+    "c3-chart",
+    "vue-c3",
+    "vue-components"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "chryb",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/1353438?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://www.npmjs.com/package/vue-c3",
+    "repo": "https://github.com/chryb/vue-c3"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

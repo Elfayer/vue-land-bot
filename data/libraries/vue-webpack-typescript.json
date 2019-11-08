@@ -1,0 +1,24 @@
+{
+  "name": "vue-webpack-typescript",
+  "full_name": "ducksoupdev/vue-webpack-typescript",
+  "description": "A Vue, Webpack, Typescript, Bootstrap setup with hot reload, dynamic imports, unit testing, code coverage, sass, uncss and bundling/minification.",
+  "topics": [
+    "vuejs2",
+    "typescript",
+    "mocha",
+    "webpack3",
+    "typescript2"
+  ],
+  "license": null,
+  "owner": {
+    "login": "ducksoupdev",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/946879?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/ducksoupdev/vue-webpack-typescript"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

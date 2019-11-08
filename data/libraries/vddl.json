@@ -1,0 +1,28 @@
+{
+  "name": "vddl",
+  "full_name": "hejianxian/vddl",
+  "description": "🦄 Vue components for modifying lists with the HTML5 drag & drop API. ",
+  "topics": [
+    "vue-dnd",
+    "dnd",
+    "drag-and-drop",
+    "vue",
+    "vue-components"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "hejianxian",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/6087438?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "http://hejx.space/vddl",
+    "repo": "https://github.com/hejianxian/vddl"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

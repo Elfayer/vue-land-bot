@@ -1,0 +1,47 @@
+{
+  "name": "vuetify",
+  "icon": "vuetify.png",
+  "full_name": "vuetifyjs/vuetify",
+  "description": "🐉 Material Component Framework for Vue.js 2",
+  "topics": [
+    "vue",
+    "vuejs",
+    "vuejs2",
+    "vue2",
+    "vue-components",
+    "vue-component",
+    "material-design",
+    "material",
+    "material-theme",
+    "material-components",
+    "javascript",
+    "semantic",
+    "vue-material",
+    "vuetify",
+    "vuetifyjs",
+    "ui",
+    "ui-components",
+    "ui-kit",
+    "typescript"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "vuetifyjs",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/22138497?v=4"
+  },
+  "organization": {
+    "login": "vuetifyjs",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/22138497?v=4"
+  },
+  "links": {
+    "site": "https://vuetifyjs.com",
+    "repo": "https://github.com/vuetifyjs/vuetify",
+    "chat": "https://discord.gg/m9jP5vy"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,22 @@
+{
+  "name": "vue-drag-it-dude",
+  "full_name": "Esvalirion/vue-drag-it-dude",
+  "description": "Vue2 component, that allows you to drag object wherever you want",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "Esvalirion",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/1199337?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://esvalirion.github.io/vue-drag-it-dude/",
+    "repo": "https://github.com/Esvalirion/vue-drag-it-dude"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

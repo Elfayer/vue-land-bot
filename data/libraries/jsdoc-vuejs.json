@@ -1,0 +1,27 @@
+{
+  "name": "jsdoc-vuejs",
+  "full_name": "Kocal/jsdoc-vuejs",
+  "description": "📖 A JSDoc plugin for documenting .vue files. ",
+  "topics": [
+    "jsdoc-plugin",
+    "vuejs",
+    "vue-files",
+    "jsdoc"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "Kocal",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/2103975?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/Kocal/jsdoc-vuejs"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

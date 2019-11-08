@@ -1,0 +1,32 @@
+{
+  "name": "vue-info-card",
+  "full_name": "karakanb/vue-info-card",
+  "description": "Simple and beautiful card component with an elegant spark line, for VueJS.",
+  "topics": [
+    "vue",
+    "vuejs",
+    "vuejs2",
+    "vue-components",
+    "component",
+    "card",
+    "spark",
+    "info-card",
+    "card-component"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "karakanb",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/16530606?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://karakanb.github.io/vue-info-card/",
+    "repo": "https://github.com/karakanb/vue-info-card"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,22 @@
+{
+  "name": "vue-date-picker",
+  "full_name": "8788/vue-date-picker",
+  "description": "datepicker component for Vue 2.x",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "8788",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/2802513?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/8788/vue-date-picker"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

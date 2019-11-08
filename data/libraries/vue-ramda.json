@@ -1,0 +1,22 @@
+{
+  "name": "vue-ramda",
+  "full_name": "choufeng/vue-ramda",
+  "description": "A wrapper for integrating ramda to Vuejs",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "choufeng",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/11988139?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/choufeng/vue-ramda"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

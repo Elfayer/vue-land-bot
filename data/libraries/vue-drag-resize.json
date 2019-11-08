@@ -1,0 +1,30 @@
+{
+  "name": "vue-drag-resize",
+  "full_name": "kirillmurashov/vue-drag-resize",
+  "description": "Vue Component for resize and drag elements",
+  "topics": [
+    "vuejs",
+    "vue",
+    "drag",
+    "draggable",
+    "resize",
+    "resizable",
+    "component"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "kirillmurashov",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/4600587?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "http://kirillmurashov.com/vue-drag-resize",
+    "repo": "https://github.com/kirillmurashov/vue-drag-resize"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

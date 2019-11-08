@@ -1,0 +1,31 @@
+{
+  "name": "vue-scroll-progress-bar",
+  "full_name": "guillaumebriday/vue-scroll-progress-bar",
+  "description": "Vue.js plugin for page scroll progress bar",
+  "topics": [
+    "vue",
+    "scrollbar",
+    "progress-bar",
+    "npm-package",
+    "vuejs2",
+    "vue-plugin",
+    "vuecli3",
+    "scroll-events"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "guillaumebriday",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/8252238?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://vue-scroll-progress-bar.netlify.com/",
+    "repo": "https://github.com/guillaumebriday/vue-scroll-progress-bar"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

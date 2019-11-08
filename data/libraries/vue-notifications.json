@@ -1,0 +1,30 @@
+{
+  "name": "vue-notifications",
+  "full_name": "se-panfilov/vue-notifications",
+  "description": "Vue.js agnostic library for non-blocking notifications",
+  "topics": [
+    "vue-notifications",
+    "vuejs",
+    "toast-notifications",
+    "toast-message",
+    "notifications",
+    "javascript",
+    "message-bus"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "se-panfilov",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/994990?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://se-panfilov.github.io/vue-notifications/",
+    "repo": "https://github.com/se-panfilov/vue-notifications"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

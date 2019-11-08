@@ -1,0 +1,28 @@
+{
+  "name": "vue-match-heights",
+  "full_name": "samturrell/vue-match-heights",
+  "description": "Vue plugin to match the height of elements",
+  "topics": [
+    "vue",
+    "plugin",
+    "javascript",
+    "height",
+    "directive"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "samturrell",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/5918348?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/samturrell/vue-match-heights"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

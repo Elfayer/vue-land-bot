@@ -1,0 +1,28 @@
+{
+  "name": "vue-graph",
+  "full_name": "juijs/vue-graph",
+  "description": "Vue components based on the JUI chart available in Vue.js",
+  "topics": [
+    "vuejs",
+    "vue-components",
+    "vue-charts",
+    "svg",
+    "canvas",
+    "animation"
+  ],
+  "license": null,
+  "owner": {
+    "login": "juijs",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/10917072?v=4"
+  },
+  "organization": {
+    "login": "juijs",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/10917072?v=4"
+  },
+  "links": {
+    "site": "https://codepen.io/collection/nWpqoB/",
+    "repo": "https://github.com/juijs/vue-graph"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

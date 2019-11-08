@@ -1,0 +1,27 @@
+{
+  "name": "vuency",
+  "full_name": "encyjs/vuency",
+  "description": "Concurrency management for Vuejs.",
+  "topics": [
+    "javascript",
+    "vue",
+    "concurrency-management",
+    "flow-control",
+    "state-management"
+  ],
+  "license": null,
+  "owner": {
+    "login": "encyjs",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/27327747?v=4"
+  },
+  "organization": {
+    "login": "encyjs",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/27327747?v=4"
+  },
+  "links": {
+    "site": "https://ency.now.sh/vuency",
+    "repo": "https://github.com/encyjs/vuency"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

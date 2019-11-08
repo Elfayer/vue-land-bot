@@ -1,0 +1,23 @@
+{
+  "name": "v-lazy-img",
+  "full_name": "nkoehring/v-lazy-img",
+  "description": "simplistic vue.js directive for image lazy loading",
+  "topics": [
+    "vuejs2",
+    "vuejs",
+    "vue-directive",
+    "image-loader"
+  ],
+  "license": null,
+  "owner": {
+    "login": "nkoehring",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/246402?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/nkoehring/v-lazy-img"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

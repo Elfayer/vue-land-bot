@@ -1,0 +1,22 @@
+{
+  "name": "vue-simple-i18n",
+  "full_name": "ClassicOldSong/vue-simple-i18n",
+  "description": "Probably the thinnest library to end all Vue i18n solutions within 1kb",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "ClassicOldSong",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/10512422?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://codepan.net/gist/e368155b1a6e034f802001fcb75d72a7",
+    "repo": "https://github.com/ClassicOldSong/vue-simple-i18n"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

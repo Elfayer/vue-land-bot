@@ -1,0 +1,21 @@
+{
+  "name": "willvalidate",
+  "full_name": "gustavoSoriano/willvalidate",
+  "description": "validation forms",
+  "topics": [
+    "vuejs",
+    "javascript"
+  ],
+  "license": null,
+  "owner": {
+    "login": "gustavoSoriano",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/20995835?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/gustavoSoriano/willvalidate"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

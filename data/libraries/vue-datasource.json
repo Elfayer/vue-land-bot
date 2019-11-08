@@ -1,0 +1,31 @@
+{
+  "name": "vue-datasource",
+  "full_name": "coderdiaz/vue-datasource",
+  "description": "A vue.js component to create dynamic tables",
+  "topics": [
+    "vue-datasource",
+    "laravel",
+    "pagination",
+    "dynamic-tables",
+    "vue",
+    "vuejs",
+    "vue2",
+    "table"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "coderdiaz",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/1901273?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/coderdiaz/vue-datasource"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

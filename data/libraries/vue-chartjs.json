@@ -1,0 +1,33 @@
+{
+  "name": "vue-chartjs",
+  "full_name": "apertureless/vue-chartjs",
+  "description": "📊  Vue.js wrapper for Chart.js",
+  "topics": [
+    "vue",
+    "chart",
+    "chartjs",
+    "visualisation",
+    "vuejs",
+    "vuejs2",
+    "doughnut",
+    "pie",
+    "diagram",
+    "diagrams"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "apertureless",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/4975917?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://vue-chartjs.org",
+    "repo": "https://github.com/apertureless/vue-chartjs"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,22 @@
+{
+  "name": "vue-unique-id",
+  "full_name": "berniegp/vue-unique-id",
+  "description": "Component and HTML unique id generation plugin for Vue.js",
+  "topics": [],
+  "license": {
+    "key": "isc",
+    "url": "https://api.github.com/licenses/isc",
+    "name": "ISC License"
+  },
+  "owner": {
+    "login": "berniegp",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/881558?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/berniegp/vue-unique-id"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

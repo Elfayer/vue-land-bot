@@ -1,0 +1,29 @@
+{
+  "name": "ic-formly",
+  "full_name": "InCuca/ic-formly",
+  "description": "This component is a form with validation and more using only javascript objects",
+  "topics": [
+    "vue",
+    "formly",
+    "form"
+  ],
+  "license": {
+    "key": "apache-2.0",
+    "url": "https://api.github.com/licenses/apache-2.0",
+    "name": "Apache License 2.0"
+  },
+  "owner": {
+    "login": "InCuca",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/30161651?v=4"
+  },
+  "organization": {
+    "login": "InCuca",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/30161651?v=4"
+  },
+  "links": {
+    "site": null,
+    "repo": "https://github.com/InCuca/ic-formly"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

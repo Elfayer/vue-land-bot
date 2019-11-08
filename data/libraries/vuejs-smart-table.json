@@ -1,0 +1,22 @@
+{
+  "name": "vuejs-smart-table",
+  "full_name": "tochoromero/vuejs-smart-table",
+  "description": "Simple yet powerful Data Table for Vue with vanilla HTML structure",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "tochoromero",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/4211135?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://tochoromero.github.io/vuejs-smart-table/",
+    "repo": "https://github.com/tochoromero/vuejs-smart-table"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

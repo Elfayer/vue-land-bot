@@ -1,0 +1,28 @@
+{
+  "name": "vue-toast-notification",
+  "full_name": "ankurk91/vue-toast-notification",
+  "description": "Yet another toast notification plugin for Vue.js",
+  "topics": [
+    "toast",
+    "vue",
+    "notify",
+    "vue-toast",
+    "notification"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "ankurk91",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/6111524?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://ankurk91.github.io/vue-toast-notification",
+    "repo": "https://github.com/ankurk91/vue-toast-notification"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

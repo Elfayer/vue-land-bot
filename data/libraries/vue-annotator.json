@@ -1,0 +1,28 @@
+{
+  "name": "vue-annotator",
+  "full_name": "DrSensor/vue-annotator",
+  "description": "Vue Component for drawing annotation (rect, polygon, etc) using SVG element",
+  "topics": [
+    "annotations",
+    "svg",
+    "vue-annotator",
+    "vue-components",
+    "vue"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "DrSensor",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/4953069?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "http://vue-annotator.surge.sh",
+    "repo": "https://github.com/DrSensor/vue-annotator"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

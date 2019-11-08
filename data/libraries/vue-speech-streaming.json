@@ -1,0 +1,30 @@
+{
+  "name": "vue-speech-streaming",
+  "full_name": "aofdev/vue-speech-streaming",
+  "description": "A Vue2 Streaming Speech Recognition Speech to text with Google Cloud Speech ",
+  "topics": [
+    "vue2",
+    "pwa",
+    "google-cloud-platform",
+    "google-cloud-speech",
+    "speech-to-text",
+    "speech-recognition",
+    "vue"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "aofdev",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/24493279?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/aofdev/vue-speech-streaming"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

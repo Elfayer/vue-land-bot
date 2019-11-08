@@ -1,0 +1,37 @@
+{
+  "name": "vue-loopback",
+  "full_name": "InCuca/vue-loopback",
+  "description": "A Vue project template with Loopback framework optionally with Vuex, Vue-router, and Auth boilerplaite",
+  "topics": [
+    "vuejs",
+    "vuejs-templates",
+    "loopback",
+    "gulp",
+    "vue",
+    "vue-loopback",
+    "bootstrap4",
+    "bootstrap-vue",
+    "vuex",
+    "vue-router",
+    "jest"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "InCuca",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/30161651?v=4"
+  },
+  "organization": {
+    "login": "InCuca",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/30161651?v=4"
+  },
+  "links": {
+    "site": null,
+    "repo": "https://github.com/InCuca/vue-loopback"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

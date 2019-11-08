@@ -1,0 +1,40 @@
+{
+  "name": "ant-design-vue",
+  "full_name": "vueComponent/ant-design-vue",
+  "description": "An enterprise-class UI components based on Ant Design and Vue. 🐜",
+  "topics": [
+    "vue",
+    "enterprise",
+    "css",
+    "ui-design",
+    "antd",
+    "ant-design",
+    "frontend",
+    "vuecomponent",
+    "ui",
+    "vue-antd",
+    "vue-antd-ui",
+    "react",
+    "ant",
+    "antd-vue"
+  ],
+  "license": {
+    "key": "other",
+    "url": null,
+    "name": "Other"
+  },
+  "owner": {
+    "login": "vueComponent",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/32120805?v=4"
+  },
+  "organization": {
+    "login": "vueComponent",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/32120805?v=4"
+  },
+  "links": {
+    "site": "https://vue.ant.design/",
+    "repo": "https://github.com/vueComponent/ant-design-vue"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

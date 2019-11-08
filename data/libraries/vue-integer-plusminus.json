@@ -1,0 +1,18 @@
+{
+  "name": "vue-integer-plusminus",
+  "full_name": "Keiwen/vue-integer-plusminus",
+  "description": "Integer input with increment and decrement buttons for vue 2 - https://keiwen.github.io/vue-integer-plusminus/",
+  "topics": [],
+  "license": null,
+  "owner": {
+    "login": "Keiwen",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/20301099?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/Keiwen/vue-integer-plusminus"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

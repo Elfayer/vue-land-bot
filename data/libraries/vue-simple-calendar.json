@@ -1,0 +1,22 @@
+{
+  "name": "vue-simple-calendar",
+  "full_name": "richardtallent/vue-simple-calendar",
+  "description": "Simple Vue component to show a month-grid calendar with events",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "richardtallent",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/2041718?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/richardtallent/vue-simple-calendar"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,31 @@
+{
+  "name": "nw-vue-devtools",
+  "full_name": "nwutils/nw-vue-devtools",
+  "description": "devDependency to add Vue-DevTools into NW.js",
+  "topics": [
+    "vue",
+    "vue-devtools",
+    "nwjs",
+    "devdependency",
+    "tools"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "nwutils",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/50157574?v=4"
+  },
+  "organization": {
+    "login": "nwutils",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/50157574?v=4"
+  },
+  "links": {
+    "site": null,
+    "repo": "https://github.com/nwutils/nw-vue-devtools"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

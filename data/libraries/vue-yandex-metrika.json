@@ -1,0 +1,26 @@
+{
+  "name": "vue-yandex-metrika",
+  "full_name": "vchaptsev/vue-yandex-metrika",
+  "description": "Vue plugin for Yandex Metrika",
+  "topics": [
+    "vue",
+    "yandex",
+    "yandex-metrika"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "vchaptsev",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/9744948?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/vchaptsev/vue-yandex-metrika"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

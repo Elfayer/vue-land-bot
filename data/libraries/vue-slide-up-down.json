@@ -1,0 +1,29 @@
+{
+  "name": "vue-slide-up-down",
+  "full_name": "danieldiekmeier/vue-slide-up-down",
+  "description": "Like jQuery's slideUp/slideDown, but for Vue!",
+  "topics": [
+    "vue",
+    "vuejs",
+    "vue2",
+    "component",
+    "slideup",
+    "slidedown"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "danieldiekmeier",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/2098462?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/danieldiekmeier/vue-slide-up-down"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

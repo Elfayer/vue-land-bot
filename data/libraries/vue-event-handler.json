@@ -1,0 +1,29 @@
+{
+  "name": "vue-event-handler",
+  "full_name": "sandeepk01/vue-event-handler",
+  "description": "Event handling plugin for VueJS",
+  "topics": [
+    "vue",
+    "event-listener",
+    "eventbus",
+    "vue2-events",
+    "vue1-events",
+    "event-handlers"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "sandeepk01",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/5541669?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/sandeepk01/vue-event-handler"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

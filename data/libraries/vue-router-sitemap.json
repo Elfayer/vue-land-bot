@@ -1,0 +1,23 @@
+{
+  "name": "vue-router-sitemap",
+  "full_name": "40818419/vue-router-sitemap",
+  "description": "Generate sitemap.xml by vue-router configuration",
+  "topics": [
+    "vue",
+    "vue-router",
+    "sitemap",
+    "vue-router-sitemap"
+  ],
+  "license": null,
+  "owner": {
+    "login": "40818419",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/2235499?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/40818419/vue-router-sitemap"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

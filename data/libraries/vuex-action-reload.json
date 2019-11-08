@@ -1,0 +1,29 @@
+{
+  "name": "vuex-action-reload",
+  "full_name": "chlab/vuex-action-reload",
+  "description": "A vuex plugin that reloads actions when a condition is met",
+  "topics": [
+    "vue",
+    "vuejs",
+    "vuex",
+    "vuejs2",
+    "vue2",
+    "vuex2"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "chlab",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/1931446?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/chlab/vuex-action-reload"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,26 @@
+{
+  "name": "mmf-blog-vue2-ssr",
+  "full_name": "lincenying/mmf-blog-vue2-ssr",
+  "description": "No longer updated, please visit",
+  "topics": [
+    "vue",
+    "ssr",
+    "vue-router",
+    "vuex",
+    "express",
+    "server-side-rendering",
+    "mmf-blog"
+  ],
+  "license": null,
+  "owner": {
+    "login": "lincenying",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/10840991?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://github.com/lincenying/mmf-blog-vue2-pwa-ssr",
+    "repo": "https://github.com/lincenying/mmf-blog-vue2-ssr"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

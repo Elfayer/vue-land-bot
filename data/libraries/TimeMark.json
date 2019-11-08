@@ -1,0 +1,24 @@
+{
+  "name": "TimeMark",
+  "full_name": "MarsZone/TimeMark",
+  "description": "Tools to record times.",
+  "topics": [
+    "todolist"
+  ],
+  "license": {
+    "key": "gpl-2.0",
+    "url": "https://api.github.com/licenses/gpl-2.0",
+    "name": "GNU General Public License v2.0"
+  },
+  "owner": {
+    "login": "MarsZone",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/3784198?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "http://marszm.cn/tm/",
+    "repo": "https://github.com/MarsZone/TimeMark"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

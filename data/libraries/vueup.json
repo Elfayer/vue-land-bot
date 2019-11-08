@@ -1,0 +1,27 @@
+{
+  "name": "vueup",
+  "full_name": "chryb/vueup",
+  "description": "Simple, lightweight and super fast global notification popup for Vue.js",
+  "topics": [
+    "vue",
+    "popup",
+    "notification",
+    "component"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "chryb",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/1353438?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://www.npmjs.com/package/vueup",
+    "repo": "https://github.com/chryb/vueup"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

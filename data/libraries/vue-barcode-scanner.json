@@ -1,0 +1,26 @@
+{
+  "name": "vue-barcode-scanner",
+  "full_name": "noomerzx/vue-barcode-scanner",
+  "description": "Barcode Scanner Plugin for Vue.js",
+  "topics": [
+    "vue",
+    "vuejs",
+    "vue-js",
+    "vue-barcode-scanner",
+    "vue-plugin",
+    "barcode-scanner",
+    "barcode-scanner-plugin"
+  ],
+  "license": null,
+  "owner": {
+    "login": "noomerzx",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/7587955?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/noomerzx/vue-barcode-scanner"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,22 @@
+{
+  "name": "nippon-color",
+  "full_name": "ssshooter/nippon-color",
+  "description": "nippon-color PWA build with vue-cli 3",
+  "topics": [
+    "vue2-demo",
+    "pwa",
+    "vue-cli3"
+  ],
+  "license": null,
+  "owner": {
+    "login": "ssshooter",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/13051472?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://ssshooter.github.io/nippon-color/",
+    "repo": "https://github.com/ssshooter/nippon-color"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

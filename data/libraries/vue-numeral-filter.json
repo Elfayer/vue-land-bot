@@ -1,0 +1,36 @@
+{
+  "name": "vue-numeral-filter",
+  "full_name": "lloydjatkinson/vue-numeral-filter",
+  "description": "Vue.js filter for Numeral.js 🔢 🔣",
+  "topics": [
+    "vue",
+    "vuejs2",
+    "number-format",
+    "numeraljs",
+    "vue-filters",
+    "vue-component",
+    "vue-filters-number",
+    "javascript",
+    "number-formating",
+    "vuejs",
+    "vue-numeric",
+    "vue-number-filter",
+    "vue-numeral"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "lloydjatkinson",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/5633938?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/lloydjatkinson/vue-numeral-filter"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

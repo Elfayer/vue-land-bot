@@ -1,0 +1,25 @@
+{
+  "name": "react-360",
+  "full_name": "facebook/react-360",
+  "description": "Create amazing 360 and VR content using React",
+  "topics": [],
+  "license": {
+    "key": "other",
+    "url": null,
+    "name": "Other"
+  },
+  "owner": {
+    "login": "facebook",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/69631?v=4"
+  },
+  "organization": {
+    "login": "facebook",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/69631?v=4"
+  },
+  "links": {
+    "site": "https://facebook.github.io/react-360",
+    "repo": "https://github.com/facebook/react-360"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

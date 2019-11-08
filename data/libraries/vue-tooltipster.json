@@ -1,0 +1,25 @@
+{
+  "name": "vue-tooltipster",
+  "full_name": "cpfarher/vue-tooltipster",
+  "description": "Vue tooltipster component",
+  "topics": [
+    "vuejs2",
+    "vue",
+    "vuejs",
+    "vuejs-components",
+    "tooltips",
+    "tooltip"
+  ],
+  "license": null,
+  "owner": {
+    "login": "cpfarher",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/223297?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/cpfarher/vue-tooltipster"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

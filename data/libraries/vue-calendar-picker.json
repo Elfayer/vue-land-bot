@@ -1,0 +1,27 @@
+{
+  "name": "vue-calendar-picker",
+  "full_name": "FranckFreiburger/vue-calendar-picker",
+  "description": "Calendar component",
+  "topics": [
+    "vuejs2",
+    "calendar",
+    "calendar-events",
+    "datepicker"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "FranckFreiburger",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/25509586?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/FranckFreiburger/vue-calendar-picker"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

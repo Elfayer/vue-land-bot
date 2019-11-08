@@ -1,0 +1,25 @@
+{
+  "name": "vue-qart",
+  "full_name": "superman66/vue-qart",
+  "description": "the compoent of vue 2.x for qart.js",
+  "topics": [
+    "vuejs2",
+    "qart"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "superman66",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/12592949?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://codesandbox.io/s/ykp868q7mz",
+    "repo": "https://github.com/superman66/vue-qart"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

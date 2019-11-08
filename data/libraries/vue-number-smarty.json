@@ -1,0 +1,22 @@
+{
+  "name": "vue-number-smarty",
+  "full_name": "Seokky/vue-number-smarty",
+  "description": "Number input with rich functionality for Vue.js",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "Seokky",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/26835215?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://seokky.github.io/vue-number-smarty/",
+    "repo": "https://github.com/Seokky/vue-number-smarty"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

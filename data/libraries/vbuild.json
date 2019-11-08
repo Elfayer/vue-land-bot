@@ -1,0 +1,34 @@
+{
+  "name": "vbuild",
+  "full_name": "manatlan/vbuild",
+  "description": "\"Compile\" your VueJS components (*.vue) to standalone html/js/css ... python only (no need of nodejs). Support python components too !",
+  "topics": [
+    "python2",
+    "python3",
+    "vuejs",
+    "compiler",
+    "webpack",
+    "sfc",
+    "vue",
+    "less",
+    "sass",
+    "closure",
+    "webpacker"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "manatlan",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/150722?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/manatlan/vbuild"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

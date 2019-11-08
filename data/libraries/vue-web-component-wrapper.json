@@ -1,0 +1,22 @@
+{
+  "name": "vue-web-component-wrapper",
+  "icon": "vue.png",
+  "full_name": "vuejs/vue-web-component-wrapper",
+  "description": "Wrap a Vue component as a web component / custom element.",
+  "topics": ["official"],
+  "license": null,
+  "owner": {
+    "login": "vuejs",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/6128107?v=4"
+  },
+  "organization": {
+    "login": "vuejs",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/6128107?v=4"
+  },
+  "links": {
+    "site": null,
+    "repo": "https://github.com/vuejs/vue-web-component-wrapper"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

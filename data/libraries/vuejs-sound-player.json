@@ -1,0 +1,23 @@
+{
+  "name": "vuejs-sound-player",
+  "full_name": "shershen08/vuejs-sound-player",
+  "description": "▶️ 🎹 🎵 HTML5 <audio> tag sound player UI for Vue.js - supports single, loop, pause/stop modes etc",
+  "topics": [
+    "audio",
+    "sound",
+    "player",
+    "vuejs2"
+  ],
+  "license": null,
+  "owner": {
+    "login": "shershen08",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/1363772?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://shershen08.github.io/vue-plugins-demo-static/index.html#/sound",
+    "repo": "https://github.com/shershen08/vuejs-sound-player"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

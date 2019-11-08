@@ -1,0 +1,32 @@
+{
+  "name": "vue-drawer-layout",
+  "full_name": "hjl19911127/vue-drawer-layout",
+  "description": "A simple DrawerLayout component for Vue.js.",
+  "topics": [
+    "vue",
+    "vue-drawer-layout",
+    "commonjs",
+    "drawerlayout",
+    "sidebar",
+    "drawer",
+    "drag",
+    "drawerlayout-component",
+    "android"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "hjl19911127",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/9312114?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "http://share.codehuang.com/vue-drawer-layout",
+    "repo": "https://github.com/hjl19911127/vue-drawer-layout"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

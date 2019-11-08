@@ -1,0 +1,18 @@
+{
+  "name": "vue-i18n-service",
+  "full_name": "f/vue-i18n-service",
+  "description": "vue-i18n single file component exporter/importer",
+  "topics": [],
+  "license": null,
+  "owner": {
+    "login": "f",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/196477?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/f/vue-i18n-service"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

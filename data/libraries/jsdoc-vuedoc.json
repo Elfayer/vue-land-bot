@@ -1,0 +1,22 @@
+{
+  "name": "jsdoc-vuedoc",
+  "full_name": "ccqgithub/jsdoc-vuedoc",
+  "description": "A jsdoc3 plugin use `@vuedoc/md`",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "ccqgithub",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/1654761?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/ccqgithub/jsdoc-vuedoc"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

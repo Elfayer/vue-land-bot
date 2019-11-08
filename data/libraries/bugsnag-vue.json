@@ -1,0 +1,36 @@
+{
+  "name": "bugsnag-vue",
+  "full_name": "bugsnag/bugsnag-vue",
+  "description": "[DEPRECATED] This package now lives within the monorepo for our Universal JS notifier \"@bugsnag/js\" • https://github.com/bugsnag/bugsnag-js",
+  "topics": [
+    "bugsnag",
+    "bugsnag-js",
+    "vue",
+    "error-monitoring",
+    "error-reporting",
+    "error-handling",
+    "debug",
+    "debugging",
+    "debugging-tool",
+    "debugging-tools"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "bugsnag",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/1058895?v=4"
+  },
+  "organization": {
+    "login": "bugsnag",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/1058895?v=4"
+  },
+  "links": {
+    "site": null,
+    "repo": "https://github.com/bugsnag/bugsnag-vue"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

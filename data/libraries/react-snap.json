@@ -1,0 +1,31 @@
+{
+  "name": "react-snap",
+  "full_name": "stereobooster/react-snap",
+  "description": "👻 Zero-configuration framework-agnostic static prerendering for SPAs",
+  "topics": [
+    "zero-configuration",
+    "prerender",
+    "ssr",
+    "seo",
+    "static-site-generator",
+    "react",
+    "vue",
+    "server-side-rendering"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "stereobooster",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/179534?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/stereobooster/react-snap"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

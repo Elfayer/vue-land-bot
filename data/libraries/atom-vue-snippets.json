@@ -1,0 +1,22 @@
+{
+  "name": "atom-vue-snippets",
+  "full_name": "ealves-pt/atom-vue-snippets",
+  "description": "Atom snippets for Vue component files",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "ealves-pt",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/5909095?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/ealves-pt/atom-vue-snippets"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

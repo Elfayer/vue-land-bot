@@ -1,0 +1,22 @@
+{
+  "name": "vue-clip",
+  "full_name": "thetutlage/vue-clip",
+  "description": "Simple and hackable file uploader for VueJs. Supports Vue >= 2.1",
+  "topics": [
+    "vuejs2",
+    "file-uploader",
+    "dropzonejs"
+  ],
+  "license": null,
+  "owner": {
+    "login": "thetutlage",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/1706381?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "http://vueclip.adonisjs.com/",
+    "repo": "https://github.com/thetutlage/vue-clip"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

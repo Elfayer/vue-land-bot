@@ -1,0 +1,22 @@
+{
+  "name": "v-clipboard",
+  "full_name": "euvl/v-clipboard",
+  "description": "Vue.js clipboard library (no dependencies, less than 2kb)",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "euvl",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/1577802?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/euvl/v-clipboard"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

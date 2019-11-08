@@ -1,0 +1,27 @@
+{
+  "name": "vue-uniq-ids",
+  "full_name": "termosa/vue-uniq-ids",
+  "description": "Vue.js 2.x plugin that helps to use id-related attributes with no side-effect",
+  "topics": [
+    "vue",
+    "id",
+    "aria",
+    "unique"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "termosa",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/494013?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/termosa/vue-uniq-ids"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

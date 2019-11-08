@@ -1,0 +1,30 @@
+{
+  "name": "vue-tiny-pagination",
+  "full_name": "coderdiaz/vue-tiny-pagination",
+  "description": "A Vue component for create a tiny pagination with Flexbox",
+  "topics": [
+    "vue",
+    "vuejs",
+    "es6",
+    "vue-component",
+    "tiny-pagination",
+    "pagination",
+    "paginate"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "coderdiaz",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/1901273?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/coderdiaz/vue-tiny-pagination"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

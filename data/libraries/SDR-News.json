@@ -1,0 +1,25 @@
+{
+  "name": "SDR-News",
+  "full_name": "super-dev/SDR-News",
+  "description": "News for Web Designers and Developers - Shows aggregated news from multiple sources",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "super-dev",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/16905128?v=4"
+  },
+  "organization": {
+    "login": "super-dev",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/16905128?v=4"
+  },
+  "links": {
+    "site": "https://superdevresources.com/news",
+    "repo": "https://github.com/super-dev/SDR-News"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

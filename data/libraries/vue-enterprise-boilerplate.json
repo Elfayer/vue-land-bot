@@ -1,0 +1,27 @@
+{
+  "name": "vue-enterprise-boilerplate",
+  "full_name": "chrisvfritz/vue-enterprise-boilerplate",
+  "description": "An ever-evolving, very opinionated architecture and dev environment for new Vue SPA projects using Vue CLI 3.",
+  "topics": [
+    "vue",
+    "javascript",
+    "frontend",
+    "boilerplate"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "chrisvfritz",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/2327556?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/chrisvfritz/vue-enterprise-boilerplate"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

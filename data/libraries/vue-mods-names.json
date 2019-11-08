@@ -1,0 +1,25 @@
+{
+  "name": "vue-mods-names",
+  "full_name": "RGRU/vue-mods-names",
+  "description": "Simple adding class names mods to all components in your vue app",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "RGRU",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/25738429?v=4"
+  },
+  "organization": {
+    "login": "RGRU",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/25738429?v=4"
+  },
+  "links": {
+    "site": "https://rgru.github.io/vue-mods-names/#/",
+    "repo": "https://github.com/RGRU/vue-mods-names"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

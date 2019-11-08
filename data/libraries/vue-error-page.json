@@ -1,0 +1,31 @@
+{
+  "name": "vue-error-page",
+  "full_name": "raniesantos/vue-error-page",
+  "description": "Provides a wrapper for router-view that allows you to show error pages without changing the URL.",
+  "topics": [
+    "vue",
+    "vuejs",
+    "vue-router",
+    "router",
+    "routing",
+    "route",
+    "routes",
+    "404",
+    "404-pages",
+    "404-page",
+    "404-errors",
+    "error-page"
+  ],
+  "license": null,
+  "owner": {
+    "login": "raniesantos",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/8528269?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/raniesantos/vue-error-page"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,27 @@
+{
+  "name": "vue-bem-cn",
+  "full_name": "c01nd01r/vue-bem-cn",
+  "description": "✅  vue-bem-cn - Simple BEM class name generator for Vue.JS",
+  "topics": [
+    "vue",
+    "bem",
+    "classname",
+    "vuejs"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "c01nd01r",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/3511312?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "http://codepen.io/c01nd01r/pen/Qdeovv",
+    "repo": "https://github.com/c01nd01r/vue-bem-cn"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

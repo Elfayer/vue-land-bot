@@ -1,0 +1,22 @@
+{
+  "name": "zipkin-instrumentation-vue-resource",
+  "full_name": "elgris/zipkin-instrumentation-vue-resource",
+  "description": null,
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "elgris",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/1905821?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/elgris/zipkin-instrumentation-vue-resource"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

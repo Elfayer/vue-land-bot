@@ -1,0 +1,28 @@
+{
+  "name": "vue-cleave-component",
+  "full_name": "ankurk91/vue-cleave-component",
+  "description": "Vue.js component for Cleave.js",
+  "topics": [
+    "vue",
+    "cleave",
+    "formatting",
+    "input-mask",
+    "masking"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "ankurk91",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/6111524?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/ankurk91/vue-cleave-component"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

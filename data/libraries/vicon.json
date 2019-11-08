@@ -1,0 +1,22 @@
+{
+  "name": "vicon",
+  "full_name": "Lt0/vicon",
+  "description": "icon component for vue",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "Lt0",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/4085885?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/Lt0/vicon"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

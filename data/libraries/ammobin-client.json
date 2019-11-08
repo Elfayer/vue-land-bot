@@ -1,0 +1,29 @@
+{
+  "name": "ammobin-client",
+  "full_name": "ammobinDOTca/ammobin-client",
+  "description": "client for https://ammobin.ca",
+  "topics": [
+    "nuxtjs",
+    "vue",
+    "scraper"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "ammobinDOTca",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/29188004?v=4"
+  },
+  "organization": {
+    "login": "ammobinDOTca",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/29188004?v=4"
+  },
+  "links": {
+    "site": "https://ammobin.ca",
+    "repo": "https://github.com/ammobinDOTca/ammobin-client"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

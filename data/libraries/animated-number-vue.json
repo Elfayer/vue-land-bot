@@ -1,0 +1,27 @@
+{
+  "name": "animated-number-vue",
+  "full_name": "Leocardoso94/animated-number-vue",
+  "description": "Super easy way to animate numbers.",
+  "topics": [
+    "vue",
+    "animation",
+    "numeric-animation",
+    "anime"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "Leocardoso94",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/12713314?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://codesandbox.io/s/v68x95mo30",
+    "repo": "https://github.com/Leocardoso94/animated-number-vue"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

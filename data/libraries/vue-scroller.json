@@ -1,0 +1,23 @@
+{
+  "name": "vue-scroller",
+  "full_name": "wangdahoo/vue-scroller",
+  "description": "Scroller Component for Vue.js",
+  "topics": [
+    "vue",
+    "vue-scroller",
+    "pull-to-refresh",
+    "infinite-scroll"
+  ],
+  "license": null,
+  "owner": {
+    "login": "wangdahoo",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/8207553?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://wangdahoo.github.io/vue-scroller/",
+    "repo": "https://github.com/wangdahoo/vue-scroller"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

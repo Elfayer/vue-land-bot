@@ -1,0 +1,31 @@
+{
+  "name": "tamiat",
+  "full_name": "tamiat/tamiat",
+  "description": ":sailboat:  Vuejs and Firebase based CMS",
+  "topics": [
+    "cms",
+    "vue",
+    "vuejs",
+    "vuejs2",
+    "firebase"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "tamiat",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/30405458?v=4"
+  },
+  "organization": {
+    "login": "tamiat",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/30405458?v=4"
+  },
+  "links": {
+    "site": null,
+    "repo": "https://github.com/tamiat/tamiat"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

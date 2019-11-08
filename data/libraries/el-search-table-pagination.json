@@ -1,0 +1,26 @@
+{
+  "name": "el-search-table-pagination",
+  "full_name": "zollero/el-search-table-pagination",
+  "description": "🐶Combines Form, Table and Pagination components of Element UI together.",
+  "topics": [
+    "pagination-component",
+    "table-pagination",
+    "search-table-pagination"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "zollero",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/8801894?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/zollero/el-search-table-pagination"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

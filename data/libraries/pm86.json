@@ -1,0 +1,28 @@
+{
+  "name": "pm86",
+  "full_name": "ericjjj/pm86",
+  "description": "Production process manager for Node.js apps with a built-in load balancer. ",
+  "topics": [
+    "pm2",
+    "nodejs",
+    "node",
+    "deploy",
+    "vue"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "ericjjj",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/12462602?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://pm86.pub/",
+    "repo": "https://github.com/ericjjj/pm86"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

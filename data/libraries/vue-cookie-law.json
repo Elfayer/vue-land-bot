@@ -1,0 +1,29 @@
+{
+  "name": "vue-cookie-law",
+  "full_name": "apertureless/vue-cookie-law",
+  "description": "🍪 👮 Hackable EU Cookie Law Plugin for Vue.js",
+  "topics": [
+    "vue",
+    "vuejs",
+    "vuejs2",
+    "cookie",
+    "cookie-law",
+    "eu-cookie"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "apertureless",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/4975917?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/apertureless/vue-cookie-law"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

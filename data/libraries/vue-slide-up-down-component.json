@@ -1,0 +1,22 @@
+{
+  "name": "vue-slide-up-down-component",
+  "full_name": "kahirokunn/vue-slide-up-down-component",
+  "description": null,
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "kahirokunn",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/22343391?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/kahirokunn/vue-slide-up-down-component"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

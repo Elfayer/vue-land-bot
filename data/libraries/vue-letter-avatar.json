@@ -1,0 +1,27 @@
+{
+  "name": "vue-letter-avatar",
+  "full_name": "aidewoode/vue-letter-avatar",
+  "description": "A simple and elegant letter avatar component for vue.js",
+  "topics": [
+    "vue",
+    "vuejs2",
+    "avatar",
+    "letter-avatar"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "aidewoode",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/6188618?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/aidewoode/vue-letter-avatar"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

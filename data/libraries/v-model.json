@@ -1,0 +1,25 @@
+{
+  "name": "v-model",
+  "full_name": "gaoding-inc/v-model",
+  "description": "V-Model is a model plugin for Vue.js, like ng-resource.",
+  "topics": [
+    "vue",
+    "axios",
+    "ngresource"
+  ],
+  "license": null,
+  "owner": {
+    "login": "gaoding-inc",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/26163389?v=4"
+  },
+  "organization": {
+    "login": "gaoding-inc",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/26163389?v=4"
+  },
+  "links": {
+    "site": null,
+    "repo": "https://github.com/gaoding-inc/v-model"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

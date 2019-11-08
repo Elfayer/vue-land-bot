@@ -1,0 +1,21 @@
+{
+  "name": "vue-scrollwatch",
+  "full_name": "Desdesdesgo/vue-scrollwatch",
+  "description": "scrollspy",
+  "topics": [
+    "scroll",
+    "watcher"
+  ],
+  "license": null,
+  "owner": {
+    "login": "Desdesdesgo",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/20284014?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/Desdesdesgo/vue-scrollwatch"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

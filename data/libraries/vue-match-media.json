@@ -1,0 +1,22 @@
+{
+  "name": "vue-match-media",
+  "full_name": "drenglish/vue-match-media",
+  "description": "Vue.js (2.x-compatible) plugin that offers a consistent, semantic approach to making components media query-aware.",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "drenglish",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/3810513?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/drenglish/vue-match-media"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

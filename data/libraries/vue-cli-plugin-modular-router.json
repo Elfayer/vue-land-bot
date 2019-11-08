@@ -1,0 +1,21 @@
+{
+  "name": "vue-cli-plugin-modular-router",
+  "full_name": "PureConstructs/vue-cli-plugin-modular-router",
+  "description": "Create Modular Router routes for Vue CLI 3",
+  "topics": [],
+  "license": null,
+  "owner": {
+    "login": "PureConstructs",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/33675671?v=4"
+  },
+  "organization": {
+    "login": "PureConstructs",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/33675671?v=4"
+  },
+  "links": {
+    "site": null,
+    "repo": "https://github.com/PureConstructs/vue-cli-plugin-modular-router"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,30 @@
+{
+  "name": "vue-foundation",
+  "full_name": "vue-foundation/vue-foundation",
+  "description": "VueJS + Foundation + Vue-Router + Webpack",
+  "topics": [
+    "vuejs",
+    "foundation",
+    "sass",
+    "webpack",
+    "boilerplate",
+    "zurb-foundation",
+    "vue",
+    "vue-cli"
+  ],
+  "license": null,
+  "owner": {
+    "login": "vue-foundation",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/28194228?v=4"
+  },
+  "organization": {
+    "login": "vue-foundation",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/28194228?v=4"
+  },
+  "links": {
+    "site": "https://vue-foundation.github.io/vue-foundation",
+    "repo": "https://github.com/vue-foundation/vue-foundation"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

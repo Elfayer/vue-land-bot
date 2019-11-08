@@ -1,0 +1,28 @@
+{
+  "name": "vue-fuse",
+  "full_name": "shayneo/vue-fuse",
+  "description": null,
+  "topics": [
+    "vuejs",
+    "fuse",
+    "fuzzy-search",
+    "vue-fuse",
+    "vue"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "shayneo",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/1341253?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://shayneo.github.io/vue-fuse/",
+    "repo": "https://github.com/shayneo/vue-fuse"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

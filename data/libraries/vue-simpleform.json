@@ -1,0 +1,25 @@
+{
+  "name": "vue-simpleform",
+  "full_name": "blocka/vue-simpleform",
+  "description": "Form library for vue. Inspired by Formik for react.",
+  "topics": [
+    "vue",
+    "forms"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "blocka",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/43194?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/blocka/vue-simpleform"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

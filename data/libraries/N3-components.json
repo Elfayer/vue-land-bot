@@ -1,0 +1,31 @@
+{
+  "name": "N3-components",
+  "full_name": "N3-components/N3-components",
+  "description": "N3-components , Powerful Vue UI Library.",
+  "topics": [
+    "vue",
+    "components",
+    "javascript",
+    "html",
+    "css"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "N3-components",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/21080427?v=4"
+  },
+  "organization": {
+    "login": "N3-components",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/21080427?v=4"
+  },
+  "links": {
+    "site": "https://n3-components.github.io/N3-components/",
+    "repo": "https://github.com/N3-components/N3-components"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

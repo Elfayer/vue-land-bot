@@ -1,0 +1,29 @@
+{
+  "name": "vue-intersect",
+  "full_name": "heavyy/vue-intersect",
+  "description": "A Vue component to add intersection-observer to a Vue component or HTML element.",
+  "topics": [
+    "vue",
+    "intersectionobserver",
+    "vue-components"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "heavyy",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/22559811?v=4"
+  },
+  "organization": {
+    "login": "heavyy",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/22559811?v=4"
+  },
+  "links": {
+    "site": "https://www.npmjs.com/package/vue-intersect",
+    "repo": "https://github.com/heavyy/vue-intersect"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,34 @@
+{
+  "name": "cheetah-grid",
+  "full_name": "future-architect/cheetah-grid",
+  "description": "The fastest open-source data table for web.",
+  "topics": [
+    "data-table",
+    "canvas",
+    "spreadsheet",
+    "grid",
+    "javascript",
+    "javascript-library",
+    "vue-component",
+    "vue-components"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "future-architect",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/14890632?v=4"
+  },
+  "organization": {
+    "login": "future-architect",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/14890632?v=4"
+  },
+  "links": {
+    "site": "https://future-architect.github.io/cheetah-grid/",
+    "repo": "https://github.com/future-architect/cheetah-grid"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,26 @@
+{
+  "name": "vue-resolve",
+  "full_name": "javisperez/vue-resolve",
+  "description": "Resolve dependencies for your routes before rendering the component",
+  "topics": [
+    "vue",
+    "vuejs",
+    "vue-router",
+    "resolver",
+    "resolve",
+    "dependencies",
+    "routes"
+  ],
+  "license": null,
+  "owner": {
+    "login": "javisperez",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/4766570?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/javisperez/vue-resolve"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

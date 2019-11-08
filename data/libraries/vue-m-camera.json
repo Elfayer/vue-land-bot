@@ -1,0 +1,18 @@
+{
+  "name": "vue-m-camera",
+  "full_name": "kooljay82/vue-m-camera",
+  "description": "To aviod orientation changes / For mobile web && appication webview",
+  "topics": [],
+  "license": null,
+  "owner": {
+    "login": "kooljay82",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/15124790?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/kooljay82/vue-m-camera"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

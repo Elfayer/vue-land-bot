@@ -1,0 +1,33 @@
+{
+  "name": "roastandbrew",
+  "full_name": "serversideup/roastandbrew",
+  "description": "Roast helps coffee enthusiasts find their next cup of coffee. It's also open source to help aspiring developers build a single page app on web and mobile. All tutorials can be found at https://srvrsi.de/roast",
+  "topics": [
+    "vue-router",
+    "laravel",
+    "tutorial",
+    "coffee",
+    "vuex",
+    "vuejs2",
+    "spa"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "serversideup",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/4761291?v=4"
+  },
+  "organization": {
+    "login": "serversideup",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/4761291?v=4"
+  },
+  "links": {
+    "site": "http://roastandbrew.coffee/",
+    "repo": "https://github.com/serversideup/roastandbrew"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

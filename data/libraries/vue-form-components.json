@@ -1,0 +1,31 @@
+{
+  "name": "vue-form-components",
+  "full_name": "antonreshetov/vue-form-components",
+  "description": "Clean & minimal vue form elements and form builder with validation",
+  "topics": [
+    "vue",
+    "vue-components",
+    "javascript",
+    "components",
+    "form",
+    "form-validation",
+    "vue-form",
+    "formbuilder"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "antonreshetov",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/17480987?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://antonreshetov.github.io/vue-form-components/",
+    "repo": "https://github.com/antonreshetov/vue-form-components"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

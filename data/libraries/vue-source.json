@@ -1,0 +1,22 @@
+{
+  "name": "vue-source",
+  "full_name": "davestewart/vue-source",
+  "description": "Identifies Vue components in DevTools Elements panel via HTML comments",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "davestewart",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/132681?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/davestewart/vue-source"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

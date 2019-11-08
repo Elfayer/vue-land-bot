@@ -1,0 +1,30 @@
+{
+  "name": "vuikit",
+  "full_name": "vuikit/vuikit",
+  "description": "A responsive Vue UI library for web site interfaces",
+  "topics": [
+    "vue",
+    "uikit",
+    "vuejs",
+    "ui"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "vuikit",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/19988804?v=4"
+  },
+  "organization": {
+    "login": "vuikit",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/19988804?v=4"
+  },
+  "links": {
+    "site": "https://vuikit.js.org",
+    "repo": "https://github.com/vuikit/vuikit"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

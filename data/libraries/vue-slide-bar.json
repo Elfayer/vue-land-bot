@@ -1,0 +1,34 @@
+{
+  "name": "vue-slide-bar",
+  "full_name": "biigpongsatorn/vue-slide-bar",
+  "description": "🎢 A Simple Vue Slider Bar Component. ",
+  "topics": [
+    "vue",
+    "slides",
+    "slider",
+    "slide-bar",
+    "component",
+    "slide",
+    "slider-bar",
+    "plugin",
+    "simple",
+    "vue-slide",
+    "slot"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "biigpongsatorn",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/10693658?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://biigpongsatorn.github.io/#/vue-slide-bar",
+    "repo": "https://github.com/biigpongsatorn/vue-slide-bar"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,31 @@
+{
+  "name": "vue-spinkit",
+  "full_name": "TonPC64/vue-spinkit",
+  "description": "🌀 A collection of loading indicators animated with CSS for VueJS",
+  "topics": [
+    "spinkit",
+    "spinkit-components",
+    "vue-loading",
+    "vue",
+    "loading-animations",
+    "loading-spinner",
+    "vue-components",
+    "vue-spinkit"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "TonPC64",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/12834601?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "http://vue-spinkit.surge.sh/",
+    "repo": "https://github.com/TonPC64/vue-spinkit"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

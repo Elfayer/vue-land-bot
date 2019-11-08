@@ -1,0 +1,33 @@
+{
+  "name": "flatpickr",
+  "full_name": "flatpickr/flatpickr",
+  "description": "lightweight, powerful javascript datetimepicker with no dependencies",
+  "topics": [
+    "datetime",
+    "datetime-picker",
+    "datepicker",
+    "timepicker",
+    "daterange",
+    "date",
+    "daterangepicker"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "flatpickr",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/36319609?v=4"
+  },
+  "organization": {
+    "login": "flatpickr",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/36319609?v=4"
+  },
+  "links": {
+    "site": "https://flatpickr.js.org",
+    "repo": "https://github.com/flatpickr/flatpickr"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

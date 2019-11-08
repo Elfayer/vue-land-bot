@@ -1,0 +1,31 @@
+{
+  "name": "jest-vue-matcher",
+  "full_name": "14nrv/jest-vue-matcher",
+  "description": "Additional jest matchers for vue",
+  "topics": [
+    "jest",
+    "jest-matchers",
+    "vue",
+    "vuejs",
+    "vue-test-utils",
+    "vue-test",
+    "vue-testing-tools",
+    "wallaby"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "14nrv",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/34603467?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/14nrv/jest-vue-matcher"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

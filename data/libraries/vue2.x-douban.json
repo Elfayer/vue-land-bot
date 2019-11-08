@@ -1,0 +1,21 @@
+{
+  "name": "vue2.x-douban",
+  "full_name": "superman66/vue2.x-douban",
+  "description": "Vue2.0实现简易豆瓣电影webApp",
+  "topics": [
+    "vue",
+    "vue-cli"
+  ],
+  "license": null,
+  "owner": {
+    "login": "superman66",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/12592949?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "http://superman66.github.io/vue2.x-douban/dist/#/",
+    "repo": "https://github.com/superman66/vue2.x-douban"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

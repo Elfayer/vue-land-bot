@@ -1,0 +1,25 @@
+{
+  "name": "vue-charts",
+  "full_name": "hchstera/vue-charts",
+  "description": "Base on Vue2.0 wrapper for ChartJs.",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "hchstera",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/11835374?v=4"
+  },
+  "organization": {
+    "login": "hchstera",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/11835374?v=4"
+  },
+  "links": {
+    "site": "http://vue-charts.hchspersonal.tk/",
+    "repo": "https://github.com/hchstera/vue-charts"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

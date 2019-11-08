@@ -1,0 +1,27 @@
+{
+  "name": "vue-tabevents",
+  "full_name": "Almoullim/vue-tabevents",
+  "description": "Event-Based communication across opened tabs for Vue 2.x",
+  "topics": [
+    "vuejs",
+    "events",
+    "vue-plugin",
+    "javascript"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "Almoullim",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/8402210?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/Almoullim/vue-tabevents"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

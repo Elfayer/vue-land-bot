@@ -1,0 +1,22 @@
+{
+  "name": "vue-infinite-list",
+  "full_name": "legeneek/vue-infinite-list",
+  "description": "infinite list based on vue2",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "legeneek",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/12298289?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/legeneek/vue-infinite-list"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

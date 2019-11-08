@@ -1,0 +1,34 @@
+{
+  "name": "bosket",
+  "full_name": "elbywan/bosket",
+  "description": "Collection of tree view components for front-end frameworks. :deciduous_tree:",
+  "topics": [
+    "treeview",
+    "tree",
+    "tree-view",
+    "tree-structure",
+    "tree-component",
+    "bosket",
+    "react",
+    "vuejs",
+    "angular",
+    "riot",
+    "riotjs"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "elbywan",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/3428394?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://elbywan.github.io/bosket/",
+    "repo": "https://github.com/elbywan/bosket"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

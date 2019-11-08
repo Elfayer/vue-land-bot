@@ -1,0 +1,34 @@
+{
+  "name": "poi",
+  "full_name": "egoist/poi",
+  "description": "⚡A zero-config bundler for JavaScript applications.",
+  "topics": [
+    "webpack",
+    "build-tool",
+    "bundle",
+    "vuejs",
+    "react",
+    "preact",
+    "vue",
+    "svelte",
+    "typescript",
+    "babel",
+    "postcss"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "egoist",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/8784712?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://poi.js.org",
+    "repo": "https://github.com/egoist/poi"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

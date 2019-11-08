@@ -1,0 +1,22 @@
+{
+  "name": "vue-dragula",
+  "full_name": "Astray-git/vue-dragula",
+  "description": ":ok_hand: Drag and drop so simple it hurts http://astray-git.github.io/vue-dragula",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "Astray-git",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/2520426?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/Astray-git/vue-dragula"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

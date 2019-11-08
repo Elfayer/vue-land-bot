@@ -1,0 +1,29 @@
+{
+  "name": "lue",
+  "full_name": "dwqs/lue",
+  "description": ":seedling: Vue and vuex based library, writing less verbose code.",
+  "topics": [
+    "vuejs2",
+    "vue2",
+    "vuex",
+    "vuex2",
+    "vue-router",
+    "vue-router-sync"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "dwqs",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/7871813?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/dwqs/lue"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

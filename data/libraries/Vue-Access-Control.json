@@ -1,0 +1,27 @@
+{
+  "name": "Vue-Access-Control",
+  "full_name": "tower1229/Vue-Access-Control",
+  "description": ":gem: Frontend access control framework based Vue",
+  "topics": [
+    "access-control",
+    "vue",
+    "vue-router",
+    "rights"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "tower1229",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/4016839?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "http://refined-x.com/Vue-Access-Control/",
+    "repo": "https://github.com/tower1229/Vue-Access-Control"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

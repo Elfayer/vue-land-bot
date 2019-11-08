@@ -1,0 +1,27 @@
+{
+  "name": "v2-table",
+  "full_name": "dwqs/v2-table",
+  "description": "A simple table component based Vue 2.x: https://dwqs.github.io/v2-table/",
+  "topics": [
+    "vuejs2",
+    "vue-table",
+    "table",
+    "vuejs-components"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "dwqs",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/7871813?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/dwqs/v2-table"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

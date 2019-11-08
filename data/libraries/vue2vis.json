@@ -1,0 +1,27 @@
+{
+  "name": "vue2vis",
+  "full_name": "alexcode/vue2vis",
+  "description": "A Vuejs 2 adapter for Visjs",
+  "topics": [
+    "visjs",
+    "vuejs2",
+    "vue",
+    "vuejs"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "alexcode",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/430031?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/alexcode/vue2vis"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

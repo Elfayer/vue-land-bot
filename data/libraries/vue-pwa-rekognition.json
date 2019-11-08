@@ -1,0 +1,29 @@
+{
+  "name": "vue-pwa-rekognition",
+  "full_name": "aofdev/vue-pwa-rekognition",
+  "description": "Vue2 + Amazon Rekognition + Amazon S3 + Progressive Web App With Face Detection",
+  "topics": [
+    "vue",
+    "pwa",
+    "amazon-rekognition",
+    "aws",
+    "face-detection",
+    "face-analysis",
+    "aws-s3",
+    "s3-bucket",
+    "yarn",
+    "vue2"
+  ],
+  "license": null,
+  "owner": {
+    "login": "aofdev",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/24493279?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/aofdev/vue-pwa-rekognition"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

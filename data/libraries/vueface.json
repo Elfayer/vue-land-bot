@@ -1,0 +1,27 @@
+{
+  "name": "vueface",
+  "full_name": "sudheerj/vueface",
+  "description": "UI Components for Vue",
+  "topics": [
+    "vuejs",
+    "vue-components",
+    "vuejs2",
+    "javascript-framework"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "sudheerj",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/3127317?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://sudheerj.github.io/vueface",
+    "repo": "https://github.com/sudheerj/vueface"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

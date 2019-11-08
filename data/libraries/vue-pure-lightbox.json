@@ -1,0 +1,33 @@
+{
+  "name": "vue-pure-lightbox",
+  "full_name": "DCzajkowski/vue-pure-lightbox",
+  "description": "Very simple lightbox plugin (without any dependencies) for Vuejs 🌅",
+  "topics": [
+    "vuejs",
+    "vue",
+    "vuejs2",
+    "js",
+    "javascript",
+    "lightbox",
+    "gallery",
+    "lightbox-gallery-plugin",
+    "lightbox-gallery",
+    "gallery-plugin"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "DCzajkowski",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/4501047?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://codepen.io/DCzajkowski/pen/rzOErW",
+    "repo": "https://github.com/DCzajkowski/vue-pure-lightbox"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,22 @@
+{
+  "name": "vue-cordova",
+  "full_name": "kartsims/vue-cordova",
+  "description": "Vue.js plugin for Cordova",
+  "topics": [
+    "cordova",
+    "vue",
+    "cordova-plugin"
+  ],
+  "license": null,
+  "owner": {
+    "login": "kartsims",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/4136975?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "http://kartsims.github.io/vue-cordova",
+    "repo": "https://github.com/kartsims/vue-cordova"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

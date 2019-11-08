@@ -1,0 +1,26 @@
+{
+  "name": "vue-threejs",
+  "full_name": "fritx/vue-threejs",
+  "description": "Vue bindings for Three.js",
+  "topics": [
+    "vue",
+    "threejs",
+    "bindings"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "fritx",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/6647633?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "http://fritx.github.io/vue-threejs/",
+    "repo": "https://github.com/fritx/vue-threejs"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

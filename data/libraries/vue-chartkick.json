@@ -1,0 +1,22 @@
+{
+  "name": "vue-chartkick",
+  "full_name": "ankane/vue-chartkick",
+  "description": "Create beautiful JavaScript charts with one line of Vue",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "ankane",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/220358?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://chartkick.com/vue",
+    "repo": "https://github.com/ankane/vue-chartkick"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

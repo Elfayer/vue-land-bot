@@ -1,0 +1,33 @@
+{
+  "name": "vue-cli-template-library",
+  "full_name": "julon/vue-cli-template-library",
+  "description": "Template for developing open-source vue.js libraries with Rollup + Jest + Babel + Storybook + TravisCI + SemanticRelease",
+  "topics": [
+    "vue",
+    "vuejs",
+    "vue-cli",
+    "vue-components",
+    "rollup",
+    "semantic-release",
+    "storybook",
+    "jest",
+    "linter",
+    "babel"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "julon",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/11995684?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/julon/vue-cli-template-library"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

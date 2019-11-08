@@ -1,0 +1,27 @@
+{
+  "name": "vue-google-autocomplete",
+  "full_name": "olefirenko/vue-google-autocomplete",
+  "description": "A Vue.js autosuggest component for the Google Places API.",
+  "topics": [
+    "vuejs",
+    "autocomplete",
+    "vue-component",
+    "google-places-api"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "olefirenko",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/5434459?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://olefirenko.github.io/vue-google-autocomplete/",
+    "repo": "https://github.com/olefirenko/vue-google-autocomplete"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

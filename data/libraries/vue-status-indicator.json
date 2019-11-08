@@ -1,0 +1,31 @@
+{
+  "name": "vue-status-indicator",
+  "full_name": "coderdiaz/vue-status-indicator",
+  "description": "A Vue component to show status indicator as colored dots.",
+  "topics": [
+    "vue",
+    "js",
+    "vuejs",
+    "vuejs2",
+    "vue-components",
+    "css",
+    "status",
+    "indicator"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "coderdiaz",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/1901273?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://coderdiaz.me/vue-status-indicator/",
+    "repo": "https://github.com/coderdiaz/vue-status-indicator"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

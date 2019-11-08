@@ -1,0 +1,25 @@
+{
+  "name": "vue-sweetalert2",
+  "full_name": "avil13/vue-sweetalert2",
+  "description": "A convenient wrapper for sweetalert2.",
+  "topics": [
+    "sweetalert",
+    "vue",
+    "vue-sweetalert2",
+    "alert",
+    "javascript",
+    "ssr"
+  ],
+  "license": null,
+  "owner": {
+    "login": "avil13",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/1606172?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://avil13.github.io/vue-sweetalert2/",
+    "repo": "https://github.com/avil13/vue-sweetalert2"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

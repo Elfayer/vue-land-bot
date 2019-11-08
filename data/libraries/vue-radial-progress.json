@@ -1,0 +1,27 @@
+{
+  "name": "vue-radial-progress",
+  "full_name": "wyzant-dev/vue-radial-progress",
+  "description": "Radial progress bar component for Vue.js",
+  "topics": [
+    "vue"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "wyzant-dev",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/22247364?v=4"
+  },
+  "organization": {
+    "login": "wyzant-dev",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/22247364?v=4"
+  },
+  "links": {
+    "site": "https://wyzant-dev.github.io/vue-radial-progress/",
+    "repo": "https://github.com/wyzant-dev/vue-radial-progress"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

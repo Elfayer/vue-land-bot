@@ -1,0 +1,26 @@
+{
+  "name": "vue-multivue",
+  "full_name": "drewjbartlett/vue-multivue",
+  "description": "Use multiple Vue apps of the same class on the same page",
+  "topics": [
+    "vue",
+    "vuejs",
+    "javascript",
+    "reusable",
+    "multiple",
+    "components",
+    "app"
+  ],
+  "license": null,
+  "owner": {
+    "login": "drewjbartlett",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/2146829?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/drewjbartlett/vue-multivue"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

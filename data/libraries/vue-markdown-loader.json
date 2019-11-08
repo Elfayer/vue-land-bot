@@ -1,0 +1,18 @@
+{
+  "name": "vue-markdown-loader",
+  "full_name": "QingWei-Li/vue-markdown-loader",
+  "description": "📇 Convert Markdown file to Vue component.",
+  "topics": [],
+  "license": null,
+  "owner": {
+    "login": "QingWei-Li",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/7565692?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/QingWei-Li/vue-markdown-loader"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

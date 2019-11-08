@@ -1,0 +1,32 @@
+{
+  "name": "vuex-flash",
+  "full_name": "ahmed-dinar/vuex-flash",
+  "description": "VueJs Flash Message Component within Vuex",
+  "topics": [
+    "vue",
+    "vuejs",
+    "vuejs2",
+    "vue2",
+    "vuex",
+    "vuex2",
+    "vue-components",
+    "flash",
+    "flash-messages"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "ahmed-dinar",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/9702812?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://ahmed-dinar.github.io/vuex-flash",
+    "repo": "https://github.com/ahmed-dinar/vuex-flash"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

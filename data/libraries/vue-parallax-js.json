@@ -1,0 +1,27 @@
+{
+  "name": "vue-parallax-js",
+  "full_name": "jsnanigans/vue-parallax-js",
+  "description": "Tiny vue component that adds a directive for parallax effect on elements.",
+  "topics": [
+    "vue",
+    "parallax-javascript-library",
+    "vue-component",
+    "vue-components",
+    "parallax",
+    "vue-parallax-js",
+    "vuejs",
+    "vuejs-components"
+  ],
+  "license": null,
+  "owner": {
+    "login": "jsnanigans",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/4624141?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/jsnanigans/vue-parallax-js"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

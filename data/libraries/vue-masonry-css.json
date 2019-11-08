@@ -1,0 +1,22 @@
+{
+  "name": "vue-masonry-css",
+  "full_name": "paulcollett/vue-masonry-css",
+  "description": "Vue.js Masonry layout component powered by CSS, dependancy free",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "paulcollett",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/1904774?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://paulcollett.github.io/vue-masonry-css/demo/",
+    "repo": "https://github.com/paulcollett/vue-masonry-css"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

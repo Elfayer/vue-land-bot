@@ -1,0 +1,27 @@
+{
+  "name": "vue-pwa-vision",
+  "full_name": "aofdev/vue-pwa-vision",
+  "description": "Vue2 + Google Cloud Vision + Progressive Web App With Face Detection",
+  "topics": [
+    "vue",
+    "pwa",
+    "face-detection",
+    "google-cloud-vision",
+    "face-analysis",
+    "google-cloud-platform",
+    "yarn",
+    "vue2"
+  ],
+  "license": null,
+  "owner": {
+    "login": "aofdev",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/24493279?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/aofdev/vue-pwa-vision"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

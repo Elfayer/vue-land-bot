@@ -1,0 +1,28 @@
+{
+  "name": "vue-topmodal",
+  "full_name": "adileo/vue-topmodal",
+  "description": "A fully customisable Vue.js modal component.",
+  "topics": [
+    "vue",
+    "vue2",
+    "vuejs",
+    "modal",
+    "overlay",
+    "lightbox",
+    "popup",
+    "alert",
+    "dialog"
+  ],
+  "license": null,
+  "owner": {
+    "login": "adileo",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/7949198?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/adileo/vue-topmodal"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

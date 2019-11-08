@@ -1,0 +1,22 @@
+{
+  "name": "vue-lodash",
+  "full_name": "Ewocker/vue-lodash",
+  "description": "This is a small wrapper for integrating lodash into VueJs",
+  "topics": [],
+  "license": {
+    "key": "other",
+    "url": null,
+    "name": "Other"
+  },
+  "owner": {
+    "login": "Ewocker",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/11958538?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/Ewocker/vue-lodash"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

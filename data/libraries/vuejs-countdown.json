@@ -1,0 +1,22 @@
+{
+  "name": "vuejs-countdown",
+  "full_name": "getanwar/vuejs-countdown",
+  "description": "[🤔 NOT MAINTAINED] A simple countdown timer component for vue js 2.0",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "getanwar",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/6163268?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/getanwar/vuejs-countdown"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

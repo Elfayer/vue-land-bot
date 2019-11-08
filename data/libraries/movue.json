@@ -1,0 +1,26 @@
+{
+  "name": "movue",
+  "full_name": "nighca/movue",
+  "description": "MobX integration for Vue.js.",
+  "topics": [
+    "mobx",
+    "vue",
+    "vuejs"
+  ],
+  "license": {
+    "key": "apache-2.0",
+    "url": "https://api.github.com/licenses/apache-2.0",
+    "name": "Apache License 2.0"
+  },
+  "owner": {
+    "login": "nighca",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/1492263?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/nighca/movue"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

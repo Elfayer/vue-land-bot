@@ -1,0 +1,25 @@
+{
+  "name": "vue-clampy",
+  "full_name": "clampy-js/vue-clampy",
+  "description": "Vue.js (2+) directive that clamps the content of an element by adding an ellipsis to it if the content inside is too long.",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "clampy-js",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/31968399?v=4"
+  },
+  "organization": {
+    "login": "clampy-js",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/31968399?v=4"
+  },
+  "links": {
+    "site": null,
+    "repo": "https://github.com/clampy-js/vue-clampy"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

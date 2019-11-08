@@ -1,0 +1,27 @@
+{
+  "name": "vue-stackable-modal",
+  "full_name": "Innologica/vue-stackable-modal",
+  "description": "Vue stackable modal component by Innologica",
+  "topics": [
+    "vue",
+    "vue2",
+    "modal",
+    "dialog",
+    "component"
+  ],
+  "license": null,
+  "owner": {
+    "login": "Innologica",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/8224044?v=4"
+  },
+  "organization": {
+    "login": "Innologica",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/8224044?v=4"
+  },
+  "links": {
+    "site": "https://innologica.github.io/vue-stackable-modal/",
+    "repo": "https://github.com/Innologica/vue-stackable-modal"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

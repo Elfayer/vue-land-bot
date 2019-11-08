@@ -1,0 +1,28 @@
+{
+  "name": "vuedarkmode",
+  "full_name": "LeCoupa/vuedarkmode",
+  "description": "👩‍🎨👨‍🎨 A minimalist dark design system for Vue.js. Based components designed for the insomniacs who enjoy dark interfaces as much as we do.",
+  "topics": [
+    "vuejs",
+    "design-system",
+    "components",
+    "bootstrap",
+    "darkmode"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "LeCoupa",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/1658644?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://www.vuedarkmode.com/",
+    "repo": "https://github.com/LeCoupa/vuedarkmode"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

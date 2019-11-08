@@ -1,0 +1,34 @@
+{
+  "name": "ic-firebase-uploader",
+  "full_name": "InCuca/ic-firebase-uploader",
+  "description": "This component is a multi-file uploader for firebase",
+  "topics": [
+    "vue",
+    "vue2",
+    "firebase-storage",
+    "firebase",
+    "file",
+    "upload",
+    "uploader",
+    "multi-upload"
+  ],
+  "license": {
+    "key": "apache-2.0",
+    "url": "https://api.github.com/licenses/apache-2.0",
+    "name": "Apache License 2.0"
+  },
+  "owner": {
+    "login": "InCuca",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/30161651?v=4"
+  },
+  "organization": {
+    "login": "InCuca",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/30161651?v=4"
+  },
+  "links": {
+    "site": null,
+    "repo": "https://github.com/InCuca/ic-firebase-uploader"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

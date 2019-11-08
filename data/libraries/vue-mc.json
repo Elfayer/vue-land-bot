@@ -1,0 +1,32 @@
+{
+  "name": "vue-mc",
+  "full_name": "FiguredLimited/vue-mc",
+  "description": "Models and Collections for Vue",
+  "topics": [
+    "vue",
+    "vuejs",
+    "data-structures",
+    "models",
+    "collections",
+    "validation"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "FiguredLimited",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/11415122?v=4"
+  },
+  "organization": {
+    "login": "FiguredLimited",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/11415122?v=4"
+  },
+  "links": {
+    "site": "https://vuemc.io",
+    "repo": "https://github.com/FiguredLimited/vue-mc"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

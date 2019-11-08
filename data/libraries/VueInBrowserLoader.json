@@ -1,0 +1,32 @@
+{
+  "name": "VueInBrowserLoader",
+  "full_name": "SeregPie/VueInBrowserLoader",
+  "description": "Loads a .vue file from the given URL and compiles it to a component directly in the browser.",
+  "topics": [
+    "async",
+    "browser",
+    "client",
+    "get",
+    "http",
+    "load",
+    "local",
+    "url",
+    "vue"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "SeregPie",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/1217953?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/SeregPie/VueInBrowserLoader"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

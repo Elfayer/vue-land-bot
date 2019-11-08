@@ -1,0 +1,22 @@
+{
+  "name": "vue-pell-editor",
+  "full_name": "CinKon/vue-pell-editor",
+  "description": "Vue-Wrapper for the minimalistic pell-WYSIWYG-Editor",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "CinKon",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/3854991?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/CinKon/vue-pell-editor"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

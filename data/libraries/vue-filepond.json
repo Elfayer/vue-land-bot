@@ -1,0 +1,28 @@
+{
+  "name": "vue-filepond",
+  "full_name": "pqina/vue-filepond",
+  "description": "🔌 A handy FilePond adapter component for Vue",
+  "topics": [
+    "vue",
+    "filepond",
+    "file",
+    "upload",
+    "image-processing"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "pqina",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/22966117?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://pqina.nl/filepond",
+    "repo": "https://github.com/pqina/vue-filepond"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

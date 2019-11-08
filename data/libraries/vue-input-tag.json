@@ -1,0 +1,29 @@
+{
+  "name": "vue-input-tag",
+  "full_name": "matiastucci/vue-input-tag",
+  "description": ":bookmark: Vue.js 2.0 Input Tag Component",
+  "topics": [
+    "vue",
+    "tags",
+    "input",
+    "vuejs",
+    "vuejs-components",
+    "vuejs2"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "matiastucci",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/3856355?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://tucci.me/vue-input-tag",
+    "repo": "https://github.com/matiastucci/vue-input-tag"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

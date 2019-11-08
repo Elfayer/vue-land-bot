@@ -1,0 +1,30 @@
+{
+  "name": "vue-autoNumeric",
+  "full_name": "autoNumeric/vue-autoNumeric",
+  "description": "A Vue.js component that wraps the awesome autoNumeric input formatter library",
+  "topics": [
+    "vuejs",
+    "autonumeric",
+    "component",
+    "awesome"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "autoNumeric",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/26826295?v=4"
+  },
+  "organization": {
+    "login": "autoNumeric",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/26826295?v=4"
+  },
+  "links": {
+    "site": "http://autonumeric.org",
+    "repo": "https://github.com/autoNumeric/vue-autoNumeric"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

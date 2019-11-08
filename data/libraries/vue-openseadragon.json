@@ -1,0 +1,26 @@
+{
+  "name": "vue-openseadragon",
+  "full_name": "braceslab/vue-openseadragon",
+  "description": "OpenSeaDragon component for Vue.js",
+  "topics": [
+    "openseadragon",
+    "vue",
+    "zoom",
+    "pan"
+  ],
+  "license": null,
+  "owner": {
+    "login": "braceslab",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/26941387?v=4"
+  },
+  "organization": {
+    "login": "braceslab",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/26941387?v=4"
+  },
+  "links": {
+    "site": null,
+    "repo": "https://github.com/braceslab/vue-openseadragon"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

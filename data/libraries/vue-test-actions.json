@@ -1,0 +1,29 @@
+{
+  "name": "vue-test-actions",
+  "full_name": "biigpongsatorn/vue-test-actions",
+  "description": "✅ Unit testing Vuex actions with Jest mocks.",
+  "topics": [
+    "testing",
+    "test",
+    "vuex",
+    "actions",
+    "jest",
+    "mock"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "biigpongsatorn",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/10693658?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/biigpongsatorn/vue-test-actions"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

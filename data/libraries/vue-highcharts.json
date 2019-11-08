@@ -1,0 +1,27 @@
+{
+  "name": "vue-highcharts",
+  "full_name": "weizhenye/vue-highcharts",
+  "description": ":bar_chart: Highcharts component for Vue",
+  "topics": [
+    "highcharts",
+    "vue",
+    "highmaps",
+    "highstock"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "weizhenye",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/1879224?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/weizhenye/vue-highcharts"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

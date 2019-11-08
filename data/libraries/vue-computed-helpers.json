@@ -1,0 +1,22 @@
+{
+  "name": "vue-computed-helpers",
+  "full_name": "michalsnik/vue-computed-helpers",
+  "description": "Computed helpers for Vue apps",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "michalsnik",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/4093559?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/michalsnik/vue-computed-helpers"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

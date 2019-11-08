@@ -1,0 +1,18 @@
+{
+  "name": "vue-dev-server",
+  "full_name": "paulpflug/vue-dev-server",
+  "description": "a small development server for building `vue` components",
+  "topics": [],
+  "license": null,
+  "owner": {
+    "login": "paulpflug",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/1881921?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/paulpflug/vue-dev-server"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

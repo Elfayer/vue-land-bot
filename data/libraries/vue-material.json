@@ -1,0 +1,31 @@
+{
+  "name": "vue-material",
+  "full_name": "vuematerial/vue-material",
+  "description": "Material design for Vue.js",
+  "topics": [
+    "vue",
+    "javascript",
+    "material",
+    "material-design",
+    "vue-material"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "vuematerial",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/23659108?v=4"
+  },
+  "organization": {
+    "login": "vuematerial",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/23659108?v=4"
+  },
+  "links": {
+    "site": "http://vuematerial.io",
+    "repo": "https://github.com/vuematerial/vue-material"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

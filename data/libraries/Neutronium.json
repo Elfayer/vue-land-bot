@@ -1,0 +1,35 @@
+{
+  "name": "Neutronium",
+  "full_name": "NeutroniumCore/Neutronium",
+  "description": "🚀 Build .NET desktop applications using HTML, CSS and javascript.",
+  "topics": [
+    "chromium",
+    "mvvm",
+    "c-sharp",
+    "vue",
+    "wpf",
+    "html",
+    "framework",
+    "browser",
+    "reactive-programming"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "NeutroniumCore",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/23553426?v=4"
+  },
+  "organization": {
+    "login": "NeutroniumCore",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/23553426?v=4"
+  },
+  "links": {
+    "site": "https://neutroniumcore.github.io/Neutronium/",
+    "repo": "https://github.com/NeutroniumCore/Neutronium"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

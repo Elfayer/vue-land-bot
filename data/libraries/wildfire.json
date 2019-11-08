@@ -1,0 +1,29 @@
+{
+  "name": "wildfire",
+  "full_name": "cheng-kang/wildfire",
+  "description": "🔥From a little spark may burst a flame.",
+  "topics": [
+    "wildfire",
+    "firebase",
+    "wilddog",
+    "vuejs",
+    "comment-plugin",
+    "comments"
+  ],
+  "license": {
+    "key": "gpl-3.0",
+    "url": "https://api.github.com/licenses/gpl-3.0",
+    "name": "GNU General Public License v3.0"
+  },
+  "owner": {
+    "login": "cheng-kang",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/8396515?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://wildfire.js.org",
+    "repo": "https://github.com/cheng-kang/wildfire"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

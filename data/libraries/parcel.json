@@ -1,0 +1,37 @@
+{
+  "name": "parcel",
+  "full_name": "parcel-bundler/parcel",
+  "description": "📦🚀 Blazing fast, zero configuration web application bundler",
+  "topics": [
+    "module-bundler",
+    "build-tool",
+    "javascript",
+    "css",
+    "html",
+    "assets",
+    "web",
+    "compiler",
+    "commonjs",
+    "es6",
+    "modules"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "parcel-bundler",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/32607881?v=4"
+  },
+  "organization": {
+    "login": "parcel-bundler",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/32607881?v=4"
+  },
+  "links": {
+    "site": "https://parceljs.org",
+    "repo": "https://github.com/parcel-bundler/parcel"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

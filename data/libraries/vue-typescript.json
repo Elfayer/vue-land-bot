@@ -1,0 +1,31 @@
+{
+  "name": "vue-typescript",
+  "full_name": "MMF-FE/vue-typescript",
+  "description": "vue2.x typescript template",
+  "topics": [
+    "vue",
+    "vue-typescript",
+    "boilerplate",
+    "templdate",
+    "typescript"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "MMF-FE",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/25544689?v=4"
+  },
+  "organization": {
+    "login": "MMF-FE",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/25544689?v=4"
+  },
+  "links": {
+    "site": "https://mmf-fe.github.io/vue-typescript/",
+    "repo": "https://github.com/MMF-FE/vue-typescript"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

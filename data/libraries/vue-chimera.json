@@ -1,0 +1,34 @@
+{
+  "name": "vue-chimera",
+  "full_name": "chimera-js/vue-chimera",
+  "description": "VueJS RESTful client with reactive resources and endpoints.",
+  "topics": [
+    "vuejs",
+    "restful",
+    "rest",
+    "rest-client",
+    "reactive",
+    "vuejs2",
+    "vue",
+    "vue-plugin"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "chimera-js",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/43280905?v=4"
+  },
+  "organization": {
+    "login": "chimera-js",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/43280905?v=4"
+  },
+  "links": {
+    "site": null,
+    "repo": "https://github.com/chimera-js/vue-chimera"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

@@ -1,0 +1,36 @@
+{
+  "name": "vue-bootstrap4-table",
+  "full_name": "rubanraj54/vue-bootstrap4-table",
+  "description": "Advanced table based on Vue 2 and Bootstrap 4 ⚡️",
+  "topics": [
+    "datatable",
+    "vuejs2",
+    "bootstrap-4",
+    "table",
+    "pagination-component",
+    "pagination",
+    "vue-bootstrap4-table",
+    "slot",
+    "vue-components",
+    "column-slot",
+    "pagination-info",
+    "sorting",
+    "filtering"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "rubanraj54",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/10024405?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/rubanraj54/vue-bootstrap4-table"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

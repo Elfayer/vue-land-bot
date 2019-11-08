@@ -1,0 +1,25 @@
+{
+  "name": "exceljson",
+  "full_name": "palerdot/exceljson",
+  "description": "convert CSV, TSV to/from JSON.",
+  "topics": [
+    "vuejs",
+    "javascript",
+    "materializecss",
+    "json",
+    "csv",
+    "tsv"
+  ],
+  "license": null,
+  "owner": {
+    "login": "palerdot",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/4299398?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "http://exceljson.com",
+    "repo": "https://github.com/palerdot/exceljson"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

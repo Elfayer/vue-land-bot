@@ -1,0 +1,21 @@
+{
+  "name": "vue-admin",
+  "full_name": "vue-bulma/vue-admin",
+  "description": "We are refactoring it, using the latest Vue and Bulma. WIP",
+  "topics": [],
+  "license": null,
+  "owner": {
+    "login": "vue-bulma",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/20152452?v=4"
+  },
+  "organization": {
+    "login": "vue-bulma",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/20152452?v=4"
+  },
+  "links": {
+    "site": null,
+    "repo": "https://github.com/vue-bulma/vue-admin"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

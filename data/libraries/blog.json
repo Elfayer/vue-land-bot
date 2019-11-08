@@ -1,0 +1,30 @@
+{
+  "name": "blog",
+  "full_name": "jcc/blog",
+  "description": ":star2: PJ Blog is an open source blog built with Laravel and Vue.js.",
+  "topics": [
+    "laravel",
+    "vuejs",
+    "vue",
+    "pj-blog",
+    "blog",
+    "open-source",
+    "beautiful"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "jcc",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/12684082?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://www.pigjian.com",
+    "repo": "https://github.com/jcc/blog"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

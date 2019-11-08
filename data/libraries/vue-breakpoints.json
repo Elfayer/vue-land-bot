@@ -1,0 +1,29 @@
+{
+  "name": "vue-breakpoints",
+  "full_name": "apertureless/vue-breakpoints",
+  "description": "🍬  🙈 Vue.js utility component to show and hide components based on breakpoints",
+  "topics": [
+    "vue",
+    "vuejs",
+    "responsive",
+    "breakpoints",
+    "utility",
+    "component"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "apertureless",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/4975917?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://apertureless.github.io/vue-breakpoints/",
+    "repo": "https://github.com/apertureless/vue-breakpoints"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

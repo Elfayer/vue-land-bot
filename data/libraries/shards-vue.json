@@ -1,0 +1,35 @@
+{
+  "name": "shards-vue",
+  "full_name": "DesignRevision/shards-vue",
+  "description": "🌟Shards Vue is a free, beautiful and modern Vue.js UI kit based on Shards.",
+  "topics": [
+    "vue",
+    "uikit",
+    "ui",
+    "free",
+    "bootstrap",
+    "modern",
+    "design",
+    "components",
+    "designsystem"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "DesignRevision",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/8946731?v=4"
+  },
+  "organization": {
+    "login": "DesignRevision",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/8946731?v=4"
+  },
+  "links": {
+    "site": "https://designrevision.com/docs/shards-vue/",
+    "repo": "https://github.com/DesignRevision/shards-vue"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

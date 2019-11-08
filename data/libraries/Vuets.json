@@ -1,0 +1,28 @@
+{
+  "name": "Vuets",
+  "full_name": "AkiraLaine/Vuets",
+  "description": "A Vue, TypeScript ready boilerplate using class-style components, vue plugin options, webpack & vue-cli.",
+  "topics": [
+    "vuejs",
+    "webpack",
+    "typescript",
+    "boilerplate",
+    "vue-cli"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "AkiraLaine",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/11958359?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/AkiraLaine/Vuets"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

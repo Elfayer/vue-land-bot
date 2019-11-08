@@ -1,0 +1,22 @@
+{
+  "name": "loopback-vue-starter",
+  "full_name": "ivandov/loopback-vue-starter",
+  "description": "A starter template for LoopBack 3.x And Vue 2.x with support for the new vue-cli v3",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "ivandov",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/7094613?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/ivandov/loopback-vue-starter"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

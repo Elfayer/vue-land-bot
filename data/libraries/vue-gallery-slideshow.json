@@ -1,0 +1,25 @@
+{
+  "name": "vue-gallery-slideshow",
+  "full_name": "KitchenStories/vue-gallery-slideshow",
+  "description": "🖼 Lightweight and responsive image gallery for Vue.js",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "KitchenStories",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/5428880?v=4"
+  },
+  "organization": {
+    "login": "KitchenStories",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/5428880?v=4"
+  },
+  "links": {
+    "site": null,
+    "repo": "https://github.com/KitchenStories/vue-gallery-slideshow"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

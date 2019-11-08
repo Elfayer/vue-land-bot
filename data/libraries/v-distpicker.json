@@ -1,0 +1,28 @@
+{
+  "name": "v-distpicker",
+  "full_name": "jcc/v-distpicker",
+  "description": ":sparkles: A flexible, highly available district picker for picking provinces, cities and districts of China.",
+  "topics": [
+    "vue",
+    "distpicker",
+    "component",
+    "vuejs",
+    "vue-component"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "jcc",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/12684082?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": "https://distpicker.pigjian.com/",
+    "repo": "https://github.com/jcc/v-distpicker"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

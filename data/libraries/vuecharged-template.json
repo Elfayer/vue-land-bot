@@ -1,0 +1,30 @@
+{
+  "name": "vuecharged-template",
+  "full_name": "mrboomer/vuecharged-template",
+  "description": "A highly opinionated Vue 2.0 template.",
+  "topics": [
+    "vue",
+    "vuex",
+    "vue-router",
+    "vuecharged-template",
+    "webpack3",
+    "feature-first",
+    "offline-first"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "mrboomer",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/5942912?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/mrboomer/vuecharged-template"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

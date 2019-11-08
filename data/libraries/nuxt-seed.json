@@ -1,0 +1,18 @@
+{
+  "name": "nuxt-seed",
+  "full_name": "dulin666/nuxt-seed",
+  "description": "Nuxt seed for development",
+  "topics": [],
+  "license": null,
+  "owner": {
+    "login": "dulin666",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/6123214?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/dulin666/nuxt-seed"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

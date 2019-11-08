@@ -1,0 +1,22 @@
+{
+  "name": "vue-cast-props",
+  "full_name": "anteriovieira/vue-cast-props",
+  "description": "The cast property on your component provides a convenient way of converting props to common data types.",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "anteriovieira",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/1490347?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/anteriovieira/vue-cast-props"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

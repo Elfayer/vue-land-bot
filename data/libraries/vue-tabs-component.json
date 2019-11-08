@@ -1,0 +1,31 @@
+{
+  "name": "vue-tabs-component",
+  "full_name": "spatie/vue-tabs-component",
+  "description": "An easy way to display tabs with Vue",
+  "topics": [
+    "vue",
+    "component",
+    "ui",
+    "tabs",
+    "javascript"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "spatie",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/7535935?v=4"
+  },
+  "organization": {
+    "login": "spatie",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/7535935?v=4"
+  },
+  "links": {
+    "site": "http://vue-tabs-component.spatie.be",
+    "repo": "https://github.com/spatie/vue-tabs-component"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

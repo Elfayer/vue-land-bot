@@ -1,0 +1,25 @@
+{
+  "name": "vue-hackernews-2.0",
+  "full_name": "vuejs/vue-hackernews-2.0",
+  "description": "HackerNews clone built with Vue 2.0, vue-router & vuex, with server-side rendering",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "vuejs",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/6128107?v=4"
+  },
+  "organization": {
+    "login": "vuejs",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/6128107?v=4"
+  },
+  "links": {
+    "site": null,
+    "repo": "https://github.com/vuejs/vue-hackernews-2.0"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

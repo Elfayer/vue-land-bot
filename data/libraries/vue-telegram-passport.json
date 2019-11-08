@@ -1,0 +1,27 @@
+{
+  "name": "vue-telegram-passport",
+  "full_name": "vchaptsev/vue-telegram-passport",
+  "description": "Vue component for Telegram passport",
+  "topics": [
+    "vue",
+    "vue-component",
+    "telegram",
+    "telegram-passport"
+  ],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "vchaptsev",
+    "avatar_url": "https://avatars1.githubusercontent.com/u/9744948?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/vchaptsev/vue-telegram-passport"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

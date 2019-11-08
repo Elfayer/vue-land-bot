@@ -1,0 +1,25 @@
+{
+  "name": "concept-to-clinic",
+  "full_name": "drivendataorg/concept-to-clinic",
+  "description": "ALCF Concept to Clinic Challenge",
+  "topics": [],
+  "license": {
+    "key": "other",
+    "url": null,
+    "name": "Other"
+  },
+  "owner": {
+    "login": "drivendataorg",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/9515608?v=4"
+  },
+  "organization": {
+    "login": "drivendataorg",
+    "avatar_url": "https://avatars2.githubusercontent.com/u/9515608?v=4"
+  },
+  "links": {
+    "site": "https://concepttoclinic.drivendata.org/",
+    "repo": "https://github.com/drivendataorg/concept-to-clinic"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

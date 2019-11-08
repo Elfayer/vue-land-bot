@@ -1,0 +1,22 @@
+{
+  "name": "vue-toastr-2",
+  "full_name": "saivarunk/vue-toastr-2",
+  "description": "Simple toast notifications for Vue.js",
+  "topics": [],
+  "license": {
+    "key": "mit",
+    "url": "https://api.github.com/licenses/mit",
+    "name": "MIT License"
+  },
+  "owner": {
+    "login": "saivarunk",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/2976867?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/saivarunk/vue-toastr-2"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

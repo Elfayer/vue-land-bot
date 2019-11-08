@@ -1,0 +1,21 @@
+{
+  "name": "v-money",
+  "full_name": "vuejs-tips/v-money",
+  "description": "Tiny (<2k gzipped) input/directive mask for currency",
+  "topics": [],
+  "license": null,
+  "owner": {
+    "login": "vuejs-tips",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/26045453?v=4"
+  },
+  "organization": {
+    "login": "vuejs-tips",
+    "avatar_url": "https://avatars0.githubusercontent.com/u/26045453?v=4"
+  },
+  "links": {
+    "site": "https://vuejs-tips.github.io/v-money/",
+    "repo": "https://github.com/vuejs-tips/v-money"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}

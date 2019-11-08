@@ -1,0 +1,18 @@
+{
+  "name": "Ki-vue-context",
+  "full_name": "Kiyoaki-w/Ki-vue-context",
+  "description": "A customizable context menu component built for Vue2, supporting fontawesome icons, auto right/bottom boundary detection.",
+  "topics": [],
+  "license": null,
+  "owner": {
+    "login": "Kiyoaki-w",
+    "avatar_url": "https://avatars3.githubusercontent.com/u/37092142?v=4"
+  },
+  "organization": null,
+  "links": {
+    "site": null,
+    "repo": "https://github.com/Kiyoaki-w/Ki-vue-context"
+  },
+  "aliases": [],
+  "colour": "#4FC08D"
+}
