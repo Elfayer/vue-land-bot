@@ -102,6 +102,7 @@ module.exports = class MiscCodeCommand extends Command {
       }
     }
 
-    msg.channel.send(embedMessage).then(() => tryDelete(msg))
+    await msg.channel.send(embedMessage)
+    tryDelete(msg)
   }
 }
