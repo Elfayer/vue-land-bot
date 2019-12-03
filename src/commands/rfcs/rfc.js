@@ -84,14 +84,13 @@ module.exports = class RFCsCommand extends Command {
         embed.setDescription('Sorry, an unspecified error occured')
       }
     } finally {
-      msg.channel.send(EMPTY_MESSAGE, embed).then(reply => {
-        tryDelete(msg)
+      const reply = await msg.channel.send(EMPTY_MESSAGE, embed)
+      tryDelete(msg)
 
-        // Delete the reply if the RFC was not found, or an error occured.
-        if (!success) {
-          tryDelete(reply, 7500)
-        }
-      })
+      // Delete the reply if the RFC was not found, or an error occured.
+      if (!success) {
+        tryDelete(reply, 15000)
+      }
     }
   }
 

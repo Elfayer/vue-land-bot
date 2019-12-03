@@ -43,10 +43,9 @@ module.exports = class RFCsCommand extends Command {
         )
         .setColor('RED')
     } finally {
-      msg.channel.send(EMPTY_MESSAGE, { embed }).then(res => {
-        tryDelete(msg)
-        tryDelete(res, 15000)
-      })
+      const reply = await msg.channel.send(EMPTY_MESSAGE, { embed })
+      tryDelete(msg)
+      tryDelete(reply, 15000)
     }
   }
 }
