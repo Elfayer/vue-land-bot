@@ -52,10 +52,6 @@ module.exports = class MiscCodeCommand extends Command {
         `The <@&${ROLES.COMMUNITY_LEADERS}> are in charge of organising and running things like meetups, events and conferences, or notable community projects and resources.`
       )
       .addField(
-        'Vue Vixens',
-        `The <@&${ROLES.VUE_VIXENS}> are members of the Vue Vixens charity which is dedicated to creating and hosting workshops to under-represented people in a cool and fun way.`
-      )
-      .addField(
         'Nitro Booster',
         `The <@&${ROLES.NITRO_BOOSTERS}> role consists of people who have boosted the server with their Discord Nitro membership (thanks)!`
       )
