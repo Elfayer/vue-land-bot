@@ -1,5 +1,5 @@
 import { Command } from 'discord.js-commando'
-import { getAPI } from '../../services/api'
+import { getAPI, findAPI } from '../../services/api'
 import { RichEmbed } from 'discord.js'
 import { EMPTY_MESSAGE } from '../../utils/constants'
 import { inlineCode } from '../../utils/string'
@@ -54,34 +54,75 @@ module.exports = class DocumentationAPICommand extends Command {
   async run(msg, args) {
     const { lookup } = args
 
+    let embed
+
     try {
-      const api = getAPI(lookup)
-      msg.channel
-        .send(EMPTY_MESSAGE, {
-          embed: this.buildResponseEmbed(msg, api),
-        })
-        .then(() => tryDelete(msg))
+      // Try to find an exact match (or alias).
+      let api = getAPI(lookup)
+
+      if (api) {
+        embed = this.buildResponseEmbed(msg, api)
+      } else {
+        // Attempt a fuzzy search.
+        api = findAPI(lookup)
+
+        if (api) {
+          if (api.length > 1) {
+            embed = this.buildDisambiguationEmbed(msg, lookup, api)
+          } else if (api.length === 1) {
+            embed = this.buildResponseEmbed(msg, api[0])
+          }
+        }
+      }
+
+      if (!api || api.length === 0) {
+        embed = this.buildErrorEmbed(
+          msg,
+          lookup,
+          new Error(`Could not find anything in the API matching "${lookup}".`)
+        )
+      }
+
+      await msg.channel.send(EMPTY_MESSAGE, { embed })
+      tryDelete(msg)
     } catch (error) {
-      msg.channel
-        .send(EMPTY_MESSAGE, {
-          embed: this.buildErrorEmbed(msg, lookup),
-        })
-        .then(res => {
-          tryDelete(msg)
-          tryDelete(res, 15000)
-        })
+      console.error(error)
+      const reply = await msg.channel.send(EMPTY_MESSAGE, {
+        embed: this.buildErrorEmbed(
+          msg,
+          lookup,
+          new Error('An unexpected error occured.')
+        ),
+      })
+      tryDelete(msg)
+      tryDelete(reply, 15000)
     }
   }
 
-  buildErrorEmbed(msg, lookup) {
+  buildErrorEmbed(msg, lookup, error) {
     return new RichEmbed()
       .setTitle('API Lookup')
-      .setDescription(`Could not find a library matching "${lookup}".`)
+      .setDescription(error.message)
       .setAuthor(
         msg.member ? msg.member.displayName : msg.author.username,
         msg.author.avatarURL
       )
       .setColor('RED')
+  }
+
+  buildDisambiguationEmbed(msg, lookup, results) {
+    return new RichEmbed()
+      .setTitle(`API Lookup - ${lookup}`)
+      .setDescription(
+        `I couldn't find that but perhaps you meant one of these:\n\n${results
+          .map(result => '`!api ' + result.id + '`\n')
+          .join(' ')}`
+      )
+      .setAuthor(
+        msg.member ? msg.member.displayName : msg.author.username,
+        msg.author.avatarURL
+      )
+      .setColor('BLUE')
   }
 
   buildResponseEmbed(msg, api) {

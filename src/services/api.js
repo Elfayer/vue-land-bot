@@ -1,6 +1,7 @@
 import { join } from 'path'
 import { readFileSync, existsSync } from 'fs'
 import HJSON from 'hjson'
+import Fuse from 'fuse.js'
 import { DATA_DIR } from '../utils/constants'
 
 const API_DATA_FILE = join(DATA_DIR, 'api.hjson')
@@ -40,6 +41,17 @@ for (const category of apiData.categories) {
   }
 }
 
+const fuse = new Fuse(Object.values(apis), {
+  shouldSort: true,
+  includeScore: true,
+  threshold: 0.35, // TODO: Experiment more but this seems fairly good for now.
+  location: 0,
+  distance: 100,
+  maxPatternLength: 32,
+  minMatchCharLength: 1,
+  keys: ['title', 'aliases'],
+})
+
 /**
  * Get an API by name or alias if it exists.
  *
@@ -53,6 +65,14 @@ export function getAPI(name) {
   if (aliasMap[name]) {
     return apis[aliasMap[name]]
   }
+}
 
-  throw new Error('API not found: ' + name)
+export function findAPI(name) {
+  const search = fuse.search(name)
+
+  if (search.length > 0) {
+    return search.map(({ item }) => item)
+  }
+
+  return []
 }
