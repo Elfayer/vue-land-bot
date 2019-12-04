@@ -1,6 +1,6 @@
 import { join, resolve, extname, basename } from 'path'
 import { readdirSync } from 'fs'
-import { distanceBetween } from '../utils/string'
+import Fuse from 'fuse.js'
 
 const DATA_DIR = resolve(__dirname, '../../data/libraries')
 
@@ -31,6 +31,17 @@ for (const library of Object.values(libraries)) {
 
 export default libraries
 
+const fuse = new Fuse(Object.values(libraries), {
+  shouldSort: true,
+  includeScore: true,
+  threshold: 0.25, // TODO: Experiment more but this seems fairly good for now.
+  location: 0,
+  distance: 100,
+  maxPatternLength: 32,
+  minMatchCharLength: 3,
+  keys: ['name'],
+})
+
 /**
  * @typedef {Object} LibraryDefinition
  * @property {string} name The name of the library.
@@ -46,16 +57,17 @@ export default libraries
  * Return a library.
  *
  * @param {string} name The name of the library.
+ * @param {boolean} allowAliases Should aliases be included?
  * @returns {LibraryDefinition} The library object.
  */
-export function getLibrary(name) {
+export function getLibrary(name, allowAliases = true) {
   name = name.toLowerCase()
 
   if (libraries[name]) {
     return libraries[name]
   }
 
-  if (aliasMap[name]) {
+  if (allowAliases && aliasMap[name]) {
     return libraries[aliasMap[name]]
   }
 
@@ -69,17 +81,13 @@ export function getLibrary(name) {
  * @returns {LibraryDefinition[]} The matching libraries.
  */
 export function findPossibleMatches(name) {
-  const threshold = 0.5
+  const search = fuse.search(name)
 
-  return Object.entries(libraries).reduce((matches, [libraryName, library]) => {
-    const distance = distanceBetween(name, libraryName)
+  if (search.length > 0) {
+    return search.map(({ item }) => item)
+  }
 
-    if (distance >= threshold) {
-      matches.push(library)
-    }
-
-    return matches
-  }, [])
+  return []
 }
 
 for (const library of Object.values(libraries)) {

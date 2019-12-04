@@ -42,9 +42,11 @@ module.exports = class DocumentationLibraryCommand extends Command {
   async run(msg, args) {
     const { name } = args
 
+    let embed
+
     try {
       let library = getLibrary(name)
-      const embed = this.buildResponseEmbed(library)
+      embed = this.buildResponseEmbed(library)
 
       await msg.channel.send(EMPTY_MESSAGE, { embed })
       tryDelete(msg, DELETE_MESSAGES_AFTER)
@@ -52,15 +54,19 @@ module.exports = class DocumentationLibraryCommand extends Command {
       const matches = findPossibleMatches(name)
 
       if (matches.length) {
-        const embed = this.buildDisambiguationEmbed(name, matches)
-        const response = await msg.channel.send(EMPTY_MESSAGE, { embed })
+        if (matches.length === 1) {
+          embed = this.buildResponseEmbed(matches[0])
+        } else {
+          embed = this.buildDisambiguationEmbed(name, matches)
+        }
 
+        const response = await msg.channel.send(EMPTY_MESSAGE, { embed })
         tryDelete(msg, DELETE_MESSAGES_AFTER)
         tryDelete(response, DELETE_ERRORS_AFTER)
       } else {
-        const embed = this.buildErrorEmbed(name)
-        const response = await msg.channel.send(EMPTY_MESSAGE, { embed })
+        embed = this.buildErrorEmbed(name)
 
+        const response = await msg.channel.send(EMPTY_MESSAGE, { embed })
         tryDelete(msg, DELETE_MESSAGES_AFTER)
         tryDelete(response, DELETE_ERRORS_AFTER)
       }
@@ -68,18 +74,19 @@ module.exports = class DocumentationLibraryCommand extends Command {
   }
 
   buildDisambiguationEmbed(name, matches) {
-    let matchingNames = matches.map(match => '`' + match.name + '`').join(', ')
-
-    // Don't overwhelm the user with information.
-    if (matchingNames.length >= 15) {
-      matchingNames = matchingNames.slice(0, 15)
+    if (matches.length >= 32) {
+      // Don't overwhelm user with too many matches (+ API limits).
+      // TODO: Is it worth adding pagination for this feature?
+      matches = matches.slice(0, 31)
     }
 
+    matches = matches.map(match => '`' + match.name + '`').join(', ')
+
     return new RichEmbed()
-      .setTitle('Library Lookup')
+      .setTitle(`Library Lookup - ${name}`)
       .setColor('ORANGE')
       .setDescription(
-        `Could not find library \`${name}\`, did you mean one of these:\n\n${matchingNames}?`
+        `I couldn't find that but perhaps you meant one of these:\n\n${matches}?`
       )
   }
 
@@ -146,7 +153,7 @@ module.exports = class DocumentationLibraryCommand extends Command {
       .setTitle('Library Lookup')
       .setColor('RED')
       .setDescription(
-        `Could not find a library with the name: ${name}.\n\nThink it should be included?`
+        `Could not find a library matching `${name}`.\n\nThink it should be included?`
       )
       .addField('Submit PR', 'https://git.io/JenP0', true)
       .addField('File issue', 'https://git.io/JenP2', true)
