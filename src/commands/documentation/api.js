@@ -13,31 +13,31 @@ module.exports = class DocumentationAPICommand extends Command {
         {
           key: 'lookup',
           type: 'string',
-          prompt: 'What do you want to look up in the API docs?',
+          prompt: 'what do you want to look up in the API docs?',
         },
       ],
       name: 'api',
       examples: [
-        '!api errorHandler',
-        '!api Vue.observable',
-        '!api observable',
-        '!api computed',
-        '!api template',
-        '!api mounted',
-        '!api directives',
-        '!api mixins',
-        '!api delimiters',
-        '!api vm.$props',
-        '!api vm.$watch',
-        '!api vm.$on',
-        '!api vm.$mount',
-        '!api $props',
-        '!api $watch',
-        '!api $on',
-        '!api $mount',
-        '!api v-html',
-        '!api ref',
-        '!api keep-alive',
+        inlineCode('!api errorHandler'),
+        inlineCode('!api Vue.observable'),
+        inlineCode('!api observable'),
+        inlineCode('!api computed'),
+        inlineCode('!api template'),
+        inlineCode('!api mounted'),
+        inlineCode('!api directives'),
+        inlineCode('!api mixins'),
+        inlineCode('!api delimiters'),
+        inlineCode('!api vm.$props'),
+        inlineCode('!api vm.$watch'),
+        inlineCode('!api vm.$on'),
+        inlineCode('!api vm.$mount'),
+        inlineCode('!api $props'),
+        inlineCode('!api $watch'),
+        inlineCode('!api $on'),
+        inlineCode('!api $mount'),
+        inlineCode('!api v-html'),
+        inlineCode('!api ref'),
+        inlineCode('!api keep-alive'),
       ],
       group: 'documentation',
       aliases: ['a'],
@@ -84,7 +84,7 @@ module.exports = class DocumentationAPICommand extends Command {
       }
 
       await msg.channel.send(EMPTY_MESSAGE, { embed })
-      tryDelete(msg)
+      tryDelete(msg, 5000)
     } catch (error) {
       console.error(error)
       const reply = await msg.channel.send(EMPTY_MESSAGE, {
@@ -115,8 +115,8 @@ module.exports = class DocumentationAPICommand extends Command {
       .setTitle(`API Lookup - ${lookup}`)
       .setDescription(
         `I couldn't find that but perhaps you meant one of these:\n\n${results
-          .map(result => '`!api ' + result.id + '`\n')
-          .join(' ')}`
+          .map(result => inlineCode('!api ' + result.id))
+          .join('\n')}`
       )
       .setAuthor(
         msg.member ? msg.member.displayName : msg.author.username,
