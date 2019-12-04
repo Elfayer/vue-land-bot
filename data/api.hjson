@@ -74,9 +74,9 @@
       title: Global API
       items: [
         {
+          id: Vue.extend
           title: Vue.extend( options )
           aliases: [
-            Vue.extend
             extend
           ]
           arguments: [
@@ -88,9 +88,9 @@
           ]
         }
         {
+          id: Vue.nextTick
           title: Vue.nextTick( [callback, context] )
           aliases: [
-            Vue.nextTick
             nextTick
           ]
           arguments: [
@@ -103,9 +103,9 @@
           ]
         }
         {
+          id: Vue.set
           title: Vue.set( target, propertyName/index, value )
           aliases: [
-            Vue.set
             set
           ]
           arguments: [
@@ -120,9 +120,9 @@
           ]
         }
         {
+          id: Vue.delete
           title: Vue.delete( target, propertyName/index )
           aliases: [
-            Vue.delete
             delete
           ]
           arguments: [
@@ -135,9 +135,9 @@
           ]
         }
         {
+          id: Vue.directive
           title: Vue.directive( id, [definition] )
           aliases: [
-            Vue.directive
             directive
           ]
           arguments: [
@@ -150,9 +150,9 @@
           ]
         }
         {
+          id: Vue.filter
           title: Vue.filter( id, [definition] )
           aliases: [
-            Vue.filter
             filter
           ]
           arguments: [
@@ -165,9 +165,9 @@
           ]
         }
         {
+          id: Vue.component
           title: Vue.component( id, [definition] )
           aliases: [
-            Vue.component
             component
           ]
           arguments: [
@@ -180,9 +180,9 @@
           ]
         }
         {
+          id: Vue.use
           title: Vue.use( plugin )
           aliases: [
-            Vue.use
             use
           ]
           arguments: [
@@ -194,9 +194,9 @@
           ]
         }
         {
+          id: Vue.mixin
           title: Vue.mixin( mixin )
           aliases: [
-            Vue.mixin
             mixin
           ]
           arguments: [
@@ -208,9 +208,9 @@
           ]
         }
         {
+          id: Vue.compile
           title: Vue.compile( template )
           aliases: [
-            Vue.compile
             compile
           ]
           arguments: [
@@ -222,9 +222,9 @@
           ]
         }
         {
+          id: Vue.observable
           title: Vue.observable( object )
           aliases: [
-            Vue.observable
             observable
           ]
           arguments: [
@@ -285,7 +285,7 @@
           ]
         }
         {
-          title: watcg
+          title: watch
           type: '{ [key: string]: string | Function | Object | Array}'
           link: https://vuejs.org/v2/api/#watch
           see: [
@@ -481,11 +481,16 @@
         }
         {
           title: provide
+          description: "*NOTE: See also `!api inject`.*"
+          aliases: [
+            provide/inject
+          ]
           type: Object | () => Object
           link: https://vuejs.org/v2/api/#provide-inject
         }
         {
           title: inject
+          description: "*NOTE: See also `!api provide`.*"
           type: Array<string> | { [key: string]: string | Symbol | Object }
           link: https://vuejs.org/v2/api/#provide-inject
         }
@@ -820,9 +825,9 @@
           link: https://vuejs.org/v2/api/#vm-forceUpdate
         }
         {
+          id: vm.$nextTick
           title: vm.$nextTick( [callback] )
           aliases: [
-            vm.$nextTick
             $nextTick
           ]
           arguments: [

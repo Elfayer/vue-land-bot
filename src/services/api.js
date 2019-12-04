@@ -26,11 +26,15 @@ try {
 */
 for (const category of apiData.categories) {
   for (const item of category.items) {
-    apis[item.title] = Object.assign(item, { category: category.title })
+    if (!item.id) {
+      item.id = item.title
+    }
+
+    apis[item.id] = Object.assign(item, { category: category.title })
 
     if (item.aliases) {
       for (const alias of item.aliases) {
-        aliasMap[alias] = item.title
+        aliasMap[alias] = item.id
       }
     }
   }
