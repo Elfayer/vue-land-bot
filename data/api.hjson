@@ -12,7 +12,7 @@
           usage: {
             lang: js
             code: '''
-              Vue.config.silent = true
+                Vue.config.silent = true
             '''
           }
         }
@@ -37,7 +37,7 @@
           usage: {
             lang: js
             code: '''
-              Vue.config.devtools = true
+                Vue.config.devtools = true
             '''
           }
         }
@@ -50,7 +50,7 @@
           usage: {
             lang: js
             code: '''
-              Vue.config.errorHandler = function(err, vm, info) {}
+                Vue.config.errorHandler = function(err, vm, info) {}
             '''
           }
         }
@@ -77,9 +77,9 @@
           usage: {
             lang: js
             code: '''
-              Vue.config.ignoredElements = [
-                  'my-custom-web-component'
-              ]
+                Vue.config.ignoredElements = [
+                    'my-custom-web-component'
+                ]
             '''
           }
         }
@@ -92,10 +92,10 @@
           usage: {
             lang: js
             code: '''
-              Vue.config.keyCodes = {
-                  "media-play-pause": 179,
-                  up: [38, 87]
-              }
+                Vue.config.keyCodes = {
+                    "media-play-pause": 179,
+                    up: [38, 87]
+                }
             '''
           }
         }
@@ -630,9 +630,9 @@
           usage: {
             lang: js
             code: '''
-              new Vue({
-                  delimiters: ['${', '}']
-              })
+                new Vue({
+                    delimiters: ['${', '}']
+                })
             '''
           }
         }
@@ -1001,7 +1001,7 @@
           usage: {
             lang: html
             code: '''
-              <span v-text="msg"></span>
+                <span v-text="msg"></span>
             '''
           }
         }
@@ -1015,7 +1015,7 @@
           usage: {
             lang: html
             code: '''
-              <div v-html="html"></div>
+                <div v-html="html"></div>
             '''
           }
         }
@@ -1029,7 +1029,7 @@
           usage: {
             lang: html
             code: '''
-              <div v-show="shouldDisplay"></div>
+                <div v-show="shouldDisplay"></div>
             '''
           }
         }
@@ -1046,7 +1046,7 @@
           usage: {
             lang: html
             code: '''
-              <div v-if="shouldRender"></div>
+                <div v-if="shouldRender"></div>
             '''
           }
         }
@@ -1088,9 +1088,9 @@
           usage: {
             lang: html
             code: '''
-              <div v-for="item in items">
-                  {{ item.text }}
-              </div>
+                <div v-for="item in items">
+                    {{ item.text }}
+                </div>
             '''
           }
         }
@@ -1109,9 +1109,9 @@
           usage: {
             lang: html
             code: '''
-              <button v-on:click="handleClick"></button>
-              <!-- shorthand: -->
-              <button @click="handleClick"></button>
+                <button v-on:click="handleClick"></button>
+                <!-- shorthand: -->
+                <button @click="handleClick"></button>
             '''
           }
         }
@@ -1130,7 +1130,7 @@
           usage: {
             lang: html
             code: '''
-              <img v-bind:src="imageSrc">
+                <img v-bind:src="imageSrc">
             '''
           }
         }
@@ -1145,7 +1145,7 @@
           usage: {
             lang: html
             code: '''
-              <input type="text" v-model="userInput" />
+                <input type="text" v-model="userInput" />
             '''
           }
         }
@@ -1163,9 +1163,9 @@
           usage: {
             lang: html
             code: '''
-              <template v-slot:header>
-                  Header content
-              </template>
+                <template v-slot:header>
+                    Header content
+                </template>
             '''
           }
         }
@@ -1179,9 +1179,9 @@
           usage: {
             lang: html
             code: '''
-              <span v-pre>
-                  This will not be compiled: {{ msg }}.
-              </span>
+                <span v-pre>
+                    This will not be compiled: {{ msg }}.
+                </span>
             '''
           }
         }
@@ -1192,9 +1192,9 @@
           usage: {
             lang: html
             code: '''
-              <div v-cloak>
-                  This will never display before template compilation: {{ msg }}.
-              </div>
+                <div v-cloak>
+                    This will never display before template compilation: {{ msg }}.
+                </div>
             '''
           }
         }
@@ -1209,9 +1209,9 @@
           usage: {
             lang: html
             code: '''
-              <span v-once>
-                  This will never change: {{msg}}.
-              </span>
+                <span v-once>
+                    This will never change: {{msg}}.
+                </span>
             '''
           }
         }
@@ -1352,9 +1352,9 @@
           usage: {
             lang: html
             code: '''
-              <keep-alive>
-                  <component :is="view" />
-              </keep-alive>
+                <keep-alive>
+                    <component :is="view" />
+                </keep-alive>
             '''
           }
         }
