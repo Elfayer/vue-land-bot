@@ -393,6 +393,9 @@
         {
           title: beforeCreate
           description: Called synchronously immediately after the instance has been initialized.
+          aliases: [
+            before create
+          ]
           type: Function
           link: https://vuejs.org/v2/api/#beforeCreate
           see: [
@@ -411,6 +414,9 @@
         {
           title: beforeMount
           description: Called right before the mounting begins.
+          aliases: [
+            before mount
+          ]
           type: Function
           link: https://vuejs.org/v2/api/#beforeMount
           see: [
@@ -429,6 +435,9 @@
         {
           title: beforeUpdate
           description: Called when data changes, before the DOM is patched.
+          aliases: [
+            before update
+          ]
           type: Function
           link: https://vuejs.org/v2/api/#beforeUpdate
           see: [
@@ -467,6 +476,9 @@
         {
           title: beforeDestroy
           description: Called right before a Vue instance is destroyed.
+          aliases: [
+            before destroy
+          ]
           type: Function
           link: https://vuejs.org/v2/api/#beforeDestroy
           see: [
@@ -485,6 +497,9 @@
         {
           title: errorCaptured
           description: Called when an error from any descendent component is captured.
+          aliases: [
+            error captured
+          ]
           type: '(err: Error, vm: Component, info: string) => ?boolean'
           link: https://vuejs.org/v2/api/#errorCaptured
           see: [
@@ -1150,6 +1165,9 @@
         {
           title: ref
           description: Used to register a reference to an element or a child component.
+          aliases: [
+            reference
+          ]
           link: https://vuejs.org/v2/api/#ref
           see: [
             https://vuejs.org/v2/guide/components.html#Child-Component-Refs
