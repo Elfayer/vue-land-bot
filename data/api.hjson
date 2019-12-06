@@ -658,9 +658,6 @@
           ]
           type: Object
           link: https://vuejs.org/v2/api/#vm-data
-          see: [
-
-          ]
         }
         {
           title: vm.$props
@@ -670,9 +667,6 @@
           ]
           type: Object
           link: https://vuejs.org/v2/api/#vm-props
-          see: [
-            
-          ]
         }
         {
           title: vm.$el
@@ -682,9 +676,6 @@
           ]
           type: Element
           link: https://vuejs.org/v2/api/#vm-el
-          see: [
-            
-          ]
         }
         {
           title: vm.$options
@@ -694,9 +685,6 @@
           ]
           type: Object
           link: https://vuejs.org/v2/api/#vm-options
-          see: [
-            
-          ]
         }
         {
           title: vm.$parent
@@ -706,9 +694,6 @@
           ]
           type: Vue instance
           link: https://vuejs.org/v2/api/#vm-parent
-          see: [
-            
-          ]
         }
         {
           title: vm.$root
@@ -718,9 +703,6 @@
           ]
           type: Vue instance
           link: https://vuejs.org/v2/api/#vm-root
-          see: [
-            
-          ]
         }
         {
           title: vm.$children
@@ -730,9 +712,6 @@
           ]
           type: Array<Vue instance>
           link: https://vuejs.org/v2/api/#vm-children
-          see: [
-            
-          ]
         }
         {
           title: vm.$slots
