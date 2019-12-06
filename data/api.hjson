@@ -981,6 +981,7 @@
         }
         {
           title: v-html
+          description: Updates the element's `innerHTML`.
           link: https://vuejs.org/v2/api/#v-html
           see: [
             https://vuejs.org/v2/guide/syntax.html#Raw-HTML
