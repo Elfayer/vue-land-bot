@@ -969,6 +969,9 @@
         {
           title: v-text
           description: Updates the element’s `textContent`.
+          aliases: [
+            text
+          ]
           link: https://vuejs.org/v2/api/#v-text
           see: [
             https://vuejs.org/v2/guide/syntax.html#Text
@@ -1002,6 +1005,9 @@
         {
           title: v-if
           description: Conditionally render the element based on the truthy-ness of the expression value. 
+          aliases: [
+            if
+          ]
           link: https://vuejs.org/v2/api/#v-if
           see: [
             https://vuejs.org/v2/guide/conditional.html
@@ -1013,6 +1019,9 @@
         {
           title: v-else
           description: Denote the “else block” for `v-if` or a `v-if`/`v-else-if` chain.
+          aliases: [
+            else
+          ]
           link: https://vuejs.org/v2/api/#v-else
           see: [
             https://vuejs.org/v2/guide/conditional.html#v-else
@@ -1021,6 +1030,10 @@
         {
           title: v-else-if
           description: Denote the “else-if block” for `v-if`. Can be chained.
+          aliases: [
+            elseif
+            else-if
+          ]
           link: https://vuejs.org/v2/api/#v-else-if
           version: 2.1.0+
           see: [
@@ -1030,6 +1043,9 @@
         {
           title: v-for
           description: Render the element or template block multiple times based on the source data.
+          aliases: [
+            for
+          ]
           link: https://vuejs.org/v2/api/#v-for
           see: [
             https://vuejs.org/v2/guide/list.html
@@ -1105,6 +1121,9 @@
         {
           title: v-pre
           description: Skip compilation for this element and all its children.
+          aliases: [
+            pre
+          ]
           link: https://vuejs.org/v2/api/#v-pre
           usage: '''
               <span v-pre>This will not be compiled: {{ msg }}.</span>
