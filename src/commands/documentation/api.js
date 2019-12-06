@@ -1,5 +1,5 @@
 import { Command } from 'discord.js-commando'
-import { getAPI, findAPI } from '../../services/api'
+import { getAPI, findAPI, APINotFoundError } from '../../services/api'
 import { RichEmbed } from 'discord.js'
 import { EMPTY_MESSAGE } from '../../utils/constants'
 import { inlineCode } from '../../utils/string'
@@ -76,32 +76,28 @@ module.exports = class DocumentationAPICommand extends Command {
       }
 
       if (!api || api.length === 0) {
-        embed = this.buildErrorEmbed(
-          msg,
-          lookup,
-          new Error(`Could not find anything in the API matching "${lookup}".`)
+        throw new APINotFoundError(
+          `Could not find anything in the API matching "${lookup}".`
         )
       }
 
       await msg.channel.send(EMPTY_MESSAGE, { embed })
-      tryDelete(msg, 5000)
+      tryDelete(msg, 7500)
     } catch (error) {
       console.error(error)
+
       const reply = await msg.channel.send(EMPTY_MESSAGE, {
-        embed: this.buildErrorEmbed(
-          msg,
-          lookup,
-          new Error('An unexpected error occured.')
-        ),
+        embed: this.buildErrorEmbed(msg, lookup, error),
       })
-      tryDelete(msg)
+
+      tryDelete(msg, 7500)
       tryDelete(reply, 15000)
     }
   }
 
   buildErrorEmbed(msg, lookup, error) {
     return new RichEmbed()
-      .setTitle('API Lookup')
+      .setTitle(`API Lookup - ${lookup}`)
       .setDescription(error.message)
       .setAuthor(
         msg.member ? msg.member.displayName : msg.author.username,

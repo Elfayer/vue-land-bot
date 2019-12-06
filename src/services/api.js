@@ -80,3 +80,10 @@ export function findAPI(name) {
 
   return []
 }
+
+export class APINotFoundError extends Error {
+  constructor(message) {
+    super(message)
+    this.name = 'APINotFoundError'
+  }
+}
