@@ -11,16 +11,20 @@ if (!existsSync(API_DATA_FILE)) {
 }
 
 let apiData
-const aliasMap = {}
 
-export const apis = {}
-
+/*
+  Parse HJSON.
+*/
 try {
   apiData = HJSON.parse(readFileSync(API_DATA_FILE, 'utf8'))
 } catch (error) {
   console.error(error)
   throw new Error('Data file "data/api.hjson" is unparseable!')
 }
+
+const aliasMap = {}
+
+export const apis = {}
 
 /*
   Flatten data and build alias map.
@@ -43,6 +47,9 @@ for (const category of apiData.categories) {
   }
 }
 
+/*
+  Fuzzy searcher instance.
+*/
 const fuse = new Fuse(Object.values(apis), {
   shouldSort: true,
   includeScore: true,
@@ -55,22 +62,29 @@ const fuse = new Fuse(Object.values(apis), {
 })
 
 /**
- * Get an API by name or alias if it exists.
+ * Get an API by id or alias.
  *
- * @param {string} name Which API to look up, by name (or alias).
+ * @param {string} name Which API to look up, by id (or alias).
+ * @returns {undefined|object} The API if found, or undefined.
  */
-export function getAPI(name) {
-  name = name.toLowerCase()
+export function getAPI(id) {
+  id = id.toLowerCase()
 
-  if (apis[name]) {
-    return apis[name]
+  if (apis[id]) {
+    return apis[id]
   }
 
-  if (aliasMap[name]) {
-    return apis[aliasMap[name]]
+  if (aliasMap[id]) {
+    return apis[aliasMap[id]]
   }
 }
 
+/**
+ * Find an API via fuzzy search.
+ *
+ * @param {string} search The string to search for in the title and through the aliases.
+ * @returns {Array} Any API results that match the search string.
+ */
 export function findAPI(name) {
   const search = fuse.search(name)
 
