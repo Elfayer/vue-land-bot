@@ -105,11 +105,11 @@
       title: Global API
       items: [
         {
-          id: Vue.extend
+          id: extend
           description: Create a “subclass” of the base Vue constructor.
           title: Vue.extend( options )
           aliases: [
-            extend
+            Vue.extend
           ]
           arguments: [
             '{Object} options'
@@ -120,11 +120,11 @@
           ]
         }
         {
-          id: Vue.nextTick
+          id: nextTick
           title: Vue.nextTick( [callback, context] )
           description: Defer the callback to be executed after the next DOM update cycle.
           aliases: [
-            nextTick
+            Vue.nextTick
           ]
           arguments: [
             '{Function} [callback]'
@@ -136,11 +136,11 @@
           ]
         }
         {
-          id: Vue.set
+          id: set
           title: Vue.set( target, propertyName/index, value )
           description: Adds a property to a reactive object, ensuring the new property is also reactive, so that it triggers view updates.
           aliases: [
-            set
+            Vue.set
           ]
           arguments: [
           '{Object | Array} target'
@@ -154,11 +154,11 @@
           ]
         }
         {
-          id: Vue.delete
+          id: delete
           title: Vue.delete( target, propertyName/index )
           description: Delete a property on an object. If the object is reactive, ensure the deletion triggers view updates.
           aliases: [
-            delete
+            Vue.delete
           ]
           arguments: [
             '{Object | Array} target'
@@ -170,11 +170,11 @@
           ]
         }
         {
-          id: Vue.directive
+          id: directive
           title: Vue.directive( id, [definition] )
           description: Register or retrieve a global directive.
           aliases: [
-            directive
+            Vue.directive
           ]
           arguments: [
             '{string} id'
@@ -186,11 +186,11 @@
           ]
         }
         {
-          id: Vue.filter
+          id: filter
           title: Vue.filter( id, [definition] )
           description: Register or retrieve a global filter.
           aliases: [
-            filter
+            Vue.filter
           ]
           arguments: [
           '{string} id'
@@ -202,7 +202,7 @@
           ]
         }
         {
-          id: Vue.component
+          id: component
           title: Vue.component( id, [definition] )
           description: '''
             Register or retrieve a global component.
@@ -210,7 +210,7 @@
             **NOTE:** Looking for the component? Try `!api <component>`.
           '''
           aliases: [
-            component
+            Vue.component
           ]
           arguments: [
             '{string} id'
@@ -222,11 +222,11 @@
           ]
         }
         {
-          id: Vue.use
+          id: use
           title: Vue.use( plugin )
           description: Install a Vue.js plugin.
           aliases: [
-            use
+            Vue.use
           ]
           arguments: [
             '{Object | Function} plugin'
@@ -237,11 +237,11 @@
           ]
         }
         {
-          id: Vue.mixin
+          id: mixin
           title: Vue.mixin( mixin )
           description: Apply a mixin globally, which affects every Vue instance created afterwards.
           aliases: [
-            mixin
+            Vue.mixin
           ]
           arguments: [
             '{Object} mixin'
@@ -252,11 +252,11 @@
           ]
         }
         {
-          id: Vue.compile
+          id: compile
           title: Vue.compile( template )
           description: Compiles a template string into a render function. **Only available in the full build.**
           aliases: [
-            compile
+            Vue.compile
           ]
           arguments: [
             '{string} template'
@@ -267,11 +267,11 @@
           ]
         }
         {
-          id: Vue.observable
+          id: observable
           title: Vue.observable( object )
           description: Make an object reactive. Internally, Vue uses this on the object returned by the `data` function.
           aliases: [
-            observable
+            Vue.observable
           ]
           arguments: [
             '{Object} object'
