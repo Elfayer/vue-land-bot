@@ -1144,7 +1144,7 @@
           description: Used as a hint for Vue’s virtual DOM algorithm, to identify VNodes when diffing the new list of nodes against the old list.
           link: https://vuejs.org/v2/api/#key
           see: [
-
+            https://vuejs.org/v2/guide/list.html#Maintaining-State
           ]
         }
         {
