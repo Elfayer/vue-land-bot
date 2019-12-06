@@ -177,12 +177,12 @@ module.exports = class DocumentationAPICommand extends Command {
       )
     }
 
-    if (api.see && api.see.length) {
-      embed.addField('See Also', api.see.join('\n'))
-    }
-
     if (api.usage && api.usage.lang && api.usage.code) {
       embed.addField('Usage', blockCode(api.usage.code, api.usage.lang))
+    }
+
+    if (api.see && api.see.length) {
+      embed.addField('See Also', api.see.join('\n'))
     }
 
     return embed
