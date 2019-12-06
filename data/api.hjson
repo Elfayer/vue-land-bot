@@ -9,6 +9,9 @@
           type: boolean
           default: 'false'
           link: https://vuejs.org/v2/api/#silent
+          usage: '''
+            Vue.config.silent = true
+          '''
         }
         {
           title: optionMergeStrategies
@@ -28,6 +31,9 @@
           see: [
             https://github.com/vuejs/vue-devtools
           ]
+          usage: '''
+            Vue.config.devtools = true
+          '''
         }
         {
           title: errorHandler
@@ -35,6 +41,9 @@
           type: Function
           default: undefined
           link: https://vuejs.org/v2/api/#errorHandler
+          usage: '''
+            Vue.config.errorHandler = function(err, vm, info) {}
+          '''
         }
         {
           title: warnHandler
@@ -42,6 +51,9 @@
           type: Function
           default: undefined
           link: https://vuejs.org/v2/api/#warnHandler
+          usage: '''
+            Vue.config.warnHandler = function(msg, vm, trace) {}
+          '''
         }
         {
           title: ignoredElements
@@ -49,6 +61,11 @@
           type: Array<string | RegExp>
           default: `[]`
           link: https://vuejs.org/v2/api/#ignoredElements
+          usage: '''
+            Vue.config.ignoredElements = [
+              'my-custom-web-component'
+            ]
+          '''
         }
         {
           title: keyCodes
@@ -56,6 +73,12 @@
           type: '{ [key: string]: number | Array<number> }'
           default: '{}'
           link: https://vuejs.org/v2/api/#keyCodes
+          usage: '''
+            Vue.config.keyCodes = {
+              "media-play-pause": 179,
+              up: [38, 87]
+            }
+          '''
         }
         {
           title: performance
@@ -566,6 +589,11 @@
           type: Array<string>
           default: '["{{", "}}"]'
           link: https://vuejs.org/v2/api/#delimiters
+          usage: '''
+          new Vue({
+            delimiters: ['${', '}']
+          })
+          '''
         }
         {
           title: functional
@@ -947,6 +975,9 @@
           see: [
             https://vuejs.org/v2/guide/syntax.html#Text
           ]
+          usage: '''
+            <span v-text="msg"></span>
+          '''
         }
         {
           title: v-html
@@ -954,6 +985,9 @@
           see: [
             https://vuejs.org/v2/guide/syntax.html#Raw-HTML
           ]
+          usage: '''
+            <div v-html="html"></div>
+          '''
         }
         {
           title: v-show
@@ -962,6 +996,9 @@
           see: [
             https://vuejs.org/v2/guide/conditional.html#v-show
           ]
+          usage: '''
+            <div v-show="shouldDisplay"></div>
+          '''
         }
         {
           title: v-if
@@ -970,6 +1007,9 @@
           see: [
             https://vuejs.org/v2/guide/conditional.html
           ]
+          usage: '''
+            <div v-if="shouldRender"></div>
+          '''
         }
         {
           title: v-else
@@ -996,6 +1036,11 @@
             https://vuejs.org/v2/guide/list.html
             https://vuejs.org/v2/guide/list.html#key
           ]
+          usage: '''
+            <div v-for="item in items">
+              {{ item.text }}
+            </div>
+          '''
         }
         {
           title: v-on
@@ -1008,6 +1053,10 @@
             https://vuejs.org/v2/guide/events.html
             https://vuejs.org/v2/guide/components.html#Custom-Events
           ]
+          usage: '''
+            <button v-on:click="handleClick"></button>
+            <button @click="handleClick"></button> <!-- shorthand -->
+          '''
         }
         {
           title: v-bind
@@ -1021,6 +1070,9 @@
             https://vuejs.org/v2/guide/components.html#Props
             https://vuejs.org/v2/guide/components.html#sync-Modifier
           ]
+          usage: '''
+            <img v-bind:src="imageSrc">
+          '''
         }
         {
           title: v-model
@@ -1030,6 +1082,9 @@
             https://vuejs.org/v2/guide/forms.html
             https://vuejs.org/v2/guide/components.html#Form-Input-Components-using-Custom-Events
           ]
+          usage: '''
+            <input type="text" v-model="userInput" />
+          '''
         }
         {
           title: v-slot
@@ -1042,16 +1097,29 @@
             https://vuejs.org/v2/guide/components-slots.html
             https://github.com/vuejs/rfcs/blob/master/active-rfcs/0001-new-slot-syntax.md
           ]
+          usage: '''
+            <template v-slot:header>
+              Header content
+            </template>
+          '''
         }
         {
           title: v-pre
           description: Skip compilation for this element and all its children.
           link: https://vuejs.org/v2/api/#v-pre
+          usage: '''
+            <span v-pre>This will not be compiled: {{ msg }}.</span>
+          '''
         }
         {
           title: v-cloak
           description: Used to hide uncompiled templates, when combined with CSS: `[v-cloak] { display: none }`.
           link: https://vuejs.org/v2/api/#v-cloak
+          usage: '''
+            <div v-cloak>
+              {{ msg }}
+            </div>
+          '''
         }
         {
           title: v-once
@@ -1061,6 +1129,9 @@
             https://vuejs.org/v2/guide/syntax.html#Text
             https://vuejs.org/v2/guide/components.html#Cheap-Static-Components-with-v-once
           ]
+          usage: '''
+            <span v-once>This will never change: {{msg}}.</span>
+          '''
         }
       ]
     }
@@ -1191,6 +1262,11 @@
           see: [
             https://vuejs.org/v2/guide/components.html#keep-alive
           ]
+          usage: '''
+            <keep-alive>
+              <component :is="view"></component>
+            </keep-alive>
+          '''
         }
         {
           title: <slot>
