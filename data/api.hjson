@@ -204,7 +204,11 @@
         {
           id: Vue.component
           title: Vue.component( id, [definition] )
-          description: Register or retrieve a global component.
+          description: '''
+            Register or retrieve a global component.
+
+            **NOTE:** Looking for the component? Try `!api <component>`.
+          '''
           aliases: [
             component
           ]
