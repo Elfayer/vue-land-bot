@@ -795,10 +795,10 @@
       title: Instance Methods / Data
       items: [
         {
+          id: vm.$watch
           title: vm.$watch (expOrFn, callback, [options] )
           description: Watch an expression or a computed function on the Vue instance for changes. 
           aliases: [
-            vm.$watch
             $watch
           ]
           arguments: [
@@ -812,10 +812,10 @@
           link: https://vuejs.org/v2/api/#vm-watch
         }
         {
+          id: vm.$set
           title: vm.$set( target, propertyName/index, value )
           description: This is the alias of the global `Vue.set`.
           aliases: [
-            vm.$set
             $set
           ]
           arguments: [
@@ -830,10 +830,10 @@
           ]
         }
         {
+          id: vm.$delete
           description: This is the alias of the global `Vue.delete`.
           title: vm.$delete( target, propertyName/index )
           aliases: [
-            vm.$delete
             $delete
           ]
           arguments: [
@@ -852,10 +852,10 @@
       title: Instance Methods / Events
       items: [
         {
+          id: vm.$on
           title: vm.$on( event, callback )
           description: Listen for a custom event on the current vm.
           aliases: [
-            vm.$on
             $on
           ]
           arguments: [
@@ -865,10 +865,10 @@
           link: https://vuejs.org/v2/api/#vm-on
         }
         {
+          id: vm.$once
           title: vm.$once( event, callback )
           description: Listen for a custom event, but only once.
           aliases: [
-            vm.$once
             $once
           ]
           arguments: [
@@ -878,10 +878,10 @@
           link: https://vuejs.org/v2/api/#vm-once
         }
         {
+          id: vm.$off
           title: vm.$off( [event, callback] )
           description: Remove custom event listener(s).
           aliases: [
-            vm.$off
             $off
           ]
           arguments: [
@@ -891,10 +891,10 @@
           link: https://vuejs.org/v2/api/#vm-once
         }
         {
+          id: vm.$emit
           title: vm.$emit( eventName, [...args] )
           description: Trigger an event on the current instance.
           aliases: [
-            vm.$emit
             $emit
           ]
           arguments: [
@@ -909,10 +909,10 @@
       title: Instance Methods / LifeCycle
       items: [
         {
+          id: vm.$mount
           title: vm.$mount( [elementOrSelector] )
           description: Manually start the mounting of an unmounted Vue instance.
           aliases: [
-            vm.$mount
             $mount
           ]
           arguments: [
@@ -927,10 +927,10 @@
           ]
         }
         {
+          id: vm.$forceUpdate
           title: vm.$forceUpdate()
           description: Force the Vue instance to re-render.
           aliases: [
-            vm.$forceUpdate
             $forceUpdate
           ]
           link: https://vuejs.org/v2/api/#vm-forceUpdate
@@ -952,10 +952,10 @@
           ]
         }
         {
+          id: vm.$destroy
           title: vm.$destroy()
           description: Completely destroy a vm. 
           aliases: [
-            vm.$destroy
             $destroy
           ]
           link: https://vuejs.org/v2/api/#vm-destroy
@@ -1165,13 +1165,15 @@
           ]
         }
         {
-          title: attr:slot
+          id: attr:slot
+          title: slot
           description: '''
             Used on content inserted into child components to indicate which named slot the content belongs to.
 
             **NOTE:** Looking for the component? Try `!api <slot>`.
           '''
           aliases: [
+            a:slot
             slot
           ]
           link: https://vuejs.org/v2/api/#slot-deprecated
@@ -1278,6 +1280,7 @@
           '''
           aliases: [
             c:slot
+            comp:slot
           ]
           link: https://vuejs.org/v2/api/#slot
           props: [
