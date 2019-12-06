@@ -35,6 +35,8 @@ for (const category of apiData.categories) {
       item.id = item.title
     }
 
+    item.id = item.id.toLowerCase()
+
     apis[item.id] = Object.assign(item, {
       category: category.title,
     })
