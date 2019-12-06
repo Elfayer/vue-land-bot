@@ -31,11 +31,13 @@ for (const category of apiData.categories) {
       item.id = item.title
     }
 
-    apis[item.id] = Object.assign(item, { category: category.title })
+    apis[item.id] = Object.assign(item, {
+      category: category.title,
+    })
 
     if (item.aliases) {
       for (const alias of item.aliases) {
-        aliasMap[alias] = item.id
+        aliasMap[alias.toLowerCase()] = item.id
       }
     }
   }
@@ -58,6 +60,8 @@ const fuse = new Fuse(Object.values(apis), {
  * @param {string} name Which API to look up, by name (or alias).
  */
 export function getAPI(name) {
+  name = name.toLowerCase()
+
   if (apis[name]) {
     return apis[name]
   }
