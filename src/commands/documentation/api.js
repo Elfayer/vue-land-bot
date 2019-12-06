@@ -103,10 +103,11 @@ module.exports = class DocumentationAPICommand extends Command {
 
   buildErrorEmbed(msg, lookup, error) {
     return new RichEmbed()
-      .setTitle(`API Lookup - ${lookup}`)
+      .setTitle(`API Lookup: ${inlineCode(lookup)}`)
       .setDescription(error.message)
       .setAuthor(
-        msg.member ? msg.member.displayName : msg.author.username,
+        (msg.member ? msg.member.displayName : msg.author.username) +
+          ' requested:',
         msg.author.avatarURL
       )
       .setColor('RED')
@@ -114,14 +115,17 @@ module.exports = class DocumentationAPICommand extends Command {
 
   buildDisambiguationEmbed(msg, lookup, results) {
     return new RichEmbed()
-      .setTitle(`API Lookup - ${lookup}`)
+      .setTitle(`API Lookup: ${inlineCode(lookup)}`)
       .setDescription(
-        `I couldn't find that but perhaps you meant one of these:\n\n${results
-          .map(result => inlineCode('!api ' + result.id))
-          .join('\n')}`
+        "I couldn't find that but perhaps you meant one of these:"
+      )
+      .addField(
+        'Potential Matches',
+        results.map(result => inlineCode(result.id)).join(' ')
       )
       .setAuthor(
-        msg.member ? msg.member.displayName : msg.author.username,
+        (msg.member ? msg.member.displayName : msg.author.username) +
+          ' requested:',
         msg.author.avatarURL
       )
       .setColor('BLUE')
@@ -131,7 +135,8 @@ module.exports = class DocumentationAPICommand extends Command {
     const embed = new RichEmbed()
       .setTitle(api.title)
       .setAuthor(
-        msg.member ? msg.member.displayName : msg.author.username,
+        (msg.member ? msg.member.displayName : msg.author.username) +
+          ' requested:',
         msg.author.avatarURL
       )
       .setURL(api.link)
