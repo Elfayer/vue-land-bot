@@ -174,6 +174,10 @@ module.exports = class DocumentationAPICommand extends Command {
       embed.addField('See Also', api.see.join('\n'))
     }
 
+    if (api.usage) {
+      embed.addField('Usage', '```js\n' + api.usage.trim() + '\n```')
+    }
+
     return embed
   }
 }
