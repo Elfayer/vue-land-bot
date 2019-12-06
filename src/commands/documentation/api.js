@@ -2,7 +2,7 @@ import { Command } from 'discord.js-commando'
 import { getAPI, findAPI, APINotFoundError } from '../../services/api'
 import { RichEmbed } from 'discord.js'
 import { EMPTY_MESSAGE } from '../../utils/constants'
-import { inlineCode } from '../../utils/string'
+import { inlineCode, blockCode } from '../../utils/string'
 import { tryDelete } from '../../utils/messages'
 import { DEFAULT_EMBED_COLOUR } from '../../utils/embed'
 
@@ -121,7 +121,7 @@ module.exports = class DocumentationAPICommand extends Command {
       )
       .addField(
         'Potential Matches',
-        results.map(result => inlineCode(result.id)).join(' ')
+        results.map(result => inlineCode(result.id)).join(', ')
       )
       .setAuthor(
         (msg.member ? msg.member.displayName : msg.author.username) +
@@ -181,8 +181,8 @@ module.exports = class DocumentationAPICommand extends Command {
       embed.addField('See Also', api.see.join('\n'))
     }
 
-    if (api.usage) {
-      embed.addField('Usage', '```js\n' + api.usage.trim() + '\n```')
+    if (api.usage && api.usage.lang && api.usage.code) {
+      embed.addField('Usage', blockCode(api.usage.code, api.usage.lang))
     }
 
     return embed

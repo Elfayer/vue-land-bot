@@ -9,9 +9,12 @@
           type: boolean
           default: 'false'
           link: https://vuejs.org/v2/api/#silent
-          usage: '''
+          usage: {
+            lang: js
+            code: '''
               Vue.config.silent = true
-          '''
+            '''
+          }
         }
         {
           title: optionMergeStrategies
@@ -31,9 +34,12 @@
           see: [
             https://github.com/vuejs/vue-devtools
           ]
-          usage: '''
+          usage: {
+            lang: js
+            code: '''
               Vue.config.devtools = true
-          '''
+            '''
+          }
         }
         {
           title: errorHandler
@@ -41,9 +47,12 @@
           type: Function
           default: undefined
           link: https://vuejs.org/v2/api/#errorHandler
-          usage: '''
-            Vue.config.errorHandler = function(err, vm, info) {}
-          '''
+          usage: {
+            lang: js
+            code: '''
+              Vue.config.errorHandler = function(err, vm, info) {}
+            '''
+          }
         }
         {
           title: warnHandler
@@ -51,9 +60,13 @@
           type: Function
           default: undefined
           link: https://vuejs.org/v2/api/#warnHandler
-          usage: '''
+          usage: {
+            lang: js
+            code: '''
               Vue.config.warnHandler = function(msg, vm, trace) {}
-          '''
+            '''
+          }
+          
         }
         {
           title: ignoredElements
@@ -61,11 +74,14 @@
           type: Array<string | RegExp>
           default: `[]`
           link: https://vuejs.org/v2/api/#ignoredElements
-          usage: '''
+          usage: {
+            lang: js
+            code: '''
               Vue.config.ignoredElements = [
                   'my-custom-web-component'
               ]
-          '''
+            '''
+          }
         }
         {
           title: keyCodes
@@ -73,12 +89,15 @@
           type: '{ [key: string]: number | Array<number> }'
           default: '{}'
           link: https://vuejs.org/v2/api/#keyCodes
-          usage: '''
+          usage: {
+            lang: js
+            code: '''
               Vue.config.keyCodes = {
                   "media-play-pause": 179,
                   up: [38, 87]
               }
-          '''
+            '''
+          }
         }
         {
           title: performance
@@ -608,11 +627,14 @@
           type: Array<string>
           default: '["{{", "}}"]'
           link: https://vuejs.org/v2/api/#delimiters
-          usage: '''
+          usage: {
+            lang: js
+            code: '''
               new Vue({
                   delimiters: ['${', '}']
               })
-          '''
+            '''
+          }
         }
         {
           title: functional
@@ -976,9 +998,12 @@
           see: [
             https://vuejs.org/v2/guide/syntax.html#Text
           ]
-          usage: '''
+          usage: {
+            lang: html
+            code: '''
               <span v-text="msg"></span>
-          '''
+            '''
+          }
         }
         {
           title: v-html
@@ -987,9 +1012,12 @@
           see: [
             https://vuejs.org/v2/guide/syntax.html#Raw-HTML
           ]
-          usage: '''
+          usage: {
+            lang: html
+            code: '''
               <div v-html="html"></div>
-          '''
+            '''
+          }
         }
         {
           title: v-show
@@ -998,9 +1026,12 @@
           see: [
             https://vuejs.org/v2/guide/conditional.html#v-show
           ]
-          usage: '''
+          usage: {
+            lang: html
+            code: '''
               <div v-show="shouldDisplay"></div>
-          '''
+            '''
+          }
         }
         {
           title: v-if
@@ -1012,9 +1043,12 @@
           see: [
             https://vuejs.org/v2/guide/conditional.html
           ]
-          usage: '''
+          usage: {
+            lang: html
+            code: '''
               <div v-if="shouldRender"></div>
-          '''
+            '''
+          }
         }
         {
           title: v-else
@@ -1051,27 +1085,35 @@
             https://vuejs.org/v2/guide/list.html
             https://vuejs.org/v2/guide/list.html#key
           ]
-          usage: '''
+          usage: {
+            lang: html
+            code: '''
               <div v-for="item in items">
                   {{ item.text }}
               </div>
-          '''
+            '''
+          }
         }
         {
           title: v-on
           description: Attaches an event listener to the element.
           aliases: [
             @
+            on
           ]
           link: https://vuejs.org/v2/api/#v-on
           see: [
             https://vuejs.org/v2/guide/events.html
             https://vuejs.org/v2/guide/components.html#Custom-Events
           ]
-          usage: '''
+          usage: {
+            lang: html
+            code: '''
               <button v-on:click="handleClick"></button>
-              <button @click="handleClick"></button> <!-- shorthand -->
-          '''
+              <!-- shorthand: -->
+              <button @click="handleClick"></button>
+            '''
+          }
         }
         {
           title: v-bind
@@ -1085,9 +1127,12 @@
             https://vuejs.org/v2/guide/components.html#Props
             https://vuejs.org/v2/guide/components.html#sync-Modifier
           ]
-          usage: '''
+          usage: {
+            lang: html
+            code: '''
               <img v-bind:src="imageSrc">
-          '''
+            '''
+          }
         }
         {
           title: v-model
@@ -1097,9 +1142,12 @@
             https://vuejs.org/v2/guide/forms.html
             https://vuejs.org/v2/guide/components.html#Form-Input-Components-using-Custom-Events
           ]
-          usage: '''
+          usage: {
+            lang: html
+            code: '''
               <input type="text" v-model="userInput" />
-          '''
+            '''
+          }
         }
         {
           title: v-slot
@@ -1112,11 +1160,14 @@
             https://vuejs.org/v2/guide/components-slots.html
             https://github.com/vuejs/rfcs/blob/master/active-rfcs/0001-new-slot-syntax.md
           ]
-          usage: '''
+          usage: {
+            lang: html
+            code: '''
               <template v-slot:header>
                   Header content
               </template>
-          '''
+            '''
+          }
         }
         {
           title: v-pre
@@ -1125,19 +1176,27 @@
             pre
           ]
           link: https://vuejs.org/v2/api/#v-pre
-          usage: '''
-              <span v-pre>This will not be compiled: {{ msg }}.</span>
-          '''
+          usage: {
+            lang: html
+            code: '''
+              <span v-pre>
+                  This will not be compiled: {{ msg }}.
+              </span>
+            '''
+          }
         }
         {
           title: v-cloak
           description: Used to hide uncompiled templates, when combined with CSS: `[v-cloak] { display: none }`.
           link: https://vuejs.org/v2/api/#v-cloak
-          usage: '''
+          usage: {
+            lang: html
+            code: '''
               <div v-cloak>
-                  {{ msg }}
+                  This will never display before template compilation: {{ msg }}.
               </div>
-          '''
+            '''
+          }
         }
         {
           title: v-once
@@ -1147,9 +1206,14 @@
             https://vuejs.org/v2/guide/syntax.html#Text
             https://vuejs.org/v2/guide/components.html#Cheap-Static-Components-with-v-once
           ]
-          usage: '''
-              <span v-once>This will never change: {{msg}}.</span>
-          '''
+          usage: {
+            lang: html
+            code: '''
+              <span v-once>
+                  This will never change: {{msg}}.
+              </span>
+            '''
+          }
         }
       ]
     }
@@ -1285,11 +1349,14 @@
           see: [
             https://vuejs.org/v2/guide/components.html#keep-alive
           ]
-          usage: '''
+          usage: {
+            lang: html
+            code: '''
               <keep-alive>
-                  <component :is="view"></component>
+                  <component :is="view" />
               </keep-alive>
-          '''
+            '''
+          }
         }
         {
           title: <slot>
