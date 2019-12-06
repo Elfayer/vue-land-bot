@@ -54,7 +54,8 @@ module.exports = class DocumentationAPICommand extends Command {
   async run(msg, args) {
     const { lookup } = args
 
-    let embed
+    let embed,
+      isDisambiguation = false
 
     try {
       // Try to find an exact match (or alias).
@@ -69,6 +70,7 @@ module.exports = class DocumentationAPICommand extends Command {
         if (api) {
           if (api.length > 1) {
             embed = this.buildDisambiguationEmbed(msg, lookup, api)
+            isDisambiguation = true
           } else if (api.length === 1) {
             embed = this.buildResponseEmbed(msg, api[0])
           }
@@ -81,8 +83,12 @@ module.exports = class DocumentationAPICommand extends Command {
         )
       }
 
-      await msg.channel.send(EMPTY_MESSAGE, { embed })
+      const reply = await msg.channel.send(EMPTY_MESSAGE, { embed })
       tryDelete(msg, 7500)
+
+      if (isDisambiguation) {
+        tryDelete(reply, 30000)
+      }
     } catch (error) {
       console.error(error)
 
