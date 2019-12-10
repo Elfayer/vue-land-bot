@@ -3,7 +3,7 @@ import { getAPI, findAPI, APINotFoundError } from '../../services/api'
 import { RichEmbed } from 'discord.js'
 import { EMPTY_MESSAGE } from '../../utils/constants'
 import { inlineCode, blockCode } from '../../utils/string'
-import { tryDelete } from '../../utils/messages'
+import { cleanupInvocation, cleanupErrorResponse } from '../../utils/messages'
 import { DEFAULT_EMBED_COLOUR } from '../../utils/embed'
 
 module.exports = class DocumentationAPICommand extends Command {
@@ -84,10 +84,10 @@ module.exports = class DocumentationAPICommand extends Command {
       }
 
       const reply = await msg.channel.send(EMPTY_MESSAGE, { embed })
-      tryDelete(msg, 7500)
+      cleanupInvocation(msg)
 
       if (isDisambiguation) {
-        tryDelete(reply, 30000)
+        cleanupErrorResponse(reply)
       }
     } catch (error) {
       console.error(error)
@@ -96,8 +96,8 @@ module.exports = class DocumentationAPICommand extends Command {
         embed: this.buildErrorEmbed(msg, lookup, error),
       })
 
-      tryDelete(msg, 7500)
-      tryDelete(reply, 15000)
+      cleanupInvocation(msg)
+      cleanupErrorResponse(reply)
     }
   }
 
