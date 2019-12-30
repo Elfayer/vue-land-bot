@@ -74,7 +74,7 @@ export async function respondWithPaginatedEmbed(
 
   /*
     It may be that the footer is being used for some other information in which 
-    case it is desirable to not have the footer be overwritten by pagination info.
+    case it is desirable to not have the footer be overwrote by pagination info.
   */
   if (typeof options.showDetailsInFooter === 'undefined') {
     options.showDetailsInFooter = true
