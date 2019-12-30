@@ -4,7 +4,10 @@ import { RichEmbed } from 'discord.js'
 import { EMPTY_MESSAGE } from '../../utils/constants'
 import { inlineCode, blockCode } from '../../utils/string'
 import { cleanupInvocation, cleanupErrorResponse } from '../../utils/messages'
-import { DEFAULT_EMBED_COLOUR } from '../../utils/embed'
+import {
+  DEFAULT_EMBED_COLOUR,
+  respondWithPaginatedEmbed,
+} from '../../utils/embed'
 
 module.exports = class DocumentationAPICommand extends Command {
   constructor(client) {
@@ -54,8 +57,7 @@ module.exports = class DocumentationAPICommand extends Command {
   async run(msg, args) {
     const { lookup } = args
 
-    let embed,
-      isDisambiguation = false
+    let embed
 
     try {
       // Try to find an exact match (or alias).
@@ -69,8 +71,11 @@ module.exports = class DocumentationAPICommand extends Command {
 
         if (api) {
           if (api.length > 1) {
-            embed = this.buildDisambiguationEmbed(msg, lookup, api)
-            isDisambiguation = true
+            return respondWithPaginatedEmbed(
+              msg,
+              this.buildDisambiguationEmbed(msg, lookup, api),
+              api.map(item => this.buildResponseEmbed(msg, item))
+            )
           } else if (api.length === 1) {
             embed = this.buildResponseEmbed(msg, api[0])
           }
@@ -83,12 +88,8 @@ module.exports = class DocumentationAPICommand extends Command {
         )
       }
 
-      const reply = await msg.channel.send(EMPTY_MESSAGE, { embed })
+      await msg.channel.send(EMPTY_MESSAGE, { embed })
       cleanupInvocation(msg)
-
-      if (isDisambiguation) {
-        cleanupErrorResponse(reply)
-      }
     } catch (error) {
       console.error(error)
 
