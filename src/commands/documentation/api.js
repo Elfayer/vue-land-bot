@@ -84,7 +84,7 @@ module.exports = class DocumentationAPICommand extends Command {
 
       if (!api || api.length === 0) {
         throw new APINotFoundError(
-          `Could not find anything in the API matching "${lookup}".`
+          "Sorry, I couldn't find any matches for your query in the API docs."
         )
       }
 
@@ -118,7 +118,7 @@ module.exports = class DocumentationAPICommand extends Command {
     return new RichEmbed()
       .setTitle(`API Lookup: ${inlineCode(lookup)}`)
       .setDescription(
-        "I couldn't find that but perhaps you meant one of these:"
+        "Sorry, I couldn't find an exact match for your query in the API docs."
       )
       .setThumbnail('attachment://vue.png')
       .attachFile({
@@ -126,7 +126,7 @@ module.exports = class DocumentationAPICommand extends Command {
         name: 'vue.png',
       })
       .addField(
-        'Potential Matches',
+        'Perhaps you meant one of these:',
         results.map(result => inlineCode(result.id)).join(', ')
       )
       .setAuthor(
