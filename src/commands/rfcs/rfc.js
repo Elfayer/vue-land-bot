@@ -122,6 +122,11 @@ module.exports = class RFCsCommand extends Command {
       .setDescription(rfc.body)
       .setAuthor(rfc.user.login, rfc.user.avatar_url, rfc.user.html_url)
       .setURL(rfc.html_url)
+      .setThumbnail('attachment://vue.png')
+      .attachFile({
+        attachment: 'assets/images/icons/vue.png',
+        name: 'vue.png',
+      })
       .addField('Status', rfc.state, true)
 
     if (footerSections.length) {

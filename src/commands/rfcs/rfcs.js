@@ -55,6 +55,11 @@ module.exports = class RFCsCommand extends Command {
           (msg.member ? msg.member.displayName : msg.author.username),
         msg.author.avatarURL
       )
+      .setThumbnail('attachment://vue.png')
+      .attachFile({
+        attachment: 'assets/images/icons/vue.png',
+        name: 'vue.png',
+      })
 
     try {
       let rfcs = await getAllRFCs()
