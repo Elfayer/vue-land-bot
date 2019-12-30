@@ -47,11 +47,8 @@ export default class CleanupJob extends Job {
     }
   }
 
-  /*
-    NOTE: This one isn't going to work until we upgrade Commando.
-  */
   commandCancel(cmd, reason, msg, result) {
-    this.cleanup(msg)
+    this.cleanup(msg, result)
   }
 
   commandError(cmd, err, msg, args, fromPattern, result) {
@@ -62,20 +59,28 @@ export default class CleanupJob extends Job {
     this.cleanup(msg)
   }
 
-  cleanup(msg) {
+  cleanup(msg, result) {
     setTimeout(async () => {
       /**
        * @see https://discord.js.org/#/docs/commando/v0.10.0/class/CommandMessage?scrollTo=responses
        */
       const responseMessages = Object.values(msg.responses)
 
-      if (!responseMessages.length) {
-        return tryDelete(msg)
+      if (responseMessages.length) {
+        for (const messages of responseMessages) {
+          for (const message of messages) {
+            await tryDelete(message)
+          }
+        }
       }
 
-      for (const messages of responseMessages) {
-        for (const message of messages) {
-          await tryDelete(message)
+      if (result && result.prompts && result.answers) {
+        for (const prompt of result.prompts) {
+          await tryDelete(prompt, this.config.removeMessagesAfter)
+        }
+
+        for (const answer of result.answers) {
+          await tryDelete(answer, this.config.removeMessagesAfter)
         }
       }
 
