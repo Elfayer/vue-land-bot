@@ -60,9 +60,23 @@ const DISCORD_EMBED_FOOTER_LIMIT = 2048
 const DISCORD_EMBED_AUTHOR_LIMIT = 256
 const DISCORD_EMBED_TOTAL_LIMIT = 6000
 
+/*
+  The IDs of emojis that the bot will use in reactions, since bots have the 
+  ability to use cross-server emojis without Discord Nitro.
+*/
+const EMOJIS = {
+  PAGINATION: {
+    PREV: '661289441184317441',
+    NEXT: '661289441674919946',
+    FIRST: '661289441171865660',
+    LAST: '661289441218002984',
+  },
+}
+
 export {
   USERS,
   ROLES,
+  EMOJIS,
   OWNER_IDS,
   PROTECTED_USER_IDS,
   PROTECTED_ROLE_IDS,

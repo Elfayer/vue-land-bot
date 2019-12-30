@@ -1,5 +1,5 @@
 import { RichEmbed } from 'discord.js'
-import { EMPTY_MESSAGE, DISCORD_EMBED_FIELD_LIMIT } from './constants'
+import { EMOJIS, EMPTY_MESSAGE, DISCORD_EMBED_FIELD_LIMIT } from './constants'
 import { CommandMessage } from 'discord.js-commando'
 
 export const DEFAULT_EMBED_COLOUR = '#42b883'
@@ -220,10 +220,10 @@ export async function respondWithPaginatedEmbed(
     embed: context.embed,
   })
 
-  await context.response.react('⏪')
-  await context.response.react('⬅')
-  await context.response.react('➡')
-  await context.response.react('⏩')
+  await context.response.react(msg.client.emojis.get(EMOJIS.PAGINATION.FIRST))
+  await context.response.react(msg.client.emojis.get(EMOJIS.PAGINATION.PREV))
+  await context.response.react(msg.client.emojis.get(EMOJIS.PAGINATION.NEXT))
+  await context.response.react(msg.client.emojis.get(EMOJIS.PAGINATION.LAST))
 
   /*
     Collect relevant reactions.
@@ -269,7 +269,7 @@ function _createCollector(
         return false
       }
 
-      return ['⏪', '⬅', '➡', '⏩'].includes(reaction.emoji.name)
+      return Object.values(EMOJIS.PAGINATION).includes(reaction.emoji.id)
     },
     {
       time: observeReactionsFor,
@@ -299,17 +299,17 @@ function _handlePagination(
   { inlineFields, itemsAreEmbeds, showDetailsInFooter }
 ) {
   return async reaction => {
-    switch (reaction.emoji.name) {
-      case '⏪':
+    switch (reaction.emoji.id) {
+      case EMOJIS.PAGINATION.FIRST:
         pageCurrent = 1
         break
-      case '⬅':
+      case EMOJIS.PAGINATION.PREV:
         pageCurrent = Math.max(1, --pageCurrent)
         break
-      case '➡':
+      case EMOJIS.PAGINATION.NEXT:
         pageCurrent = Math.min(pageLast, ++pageCurrent)
         break
-      case '⏩':
+      case EMOJIS.PAGINATION.LAST:
         pageCurrent = pageLast
         break
     }
