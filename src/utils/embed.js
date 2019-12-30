@@ -219,8 +219,11 @@ export async function respondWithPaginatedEmbed(
   context.response = await context.channel.send(EMPTY_MESSAGE, {
     embed: context.embed,
   })
+
+  await context.response.react('⏪')
   await context.response.react('⬅')
   await context.response.react('➡')
+  await context.response.react('⏩')
 
   /*
     Collect relevant reactions.
@@ -266,7 +269,7 @@ function _createCollector(
         return false
       }
 
-      return ['⬅', '➡'].includes(reaction.emoji.name)
+      return ['⏪', '⬅', '➡', '⏩'].includes(reaction.emoji.name)
     },
     {
       time: observeReactionsFor,
@@ -296,10 +299,19 @@ function _handlePagination(
   { inlineFields, itemsAreEmbeds, showDetailsInFooter }
 ) {
   return async reaction => {
-    if (reaction.emoji.name === '⬅') {
-      pageCurrent = Math.max(1, --pageCurrent)
-    } else if (reaction.emoji.name === '➡') {
-      pageCurrent = Math.min(pageLast, ++pageCurrent)
+    switch (reaction.emoji.name) {
+      case '⏪':
+        pageCurrent = 1
+        break
+      case '⬅':
+        pageCurrent = Math.max(1, --pageCurrent)
+        break
+      case '➡':
+        pageCurrent = Math.min(pageLast, ++pageCurrent)
+        break
+      case '⏩':
+        pageCurrent = pageLast
+        break
     }
 
     let responseEmbed
