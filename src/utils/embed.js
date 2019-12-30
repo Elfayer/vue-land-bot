@@ -291,7 +291,7 @@ function _handlePagination(
     items,
     fields,
     channel,
-    author,
+    msg: { author },
   },
   { inlineFields, itemsAreEmbeds, showDetailsInFooter }
 ) {
