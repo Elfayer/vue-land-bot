@@ -1,0 +1,1398 @@
+{
+  categories: [
+    {
+      title: Global Config
+      items: [
+        {
+          title: silent
+          description: Suppress all Vue logs and warnings.
+          type: boolean
+          default: 'false'
+          link: https://vuejs.org/v2/api/#silent
+          usage: {
+            lang: js
+            code: '''
+                Vue.config.silent = true
+            '''
+          }
+        }
+        {
+          title: optionMergeStrategies
+          description: Define custom merging strategies for options.
+          type: '{ [key: string]: Function }'
+          default: '{}'
+          link: https://vuejs.org/v2/api/#optionMergeStrategies
+          see: [
+            https://vuejs.org/v2/guide/mixins.html#Custom-Option-Merge-Strategies
+          ]
+        }
+        {
+          title: devtools
+          type: boolean
+          default: 'true (false in production)'
+          link: https://vuejs.org/v2/api/#devtools
+          see: [
+            https://github.com/vuejs/vue-devtools
+          ]
+          usage: {
+            lang: js
+            code: '''
+                Vue.config.devtools = true
+            '''
+          }
+        }
+        {
+          title: errorHandler
+          description: Assign a handler for uncaught errors during component render function and watchers.
+          type: Function
+          default: undefined
+          link: https://vuejs.org/v2/api/#errorHandler
+          usage: {
+            lang: js
+            code: '''
+                Vue.config.errorHandler = function(err, vm, info) {}
+            '''
+          }
+        }
+        {
+          title: warnHandler
+          description: Assign a custom handler for runtime Vue warnings. **NOTE:** This only works during development and is ignored in production.
+          type: Function
+          default: undefined
+          link: https://vuejs.org/v2/api/#warnHandler
+          usage: {
+            lang: js
+            code: '''
+              Vue.config.warnHandler = function(msg, vm, trace) {}
+            '''
+          }
+          
+        }
+        {
+          title: ignoredElements
+          description: Make Vue ignore custom elements defined outside of Vue (e.g. using the Web Components APIs).
+          type: Array<string | RegExp>
+          default: `[]`
+          link: https://vuejs.org/v2/api/#ignoredElements
+          usage: {
+            lang: js
+            code: '''
+                Vue.config.ignoredElements = [
+                    'my-custom-web-component'
+                ]
+            '''
+          }
+        }
+        {
+          title: keyCodes
+          description: Define custom key alias(es) for `v-on`.
+          type: '{ [key: string]: number | Array<number> }'
+          default: '{}'
+          link: https://vuejs.org/v2/api/#keyCodes
+          usage: {
+            lang: js
+            code: '''
+                Vue.config.keyCodes = {
+                    "media-play-pause": 179,
+                    up: [38, 87]
+                }
+            '''
+          }
+        }
+        {
+          title: performance
+          description: Set this to true to enable component init, compile, render and patch performance tracing in the browser devtool performance/timeline panel. Only works in development mode and in browsers that support the performance.mark API.
+          type: boolean
+          default: 'false (from 2.2.3+)'
+          version: 2.2.0+
+          link: https://vuejs.org/v2/api/#performance
+          see: [
+            https://developer.mozilla.org/en-US/docs/Web/API/Performance/mark
+          ]
+        }
+        {
+          title: productionTip
+          description: Set this to `false` to prevent the production tip on Vue startup.
+          type: boolean
+          default: true
+          version: 2.2.0+
+          link: https://vuejs.org/v2/api/#productionTip
+        }
+      ]
+    }
+    {
+      title: Global API
+      items: [
+        {
+          id: extend
+          description: Create a “subclass” of the base Vue constructor.
+          title: Vue.extend( options )
+          aliases: [
+            Vue.extend
+          ]
+          arguments: [
+            '{Object} options'
+          ]
+          link: https://vuejs.org/v2/api/#Vue-extend
+          see: [
+            https://vuejs.org/v2/guide/components.html
+          ]
+        }
+        {
+          id: nextTick
+          title: Vue.nextTick( [callback, context] )
+          description: Defer the callback to be executed after the next DOM update cycle.
+          aliases: [
+            Vue.nextTick
+          ]
+          arguments: [
+            '{Function} [callback]'
+            '{Object} [context]'
+          ]
+          link: https://vuejs.org/v2/api/#Vue-nextTick
+          see: [
+            https://vuejs.org/v2/guide/reactivity.html#Async-Update-Queue
+          ]
+        }
+        {
+          id: set
+          title: Vue.set( target, propertyName/index, value )
+          description: Adds a property to a reactive object, ensuring the new property is also reactive, so that it triggers view updates.
+          aliases: [
+            Vue.set
+          ]
+          arguments: [
+          '{Object | Array} target'
+          '{string | number} propertyName/index'
+          '{any} value'
+          ]
+          returns: the set value
+          link: https://vuejs.org/v2/api/#Vue-set
+          see: [
+            https://vuejs.org/v2/guide/reactivity.html
+          ]
+        }
+        {
+          id: delete
+          title: Vue.delete( target, propertyName/index )
+          description: Delete a property on an object. If the object is reactive, ensure the deletion triggers view updates.
+          aliases: [
+            Vue.delete
+          ]
+          arguments: [
+            '{Object | Array} target'
+            '{string | number} propertyName/index'
+          ]
+          link: https://vuejs.org/v2/api/#Vue-delete
+          see: [
+            https://vuejs.org/v2/guide/reactivity.html
+          ]
+        }
+        {
+          id: directive
+          title: Vue.directive( id, [definition] )
+          description: Register or retrieve a global directive.
+          aliases: [
+            Vue.directive
+          ]
+          arguments: [
+            '{string} id'
+            '{Function | Object} [definition]'
+          ]
+          link: https://vuejs.org/v2/api/#Vue-directive
+          see: [
+            https://vuejs.org/v2/guide/custom-directive.html
+          ]
+        }
+        {
+          id: filter
+          title: Vue.filter( id, [definition] )
+          description: Register or retrieve a global filter.
+          aliases: [
+            Vue.filter
+          ]
+          arguments: [
+          '{string} id'
+          '{Function} [definition]'
+          ]
+          link: https://vuejs.org/v2/api/#Vue-filter
+          see: [
+            https://vuejs.org/v2/guide/filters.html
+          ]
+        }
+        {
+          id: component
+          title: Vue.component( id, [definition] )
+          description: '''
+            Register or retrieve a global component.
+
+            **NOTE:** Looking for the component? Try `!api <component>`.
+          '''
+          aliases: [
+            Vue.component
+          ]
+          arguments: [
+            '{string} id'
+            '{Function | Object} [definition]'
+          ]
+          link: https://vuejs.org/v2/api/#Vue-component
+          see: [
+            https://vuejs.org/v2/guide/components.html
+          ]
+        }
+        {
+          id: use
+          title: Vue.use( plugin )
+          description: Install a Vue.js plugin.
+          aliases: [
+            Vue.use
+          ]
+          arguments: [
+            '{Object | Function} plugin'
+          ]
+          link: https://vuejs.org/v2/api/#Vue-use
+          see: [
+            https://vuejs.org/v2/guide/plugins.html
+          ]
+        }
+        {
+          id: mixin
+          title: Vue.mixin( mixin )
+          description: Apply a mixin globally, which affects every Vue instance created afterwards.
+          aliases: [
+            Vue.mixin
+          ]
+          arguments: [
+            '{Object} mixin'
+          ]
+          link: https://vuejs.org/v2/api/#Vue-mixin
+          see: [
+            https://vuejs.org/v2/guide/mixins.html#Global-Mixin
+          ]
+        }
+        {
+          id: compile
+          title: Vue.compile( template )
+          description: Compiles a template string into a render function. **Only available in the full build.**
+          aliases: [
+            Vue.compile
+          ]
+          arguments: [
+            '{string} template'
+          ]
+          link: https://vuejs.org/v2/api/#Vue-compile
+          see: [
+            https://vuejs.org/v2/guide/render-function.html
+          ]
+        }
+        {
+          id: observable
+          title: Vue.observable( object )
+          description: Make an object reactive. Internally, Vue uses this on the object returned by the `data` function.
+          aliases: [
+            Vue.observable
+          ]
+          arguments: [
+            '{Object} object'
+          ]
+          link: https://vuejs.org/v2/api/#Vue-observable
+          see: [
+            https://vuejs.org/v2/guide/reactivity.html
+          ]
+        }
+        {
+          title: Vue.version
+          description: Provides the installed version of Vue as a string.
+          aliases: [
+            version
+          ]
+          link: https://vuejs.org/v2/api/#Vue-version
+        }
+      ]
+    }
+    {
+      title: "Options / Data"
+      items: [
+        {
+          title: data
+          description: The data object for the Vue instance. Vue will recursively convert its properties into getter/setters to make it “reactive”.
+          type: Object | Function
+          link: https://vuejs.org/v2/api/#data
+          see: [
+            https://vuejs.org/v2/guide/reactivity.html
+          ]
+        }
+        {
+          title: props
+          description: A list/hash of attributes that are exposed to accept data from the parent component.
+          type: Array<string> | Object
+          link: https://vuejs.org/v2/api/#props
+          see: [
+            https://vuejs.org/v2/guide/components-props.html
+          ]
+        }
+        {
+          title: propsData
+          description: Pass props to an instance during its creation.
+          type: '{ [key: string]: any }'
+          link: https://vuejs.org/v2/api/#propsData
+        }
+        {
+          title: computed
+          description: Computed properties to be mixed into the Vue instance.
+          type: '{ [key: string]: Function | { get: Function, set: Function } }'
+          link: https://vuejs.org/v2/api/#computed
+          see: [
+            https://vuejs.org/v2/guide/computed.html
+          ]
+        }
+        {
+          title: methods
+          description: Methods to be mixed into the Vue instance.
+          type: '{ [key: string]: Function'
+          link: https://vuejs.org/v2/api/#methods
+          see: [
+            https://vuejs.org/v2/guide/events.html
+          ]
+        }
+        {
+          title: watch
+          description: An object where keys are expressions to watch and values are the corresponding callbacks.
+          type: '{ [key: string]: string | Function | Object | Array}'
+          link: https://vuejs.org/v2/api/#watch
+          see: [
+            https://vuejs.org/v2/api/#vm-watch
+          ]
+        }
+      ]
+    }
+    {
+      title: Options / DOM
+      items: [
+        {
+          title: el
+          description: Provide the Vue instance an existing DOM element to mount on.
+          type: string | Element
+          link: https://vuejs.org/v2/api/#el
+          see: [
+            https://vuejs.org/v2/guide/instance.html#Lifecycle-Diagram
+            https://vuejs.org/v2/guide/installation.html#Runtime-Compiler-vs-Runtime-only
+          ]
+        }
+        {
+          title: template
+          description: A string template to be used as the markup for the Vue instance.
+          type: string
+          link: https://vuejs.org/v2/api/#template
+          see: [
+            https://vuejs.org/v2/guide/instance.html#Lifecycle-Diagram
+            https://vuejs.org/v2/guide/components.html#Content-Distribution-with-Slots
+          ]
+        }
+        {
+          title: render
+          description: An alternative to string templates allowing you to leverage the full programmatic power of JavaScript.
+          type: (createElement: () => VNode) => VNode
+          link: https://vuejs.org/v2/api/#render
+          see: [
+            https://vuejs.org/v2/guide/render-function.html
+          ]
+        }
+        {
+          title: renderError
+          description: Provide an alternative render output when the default `render` function encounters an error.
+          type: (createElement: () => VNode, error: Error) => Vnode
+          version: 2.2.0+
+          link: https://vuejs.org/v2/api/#renderError
+          see: [
+            https://vuejs.org/v2/guide/render-function.html
+          ]
+        }
+      ]
+    }
+    {
+      title: Options / Lifecycle Hooks
+      items: [
+        {
+          title: beforeCreate
+          description: Called synchronously immediately after the instance has been initialized.
+          aliases: [
+            before create
+          ]
+          type: Function
+          link: https://vuejs.org/v2/api/#beforeCreate
+          see: [
+            https://vuejs.org/v2/guide/instance.html#Lifecycle-Diagram
+          ]
+        }
+        {
+          title: created
+          description: Called synchronously after the instance is created.
+          type: Function
+          link: https://vuejs.org/v2/api/#created
+          see: [
+            https://vuejs.org/v2/guide/instance.html#Lifecycle-Diagram
+          ]
+        }
+        {
+          title: beforeMount
+          description: Called right before the mounting begins.
+          aliases: [
+            before mount
+          ]
+          type: Function
+          link: https://vuejs.org/v2/api/#beforeMount
+          see: [
+            https://vuejs.org/v2/guide/instance.html#Lifecycle-Diagram
+          ]
+        }
+        {
+          title: mounted
+          description: Called after the instance has been mounted.
+          type: Function
+          link: https://vuejs.org/v2/api/#mounted
+          see: [
+            https://vuejs.org/v2/guide/instance.html#Lifecycle-Diagram
+          ]
+        }
+        {
+          title: beforeUpdate
+          description: Called when data changes, before the DOM is patched.
+          aliases: [
+            before update
+          ]
+          type: Function
+          link: https://vuejs.org/v2/api/#beforeUpdate
+          see: [
+            https://vuejs.org/v2/guide/instance.html#Lifecycle-Diagram
+          ]
+        }
+        {
+          title: updated
+          description: Called after a data change causes the virtual DOM to be re-rendered and patched.
+          type: Function
+          link: https://vuejs.org/v2/api/#updated
+          see: [
+            https://vuejs.org/v2/guide/instance.html#Lifecycle-Diagram
+          ]
+        }
+        {
+          title: activated
+          description: Called when a kept-alive component is activated.
+          type: Function
+          link: https://vuejs.org/v2/api/#activated
+          see: [
+            https://vuejs.org/v2/api/#keep-alive
+            https://vuejs.org/v2/guide/components.html#keep-alive
+          ]
+        }
+        {
+          title: deactivated
+          description: Called when a kept-alive component is deactivated. 
+          type: Function
+          link: https://vuejs.org/v2/api/#deactivated
+          see: [
+            https://vuejs.org/v2/api/#keep-alive
+            https://vuejs.org/v2/guide/components.html#keep-alive
+          ]
+        }
+        {
+          title: beforeDestroy
+          description: Called right before a Vue instance is destroyed.
+          aliases: [
+            before destroy
+          ]
+          type: Function
+          link: https://vuejs.org/v2/api/#beforeDestroy
+          see: [
+            https://vuejs.org/v2/guide/instance.html#Lifecycle-Diagram
+          ]
+        }
+        {
+          title: destroyed
+          description: Called after a Vue instance has been destroyed.
+          type: Function
+          link: https://vuejs.org/v2/api/#destroyed
+          see: [
+            https://vuejs.org/v2/guide/instance.html#Lifecycle-Diagram
+          ]
+        }
+        {
+          title: errorCaptured
+          description: Called when an error from any descendent component is captured.
+          aliases: [
+            error captured
+          ]
+          type: '(err: Error, vm: Component, info: string) => ?boolean'
+          link: https://vuejs.org/v2/api/#errorCaptured
+          see: [
+            
+          ]
+        }
+      ]
+    }
+    {
+      title: Options / Assets
+      items: [
+        {
+          title: directives
+          description: A hash of directives to be made available to the Vue instance.
+          type: Object
+          link: https://vuejs.org/v2/api/#directives
+          see: [
+            https://vuejs.org/v2/guide/custom-directive.html
+          ]
+        }
+        {
+          title: filters
+          description: A hash of filters to be made available to the Vue instance.
+          type: Object
+          link: https://vuejs.org/v2/api/#filters
+          see: [
+            https://vuejs.org/v2/api/#Vue-filter
+          ]
+        }
+        {
+          title: components
+          description: A hash of components to be made available to the Vue instance.
+          type: Object
+          link: https://vuejs.org/v2/api/#components
+          see: [
+            https://vuejs.org/v2/guide/components.html
+          ]
+        }
+      ]
+    }
+    {
+      title: Options / Composition
+      items: [
+        {
+          title: parent
+          description: Specify the parent instance for the instance to be created.
+          type: Vue instance
+          link: https://vuejs.org/v2/api/#parent
+        }
+        {
+          title: mixins
+          description: Accepts an array of mixin objects, which can contain instance options (like normal instance objects), to be merged against the eventual options, as in `Vue.extend()`.
+          type: Array<Object>
+          link: https://vuejs.org/v2/api/#mixins
+          see: [
+            https://vuejs.org/v2/guide/mixins.html
+          ]
+        }
+        {
+          title: extends
+          description: Allows declaratively extending another component (either a plain options object or a constructor) without having to use `Vue.extend`.
+          type: Object | Function
+          link: https://vuejs.org/v2/api/#extends
+        }
+        {
+          title: provide
+          description: '''
+            Allow an ancestor component to serve as a dependency injector for all its descendants, regardless of how deep the component hierarchy is, as long as they are in the same parent chain.
+
+            **NOTE:** See also `!api inject`.
+          '''
+          aliases: [
+            provide/inject
+          ]
+          type: Object | () => Object
+          link: https://vuejs.org/v2/api/#provide-inject
+        }
+        {
+          title: inject
+          description: '''
+            Allow an ancestor component to serve as a dependency injector for all its descendants, regardless of how deep the component hierarchy is, as long as they are in the same parent chain.
+            
+            **NOTE:** See also `!api provide`.
+          '''
+          type: Array<string> | { [key: string]: string | Symbol | Object }
+          link: https://vuejs.org/v2/api/#provide-inject
+        }
+      ]
+    }
+    {
+      title: Options / Misc.
+      items: [
+        {
+          title: name
+          description: Specifying a name allow the component to recursively invoke itself in its template and aids debugging.
+          type: string
+          link: https://vuejs.org/v2/api/#name
+        }
+        {
+          title: delimiters
+          description: Change the plain text interpolation delimiters.
+          type: Array<string>
+          default: '["{{", "}}"]'
+          link: https://vuejs.org/v2/api/#delimiters
+          usage: {
+            lang: js
+            code: '''
+                new Vue({
+                    delimiters: ['${', '}']
+                })
+            '''
+          }
+        }
+        {
+          title: functional
+          description: Causes a component to be stateless (no `data`) and instanceless (no `this` context).
+          type: boolean
+          link: https://vuejs.org/v2/api/#functional
+          see: [
+            https://vuejs.org/v2/guide/render-function.html#Functional-Components
+          ]
+        }
+        {
+          title: model
+          description: Allows a custom component to customize the prop and event used when it’s used with `v-model`.
+          type: '{ prop?: string, event?: string }'
+          version: 2.2.0+
+          link: https://vuejs.org/v2/api/#model
+        }
+        {
+          title: inheritAttrs
+          description: Enable or disable fallthrough of non-recognised props from parent scopes attribute bindings.
+          type: boolean
+          default: 'true'
+          version: 2.4.0+
+          link: https://vuejs.org/v2/api/#inheritAttrs
+        }
+        {
+          title: comments
+          description: Whether to preserve or discard HTML comments found in templates.
+          type: boolean
+          default: 'false'
+          version: 2.4.0+
+        }
+      ]
+    }
+    {
+      title: Instance Properties
+      items: [
+        {
+          title: vm.$data
+          description: The data object that the Vue instance is observing.
+          aliases: [
+            $data
+          ]
+          type: Object
+          link: https://vuejs.org/v2/api/#vm-data
+        }
+        {
+          title: vm.$props
+          description: An object representing the current props a component has received.
+          aliases: [
+            $props
+          ]
+          type: Object
+          link: https://vuejs.org/v2/api/#vm-props
+        }
+        {
+          title: vm.$el
+          description: The root DOM element that the Vue instance is managing.
+          aliases: [
+            $el
+          ]
+          type: Element
+          link: https://vuejs.org/v2/api/#vm-el
+        }
+        {
+          title: vm.$options
+          description: The instantiation options used for the current Vue instance.
+          aliases: [
+            $options
+          ]
+          type: Object
+          link: https://vuejs.org/v2/api/#vm-options
+        }
+        {
+          title: vm.$parent
+          description: The parent instance, if the current instance has one.
+          aliases: [
+            $parent
+          ]
+          type: Vue instance
+          link: https://vuejs.org/v2/api/#vm-parent
+        }
+        {
+          title: vm.$root
+          description: The root Vue instance of the current component tree.
+          aliases: [
+            $root
+          ]
+          type: Vue instance
+          link: https://vuejs.org/v2/api/#vm-root
+        }
+        {
+          title: vm.$children
+          description: The direct child components of the current instance. **NOTE:** There’s no order guarantee for `$children` and it is not reactive.
+          aliases: [
+            $children
+          ]
+          type: Array<Vue instance>
+          link: https://vuejs.org/v2/api/#vm-children
+        }
+        {
+          title: vm.$slots
+          description: Used to programmatically access content distributed by slots.
+          aliases: [
+            $slots
+          ]
+          type: '{ [name: string]: ?Array<VNode> }'
+          link: https://vuejs.org/v2/api/#vm-slots
+          see: [
+            https://vuejs.org/v2/api/#slot
+            https://vuejs.org/v2/guide/components.html#Content-Distribution-with-Slots
+            https://vuejs.org/v2/guide/render-function.html#Slots
+          ]
+        }
+        {
+          title: vm.$scopedSlots
+          description: Used to programmatically access scoped slots.
+          aliases: [
+            $scopedSlots
+          ]
+          type: '{ [name: string]: props => Array<VNode> | undefined }'
+          link: https://vuejs.org/v2/api/#vm-scopedSlots
+          version: 2.1.0+
+          see: [
+            https://vuejs.org/v2/api/#slot
+            https://vuejs.org/v2/guide/components.html#Scoped-Slots
+            https://vuejs.org/v2/guide/render-function.html#Slots
+          ]
+        }
+        {
+          title: vm.$refs
+          description: An object of DOM elements and component instances, registered with `ref` attributes.
+          aliases: [
+            $refs
+          ]
+          type: Object
+          link: https://vuejs.org/v2/api/#vm-refs
+          see: [
+            https://vuejs.org/v2/guide/components.html#Child-Component-Refs
+            https://vuejs.org/v2/api/#ref
+          ]
+        }
+        {
+          title: vm.$isServer
+          description: Whether the current Vue instance is running on the server.
+          aliases: [
+            $isServer
+          ]
+          type: boolean
+          link: https://vuejs.org/v2/api/#vm-isServer
+          see: [
+            https://vuejs.org/v2/guide/ssr.html
+          ]
+        }
+        {
+          title: vm.$attrs
+          description: Contains parent-scope attribute bindings (except for `class` and `style`) that are not recognized (and extracted) as props.
+          aliases: [
+            $attrs
+          ]
+          type: '{ [key: string]: string }'
+          link: https://vuejs.org/v2/api/#vm-attrs
+          version: 2.4.0+
+        }
+        {
+          title: vm.$listeners
+          description: Contains parent-scope `v-on` event listeners (without `.native` modifiers).
+          aliases: [
+            $listeners
+          ]
+          type: '{ [key: string]: Function | Array<Function> }'
+          link: https://vuejs.org/v2/api/#vm-listeners
+          version: 2.4.0+
+        }
+      ]
+    }
+    {
+      title: Instance Methods / Data
+      items: [
+        {
+          id: vm.$watch
+          title: vm.$watch (expOrFn, callback, [options] )
+          description: Watch an expression or a computed function on the Vue instance for changes. 
+          aliases: [
+            $watch
+          ]
+          arguments: [
+            '{string | Function} expOrFn'
+            '{Function | Object} callback'
+            '{Object} [options]'
+              // {boolean} deep
+              // {boolean} immediate
+          ]
+          returns: '{Function} unwatch'
+          link: https://vuejs.org/v2/api/#vm-watch
+        }
+        {
+          id: vm.$set
+          title: vm.$set( target, propertyName/index, value )
+          description: This is the alias of the global `Vue.set`.
+          aliases: [
+            $set
+          ]
+          arguments: [
+            '{Object | Array} target'
+            '{string | number} propertyName/index'
+            '{any} value'
+          ]
+          returns: the set value
+          link: https://vuejs.org/v2/api/#vm-set
+          see: [
+            https://vuejs.org/v2/api/#Vue-set
+          ]
+        }
+        {
+          id: vm.$delete
+          description: This is the alias of the global `Vue.delete`.
+          title: vm.$delete( target, propertyName/index )
+          aliases: [
+            $delete
+          ]
+          arguments: [
+            '{Object | Array} target'
+            '{string | number} propertyName/index'
+          ]
+          returns: .
+          link: https://vuejs.org/v2/api/#vm-delete
+          see: [
+            https://vuejs.org/v2/api/#Vue-delete
+          ]
+        }
+      ]
+    }
+    {
+      title: Instance Methods / Events
+      items: [
+        {
+          id: vm.$on
+          title: vm.$on( event, callback )
+          description: Listen for a custom event on the current vm.
+          aliases: [
+            $on
+          ]
+          arguments: [
+            '{string | Array<string>} event (array only supported in 2.2.0+)'
+            '{Function} callback'
+          ]
+          link: https://vuejs.org/v2/api/#vm-on
+        }
+        {
+          id: vm.$once
+          title: vm.$once( event, callback )
+          description: Listen for a custom event, but only once.
+          aliases: [
+            $once
+          ]
+          arguments: [
+            '{string} event'
+            '{Function} callback'
+          ]
+          link: https://vuejs.org/v2/api/#vm-once
+        }
+        {
+          id: vm.$off
+          title: vm.$off( [event, callback] )
+          description: Remove custom event listener(s).
+          aliases: [
+            $off
+          ]
+          arguments: [
+            '{string | Array<string>} event (array only supported in 2.2.2+)'
+            '{Function} [callback]'
+          ]
+          link: https://vuejs.org/v2/api/#vm-once
+        }
+        {
+          id: vm.$emit
+          title: vm.$emit( eventName, [...args] )
+          description: Trigger an event on the current instance.
+          aliases: [
+            $emit
+          ]
+          arguments: [
+            '{string} eventName'
+            '[...args]'
+          ]
+          link: https://vuejs.org/v2/api/#vm-emit
+        }
+      ]
+    }
+    {
+      title: Instance Methods / LifeCycle
+      items: [
+        {
+          id: vm.$mount
+          title: vm.$mount( [elementOrSelector] )
+          description: Manually start the mounting of an unmounted Vue instance.
+          aliases: [
+            $mount
+          ]
+          arguments: [
+            '{Element | string} [elementOrSelector]'
+            '{boolean} [hydrating]'
+          ]
+          returns: vm - the instance itself
+          link: https://vuejs.org/v2/api/#vm-mount
+          see: [
+            https://vuejs.org/v2/guide/instance.html#Lifecycle-Diagram
+            https://vuejs.org/v2/guide/ssr.html
+          ]
+        }
+        {
+          id: vm.$forceUpdate
+          title: vm.$forceUpdate()
+          description: Force the Vue instance to re-render.
+          aliases: [
+            $forceUpdate
+          ]
+          link: https://vuejs.org/v2/api/#vm-forceUpdate
+        }
+        {
+          id: vm.$nextTick
+          title: vm.$nextTick( [callback] )
+          description: Defer the callback to be executed after the next DOM update cycle.
+          aliases: [
+            $nextTick
+          ]
+          arguments: [
+            '{Function} [callback]'
+          ]
+          link: https://vuejs.org/v2/api/#vm-nextTick
+          see: [
+            https://vuejs.org/v2/api/#Vue-nextTick
+            https://vuejs.org/v2/guide/reactivity.html#Async-Update-Queue
+          ]
+        }
+        {
+          id: vm.$destroy
+          title: vm.$destroy()
+          description: Completely destroy a vm. 
+          aliases: [
+            $destroy
+          ]
+          link: https://vuejs.org/v2/api/#vm-destroy
+          see: [
+            https://vuejs.org/v2/guide/instance.html#Lifecycle-Diagram
+          ]
+        }
+      ]
+    }
+    {
+      title: Directives
+      items: [
+        {
+          title: v-text
+          description: Updates the element’s `textContent`.
+          aliases: [
+            text
+          ]
+          link: https://vuejs.org/v2/api/#v-text
+          see: [
+            https://vuejs.org/v2/guide/syntax.html#Text
+          ]
+          usage: {
+            lang: html
+            code: '''
+                <span v-text="msg"></span>
+            '''
+          }
+        }
+        {
+          title: v-html
+          description: Updates the element's `innerHTML`.
+          link: https://vuejs.org/v2/api/#v-html
+          see: [
+            https://vuejs.org/v2/guide/syntax.html#Raw-HTML
+          ]
+          usage: {
+            lang: html
+            code: '''
+                <div v-html="html"></div>
+            '''
+          }
+        }
+        {
+          title: v-show
+          description: Toggles the element’s `display` CSS property based on the truthy-ness of the expression value.
+          link: https://vuejs.org/v2/api/#v-show
+          see: [
+            https://vuejs.org/v2/guide/conditional.html#v-show
+          ]
+          usage: {
+            lang: html
+            code: '''
+                <div v-show="shouldDisplay"></div>
+            '''
+          }
+        }
+        {
+          title: v-if
+          description: Conditionally render the element based on the truthy-ness of the expression value. 
+          aliases: [
+            if
+          ]
+          link: https://vuejs.org/v2/api/#v-if
+          see: [
+            https://vuejs.org/v2/guide/conditional.html
+          ]
+          usage: {
+            lang: html
+            code: '''
+                <div v-if="shouldRender"></div>
+            '''
+          }
+        }
+        {
+          title: v-else
+          description: Denote the “else block” for `v-if` or a `v-if`/`v-else-if` chain.
+          aliases: [
+            else
+          ]
+          link: https://vuejs.org/v2/api/#v-else
+          see: [
+            https://vuejs.org/v2/guide/conditional.html#v-else
+          ]
+        }
+        {
+          title: v-else-if
+          description: Denote the “else-if block” for `v-if`. Can be chained.
+          aliases: [
+            elseif
+            else-if
+          ]
+          link: https://vuejs.org/v2/api/#v-else-if
+          version: 2.1.0+
+          see: [
+            https://vuejs.org/v2/guide/conditional.html#v-else-if
+          ]
+        }
+        {
+          title: v-for
+          description: Render the element or template block multiple times based on the source data.
+          aliases: [
+            for
+          ]
+          link: https://vuejs.org/v2/api/#v-for
+          see: [
+            https://vuejs.org/v2/guide/list.html
+            https://vuejs.org/v2/guide/list.html#key
+          ]
+          usage: {
+            lang: html
+            code: '''
+                <div v-for="item in items">
+                    {{ item.text }}
+                </div>
+            '''
+          }
+        }
+        {
+          title: v-on
+          description: Attaches an event listener to the element.
+          aliases: [
+            @
+            on
+          ]
+          link: https://vuejs.org/v2/api/#v-on
+          see: [
+            https://vuejs.org/v2/guide/events.html
+            https://vuejs.org/v2/guide/components.html#Custom-Events
+          ]
+          usage: {
+            lang: html
+            code: '''
+                <button v-on:click="handleClick"></button>
+                <!-- shorthand: -->
+                <button @click="handleClick"></button>
+            '''
+          }
+        }
+        {
+          title: v-bind
+          description: Dynamically bind one or more attributes, or a component prop to an expression.
+          aliases: [
+            ':'
+          ]
+          link: https://vuejs.org/v2/api/#v-bind
+          see: [
+            https://vuejs.org/v2/guide/class-and-style.html
+            https://vuejs.org/v2/guide/components.html#Props
+            https://vuejs.org/v2/guide/components.html#sync-Modifier
+          ]
+          usage: {
+            lang: html
+            code: '''
+                <img v-bind:src="imageSrc">
+            '''
+          }
+        }
+        {
+          title: v-model
+          description: Create a two-way binding on a form input element or a component.
+          link: https://vuejs.org/v2/api/#v-model
+          see: [
+            https://vuejs.org/v2/guide/forms.html
+            https://vuejs.org/v2/guide/components.html#Form-Input-Components-using-Custom-Events
+          ]
+          usage: {
+            lang: html
+            code: '''
+                <input type="text" v-model="userInput" />
+            '''
+          }
+        }
+        {
+          title: v-slot
+          description: Denote named slots or slots that expect to receive props.
+          aliases: [
+            '#'
+          ]
+          link: https://vuejs.org/v2/api/#v-slot
+          see: [
+            https://vuejs.org/v2/guide/components-slots.html
+            https://github.com/vuejs/rfcs/blob/master/active-rfcs/0001-new-slot-syntax.md
+          ]
+          usage: {
+            lang: html
+            code: '''
+                <template v-slot:header>
+                    Header content
+                </template>
+            '''
+          }
+        }
+        {
+          title: v-pre
+          description: Skip compilation for this element and all its children.
+          aliases: [
+            pre
+          ]
+          link: https://vuejs.org/v2/api/#v-pre
+          usage: {
+            lang: html
+            code: '''
+                <span v-pre>
+                    This will not be compiled: {{ msg }}.
+                </span>
+            '''
+          }
+        }
+        {
+          title: v-cloak
+          description: Used to hide uncompiled templates, when combined with CSS: `[v-cloak] { display: none }`.
+          link: https://vuejs.org/v2/api/#v-cloak
+          usage: {
+            lang: html
+            code: '''
+                <div v-cloak>
+                    This will never display before template compilation: {{ msg }}.
+                </div>
+            '''
+          }
+        }
+        {
+          title: v-once
+          description: Render the element and component once only.
+          link: https://vuejs.org/v2/api/#v-once
+          see: [
+            https://vuejs.org/v2/guide/syntax.html#Text
+            https://vuejs.org/v2/guide/components.html#Cheap-Static-Components-with-v-once
+          ]
+          usage: {
+            lang: html
+            code: '''
+                <span v-once>
+                    This will never change: {{msg}}.
+                </span>
+            '''
+          }
+        }
+      ]
+    }
+    {
+      title: Special Attributes
+      items: [
+        {
+          title: key
+          description: Used as a hint for Vue’s virtual DOM algorithm, to identify VNodes when diffing the new list of nodes against the old list.
+          link: https://vuejs.org/v2/api/#key
+          see: [
+            https://vuejs.org/v2/guide/list.html#Maintaining-State
+          ]
+        }
+        {
+          title: ref
+          description: Used to register a reference to an element or a child component.
+          aliases: [
+            reference
+          ]
+          link: https://vuejs.org/v2/api/#ref
+          see: [
+            https://vuejs.org/v2/guide/components.html#Child-Component-Refs
+          ]
+        }
+        {
+          title: is
+          description: Used for dynamic components and to work around limitations in-DOM templates.
+          link: https://vuejs.org/v2/api/#is
+          see: [
+            https://vuejs.org/v2/guide/components.html#Dynamic-Components
+            https://vuejs.org/v2/guide/components.html#DOM-Template-Parsing-Caveats
+          ]
+        }
+        {
+          id: attr:slot
+          title: slot
+          description: '''
+            Used on content inserted into child components to indicate which named slot the content belongs to.
+
+            **NOTE:** Looking for the component? Try `!api <slot>`.
+          '''
+          aliases: [
+            a:slot
+            slot
+          ]
+          link: https://vuejs.org/v2/api/#slot-deprecated
+          status: deprecated
+          see: [
+            https://vuejs.org/v2/api/#v-slot
+            https://vuejs.org/v2/guide/components.html#Named-Slots-with-slot
+          ]
+        }
+        {
+          title: slot-scope
+          description: Used to denote an element or component as a scoped slot.
+          link: https://vuejs.org/v2/api/#slot-scope-deprecated
+          status: deprecated
+          see: [
+            https://vuejs.org/v2/api/#slot-scope-deprecated
+            https://vuejs.org/v2/guide/components.html#Scoped-Slots-with-slot-scope
+          ]
+        }
+        {
+          title: scope
+          description: Used to denote a `<template>` element as a scoped slot.
+          link: https://vuejs.org/v2/api/#scope-removed
+          status: removed
+          see: [
+            https://vuejs.org/v2/api/#slot-scope
+            https://vuejs.org/v2/api/#v-slot
+          ]
+        }
+      ]
+    }
+    {
+      title: Built-in Components
+      items: [
+        {
+          title: <component>
+          description: A “meta component” for rendering dynamic components.
+          aliases: [
+            component
+          ]
+          props: [
+            'is - string | ComponentDefinition | ComponentConstructor'
+            'inline-template - boolean'
+          ]
+          link: https://vuejs.org/v2/api/#component
+          see: [
+            https://vuejs.org/v2/guide/components.html#Dynamic-Components
+          ]
+        }
+        {
+          title: <transition>
+          description: Serves as transition effects for single elements/components.
+          aliases: [
+            transition
+          ]
+          link: https://vuejs.org/v2/api/#transition
+          see: [
+            https://vuejs.org/v2/guide/transitions.html
+          ]
+        }
+        {
+          title: <transition-group>
+          description: Serves as transition effects for multiple elements/components. 
+          aliases: [
+            transition-group
+          ]
+          props: [
+            'tag - string, defaults to span.'
+            'move-class - overwrite CSS class applied during moving transition.'
+            'exposes the same props as <transition> except mode.'
+          ]
+          link: https://vuejs.org/v2/api/#transition-group
+          see: [
+            https://vuejs.org/v2/guide/transitions.html
+          ]
+        }
+        {
+          title: <keep-alive>
+          description: Caches inactive component instances without destroying them.
+          aliases: [
+            keep-alive
+          ]
+          props: [
+            'include - string'
+            'exclude - string'
+            'max - number'
+          ]
+          link: https://vuejs.org/v2/api/#keep-alive
+          see: [
+            https://vuejs.org/v2/guide/components.html#keep-alive
+          ]
+          usage: {
+            lang: html
+            code: '''
+                <keep-alive>
+                    <component :is="view" />
+                </keep-alive>
+            '''
+          }
+        }
+        {
+          title: <slot>
+          description: '''
+            Serves as content distribution outlets in component templates.
+
+            **NOTE**: Looking for the attribute? Try `!api slot`.
+          '''
+          aliases: [
+            c:slot
+            comp:slot
+          ]
+          link: https://vuejs.org/v2/api/#slot
+          props: [
+            'name - string'
+          ]
+          see: [
+            https://vuejs.org/v2/guide/components.html#Content-Distribution-with-Slots
+          ]
+        }
+      ]
+    }
+  ]
+}
+
+/*
+  TODO:
+    Directives:
+      - expects?
+      - arguments?
+      - limited to?
+    
+    Components:
+      - props?
+      - events?
+    
+    Other:
+      - maybe add some more info. for some of the smaller/shorter items?
+*/
