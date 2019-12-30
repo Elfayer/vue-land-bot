@@ -1,7 +1,8 @@
 import { RichEmbed } from 'discord.js'
 import { EMPTY_MESSAGE, DISCORD_EMBED_FIELD_LIMIT } from './constants'
 import { CommandMessage } from 'discord.js-commando'
-const DEFAULT_EMBED_COLOUR = '#42b883'
+
+export const DEFAULT_EMBED_COLOUR = '#42b883'
 
 export function embedMessage(title, description) {
   return new RichEmbed()
