@@ -53,6 +53,12 @@ module.exports = class DevelopmentPaginateCommand extends Command {
           type: 'boolean',
           prompt: 'only allow the author to paginate?',
         },
+        {
+          key: 'addRequestedBy',
+          type: 'boolean',
+          prompt: 'show the author details in the embed?',
+          default: true,
+        },
       ],
       examples: [
         '!paginate 5 - Five items per page',
@@ -60,6 +66,7 @@ module.exports = class DevelopmentPaginateCommand extends Command {
         "!paginate 5 30000 false - As above, plus: Don't show details in footer.",
         '!paginate 5 30000 false true - As above, plus: Force all fields to be inline.',
         '!paginate 5 30000 false true false - As above, plus: Allow others to paginate.',
+        '!paginate 5 30000 false true false true - As above, plus: Show author details.',
       ],
       group: 'development',
       guildOnly: false,

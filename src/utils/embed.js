@@ -18,6 +18,7 @@ export function embedMessage(title, description) {
  * @property {boolean} [showDetailsInFooter=true] Show current/total page(s) in the footer?
  * @property {boolean} [inlineFields=false] Should all fields be specified as inline?
  * @property {boolean} [authorOnly=true] Should only authors be allowed to paginate?
+ * @property {boolean} [addRequestedBy=true] Should we display the author on the embed?
  */
 
 const DEFAULT_ITEMS_PER_PAGE = 10
@@ -95,6 +96,13 @@ export async function respondWithPaginatedEmbed(
     options.authorOnly = true
   }
 
+  /*
+    By default we add the user's avatar and a little "$username requested:" to the embed.
+  */
+  if (typeof options.addRequestedBy === 'undefined') {
+    options.addRequestedBy = true
+  }
+
   const itemsCount = items.length
   let { itemsPerPage } = options
 
@@ -129,6 +137,17 @@ export async function respondWithPaginatedEmbed(
   */
   if (options.showDetailsInFooter) {
     embed.setFooter(`Page ${pageCurrent} of ${pageLast}.`)
+  }
+
+  /*
+    Add author.
+  */
+  if (options.addRequestedBy) {
+    embed.setAuthor(
+      (msg.member ? msg.member.displayName : msg.author.username) +
+        ' requested:',
+      msg.author.avatarURL
+    )
   }
 
   /*
