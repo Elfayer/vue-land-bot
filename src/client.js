@@ -6,6 +6,7 @@ import { CommandoClient } from 'discord.js-commando'
 const {
   OWNERS_IDS = '269617876036616193', // Default to @evan#9589
   COMMAND_PREFIX = '!',
+  NODE_ENV = 'development',
 } = process.env
 
 const PATH_JOBS = join(__dirname, 'jobs')
@@ -45,10 +46,6 @@ for (const file of jobFiles) {
 */
 client.registry.registerGroups([
   {
-    id: 'development',
-    name: 'Development',
-  },
-  {
     id: 'documentation',
     name: 'Documentation',
   },
@@ -69,6 +66,10 @@ client.registry.registerGroups([
     name: 'RFCs',
   },
 ])
+
+if (NODE_ENV === 'development') {
+  client.registry.registerGroup('development', 'Development')
+}
 
 /*
   Register default command groups, commands and argument types.
