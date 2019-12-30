@@ -1,5 +1,5 @@
 import { RichEmbed } from 'discord.js'
-import { EMPTY_MESSAGE } from './constants'
+import { EMPTY_MESSAGE, DISCORD_EMBED_FIELD_LIMIT } from './constants'
 import { CommandMessage } from 'discord.js-commando'
 const DEFAULT_EMBED_COLOUR = '#42b883'
 
@@ -57,9 +57,9 @@ export async function respondWithPaginatedEmbed(
     NOTE: API limits such as these are subject to change - should we move
           them all to a centralised location?
   */
-  if (options.itemsPerPage > 25) {
+  if (options.itemsPerPage > DISCORD_EMBED_FIELD_LIMIT) {
     throw new Error(
-      'Items per page may not exceed 25 due to Discord API limits.'
+      `Items per page may not exceed ${DISCORD_EMBED_FIELD_LIMIT} due to Discord API limits.`
     )
   }
 
@@ -105,7 +105,10 @@ export async function respondWithPaginatedEmbed(
   /*
     Compensate for extra (non-paginated) fields, if applicable.
   */
-  if (extraFields.length && itemsPerPage + extraFields.length > 25) {
+  if (
+    extraFields.length &&
+    itemsPerPage + extraFields.length > DISCORD_EMBED_FIELD_LIMIT
+  ) {
     itemsPerPage -= extraFields.length
   }
 
