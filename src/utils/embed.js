@@ -20,6 +20,8 @@ export function embedMessage(title, description) {
  * @property {boolean} [authorOnly=true] Should only authors be allowed to paginate?
  */
 
+const DEFAULT_ITEMS_PER_PAGE = 10
+
 /**
  * Allows paginating embeds!
  *
@@ -51,7 +53,7 @@ export async function respondWithPaginatedEmbed(
   }
 
   if (!options.itemsPerPage) {
-    options.itemsPerPage = 10
+    options.itemsPerPage = DEFAULT_ITEMS_PER_PAGE
   }
 
   /*
