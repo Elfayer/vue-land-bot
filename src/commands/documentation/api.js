@@ -120,6 +120,11 @@ module.exports = class DocumentationAPICommand extends Command {
       .setDescription(
         "I couldn't find that but perhaps you meant one of these:"
       )
+      .setThumbnail('attachment://vue.png')
+      .attachFile({
+        attachment: 'assets/images/icons/vue.png',
+        name: 'vue.png',
+      })
       .addField(
         'Potential Matches',
         results.map(result => inlineCode(result.id)).join(', ')
@@ -142,6 +147,11 @@ module.exports = class DocumentationAPICommand extends Command {
       )
       .setURL(api.link)
       .setFooter(`Category: ${api.category}`)
+      .setThumbnail('attachment://vue.png')
+      .attachFile({
+        attachment: 'assets/images/icons/vue.png',
+        name: 'vue.png',
+      })
 
     if (api.description) {
       embed.setDescription(api.description)
