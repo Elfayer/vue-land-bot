@@ -37,21 +37,25 @@ module.exports = class DevelopmentPaginateCommand extends Command {
           key: 'observeReactionsFor',
           type: 'integer',
           prompt: 'how long (in ms) to allow pagination for?',
+          default: 1000 * 60 * 2,
         },
         {
           key: 'showDetailsInFooter',
           type: 'boolean',
           prompt: 'show current page etc. in the footer?',
+          default: true,
         },
         {
           key: 'inlineFields',
           type: 'boolean',
           prompt: 'make all fields inline?',
+          default: false,
         },
         {
           key: 'authorOnly',
           type: 'boolean',
           prompt: 'only allow the author to paginate?',
+          default: true,
         },
         {
           key: 'addRequestedBy',
