@@ -19,6 +19,20 @@ export function embedMessage(title, description) {
  * @property {boolean} [inlineFields=false] Should all fields be specified as inline?
  * @property {boolean} [authorOnly=true] Should only authors be allowed to paginate?
  * @property {boolean} [addRequestedBy=true] Should we display the author on the embed?
+ * @property {boolean} [addExtraFieldsToInitialEmbed=false] Should extra fields also be added to the initial embed?
+ */
+
+/**
+ * @typedef {Object} PaginatedEmbedContext
+ * @property {CommandMessage} [msg] The message that triggered the initial command.
+ * @property {Channel} [channel] The channel the message belongs to.
+ * @property {RichEmbed} [embed] The embed passed to respondWithPaginatedEmbed.
+ * @property {Array<string|object|RichEmbed>} [items] The items passed to respondWithPaginatedEmbed.
+ * @property {Array<string|object>} [fields] The extra fields passed to respondWithPaginatedEmbed.
+ * @property {number} [itemsCount] The number of items.
+ * @property {number} [itemsPerPage] The number of items to display per page.
+ * @property {number} [pageCurrent] The current page.
+ * @property {number} [pageLast] The last page / total number of pages.
  */
 
 const DEFAULT_ITEMS_PER_PAGE = 10
@@ -28,22 +42,20 @@ const DEFAULT_ITEMS_PER_PAGE = 10
  *
  * @param {CommandMessage} msg The initial message which triggered the command.
  * @param {RichEmbed} embed The embed template (save for the to-be-paginated fields).
- * @param {Array<object, string>} items The items to paginate!
- * @param {Object} extraFields Any extra fields to add after the paginated fields.
+ * @param {Array<object|string|RichEmbed>} items An array of strings, field objects (name/value), or embeds to paginate.
+ * @param {Object} fields Any extra fields to add after the paginated fields.
  * @param {PaginatedEmbedOptions} options The options for the paginated embed.
  */
 export async function respondWithPaginatedEmbed(
   msg,
   embed,
   items,
-  extraFields = [],
+  fields = [],
   options = {}
 ) {
   if (!(msg instanceof CommandMessage)) {
     throw new Error('Invalid message passed!')
   }
-
-  const { author, channel } = msg
 
   if (!Array.isArray(items)) {
     throw new Error('Cannot paginate a non-array!')
@@ -55,17 +67,26 @@ export async function respondWithPaginatedEmbed(
 
   if (!options.itemsPerPage) {
     options.itemsPerPage = DEFAULT_ITEMS_PER_PAGE
-  }
-
-  if (options.itemsPerPage > DISCORD_EMBED_FIELD_LIMIT) {
+  } else if (options.itemsPerPage > DISCORD_EMBED_FIELD_LIMIT) {
     throw new Error(
       `Items per page may not exceed ${DISCORD_EMBED_FIELD_LIMIT} due to Discord API limits.`
     )
   }
 
   /*
+    If the pagination items are embeds then things work slightly differently.
+    Instead, the initial embed is treated as the first page and instead of just 
+    changing the fields of the initial embed, instead we change the entire embed.
+
+    This is useful for e.g. disambiguated results (e.g. `!api v-`).
+  */
+  if (!options.itemsAreEmbeds) {
+    options.itemsAreEmbeds = items.every(item => item instanceof RichEmbed)
+  }
+
+  /*
     Presumably the user will only want to paginate the fields immediately 
-    after initiating the command and only for a short time so in the interests 
+    after initiating the command and only for a short time, so in the interests 
     of efficiency/performance we stop observing reaction events after a while.
   */
   if (!options.observeReactionsFor) {
@@ -81,7 +102,7 @@ export async function respondWithPaginatedEmbed(
   }
 
   /*
-    If enabled the fields will be "inline" which in plain terms means that there'll be 
+    If enabled the fields will be "inline" which basically means that there'll be 
     3 columns of fields instead of 1, which ends up saving quite a lot of space!
   */
   if (typeof options.inlineFields === 'undefined') {
@@ -89,115 +110,248 @@ export async function respondWithPaginatedEmbed(
   }
 
   /*
-    By default only the author can paginate (the alternate is people fighting over the current 
-    page which is generally nothing more than annoying). However this is overrideable.
+    By default only the author can paginate (the alternative is people fighting 
+    over the it which is rather annoying). However, this is overrideable.
   */
   if (typeof options.authorOnly === 'undefined') {
     options.authorOnly = true
   }
 
   /*
-    By default we add the user's avatar and a little "$username requested:" to the embed.
+    By default we add the user's and name to the embed, above the title.
   */
   if (typeof options.addRequestedBy === 'undefined') {
     options.addRequestedBy = true
   }
 
-  const itemsCount = items.length
-  let { itemsPerPage } = options
+  /*
+    By default, when `itemsAreEmbeds` is `true` & `extraFields` are specified, we 
+    don't add the fields to the *initial* embed, only to the paginated item embeds.
+  */
+  if (typeof options.addExtraFieldsToInitialEmbed === 'undefined') {
+    options.addExtraFieldsToInitialEmbed = false
+  }
 
-  let pageCurrent = 1
-  const pageLast = Math.ceil(itemsCount / itemsPerPage)
+  /*
+    The context is passed to functions which can't access data via 
+    closures and holds pagination data and so on.
+  */
+  const context = {
+    msg,
+    channel: msg.channel,
+    embed: { ...embed },
+    items: [...items],
+    fields,
+    itemsCount: items.length,
+    itemsPerPage: options.itemsPerPage,
+    pageCurrent: 1,
+  }
+  context.pageLast = options.itemsAreEmbeds
+    ? context.itemsCount + 1 // Initial embed also counts as a page.
+    : Math.ceil(context.itemsCount / context.itemsPerPage)
 
   /*
     Compensate for extra (non-paginated) fields, if applicable.
   */
   if (
-    extraFields.length &&
-    itemsPerPage + extraFields.length > DISCORD_EMBED_FIELD_LIMIT
+    context.fields.length &&
+    context.itemsPerPage + context.fields.length > DISCORD_EMBED_FIELD_LIMIT
   ) {
-    itemsPerPage -= extraFields.length
+    context.itemsPerPage -= context.fields.length
   }
-
-  /*
-    1. Clear existing fields
-    2. Add paginated fields
-    3. Add non-paginated fields
-  */
-  embed.fields = []
-  embed = _addFieldsToEmbed(
-    embed,
-    items.slice(0, itemsPerPage),
-    options.inlineFields
-  )
-  embed = _addFieldsToEmbed(embed, extraFields, options.inlineFields)
 
   /*
     Add footer.
   */
   if (options.showDetailsInFooter) {
-    embed.setFooter(`Page ${pageCurrent} of ${pageLast}.`)
+    context.embed = _setFooter(context.embed, context)
   }
 
   /*
     Add author.
   */
   if (options.addRequestedBy) {
-    embed.setAuthor(
-      (msg.member ? msg.member.displayName : msg.author.username) +
-        ' requested:',
-      msg.author.avatarURL
+    context.embed = _setAuthor(context.embed, msg)
+
+    if (options.itemsAreEmbeds) {
+      context.items = context.items.map(item => _setAuthor(item, msg))
+    }
+  }
+
+  /*
+    Add extra fields.
+  */
+  if (options.itemsAreEmbeds) {
+    context.items = context.items.map(item =>
+      _addFieldsToEmbed(item, context.fields, options.inlineFields)
+    )
+
+    if (options.addExtraFieldsToInitialEmbed) {
+      context.embed = _addFieldsToEmbed(
+        context.embed,
+        context.fields,
+        options.inlineFields
+      )
+    }
+  } else {
+    /*
+      1. Clear existing fields
+      2. Add paginated fields for first page
+      3. Add non-paginated fields
+    */
+    context.embed.fields = []
+    context.embed = _addFieldsToEmbed(
+      context.embed,
+      items.slice(0, context.itemsPerPage),
+      options.inlineFields
+    )
+    context.embed = _addFieldsToEmbed(
+      context.embed,
+      context.fields,
+      options.inlineFields
     )
   }
 
   /*
     Send first page + add pagination buttons.
   */
-  const response = await channel.send(embed)
-  await response.react('⬅')
-  await response.react('➡')
+  // eslint-disable-next-line require-atomic-updates
+  context.response = await context.channel.send(EMPTY_MESSAGE, {
+    embed: context.embed,
+  })
+
+  await context.response.react('⏪')
+  await context.response.react('⬅')
+  await context.response.react('➡')
+  await context.response.react('⏩')
 
   /*
     Collect relevant reactions.
   */
-  const collector = response.createReactionCollector(
+  const collector = _createCollector(context, options)
+
+  /*
+    Handle pagination upon reaction.
+  */
+  collector.on('collect', _handlePagination(context, options))
+
+  /*
+    Clear pagination buttons after `observeReactionsFor` ms.
+  */
+  collector.on('end', () => {
+    // NOTE: The API disallows removing reactions in DMs.
+    if (context.channel.type !== 'dm') {
+      context.response.clearReactions()
+    }
+  })
+}
+
+/**
+ * Returns a reaction collector which only observes ⬅ / ➡ plus
+ * respects the `authorOnly` and `observeReactionsFor` options.
+ *
+ * @param {PaginatedEmbedContext} context The context.
+ * @param {PaginatedEmbedOptions} options The options.
+ * @returns {Collector} The collector.
+ */
+function _createCollector(
+  { msg, msg: { author }, response },
+  { authorOnly, observeReactionsFor }
+) {
+  return response.createReactionCollector(
     (reaction, user) => {
-      if (options.authorOnly && user.id !== author.id) {
+      if (authorOnly && user.id !== author.id) {
         return false
       }
 
       // NOTE: Avoids the bot triggering pagination when adding reactions!
-      if (!options.authorOnly && user.id === msg.client.user.id) {
+      if (!authorOnly && user.id === msg.client.user.id) {
         return false
       }
 
-      return ['⬅', '➡'].includes(reaction.emoji.name)
+      return ['⏪', '⬅', '➡', '⏩'].includes(reaction.emoji.name)
     },
     {
-      time: options.observeReactionsFor,
+      time: observeReactionsFor,
     }
   )
+}
 
-  /*
-    Handle reaction.
-  */
-  collector.on('collect', async reaction => {
-    if (reaction.emoji.name === '⬅') {
-      pageCurrent = Math.max(1, --pageCurrent)
-    } else if (reaction.emoji.name === '➡') {
-      pageCurrent = Math.min(pageLast, ++pageCurrent)
+/**
+ * Handles all actual pagination logic when the page changes.
+ *
+ * @param {PaginatedEmbedContext} context The context.
+ * @param {PaginatedEmbedOptions} options The options.
+ * @returns {Function} The function that will handle pagination.
+ */
+function _handlePagination(
+  {
+    response,
+    pageCurrent,
+    pageLast,
+    itemsPerPage,
+    embed,
+    items,
+    fields,
+    channel,
+    msg: { author },
+  },
+  { inlineFields, itemsAreEmbeds, showDetailsInFooter }
+) {
+  return async reaction => {
+    switch (reaction.emoji.name) {
+      case '⏪':
+        pageCurrent = 1
+        break
+      case '⬅':
+        pageCurrent = Math.max(1, --pageCurrent)
+        break
+      case '➡':
+        pageCurrent = Math.min(pageLast, ++pageCurrent)
+        break
+      case '⏩':
+        pageCurrent = pageLast
+        break
     }
 
-    const sliceFrom = (pageCurrent - 1) * itemsPerPage
-    const sliceTo = Math.min(pageCurrent * itemsPerPage, items.length)
-    const itemsForPage = items.slice(sliceFrom, sliceTo)
+    let responseEmbed
 
-    embed.fields = []
-    embed = _addFieldsToEmbed(embed, itemsForPage, options.inlineFields)
-    embed = _addFieldsToEmbed(embed, extraFields, options.inlineFields)
+    /*
+      NOTE: The pages are "human-friendly" so page 1 = index 0, however with 
+            the itemsAreEmbeds feature, the *initial* embed is separate and 
+            so in that case the offset is 2.
+    */
+    const pageIndex = itemsAreEmbeds ? pageCurrent - 2 : pageCurrent - 1
 
-    if (options.showDetailsInFooter) {
-      embed.setFooter(`Page ${pageCurrent} of ${pageLast}.`)
+    if (itemsAreEmbeds) {
+      responseEmbed = new RichEmbed(
+        pageCurrent === 1 ? { ...embed } : { ...items[pageIndex] }
+      )
+
+      if (showDetailsInFooter) {
+        responseEmbed = _setFooter(responseEmbed, { pageCurrent, pageLast })
+
+        if (pageCurrent > 1) {
+          responseEmbed.footer.text += ` | ${items[pageIndex].footer.text}`
+        }
+      }
+    } else {
+      const sliceFrom = (pageCurrent - 1) * itemsPerPage
+      const sliceTo = Math.min(pageCurrent * itemsPerPage, items.length)
+      const itemsForPage = items.slice(sliceFrom, sliceTo)
+
+      responseEmbed = embed
+      responseEmbed.fields = []
+      responseEmbed = _addFieldsToEmbed(
+        responseEmbed,
+        itemsForPage,
+        inlineFields
+      )
+      responseEmbed = _addFieldsToEmbed(responseEmbed, fields, inlineFields)
+
+      if (showDetailsInFooter) {
+        responseEmbed = _setFooter(responseEmbed, { pageCurrent, pageLast })
+      }
     }
 
     // NOTE: The API disallows removing reactions in DMs.
@@ -205,18 +359,8 @@ export async function respondWithPaginatedEmbed(
       await reaction.remove(author.id)
     }
 
-    response.edit(EMPTY_MESSAGE, { embed })
-  })
-
-  /*
-    Remove the buttons once we're done.
-  */
-  collector.on('end', () => {
-    // NOTE: The API disallows removing reactions in DMs.
-    if (channel.type !== 'dm') {
-      response.clearReactions()
-    }
-  })
+    response.edit(EMPTY_MESSAGE, { embed: responseEmbed })
+  }
 }
 
 /**
@@ -233,7 +377,17 @@ export async function respondWithPaginatedEmbed(
  * @param {Array<string, object>} fields The fields to add.
  * @param {boolean} inlineFields The `inlineFields` option passed to {@link PaginatedEmbedOptions}.
  */
-function _addFieldsToEmbed(embed, fields, inlineFields) {
+function _addFieldsToEmbed(embed, fields, inline) {
+  function addField(name, value, inline) {
+    if (embed instanceof RichEmbed) {
+      embed.addField(name, value, inline)
+    } else {
+      embed.fields.push({ name, value, inline })
+    }
+
+    return embed
+  }
+
   for (let i = 0; i < fields.length; i++) {
     const field = fields[i]
 
@@ -242,21 +396,58 @@ function _addFieldsToEmbed(embed, fields, inlineFields) {
       typeof field.name !== 'undefined' &&
       typeof field.value !== 'undefined'
     ) {
-      embed.addField(
+      addField(
         field.name,
         field.value,
-        inlineFields ? true : field.inline ? field.inline : false
+        inline ? true : field.inline ? field.inline : false
       )
     } else {
       /*
-        NOTE: It may be desirable to allow choosing between the following two via 
-              another option (in addition to inlineFields), at some point?
+        NOTE: It may be desirable to allow choosing between the following two 
+              via another option (in addition to inline), at some point?
 
-          embed.addField(EMPTY_MESSAGE, field, inlineFields)
-          embed.addField(field, EMPTY_MESSAGE, inlineFields)
+          embed.addField(EMPTY_MESSAGE, field, inline)
+          embed.addField(field, EMPTY_MESSAGE, inline)
       */
-      embed.addField(EMPTY_MESSAGE, field, inlineFields)
+      addField(EMPTY_MESSAGE, field, inline)
     }
+  }
+
+  return embed
+}
+
+/**
+ * Adds the user's avatar and a little "$user requested:" above the title.
+ *
+ * @param {RichEmbed|Object} embed
+ * @param {CommandMessage} msg
+ * @returns {RichEmbed}
+ */
+function _setAuthor(embed, msg) {
+  const name =
+    (msg.member ? msg.member.displayName : msg.author.username) + ' requested:'
+  const icon = msg.author.avatarURL
+
+  embed.author = {
+    name,
+    icon,
+  }
+
+  return embed
+}
+
+/**
+ * Displays the pagination information in the footer.
+ *
+ * @param {RichEmbed|Object} embed
+ * @param {PaginatedEmbedContext} context
+ * @returns {RichEmbed}
+ */
+function _setFooter(embed, { pageCurrent, pageLast }) {
+  const footerTemplate = `Page ${pageCurrent} of ${pageLast}`
+
+  embed.footer = {
+    text: footerTemplate,
   }
 
   return embed
