@@ -56,10 +56,6 @@ export async function respondWithPaginatedEmbed(
     options.itemsPerPage = DEFAULT_ITEMS_PER_PAGE
   }
 
-  /*
-    NOTE: API limits such as these are subject to change - should we move
-          them all to a centralised location?
-  */
   if (options.itemsPerPage > DISCORD_EMBED_FIELD_LIMIT) {
     throw new Error(
       `Items per page may not exceed ${DISCORD_EMBED_FIELD_LIMIT} due to Discord API limits.`
