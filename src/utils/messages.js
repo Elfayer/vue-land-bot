@@ -5,7 +5,6 @@ import {
   DELETE_ERRORS_AFTER_MS,
   DELETE_INVOCATIONS_AFTER_MS,
 } from './constants'
-import { CommandMessage } from 'discord.js-commando'
 
 /*
   Delete a message safely, if possible.
