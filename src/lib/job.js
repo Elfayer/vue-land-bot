@@ -1,7 +1,7 @@
 import EventEmitter from 'events'
 
 /**
- * A Job is a task which by default runs for every single message received so
+ * A Task is a task which by default runs for every single message received so
  * long as it is enabled and its shouldExecute() returns true.
  *
  * Example usages:
@@ -9,25 +9,25 @@ import EventEmitter from 'events'
  *   - Check message contents against a banned word list (and optionally warn/kick/ban)
  *   - etc.
  *
- * A Job does not necessarily need to process messages however - there is a
- * concept of event-only jobs. Such a job should simply return false in
- * shouldExecute and specify a list of Discord/Commando events via JobOptions.events.
+ * A Task does not necessarily need to process messages however - there is a
+ * concept of event-only tasks. Such a task should simply return false in
+ * shouldExecute and specify a list of Discord/Commando events via TaskOptions.events.
  *
- * When the job is enabled, listeners for those events will be attached to the
- * CommandoClient and when the job is disabled they will be removed.
+ * When the task is enabled, listeners for those events will be attached to the
+ * CommandoClient and when the task is disabled they will be removed.
  *
- * See `src/jobs/log.js` for an example of an event-only job.
+ * See `src/tasks/log.js` for an example of an event-only task.
  *
- * @event Job#enabled
- * @event Job#disabled
+ * @event Task#enabled
+ * @event Task#disabled
  * @extends EventEmitter
  * @abstract
  */
-export default class Job extends EventEmitter {
+export default class Task extends EventEmitter {
   /**
-   * Create a new Job.
+   * Create a new Task.
    * @param {CommandoClient} client The CommandoClient instance.
-   * @param {JobOptions} options The options for the Job.
+   * @param {TaskOptions} options The options for the Task.
    */
   constructor(client, options = {}) {
     super()
@@ -35,23 +35,23 @@ export default class Job extends EventEmitter {
     this.client = client
 
     /*
-      Jobs are stored as a key-value pair in a Collection (Map) on the client.
+      Tasks are stored as a key-value pair in a Collection (Map) on the client.
       The name is used as the key, as such it must be both provided and unique.
     */
     if (!options.name) {
-      throw new Error('Job lacks required option - name.')
+      throw new Error('Task lacks required option - name.')
     }
 
-    if (client.jobs.has(options.name)) {
+    if (client.tasks.has(options.name)) {
       throw new Error(
-        `Job names must be unique, conflicting name - ${options.name}.`
+        `Task names must be unique, conflicting name - ${options.name}.`
       )
     }
 
     /*
       A list of user, role, channel and category IDs.
 
-      If any of these match then the job will NEVER be executed.
+      If any of these match then the task will NEVER be executed.
     */
     if (!options.ignored) {
       options.ignored = {}
@@ -81,14 +81,23 @@ export default class Job extends EventEmitter {
       options.enabled = false
     }
 
+    if (typeof options.dmOnly === 'undefined') {
+      options.dmOnly = false
+    }
+
     if (typeof options.guildOnly === 'undefined') {
-      options.guildOnly = true
+      options.guildOnly = false
+    }
+
+    if (options.guildOnly && options.dmOnly) {
+      console.warn('Conflicting options - guildOnly and warnOnly.')
     }
 
     this.name = options.name
     this.events = options.events
     this.config = options.config
     this.ignored = options.ignored
+    this.dmOnly = options.dmOnly
     this.guildOnly = options.guildOnly
     this.description = options.description || ''
 
@@ -105,8 +114,18 @@ export default class Job extends EventEmitter {
       this[event] = this[event].bind(this)
     }
 
-    this.on('enabled', this.attachEventListeners)
-    this.on('disabled', this.removeEventListeners)
+    if (this.inhibit) {
+      this._inhibit = this.inhibit.bind(this)
+    }
+
+    this.on('enabled', () => {
+      this.attachEventListeners()
+      this.registerInhibitor()
+    })
+    this.on('disabled', () => {
+      this.removeEventListeners()
+      this.unregisterInhibitor()
+    })
 
     // NOTE: Must come last because the setter triggers an event (enabled).
     this.enabled = options.enabled
@@ -152,21 +171,41 @@ export default class Job extends EventEmitter {
   }
 
   /**
-   * The job will not be ran if this returns `false` - even if the job is enabled.
+   * Register the inhibitor with the `DiscordClient`, if applicable.
+   */
+  registerInhibitor() {
+    if (this.inhibit && typeof this.inhibit === 'function') {
+      this.client.dispatcher.addInhibitor(this._inhibit)
+    }
+  }
+
+  /**
+   * Register the inhibitor with the `DiscordClient`, if applicable.
+   */
+  unregisterInhibitor() {
+    if (this.inhibit && typeof this.inhibit === 'function') {
+      this.client.dispatcher.removeInhibitor(this._inhibit)
+    }
+  }
+
+  /**
+   * The task will not be ran if this returns `false` - even if the task is enabled.
    *
    * By default it checks `this.ignored.roles|users|channels`, returning `false` for
    * any matches - if no matches are found, it returns `true`.
    *
    * @param {CommandoMessage} msg
-   * @returns {boolean} Whether to run (execute) the Job or not.
+   * @returns {boolean} Whether to run (execute) the Task or not.
    */
   shouldExecute(msg) {
     if (msg.channel.type === 'dm') {
       if (this.guildOnly) {
         return false
       }
-
-      return true
+    } else {
+      if (this.dmOnly) {
+        return false
+      }
     }
 
     if (this.ignored.roles.length) {
@@ -187,7 +226,7 @@ export default class Job extends EventEmitter {
   }
 
   /**
-   * The job itself - ran if `enabled` is `true` and `shouldExecute` returns `true`.
+   * The task itself - ran if `enabled` is `true` and `shouldExecute` returns `true`.
    *
    * @param {CommandoMessage} message
    */
@@ -195,16 +234,16 @@ export default class Job extends EventEmitter {
   run(msg) {}
 
   /**
-   * Returns a string representation of the Job.
+   * Returns a string representation of the Task.
    *
-   * @return {string} The string representation (e.g. <Job#log>).
+   * @return {string} The string representation (e.g. <Task#log>).
    */
   toString() {
-    return `<Job#${this.name}>`
+    return `<Task#${this.name}>`
   }
 
   /**
-   * Returns the enabled status of the Job as a string.
+   * Returns the enabled status of the Task as a string.
    *
    * @return {string} Either `enabled` or `disabled`.
    */
@@ -213,20 +252,20 @@ export default class Job extends EventEmitter {
   }
 
   /**
-   * Is the job enabled?
+   * Is the Task enabled?
    *
-   * @return {boolean} Is this job enabled?
+   * @return {boolean} Is this Task enabled?
    */
   get enabled() {
     return this._enabled
   }
 
   /**
-   * Set a job as enabled or disabled.
+   * Set a Task as enabled or disabled.
    *
    * @param {boolean} enabled Set as enabled or disabled.
-   * @fires Job#enabled
-   * @fires Job#disabled
+   * @fires Task#enabled
+   * @fires Task#disabled
    */
   set enabled(enabled) {
     this._enabled = enabled

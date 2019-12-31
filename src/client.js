@@ -9,7 +9,7 @@ const {
   NODE_ENV = 'development',
 } = process.env
 
-const PATH_JOBS = join(__dirname, 'jobs')
+const PATH_TASKS = join(__dirname, 'tasks')
 const PATH_TYPES = join(__dirname, 'types')
 const PATH_COMMANDS = join(__dirname, 'commands')
 
@@ -19,22 +19,22 @@ const client = new CommandoClient({
 })
 
 /*
-  Initialise jobs.
+  Initialise tasks.
 */
 
-client.jobs = new Collection()
+client.tasks = new Collection()
 
-const jobFiles = readdirSync(PATH_JOBS).filter(file => file.endsWith('.js'))
+const taskFiles = readdirSync(PATH_TASKS).filter(file => file.endsWith('.js'))
 
-for (const file of jobFiles) {
+for (const file of taskFiles) {
   try {
-    const { default: jobDefinition } = require(`./jobs/${file}`)
+    const { default: taskDefinition } = require(`./tasks/${file}`)
 
-    const jobInstance = new jobDefinition(client)
+    const taskInstance = new taskDefinition(client)
 
-    client.jobs.set(jobInstance.name, jobInstance)
+    client.tasks.set(taskInstance.name, taskInstance)
   } catch (e) {
-    console.warn('Could not load job file: ' + file)
+    console.warn('Could not load task file: ' + file)
     console.error(e)
   }
 }
@@ -58,8 +58,8 @@ client.registry.registerGroups([
     name: 'Moderation',
   },
   {
-    id: 'jobs',
-    name: 'Jobs',
+    id: 'tasks',
+    name: 'Tasks',
   },
 ])
 
@@ -103,11 +103,11 @@ client.on('message', msg => {
     return
   }
 
-  client.jobs
-    .filter(job => job.enabled)
-    .forEach(job => {
-      if (job.shouldExecute(msg)) {
-        job.run(msg)
+  client.tasks
+    .filter(task => task.enabled)
+    .forEach(task => {
+      if (task.shouldExecute(msg)) {
+        task.run(msg)
       }
     })
 })

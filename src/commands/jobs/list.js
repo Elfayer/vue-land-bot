@@ -1,24 +1,26 @@
 import { Command } from 'discord.js-commando'
 import { RichEmbed } from 'discord.js'
 import {
+  EMOJIS,
   EMPTY_MESSAGE,
   OWNER_IDS,
   BOT_DEVELOPER_IDS,
   MODERATOR_ROLE_IDS,
 } from '../../utils/constants'
+import { inlineCode } from '../../utils/string'
 
 const ALLOWED_ROLES = [...MODERATOR_ROLE_IDS]
 const ALLOWED_USERS = [...OWNER_IDS, ...BOT_DEVELOPER_IDS]
 
-module.exports = class JobsEnableCommand extends Command {
+module.exports = class TasksEnableCommand extends Command {
   constructor(client) {
     super(client, {
-      name: 'list-jobs',
-      group: 'jobs',
-      aliases: ['jl'],
+      name: 'list-tasks',
+      group: 'tasks',
+      aliases: ['tasks'],
       guildOnly: true,
       memberName: 'list',
-      description: 'List all jobs.',
+      description: 'List all tasks.',
     })
   }
 
@@ -32,13 +34,18 @@ module.exports = class JobsEnableCommand extends Command {
 
   async run(msg) {
     const embed = new RichEmbed()
-    embed.setTitle('Job List')
-    embed.setDescription(
-      'Jobs are basically micro-tasks which are executed for every message.'
-    )
+    embed
+      .setTitle('Task List')
+      .setDescription(
+        `For more detailed info. type: ${inlineCode('!task <task-name>')}.`
+      )
 
-    this.client.jobs.forEach(job => {
-      embed.addField(job.name, job.getStatus(), true)
+    this.client.tasks.forEach(task => {
+      embed.addField(
+        task.name,
+        this.client.emojis.get(EMOJIS[task.getStatus().toUpperCase()]),
+        true
+      )
     })
 
     return msg.channel.send(EMPTY_MESSAGE, { embed })

@@ -1,29 +1,30 @@
 import { Command } from 'discord.js-commando'
+import { RichEmbed } from 'discord.js'
 import {
   OWNER_IDS,
   BOT_DEVELOPER_IDS,
   MODERATOR_ROLE_IDS,
 } from '../../utils/constants'
+import { inlineCode } from '../../utils/string'
 
 const ALLOWED_ROLES = [...MODERATOR_ROLE_IDS]
 const ALLOWED_USERS = [...OWNER_IDS, ...BOT_DEVELOPER_IDS]
 
-module.exports = class JobsEnableCommand extends Command {
+module.exports = class TasksEnableCommand extends Command {
   constructor(client) {
     super(client, {
       args: [
         {
-          key: 'job',
-          type: 'job',
-          prompt: 'the job to enable?',
+          key: 'task',
+          type: 'task',
+          prompt: 'the task to enable?',
         },
       ],
-      name: 'enable-job',
-      group: 'jobs',
-      aliases: ['je'],
+      name: 'enable-task',
+      group: 'tasks',
       guildOnly: true,
       memberName: 'enable',
-      description: 'Enable a job',
+      description: 'Enable a task',
     })
   }
 
@@ -36,13 +37,23 @@ module.exports = class JobsEnableCommand extends Command {
   }
 
   async run(msg, args) {
-    const { job } = args
+    const { task } = args
 
-    if (!job.enabled) {
-      job.enabled = true
-      return msg.channel.send(`Job "${job}" has been enabled.`)
-    } else {
-      return msg.channel.send(`Job "${job}" was already enabled.`)
+    let alreadyEnabled = task.enabled
+
+    if (!task.enabled) {
+      task.enabled = true
     }
+
+    msg.channel.send(
+      new RichEmbed()
+        .setTitle('Enable Task')
+        .setColor(alreadyEnabled ? 'ORANGE' : 'GREEN')
+        .setDescription(
+          alreadyEnabled
+            ? `Task ${inlineCode(task.name)} was already enabled.`
+            : `Sucessfully enabled task ${inlineCode(task.name)}.`
+        )
+    )
   }
 }

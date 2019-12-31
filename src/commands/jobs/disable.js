@@ -1,29 +1,30 @@
 import { Command } from 'discord.js-commando'
+import { RichEmbed } from 'discord.js'
 import {
   OWNER_IDS,
   BOT_DEVELOPER_IDS,
   MODERATOR_ROLE_IDS,
 } from '../../utils/constants'
+import { inlineCode } from '../../utils/string'
 
 const ALLOWED_ROLES = [...MODERATOR_ROLE_IDS]
 const ALLOWED_USERS = [...OWNER_IDS, ...BOT_DEVELOPER_IDS]
 
-module.exports = class JobsDisableCommand extends Command {
+module.exports = class TasksDisableCommand extends Command {
   constructor(client) {
     super(client, {
       args: [
         {
-          key: 'job',
-          type: 'job',
-          prompt: 'the job to disable?',
+          key: 'task',
+          type: 'task',
+          prompt: 'the task to disable?',
         },
       ],
-      name: 'disable-job',
-      group: 'jobs',
-      aliases: ['jd'],
+      name: 'disable-task',
+      group: 'tasks',
       guildOnly: true,
       memberName: 'disable',
-      description: 'Disable a job',
+      description: 'Disable a task',
     })
   }
 
@@ -36,13 +37,23 @@ module.exports = class JobsDisableCommand extends Command {
   }
 
   async run(msg, args) {
-    const { job } = args
+    const { task } = args
 
-    if (job.enabled) {
-      job.enabled = false
-      return msg.channel.send(`Job "${job}" has been disabled.`)
-    } else {
-      return msg.channel.send(`Job "${job}" was already disabled.`)
+    let alreadyDisabled = !task.enabled
+
+    if (task.enabled) {
+      task.enabled = false
     }
+
+    msg.channel.send(
+      new RichEmbed()
+        .setTitle('Disable Task')
+        .setColor(alreadyDisabled ? 'ORANGE' : 'GREEN')
+        .setDescription(
+          alreadyDisabled
+            ? `Task ${inlineCode(task.name)} was already disabled.`
+            : `Sucessfully disabled task ${inlineCode(task.name)}.`
+        )
+    )
   }
 }
