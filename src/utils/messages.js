@@ -1,5 +1,6 @@
 import client from '../client'
 import {
+  EMPTY_MESSAGE,
   AUTOMATICALLY_DELETE_ERRORS,
   AUTOMATICALLY_DELETE_INVOCATIONS,
   DELETE_ERRORS_AFTER_MS,
@@ -61,7 +62,7 @@ export function trySend(channelResolvable, message, embed = {}) {
     }
   }
 
-  channel.send(message, embed)
+  channel.send(message || EMPTY_MESSAGE, embed)
 }
 
 /*
