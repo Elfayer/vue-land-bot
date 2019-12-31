@@ -36,16 +36,10 @@ module.exports = class TasksEnableCommand extends Command {
     const embed = new RichEmbed()
     embed
       .setTitle('Task List')
-      .setDescription(
-        `For more detailed info. type: ${inlineCode('!task <task-name>')}.`
-      )
+      .setDescription(`For more info.: ${inlineCode('!task <task-name>')}.`)
 
     this.client.tasks.forEach(task => {
-      embed.addField(
-        task.name,
-        this.client.emojis.get(EMOJIS[task.getStatus().toUpperCase()]),
-        true
-      )
+      embed.addField(task.name, inlineCode(task.getStatus()), true)
     })
 
     return msg.channel.send(EMPTY_MESSAGE, { embed })
