@@ -1,0 +1,20 @@
+{
+  "triggers": [
+    {
+      "trigger": "amazingsexdating.com",
+      "action": "ban"
+    },
+    {
+      "trigger": "viewc.site",
+      "action": "ban"
+    },
+    {
+      "trigger": "nakedphoto.club",
+      "action": "ban"
+    },
+    {
+      "trigger": "privatepage.vip",
+      "action": "ban"
+    }
+  ]
+}
