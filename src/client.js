@@ -3,10 +3,14 @@ import { join } from 'path'
 import { Collection } from 'discord.js'
 import { CommandoClient } from 'discord.js-commando'
 
+if (!process.env.NODE_ENV) {
+  process.env.NODE_ENV = 'development'
+}
+
 const {
   OWNERS_IDS = '269617876036616193', // Default to @evan#9589
   COMMAND_PREFIX = '!',
-  NODE_ENV = 'development',
+  NODE_ENV,
 } = process.env
 
 const PATH_TASKS = join(__dirname, 'tasks')
