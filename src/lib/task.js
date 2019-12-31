@@ -1,4 +1,5 @@
 import EventEmitter from 'events'
+import tasks, { isEmpty } from '../services/tasks'
 
 /**
  * A Task is a task which by default runs for every single message received so
@@ -97,8 +98,6 @@ export default class Task extends EventEmitter {
     this.events = options.events
     this.config = options.config
     this.ignored = options.ignored
-    this.dmOnly = options.dmOnly
-    this.guildOnly = options.guildOnly
     this.description = options.description || ''
 
     // NOTE: We need to bind the events here else their `this` will be `CommandoClient`.
@@ -127,8 +126,16 @@ export default class Task extends EventEmitter {
       this.unregisterInhibitor()
     })
 
-    // NOTE: Must come last because the setter triggers an event (enabled).
-    this.enabled = options.enabled
+    // The DB is empty so we are safe to use the defauls from the Task file.
+    if (isEmpty()) {
+      this._dmOnly = options.dmOnly
+      this._guildOnly = options.guildOnly
+      this.enabled = options.enabled // NOTE: Must come last because fires an event.
+    }
+    // The DB is populated so we can't use the defaults from the Task file.
+    else {
+      this.readConfig()
+    }
   }
 
   /**
@@ -268,12 +275,121 @@ export default class Task extends EventEmitter {
    * @fires Task#disabled
    */
   set enabled(enabled) {
+    // NOTE: Without this check, in theory we can end up with duplicate event listeners.
+    if (this._enabled === enabled) {
+      return
+    }
+
     this._enabled = enabled
+    this.writeConfig({ enabled: this._enabled })
 
     if (enabled) {
       this.emit('enabled')
     } else {
       this.emit('disabled')
+    }
+  }
+
+  /**
+   * Is the Task DM-only?
+   *
+   * @return {boolean} Is this DM-only?
+   */
+  get dmOnly() {
+    return this._dmOnly
+  }
+
+  /**
+   * Set a Task as DM-only or not.
+   *
+   * @param {boolean} value Is the Task DM-only or not.
+   * @fires Task#enabled
+   * @fires Task#disabled
+   */
+  set dmOnly(value) {
+    this._dmOnly = value
+    this.writeConfig({ dmOnly: this._dmOnly })
+  }
+
+  /**
+   * Is the Task DM-only?
+   *
+   * @return {boolean} Is this DM-only?
+   */
+  get guildOnly() {
+    return this._guildOnly
+  }
+
+  /**
+   * Set a Task as DM-only or not.
+   *
+   * @param {boolean} value Is the Task DM-only or not.
+   * @fires Task#enabled
+   * @fires Task#disabled
+   */
+  set guildOnly(value) {
+    this._guildOnly = value
+    this.writeConfig({ guildOnly: this._guildOnly })
+  }
+
+  /**
+   * Create a JSON representation of the task.
+   */
+  toJSON() {
+    return {
+      name: this.name,
+      guildOnly: this.guildOnly,
+      dmOnly: this.dmOnly,
+      config: this.config,
+      ignored: this.ignored,
+      enabled: this.enabled,
+    }
+  }
+
+  /**
+   * Read the task's configuration from lowDB and apply it.
+   */
+  readConfig() {
+    try {
+      const config = tasks
+        .get('tasks')
+        .find({ name: this.name })
+        .value()
+
+      if (!config) {
+        console.warn(`${this} Could not find task config in DB!`)
+      }
+
+      this.guildOnly = config.guildOnly
+      this.dmOnly = config.dmOnly
+      this.config = config.config
+      this.ignored = config.ignored
+      this.enabled = config.enabled // NOTE: Must come last because fires an event.
+
+      console.debug(
+        `${this} Read configuration from DB and applied to instance.`
+      )
+    } catch (e) {
+      console.error(e)
+    }
+  }
+
+  /**
+   * Write the task's configuration to lowDB.
+   */
+  writeConfig(assign) {
+    try {
+      if (!assign) {
+        assign = this.toJSON()
+      }
+
+      tasks
+        .get('tasks')
+        .find({ name: this.name })
+        .assign(assign)
+        .write()
+    } catch (e) {
+      console.error(e)
     }
   }
 }

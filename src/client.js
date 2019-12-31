@@ -2,6 +2,7 @@ import { readdirSync } from 'fs'
 import { join } from 'path'
 import { Collection } from 'discord.js'
 import { CommandoClient } from 'discord.js-commando'
+import { setDefaults } from './services/tasks'
 
 if (!process.env.NODE_ENV) {
   process.env.NODE_ENV = 'development'
@@ -42,6 +43,11 @@ for (const file of taskFiles) {
     console.error(e)
   }
 }
+
+/*
+  Write configuration file if applicable (DB doesn't yet exist).
+*/
+setDefaults(client.tasks.map(task => task.toJSON()))
 
 /*
   Register command groups.
