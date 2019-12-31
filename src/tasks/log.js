@@ -96,7 +96,7 @@ export default class LogTask extends Task {
 
     if (msg) {
       embed
-        .addField('Guild', msg.guild ? msg.guild : 'DM', true)
+        .addField('Guild', msg.guild ? msg.guild : 'N/A', true)
         .addField('Channel', msg.channel, true)
         .addField('User', msg.author, true)
     }
