@@ -1,13 +1,12 @@
 import { Command } from 'discord.js-commando'
 import { RichEmbed } from 'discord.js'
 import {
-  EMOJIS,
   EMPTY_MESSAGE,
   OWNER_IDS,
   BOT_DEVELOPER_IDS,
   MODERATOR_ROLE_IDS,
 } from '../../utils/constants'
-import { blockCode } from '../../utils/string'
+import { inlineCode, blockCode } from '../../utils/string'
 
 const ALLOWED_ROLES = [...MODERATOR_ROLE_IDS]
 const ALLOWED_USERS = [...OWNER_IDS, ...BOT_DEVELOPER_IDS]
@@ -77,11 +76,7 @@ module.exports = class TasksEnableCommand extends Command {
     const embed = new RichEmbed()
     embed.setTitle('Task (' + task.name + ')')
     embed.setDescription(task.description)
-    embed.addField(
-      'Enabled',
-      this.client.emojis.get(EMOJIS[task.getStatus().toUpperCase()]),
-      true
-    )
+    embed.addField('Enabled', inlineCode(task.getStatus()), true)
     embed.addField('Guild Only', task.guildOnly, true)
     embed.addField('DM Only', task.dmOnly, true)
     embed.addField('Ignored Users', ignoredUsers.join(', '), true)

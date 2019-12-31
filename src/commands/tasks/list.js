@@ -1,7 +1,6 @@
 import { Command } from 'discord.js-commando'
 import { RichEmbed } from 'discord.js'
 import {
-  EMOJIS,
   EMPTY_MESSAGE,
   OWNER_IDS,
   BOT_DEVELOPER_IDS,
