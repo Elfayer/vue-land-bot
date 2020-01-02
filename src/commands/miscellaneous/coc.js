@@ -32,8 +32,5 @@ module.exports = class MiscCodeCommand extends Command {
       .setTitle(`Code of Conduct - ${entry.title}`)
       .setURL('https://vuejs.org/coc/')
       .setDescription(entry.description)
-      .setFooter(
-        'Note you can use any language name for multiline coloring such as: html, js, css, sql, etc.'
-      )
   }
 }
