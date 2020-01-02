@@ -29,7 +29,7 @@ module.exports = class MiscCodeCommand extends Command {
   buildResponseEmbed(msg, entry) {
     return new RichEmbed()
       .setColor(DEFAULT_EMBED_COLOUR)
-      .setTitle(`Code of Conduct = ${entry.title}`)
+      .setTitle(`Code of Conduct - ${entry.title}`)
       .setURL('https://vuejs.org/coc/')
       .setDescription(entry.description)
       .setFooter(
