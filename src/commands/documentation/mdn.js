@@ -7,6 +7,29 @@ import { addEllipsis } from '../../utils/string'
 
 const MDN_SEARCH_URL = 'https://developer.mozilla.org/en-US/search.json?'
 
+const TOPICS = [
+  {
+    slug: 'api',
+    name: 'APIs and DOM',
+  },
+  {
+    slug: 'css',
+    name: 'CSS',
+  },
+  {
+    slug: 'html',
+    name: 'HTML',
+  },
+  {
+    slug: 'http',
+    name: 'HTTP',
+  },
+  {
+    slug: 'js',
+    name: 'JavaScript',
+  },
+]
+
 module.exports = class DocsDocsCommand extends Command {
   constructor(client) {
     super(client, {
@@ -15,6 +38,17 @@ module.exports = class DocsDocsCommand extends Command {
           key: 'query',
           type: 'string',
           prompt: 'keyword(s) to search for on MDN?',
+        },
+        {
+          key: 'topic',
+          type: 'string',
+          prompt: `an optional topic (${TOPICS.map(topic =>
+            inlineCode(topic.slug)
+          ).join(', ')})`,
+          validate(value) {
+            return TOPICS.map(topic => topic.slug).includes(value)
+          },
+          default: 'all',
         },
       ],
       name: 'mdn',
@@ -36,7 +70,7 @@ module.exports = class DocsDocsCommand extends Command {
   }
 
   async run(msg, args) {
-    let { query } = args
+    let { query, topic } = args
 
     const embed = this.createEmbed()
 
@@ -45,6 +79,9 @@ module.exports = class DocsDocsCommand extends Command {
     params.append('highlight', false) // Remove <mark> elements.
     params.append('q', query)
 
+    if (topic !== 'all') {
+      params.append('topic', topic)
+    }
     try {
       const response = await axios.get(MDN_SEARCH_URL + params)
 
