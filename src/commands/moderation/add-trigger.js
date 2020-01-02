@@ -19,9 +19,9 @@ module.exports = class ModerationAddTriggerCommand extends Command {
         {
           key: 'action',
           type: 'string',
-          prompt: 'which action should be taken (`warn`, `ban`)?',
+          prompt: 'which action should be taken (`warn`, `ban`, `notify`)?',
           validate(value) {
-            return ['warn', 'ban'].includes(value)
+            return ['warn', 'ban', 'notify'].includes(value)
           },
         },
       ],
