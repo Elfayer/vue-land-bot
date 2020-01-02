@@ -19,6 +19,12 @@ module.exports = class DocsDocsCommand extends Command {
       ],
       name: 'mdn',
       group: 'documentation',
+      examples: [
+        inlineCode('!mdn map'),
+        inlineCode('!mdn map js'),
+        inlineCode('!mdn map html'),
+        inlineCode("!mdn 'Array filter' js"),
+      ],
       guildOnly: false,
       memberName: 'mdn',
       description: 'Search the Mozilla Developer Network.',
