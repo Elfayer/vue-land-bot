@@ -6,7 +6,7 @@ import { inlineCode } from '../../utils/string'
 
 const { NODE_ENV } = process.env
 
-module.exports = class ModerationListBanWordsCommand extends Command {
+module.exports = class ModerationListTriggersCommand extends Command {
   constructor(client) {
     super(client, {
       name: 'list-triggers',
