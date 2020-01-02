@@ -215,7 +215,7 @@ export default class Task extends EventEmitter {
       }
     }
 
-    if (this.ignored.roles.length) {
+    if (this.ignored.roles.length && msg.member) {
       return msg.member.roles.some(role => this.ignored.roles.includes(role.id))
     }
 
