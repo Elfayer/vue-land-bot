@@ -5,6 +5,7 @@ import { MODERATOR_ROLE_IDS, BOT_DEVELOPER_IDS } from '../../utils/constants'
 import { inlineCode } from '../../utils/string'
 
 const { NODE_ENV } = process.env
+const VALID_ACTIONS = ['warn', 'ban', 'notify']
 
 module.exports = class ModerationAddTriggerCommand extends Command {
   constructor(client) {
@@ -19,9 +20,11 @@ module.exports = class ModerationAddTriggerCommand extends Command {
         {
           key: 'action',
           type: 'string',
-          prompt: 'which action should be taken (`warn`, `ban`, `notify`)?',
+          prompt: `which action should be taken (${VALID_ACTIONS.map(
+            inlineCode
+          ).join(', ')})?`,
           validate(value) {
-            return ['warn', 'ban', 'notify'].includes(value)
+            return VALID_ACTIONS.includes(value)
           },
         },
       ],
