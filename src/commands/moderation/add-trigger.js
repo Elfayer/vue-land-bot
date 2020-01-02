@@ -51,13 +51,6 @@ module.exports = class ModerationAddBanWordCommand extends Command {
       .find(item => item.trigger === trigger)
       .value()
 
-    console.log(
-      moderation
-        .get('triggers')
-        .find(item => item.trigger === trigger)
-        .value()
-    )
-
     if (exists) {
       msg.channel.send(
         new RichEmbed()
