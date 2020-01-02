@@ -330,9 +330,14 @@ function _handlePagination(
       : pageCurrent - 1
 
     if (itemsAreEmbeds) {
-      const firstItem = embed ? { ...embed } : { ...items[pageIndex] }
+      let firstPage
+      // Account for no initial disambugation embed.
+      if (pageCurrent === 1) {
+        firstPage = embed ? { ...embed } : { ...items[pageIndex] }
+      }
+
       responseEmbed = new RichEmbed(
-        pageCurrent === 1 ? firstItem : { ...items[pageIndex] }
+        pageCurrent === 1 ? firstPage : { ...items[pageIndex] }
       )
 
       if (showDetailsInFooter) {
