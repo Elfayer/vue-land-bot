@@ -12,7 +12,9 @@ export function isEmpty() {
 
 export function setDefaults(tasks) {
   if (!isEmpty()) {
-    return !!console.info('Skipping setting defaults - config file exists.')
+    return !!console.info(
+      'Skipping setting default tasks - data/tasks/db.json exists.'
+    )
   }
   db.defaults({
     tasks: [...tasks],
