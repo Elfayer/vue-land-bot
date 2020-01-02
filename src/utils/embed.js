@@ -332,7 +332,9 @@ function _handlePagination(
         responseEmbed = _setFooter(responseEmbed, { pageCurrent, pageLast })
 
         if (pageCurrent > 1) {
-          responseEmbed.footer.text += ` | ${items[pageIndex].footer.text}`
+          if (items[pageIndex].footer) {
+            responseEmbed.footer.text += ` | ${items[pageIndex].footer.text}`
+          }
         }
       }
     } else {
