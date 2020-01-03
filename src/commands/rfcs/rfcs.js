@@ -6,6 +6,8 @@ import {
   respondWithPaginatedEmbed,
   DEFAULT_EMBED_COLOUR,
 } from '../../utils/embed'
+import { stripIndent } from 'common-tags'
+import { inlineCode } from '../../utils/string'
 
 const RFCS_PER_PAGE = 8
 
@@ -71,7 +73,11 @@ module.exports = class RFCsCommand extends Command {
       }
 
       embed.setDescription(
-        `Viewing ${rfcs.length} RFCs filtered by: ${filter}.\n\nTo view a specific RFC, use: \`!rfc <number>\``
+        stripIndent`
+          Viewing ${rfcs.length} RFCs filtered by: ${inlineCode(filter)}.
+          
+          To view a specific RFC, use: ${inlineCode('!rfc #<number>')}
+        `
       )
 
       respondWithPaginatedEmbed(msg, embed, this.createRFCFields(rfcs), {
