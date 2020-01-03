@@ -31,6 +31,11 @@ module.exports = class MiscCodeCommand extends Command {
       .setColor(DEFAULT_EMBED_COLOUR)
       .setTitle(`Code of Conduct - ${entry.title}`)
       .setURL('https://vuejs.org/coc/')
+      .setThumbnail('attachment://vue.png')
+      .attachFile({
+        attachment: 'assets/images/icons/vue.png',
+        name: 'vue.png',
+      })
       .setDescription(entry.description)
   }
 }
