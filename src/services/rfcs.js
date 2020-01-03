@@ -172,13 +172,15 @@ export async function filterRFCsBy(filter, value) {
 export async function findRFCs(value) {
   const filters = ['id', 'title', 'body', 'author', 'label']
 
+  let results = new Set()
+
   for (const filter of filters) {
     const filtered = await filterRFCsBy(filter, value)
 
-    if (filtered.length) {
-      return filtered
+    for (const result of filtered) {
+      results.add(result)
     }
   }
 
-  return []
+  return results.size ? [...results] : []
 }
