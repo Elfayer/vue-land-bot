@@ -8,6 +8,7 @@ import {
 import { EMPTY_MESSAGE } from '../../utils/constants'
 import { tryDelete } from '../../utils/messages'
 import { inlineCode } from '../../utils/string'
+import { cleanupErrorResponse, cleanupInvocation } from '../../utils/messages'
 
 module.exports = class RFCsCommand extends Command {
   constructor(client) {
@@ -86,7 +87,7 @@ module.exports = class RFCsCommand extends Command {
       }
     } finally {
       const reply = await msg.channel.send(EMPTY_MESSAGE, embed)
-      tryDelete(msg)
+      cleanupInvocation(msg)
 
       // Delete the reply if the RFC was not found, or an error occured.
       if (!success) {
