@@ -75,7 +75,7 @@ module.exports = class RFCsCommand extends Command {
         throw new RFCDoesNotExistError()
       }
 
-      embed = this.buildEmbed(embed, filtered, msg.author, filter, value)
+      embed = this.buildEmbed(msg, embed, filtered, filter, value)
       success = true // For finally block.
     } catch (error) {
       if (error instanceof RFCDoesNotExistError) {
@@ -95,15 +95,15 @@ module.exports = class RFCsCommand extends Command {
     }
   }
 
-  buildEmbed(embed, filtered, author, filter, value) {
+  buildEmbed(msg, embed, filtered, filter, value) {
     if (filtered.length === 1) {
-      return this.buildEmbedSingle(embed, filtered[0], author, filter, value)
+      return this.buildEmbedSingle(msg, embed, filtered[0], filter, value)
     } else {
-      return this.buildEmbedMultiple(embed, filtered, author, filter, value)
+      return this.buildEmbedMultiple(msg, embed, filtered, filter, value)
     }
   }
 
-  buildEmbedSingle(embed, rfc, author, filter, value) {
+  buildEmbedSingle(msg, embed, rfc, filter, value) {
     let footerSections = []
 
     if (rfc.created_at) {
@@ -121,13 +121,17 @@ module.exports = class RFCsCommand extends Command {
     embed
       .setTitle(`RFC #${rfc.number} - ${rfc.title}`)
       .setDescription(rfc.body)
-      .setAuthor(rfc.user.login, rfc.user.avatar_url, rfc.user.html_url)
+      .setAuthor(
+        (msg.member ? msg.member.displayName : msg.author.username) +
+          ' requested:',
+        msg.author.avatarURL
       .setURL(rfc.html_url)
       .setThumbnail('attachment://vue.png')
       .attachFile({
         attachment: 'assets/images/icons/vue.png',
         name: 'vue.png',
       })
+      .addField('Author', rfc.user.login, true)
       .addField('Status', rfc.state, true)
 
     if (footerSections.length) {
@@ -153,7 +157,6 @@ module.exports = class RFCsCommand extends Command {
       embed.setColor(`#${labelsWithColours[0].color}`)
     }
 
-    embed.addField('Requested by', author, true)
     this.addRequestThisRFCField(embed, filter, value)
 
     return embed
