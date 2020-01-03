@@ -10,7 +10,7 @@ import { inlineCode } from '../../utils/string'
 import { cleanupErrorResponse, cleanupInvocation } from '../../utils/messages'
 import { EMPTY_MESSAGE } from '../../utils/constants'
 
-const RFCS_PER_PAGE = 8
+const RFCS_PER_PAGE = 5
 
 module.exports = class RFCsCommand extends Command {
   constructor(client) {
