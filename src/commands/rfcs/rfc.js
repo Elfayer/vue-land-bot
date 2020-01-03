@@ -200,6 +200,11 @@ module.exports = class RFCsCommand extends Command {
       .setDescription(
         `Sorry, I couldn't find an exact match for your query on the RFC repo.`
       )
+      .setAuthor(
+        (msg.member ? msg.member.displayName : msg.author.username) +
+          ' requested:',
+        msg.author.avatarURL
+      )
       .setThumbnail('attachment://vue.png')
       .attachFile({
         attachment: 'assets/images/icons/vue.png',
