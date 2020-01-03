@@ -7,6 +7,7 @@ import {
 } from '../../services/rfcs'
 import { EMPTY_MESSAGE } from '../../utils/constants'
 import { tryDelete } from '../../utils/messages'
+import { inlineCode } from '../../utils/string'
 
 module.exports = class RFCsCommand extends Command {
   constructor(client) {
@@ -27,19 +28,19 @@ module.exports = class RFCsCommand extends Command {
       ],
       name: 'rfc',
       examples: [
-        '!rfcs',
-        '!rfc #24',
-        '!rfc initial placeholder',
-        '!rfc empty node',
-        '!rfc yyx',
-        '!rfc core',
-        '!rfc id:24',
-        '!rfc title:initial placeholder',
-        '!rfc body:empty node',
-        '!rfc author:yyx',
-        '!rfc label:core',
-        '!rfc label:breaking change,router',
-        '!rfc label:3.x | core',
+        inlineCode('!rfcs'),
+        inlineCode('!rfc #24'),
+        inlineCode('!rfc initial placeholder'),
+        inlineCode('!rfc empty node'),
+        inlineCode('!rfc yyx'),
+        inlineCode('!rfc core'),
+        inlineCode('!rfc id:24'),
+        inlineCode('!rfc title:initial placeholder'),
+        inlineCode('!rfc body:empty node'),
+        inlineCode('!rfc author:yyx'),
+        inlineCode('!rfc label:core'),
+        inlineCode('!rfc label:breaking change,router'),
+        inlineCode('!rfc label:3.x | core'),
       ],
       group: 'rfcs',
       guildOnly: true,
