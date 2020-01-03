@@ -108,13 +108,13 @@ module.exports = class RFCsCommand extends Command {
 
     if (rfc.created_at) {
       footerSections.push(
-        'Created: ' + new Date(rfc.created_at).toLocaleString()
+        'Created: ' + new Date(rfc.created_at).toLocaleDateString()
       )
     }
 
     if (rfc.updated_at) {
       footerSections.push(
-        'Updated: ' + new Date(rfc.updated_at).toLocaleString()
+        'Updated: ' + new Date(rfc.updated_at).toLocaleDateString()
       )
     }
 
