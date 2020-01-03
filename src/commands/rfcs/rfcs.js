@@ -8,6 +8,7 @@ import {
 import { stripIndent } from 'common-tags'
 import { inlineCode } from '../../utils/string'
 import { cleanupErrorResponse, cleanupInvocation } from '../../utils/messages'
+import { EMPTY_MESSAGE } from '../../utils/constants'
 
 const RFCS_PER_PAGE = 8
 
@@ -50,7 +51,7 @@ module.exports = class RFCsCommand extends Command {
     const { filter } = args
 
     const embed = new RichEmbed()
-      .setTitle('Vue.js Requests for Comments')
+      .setTitle('RFCs List')
       .setColor(DEFAULT_EMBED_COLOUR)
       .setAuthor(
         'Requested by: ' +
@@ -86,7 +87,9 @@ module.exports = class RFCsCommand extends Command {
       })
       cleanupInvocation(msg)
     } catch (e) {
-      const response = await msg.reply('Sorry, an unknown error occured.')
+      const response = await msg.reply(EMPTY_MESSAGE, {
+        embed: this.buildErrorEmbed(msg, 'Sorry, an unknown error occured.'),
+      })
       cleanupInvocation(msg)
       cleanupErrorResponse(response)
     }
@@ -99,5 +102,17 @@ module.exports = class RFCsCommand extends Command {
         value: rfc.html_url,
       }
     })
+  }
+
+  buildErrorEmbed(msg, error) {
+    return new RichEmbed()
+      .setTitle(`RFCs List`)
+      .setDescription(error)
+      .setAuthor(
+        (msg.member ? msg.member.displayName : msg.author.username) +
+          ' requested:',
+        msg.author.avatarURL
+      )
+      .setColor('RED')
   }
 }
