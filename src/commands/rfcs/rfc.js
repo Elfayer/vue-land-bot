@@ -125,6 +125,7 @@ module.exports = class RFCsCommand extends Command {
         (msg.member ? msg.member.displayName : msg.author.username) +
           ' requested:',
         msg.author.avatarURL
+      )
       .setURL(rfc.html_url)
       .setThumbnail('attachment://vue.png')
       .attachFile({
@@ -144,9 +145,6 @@ module.exports = class RFCsCommand extends Command {
         rfc.labels.map(label => label.name).join(', '),
         true
       )
-
-      embed.addBlankField()
-      // embed.addField('\u200b', '\u200b', true)
     }
 
     let labelsWithColours = rfc.labels.filter(label =>
@@ -156,8 +154,6 @@ module.exports = class RFCsCommand extends Command {
     if (labelsWithColours.length) {
       embed.setColor(`#${labelsWithColours[0].color}`)
     }
-
-    this.addRequestThisRFCField(embed, filter, value)
 
     return embed
   }
@@ -175,19 +171,5 @@ module.exports = class RFCsCommand extends Command {
     this.addRequestThisRFCField(embed, filter, value)
 
     return embed
-  }
-
-  addRequestThisRFCField(embed, filter, value) {
-    let requestSyntax = ['`', '!rfc', ' ']
-
-    if (filter === 'empty') {
-      requestSyntax.push(value)
-    } else {
-      requestSyntax.push(filter + ':' + value)
-    }
-
-    requestSyntax.push('`')
-
-    embed.addField('Command', requestSyntax.join(''), true)
   }
 }
