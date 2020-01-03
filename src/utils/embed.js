@@ -1,5 +1,5 @@
 import { RichEmbed } from 'discord.js'
-import { EMPTY_MESSAGE, DISCORD_EMBED_FIELD_LIMIT } from './constants'
+import { EMOJIS, EMPTY_MESSAGE, DISCORD_EMBED_FIELD_LIMIT } from './constants'
 import { CommandMessage } from 'discord.js-commando'
 
 export const DEFAULT_EMBED_COLOUR = '#42b883'
@@ -61,10 +61,6 @@ export async function respondWithPaginatedEmbed(
     throw new Error('Cannot paginate a non-array!')
   }
 
-  if (!(embed instanceof RichEmbed)) {
-    throw new Error('Invalid embed passed!')
-  }
-
   if (!options.itemsPerPage) {
     options.itemsPerPage = DEFAULT_ITEMS_PER_PAGE
   } else if (options.itemsPerPage > DISCORD_EMBED_FIELD_LIMIT) {
@@ -82,6 +78,10 @@ export async function respondWithPaginatedEmbed(
   */
   if (!options.itemsAreEmbeds) {
     options.itemsAreEmbeds = items.every(item => item instanceof RichEmbed)
+  }
+
+  if (!options.itemsAreEmbeds && !(embed instanceof RichEmbed)) {
+    throw new Error('Invalid embed passed!')
   }
 
   /*
@@ -139,7 +139,7 @@ export async function respondWithPaginatedEmbed(
   const context = {
     msg,
     channel: msg.channel,
-    embed: { ...embed },
+    embed: embed ? { ...embed } : null,
     items: [...items],
     fields,
     itemsCount: items.length,
@@ -147,7 +147,7 @@ export async function respondWithPaginatedEmbed(
     pageCurrent: 1,
   }
   context.pageLast = options.itemsAreEmbeds
-    ? context.itemsCount + 1 // Initial embed also counts as a page.
+    ? context.itemsCount + (embed ? 1 : 0) // Initial embed also counts as a page.
     : Math.ceil(context.itemsCount / context.itemsPerPage)
 
   /*
@@ -164,13 +164,17 @@ export async function respondWithPaginatedEmbed(
     Add footer.
   */
   if (options.showDetailsInFooter) {
-    context.embed = _setFooter(context.embed, context)
+    if (embed) {
+      context.embed = _setFooter(context.embed, context)
+    } else {
+      context.items[0] = _setFooter(context.items[0], context)
+    }
   }
 
   /*
     Add author.
   */
-  if (options.addRequestedBy) {
+  if (embed && options.addRequestedBy) {
     context.embed = _setAuthor(context.embed, msg)
 
     if (options.itemsAreEmbeds) {
@@ -186,7 +190,7 @@ export async function respondWithPaginatedEmbed(
       _addFieldsToEmbed(item, context.fields, options.inlineFields)
     )
 
-    if (options.addExtraFieldsToInitialEmbed) {
+    if (embed && options.addExtraFieldsToInitialEmbed) {
       context.embed = _addFieldsToEmbed(
         context.embed,
         context.fields,
@@ -217,13 +221,13 @@ export async function respondWithPaginatedEmbed(
   */
   // eslint-disable-next-line require-atomic-updates
   context.response = await context.channel.send(EMPTY_MESSAGE, {
-    embed: context.embed,
+    embed: embed ? context.embed : items[0],
   })
 
-  await context.response.react('⏪')
-  await context.response.react('⬅')
-  await context.response.react('➡')
-  await context.response.react('⏩')
+  await context.response.react(msg.client.emojis.get(EMOJIS.PAGINATION.FIRST))
+  await context.response.react(msg.client.emojis.get(EMOJIS.PAGINATION.PREV))
+  await context.response.react(msg.client.emojis.get(EMOJIS.PAGINATION.NEXT))
+  await context.response.react(msg.client.emojis.get(EMOJIS.PAGINATION.LAST))
 
   /*
     Collect relevant reactions.
@@ -269,7 +273,7 @@ function _createCollector(
         return false
       }
 
-      return ['⏪', '⬅', '➡', '⏩'].includes(reaction.emoji.name)
+      return Object.values(EMOJIS.PAGINATION).includes(reaction.emoji.id)
     },
     {
       time: observeReactionsFor,
@@ -299,17 +303,17 @@ function _handlePagination(
   { inlineFields, itemsAreEmbeds, showDetailsInFooter }
 ) {
   return async reaction => {
-    switch (reaction.emoji.name) {
-      case '⏪':
+    switch (reaction.emoji.id) {
+      case EMOJIS.PAGINATION.FIRST:
         pageCurrent = 1
         break
-      case '⬅':
+      case EMOJIS.PAGINATION.PREV:
         pageCurrent = Math.max(1, --pageCurrent)
         break
-      case '➡':
+      case EMOJIS.PAGINATION.NEXT:
         pageCurrent = Math.min(pageLast, ++pageCurrent)
         break
-      case '⏩':
+      case EMOJIS.PAGINATION.LAST:
         pageCurrent = pageLast
         break
     }
@@ -321,18 +325,28 @@ function _handlePagination(
             the itemsAreEmbeds feature, the *initial* embed is separate and 
             so in that case the offset is 2.
     */
-    const pageIndex = itemsAreEmbeds ? pageCurrent - 2 : pageCurrent - 1
+    const pageIndex = itemsAreEmbeds
+      ? pageCurrent - (embed ? 2 : 1)
+      : pageCurrent - 1
 
     if (itemsAreEmbeds) {
+      let firstPage
+      // Account for no initial disambugation embed.
+      if (pageCurrent === 1) {
+        firstPage = embed ? { ...embed } : { ...items[pageIndex] }
+      }
+
       responseEmbed = new RichEmbed(
-        pageCurrent === 1 ? { ...embed } : { ...items[pageIndex] }
+        pageCurrent === 1 ? firstPage : { ...items[pageIndex] }
       )
 
       if (showDetailsInFooter) {
         responseEmbed = _setFooter(responseEmbed, { pageCurrent, pageLast })
 
         if (pageCurrent > 1) {
-          responseEmbed.footer.text += ` | ${items[pageIndex].footer.text}`
+          if (items[pageIndex].footer) {
+            responseEmbed.footer.text += ` | ${items[pageIndex].footer.text}`
+          }
         }
       }
     } else {
