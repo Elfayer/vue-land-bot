@@ -77,7 +77,11 @@ module.exports = class RFCsCommand extends Command {
         stripIndent`
           Viewing ${rfcs.length} RFCs filtered by: ${inlineCode(filter)}.
           
-          To view a specific RFC, use: ${inlineCode('!rfc #<number>')}
+          To view a specific RFC, use ${inlineCode('!rfc #<number>')}.
+
+          Or use ${inlineCode(
+            '!rfc <query>'
+          )} to search through titles, bodies, labels and authors.
         `
       )
 
