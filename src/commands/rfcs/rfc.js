@@ -88,16 +88,20 @@ module.exports = class RFCsCommand extends Command {
           rfcs.map(rfc => this.buildResponseEmbed(msg, rfc, filter, value))
         )
       }
-
       success = true // For finally block.
     } catch (error) {
       if (error instanceof RFCDoesNotExistError) {
-        embed = this.buildErrorEmbed(msg, 'No matching RFCs found!')
+        embed = this.buildErrorEmbed(
+          msg,
+          "Sorry, I couldn't find any matches for your query on the RFC repo.",
+          query
+        )
       } else {
         console.error(error)
         embed = this.buildErrorEmbed(
           msg,
-          'Sorry, an unspecified error occured!'
+          'Sorry, an unspecified error occured!',
+          query
         )
       }
     } finally {
@@ -110,9 +114,12 @@ module.exports = class RFCsCommand extends Command {
     }
   }
 
-  buildErrorEmbed(msg, error) {
+  buildErrorEmbed(msg, error, query = []) {
+    let [filter, value] = query
+    let lookup = filter === 'empty' ? value : `${filter}:${value}`
+
     return new RichEmbed()
-      .setTitle('RFC Request')
+      .setTitle(`RFC Lookup - ${inlineCode(lookup)}`)
       .setDescription(error)
       .setAuthor(
         (msg.member ? msg.member.displayName : msg.author.username) +
@@ -190,6 +197,13 @@ module.exports = class RFCsCommand extends Command {
 
     return new RichEmbed()
       .setTitle(`RFC Request - ${inlineCode(query)}`)
-      .setDescription(`Found ${rfcs.length} matching results:`)
+      .setDescription(
+        `Sorry, I couldn't find an exact match for your query on the RFC repo.`
+      )
+      .addField(
+        'Perhaps you meant one of these:',
+        rfcs.map(rfc => inlineCode('#' + rfc.number)).join(', ')
+      )
+      .setColor('BLUE')
   }
 }
