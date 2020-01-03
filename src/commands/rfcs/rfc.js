@@ -132,11 +132,6 @@ module.exports = class RFCsCommand extends Command {
   buildResponseEmbed(msg, rfc) {
     const embed = new RichEmbed()
       .setTitle(`RFC #${rfc.number} - ${rfc.title}`)
-      .setAuthor(
-        (msg.member ? msg.member.displayName : msg.author.username) +
-          ' requested:',
-        msg.author.avatarURL
-      )
       .setURL(rfc.html_url)
       .setThumbnail('attachment://vue.png')
       .attachFile({
@@ -199,11 +194,6 @@ module.exports = class RFCsCommand extends Command {
       .setTitle(`RFC Request - ${inlineCode(query)}`)
       .setDescription(
         `Sorry, I couldn't find an exact match for your query on the RFC repo.`
-      )
-      .setAuthor(
-        (msg.member ? msg.member.displayName : msg.author.username) +
-          ' requested:',
-        msg.author.avatarURL
       )
       .setThumbnail('attachment://vue.png')
       .attachFile({
