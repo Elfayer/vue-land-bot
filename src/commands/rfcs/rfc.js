@@ -200,6 +200,11 @@ module.exports = class RFCsCommand extends Command {
       .setDescription(
         `Sorry, I couldn't find an exact match for your query on the RFC repo.`
       )
+      .setThumbnail('attachment://vue.png')
+      .attachFile({
+        attachment: 'assets/images/icons/vue.png',
+        name: 'vue.png',
+      })
       .addField(
         'Perhaps you meant one of these:',
         rfcs.map(rfc => inlineCode('#' + rfc.number)).join(', ')
