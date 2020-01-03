@@ -23,7 +23,11 @@ module.exports = class MiscCodeCommand extends Command {
   }
 
   async run(msg) {
-    return respondWithPaginatedEmbed(msg, null, coc)
+    return respondWithPaginatedEmbed(
+      msg,
+      null,
+      coc.map(item => this.buildResponseEmbed(msg, item))
+    )
   }
 
   buildResponseEmbed(msg, entry) {
