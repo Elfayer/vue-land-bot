@@ -43,7 +43,7 @@ module.exports = class RFCsCommand extends Command {
         inlineCode('!rfc label:3.x | core'),
       ],
       group: 'rfcs',
-      guildOnly: true,
+      guildOnly: false,
       memberName: 'rfc',
       description: 'Search for and view a Vue RFC.',
       argsPromptLimit: 1,
