@@ -125,6 +125,7 @@ export async function getRFC(number) {
  * @returns {Array} An array of RFCs that matched the filter.
  */
 export async function filterRFCsBy(filter, value) {
+  value = value.toLowerCase()
   let filtered = []
 
   if (filter === 'id') {
@@ -155,7 +156,7 @@ export async function filterRFCsBy(filter, value) {
 
     filtered = rfcs.filter(rfc =>
       value.every(labelName =>
-        rfc.labels.find(label => label.name === labelName)
+        rfc.labels.find(label => label.name.toLowerCase() === labelName)
       )
     )
   }
