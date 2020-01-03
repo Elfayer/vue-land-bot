@@ -90,7 +90,7 @@ module.exports = class RFCsCommand extends Command {
 
       // Delete the reply if the RFC was not found, or an error occured.
       if (!success) {
-        tryDelete(reply, 15000)
+        cleanupErrorResponse(reply)
       }
     }
   }
