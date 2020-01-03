@@ -172,17 +172,12 @@ export async function findRFCs(value) {
   const filters = ['id', 'title', 'body', 'author', 'label']
 
   for (const filter of filters) {
-    console.debug(`looking for ${value} in ${filter}`)
     const filtered = await filterRFCsBy(filter, value)
 
     if (filtered.length) {
-      console.debug('found!')
       return filtered
-    } else {
-      console.debug('continuing')
     }
   }
 
-  console.debug('not found!')
   return []
 }
