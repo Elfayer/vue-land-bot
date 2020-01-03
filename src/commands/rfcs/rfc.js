@@ -120,7 +120,6 @@ module.exports = class RFCsCommand extends Command {
 
     embed
       .setTitle(`RFC #${rfc.number} - ${rfc.title}`)
-      .setDescription(rfc.body.replace(/(?<=```)[ ]*(?=\w+)/, ''))
       .setAuthor(
         (msg.member ? msg.member.displayName : msg.author.username) +
           ' requested:',
@@ -134,6 +133,13 @@ module.exports = class RFCsCommand extends Command {
       })
       .addField('Author', rfc.user.login, true)
       .addField('Status', rfc.state, true)
+
+    embed.setDescription(
+      addEllipsis(
+        rfc.body.replace(/(?<=```)[ ]*(?=\w+)/g, ''),
+        DISCORD_EMBED_DESCRIPTION_LIMIT
+      )
+    )
 
     if (footerSections.length) {
       embed.setFooter(footerSections.join(' | '))
