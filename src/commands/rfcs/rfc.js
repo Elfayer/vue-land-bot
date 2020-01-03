@@ -120,7 +120,7 @@ module.exports = class RFCsCommand extends Command {
 
     embed
       .setTitle(`RFC #${rfc.number} - ${rfc.title}`)
-      .setDescription(rfc.body)
+      .setDescription(rfc.body.replace(/(?<=```)[ ]*(?=\w+)/, ''))
       .setAuthor(
         (msg.member ? msg.member.displayName : msg.author.username) +
           ' requested:',
