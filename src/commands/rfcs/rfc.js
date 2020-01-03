@@ -5,10 +5,16 @@ import {
   filterRFCsBy,
   RFCDoesNotExistError,
 } from '../../services/rfcs'
-import { EMPTY_MESSAGE } from '../../utils/constants'
-import { tryDelete } from '../../utils/messages'
-import { inlineCode } from '../../utils/string'
+import {
+  EMPTY_MESSAGE,
+  DISCORD_EMBED_DESCRIPTION_LIMIT,
+} from '../../utils/constants'
 import { cleanupErrorResponse, cleanupInvocation } from '../../utils/messages'
+import { inlineCode, addEllipsis } from '../../utils/string'
+import {
+  respondWithPaginatedEmbed,
+  DEFAULT_EMBED_COLOUR,
+} from '../../utils/embed'
 
 module.exports = class RFCsCommand extends Command {
   constructor(client) {
@@ -58,68 +64,66 @@ module.exports = class RFCsCommand extends Command {
   async run(msg, args) {
     let { query } = args
     let success = false
-
     let [filter, value] = query
 
-    let embed = new RichEmbed().setTitle(`RFC Request`)
+    let embed
 
     try {
-      let filtered
+      let rfcs
 
       if (filter === 'empty') {
-        filtered = await findRFCs(value)
+        rfcs = await findRFCs(value)
       } else {
-        filtered = await filterRFCsBy(filter, value)
+        rfcs = await filterRFCsBy(filter, value)
       }
 
-      if (filtered.length === 0) {
+      if (rfcs.length === 0) {
         throw new RFCDoesNotExistError()
+      } else if (rfcs.length === 1) {
+        embed = this.buildResponseEmbed(msg, rfcs[0])
+      } else {
+        return respondWithPaginatedEmbed(
+          msg,
+          this.buildDisambiguationEmbed(msg, rfcs, filter, value),
+          rfcs.map(rfc => this.buildResponseEmbed(msg, rfc, filter, value))
+        )
       }
 
-      embed = this.buildEmbed(msg, embed, filtered, filter, value)
       success = true // For finally block.
     } catch (error) {
       if (error instanceof RFCDoesNotExistError) {
-        embed.setDescription('RFC not found!')
+        embed = this.buildErrorEmbed(msg, 'No matching RFCs found!')
       } else {
         console.error(error)
-        embed.setDescription('Sorry, an unspecified error occured')
+        embed = this.buildErrorEmbed(
+          msg,
+          'Sorry, an unspecified error occured!'
+        )
       }
     } finally {
       const reply = await msg.channel.send(EMPTY_MESSAGE, embed)
       cleanupInvocation(msg)
 
-      // Delete the reply if the RFC was not found, or an error occured.
       if (!success) {
         cleanupErrorResponse(reply)
       }
     }
   }
 
-  buildEmbed(msg, embed, filtered, filter, value) {
-    if (filtered.length === 1) {
-      return this.buildEmbedSingle(msg, embed, filtered[0], filter, value)
-    } else {
-      return this.buildEmbedMultiple(msg, embed, filtered, filter, value)
-    }
+  buildErrorEmbed(msg, error) {
+    return new RichEmbed()
+      .setTitle('RFC Request')
+      .setDescription(error)
+      .setAuthor(
+        (msg.member ? msg.member.displayName : msg.author.username) +
+          ' requested:',
+        msg.author.avatarURL
+      )
+      .setColor('RED')
   }
 
-  buildEmbedSingle(msg, embed, rfc, filter, value) {
-    let footerSections = []
-
-    if (rfc.created_at) {
-      footerSections.push(
-        'Created: ' + new Date(rfc.created_at).toLocaleDateString()
-      )
-    }
-
-    if (rfc.updated_at) {
-      footerSections.push(
-        'Updated: ' + new Date(rfc.updated_at).toLocaleDateString()
-      )
-    }
-
-    embed
+  buildResponseEmbed(msg, rfc) {
+    const embed = new RichEmbed()
       .setTitle(`RFC #${rfc.number} - ${rfc.title}`)
       .setAuthor(
         (msg.member ? msg.member.displayName : msg.author.username) +
@@ -142,6 +146,20 @@ module.exports = class RFCsCommand extends Command {
       )
     )
 
+    let footerSections = []
+
+    if (rfc.created_at) {
+      footerSections.push(
+        'Created: ' + new Date(rfc.created_at).toLocaleDateString()
+      )
+    }
+
+    if (rfc.updated_at) {
+      footerSections.push(
+        'Updated: ' + new Date(rfc.updated_at).toLocaleDateString()
+      )
+    }
+
     if (footerSections.length) {
       embed.setFooter(footerSections.join(' | '))
     }
@@ -160,6 +178,8 @@ module.exports = class RFCsCommand extends Command {
 
     if (labelsWithColours.length) {
       embed.setColor(`#${labelsWithColours[0].color}`)
+    } else {
+      embed.setColor(DEFAULT_EMBED_COLOUR)
     }
 
     return embed
