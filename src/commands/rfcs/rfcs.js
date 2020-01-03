@@ -85,7 +85,7 @@ module.exports = class RFCsCommand extends Command {
         `
       )
 
-      respondWithPaginatedEmbed(msg, embed, this.createRFCFields(rfcs), {
+      respondWithPaginatedEmbed(msg, embed, this.createRFCFields(rfcs), [], {
         itemsPerPage: RFCS_PER_PAGE,
         observeReactionsFor: 1000 * 60 * 5,
       })
