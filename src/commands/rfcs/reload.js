@@ -2,7 +2,7 @@ import { Command } from 'discord.js-commando'
 import { RichEmbed } from 'discord.js'
 import { reloadCache } from '../../services/rfcs'
 import { EMPTY_MESSAGE, ROLES } from '../../utils/constants'
-import { tryDelete } from '../../utils/messages'
+import { cleanupErrorResponse, cleanupInvocation } from '../../utils/messages'
 
 const ALLOWED_ROLES = [ROLES.MODERATORS, ROLES.CORE_TEAM, ROLES.BOT_DEVELOPERS]
 
@@ -44,8 +44,8 @@ module.exports = class RFCsCommand extends Command {
         .setColor('RED')
     } finally {
       const reply = await msg.channel.send(EMPTY_MESSAGE, { embed })
-      tryDelete(msg)
-      tryDelete(reply, 15000)
+      cleanupInvocation(msg)
+      cleanupErrorResponse(reply)
     }
   }
 }

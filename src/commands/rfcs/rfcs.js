@@ -1,13 +1,13 @@
 import { Command } from 'discord.js-commando'
 import { RichEmbed } from 'discord.js'
 import { getAllRFCs } from '../../services/rfcs'
-import { tryDelete } from '../../utils/messages'
 import {
   respondWithPaginatedEmbed,
   DEFAULT_EMBED_COLOUR,
 } from '../../utils/embed'
 import { stripIndent } from 'common-tags'
 import { inlineCode } from '../../utils/string'
+import { cleanupErrorResponse, cleanupInvocation } from '../../utils/messages'
 
 const RFCS_PER_PAGE = 8
 
@@ -84,11 +84,11 @@ module.exports = class RFCsCommand extends Command {
         itemsPerPage: RFCS_PER_PAGE,
         observeReactionsFor: 1000 * 60 * 5,
       })
-      tryDelete(msg, 2500)
+      cleanupInvocation(msg)
     } catch (e) {
       const response = await msg.reply('Sorry, an unknown error occured.')
-      tryDelete(msg)
-      tryDelete(response, 7500)
+      cleanupInvocation(msg)
+      cleanupErrorResponse(response)
     }
   }
 
