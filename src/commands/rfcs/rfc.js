@@ -165,18 +165,11 @@ module.exports = class RFCsCommand extends Command {
     return embed
   }
 
-  /* eslint-disable no-unused-vars */
-  buildEmbedMultiple(embed, rfcs, author, filter, value) {
-    embed.setTitle(`Found Multiple Matching RFCs`)
+  buildDisambiguationEmbed(msg, rfcs, filter, value) {
+    let query = filter === 'empty' ? value : `${filter}:${value}`
 
-    // TODO: Could exceed max allowed number of fields (25)?
-    for (const rfc of rfcs) {
-      embed.addField(rfc.title, `\`!rfc #${rfc.number}\``)
-    }
-
-    embed.addField('Requested by', author, true)
-    this.addRequestThisRFCField(embed, filter, value)
-
-    return embed
+    return new RichEmbed()
+      .setTitle(`RFC Request - ${inlineCode(query)}`)
+      .setDescription(`Found ${rfcs.length} matching results:`)
   }
 }
