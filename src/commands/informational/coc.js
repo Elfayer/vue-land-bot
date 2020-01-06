@@ -4,13 +4,13 @@ import {
   DEFAULT_EMBED_COLOUR,
   respondWithPaginatedEmbed,
 } from '../../utils/embed'
-import etiquette from '../../../data/etiquette'
+import coc from '../../../data/coc'
+import { cleanupInvocation } from '../../utils/messages'
+import { inlineCode } from '../../utils/string'
 
-module.exports = class MiscCodeCommand extends Command {
+module.exports = class InfoCodeOfConductCommand extends Command {
   constructor(client) {
     super(client, {
-      name: 'etiquette',
-      group: 'miscellaneous',
       args: [
         {
           key: 'member',
@@ -19,10 +19,17 @@ module.exports = class MiscCodeCommand extends Command {
           default: 'none',
         },
       ],
-      aliases: ['howtoask', 'asking'],
-      guildOnly: false,
-      memberName: 'etiquette',
-      description: 'Explain the etiquette of asking questions.',
+      name: 'coc',
+      group: 'informational',
+      examples: [
+        inlineCode('!coc'),
+        inlineCode('!coc user'),
+        inlineCode('!coc @user#1234'),
+      ],
+      aliases: ['conduct'],
+      guildOnly: true,
+      memberName: 'coc',
+      description: 'Show the Code of Conduct.',
     })
   }
 
@@ -38,23 +45,28 @@ module.exports = class MiscCodeCommand extends Command {
       sendToChannel = msg.channel
     } else {
       sendToChannel = await member.createDM()
+      let response = await msg.reply(
+        `okay, I sent ${member.displayName} a DM about that as requested.`
+      )
+      cleanupInvocation(response)
     }
 
-    return respondWithPaginatedEmbed(
+    respondWithPaginatedEmbed(
       msg,
       null,
-      etiquette.map(item => this.buildResponseEmbed(msg, item)),
+      coc.map(item => this.buildEmbed(msg, item)),
       [],
-      {
-        sendToChannel,
-      }
+      { sendToChannel }
     )
+
+    cleanupInvocation(msg)
   }
 
-  buildResponseEmbed(msg, entry) {
+  buildEmbed(msg, entry) {
     return new RichEmbed()
       .setColor(DEFAULT_EMBED_COLOUR)
-      .setTitle(`Question Etiquette - ${entry.title}`)
+      .setTitle(`Code of Conduct - ${entry.title}`)
+      .setURL('https://vuejs.org/coc/')
       .setThumbnail('attachment://vue.png')
       .attachFile({
         attachment: 'assets/images/icons/vue.png',

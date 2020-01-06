@@ -9,11 +9,9 @@ import { CDN_BASE_URL } from '../../utils/constants'
 import { inlineCode } from '../../utils/string'
 import sharing from '../../../data/sharing'
 
-module.exports = class MiscSharingCommand extends Command {
+module.exports = class InfoSharingCommand extends Command {
   constructor(client) {
     super(client, {
-      name: 'sharing',
-      group: 'miscellaneous',
       args: [
         {
           key: 'member',
@@ -22,10 +20,12 @@ module.exports = class MiscSharingCommand extends Command {
           default: 'none',
         },
       ],
+      name: 'sharing',
+      group: 'informational',
       examples: [
         inlineCode('!sharing'),
-        inlineCode('!sharing user123'),
-        inlineCode('!sharing @user456#7890'),
+        inlineCode('!sharing user'),
+        inlineCode('!sharing @user#1234'),
       ],
       aliases: ['sharingcode', 'reproduction', 'repro'],
       guildOnly: true,
