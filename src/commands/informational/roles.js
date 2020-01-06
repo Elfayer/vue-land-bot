@@ -30,7 +30,7 @@ const ROLE_INFORMATION = [
   },
 ]
 
-module.exports = class MiscCodeCommand extends Command {
+module.exports = class InfoRolesCommand extends Command {
   constructor(client) {
     super(client, {
       args: [
@@ -45,7 +45,7 @@ module.exports = class MiscCodeCommand extends Command {
         },
       ],
       name: 'roles',
-      group: 'miscellaneous',
+      group: 'informational',
       aliases: ['r', 'role'],
       guildOnly: true,
       memberName: 'roles',
@@ -68,7 +68,8 @@ module.exports = class MiscCodeCommand extends Command {
     const embedMessage = new RichEmbed()
       .setColor('#42b883')
       .setAuthor(
-        msg.member ? msg.member.displayName : msg.author.username,
+        (msg.member ? msg.member.displayName : msg.author.username) +
+          ' requested:',
         msg.author.avatarURL
       )
 

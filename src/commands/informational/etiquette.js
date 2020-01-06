@@ -4,13 +4,13 @@ import {
   DEFAULT_EMBED_COLOUR,
   respondWithPaginatedEmbed,
 } from '../../utils/embed'
+import { cleanupInvocation } from '../../utils/messages'
+import { inlineCode } from '../../utils/string'
 import etiquette from '../../../data/etiquette'
 
-module.exports = class MiscCodeCommand extends Command {
+module.exports = class InfoQuestionEqiquetteCommand extends Command {
   constructor(client) {
     super(client, {
-      name: 'etiquette',
-      group: 'miscellaneous',
       args: [
         {
           key: 'member',
@@ -19,8 +19,15 @@ module.exports = class MiscCodeCommand extends Command {
           default: 'none',
         },
       ],
+      name: 'etiquette',
+      group: 'informational',
+      examples: [
+        inlineCode('!etiquette'),
+        inlineCode('!etiquette user'),
+        inlineCode('!etiquette @user#1234'),
+      ],
       aliases: ['howtoask', 'asking'],
-      guildOnly: false,
+      guildOnly: true,
       memberName: 'etiquette',
       description: 'Explain the etiquette of asking questions.',
     })
@@ -38,9 +45,13 @@ module.exports = class MiscCodeCommand extends Command {
       sendToChannel = msg.channel
     } else {
       sendToChannel = await member.createDM()
+      let response = await msg.reply(
+        `okay, I sent ${member.displayName} a DM about that as requested.`
+      )
+      cleanupInvocation(response)
     }
 
-    return respondWithPaginatedEmbed(
+    respondWithPaginatedEmbed(
       msg,
       null,
       etiquette.map(item => this.buildResponseEmbed(msg, item)),
@@ -49,12 +60,19 @@ module.exports = class MiscCodeCommand extends Command {
         sendToChannel,
       }
     )
+
+    cleanupInvocation(msg)
   }
 
   buildResponseEmbed(msg, entry) {
     return new RichEmbed()
       .setColor(DEFAULT_EMBED_COLOUR)
       .setTitle(`Question Etiquette - ${entry.title}`)
+      .setAuthor(
+        (msg.member ? msg.member.displayName : msg.author.username) +
+          ' requested:',
+        msg.author.avatarURL
+      )
       .setThumbnail('attachment://vue.png')
       .attachFile({
         attachment: 'assets/images/icons/vue.png',
