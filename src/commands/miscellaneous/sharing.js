@@ -4,6 +4,7 @@ import {
   DEFAULT_EMBED_COLOUR,
   respondWithPaginatedEmbed,
 } from '../../utils/embed'
+import { cleanupInvocation } from '../../utils/messages'
 import { CDN_BASE_URL } from '../../utils/constants'
 import sharing from '../../../data/sharing'
 
@@ -42,7 +43,7 @@ module.exports = class MiscSharingCommand extends Command {
       sendToChannel = await member.createDM()
     }
 
-    return respondWithPaginatedEmbed(
+    respondWithPaginatedEmbed(
       msg,
       null,
       sharing.map(item => this.buildResponseEmbed(msg, item)),
@@ -51,6 +52,8 @@ module.exports = class MiscSharingCommand extends Command {
         sendToChannel,
       }
     )
+
+    cleanupInvocation(msg)
   }
 
   buildResponseEmbed(msg, entry) {
