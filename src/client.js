@@ -69,11 +69,11 @@ client.registry.registerGroups([
     id: 'rfcs',
     name: 'RFCs',
   },
+  {
+    id: 'development',
+    name: 'development',
+  },
 ])
-
-if (NODE_ENV === 'development') {
-  client.registry.registerGroup('development', 'Development')
-}
 
 /*
   Register default command groups, commands and argument types.
