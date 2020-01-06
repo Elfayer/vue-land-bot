@@ -2,6 +2,7 @@ import { Command } from 'discord.js-commando'
 import { RichEmbed } from 'discord.js'
 import { cleanupInvocation } from '../../utils/messages'
 import { DEFAULT_EMBED_COLOUR } from '../../utils/embed'
+import { inlineCode } from '../../utils/string'
 import { oneLine } from 'common-tags'
 
 module.exports = class InfoDontRepeatYourselfCommand extends Command {

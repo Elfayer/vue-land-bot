@@ -4,8 +4,9 @@ import {
   DEFAULT_EMBED_COLOUR,
   respondWithPaginatedEmbed,
 } from '../../utils/embed'
-import etiquette from '../../../data/etiquette'
 import { cleanupInvocation } from '../../utils/messages'
+import { inlineCode } from '../../utils/string'
+import etiquette from '../../../data/etiquette'
 
 module.exports = class InfoQuestionEqiquetteCommand extends Command {
   constructor(client) {

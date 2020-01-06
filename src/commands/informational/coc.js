@@ -6,6 +6,7 @@ import {
 } from '../../utils/embed'
 import coc from '../../../data/coc'
 import { cleanupInvocation } from '../../utils/messages'
+import { inlineCode } from '../../utils/string'
 
 module.exports = class InfoCodeOfConductCommand extends Command {
   constructor(client) {

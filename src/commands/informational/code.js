@@ -1,6 +1,7 @@
 import { Command } from 'discord.js-commando'
 import { RichEmbed } from 'discord.js'
 import { cleanupInvocation } from '../../utils/messages'
+import { inlineCode } from '../../utils/string'
 
 module.exports = class InfoCodeHighlightingCommand extends Command {
   constructor(client) {
