@@ -4,6 +4,7 @@ import {
   DEFAULT_EMBED_COLOUR,
   respondWithPaginatedEmbed,
 } from '../../utils/embed'
+import { EMPTY_MESSAGE, CDN_BASE_URL } from '../../utils/constants'
 import sharing from '../../../data/sharing'
 
 module.exports = class MiscSharingCommand extends Command {
@@ -56,6 +57,11 @@ module.exports = class MiscSharingCommand extends Command {
     return new RichEmbed()
       .setColor(DEFAULT_EMBED_COLOUR)
       .setTitle(`Sharing Code - ${entry.title}`)
+      .setAuthor(
+        entry.title,
+        `${CDN_BASE_URL}assets/images/icons/${entry.icon}`,
+        entry.url
+      )
       .setURL(entry.url)
       .setThumbnail('attachment://vue.png')
       .attachFile({

@@ -14,6 +14,7 @@ export default [
         - Collaboration features (code/debug together)
     `,
     url: 'https://jsfiddle.net/boilerplate/vue',
+    icon: 'jsfiddle.png',
   },
   {
     title: 'CodeSandbox',
@@ -30,6 +31,7 @@ export default [
         - Collaboration features (code/debug together)
     `,
     url: 'https://codesandbox.io/s/vue',
+    icon: 'codesandbox.png',
   },
   {
     title: 'CodePen',
@@ -47,6 +49,7 @@ export default [
         - Uploading arbitrary files (requires a project, limited for non-pro)
     `,
     url: 'https://codepen.io/',
+    icon: 'codepen.png',
   },
   {
     title: 'Gist',
@@ -59,5 +62,6 @@ export default [
         - Multiple files
     `,
     url: 'https://gist.github.com/',
+    icon: 'github.png',
   },
 ]
