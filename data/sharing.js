@@ -23,9 +23,9 @@ export default [
       It's the best choice for when your site is using \`vue-cli\`.
 
       Features:
-        - Entire Node ecosystem at your fingerprints (NPM support)
+        - Entire Node ecosystem at your fingertips (NPM support)
         - Supports anything there's an NPM package for
-        - Importing from Github (synchronise your project to a sandbox)
+        - Importing from Github (synchronise your repo with a sandbox)
         - Uploading arbitrary files
         - Collaboration features (code/debug together)
     `,
@@ -43,7 +43,7 @@ export default [
         - Supports HTML, Haml, Markdown, Pug etc.
         - Supports Less, SASS/SCSS, Stylus etc.
         - Supports Babel, TypeScript, CoffeeScript etc.
-        - Collaboration features, live view (requires pro).
+        - Collaboration features, live view (requires pro)
         - Uploading arbitrary files (requires a project, limited for non-pro)
     `,
     url: 'https://codepen.io/',
