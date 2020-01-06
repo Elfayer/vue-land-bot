@@ -444,7 +444,7 @@ function _setAuthor(embed, msg) {
 
   embed.author = {
     name,
-    icon,
+    icon_url: icon,
   }
 
   return embed

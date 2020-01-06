@@ -18,9 +18,5 @@ export function addEllipsis(input, maxLength) {
     return input
   }
 
-  if (['.', ',', '!', '?'].includes(input.substr(input.length - 1))) {
-    return input.substr(0, input.length - 1) + '…'
-  } else {
-    return input + '…'
-  }
+  return input.substr(0, maxLength - 1) + '…'
 }

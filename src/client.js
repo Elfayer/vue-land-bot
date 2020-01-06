@@ -61,6 +61,10 @@ client.registry.registerGroups([
     id: 'jobs',
     name: 'Jobs',
   },
+  {
+    id: 'rfcs',
+    name: 'RFCs',
+  },
 ])
 
 if (NODE_ENV === 'development') {
