@@ -1,4 +1,4 @@
-const { OWNERS } = process.env
+const { OWNER_IDS } = process.env
 
 /*
   Various important and or noteworthy user IDs.
@@ -41,7 +41,7 @@ export const BOT_DEVELOPER_IDS = Object.freeze([
 
     - can run commands set as ownerOnly
 */
-export const OWNER_IDS = Object.freeze(OWNERS)
+export const OWNER_IDS = Object.freeze(OWNER_IDS)
 
 /*
   Protected roles.
