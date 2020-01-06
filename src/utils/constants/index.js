@@ -74,10 +74,14 @@ const EMOJIS = {
   },
 }
 
+const CDN_BASE_URL =
+  'https://raw.githubusercontent.com/Elfayer/vue-land-bot/master/'
+
 export {
   USERS,
   ROLES,
   EMOJIS,
+  CDN_BASE_URL,
   OWNER_IDS,
   PROTECTED_USER_IDS,
   PROTECTED_ROLE_IDS,

@@ -44,9 +44,9 @@ export default [
     `,
   },
   {
-    title: 'Reproduction',
+    title: 'Sharing',
     description: stripIndent`
-      If possible, provide a reproduction of the issue, see \`!repro\`.
+      If possible, provide a reproduction of the issue, see \`!sharing\`.
 
       It'll be much easier to help if you do!
     `,
