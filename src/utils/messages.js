@@ -13,6 +13,10 @@ import { CommandMessage } from 'discord.js-commando'
   Safely means without risking permission errors.
 */
 export function tryDelete(msg, delay = 0) {
+  if (!msg) {
+    return
+  }
+
   console.debug(`Attempting to delete msg #${msg.id}.`)
 
   if (msg.channel.type === 'dm') {
