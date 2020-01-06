@@ -45,7 +45,7 @@ module.exports = class InfoRolesCommand extends Command {
         },
       ],
       name: 'roles',
-      group: 'miscellaneous',
+      group: 'informational',
       aliases: ['r', 'role'],
       guildOnly: true,
       memberName: 'roles',
