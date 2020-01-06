@@ -16,7 +16,7 @@ module.exports = class OptionalKeyValuePairArgumentType extends ArgumentType {
     let k = 'empty'
     let v = val
 
-    if (val.includes(':')) {
+    if (val.includes(':') && val.indexOf(':') !== val.length - 1) {
       ;[k, v] = val.split(/:(.+)/)
     } else if (val.indexOf('#') === 0) {
       k = 'id'
