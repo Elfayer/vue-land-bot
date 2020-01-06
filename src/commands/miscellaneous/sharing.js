@@ -42,11 +42,14 @@ module.exports = class MiscSharingCommand extends Command {
   async run(msg, args) {
     const { member } = args
 
-    let sendToChannel
+    let sendToChannel, response
     if (member === 'none') {
       sendToChannel = msg.channel
     } else {
       sendToChannel = await member.createDM()
+      response = await msg.reply(
+        'okay, I sent them a DM about that as requested.'
+      )
     }
 
     respondWithPaginatedEmbed(
@@ -61,6 +64,7 @@ module.exports = class MiscSharingCommand extends Command {
     )
 
     cleanupInvocation(msg)
+    cleanupInvocation(response)
   }
 
   buildResponseEmbed(msg, entry) {
