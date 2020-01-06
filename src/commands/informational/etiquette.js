@@ -20,6 +20,11 @@ module.exports = class InfoQuestionEqiquetteCommand extends Command {
       ],
       name: 'etiquette',
       group: 'informational',
+      examples: [
+        inlineCode('!etiquette'),
+        inlineCode('!etiquette user'),
+        inlineCode('!etiquette @user#1234'),
+      ],
       aliases: ['howtoask', 'asking'],
       guildOnly: true,
       memberName: 'etiquette',

@@ -24,8 +24,8 @@ module.exports = class InfoSharingCommand extends Command {
       group: 'informational',
       examples: [
         inlineCode('!sharing'),
-        inlineCode('!sharing user123'),
-        inlineCode('!sharing @user456#7890'),
+        inlineCode('!sharing user'),
+        inlineCode('!sharing @user#1234'),
       ],
       aliases: ['sharingcode', 'reproduction', 'repro'],
       guildOnly: true,

@@ -15,6 +15,11 @@ module.exports = class InfoCodeHighlightingCommand extends Command {
       ],
       name: 'code',
       group: 'informational',
+      examples: [
+        inlineCode('!code'),
+        inlineCode('!code user'),
+        inlineCode('!code @user#1234'),
+      ],
       aliases: ['hl', 'highlight', 'highlighting'],
       guildOnly: true,
       memberName: 'code',

@@ -20,6 +20,11 @@ module.exports = class InfoCodeOfConductCommand extends Command {
       ],
       name: 'coc',
       group: 'informational',
+      examples: [
+        inlineCode('!coc'),
+        inlineCode('!coc user'),
+        inlineCode('!coc @user#1234'),
+      ],
       aliases: ['conduct'],
       guildOnly: true,
       memberName: 'coc',

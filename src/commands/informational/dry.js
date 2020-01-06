@@ -17,6 +17,11 @@ module.exports = class InfoDontRepeatYourselfCommand extends Command {
       ],
       name: 'dry',
       group: 'informational',
+      examples: [
+        inlineCode('!dry'),
+        inlineCode('!dry user'),
+        inlineCode('!dry @user#1234'),
+      ],
       guildOnly: true,
       memberName: 'dry',
       description:
