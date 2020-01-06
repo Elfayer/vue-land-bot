@@ -6,8 +6,8 @@ import {
 } from '../../utils/embed'
 import { cleanupInvocation } from '../../utils/messages'
 import { CDN_BASE_URL } from '../../utils/constants'
-import sharing from '../../../data/sharing'
 import { inlineCode } from '../../utils/string'
+import sharing from '../../../data/sharing'
 
 module.exports = class MiscSharingCommand extends Command {
   constructor(client) {
@@ -72,9 +72,9 @@ module.exports = class MiscSharingCommand extends Command {
       .setColor(DEFAULT_EMBED_COLOUR)
       .setTitle(`Sharing Code - ${entry.title}`)
       .setAuthor(
-        entry.title,
-        `${CDN_BASE_URL}assets/images/icons/${entry.icon}`,
-        entry.url
+        (msg.member ? msg.member.displayName : msg.author.username) +
+          ' requested:',
+        `${CDN_BASE_URL}assets/images/icons/${entry.icon}`
       )
       .setURL(entry.url)
       .setThumbnail('attachment://vue.png')
