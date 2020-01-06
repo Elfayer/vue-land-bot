@@ -55,6 +55,7 @@ module.exports = class MiscSharingCommand extends Command {
       [],
       {
         sendToChannel,
+        observeReactionsFor: 1000 * 60 * 30,
       }
     )
 
