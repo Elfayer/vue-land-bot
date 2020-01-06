@@ -1,6 +1,7 @@
 import { join } from 'path'
 import { promises, existsSync, readFileSync } from 'fs'
 import github from '../github'
+import Fuse from 'fuse.js'
 import { DATA_DIR } from '../utils/constants'
 const { stat, writeFile } = promises
 
@@ -11,6 +12,7 @@ export const CACHE_TTL =
 export const PATH_CACHE_FILE = join(DATA_DIR, 'rfcs/', 'rfcs.json')
 export const repository = github.getRepo('vuejs', 'rfcs')
 
+let fuse
 export let rfcs = []
 
 export class RFCDoesNotExistError extends Error {}
@@ -20,11 +22,46 @@ export class RFCDoesNotExistError extends Error {}
 */
 if (!existsSync(PATH_CACHE_FILE)) {
   reloadCache()
-    .then('Performed initial caching of RFC data!')
+    .then('[RFCService] Performed initial caching of RFC data!')
+    .then(() => (fuse = _createFuzzySearcher(rfcs)))
     .catch(console.error)
 } else {
-  console.info('Cache file was found at startup!')
+  console.info('[RFCService] Cache file was found at startup!')
   rfcs = JSON.parse(readFileSync(PATH_CACHE_FILE))
+  fuse = _createFuzzySearcher(rfcs)
+}
+
+/**
+ * Create the fuzzy searcher instance.
+ */
+function _createFuzzySearcher(data) {
+  return new Fuse(data, {
+    shouldSort: true,
+    includeScore: true,
+    threshold: 0.35,
+    location: 0,
+    distance: 2000,
+    maxPatternLength: 32,
+    minMatchCharLength: 3,
+    keys: [
+      {
+        name: 'title',
+        weight: 1.0,
+      },
+      {
+        name: 'body',
+        weight: 0.9,
+      },
+      {
+        name: 'user.login',
+        weight: 0.3,
+      },
+      {
+        name: 'labels.name',
+        weight: 0.3,
+      },
+    ],
+  })
 }
 
 /**
@@ -170,17 +207,5 @@ export async function filterRFCsBy(filter, value) {
  * @returns {Array} An array of RFCs that matched the filter.
  */
 export async function findRFCs(value) {
-  const filters = ['id', 'title', 'body', 'author', 'label']
-
-  let results = new Set()
-
-  for (const filter of filters) {
-    const filtered = await filterRFCsBy(filter, value)
-
-    for (const result of filtered) {
-      results.add(result)
-    }
-  }
-
-  return results.size ? [...results] : []
+  return fuse.search(value).map(result => result.item)
 }
