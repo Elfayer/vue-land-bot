@@ -28,7 +28,7 @@ module.exports = class MiscSharingCommand extends Command {
         inlineCode('!sharing @user456#7890'),
       ],
       aliases: ['sharingcode', 'reproduction', 'repro'],
-      guildOnly: false,
+      guildOnly: true,
       memberName: 'sharing',
       description:
         'Explain how to share code, to aid reproduction and helping.',
