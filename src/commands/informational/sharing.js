@@ -9,7 +9,7 @@ import { CDN_BASE_URL } from '../../utils/constants'
 import { inlineCode } from '../../utils/string'
 import sharing from '../../../data/sharing'
 
-module.exports = class MiscSharingCommand extends Command {
+module.exports = class InfoSharingCommand extends Command {
   constructor(client) {
     super(client, {
       name: 'sharing',

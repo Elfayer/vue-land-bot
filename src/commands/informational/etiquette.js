@@ -6,7 +6,7 @@ import {
 } from '../../utils/embed'
 import etiquette from '../../../data/etiquette'
 
-module.exports = class MiscCodeCommand extends Command {
+module.exports = class InfoQuestionEqiquetteCommand extends Command {
   constructor(client) {
     super(client, {
       name: 'etiquette',

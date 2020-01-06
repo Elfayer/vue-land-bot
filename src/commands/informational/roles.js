@@ -30,7 +30,7 @@ const ROLE_INFORMATION = [
   },
 ]
 
-module.exports = class MiscCodeCommand extends Command {
+module.exports = class InfoRolesCommand extends Command {
   constructor(client) {
     super(client, {
       args: [

@@ -6,7 +6,7 @@ import {
 } from '../../utils/embed'
 import coc from '../../../data/coc'
 
-module.exports = class MiscCodeCommand extends Command {
+module.exports = class InfoCodeOfConductCommand extends Command {
   constructor(client) {
     super(client, {
       name: 'coc',

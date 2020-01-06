@@ -4,7 +4,7 @@ import { tryDelete } from '../../utils/messages'
 import { DEFAULT_EMBED_COLOUR } from '../../utils/embed'
 import { oneLine } from 'common-tags'
 
-module.exports = class MiscCodeCommand extends Command {
+module.exports = class InfoDontRepeatYourselfCommand extends Command {
   constructor(client) {
     super(client, {
       name: 'dry',
