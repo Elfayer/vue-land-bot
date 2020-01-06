@@ -42,20 +42,21 @@ module.exports = class MiscSharingCommand extends Command {
   async run(msg, args) {
     const { member } = args
 
-    let sendToChannel, response
+    let sendToChannel
     if (member === 'none') {
       sendToChannel = msg.channel
     } else {
       sendToChannel = await member.createDM()
-      response = await msg.reply(
-        'okay, I sent them a DM about that as requested.'
+      let response = await msg.reply(
+        `okay, I sent ${member.displayName} a DM about that as requested.`
       )
+      cleanupInvocation(response)
     }
 
     respondWithPaginatedEmbed(
       msg,
       null,
-      sharing.map(item => this.buildResponseEmbed(msg, item)),
+      sharing.map(item => this.buildEmbed(msg, item)),
       [],
       {
         sendToChannel,
@@ -64,10 +65,9 @@ module.exports = class MiscSharingCommand extends Command {
     )
 
     cleanupInvocation(msg)
-    cleanupInvocation(response)
   }
 
-  buildResponseEmbed(msg, entry) {
+  buildEmbed(msg, entry) {
     return new RichEmbed()
       .setColor(DEFAULT_EMBED_COLOUR)
       .setTitle(`Sharing Code - ${entry.title}`)
