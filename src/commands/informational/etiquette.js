@@ -21,7 +21,7 @@ module.exports = class InfoQuestionEqiquetteCommand extends Command {
       name: 'etiquette',
       group: 'informational',
       aliases: ['howtoask', 'asking'],
-      guildOnly: false,
+      guildOnly: true,
       memberName: 'etiquette',
       description: 'Explain the etiquette of asking questions.',
     })

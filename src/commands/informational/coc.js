@@ -21,7 +21,7 @@ module.exports = class InfoCodeOfConductCommand extends Command {
       name: 'coc',
       group: 'informational',
       aliases: ['conduct'],
-      guildOnly: false,
+      guildOnly: true,
       memberName: 'coc',
       description: 'Show the Code of Conduct.',
     })

@@ -16,7 +16,7 @@ module.exports = class InfoCodeHighlightingCommand extends Command {
       name: 'code',
       group: 'informational',
       aliases: ['hl', 'highlight', 'highlighting'],
-      guildOnly: false,
+      guildOnly: true,
       memberName: 'code',
       description: 'Show code highlighting tips.',
     })
