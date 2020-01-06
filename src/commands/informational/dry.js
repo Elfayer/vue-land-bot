@@ -60,6 +60,11 @@ module.exports = class InfoDontRepeatYourselfCommand extends Command {
         attachment: 'assets/images/icons/vue.png',
         name: 'vue.png',
       })
+      .setAuthor(
+        (msg.member ? msg.member.displayName : msg.author.username) +
+          ' requested:',
+        msg.author.avatarURL
+      )
       .setDescription(
         oneLine`
           When you copy-paste your question in multiple channels, it just leads to duplicated efforts.

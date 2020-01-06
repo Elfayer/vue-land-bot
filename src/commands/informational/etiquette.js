@@ -68,6 +68,11 @@ module.exports = class InfoQuestionEqiquetteCommand extends Command {
     return new RichEmbed()
       .setColor(DEFAULT_EMBED_COLOUR)
       .setTitle(`Question Etiquette - ${entry.title}`)
+      .setAuthor(
+        (msg.member ? msg.member.displayName : msg.author.username) +
+          ' requested:',
+        msg.author.avatarURL
+      )
       .setThumbnail('attachment://vue.png')
       .attachFile({
         attachment: 'assets/images/icons/vue.png',
