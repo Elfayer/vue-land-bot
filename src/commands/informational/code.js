@@ -48,6 +48,11 @@ module.exports = class InfoCodeHighlightingCommand extends Command {
 
     const embedMessage = new RichEmbed()
       .setColor('#42b883')
+      .setAuthor(
+        (msg.member ? msg.member.displayName : msg.author.username) +
+          ' requested:',
+        msg.author.avatarURL
+      )
       .setTitle('Code Highlight Guide')
       .addField('Inline code', '\\`code\\`')
       .addField('Multiline code', '\\`\\`\\`\n// code\n\\`\\`\\`')

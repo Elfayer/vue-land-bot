@@ -67,6 +67,11 @@ module.exports = class InfoCodeOfConductCommand extends Command {
       .setColor(DEFAULT_EMBED_COLOUR)
       .setTitle(`Code of Conduct - ${entry.title}`)
       .setURL('https://vuejs.org/coc/')
+      .setAuthor(
+        (msg.member ? msg.member.displayName : msg.author.username) +
+          ' requested:',
+        msg.author.avatarURL
+      )
       .setThumbnail('attachment://vue.png')
       .attachFile({
         attachment: 'assets/images/icons/vue.png',

@@ -68,7 +68,8 @@ module.exports = class InfoRolesCommand extends Command {
     const embedMessage = new RichEmbed()
       .setColor('#42b883')
       .setAuthor(
-        msg.member ? msg.member.displayName : msg.author.username,
+        (msg.member ? msg.member.displayName : msg.author.username) +
+          ' requested:',
         msg.author.avatarURL
       )
 
