@@ -21,6 +21,11 @@ module.exports = class MiscSharingCommand extends Command {
           default: 'none',
         },
       ],
+      examples: [
+        inlineCode('!sharing'),
+        inlineCode('!sharing user123'),
+        inlineCode('!sharing @user456#7890'),
+      ],
       aliases: ['sharingcode', 'reproduction', 'repro'],
       guildOnly: false,
       memberName: 'sharing',
