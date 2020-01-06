@@ -3,7 +3,7 @@ import { join } from 'path'
 import { Collection } from 'discord.js'
 import { CommandoClient } from 'discord.js-commando'
 
-const { COMMAND_PREFIX = '!' } = process.env
+const { NODE_ENV, COMMAND_PREFIX = '!' } = process.env
 
 let OWNER_IDS = process.env.OWNER_IDS || '269617876036616193' // Default to @evan#9589
 if (OWNER_IDS.includes(',')) {
@@ -88,6 +88,13 @@ client.registry.registerDefaults()
 client.registry.registerTypesIn(PATH_TYPES)
 client.registry.registerCommandsIn(PATH_COMMANDS)
 
+if (NODE_ENV === 'production') {
+  const evalCommand = client.registry.findCommands('eval')
+
+  if (evalCommand.length === 1) {
+    client.registry.unregisterCommand(evalCommand[0])
+  }
+}
 /*
   Set up some global error handling and some purely informational event handlers.
 */
