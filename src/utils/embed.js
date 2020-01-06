@@ -20,6 +20,7 @@ export function embedMessage(title, description) {
  * @property {boolean} [authorOnly=true] Should only authors be allowed to paginate?
  * @property {boolean} [addRequestedBy=true] Should we display the author on the embed?
  * @property {boolean} [addExtraFieldsToInitialEmbed=false] Should extra fields also be added to the initial embed?
+ * @property {Channel} [sendToChannel=null] Send to another channel than `msg.channel`?
  */
 
 /**
@@ -138,7 +139,7 @@ export async function respondWithPaginatedEmbed(
   */
   const context = {
     msg,
-    channel: msg.channel,
+    channel: options.sendToChannel ? options.sendToChannel : msg.channel,
     embed: embed ? { ...embed } : null,
     items: [...items],
     fields,
