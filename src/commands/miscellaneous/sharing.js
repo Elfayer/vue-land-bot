@@ -4,7 +4,7 @@ import {
   DEFAULT_EMBED_COLOUR,
   respondWithPaginatedEmbed,
 } from '../../utils/embed'
-import { EMPTY_MESSAGE, CDN_BASE_URL } from '../../utils/constants'
+import { CDN_BASE_URL } from '../../utils/constants'
 import sharing from '../../../data/sharing'
 
 module.exports = class MiscSharingCommand extends Command {
