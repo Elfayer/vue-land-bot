@@ -50,8 +50,8 @@ client.registry.registerGroups([
     name: 'Documentation',
   },
   {
-    id: 'miscellaneous',
-    name: 'Miscellaneous',
+    id: 'informational',
+    name: 'Informational',
   },
   {
     id: 'moderation',
