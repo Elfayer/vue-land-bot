@@ -1,9 +1,18 @@
 import { Command } from 'discord.js-commando'
 import { RichEmbed } from 'discord.js'
+import { cleanupInvocation } from '../../utils/messages'
 
 module.exports = class InfoCodeHighlightingCommand extends Command {
   constructor(client) {
     super(client, {
+      args: [
+        {
+          key: 'member',
+          type: 'member',
+          prompt: 'who to DM the message to (optional)?',
+          default: 'none',
+        },
+      ],
       name: 'code',
       group: 'informational',
       aliases: ['hl', 'highlight', 'highlighting'],
@@ -17,10 +26,20 @@ module.exports = class InfoCodeHighlightingCommand extends Command {
     return true
   }
 
-  async run(msg) {
-    /*
-      TODO: Extract fields and build dynamically? Makes for easier reading + modification.
-    */
+  async run(msg, args) {
+    const { member } = args
+
+    let sendToChannel
+    if (member === 'none') {
+      sendToChannel = msg.channel
+    } else {
+      sendToChannel = await member.createDM()
+      let response = await msg.reply(
+        `okay, I sent ${member.displayName} a DM about that as requested.`
+      )
+      cleanupInvocation(response)
+    }
+
     const embedMessage = new RichEmbed()
       .setColor('#42b883')
       .setTitle('Code Highlight Guide')
@@ -34,6 +53,6 @@ module.exports = class InfoCodeHighlightingCommand extends Command {
         'Note you can use any language name for multiline coloring such as: html, js, css, sql, etc.'
       )
 
-    msg.channel.send(embedMessage)
+    sendToChannel.send(embedMessage)
   }
 }

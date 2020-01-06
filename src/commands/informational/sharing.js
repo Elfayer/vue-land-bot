@@ -12,8 +12,6 @@ import sharing from '../../../data/sharing'
 module.exports = class InfoSharingCommand extends Command {
   constructor(client) {
     super(client, {
-      name: 'sharing',
-      group: 'informational',
       args: [
         {
           key: 'member',
@@ -22,6 +20,8 @@ module.exports = class InfoSharingCommand extends Command {
           default: 'none',
         },
       ],
+      name: 'sharing',
+      group: 'informational',
       examples: [
         inlineCode('!sharing'),
         inlineCode('!sharing user123'),

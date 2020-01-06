@@ -5,12 +5,11 @@ import {
   respondWithPaginatedEmbed,
 } from '../../utils/embed'
 import etiquette from '../../../data/etiquette'
+import { cleanupInvocation } from '../../utils/messages'
 
 module.exports = class InfoQuestionEqiquetteCommand extends Command {
   constructor(client) {
     super(client, {
-      name: 'etiquette',
-      group: 'informational',
       args: [
         {
           key: 'member',
@@ -19,6 +18,8 @@ module.exports = class InfoQuestionEqiquetteCommand extends Command {
           default: 'none',
         },
       ],
+      name: 'etiquette',
+      group: 'informational',
       aliases: ['howtoask', 'asking'],
       guildOnly: false,
       memberName: 'etiquette',
@@ -38,9 +39,13 @@ module.exports = class InfoQuestionEqiquetteCommand extends Command {
       sendToChannel = msg.channel
     } else {
       sendToChannel = await member.createDM()
+      let response = await msg.reply(
+        `okay, I sent ${member.displayName} a DM about that as requested.`
+      )
+      cleanupInvocation(response)
     }
 
-    return respondWithPaginatedEmbed(
+    respondWithPaginatedEmbed(
       msg,
       null,
       etiquette.map(item => this.buildResponseEmbed(msg, item)),
@@ -49,6 +54,8 @@ module.exports = class InfoQuestionEqiquetteCommand extends Command {
         sendToChannel,
       }
     )
+
+    cleanupInvocation(msg)
   }
 
   buildResponseEmbed(msg, entry) {

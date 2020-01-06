@@ -1,21 +1,21 @@
 import { Command } from 'discord.js-commando'
 import { RichEmbed } from 'discord.js'
-import { tryDelete } from '../../utils/messages'
+import { cleanupInvocation } from '../../utils/messages'
 import { DEFAULT_EMBED_COLOUR } from '../../utils/embed'
 import { oneLine } from 'common-tags'
 
 module.exports = class InfoDontRepeatYourselfCommand extends Command {
   constructor(client) {
     super(client, {
-      name: 'dry',
       args: [
         {
-          key: 'user',
+          key: 'member',
           type: 'member',
           prompt: 'who to DM the message to (optional)?',
           default: 'none',
         },
       ],
+      name: 'dry',
       group: 'informational',
       guildOnly: true,
       memberName: 'dry',
@@ -29,7 +29,18 @@ module.exports = class InfoDontRepeatYourselfCommand extends Command {
   }
 
   async run(msg, args) {
-    const { user } = args
+    const { member } = args
+
+    let sendToChannel
+    if (member === 'none') {
+      sendToChannel = msg.channel
+    } else {
+      sendToChannel = await member.createDM()
+      let response = await msg.reply(
+        `okay, I sent ${member.displayName} a DM about that as requested.`
+      )
+      cleanupInvocation(response)
+    }
 
     const codeHelpChannel =
       msg.client.channels.find(channel => channel.name === 'code-help') ||
@@ -55,16 +66,8 @@ module.exports = class InfoDontRepeatYourselfCommand extends Command {
         `
       )
 
-    if (user === 'none') {
-      await msg.channel.send(embed)
-    } else {
-      try {
-        user.send(embed)
-      } catch (e) {
-        console.error(e)
-      }
-    }
+    await sendToChannel.send(embed)
 
-    tryDelete(msg)
+    cleanupInvocation(msg)
   }
 }
