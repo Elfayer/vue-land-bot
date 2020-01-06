@@ -1,4 +1,4 @@
-import { RichEmbed } from 'discord.js'
+import { RichEmbed, DMChannel } from 'discord.js'
 import { EMOJIS, EMPTY_MESSAGE, DISCORD_EMBED_FIELD_LIMIT } from './constants'
 import { CommandMessage } from 'discord.js-commando'
 
@@ -131,6 +131,13 @@ export async function respondWithPaginatedEmbed(
   */
   if (typeof options.addExtraFieldsToInitialEmbed === 'undefined') {
     options.addExtraFieldsToInitialEmbed = false
+  }
+
+  /*
+    If the channel we're sending to is a DM, then we must disable authorOnly.
+  */
+  if (options.sendToChannel instanceof DMChannel) {
+    options.authorOnly = false
   }
 
   /*
