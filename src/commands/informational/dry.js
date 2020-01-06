@@ -16,7 +16,7 @@ module.exports = class InfoDontRepeatYourselfCommand extends Command {
           default: 'none',
         },
       ],
-      group: 'miscellaneous',
+      group: 'informational',
       guildOnly: true,
       memberName: 'dry',
       description:

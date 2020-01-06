@@ -10,7 +10,7 @@ module.exports = class InfoQuestionEqiquetteCommand extends Command {
   constructor(client) {
     super(client, {
       name: 'etiquette',
-      group: 'miscellaneous',
+      group: 'informational',
       args: [
         {
           key: 'member',

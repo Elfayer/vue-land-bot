@@ -10,7 +10,7 @@ module.exports = class InfoCodeOfConductCommand extends Command {
   constructor(client) {
     super(client, {
       name: 'coc',
-      group: 'miscellaneous',
+      group: 'informational',
       aliases: ['conduct'],
       guildOnly: false,
       memberName: 'coc',

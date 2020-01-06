@@ -13,7 +13,7 @@ module.exports = class InfoSharingCommand extends Command {
   constructor(client) {
     super(client, {
       name: 'sharing',
-      group: 'miscellaneous',
+      group: 'informational',
       args: [
         {
           key: 'member',

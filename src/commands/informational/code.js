@@ -5,7 +5,7 @@ module.exports = class InfoCodeHighlightingCommand extends Command {
   constructor(client) {
     super(client, {
       name: 'code',
-      group: 'miscellaneous',
+      group: 'informational',
       aliases: ['hl', 'highlight', 'highlighting'],
       guildOnly: false,
       memberName: 'code',
