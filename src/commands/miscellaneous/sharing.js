@@ -7,6 +7,7 @@ import {
 import { cleanupInvocation } from '../../utils/messages'
 import { CDN_BASE_URL } from '../../utils/constants'
 import sharing from '../../../data/sharing'
+import { inlineCode } from '../../utils/string'
 
 module.exports = class MiscSharingCommand extends Command {
   constructor(client) {
