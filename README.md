@@ -6,6 +6,7 @@ It's written in JS and built on [Discord.js](https://github.com/discordjs/discor
 
 ## Table of Contents
 
+- [Requirements](#requirements)
 - [Set up the bot](#setup)
   - [Necessary steps](#necessary-steps)
     - [Install dependencies](#install-dependencies)
@@ -17,6 +18,10 @@ It's written in JS and built on [Discord.js](https://github.com/discordjs/discor
 - [Run the bot](#running)
 - [FAQ](#faq)
 - [Contributors](#contributors)
+
+# Requirements
+
+- Node 10+ is required for the experimental promise-based file system API.
 
 # Setup
 
