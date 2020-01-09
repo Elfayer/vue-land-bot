@@ -1,8 +1,7 @@
 import { Command } from 'discord.js-commando'
 import axios from 'axios'
 import { RichEmbed } from 'discord.js'
-import { EMPTY_MESSAGE } from '../../utils/constants'
-import { tryDelete } from '../../utils/messages'
+import { tryDelete, cleanupInvocation } from '../../utils/messages'
 import { inlineCode } from '../../utils/string'
 import { respondWithPaginatedEmbed } from '../../utils/embed'
 
@@ -78,7 +77,8 @@ module.exports = class DocsDocsCommand extends Command {
         .setTitle('No results found matching query')
         .addField('Query', query)
 
-      msg.channel.send(EMPTY_MESSAGE, { embed }).then(() => tryDelete(msg))
+      await msg.channel.send(embed)
+      cleanupInvocation(msg)
     } catch (error) {
       console.error(error)
 
