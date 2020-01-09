@@ -44,6 +44,10 @@ const EMPTY_MESSAGE = '\u200b'
 */
 
 const DATA_DIR = resolve(__dirname, '../../../data')
+const DOCS_MARKDOWN_DIR = resolve(
+  __dirname,
+  '../../../packages/vuejs.org/src/v2/'
+)
 
 const AUTOMATICALLY_DELETE_ERRORS = true
 const AUTOMATICALLY_DELETE_INVOCATIONS = true
@@ -89,6 +93,7 @@ export {
   BOT_DEVELOPER_IDS,
   EMPTY_MESSAGE,
   DATA_DIR,
+  DOCS_MARKDOWN_DIR,
   AUTOMATICALLY_DELETE_ERRORS,
   AUTOMATICALLY_DELETE_INVOCATIONS,
   DELETE_ERRORS_AFTER_MS,
