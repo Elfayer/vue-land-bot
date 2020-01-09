@@ -16,18 +16,15 @@ module.exports = class DocsDocsCommand extends Command {
     super(client, {
       args: [
         {
+          key: 'topic',
+          type: 'string',
+          prompt: `a topic to filter results by (${TOPICS.join(', ')})`,
+        },
+        {
           key: 'query',
           type: 'string',
           prompt: 'keyword(s) to search for on MDN?',
-        },
-        {
-          key: 'topic',
-          type: 'string',
-          prompt: `an optional topic (${TOPICS.join(', ')})`,
-          validate(value) {
-            return TOPICS.includes(value)
-          },
-          default: 'all',
+          default: 'none',
         },
       ],
       name: 'mdn',
@@ -50,6 +47,10 @@ module.exports = class DocsDocsCommand extends Command {
 
   async run(msg, args) {
     let { query, topic } = args
+
+    if (!TOPICS.includes(topic) && query === 'none') {
+      query = topic
+    }
 
     const params = new URLSearchParams()
     params.append('locale', 'en-US')
