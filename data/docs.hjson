@@ -5,7 +5,7 @@
       items: [
         {
           title: Installation
-          link: https://vuejs.org/v2/api/#silent
+          link: https://vuejs.org/v2/guide/installation.html
           description: '''
               - where to find the release notes
               - how to install from CDN, NPM or CLI
