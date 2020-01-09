@@ -3,7 +3,7 @@ import axios from 'axios'
 import { RichEmbed } from 'discord.js'
 import { EMPTY_MESSAGE } from '../../utils/constants'
 import { tryDelete } from '../../utils/messages'
-import { addEllipsis, inlineCode } from '../../utils/string'
+import { inlineCode } from '../../utils/string'
 import { respondWithPaginatedEmbed } from '../../utils/embed'
 
 const MDN_WEB_URL = 'https://developer.mozilla.org/en-US/docs/'
