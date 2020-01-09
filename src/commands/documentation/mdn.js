@@ -9,28 +9,7 @@ import { respondWithPaginatedEmbed } from '../../utils/embed'
 const MDN_WEB_URL = 'https://developer.mozilla.org/en-US/docs/'
 const MDN_SEARCH_URL = 'https://developer.mozilla.org/en-US/search.json?'
 
-const TOPICS = [
-  {
-    slug: 'api',
-    name: 'APIs and DOM',
-  },
-  {
-    slug: 'css',
-    name: 'CSS',
-  },
-  {
-    slug: 'html',
-    name: 'HTML',
-  },
-  {
-    slug: 'http',
-    name: 'HTTP',
-  },
-  {
-    slug: 'js',
-    name: 'JavaScript',
-  },
-]
+const TOPICS = ['api', 'css', 'html', 'http', 'js']
 
 module.exports = class DocsDocsCommand extends Command {
   constructor(client) {
@@ -44,11 +23,9 @@ module.exports = class DocsDocsCommand extends Command {
         {
           key: 'topic',
           type: 'string',
-          prompt: `an optional topic (${TOPICS.map(topic =>
-            inlineCode(topic.slug)
-          ).join(', ')})`,
+          prompt: `an optional topic (${TOPICS.join(', ')})`,
           validate(value) {
-            return TOPICS.map(topic => topic.slug).includes(value)
+            return TOPICS.includes(value)
           },
           default: 'all',
         },
