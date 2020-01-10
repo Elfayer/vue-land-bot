@@ -78,7 +78,6 @@ module.exports = class InfoDontRepeatYourselfCommand extends Command {
       )
 
     await sendToChannel.send(embed)
-
     cleanupInvocation(msg)
   }
 }
