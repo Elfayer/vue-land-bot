@@ -9,7 +9,7 @@ export default class TestTask extends Task {
     })
   }
 
-  run() {
-    console.log('[TestTask] Executed!')
+  run(msg) {
+    msg.reply('[TestTask] Executed!')
   }
 }
