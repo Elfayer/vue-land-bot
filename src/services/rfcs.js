@@ -80,9 +80,21 @@ export async function reloadCache() {
       https://github.com/github-tools/github/issues/593
       https://github.com/github-tools/github/issues/578
     */
-    const { data } = await repository._requestAllPages(
+    let { data } = await repository._requestAllPages(
       `/repos/${repository.__fullname}/pulls?state=all`
     )
+
+    data = data.map(rfc => {
+      /*
+        WORKAROUND: For some stupid reason, Discord mobile doesn't like CR+LF here.
+        SEE: https://github.com/Elfayer/vue-land-bot/issues/58
+      */
+      rfc.body = rfc.body
+        .replace(/(```)[\s]*([\w]+)([\r\n|\r|\n]+)/g, '$1$2\n')
+        .replace(/([\r\n|\r|\n]+)```[\r\n|\r|\n]+/g, '```\n') // Clean up excessive trailing newlines.
+
+      return rfc
+    })
 
     if (Array.isArray(data) && data.length) {
       await writeFile(PATH_CACHE_FILE, JSON.stringify(data))
@@ -91,6 +103,7 @@ export async function reloadCache() {
     console.info(`Cached ${data.length} RFCs to disc!`)
 
     rfcs = data
+
     return rfcs
   } catch (e) {
     console.error(e)

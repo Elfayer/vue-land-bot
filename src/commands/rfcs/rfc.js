@@ -125,12 +125,7 @@ module.exports = class RFCsCommand extends Command {
       .addField('Author', rfc.user.login, true)
       .addField('Status', rfc.state, true)
 
-    embed.setDescription(
-      addEllipsis(
-        rfc.body.replace(/(?<=```)[ ]*(?=\w+)/g, ''),
-        DISCORD_EMBED_DESCRIPTION_LIMIT
-      )
-    )
+    embed.setDescription(addEllipsis(rfc.body, DISCORD_EMBED_DESCRIPTION_LIMIT))
 
     let footerSections = []
 
