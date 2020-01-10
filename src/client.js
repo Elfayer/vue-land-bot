@@ -6,6 +6,10 @@ import { setDefaults } from './services/tasks'
 
 const { NODE_ENV, COMMAND_PREFIX = '!' } = process.env
 
+/*
+  We allow a comma-separated list of owner IDs, so check for 
+  that and apply it back onto process.env if found.
+*/
 let OWNER_IDS = process.env.OWNER_IDS || '269617876036616193' // Default to @evan#9589
 if (OWNER_IDS.includes(',')) {
   OWNER_IDS = OWNER_IDS.split(',')
