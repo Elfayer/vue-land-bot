@@ -18,6 +18,13 @@ export default class LogTask extends Task {
         'Logs various events (connection, command invocations etc.) for debugging purposes/to aid development.',
       enabled: true,
       config: {
+        shouldLog: {
+          readyEvents: false, // Log when the bot is ready / has connected?
+          resumeEvents: false, // Log when the bot resumes a lost connection?
+          invokedCommands: true, // Log all commands invocations?
+          erroredCommands: true, // Log commands which cause an error to be thrown?
+          unknownCommands: true, // Log unknown commands?
+        },
         connectionChannel: {
           name: 'connection',
         },
@@ -28,11 +35,11 @@ export default class LogTask extends Task {
     })
   }
 
-  shouldExecute() {
-    return false
-  }
-
   ready() {
+    if (!this.config.shouldLog.readyEvents) {
+      return
+    }
+
     trySend(
       this.config.connectionChannel,
       null,
@@ -41,6 +48,10 @@ export default class LogTask extends Task {
   }
 
   resume() {
+    if (!this.config.shouldLog.resumeEvents) {
+      return
+    }
+
     trySend(
       this.config.commandChannel,
       null,
@@ -59,6 +70,10 @@ export default class LogTask extends Task {
   }
 
   commandError(cmd, err, msg) {
+    if (!this.config.shouldLog.erroredCommands) {
+      return
+    }
+
     trySend(
       this.config.commandChannel,
       null,
@@ -69,6 +84,10 @@ export default class LogTask extends Task {
   }
 
   unknownCommand(msg) {
+    if (!this.config.shouldLog.erroredCommands) {
+      return
+    }
+
     trySend(
       this.config.commandChannel,
       null,
