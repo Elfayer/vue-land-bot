@@ -5,6 +5,7 @@ import {
   MODERATOR_ROLE_IDS,
   PROTECTED_ROLE_IDS,
   EMPTY_MESSAGE,
+  GUILDS,
 } from '../utils/constants'
 import { blockCode, inlineCode } from '../utils/string'
 
@@ -18,6 +19,7 @@ export default class ModerationTask extends Task {
   constructor(client) {
     super(client, {
       name: 'moderation',
+      guild: GUILDS.CURRENT,
       description:
         'Takes action (warn, ban, notify) when users mention a trigger word.',
       enabled: true,
