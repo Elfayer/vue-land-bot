@@ -18,6 +18,13 @@ if (OWNER_IDS.includes(',')) {
 }
 process.env.OWNER_IDS = OWNER_IDS
 
+/*
+  Ensure that NODE_ENV is set to development if it is unset.
+*/
+if (!NODE_ENV) {
+  process.env.NODE_ENV = 'development'
+}
+
 const PATH_TASKS = join(__dirname, 'tasks')
 const PATH_TYPES = join(__dirname, 'types')
 const PATH_COMMANDS = join(__dirname, 'commands')
