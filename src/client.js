@@ -58,7 +58,7 @@ for (const file of taskFiles) {
 /*
   Write configuration file if applicable (DB doesn't yet exist).
 */
-setDefaults(client.tasks.map(task => task.toJSON()))
+setDefaults(client.tasks)
 
 /*
   Register command groups.
