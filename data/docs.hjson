@@ -305,19 +305,19 @@
         {
           title: Examples
           path: examples/index
-          headings: [
-            Markdown Editor
-            Github Commits
-            Grid Component
-            Tree View
-            SVG Graph
-            Modal Component
-            Elastic Header
-            Wrapper Component
-            Realtime with deepstreamHub
-            Firebase + validation
-            TodoMVC
-            HackerNews Clone
+          description: [
+            - Markdown Editor
+            - Github Commits
+            - Grid Component
+            - Tree View
+            - SVG Graph
+            - Modal Component
+            - Elastic Header
+            - Wrapper Component
+            - Realtime with deepstreamHub
+            - Firebase + validation
+            - TodoMVC
+            - HackerNews Clone
           ]
           extractHeadings: false
         }

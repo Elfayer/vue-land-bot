@@ -144,11 +144,7 @@ function _extendItem(item, category) {
     item.extractHeadings = true
   }
 
-  if (item.headings) {
-    item.headings = item.headings.map(heading => ({ depth: 2, text: heading }))
-  }
-
-  let headings = item.headings ? item.headings : []
+  let headings = []
 
   if (item.extractHeadings) {
     const markdown = readFileSync(join(DOCS_MARKDOWN_DIR, `${item.path}.md`), {
@@ -157,7 +153,7 @@ function _extendItem(item, category) {
     headings = _extractHeadings(markdown)
   }
 
-  if (!item.description) {
+  if (!item.description && item.headings.length) {
     item.description = headings
       .filter(heading => heading.depth === 2)
       .map(heading => `- ${heading.text}`)
