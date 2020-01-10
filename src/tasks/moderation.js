@@ -125,7 +125,7 @@ export default class ModerationTask extends Task {
     try {
       const dmChannel = await msg.author.createDM()
       this.log(msg, dmChannel, { color: 'ORANGE', isDMWarning: true })
-      this.log(msg, logChannel, { color: 'ORANGE' })
+      this.log(msg, logChannel, { color: 'ORANGE', isDMWarning: false })
     } catch (e) {
       console.error(e)
     }
@@ -136,13 +136,25 @@ export default class ModerationTask extends Task {
   }
 
   log(msg, logChannel, options = {}) {
-    logChannel.send(options.notifyRole || EMPTY_MESSAGE, {
-      embed:
-        options.embed ||
-        this.createEmbed(msg, options.isDMWarning || false, {
-          color: 'ORANGE',
-        }),
-    })
+    if (typeof options.notifyRole === 'undefined') {
+      options.notifyRole = EMPTY_MESSAGE
+    }
+
+    if (typeof options.isDMWarning === 'undefined') {
+      options.isDMWarning = false
+    }
+
+    const embed =
+      options.embed ||
+      this.createEmbed(msg, options.isDMWarning, {
+        color: 'ORANGE',
+      })
+
+    if (options.notifyRole) {
+      logChannel.send(options.notifyRole, { embed })
+    } else {
+      logChannel.send(embed)
+    }
   }
 
   createEmbed(msg, isDMWarning = false, options = {}) {
