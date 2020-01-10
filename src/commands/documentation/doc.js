@@ -123,6 +123,10 @@ module.exports = class DocumentationDocCommand extends Command {
         'Perhaps you meant one of these:',
         results.map(result => inlineCode(result.id)).join(', ')
       )
+      .addField(
+        'HINT',
+        'Use the buttons below to navigate through the matches!'
+      )
       .setAuthor(
         (msg.member ? msg.member.displayName : msg.author.username) +
           ' requested:',
