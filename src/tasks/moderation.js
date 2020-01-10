@@ -41,6 +41,10 @@ export default class ModerationTask extends Task {
   }
 
   shouldExecute(msg) {
+    if (!super.shouldExecute(msg)) {
+      return false
+    }
+
     const match = moderation
       .get('triggers')
       .find(({ trigger }) => {
