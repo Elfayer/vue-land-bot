@@ -55,12 +55,16 @@ for (const category of apiData.categories) {
 const fuse = new Fuse(Object.values(apis), {
   shouldSort: true,
   includeScore: true,
-  threshold: 0.35, // TODO: Experiment more but this seems fairly good for now.
+  threshold: 0.4,
   location: 0,
-  distance: 100,
+  distance: 42,
   maxPatternLength: 32,
-  minMatchCharLength: 1,
-  keys: ['title', 'aliases'],
+  minMatchCharLength: 3,
+  keys: [
+    { name: 'title', weight: 1.0 },
+    { name: 'aliases', weight: 1.0 },
+    { name: 'headings.text', weight: 0.75 },
+  ],
 })
 
 /**
