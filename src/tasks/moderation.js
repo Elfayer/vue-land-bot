@@ -8,7 +8,10 @@ import {
 } from '../utils/constants'
 import { blockCode, inlineCode } from '../utils/string'
 
-// Don't *actually* ban - real bans make testing hard!
+/*
+  In debug mode we don't *actually* ban even if a ban is triggered, additionally 
+  we don't add any ignored roles, so that moderators etc. can test the command too.
+*/
 const DEBUG_MODE = process.env.NODE_ENV === 'development'
 
 export default class ModerationTask extends Task {
@@ -19,7 +22,9 @@ export default class ModerationTask extends Task {
         'Takes action (warn, ban, notify) when users mention a trigger word.',
       enabled: true,
       ignored: {
-        roles: [...new Set(MODERATOR_ROLE_IDS.concat(PROTECTED_ROLE_IDS))],
+        roles: DEBUG_MODE
+          ? []
+          : [...new Set(MODERATOR_ROLE_IDS.concat(PROTECTED_ROLE_IDS))],
       },
       guildOnly: true,
       config: {
