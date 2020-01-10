@@ -1,7 +1,7 @@
 import { Command } from 'discord.js-commando'
 import axios from 'axios'
 import { RichEmbed } from 'discord.js'
-import { tryDelete, cleanupInvocation } from '../../utils/messages'
+import { cleanupInvocation, cleanupErrorResponse } from '../../utils/messages'
 import { inlineCode } from '../../utils/string'
 import { respondWithPaginatedEmbed } from '../../utils/embed'
 
@@ -83,8 +83,8 @@ module.exports = class DocsDocsCommand extends Command {
       console.error(error)
 
       return msg.reply('Something went wrong.').then(reply => {
-        tryDelete(msg)
-        tryDelete(reply, 5000)
+        cleanupInvocation(msg)
+        cleanupErrorResponse(reply)
       })
     }
   }
