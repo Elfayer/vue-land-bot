@@ -4,22 +4,22 @@ import { Collection } from 'discord.js'
 import { CommandoClient } from 'discord.js-commando'
 import { setDefaults } from './services/tasks'
 
-if (!process.env.NODE_ENV) {
-  process.env.NODE_ENV = 'development'
-}
+const { NODE_ENV, COMMAND_PREFIX = '!' } = process.env
 
-const {
-  OWNERS_IDS = '269617876036616193', // Default to @evan#9589
-  COMMAND_PREFIX = '!',
-  NODE_ENV,
-} = process.env
+let OWNER_IDS = process.env.OWNER_IDS || '269617876036616193' // Default to @evan#9589
+if (OWNER_IDS.includes(',')) {
+  OWNER_IDS = OWNER_IDS.split(',')
+} else {
+  OWNER_IDS = [OWNER_IDS]
+}
+process.env.OWNER_IDS = OWNER_IDS
 
 const PATH_TASKS = join(__dirname, 'tasks')
 const PATH_TYPES = join(__dirname, 'types')
 const PATH_COMMANDS = join(__dirname, 'commands')
 
 const client = new CommandoClient({
-  owner: OWNERS_IDS,
+  owner: OWNER_IDS,
   commandPrefix: COMMAND_PREFIX,
 })
 
@@ -60,8 +60,8 @@ client.registry.registerGroups([
     name: 'Documentation',
   },
   {
-    id: 'miscellaneous',
-    name: 'Miscellaneous',
+    id: 'informational',
+    name: 'Informational',
   },
   {
     id: 'moderation',
@@ -71,11 +71,15 @@ client.registry.registerGroups([
     id: 'tasks',
     name: 'Tasks',
   },
+  {
+    id: 'rfcs',
+    name: 'RFCs',
+  },
+  {
+    id: 'development',
+    name: 'development',
+  },
 ])
-
-if (NODE_ENV === 'development') {
-  client.registry.registerGroup('development', 'Development')
-}
 
 /*
   Register default command groups, commands and argument types.
@@ -90,6 +94,13 @@ client.registry.registerDefaults()
 client.registry.registerTypesIn(PATH_TYPES)
 client.registry.registerCommandsIn(PATH_COMMANDS)
 
+if (NODE_ENV === 'production') {
+  const evalCommand = client.registry.findCommands('eval')
+
+  if (evalCommand.length === 1) {
+    client.registry.unregisterCommand(evalCommand[0])
+  }
+}
 /*
   Set up some global error handling and some purely informational event handlers.
 */

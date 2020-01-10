@@ -1,22 +1,27 @@
 import { Command } from 'discord.js-commando'
-import { RichEmbed } from 'discord.js'
-import { tryDelete } from '../../utils/messages'
-import { DEFAULT_EMBED_COLOUR } from '../../utils/embed'
+import { cleanupInvocation } from '../../utils/messages'
+import { createDefaultEmbed } from '../../utils/embed'
+import { inlineCode } from '../../utils/string'
 import { oneLine } from 'common-tags'
 
-module.exports = class MiscCodeCommand extends Command {
+module.exports = class InfoDontRepeatYourselfCommand extends Command {
   constructor(client) {
     super(client, {
-      name: 'dry',
       args: [
         {
-          key: 'user',
+          key: 'member',
           type: 'member',
           prompt: 'who to DM the message to (optional)?',
           default: 'none',
         },
       ],
-      group: 'miscellaneous',
+      name: 'dry',
+      group: 'informational',
+      examples: [
+        inlineCode('!dry'),
+        inlineCode('!dry user'),
+        inlineCode('!dry @user#1234'),
+      ],
       guildOnly: true,
       memberName: 'dry',
       description:
@@ -29,20 +34,25 @@ module.exports = class MiscCodeCommand extends Command {
   }
 
   async run(msg, args) {
-    const { user } = args
+    const { member } = args
+
+    let sendToChannel
+    if (member === 'none') {
+      sendToChannel = msg.channel
+    } else {
+      sendToChannel = await member.createDM()
+      let response = await msg.reply(
+        `okay, I sent ${member.displayName} a DM about that as requested.`
+      )
+      cleanupInvocation(response)
+    }
 
     const codeHelpChannel =
       msg.client.channels.find(channel => channel.name === 'code-help') ||
       '#code-help'
 
-    const embed = new RichEmbed()
-      .setColor(DEFAULT_EMBED_COLOUR)
+    const embed = createDefaultEmbed(msg)
       .setTitle("Please don't repeat yourself")
-      .setThumbnail('attachment://vue.png')
-      .attachFile({
-        attachment: 'assets/images/icons/vue.png',
-        name: 'vue.png',
-      })
       .setDescription(
         oneLine`
           When you copy-paste your question in multiple channels, it just leads to duplicated efforts.
@@ -55,16 +65,7 @@ module.exports = class MiscCodeCommand extends Command {
         `
       )
 
-    if (user === 'none') {
-      await msg.channel.send(embed)
-    } else {
-      try {
-        user.send(embed)
-      } catch (e) {
-        console.error(e)
-      }
-    }
-
-    tryDelete(msg)
+    await sendToChannel.send(embed)
+    cleanupInvocation(msg)
   }
 }

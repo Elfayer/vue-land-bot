@@ -1,14 +1,35 @@
-import { RichEmbed } from 'discord.js'
+import { RichEmbed, DMChannel } from 'discord.js'
 import { EMOJIS, EMPTY_MESSAGE, DISCORD_EMBED_FIELD_LIMIT } from './constants'
 import { CommandMessage } from 'discord.js-commando'
+import { inlineCode } from './string'
 
 export const DEFAULT_EMBED_COLOUR = '#42b883'
 
-export function embedMessage(title, description) {
-  return new RichEmbed()
+/**
+ * Create an embed with the Vue logo, Vue-green sidebar & "requested by" author field.
+ *
+ * @param {CommandMessage} msg The message that triggered the command.
+ * @param {object} options Options, such as whether or not to add the Vue logo.
+ * @returns {RichEmbed} The default embed.
+ */
+export function createDefaultEmbed(msg, options = {}) {
+  if (typeof options.logo === 'undefined') {
+    options.logo = true
+  }
+
+  const authorName = msg.member ? msg.member.displayName : msg.author.username
+  const embed = new RichEmbed()
     .setColor(DEFAULT_EMBED_COLOUR)
-    .setTitle(title)
-    .setDescription(description)
+    .setAuthor(`${authorName} requested:`, msg.author.avatarURL)
+
+  if (options.logo) {
+    embed.setThumbnail('attachment://vue.png').attachFile({
+      attachment: 'assets/images/icons/vue.png',
+      name: 'vue.png',
+    })
+  }
+
+  return embed
 }
 
 /**
@@ -20,6 +41,7 @@ export function embedMessage(title, description) {
  * @property {boolean} [authorOnly=true] Should only authors be allowed to paginate?
  * @property {boolean} [addRequestedBy=true] Should we display the author on the embed?
  * @property {boolean} [addExtraFieldsToInitialEmbed=false] Should extra fields also be added to the initial embed?
+ * @property {Channel} [sendToChannel=null] Send to another channel than `msg.channel`?
  */
 
 /**
@@ -61,10 +83,6 @@ export async function respondWithPaginatedEmbed(
     throw new Error('Cannot paginate a non-array!')
   }
 
-  if (!(embed instanceof RichEmbed)) {
-    throw new Error('Invalid embed passed!')
-  }
-
   if (!options.itemsPerPage) {
     options.itemsPerPage = DEFAULT_ITEMS_PER_PAGE
   } else if (options.itemsPerPage > DISCORD_EMBED_FIELD_LIMIT) {
@@ -82,6 +100,10 @@ export async function respondWithPaginatedEmbed(
   */
   if (!options.itemsAreEmbeds) {
     options.itemsAreEmbeds = items.every(item => item instanceof RichEmbed)
+  }
+
+  if (!options.itemsAreEmbeds && !(embed instanceof RichEmbed)) {
+    throw new Error('Invalid embed passed!')
   }
 
   /*
@@ -133,13 +155,20 @@ export async function respondWithPaginatedEmbed(
   }
 
   /*
+    If the channel we're sending to is a DM, then we must disable authorOnly.
+  */
+  if (options.sendToChannel instanceof DMChannel) {
+    options.authorOnly = false
+  }
+
+  /*
     The context is passed to functions which can't access data via 
     closures and holds pagination data and so on.
   */
   const context = {
     msg,
-    channel: msg.channel,
-    embed: { ...embed },
+    channel: options.sendToChannel ? options.sendToChannel : msg.channel,
+    embed: embed ? { ...embed } : null,
     items: [...items],
     fields,
     itemsCount: items.length,
@@ -147,7 +176,7 @@ export async function respondWithPaginatedEmbed(
     pageCurrent: 1,
   }
   context.pageLast = options.itemsAreEmbeds
-    ? context.itemsCount + 1 // Initial embed also counts as a page.
+    ? context.itemsCount + (embed ? 1 : 0) // Initial embed also counts as a page.
     : Math.ceil(context.itemsCount / context.itemsPerPage)
 
   /*
@@ -164,13 +193,17 @@ export async function respondWithPaginatedEmbed(
     Add footer.
   */
   if (options.showDetailsInFooter) {
-    context.embed = _setFooter(context.embed, context)
+    if (embed) {
+      context.embed = _setFooter(context.embed, context)
+    } else {
+      context.items[0] = _setFooter(context.items[0], context)
+    }
   }
 
   /*
     Add author.
   */
-  if (options.addRequestedBy) {
+  if (embed && options.addRequestedBy) {
     context.embed = _setAuthor(context.embed, msg)
 
     if (options.itemsAreEmbeds) {
@@ -186,7 +219,7 @@ export async function respondWithPaginatedEmbed(
       _addFieldsToEmbed(item, context.fields, options.inlineFields)
     )
 
-    if (options.addExtraFieldsToInitialEmbed) {
+    if (embed && options.addExtraFieldsToInitialEmbed) {
       context.embed = _addFieldsToEmbed(
         context.embed,
         context.fields,
@@ -217,7 +250,7 @@ export async function respondWithPaginatedEmbed(
   */
   // eslint-disable-next-line require-atomic-updates
   context.response = await context.channel.send(EMPTY_MESSAGE, {
-    embed: context.embed,
+    embed: embed ? context.embed : items[0],
   })
 
   await context.response.react(msg.client.emojis.get(EMOJIS.PAGINATION.FIRST))
@@ -321,18 +354,28 @@ function _handlePagination(
             the itemsAreEmbeds feature, the *initial* embed is separate and 
             so in that case the offset is 2.
     */
-    const pageIndex = itemsAreEmbeds ? pageCurrent - 2 : pageCurrent - 1
+    const pageIndex = itemsAreEmbeds
+      ? pageCurrent - (embed ? 2 : 1)
+      : pageCurrent - 1
 
     if (itemsAreEmbeds) {
+      let firstPage
+      // Account for no initial disambugation embed.
+      if (pageCurrent === 1) {
+        firstPage = embed ? { ...embed } : { ...items[pageIndex] }
+      }
+
       responseEmbed = new RichEmbed(
-        pageCurrent === 1 ? { ...embed } : { ...items[pageIndex] }
+        pageCurrent === 1 ? firstPage : { ...items[pageIndex] }
       )
 
       if (showDetailsInFooter) {
         responseEmbed = _setFooter(responseEmbed, { pageCurrent, pageLast })
 
         if (pageCurrent > 1) {
-          responseEmbed.footer.text += ` | ${items[pageIndex].footer.text}`
+          if (items[pageIndex].footer) {
+            responseEmbed.footer.text += ` | ${items[pageIndex].footer.text}`
+          }
         }
       }
     } else {
@@ -430,7 +473,7 @@ function _setAuthor(embed, msg) {
 
   embed.author = {
     name,
-    icon,
+    icon_url: icon,
   }
 
   return embed

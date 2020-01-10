@@ -1,7 +1,7 @@
 import { Command } from 'discord.js-commando'
-import { RichEmbed } from 'discord.js'
 import { ROLES } from '../../utils/constants'
-import { tryDelete } from '../../utils/messages'
+import { cleanupInvocation } from '../../utils/messages'
+import { createDefaultEmbed } from '../../utils/embed'
 
 const ROLE_INFORMATION = [
   {
@@ -30,7 +30,7 @@ const ROLE_INFORMATION = [
   },
 ]
 
-module.exports = class MiscCodeCommand extends Command {
+module.exports = class InfoRolesCommand extends Command {
   constructor(client) {
     super(client, {
       args: [
@@ -45,7 +45,7 @@ module.exports = class MiscCodeCommand extends Command {
         },
       ],
       name: 'roles',
-      group: 'miscellaneous',
+      group: 'informational',
       aliases: ['r', 'role'],
       guildOnly: true,
       memberName: 'roles',
@@ -65,19 +65,14 @@ module.exports = class MiscCodeCommand extends Command {
   async run(msg, args) {
     const { role } = args
 
-    const embedMessage = new RichEmbed()
-      .setColor('#42b883')
-      .setAuthor(
-        msg.member ? msg.member.displayName : msg.author.username,
-        msg.author.avatarURL
-      )
+    const embed = createDefaultEmbed(msg)
 
     if (role === 'all') {
       for (const roleInfo of ROLE_INFORMATION) {
-        embedMessage.addField(roleInfo.title, roleInfo.content)
+        embed.addField(roleInfo.title, roleInfo.content)
       }
 
-      embedMessage
+      embed
         .setTitle('Vue Land Roles')
         .setDescription(
           '**NOTE:** Please do not ping any of these roles (except Moderators).'
@@ -88,12 +83,12 @@ module.exports = class MiscCodeCommand extends Command {
       )
 
       if (matchedRole) {
-        embedMessage
+        embed
           .setColor(role.color)
           .setTitle(`Vue Land Roles - ${matchedRole.title}`)
           .setDescription(matchedRole.content)
       } else {
-        embedMessage
+        embed
           .setColor('ORANGE')
           .setTitle(`Vue Land Roles`)
           .setDescription(
@@ -102,7 +97,7 @@ module.exports = class MiscCodeCommand extends Command {
       }
     }
 
-    await msg.channel.send(embedMessage)
-    tryDelete(msg)
+    await msg.channel.send(embed)
+    cleanupInvocation(msg)
   }
 }

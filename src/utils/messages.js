@@ -13,6 +13,10 @@ import {
   Safely means without risking permission errors.
 */
 export function tryDelete(msg, delay = 0) {
+  if (!msg) {
+    return
+  }
+
   console.debug(`Attempting to delete msg #${msg.id}.`)
 
   if (msg.channel.type === 'dm') {
@@ -86,7 +90,7 @@ export function cleanupInvocation(msg) {
     return
   }
 
-  return tryDelete(msg, DELETE_INVOCATIONS_AFTER_MS)
+  return tryDelete(msg, Math.max(1000, DELETE_INVOCATIONS_AFTER_MS))
 }
 
 /**
@@ -100,5 +104,5 @@ export function cleanupErrorResponse(msg) {
     return
   }
 
-  return tryDelete(msg, DELETE_ERRORS_AFTER_MS)
+  return tryDelete(msg, Math.max(1000, DELETE_ERRORS_AFTER_MS))
 }
