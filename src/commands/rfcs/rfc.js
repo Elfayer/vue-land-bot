@@ -127,6 +127,11 @@ module.exports = class RFCsCommand extends Command {
     const embed = new RichEmbed()
       .setTitle(`RFC #${rfc.number} - ${rfc.title}`)
       .setURL(rfc.html_url)
+      .setAuthor(
+        (msg.member ? msg.member.displayName : msg.author.username) +
+          ' requested:',
+        msg.author.avatarURL
+      )
       .setThumbnail('attachment://vue.png')
       .attachFile({
         attachment: 'assets/images/icons/vue.png',
