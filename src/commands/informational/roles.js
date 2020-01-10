@@ -1,7 +1,7 @@
 import { Command } from 'discord.js-commando'
-import { RichEmbed } from 'discord.js'
 import { ROLES } from '../../utils/constants'
 import { cleanupInvocation } from '../../utils/messages'
+import { createDefaultEmbed } from '../../utils/embed'
 
 const ROLE_INFORMATION = [
   {
@@ -65,13 +65,7 @@ module.exports = class InfoRolesCommand extends Command {
   async run(msg, args) {
     const { role } = args
 
-    const embed = new RichEmbed()
-      .setColor('#42b883')
-      .setAuthor(
-        (msg.member ? msg.member.displayName : msg.author.username) +
-          ' requested:',
-        msg.author.avatarURL
-      )
+    const embed = createDefaultEmbed(msg)
 
     if (role === 'all') {
       for (const roleInfo of ROLE_INFORMATION) {

@@ -1,14 +1,35 @@
 import { RichEmbed, DMChannel } from 'discord.js'
 import { EMOJIS, EMPTY_MESSAGE, DISCORD_EMBED_FIELD_LIMIT } from './constants'
 import { CommandMessage } from 'discord.js-commando'
+import { inlineCode } from './string'
 
 export const DEFAULT_EMBED_COLOUR = '#42b883'
 
-export function embedMessage(title, description) {
-  return new RichEmbed()
+/**
+ * Create an embed with the Vue logo, Vue-green sidebar & "requested by" author field.
+ *
+ * @param {CommandMessage} msg The message that triggered the command.
+ * @param {object} options Options, such as whether or not to add the Vue logo.
+ * @returns {RichEmbed} The default embed.
+ */
+export function createDefaultEmbed(msg, options = {}) {
+  if (typeof options.logo === 'undefined') {
+    options.logo = true
+  }
+
+  const authorName = msg.member ? msg.member.displayName : msg.author.username
+  const embed = new RichEmbed()
     .setColor(DEFAULT_EMBED_COLOUR)
-    .setTitle(title)
-    .setDescription(description)
+    .setAuthor(`${authorName} requested:`, msg.author.avatarURL)
+
+  if (options.logo) {
+    embed.setThumbnail('attachment://vue.png').attachFile({
+      attachment: 'assets/images/icons/vue.png',
+      name: 'vue.png',
+    })
+  }
+
+  return embed
 }
 
 /**

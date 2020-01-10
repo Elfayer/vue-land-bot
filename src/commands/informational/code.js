@@ -1,7 +1,7 @@
 import { Command } from 'discord.js-commando'
-import { RichEmbed } from 'discord.js'
 import { cleanupInvocation } from '../../utils/messages'
 import { inlineCode } from '../../utils/string'
+import { createDefaultEmbed } from '../../utils/embed'
 
 module.exports = class InfoCodeHighlightingCommand extends Command {
   constructor(client) {
@@ -46,13 +46,7 @@ module.exports = class InfoCodeHighlightingCommand extends Command {
       cleanupInvocation(response)
     }
 
-    const embed = new RichEmbed()
-      .setColor('#42b883')
-      .setAuthor(
-        (msg.member ? msg.member.displayName : msg.author.username) +
-          ' requested:',
-        msg.author.avatarURL
-      )
+    const embed = createDefaultEmbed(msg)
       .setTitle('Code Highlight Guide')
       .addField('Inline code', '\\`code\\`')
       .addField('Multiline code', '\\`\\`\\`\n// code\n\\`\\`\\`')

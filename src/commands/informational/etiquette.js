@@ -1,8 +1,7 @@
 import { Command } from 'discord.js-commando'
-import { RichEmbed } from 'discord.js'
 import {
-  DEFAULT_EMBED_COLOUR,
   respondWithPaginatedEmbed,
+  createDefaultEmbed,
 } from '../../utils/embed'
 import { cleanupInvocation } from '../../utils/messages'
 import { inlineCode } from '../../utils/string'
@@ -65,19 +64,8 @@ module.exports = class InfoQuestionEqiquetteCommand extends Command {
   }
 
   buildResponseEmbed(msg, entry) {
-    return new RichEmbed()
-      .setColor(DEFAULT_EMBED_COLOUR)
+    return createDefaultEmbed(msg)
       .setTitle(`Question Etiquette - ${entry.title}`)
-      .setAuthor(
-        (msg.member ? msg.member.displayName : msg.author.username) +
-          ' requested:',
-        msg.author.avatarURL
-      )
-      .setThumbnail('attachment://vue.png')
-      .attachFile({
-        attachment: 'assets/images/icons/vue.png',
-        name: 'vue.png',
-      })
       .setDescription(entry.description)
   }
 }

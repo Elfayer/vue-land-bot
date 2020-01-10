@@ -3,7 +3,10 @@ import axios from 'axios'
 import { RichEmbed } from 'discord.js'
 import { cleanupInvocation } from '../../utils/messages'
 import { inlineCode } from '../../utils/string'
-import { respondWithPaginatedEmbed } from '../../utils/embed'
+import {
+  respondWithPaginatedEmbed,
+  createDefaultEmbed,
+} from '../../utils/embed'
 
 const MDN_WEB_URL = 'https://developer.mozilla.org/en-US/docs/'
 const MDN_SEARCH_URL = 'https://developer.mozilla.org/en-US/search.json?'
@@ -82,9 +85,8 @@ module.exports = class DocsDocsCommand extends Command {
     } catch (error) {
       console.error(error)
 
-      return msg.reply('Something went wrong.').then(reply => {
-        cleanupInvocation(msg)
-      })
+      await msg.reply('Something went wrong.')
+      cleanupInvocation(msg)
     }
   }
 
@@ -99,7 +101,7 @@ module.exports = class DocsDocsCommand extends Command {
       footer.push(`Tags: ${doc.tags.map(inlineCode).join(', ')}`)
     }
 
-    const embed = new RichEmbed()
+    const embed = createDefaultEmbed(msg, { logo: false })
       .setTitle(`MDN - ${doc.title}`)
       .setDescription(doc.excerpt)
       .setURL(`${MDN_WEB_URL}${doc.slug}`)

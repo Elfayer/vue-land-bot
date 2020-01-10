@@ -1,8 +1,7 @@
 import { Command } from 'discord.js-commando'
-import { RichEmbed } from 'discord.js'
 import {
-  DEFAULT_EMBED_COLOUR,
   respondWithPaginatedEmbed,
+  createDefaultEmbed,
 } from '../../utils/embed'
 import coc from '../../../data/coc'
 import { cleanupInvocation } from '../../utils/messages'
@@ -63,20 +62,11 @@ module.exports = class InfoCodeOfConductCommand extends Command {
   }
 
   buildEmbed(msg, entry) {
-    return new RichEmbed()
-      .setColor(DEFAULT_EMBED_COLOUR)
-      .setTitle(`Code of Conduct - ${entry.title}`)
+    const embed = createDefaultEmbed(msg, msg.argString)
+
+    return embed
       .setURL('https://vuejs.org/coc/')
-      .setAuthor(
-        (msg.member ? msg.member.displayName : msg.author.username) +
-          ' requested:',
-        msg.author.avatarURL
-      )
-      .setThumbnail('attachment://vue.png')
-      .attachFile({
-        attachment: 'assets/images/icons/vue.png',
-        name: 'vue.png',
-      })
+      .setTitle(`Code of Conduct - ${entry.title}`)
       .setDescription(entry.description)
   }
 }
