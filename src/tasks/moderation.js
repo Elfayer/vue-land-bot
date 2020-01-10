@@ -59,6 +59,8 @@ export default class ModerationTask extends Task {
     }
 
     this.action = match.action
+
+    return true
   }
 
   run(msg) {
