@@ -2,7 +2,7 @@ import { Command } from 'discord.js-commando'
 import { getDoc, findDoc, DocNotFoundError } from '../../services/docs'
 import { RichEmbed } from 'discord.js'
 import { EMPTY_MESSAGE } from '../../utils/constants'
-import { inlineCode, blockCode } from '../../utils/string'
+import { inlineCode } from '../../utils/string'
 import { cleanupInvocation, cleanupErrorResponse } from '../../utils/messages'
 import {
   DEFAULT_EMBED_COLOUR,
