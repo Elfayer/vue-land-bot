@@ -3,7 +3,7 @@ import { getAPI, findAPI, APINotFoundError } from '../../services/api'
 import { RichEmbed } from 'discord.js'
 import { EMPTY_MESSAGE } from '../../utils/constants'
 import { inlineCode, blockCode } from '../../utils/string'
-import { cleanupInvocation, cleanupErrorResponse } from '../../utils/messages'
+import { cleanupInvocation } from '../../utils/messages'
 import {
   DEFAULT_EMBED_COLOUR,
   respondWithPaginatedEmbed,
@@ -98,7 +98,6 @@ module.exports = class DocumentationAPICommand extends Command {
       })
 
       cleanupInvocation(msg)
-      cleanupErrorResponse(reply)
     }
   }
 
