@@ -326,9 +326,12 @@
           path: cookbook/index
         }
         {
+          link: https://cli.vuejs.org/
           title: Vue CLI
           description: '''
-            Vue CLI is not yet documented.
+            At this time, Vue CLI documentation is not searchable via the bot.
+
+            Click the link below, instead!
           '''
           aliases: [
             vue-cli
