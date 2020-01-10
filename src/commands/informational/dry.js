@@ -1,7 +1,6 @@
 import { Command } from 'discord.js-commando'
-import { RichEmbed } from 'discord.js'
 import { cleanupInvocation } from '../../utils/messages'
-import { DEFAULT_EMBED_COLOUR } from '../../utils/embed'
+import { createDefaultEmbed } from '../../utils/embed'
 import { inlineCode } from '../../utils/string'
 import { oneLine } from 'common-tags'
 
@@ -52,19 +51,8 @@ module.exports = class InfoDontRepeatYourselfCommand extends Command {
       msg.client.channels.find(channel => channel.name === 'code-help') ||
       '#code-help'
 
-    const embed = new RichEmbed()
-      .setColor(DEFAULT_EMBED_COLOUR)
+    const embed = createDefaultEmbed(msg)
       .setTitle("Please don't repeat yourself")
-      .setThumbnail('attachment://vue.png')
-      .attachFile({
-        attachment: 'assets/images/icons/vue.png',
-        name: 'vue.png',
-      })
-      .setAuthor(
-        (msg.member ? msg.member.displayName : msg.author.username) +
-          ' requested:',
-        msg.author.avatarURL
-      )
       .setDescription(
         oneLine`
           When you copy-paste your question in multiple channels, it just leads to duplicated efforts.

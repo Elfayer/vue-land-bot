@@ -1,12 +1,11 @@
 import { Command } from 'discord.js-commando'
 import { getDoc, findDoc, DocNotFoundError } from '../../services/docs'
-import { RichEmbed } from 'discord.js'
 import { EMPTY_MESSAGE } from '../../utils/constants'
 import { inlineCode } from '../../utils/string'
 import { cleanupInvocation } from '../../utils/messages'
 import {
-  DEFAULT_EMBED_COLOUR,
   respondWithPaginatedEmbed,
+  createDefaultEmbed,
 } from '../../utils/embed'
 
 module.exports = class DocumentationDocCommand extends Command {
@@ -87,70 +86,42 @@ module.exports = class DocumentationDocCommand extends Command {
     } catch (error) {
       console.error(error)
 
-      const reply = await msg.channel.send(EMPTY_MESSAGE, {
+      await msg.channel.send(EMPTY_MESSAGE, {
         embed: this.buildErrorEmbed(msg, lookup, error),
       })
-
       cleanupInvocation(msg)
     }
   }
 
   buildErrorEmbed(msg, lookup, error) {
-    return new RichEmbed()
+    return createDefaultEmbed(msg)
       .setTitle(`Guide Lookup: ${inlineCode(lookup)}`)
       .setDescription(error.message)
-      .setAuthor(
-        (msg.member ? msg.member.displayName : msg.author.username) +
-          ' requested:',
-        msg.author.avatarURL
-      )
       .setColor('RED')
   }
 
   buildDisambiguationEmbed(msg, lookup, results) {
-    return new RichEmbed()
+    return createDefaultEmbed(msg)
       .setTitle(`Guide Lookup: ${inlineCode(lookup)}`)
       .setDescription(
         "Sorry, I couldn't find an exact match for your query in the guide."
       )
-      .setThumbnail('attachment://vue.png')
-      .attachFile({
-        attachment: 'assets/images/icons/vue.png',
-        name: 'vue.png',
-      })
       .addField(
         'Perhaps you meant one of these:',
         results.map(result => inlineCode(result.id)).join(', ')
-      )
-      .setAuthor(
-        (msg.member ? msg.member.displayName : msg.author.username) +
-          ' requested:',
-        msg.author.avatarURL
       )
       .setColor('BLUE')
   }
 
   buildResponseEmbed(msg, doc) {
-    const embed = new RichEmbed()
-      .setTitle(doc.title)
-      .setAuthor(
-        (msg.member ? msg.member.displayName : msg.author.username) +
-          ' requested:',
-        msg.author.avatarURL
-      )
+    const embed = createDefaultEmbed(msg)
       .setURL(doc.link)
+      .setTitle(doc.title)
       .setFooter(`Category: ${doc.category}`)
-      .setThumbnail('attachment://vue.png')
-      .attachFile({
-        attachment: 'assets/images/icons/vue.png',
-        name: 'vue.png',
-      })
 
     if (doc.description) {
       embed.setDescription(doc.description)
     }
-
-    embed.setColor(DEFAULT_EMBED_COLOUR)
 
     if (doc.see && doc.see.length) {
       embed.addField('See Also', doc.see.join('\n'))

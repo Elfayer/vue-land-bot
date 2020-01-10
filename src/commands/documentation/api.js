@@ -1,12 +1,11 @@
 import { Command } from 'discord.js-commando'
 import { getAPI, findAPI, APINotFoundError } from '../../services/api'
-import { RichEmbed } from 'discord.js'
 import { EMPTY_MESSAGE } from '../../utils/constants'
 import { inlineCode, blockCode } from '../../utils/string'
 import { cleanupInvocation } from '../../utils/messages'
 import {
-  DEFAULT_EMBED_COLOUR,
   respondWithPaginatedEmbed,
+  createDefaultEmbed,
 } from '../../utils/embed'
 
 module.exports = class DocumentationAPICommand extends Command {
@@ -93,64 +92,38 @@ module.exports = class DocumentationAPICommand extends Command {
     } catch (error) {
       console.error(error)
 
-      const reply = await msg.channel.send(EMPTY_MESSAGE, {
+      await msg.channel.send(EMPTY_MESSAGE, {
         embed: this.buildErrorEmbed(msg, lookup, error),
       })
-
       cleanupInvocation(msg)
     }
   }
 
   buildErrorEmbed(msg, lookup, error) {
-    return new RichEmbed()
+    return createDefaultEmbed(msg)
       .setTitle(`API Lookup: ${inlineCode(lookup)}`)
       .setDescription(error.message)
-      .setAuthor(
-        (msg.member ? msg.member.displayName : msg.author.username) +
-          ' requested:',
-        msg.author.avatarURL
-      )
       .setColor('RED')
   }
 
   buildDisambiguationEmbed(msg, lookup, results) {
-    return new RichEmbed()
+    return createDefaultEmbed(msg)
       .setTitle(`API Lookup: ${inlineCode(lookup)}`)
       .setDescription(
         "Sorry, I couldn't find an exact match for your query in the API docs."
       )
-      .setThumbnail('attachment://vue.png')
-      .attachFile({
-        attachment: 'assets/images/icons/vue.png',
-        name: 'vue.png',
-      })
       .addField(
         'Perhaps you meant one of these:',
         results.map(result => inlineCode(result.id)).join(', ')
-      )
-      .setAuthor(
-        (msg.member ? msg.member.displayName : msg.author.username) +
-          ' requested:',
-        msg.author.avatarURL
       )
       .setColor('BLUE')
   }
 
   buildResponseEmbed(msg, api) {
-    const embed = new RichEmbed()
-      .setTitle(api.title)
-      .setAuthor(
-        (msg.member ? msg.member.displayName : msg.author.username) +
-          ' requested:',
-        msg.author.avatarURL
-      )
+    const embed = createDefaultEmbed(msg)
       .setURL(api.link)
+      .setTitle(api.title)
       .setFooter(`Category: ${api.category}`)
-      .setThumbnail('attachment://vue.png')
-      .attachFile({
-        attachment: 'assets/images/icons/vue.png',
-        name: 'vue.png',
-      })
 
     if (api.description) {
       embed.setDescription(api.description)
@@ -164,8 +137,6 @@ module.exports = class DocumentationAPICommand extends Command {
       } else if (api.status === 'removed') {
         embed.setColor('RED')
       }
-    } else {
-      embed.setColor(DEFAULT_EMBED_COLOUR)
     }
 
     if (api.type) {
