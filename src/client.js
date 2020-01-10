@@ -136,7 +136,18 @@ client.on('message', msg => {
   }
 
   client.tasks
-    .filter(task => task.enabled)
+    .filter(task => {
+      if (!task.enabled) {
+        return false
+      }
+
+      // Check for guild-specific tasks.
+      if (task.guild && msg.guild && task.guild !== msg.guild.id) {
+        return false
+      }
+
+      return true
+    })
     .forEach(task => {
       if (task.shouldExecute(msg)) {
         task.run(msg)
