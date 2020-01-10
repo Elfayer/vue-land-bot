@@ -1,8 +1,12 @@
 import { join } from 'path'
+import { resolve } from 'url'
 import { readFileSync, existsSync } from 'fs'
 import HJSON from 'hjson'
 import Fuse from 'fuse.js'
-import { DATA_DIR } from '../utils/constants'
+import unified from 'unified'
+import remarkParse from 'remark-parse'
+import remarkFrontmatter from 'remark-frontmatter'
+import { DATA_DIR, DOCS_BASE_URL, DOCS_MARKDOWN_DIR } from '../utils/constants'
 
 const API_DATA_FILE = join(DATA_DIR, 'docs.hjson')
 
@@ -23,23 +27,15 @@ try {
 }
 
 const aliasMap = {}
-
 export const apis = {}
 
 /*
-  Flatten data and build alias map.
+  Extend item, flatten data and build alias map.
 */
 for (const category of apiData.categories) {
-  for (const item of category.items) {
-    if (!item.id) {
-      item.id = item.title
-    }
-
-    item.id = item.id.toLowerCase()
-
-    apis[item.id] = Object.assign(item, {
-      category: category.title,
-    })
+  for (let item of category.items) {
+    item = _extendItem(item, category)
+    apis[item.id] = item
 
     if (item.aliases) {
       for (const alias of item.aliases) {
@@ -106,4 +102,70 @@ export class DocNotFoundError extends Error {
     super(message)
     this.name = 'DocNotFoundError'
   }
+}
+
+/**
+ * Extract the headings from a raw markdown document.
+ * @param {string} markdown The raw markdown.
+ * @returns {Array} The headings.
+ */
+function _extractHeadings(markdown) {
+  const parsed = unified()
+    .use(remarkParse)
+    .use(remarkFrontmatter)
+    .parse(markdown)
+    .children.filter(node => node.type === 'heading')
+
+  const headings = []
+
+  for (const node of parsed) {
+    headings.push({
+      text: node.children.map(child => child.value).join(''),
+      depth: node.depth,
+    })
+  }
+
+  return headings
+}
+
+/**
+ * Extend the doc item with extra data e.g. category, markdown headings etc.
+ * @param {object} item The doc item to extend.
+ * @param {object} category The category the doc item belongs to.
+ * @returns {object} The extended item.
+ */
+function _extendItem(item, category) {
+  if (!item.id) {
+    item.id = item.title
+  }
+  item.id = item.id.toLowerCase()
+
+  if (typeof item.extractHeadings === 'undefined' && item.path) {
+    item.extractHeadings = true
+  }
+
+  if (item.headings) {
+    item.headings = item.headings.map(heading => ({ depth: 2, text: heading }))
+  }
+
+  let headings = item.headings ? item.headings : []
+
+  if (item.extractHeadings) {
+    const markdown = readFileSync(join(DOCS_MARKDOWN_DIR, `${item.path}.md`), {
+      encoding: 'utf8',
+    })
+    headings = _extractHeadings(markdown)
+  }
+
+  if (!item.description) {
+    item.description = headings
+      .filter(heading => heading.depth === 2)
+      .map(heading => `- ${heading.text}`)
+      .join('\n')
+  }
+
+  item.link = resolve(DOCS_BASE_URL, `${item.path}.html`)
+  item.category = category.title
+
+  return item
 }
