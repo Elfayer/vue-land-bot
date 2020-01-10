@@ -46,7 +46,7 @@ module.exports = class InfoCodeHighlightingCommand extends Command {
       cleanupInvocation(response)
     }
 
-    const embedMessage = new RichEmbed()
+    const embed = new RichEmbed()
       .setColor('#42b883')
       .setAuthor(
         (msg.member ? msg.member.displayName : msg.author.username) +
@@ -64,6 +64,7 @@ module.exports = class InfoCodeHighlightingCommand extends Command {
         'Note you can use any language name for multiline coloring such as: html, js, css, sql, etc.'
       )
 
-    sendToChannel.send(embedMessage)
+    sendToChannel.send(embed)
+    cleanupInvocation(msg)
   }
 }
