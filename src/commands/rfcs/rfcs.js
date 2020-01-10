@@ -1,9 +1,8 @@
 import { Command } from 'discord.js-commando'
-import { RichEmbed } from 'discord.js'
 import { getAllRFCs } from '../../services/rfcs'
 import {
   respondWithPaginatedEmbed,
-  DEFAULT_EMBED_COLOUR,
+  createDefaultEmbed,
 } from '../../utils/embed'
 import { stripIndent } from 'common-tags'
 import { inlineCode } from '../../utils/string'
@@ -50,14 +49,7 @@ module.exports = class RFCsCommand extends Command {
   async run(msg, args) {
     const { filter } = args
 
-    const embed = new RichEmbed()
-      .setTitle('RFCs List')
-      .setColor(DEFAULT_EMBED_COLOUR)
-      .setThumbnail('attachment://vue.png')
-      .attachFile({
-        attachment: 'assets/images/icons/vue.png',
-        name: 'vue.png',
-      })
+    const embed = createDefaultEmbed(msg).setTitle('RFCs List')
 
     try {
       let rfcs = await getAllRFCs()
@@ -86,7 +78,7 @@ module.exports = class RFCsCommand extends Command {
       })
       cleanupInvocation(msg)
     } catch (e) {
-      const response = await msg.reply(EMPTY_MESSAGE, {
+      await msg.reply(EMPTY_MESSAGE, {
         embed: this.buildErrorEmbed(msg, 'Sorry, an unknown error occured.'),
       })
       cleanupInvocation(msg)
@@ -103,14 +95,9 @@ module.exports = class RFCsCommand extends Command {
   }
 
   buildErrorEmbed(msg, error) {
-    return new RichEmbed()
+    return createDefaultEmbed(msg)
       .setTitle(`RFCs List`)
       .setDescription(error)
-      .setAuthor(
-        (msg.member ? msg.member.displayName : msg.author.username) +
-          ' requested:',
-        msg.author.avatarURL
-      )
       .setColor('RED')
   }
 }

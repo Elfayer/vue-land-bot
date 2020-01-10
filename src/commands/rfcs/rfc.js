@@ -1,5 +1,4 @@
 import { Command } from 'discord.js-commando'
-import { RichEmbed } from 'discord.js'
 import {
   findRFCs,
   filterRFCsBy,
@@ -14,6 +13,7 @@ import { inlineCode, addEllipsis } from '../../utils/string'
 import {
   respondWithPaginatedEmbed,
   DEFAULT_EMBED_COLOUR,
+  createDefaultEmbed,
 } from '../../utils/embed'
 
 module.exports = class RFCsCommand extends Command {
@@ -103,7 +103,7 @@ module.exports = class RFCsCommand extends Command {
         )
       }
     } finally {
-      const reply = await msg.channel.send(EMPTY_MESSAGE, embed)
+      await msg.channel.send(EMPTY_MESSAGE, embed)
       cleanupInvocation(msg)
     }
   }
@@ -112,31 +112,16 @@ module.exports = class RFCsCommand extends Command {
     let [filter, value] = query
     let lookup = filter === 'empty' ? value : `${filter}:${value}`
 
-    return new RichEmbed()
+    return createDefaultEmbed(msg)
       .setTitle(`RFC Lookup - ${inlineCode(lookup)}`)
       .setDescription(error)
-      .setAuthor(
-        (msg.member ? msg.member.displayName : msg.author.username) +
-          ' requested:',
-        msg.author.avatarURL
-      )
       .setColor('RED')
   }
 
   buildResponseEmbed(msg, rfc) {
-    const embed = new RichEmbed()
-      .setTitle(`RFC #${rfc.number} - ${rfc.title}`)
+    const embed = createDefaultEmbed(msg)
       .setURL(rfc.html_url)
-      .setAuthor(
-        (msg.member ? msg.member.displayName : msg.author.username) +
-          ' requested:',
-        msg.author.avatarURL
-      )
-      .setThumbnail('attachment://vue.png')
-      .attachFile({
-        attachment: 'assets/images/icons/vue.png',
-        name: 'vue.png',
-      })
+      .setTitle(`RFC #${rfc.number} - ${rfc.title}`)
       .addField('Author', rfc.user.login, true)
       .addField('Status', rfc.state, true)
 
@@ -189,16 +174,11 @@ module.exports = class RFCsCommand extends Command {
   buildDisambiguationEmbed(msg, rfcs, filter, value) {
     let query = filter === 'empty' ? value : `${filter}:${value}`
 
-    return new RichEmbed()
+    return createDefaultEmbed(msg)
       .setTitle(`RFC Request - ${inlineCode(query)}`)
       .setDescription(
         `Sorry, I couldn't find an exact match for your query on the RFC repo.`
       )
-      .setThumbnail('attachment://vue.png')
-      .attachFile({
-        attachment: 'assets/images/icons/vue.png',
-        name: 'vue.png',
-      })
       .addField(
         'Perhaps you meant one of these:',
         rfcs.map(rfc => inlineCode('#' + rfc.number)).join(', ')

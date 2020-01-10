@@ -1,11 +1,9 @@
 import { Command } from 'discord.js-commando'
-import { RichEmbed } from 'discord.js'
 import {
-  DEFAULT_EMBED_COLOUR,
   respondWithPaginatedEmbed,
+  createDefaultEmbed,
 } from '../../utils/embed'
 import { cleanupInvocation } from '../../utils/messages'
-import { CDN_BASE_URL } from '../../utils/constants'
 import { inlineCode } from '../../utils/string'
 import sharing from '../../../data/sharing'
 
@@ -68,20 +66,9 @@ module.exports = class InfoSharingCommand extends Command {
   }
 
   buildEmbed(msg, entry) {
-    return new RichEmbed()
-      .setColor(DEFAULT_EMBED_COLOUR)
-      .setTitle(`Sharing Code - ${entry.title}`)
-      .setAuthor(
-        (msg.member ? msg.member.displayName : msg.author.username) +
-          ' requested:',
-        `${CDN_BASE_URL}assets/images/icons/${entry.icon}`
-      )
+    return createDefaultEmbed(msg)
       .setURL(entry.url)
-      .setThumbnail('attachment://vue.png')
-      .attachFile({
-        attachment: 'assets/images/icons/vue.png',
-        name: 'vue.png',
-      })
+      .setTitle(`Sharing Code - ${entry.title}`)
       .setDescription(entry.description)
   }
 }
