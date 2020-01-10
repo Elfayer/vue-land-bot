@@ -66,7 +66,7 @@ module.exports = class ModerationAddTriggerCommand extends Command {
     } else {
       moderation
         .get('triggers')
-        .push({ trigger, action })
+        .push({ trigger: trigger.toLowerCase(), action })
         .write()
 
       msg.channel.send(

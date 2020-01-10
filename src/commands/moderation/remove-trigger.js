@@ -40,7 +40,7 @@ module.exports = class ModerationRemoveTriggersCommand extends Command {
 
     const exists = moderation
       .get('triggers')
-      .find(item => item.trigger === trigger)
+      .find(item => item.trigger === trigger.toLowerCase())
       .value()
 
     if (!exists) {
