@@ -9,7 +9,7 @@ import {
   EMPTY_MESSAGE,
   DISCORD_EMBED_DESCRIPTION_LIMIT,
 } from '../../utils/constants'
-import { cleanupErrorResponse, cleanupInvocation } from '../../utils/messages'
+import { cleanupInvocation } from '../../utils/messages'
 import { inlineCode, addEllipsis } from '../../utils/string'
 import {
   respondWithPaginatedEmbed,
@@ -63,7 +63,6 @@ module.exports = class RFCsCommand extends Command {
 
   async run(msg, args) {
     let { query } = args
-    let success = false
     let [filter, value] = query
 
     let embed
@@ -88,7 +87,6 @@ module.exports = class RFCsCommand extends Command {
           rfcs.map(rfc => this.buildResponseEmbed(msg, rfc, filter, value))
         )
       }
-      success = true // For finally block.
     } catch (error) {
       if (error instanceof RFCDoesNotExistError) {
         embed = this.buildErrorEmbed(
@@ -107,10 +105,6 @@ module.exports = class RFCsCommand extends Command {
     } finally {
       const reply = await msg.channel.send(EMPTY_MESSAGE, embed)
       cleanupInvocation(msg)
-
-      if (!success) {
-        cleanupErrorResponse(reply)
-      }
     }
   }
 

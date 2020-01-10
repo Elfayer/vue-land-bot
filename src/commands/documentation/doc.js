@@ -2,8 +2,8 @@ import { Command } from 'discord.js-commando'
 import { getDoc, findDoc, DocNotFoundError } from '../../services/docs'
 import { RichEmbed } from 'discord.js'
 import { EMPTY_MESSAGE } from '../../utils/constants'
-import { inlineCode, blockCode } from '../../utils/string'
-import { cleanupInvocation, cleanupErrorResponse } from '../../utils/messages'
+import { inlineCode } from '../../utils/string'
+import { cleanupInvocation } from '../../utils/messages'
 import {
   DEFAULT_EMBED_COLOUR,
   respondWithPaginatedEmbed,
@@ -92,7 +92,6 @@ module.exports = class DocumentationDocCommand extends Command {
       })
 
       cleanupInvocation(msg)
-      cleanupErrorResponse(reply)
     }
   }
 
