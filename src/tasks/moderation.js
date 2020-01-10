@@ -52,8 +52,6 @@ export default class ModerationTask extends Task {
       return false
     }
 
-    console.log(`Message is ${msg.cleanContent}`)
-    console.log(`Action to take is ${match.action}`, match)
     this.action = match.action
   }
 
