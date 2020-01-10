@@ -2,11 +2,13 @@ import { RichEmbed } from 'discord.js'
 import Task from '../lib/task'
 import { trySend } from '../utils/messages'
 import { inlineCode } from '../utils/string'
+import { GUILDS } from '../utils/constants'
 
 export default class LogTask extends Task {
   constructor(client) {
     super(client, {
       name: 'log',
+      guild: GUILDS.CURRENT,
       events: [
         'ready',
         'resume',
@@ -43,7 +45,10 @@ export default class LogTask extends Task {
     trySend(
       this.config.connectionChannel,
       null,
-      this.buildEmbed(null, { title: 'Connection Initiated', color: 'GREEN' })
+      this.buildEmbed(null, null, {
+        title: 'Connection Initiated',
+        color: 'GREEN',
+      })
     )
   }
 
@@ -55,17 +60,26 @@ export default class LogTask extends Task {
     trySend(
       this.config.commandChannel,
       null,
-      this.buildEmbed(null, { title: 'Connection Resumed', color: 'BLUE' })
+      this.buildEmbed(null, null, {
+        title: 'Connection Resumed',
+        color: 'BLUE',
+      })
     )
   }
 
   commandRun(cmd, _, msg) {
+    if (!this.config.shouldLog.invokedCommands) {
+      return
+    }
+
     trySend(
       this.config.commandChannel,
       null,
-      this.buildEmbed(msg, { title: 'Command Invocation', color: 'GREEN' }, [
-        { name: 'Command', value: inlineCode(msg.command.name) },
-      ])
+      this.buildEmbed(msg, cmd, {
+        title: 'Command Invocation',
+        color: 'GREEN',
+        addCommand: true,
+      })
     )
   }
 
@@ -77,9 +91,22 @@ export default class LogTask extends Task {
     trySend(
       this.config.commandChannel,
       null,
-      this.buildEmbed(msg, { title: 'Command Error', color: 'RED' }, [
-        { name: 'Command', value: inlineCode(cmd.name) },
-      ])
+      this.buildEmbed(
+        msg,
+        cmd,
+        {
+          title: 'Command Error',
+          color: 'RED',
+          addCommand: true,
+        },
+        [
+          {
+            name: 'Error',
+            value: err.message,
+            inline: true,
+          },
+        ]
+      )
     )
   }
 
@@ -91,17 +118,16 @@ export default class LogTask extends Task {
     trySend(
       this.config.commandChannel,
       null,
-      this.buildEmbed(msg, { title: 'Unknown Command', color: 'ORANGE' }, [
-        {
-          name: 'Command',
-          value: inlineCode(msg.cleanContent),
-        },
-      ])
+      this.buildEmbed(msg, null, {
+        title: 'Unknown Command',
+        color: 'ORANGE',
+        addCommand: true,
+      })
     )
   }
 
-  buildEmbed(msg, options, fields = []) {
-    const embed = new RichEmbed().setTimestamp()
+  buildEmbed(msg, cmd, options, fields = []) {
+    const embed = new RichEmbed().setFooter(new Date().toUTCString())
 
     if (options.title) {
       embed.setTitle(options.title)
@@ -120,8 +146,20 @@ export default class LogTask extends Task {
         .addField('User', msg.author, true)
     }
 
+    if (options.addCommand) {
+      let commandString = cmd
+        ? msg.client.commandPrefix + msg.command.name
+        : msg.cleanContent
+
+      if (msg.argString) {
+        commandString += msg.argString
+      }
+
+      embed.addField('Command', inlineCode(commandString), true)
+    }
+
     for (const field of fields) {
-      embed.addField(field.name, field.value)
+      embed.addField(field.name, field.value, field.inline || false)
     }
 
     return embed
