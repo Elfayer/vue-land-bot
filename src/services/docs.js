@@ -164,7 +164,10 @@ function _extendItem(item, category) {
       .join('\n')
   }
 
-  item.link = resolve(DOCS_BASE_URL, `${item.path}.html`)
+  if (item.path) {
+    item.link = resolve(DOCS_BASE_URL, `${item.path}.html`)
+  }
+
   item.category = category.title
 
   return item
