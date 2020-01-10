@@ -1,5 +1,6 @@
 import EventEmitter from 'events'
 import tasks, { isEmpty } from '../services/tasks'
+import { TextChannel } from 'discord.js'
 
 /**
  * A Task is a task which by default runs for every single message received so
@@ -94,11 +95,17 @@ export default class Task extends EventEmitter {
       console.warn('Conflicting options - guildOnly and warnOnly.')
     }
 
+    if (options.guild !== 'undefined') {
+      this.guild = options.guild
+    }
+
     this.name = options.name
     this.events = options.events
     this.config = options.config
     this.ignored = options.ignored
     this.description = options.description || ''
+
+    this.handlers = {}
 
     // NOTE: We need to bind the events here else their `this` will be `CommandoClient`.
     for (const event of this.events) {
@@ -110,7 +117,13 @@ export default class Task extends EventEmitter {
         console.warn(`Missing event handler for event ${event} for ${this}.`)
       }
 
-      this[event] = this[event].bind(this)
+      this.handlers[event] = this[event].bind(this)
+
+      this[event] = (...args) => {
+        if (this.shouldEventFire(event, args)) {
+          this.handlers[event].apply(this, args)
+        }
+      }
     }
 
     if (this.inhibit) {
@@ -338,6 +351,7 @@ export default class Task extends EventEmitter {
   toJSON() {
     return {
       name: this.name,
+      guild: this.guild,
       guildOnly: this.guildOnly,
       dmOnly: this.dmOnly,
       config: this.config,
@@ -360,6 +374,7 @@ export default class Task extends EventEmitter {
         console.warn(`${this} Could not find task config in DB!`)
       }
 
+      this.guild = config.guild
       this.guildOnly = config.guildOnly
       this.dmOnly = config.dmOnly
       this.config = config.config
@@ -390,6 +405,109 @@ export default class Task extends EventEmitter {
         .write()
     } catch (e) {
       console.error(e)
+    }
+  }
+
+  /**
+   * Determine if an event for an enabled task should actually fire.
+   *
+   * Consider a guild-specific task, in which case the event should only fire if
+   * the event originated from the correct guild.
+   *
+   * @param {string} eventName The name of the event.
+   * @param  {array} eventArgs The args passed to the event.
+   */
+  shouldEventFire(eventName, eventArgs) {
+    if (!this.guild) {
+      return true // This task isn't guild-specific, there's nothing to check.
+    }
+
+    try {
+      let guildId
+
+      switch (eventName) {
+        case 'channelCreate':
+        case 'channelDelete':
+        case 'channelPinsUpdate':
+        case 'channelUpdate':
+        case 'emojiCreate':
+        case 'emojiDelete':
+        case 'emojiUpdate':
+        case 'guildMemberAdd':
+        case 'guildMemberAvailable':
+        case 'guildMemberRemove':
+        case 'guildMemberSpeaking':
+        case 'guildMemberUpdate':
+        case 'message':
+        case 'messageDelete':
+        case 'messageUpdate':
+        case 'presenceUpdate':
+        case 'roleCreate':
+        case 'roleDelete':
+        case 'roleUpdate':
+        case 'voiceStateUpdate':
+        case 'commandBlocked':
+        case 'unknownCommand':
+          guildId = eventArgs[0].guild.id
+          break
+
+        case 'commandCancel':
+        case 'commandError':
+        case 'commandRun':
+          guildId = eventArgs[2].guild.id
+          break
+
+        case 'typingStart':
+        case 'typingStop':
+        case 'webhookUpdate':
+          if (eventArgs[0] instanceof TextChannel) {
+            guildId = eventArgs[0].guild.id
+          }
+          break
+
+        case 'messageDeleteBulk':
+          guildId = eventArgs[0].first().guild.id
+          break
+
+        case 'guildBanAdd':
+        case 'guildBanRemove':
+        case 'guildCreate':
+        case 'guildDelete':
+        case 'guildIntegrationsUpdate':
+        case 'guildUnavailable':
+        case 'guildUpdate':
+        case 'commandPrefixChange':
+        case 'commandStatusChange':
+          guildId = eventArgs[0].id
+          break
+
+        case 'guildMembersChunk':
+          guildId = eventArgs[1].id
+          break
+
+        case 'messageReactionAdd':
+        case 'messageReactionRemove':
+        case 'messageReactionRemoveAll':
+          guildId = eventArgs[0].message.guild.id
+          break
+
+        default:
+          return true
+      }
+
+      if (!guildId) {
+        return false
+      }
+
+      console.debug(
+        `eventShouldFire - checking that ${guildId} is equal to ${this.guild}`
+      )
+
+      return guildId === this.guild
+    } catch (e) {
+      console.error(e)
+
+      return false
     }
   }
 }
