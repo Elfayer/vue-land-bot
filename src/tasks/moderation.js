@@ -49,7 +49,7 @@ export default class ModerationTask extends Task {
       .value()
 
     if (!match) {
-      return true
+      return false
     }
 
     console.log(`Message is ${msg.cleanContent}`)
