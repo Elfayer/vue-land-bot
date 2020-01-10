@@ -153,7 +153,7 @@ function _extendItem(item, category) {
     headings = _extractHeadings(markdown)
   }
 
-  if (!item.description && item.headings.length) {
+  if (!item.description && headings.length) {
     item.description = headings
       .filter(heading => heading.depth === 2)
       .map(heading => `- ${heading.text}`)
