@@ -7,7 +7,7 @@ import {
 } from '../../utils/embed'
 import { stripIndent } from 'common-tags'
 import { inlineCode } from '../../utils/string'
-import { cleanupErrorResponse, cleanupInvocation } from '../../utils/messages'
+import { cleanupInvocation } from '../../utils/messages'
 import { EMPTY_MESSAGE } from '../../utils/constants'
 
 const RFCS_PER_PAGE = 5
@@ -90,7 +90,6 @@ module.exports = class RFCsCommand extends Command {
         embed: this.buildErrorEmbed(msg, 'Sorry, an unknown error occured.'),
       })
       cleanupInvocation(msg)
-      cleanupErrorResponse(response)
     }
   }
 
