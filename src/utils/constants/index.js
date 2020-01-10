@@ -40,11 +40,20 @@ const MODERATOR_ROLE_IDS = Object.freeze([ROLES.CORE_TEAM, ROLES.MODERATORS])
 const EMPTY_MESSAGE = '\u200b'
 
 /*
-  Various paths.
+  Various paths and URLs.
 */
-
 const DATA_DIR = resolve(__dirname, '../../../data')
+const DOCS_MARKDOWN_DIR = resolve(
+  __dirname,
+  '../../../packages/vuejs.org/src/v2/'
+)
+const DOCS_BASE_URL = 'https://vuejs.org/v2/'
+const CDN_BASE_URL =
+  'https://raw.githubusercontent.com/Elfayer/vue-land-bot/master/'
 
+/*
+  Constants relating to the messages util (should these be moved?).
+*/
 const AUTOMATICALLY_DELETE_ERRORS = true
 const AUTOMATICALLY_DELETE_INVOCATIONS = true
 const DELETE_ERRORS_AFTER_MS = 30000
@@ -74,14 +83,10 @@ const EMOJIS = {
   },
 }
 
-const CDN_BASE_URL =
-  'https://raw.githubusercontent.com/Elfayer/vue-land-bot/master/'
-
 export {
   USERS,
   ROLES,
   EMOJIS,
-  CDN_BASE_URL,
   OWNER_IDS,
   PROTECTED_USER_IDS,
   PROTECTED_ROLE_IDS,
@@ -89,6 +94,9 @@ export {
   BOT_DEVELOPER_IDS,
   EMPTY_MESSAGE,
   DATA_DIR,
+  DOCS_MARKDOWN_DIR,
+  CDN_BASE_URL,
+  DOCS_BASE_URL,
   AUTOMATICALLY_DELETE_ERRORS,
   AUTOMATICALLY_DELETE_INVOCATIONS,
   DELETE_ERRORS_AFTER_MS,

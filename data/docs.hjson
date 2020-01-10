@@ -5,108 +5,61 @@
       items: [
         {
           title: Installation
-          link: https://vuejs.org/v2/api/#silent
-          description: '''
-              - where to find the release notes
-              - how to install from CDN, NPM or CLI
-              - what the different builds are for
-          '''
+          path: guide/installation
+          aliases: [
+            install
+          ]
         }
         {
           title: Introduction
-          link: https://vuejs.org/v2/guide/index.html
+          path: guide/index
           aliases: [
-            getting started
+            intro
           ]
-          description: '''
-            - how to get started with Vue
-            - what declarative rendering is
-            - how conditionals and loops work
-            - how to handle user input
-            - how to compose with components
-          '''
         }
         {
           title: The Vue Instance
-          link: https://vuejs.org/v2/guide/instance.html
-          description: '''
-            - how to create a Vue instance
-            - how to work with data and methods
-            - about the instance lifecycle hooks
-            - view the lifecycle diagram
-          '''
+          path: guide/instance
         }
         {
           title: Template Syntax
-          link: https://vuejs.org/v2/guide/syntax.html
-          description: '''
-            - how to interpolate
-            - how to use directives
-            - about directive shorthand forms
-          '''
+          path: guide/syntax
         }
         {
           title: Computed Properties & Watchers
-          link: https://vuejs.org/v2/guide/computed.html
-          description: '''
-            - how and when to use computed properties and watchers
-          '''
+          path: guide/computed
         }
         {
           title: Class & Style Bindings
-          alises: [
+          aliases: [
             classes
+            class bindings
           ]
-          link: https://vuejs.org/v2/guide/class-and-style.html
-          description: '''
-            - how to bind HTML classes and inline styles
-          '''
+          path: guide/class-and-style
         }
         {
           title: Conditional Rendering
-          link: https://vuejs.org/v2/guide/conditional.html
-          description: '''
-            - how to conditionally render with `v-if`
-            - how to conditionally display with `v-show`
-            - the difference between `v-if` and `v-show`
-            - using `v-if` with `v-for`
-          '''
+          path: guide/conditional
         }
         {
           title: List Rendering
-          link: https://vuejs.org/v2/guide/list.html
-          description: '''
-            - how to render arrays and objects with `v-for`
-            - about array and object change detection caveats
-            - and more!
-          '''
+          path: guide/list
+          aliases: [
+            array caveats
+            object caveats
+          ]
         }
         {
           title: Event Handling
-          link: https://vuejs.org/v2/guide/events.html
-          description: '''
-            - how to listen for events, inline and via methods
-            - about event and key modifiers
-          '''
+          path: guide/events
         }
         {
           title: Form Input Bindings
-          link: https://vuejs.org/v2/guide/forms.html
-          description: '''
-            - how to use `v-model` with form inputs and components
-            - about `v-model` modifiers
-          '''
+          path: guide/forms
         }
         {
           title: Component Basics
-          link: https://vuejs.org/v2/guide/components.html
-          description: '''
-            - how to create and work with components
-            - how to pass data to child components
-            - how to listen to child component events
-            - how to distribute content with slots
-            - and more!
-          '''
+          path: guide/components
         }
       ]
     }
@@ -115,62 +68,44 @@
       items: [
         {
           title: Component Registration
-          link: https://vuejs.org/v2/guide/components-registration.html
-          description: '''
-            - about component naming
-            - the differences between global and local registration
-            - how components work with module systems (e.g. Babel)
-          '''
+          path: guide/components-registration
         }
         {
           title: Props
-          link: https://vuejs.org/v2/guide/components-props.html
-          description: '''
-            - about prop casing and prop types
-            - about one-way data flow
-            - how to validate props
-            - and more!
-          '''
+          path: guide/components-props
+          aliases: [
+            replace existing attr
+            merge existing attr
+            attr inheritance
+          ]
         }
         {
           title: Custom Events
-          link: https://vuejs.org/v2/guide/components-custom-events.html
-          description: '''
-            - how event naming works
-            - binding native events on components
-            - the `.sync` event modifier
-          '''
+          path: guide/components-custom-events
+          aliases: [
+            .sync
+          ]
         }
         {
           title: Slots
-          link: https://vuejs.org/v2/guide/components-slots.html
-          description: '''
-            - what slots are and how to use them
-            - about slot compilation scope
-            - advanced use-cases with named and scoped slots
-            - and more!
-          '''
+          path: guide/components-slots
         }
         {
           title: Dynamic & Async Components
-          link: https://vuejs.org/v2/guide/components-dynamic-async.html
+          path: guide/components-dynamic-async
           see: [
             https://vuejs.org/v2/guide/components.html
           ]
-          description: '''
-            - how to use `<keep-alive>` with dynamic components
-            - about asynchronous components
-          '''
         }
         {
           title: Handling Edge Cases
-          link: https://vuejs.org/v2/guide/components-edge-cases.html
-          description: '''
-            - how to access component instances and elements
-            - about programmatic event listeners
-            - alternative methods of defining templates
-            - and more!
-          '''
+          path: guide/components-edge-cases
+          aliases: [
+            force update
+            access root
+            access parent
+            access child
+          ]
         }
       ]
     }
@@ -179,27 +114,16 @@
       items: [
         {
           title: Enter/Leave & List Transitions
-          link: https://vuejs.org/v2/guide/transitions.html
-          description: '''
-            - how to transition single elements / components
-            - how to transition between different elements / components
-            - about list transitions
-            - and more!
-          '''
+          path: guide/transitions
           see: [
             https://vuejs.org/v2/guide/transitioning-state.html
           ]
         }
         {
           title: State Transitions
-          link: https://vuejs.org/v2/guide/transitioning-state.html
-          description: '''
-            - how to animate state with watchers
-            - about dynamic state transitions
-            - and more!
-          '''
+          path: guide/transitioning-state
           see: [
-            link: https://vuejs.org/v2/guide/transitions.html
+            https://vuejs.org/v2/guide/transitions.html
           ]
         }
       ]
@@ -209,47 +133,34 @@
       items: [
         {
           title: Mixins
-          link: https://vuejs.org/v2/guide/mixins.html
-          description: '''
-            - what mixins are and how to use them
-            - how option merging works
-            - about local versus global mixins
-          '''
+          path: guide/mixins
+          aliases: [
+            merge options
+          ]
         }
         {
           title: Custom Directives
-          link: https://vuejs.org/v2/guide/custom-directive.html
-          description: '''
-            - what directives are and how to use them
-            - about directive hook functions and arguments
-            - and more!
-          '''
+          path: guide/custom-directive
         }
         {
           title: Render Functions & JSX
-          link: https://vuejs.org/v2/guide/render-function.html
-          description: '''
-            - when render functions are a practical choice
-            - about the createElement function
-            - how to use JSX
-            - what functional components are
-            - and more!
-          '''
+          path: guide/render-function
+          aliases: [
+            jsx
+            vdom
+          ]
         }
         {
           title: Plugins
-          link: https://vuejs.org/v2/guide/plugins.html
-          description: '''
-            - how to use existing plugins
-            - how to write your own plugins
-          '''
+          path: guide/plugins
+          aliases: [
+            write plugin
+            use plugin
+          ]
         }
         {
           title: Filters
-          link: https://vuejs.org/v2/guide/filters.html
-          description: '''
-            - what filters are and how to use them
-          '''
+          path: guide/filters
         }
       ]
     }
@@ -258,47 +169,32 @@
       items: [
         {
           title: Single File Components
-          link: https://vuejs.org/v2/guide/single-file-components.html
-          description: '''
-            - what single file components are
-            - how to get started with them
-          '''
+          path: guide/single-file-components
           aliases: [
             SFC
           ]
         }
         {
           title: Unit Testing
-          link: https://vuejs.org/v2/guide/unit-testing.html
-          description: '''
-            - how to do simple assertions
-            - how to write testable components
-            - and more!
-          '''
+          path: guide/unit-testing
+          aliases: [
+            assertions
+          ]
         }
         {
           title: TypeScript Support
-          link: https://vuejs.org/v2/guide/typescript.html
-          description: '''
-            - where to find TS types for vue packages
-            - info. about recommended configurations
-            - about class-style Vue components
-            - how to augment types for plugins
-            - and more!
-          '''
+          path: guide/typescript
           aliases: [
             TS
+            vue-class-component
           ]
         }
         {
           title: Production Deployment
-          link: https://vuejs.org/v2/guide/deployment.html
-          description: '''
-            - how to activate production mode
-            - how to pre-compile templates
-            - how to extract component CSS
-            - how to track runtime errors
-          '''
+          path: guide/deployment
+          see: [
+            https://cli.vuejs.org/guide/deployment.html
+          ]
         }
       ]
     }
@@ -307,34 +203,24 @@
       items: [
         {
           title: Routing
-          link: https://vuejs.org/v2/guide/routing.html
-          description: '''
-            - what the official routing solution is
-            - how to build a simple router from scratch
-            - how to integrate a 3rd-party router
-          '''
+          path: guide/routing
           aliases: [
-            route
+            router
+            vue-router
+            vue router
           ]
         }
         {
           title: State Management
-          link: https://vuejs.org/v2/guide/state-management.html
-          description: '''
-            - about the official state management solution - Vuex
-            - how to build simple state management from scratch
-          '''
+          path: guide/state-management
           aliases: [
             vuex
+            flux
           ]
         }
         {
           title: Server-Side Rendering
-          link: https://vuejs.org/v2/guide/ssr.html
-          description: '''
-            - where to find the SSR guide
-            - info. on popular solutions like Nuxt and Quasar
-          '''
+          path: guide/ssr
           see: [
             https://ssr.vuejs.org/
           ]
@@ -344,13 +230,10 @@
         }
         {
           title: Security
-          link: https://vuejs.org/v2/guide/security.html
-          description: '''
-            - how to report security vulnerabilities
-            - what Vue does to protect you
-            - about the potential dangers
-            - and more!
-          '''
+          path: guide/security
+          aliases: [
+            injection
+          ]
         }
       ]
     }
@@ -359,13 +242,10 @@
       items: [
         {
           title: Reactivity In Depth
-          link: https://vuejs.org/v2/guide/reactivity.html
-          description: '''
-            - how changes are tracks
-            - about change detection caveats
-            - how to declare reactive properties
-            - about the async update queue
-          '''
+          path: guide/reactivity
+          aliases: [
+            change tracking
+          ]
         }
       ]
     }
@@ -374,24 +254,18 @@
       items: [
         {
           title: Migration from Vue 1.x
-          link: https://vuejs.org/v2/guide/migration.html
-          description: '''
-            - how to migrate from Vue 1.x
-          '''
+          path: guide/migration
+          extractHeadings: false
         }
         {
           title: Migration from Vue Router 0.7.x
-          link: https://vuejs.org/v2/guide/migration-vue-router.html
-          description: '''
-            - how to migrate from Vue Router 0.7.x
-          '''
+          path: guide/migration-vue-router
+          extractHeadings: false
         }
         {
           title: Migration from Vue 0.6.x to 1.0
-          link: https://vuejs.org/v2/guide/migration-vuex.html
-          description: '''
-            - how to migrate from Vue 0.6.x to 1.0
-          '''
+          path: guide/migration-vuex
+          extractHeadings: false
         }
       ]
     }
@@ -400,29 +274,23 @@
       items: [
         {
           title: Comparison with Other Frameworks
-          link: https://vuejs.org/v2/guide/comparison.html
-          description: '''
-            - how vue compares to React, AngularJS, Ember and more
-          '''
+          path: guide/comparison
         }
         {
           title: Join the Vue.js Community!
-          link: https://vuejs.org/v2/guide/join.html
-          description: '''
-            - about the resources at your disposal
-            - about how you can help the project
-          '''
+          path: guide/join
+          aliases: [
+            resources
+            support
+            ecosystem
+            contribute
+          ]
         }
         {
           title: Meet the Team
-          link: https://vuejs.org/v2/guide/team.html
-          description: '''
-            - who the active core members are
-            - about past core team members
-            - about our community partners
-          '''
+          path: guide/team
           aliases: [
-            team
+            core team
           ]
         }
       ]
@@ -432,26 +300,46 @@
       items: [
         {
           title: Style Guide
-          link: https://vuejs.org/v2/style-guide/
-          description: '''
-            - learn about the different rule categories and the rules therein
-          '''
+          path: style-guide/index
         }
         {
           title: Examples
-          link: https://vuejs.org/v2/examples/
-          description: '''
-            - find example projects which you can edit on JSFiddle
-          '''
+          path: examples/index
+          description: [
+            - Markdown Editor
+            - Github Commits
+            - Grid Component
+            - Tree View
+            - SVG Graph
+            - Modal Component
+            - Elastic Header
+            - Wrapper Component
+            - Realtime with deepstreamHub
+            - Firebase + validation
+            - TodoMVC
+            - HackerNews Clone
+          ]
+          extractHeadings: false
         }
         {
           title: Cookbook
-          link: https://vuejs.org/v2/cookbook/
+          path: cookbook/index
+        }
+        {
+          link: https://cli.vuejs.org/
+          title: Vue CLI
           description: '''
-            - find self-contained "recipes" which stand alone
-            - goes into greater detail than the guide
-            - aims to also teach JavaScript concepts
+            At this time, Vue CLI documentation is not searchable via the bot.
+
+            Click the link below, instead!
           '''
+          aliases: [
+            vue-cli
+            cli
+          ]
+          see: [
+            https://cli.vuejs.org/
+          ]
         }
       ]
     }
