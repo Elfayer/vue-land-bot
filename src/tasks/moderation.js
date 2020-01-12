@@ -74,7 +74,7 @@ export default class ModerationTask extends Task {
     )
 
     if (!logChannel) {
-      return console.warn(
+      console.warn(
         `[ModerationTask]: Could not find channel with name ${this.config.logChannel.name}!`
       )
     }
@@ -205,6 +205,13 @@ export default class ModerationTask extends Task {
       this.createEmbed(msg, options.isDMWarning, {
         color: 'ORANGE',
       })
+
+    if (!logChannel) {
+      return !!console.log(
+        'Was going to semd the following embed, but no logChannel exists.',
+        embed
+      )
+    }
 
     if (options.notifyRole) {
       logChannel.send(options.notifyRole, { embed })
