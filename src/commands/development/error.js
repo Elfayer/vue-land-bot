@@ -3,7 +3,7 @@ import { Command } from 'discord.js-commando'
 /*
   This development-only command just throws an error.
 */
-module.exports = class DevelopmentPaginateCommand extends Command {
+module.exports = class DevelopmentErrorCommand extends Command {
   constructor(client) {
     super(client, {
       enabled: process.env.NODE_ENV === 'development',
