@@ -194,11 +194,11 @@ export default class ModerationTask extends Task {
       options.isDMWarning = false
     }
 
-    const embed =
-      options.embed ||
-      this.createEmbed(msg, options.isDMWarning, {
-        color: 'ORANGE',
-      })
+    if (typeof options.color === 'undefined') {
+      options.color = 'ORANGE'
+    }
+
+    const embed = options.embed || this.createEmbed(msg, options)
 
     if (!logChannel) {
       return !!console.log(
@@ -214,7 +214,7 @@ export default class ModerationTask extends Task {
     }
   }
 
-  createEmbed(msg, isDMWarning = false, options = {}) {
+  createEmbed(msg, options = {}) {
     const excerpt =
       msg.cleanContent.length > 150
         ? msg.cleanContent.substring(0, 150) + '...'
@@ -226,7 +226,7 @@ export default class ModerationTask extends Task {
       .setTimestamp()
       .addField('Message Excerpt', blockCode(excerpt))
 
-    if (isDMWarning) {
+    if (options.isDMWarning) {
       embed.setDescription(
         'One of your messages triggered auto-moderation. Repeated infringements may result in a ban.'
       )
