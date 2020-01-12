@@ -4,6 +4,13 @@ import { Collection } from 'discord.js'
 import { CommandoClient } from 'discord.js-commando'
 import { setDefaults } from './services/tasks'
 
+/*
+  Ensure that NODE_ENV is set to development if it is unset.
+*/
+if (!process.env.NODE_ENV) {
+  process.env.NODE_ENV = 'development'
+}
+
 const { NODE_ENV, COMMAND_PREFIX = '!' } = process.env
 
 /*
@@ -17,13 +24,6 @@ if (OWNER_IDS.includes(',')) {
   OWNER_IDS = [OWNER_IDS]
 }
 process.env.OWNER_IDS = OWNER_IDS
-
-/*
-  Ensure that NODE_ENV is set to development if it is unset.
-*/
-if (!NODE_ENV) {
-  process.env.NODE_ENV = 'development'
-}
 
 const PATH_TASKS = join(__dirname, 'tasks')
 const PATH_TYPES = join(__dirname, 'types')
@@ -86,11 +86,11 @@ client.registry.registerGroups([
     id: 'rfcs',
     name: 'RFCs',
   },
-  {
-    id: 'development',
-    name: 'development',
-  },
 ])
+
+if (NODE_ENV === 'development') {
+  client.registry.registerGroup('development', 'development')
+}
 
 /*
   Register default command groups, commands and argument types.
@@ -103,7 +103,11 @@ client.registry.registerGroups([
 */
 client.registry.registerDefaults()
 client.registry.registerTypesIn(PATH_TYPES)
-client.registry.registerCommandsIn(PATH_COMMANDS)
+client.registry.registerCommandsIn({
+  dirname: PATH_COMMANDS,
+  // NOTE: Exclude any commands in the development group, when in production.
+  excludeDirs: NODE_ENV === 'production' ? '^\\..*|development$' : undefined,
+})
 
 if (NODE_ENV === 'production') {
   const evalCommand = client.registry.findCommands('eval')
@@ -112,10 +116,10 @@ if (NODE_ENV === 'production') {
     client.registry.unregisterCommand(evalCommand[0])
   }
 }
+
 /*
   Set up some global error handling and some purely informational event handlers.
 */
-
 client.on('warn', console.warn)
 client.on('error', console.error)
 

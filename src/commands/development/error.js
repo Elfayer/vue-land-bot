@@ -6,7 +6,6 @@ import { Command } from 'discord.js-commando'
 module.exports = class DevelopmentErrorCommand extends Command {
   constructor(client) {
     super(client, {
-      enabled: process.env.NODE_ENV === 'development',
       guarded: true,
       name: 'error',
       examples: ['!error'],
