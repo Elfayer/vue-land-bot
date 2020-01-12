@@ -80,7 +80,7 @@ export default class ModerationTask extends Task {
 
     if (!logChannel) {
       console.warn(
-        `[ModerationTask]: Could not find channel with name ${this.config.logChannel.name}!`
+        `[ModerationTask] Could not find logChannel: ${this.config.logChannel.name}!`
       )
     }
 
