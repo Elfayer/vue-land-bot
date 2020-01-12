@@ -43,6 +43,7 @@ export default class ModerationTask extends Task {
   }
 
   shouldExecute(msg) {
+    // NOTE: Never remove this check.
     if (!super.shouldExecute(msg)) {
       return false
     }
