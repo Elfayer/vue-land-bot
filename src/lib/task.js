@@ -1,6 +1,5 @@
 import EventEmitter from 'events'
 import tasks, { isEmpty } from '../services/tasks'
-import { TextChannel } from 'discord.js'
 
 /**
  * A Task is a task which by default runs for every single message received so
