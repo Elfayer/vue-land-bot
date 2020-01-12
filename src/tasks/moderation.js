@@ -1,12 +1,7 @@
 import { RichEmbed } from 'discord.js'
 import Task from '../lib/task'
 import moderation from '../services/moderation'
-import {
-  MODERATOR_ROLE_IDS,
-  PROTECTED_ROLE_IDS,
-  EMPTY_MESSAGE,
-  GUILDS,
-} from '../utils/constants'
+import { PROTECTED_ROLE_IDS, EMPTY_MESSAGE, GUILDS } from '../utils/constants'
 import { blockCode, inlineCode } from '../utils/string'
 
 /*
@@ -24,9 +19,7 @@ export default class ModerationTask extends Task {
         'Takes action (warn, kick, ban, notify) when a user mention a trigger word.',
       enabled: true,
       ignored: {
-        roles: DEBUG_MODE
-          ? []
-          : [...new Set(MODERATOR_ROLE_IDS.concat(PROTECTED_ROLE_IDS))],
+        roles: DEBUG_MODE ? [] : [...PROTECTED_ROLE_IDS],
       },
       guildOnly: true,
       config: {
