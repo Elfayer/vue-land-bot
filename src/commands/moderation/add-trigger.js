@@ -30,9 +30,24 @@ module.exports = class ModerationAddTriggerCommand extends Command {
       ],
       name: 'add-trigger',
       group: 'moderation',
+      aliases: ['create-trigger'],
+      examples: [
+        `${inlineCode(
+          '!add-trigger warn naughty'
+        )} - Warn via DM if message contains "naughty".`,
+        `${inlineCode(
+          '!add-trigger notify VueBot sucks'
+        )} - Notify moderators if message contains "VueBot sucks".`,
+        `${inlineCode(
+          '!add-trigger kick www.obvious-bot-spam-link.com'
+        )} - Kick user if message contains "www.obvious-bot-spam-link.com"`,
+        `${inlineCode(
+          '!add-trigger ban jQuery'
+        )} - Ban user if message contains "jQuery".'`,
+      ],
       guildOnly: true,
       memberName: 'add',
-      description: 'Add a trigger word to the moderation system.',
+      description: 'Add a trigger word/phrase to the moderation system.',
     })
   }
 

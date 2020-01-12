@@ -12,9 +12,10 @@ module.exports = class ModerationListTriggersCommand extends Command {
       name: 'list-triggers',
       group: 'moderation',
       guildOnly: true,
+      examples: [`${inlineCode('!list-triggers')} - List moderation triggers.`],
       aliases: ['triggers'],
       memberName: 'list',
-      description: 'List all trigger words from the moderation system.',
+      description: 'List all trigger words/phrases from the moderation system.',
     })
   }
 

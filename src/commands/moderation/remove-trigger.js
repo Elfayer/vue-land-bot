@@ -13,15 +13,20 @@ module.exports = class ModerationRemoveTriggersCommand extends Command {
         {
           key: 'trigger',
           type: 'string',
-          prompt: 'the trigger word to remove?',
+          prompt: 'the trigger word/phrase to remove?',
         },
       ],
       name: 'remove-trigger',
       group: 'moderation',
-      aliases: ['del-trigger', 'rem-trigger'],
+      examples: [
+        `${inlineCode(
+          '!remove-trigger naughty'
+        )} - Remove the trigger for the word/phrase "naughty".`,
+      ],
+      aliases: ['delete-trigger', 'del-trigger', 'rem-trigger', 'rm-trigger'],
       guildOnly: true,
       memberName: 'remove',
-      description: 'Remove a trigger word from the moderation system.',
+      description: 'Remove a trigger word/phrase from the moderation system.',
     })
   }
 
