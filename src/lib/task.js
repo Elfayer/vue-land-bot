@@ -2,22 +2,40 @@ import EventEmitter from 'events'
 import tasks, { isEmpty } from '../services/tasks'
 
 /**
- * A Task is a task which by default runs for every single message received so
- * long as it is enabled and its shouldExecute() returns true.
+ * A Task is like a command except it has no trigger - by default it will run
+ * for every single message received, so long as it is enabled and its
+ * `shouldExecute()` returns true.
+ *
+ * A Task can be configured to be `dmOnly` or `guildOnly`, in which case it will
+ * ignore messages from guilds or DMs (respectively).
+ *
+ * Tasks can be configured to ignore certain users, roles or channels.
+ *
+ * Additionally, a Task can be guild-specific - such a task only works in the guild
+ * specified. Note that a guild doesn't need to be `guildOnly` to be guild-specific.
+ *
+ * Tasks can also attach to both discord.js and Commando events, see `VALID_DISCORD_EVENTS`
+ * at the bottom of this file for a complete list.
+ *
+ * When a task is enabled, its event handlers will be registered with the `CommandoClient`
+ * and when it's disabled they will be unregistered.
+ *
+ * In addition to the above options, tasks can also have arbitrary configuration
+ * attached to them.
+ *
+ * Tasks, along with their options and their configs are persistent, see: data/tasks/db.json.
+ *
+ * Tasks can be controlled via the `!enable-task`, `!disable-task`, `task-info`,
+ * `!list-tasks` and `!reset-tasks` commands.
+ *
+ * Remember that a Task does not necessarily need to process messages. A task can be
+ * event-only, all it needs to do is return false in `shouldExecute`, in which
+ * case its `run` will never be called.
  *
  * Example usages:
  *
- *   - Check message contents against a banned word list (and optionally warn/kick/ban)
- *   - etc.
- *
- * A Task does not necessarily need to process messages however - there is a
- * concept of event-only tasks. Such a task should simply return false in
- * shouldExecute and specify a list of Discord/Commando events via TaskOptions.events.
- *
- * When the task is enabled, listeners for those events will be attached to the
- * CommandoClient and when the task is disabled they will be removed.
- *
- * See `src/tasks/log.js` for an example of an event-only task.
+ *   - Check message contents against a banned word list (see: `tasks/moderation.js`)
+ *   - Log command invocations, command errors etc. (see: `tasks/log.js`)
  *
  * @event Task#enabled
  * @event Task#disabled
