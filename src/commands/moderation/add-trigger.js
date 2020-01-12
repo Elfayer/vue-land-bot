@@ -5,18 +5,12 @@ import { MODERATOR_ROLE_IDS, BOT_DEVELOPER_IDS } from '../../utils/constants'
 import { inlineCode } from '../../utils/string'
 
 const { NODE_ENV } = process.env
-const VALID_ACTIONS = ['warn', 'ban', 'notify']
+const VALID_ACTIONS = ['warn', 'kick', 'ban', 'notify']
 
 module.exports = class ModerationAddTriggerCommand extends Command {
   constructor(client) {
     super(client, {
       args: [
-        {
-          key: 'trigger',
-          type: 'string',
-          prompt:
-            'the trigger word to add (use quotation marks if it contains spaces)?',
-        },
         {
           key: 'action',
           type: 'string',
@@ -26,6 +20,12 @@ module.exports = class ModerationAddTriggerCommand extends Command {
           validate(value) {
             return VALID_ACTIONS.includes(value)
           },
+        },
+        {
+          key: 'trigger',
+          type: 'string',
+          prompt:
+            'the trigger word to add (use quotation marks if it contains spaces)?',
         },
       ],
       name: 'add-trigger',
@@ -74,7 +74,7 @@ module.exports = class ModerationAddTriggerCommand extends Command {
           .setTitle('Moderation - Add Trigger')
           .setColor('GREEN')
           .setDescription(
-            `Successfully added trigger word ${inlineCode(
+            `Successfully added trigger word/pharse ${inlineCode(
               trigger
             )} with action ${inlineCode(action)}.`
           )
