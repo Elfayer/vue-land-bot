@@ -21,7 +21,7 @@ export default class ModerationTask extends Task {
       name: 'moderation',
       guild: GUILDS.CURRENT,
       description:
-        'Takes action (warn, ban, notify) when users mention a trigger word.',
+        'Takes action (warn, ban, notify) when a user mention a trigger word.',
       enabled: true,
       ignored: {
         roles: DEBUG_MODE
