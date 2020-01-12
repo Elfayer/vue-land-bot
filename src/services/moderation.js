@@ -10,19 +10,19 @@ db.defaults({
   triggers: [
     {
       trigger: 'amazingsexdating.com',
-      action: 'ban',
+      action: 'notify',
     },
     {
       trigger: 'viewc.site',
-      action: 'ban',
+      action: 'notify',
     },
     {
       trigger: 'nakedphoto.club',
-      action: 'ban',
+      action: 'notify',
     },
     {
       trigger: 'privatepage.vip',
-      action: 'ban',
+      action: 'notify',
     },
   ],
 }).write()
