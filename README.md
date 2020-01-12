@@ -4,7 +4,11 @@ This is the official bot for the Vue Land Discord server.
 
 It's written in JS and built on [Discord.js](https://github.com/discordjs/discord.js/) and [Commando](https://github.com/discordjs/Commando).
 
-## Table of Contents
+# Changelog
+
+You will find the changelog [here](https://github.com/Elfayer/vue-land-bot/blob/master/CHANGELOG.md#changelog)
+
+# Table of Contents
 
 - [Requirements](#requirements)
 - [Set up the bot](#setup)
