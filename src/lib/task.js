@@ -414,19 +414,17 @@ export default class Task extends EventEmitter {
   /**
    * Determine if an event for an enabled task should actually fire.
    *
-   * Consider a guild-specific task, in which case the event should only fire if
-   * the event originated from the correct guild.
+   * Consider:
+   *   - if a task is dmOnly but an event originates from a guild
+   *   - if a task is guildOnly but an event originates from a DM
+   *   - if a task is guild-specific but the guild does not match
    *
    * @param {string} eventName The name of the event.
    * @param  {array} eventArgs The args passed to the event.
    */
   shouldEventFire(eventName, eventArgs) {
-    if (!this.guild) {
-      return true // This task isn't guild-specific, there's nothing to check.
-    }
-
     try {
-      let guildId
+      let message, channel, guild // We could be looking for any one of these.
 
       switch (eventName) {
         case 'channelCreate':
@@ -451,25 +449,23 @@ export default class Task extends EventEmitter {
         case 'voiceStateUpdate':
         case 'commandBlocked':
         case 'unknownCommand':
-          guildId = eventArgs[0].guild.id
+          message = eventArgs[0]
           break
 
         case 'commandCancel':
         case 'commandError':
         case 'commandRun':
-          guildId = eventArgs[2].guild.id
+          message = eventArgs[2].message
           break
 
         case 'typingStart':
         case 'typingStop':
         case 'webhookUpdate':
-          if (eventArgs[0] instanceof TextChannel) {
-            guildId = eventArgs[0].guild.id
-          }
+          channel = eventArgs[0]
           break
 
         case 'messageDeleteBulk':
-          guildId = eventArgs[0].first().guild.id
+          message = eventArgs[0].first()
           break
 
         case 'guildBanAdd':
@@ -481,35 +477,49 @@ export default class Task extends EventEmitter {
         case 'guildUpdate':
         case 'commandPrefixChange':
         case 'commandStatusChange':
-          guildId = eventArgs[0].id
+          guild = eventArgs[0]
           break
 
         case 'guildMembersChunk':
-          guildId = eventArgs[1].id
+          guild = eventArgs[1]
           break
 
         case 'messageReactionAdd':
         case 'messageReactionRemove':
         case 'messageReactionRemoveAll':
-          guildId = eventArgs[0].message.guild.id
+          message = eventArgs[0].message
           break
 
+        // The event cannot be tied to a message/channel/guild
+        // therefore options such as `dmOnly` are irrelevant.
         default:
           return true
       }
 
-      if (!guildId) {
-        return false
+      let guildId = -1
+
+      if (guild) {
+        guildId = guild.id
+      } else if (channel && channel.guild) {
+        guildId = channel.guild.id
+      } else if (message && message.guild) {
+        guildId = message.guild.id
       }
 
-      console.debug(
-        `eventShouldFire - checking that ${guildId} is equal to ${this.guild}`
-      )
+      if (this.dmOnly && guildId !== -1) {
+        return false // The event originated from a guild - bail.
+      } else if (this.guildOnly && guildId === -1) {
+        return false // The event originated from a DM - bail.
+      }
 
-      return guildId === this.guild
+      // This is a single-guild task - ensure a match.
+      if (this.guild && guildId === this.guild) {
+        return true
+      }
+
+      return false
     } catch (e) {
       console.error(e)
-
       return false
     }
   }
