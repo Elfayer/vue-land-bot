@@ -9,7 +9,9 @@ import tasks, { isEmpty } from '../services/tasks'
  * A Task can be configured to be `dmOnly` or `guildOnly`, in which case it will
  * ignore messages from guilds or DMs (respectively).
  *
- * Tasks can be configured to ignore certain users, roles or channels.
+ * Tasks can be configured to ignore certain users, roles or channels. But it's
+ * important to note that if you provide your own `shouldExecute`, then you must
+ * also call the parent method e.g. `if (!super.shouldExecute()) return false`.
  *
  * Additionally, a Task can be guild-specific - such a task only works in the guild
  * specified. Note that a guild doesn't need to be `guildOnly` to be guild-specific.
