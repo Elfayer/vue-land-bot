@@ -202,7 +202,7 @@ export default class ModerationTask extends Task {
 
     if (!logChannel) {
       return !!console.log(
-        'Was going to semd the following embed, but no logChannel exists.',
+        '[ModerationTask] Was going to send the following embed, but no logChannel exists.',
         embed
       )
     }
