@@ -35,6 +35,7 @@ export default class Task extends EventEmitter {
     super()
 
     this.client = client
+    this.options = options
 
     /*
       Tasks are stored as a key-value pair in a Collection (Map) on the client.
@@ -95,7 +96,7 @@ export default class Task extends EventEmitter {
       console.warn('Conflicting options - guildOnly and warnOnly.')
     }
 
-    if (options.guild !== 'undefined') {
+    if (typeof options.guild !== 'undefined') {
       this.guild = options.guild
     }
 
@@ -139,16 +140,15 @@ export default class Task extends EventEmitter {
       this.unregisterInhibitor()
     })
 
-    // The DB is empty so we are safe to use the defauls from the Task file.
-    if (isEmpty()) {
-      this._dmOnly = options.dmOnly
-      this._guildOnly = options.guildOnly
-      this.enabled = options.enabled // NOTE: Must come last because fires an event.
-    }
-    // The DB is populated so we can't use the defaults from the Task file.
-    else {
+    this._dmOnly = options.dmOnly
+    this._guildOnly = options.guildOnly
+
+    // The task DB is populated, so we'll override the defaults (`options`).
+    if (!isEmpty()) {
       this.readConfig()
     }
+
+    this.enabled = options.enabled // NOTE: Must come last because fires an event.
   }
 
   /**
@@ -356,7 +356,7 @@ export default class Task extends EventEmitter {
       dmOnly: this.dmOnly,
       config: this.config,
       ignored: this.ignored,
-      enabled: this.enabled,
+      enabled: this.enabled || this.options.enabled, // NOTE: Fallback to handle new tasks.
     }
   }
 
@@ -365,25 +365,28 @@ export default class Task extends EventEmitter {
    */
   readConfig() {
     try {
-      const config = tasks
+      let config = tasks
         .get('tasks')
         .find({ name: this.name })
         .value()
 
-      if (!config) {
-        console.warn(`${this} Could not find task config in DB!`)
+      if (config) {
+        this.guild = config.guild
+        this.guildOnly = config.guildOnly
+        this.dmOnly = config.dmOnly
+        this.config = config.config
+        this.ignored = config.ignored
+
+        console.debug(
+          `${this} Read configuration from DB and applied to instance.`
+        )
+      } else {
+        tasks.get('tasks').push(this.toJSON())
+
+        console.debug(
+          `${this} New task (not in DB) detected - writing default configuration!`
+        )
       }
-
-      this.guild = config.guild
-      this.guildOnly = config.guildOnly
-      this.dmOnly = config.dmOnly
-      this.config = config.config
-      this.ignored = config.ignored
-      this.enabled = config.enabled // NOTE: Must come last because fires an event.
-
-      console.debug(
-        `${this} Read configuration from DB and applied to instance.`
-      )
     } catch (e) {
       console.error(e)
     }
