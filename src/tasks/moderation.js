@@ -83,6 +83,9 @@ export default class ModerationTask extends Task {
       case 'warn':
         this.warn(msg, logChannel)
         break
+      case 'kick':
+        this.kick(msg, logChannel)
+        break
       case 'ban':
         this.ban(msg, logChannel)
         break
@@ -94,37 +97,84 @@ export default class ModerationTask extends Task {
   }
 
   ban(msg, logChannel) {
-    // Can't ban a user from a DM.
-    if (msg.channel.type === 'dm') {
-      return !!console.warn('[ModerationTask] Cannot ban in a DM channel.')
+    const check = this.checkPermissionsFor(msg, logChannel, 'BAN_MEMBERS')
+
+    if (check === false) {
+      return
+    } else if (check instanceof RichEmbed) {
+      return this.log(msg, logChannel, { embed: check })
     }
 
-    // We don't have permission to ban - bail.
-    if (!msg.channel.permissionsFor(msg.client.user).has('BAN_MEMBERS')) {
-      return !!console.warn('[ModerationTask] Cannot ban - lacking permission.')
+    msg.member
+      .ban(`[${msg.client.user.name}] Automated anti-spam measures.`)
+      .then(() => this.log(msg, logChannel, { color: 'PURPLE' }))
+      .catch(console.error)
+  }
+
+  kick(msg, logChannel) {
+    const check = this.checkPermissionsFor(msg, logChannel, 'KICK_MEMBERS')
+
+    if (check === false) {
+      return
+    } else if (check instanceof RichEmbed) {
+      return this.log(msg, logChannel, { embed: check })
+    }
+
+    msg.member
+      .kick(`[${msg.client.user.name}] Automated anti-spam measures.`)
+      .then(() => this.log(msg, logChannel, { color: 'PURPLE' }))
+      .catch(console.error)
+  }
+
+  permissionToAction(permission) {
+    switch (permission) {
+      case 'KICK_MEMBERS':
+        return 'kick'
+      case 'BAN_MEMBERS':
+        return 'ban'
+    }
+  }
+
+  checkPermissionsFor(msg, logChannel, permission) {
+    const action = this.permissionToAction(permission)
+
+    // Can't kick a user from a DM.
+    if (msg.channel.type === 'dm') {
+      return !!console.warn(
+        `[ModerationTask] Cannot ${action} in a DM channel.`
+      )
+    }
+
+    // We don't have permission to carry out the action - bail.
+    if (!msg.channel.permissionsFor(msg.client.user).has(permission)) {
+      console.warn(`[ModerationTask] Cannot ${action} - lacking permission.`)
+
+      return this.createEmbed(msg, false, { color: 'PURPLE' }).addField(
+        'NOTE',
+        `No ${action} was enacted as I lack ${inlineCode(permission)}.`
+      )
     }
 
     const botMember = msg.guild.member(msg.client.user)
     const botHighestRole = botMember.highestRole.calculatedPosition
     const userHighestRole = msg.member.highestRole.calculatedPosition
 
-    // Our role is not high enough in the hierarchy to ban - bail.
+    // Our role is not high enough in the hierarchy to carry out the action - bail.
     if (botHighestRole < userHighestRole) {
-      return !!console.warn('[BanTask] Cannot ban - role too low.')
+      console.warn(`[ModerationTask] Cannot ${action} - role too low.`)
+
+      return this.createEmbed(msg, false, { color: 'PURPLE' }).addField(
+        'NOTE',
+        `No ${action} was enacted as the user is higher than me in the role hierarchy.`
+      )
     }
 
     if (DEBUG_MODE) {
-      const embed = this.createEmbed(msg, false, { color: 'RED' }).addField(
+      return this.createEmbed(msg, false, { color: 'RED' }).addField(
         'NOTE',
-        'Debug mode enabled - no ban was actually issued.'
+        `Debug mode is enabled - no ${action} was actually issued.`
       )
-      return this.log(msg, logChannel, { embed })
     }
-
-    msg.member
-      .ban(`[${msg.client.user.name}] Automated anti-spam measures.`)
-      .then(() => this.log(msg, logChannel))
-      .catch(console.error)
   }
 
   async warn(msg, logChannel) {
