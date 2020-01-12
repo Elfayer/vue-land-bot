@@ -20,15 +20,15 @@ module.exports = class ModerationListTriggersCommand extends Command {
   }
 
   hasPermission(msg) {
+    if (NODE_ENV === 'development') {
+      if (BOT_DEVELOPER_IDS.includes(msg.member.id)) {
+        return true
+      }
+    }
+
     return msg.member.roles.some(role => {
       if (MODERATOR_ROLE_IDS.includes(role.id)) {
         return true
-      }
-
-      if (NODE_ENV === 'development') {
-        if (BOT_DEVELOPER_IDS.includes(msg.member.id)) {
-          return true
-        }
       }
     })
   }
