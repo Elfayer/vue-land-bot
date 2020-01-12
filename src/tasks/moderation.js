@@ -65,10 +65,12 @@ export default class ModerationTask extends Task {
 
   run(msg) {
     const notifyRole = msg.guild.roles.find(
-      role => role.name === this.config.notifyRole.name
+      role =>
+        role.name.toLowerCase() === this.config.notifyRole.name.toLowerCase()
     )
     const logChannel = msg.guild.channels.find(
-      channel => channel.name === this.config.logChannel.name
+      channel =>
+        channel.name.toLowerCase() === this.config.logChannel.name.toLowerCase()
     )
 
     if (!logChannel) {
