@@ -62,3 +62,6 @@ typings/
 
 # Project files
 src/config.json
+
+# Generated data files
+data/versions\.json
