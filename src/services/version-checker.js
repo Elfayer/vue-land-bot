@@ -89,7 +89,11 @@ export async function getNewReleases(repository, updateVersions = false) {
 
     const releases = response.data
       .filter(release => {
-        return semver.gt(release.tag_name, getVersion(repository))
+        try {
+          return semver.gt(release.tag_name, getVersion(repository))
+        } catch (error) {
+          return false
+        }
       })
       .sort((a, b) => {
         return semver.gt(a.tag_name, b.tag_name)
