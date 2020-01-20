@@ -9,5 +9,7 @@ export function getVersion() {
     git describe --tags --exact-match 2> /dev/null ||
     git symbolic-ref -q --short HEAD ||
     git rev-parse --short HEAD
-  `).toString('utf8')
+  `)
+    .toString('utf8')
+    .trim()
 }
