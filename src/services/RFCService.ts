@@ -202,14 +202,16 @@ export default class RFCService extends Service {
   }
 
   /**
-   * Update the fuzzy searcher, should be called whenever the RFCs are set/updated.
+   * Create the fuzzy searcher instance.
+   *
+   * Should be called whenever the RFCs are set/updated.
    */
   private updateFuzzySearcher() {
     this.fuse = new Fuse(this.rfcs, FUSE_OPTIONS)
   }
 
   /**
-   * Extract only the data we care about.
+   * Reduce storage costs by extracting only the data we care about from the API response.
    */
   private extractRelevantData(rfcs: PullsListResponseItem[]) {
     return rfcs.map(rfc => ({
