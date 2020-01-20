@@ -322,11 +322,17 @@ export enum PullRequestState {
   POPULAR = 'popular',
 }
 
+/**
+ * The valid sorting options for pull requests.
+ */
 export enum PullRequestSort {
   POPULARITY = 'popularity',
 }
 
-enum RFCFilter {
+/**
+ * Allowed filters for `findBy`.
+ */
+export enum RFCFilter {
   ID = 'id',
   TITLE = 'title',
   BODY = 'body',
