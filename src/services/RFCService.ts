@@ -189,12 +189,14 @@ export default class RFCService extends Service {
    */
   async findBy(
     filter: RFCFilter,
-    value: string
+    value: string,
+    existing?: PullsListResponseItem[]
   ): Promise<PullsListResponseItem[]> {
     await this.cacheRFCs(false)
 
     value = value.toLowerCase()
     let filtered: PullsListResponseItem[] = []
+    const rfcs = existing ?? this.rfcs
 
     if (filter === 'id') {
       try {
