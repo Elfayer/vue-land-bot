@@ -42,6 +42,7 @@ export default class RFCService extends Service {
           this.rfcs = this.client.settings.get(
             'rfcs.cache'
           ) as PullsListResponseItem[]
+          this.updateFuzzySearcher()
         }
 
         return false
