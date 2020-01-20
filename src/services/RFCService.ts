@@ -237,6 +237,9 @@ export default class RFCService extends Service {
   }
 }
 
+/**
+ * Represents the state of a pull request.
+ */
 export enum PullRequestState {
   OPEN = 'open',
   CLOSED = 'closed',
