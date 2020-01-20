@@ -5,12 +5,22 @@ import {
   Command,
   CommandStore,
 } from 'klasa'
-import { MessageEmbed, MessageAttachment } from 'discord.js'
+import {
+  MessageEmbed,
+  MessageAttachment,
+  Message,
+  PermissionString,
+} from 'discord.js'
 import { PullsListResponseItem } from '@octokit/rest'
 
-import { PATHS } from '@libraries/constants'
-import RFCService, { PullRequestState } from '@base/services/RFCService'
+import RFCService, {
+  RFCFilter,
+  PullRequestState,
+} from '@base/services/RFCService'
 import createVueTemplate from '@templates/VueTemplate'
+import { ReactionHandler } from 'klasa'
+
+const EMPTY_QUERY = Symbol('EMPTY_QUERY')
 
 export default class RFCCommand extends Command {
   service: RFCService
@@ -47,6 +57,15 @@ export default class RFCCommand extends Command {
 
         // No query argument is required when dumping RFC JSON via --dump.
         if (message.flagArgs.dump) {
+          return undefined
+        }
+
+        // No query argument is required if any RFCFilter flags are provided.
+        if (
+          Object.keys(message.flagArgs).some(flag =>
+            Object.values(RFCFilter).includes(flag as RFCFilter)
+          )
+        ) {
           return undefined
         }
 
@@ -115,7 +134,73 @@ export default class RFCCommand extends Command {
       return this.dump(message)
     }
 
-    return message.sendLocale('RFCS_VIEW', [query])
+    return this.search(message, query)
+  }
+
+  /**
+   * Search for RFCs via the fuzzy searcher, and/or via filter flagArgs.
+   *
+   * The difference is that the fuzzy searcher is, well, fuzzy, whereas
+   * the filters use `Array.prototype.includes`.
+   *
+   * The query is optional (but only if at least one filter flagArg is present).
+   */
+  async search(message: KlasaMessage, query?: string) {
+    try {
+      const rfcs = await this.applyFilterFlags(
+        message,
+        typeof query === 'undefined' ? EMPTY_QUERY : query
+      )
+      const response = this.buildResponse(message, rfcs)
+      return this.sendResponse(message, response)
+    } catch (error) {
+      console.error(error)
+      return message.sendMessage(error.message)
+    }
+  }
+
+  /**
+   * Apply any of the filter flagArgs to the fuzzy search resultset.
+   *
+   * If there is no search query then the resultset is set to all RFCs.
+   *
+   * For every active filter, the resultset will keep being narrowed down for each.
+   *
+   * @see RFCFilter
+   */
+  async applyFilterFlags(
+    message: KlasaMessage,
+    query?: string | Symbol
+  ): Promise<PullsListResponseItem[]> {
+    let results: PullsListResponseItem[]
+
+    // The query is empty, so we'll start with *all* RFCs and go from there.
+    if (query === EMPTY_QUERY) {
+      results = await this.service.getAllRFCs()
+    } else {
+      query = query as string
+
+      // We are looking for a specific RFC by its number.
+      if (query.startsWith('#') || !isNaN(parseInt(query))) {
+        const result = await this.service.findBy(RFCFilter.ID, query)
+        return result
+      } else {
+        results = await this.service.findFuzzy(query)
+      }
+    }
+
+    const filtersToApply = Object.keys(RFCFilter).filter(
+      filter => RFCFilter[filter] in message.flagArgs
+    )
+
+    for (const filterKey of filtersToApply) {
+      const filterName = RFCFilter[filterKey]
+      const filterValue = message.flagArgs[filterName]
+
+      results = await this.service.findBy(filterName, filterValue, results)
+    }
+
+    return results
   }
 
   /**
