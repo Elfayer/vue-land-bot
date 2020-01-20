@@ -11,7 +11,10 @@ export default class LanguageEnUS extends Language {
     super(store, file, directory, options)
 
     this.language = {
-      RFCS_COMMAND_DESCRIPTION: `Interact with VueJS Requests for Comments.`,
+      RFCS_COMMAND_DESCRIPTION: oneLine`
+        Interact with VueJS Requests for Comments.
+      `,
+
       RFCS_COMMAND_EXTENDED_HELP: stripIndent`
         • The query argument is only required for the view command.
         • Look for exact matches using the --number, --title, --author and --labels flags.
@@ -39,17 +42,31 @@ export default class LanguageEnUS extends Language {
           • !rfc list --state='closed'
           • !rfc list --state="popular"
       `,
+
       RFCS_ARGUMENT_QUERY: prefix => oneLine`
         You must specify a valid query.
 
         For more information consult the help command - \`${prefix}help rfc\`.
       `,
-      RFCS_VIEW: query => `view rfc - ${query}`,
+
+      RFCS_VIEW: query => oneLine`
+        view rfc - ${query}
+      `,
+
       RFC_LIST_INVALID_FILTER: (filter, validFilters) =>
-        `You specified an invalid filter (\`${filter}\`), valid filters are: ${validFilters}.`,
+        oneLine`
+          You specified an invalid filter (\`${filter}\`), valid filters are: ${validFilters}.
+        `,
+
       RFCS_LIST_FILTER_NO_RESULTS: filter =>
-        `No results found matching filter \`${filter}\``,
-      RFCS_LIST_INFO_PAGE_TITLE: `VueJS Requests for Comments`,
+        oneLine`
+          No results found matching filter \`${filter}\`
+        `,
+
+      RFCS_LIST_INFO_PAGE_TITLE: oneLine`
+        VueJS Requests for Comments
+      `,
+
       RFCS_LIST_INFO_PAGE_DESCRIPTION: filterAdjective => stripIndent`
       You are viewing ${filterAdjective} RFCs.
 
@@ -58,8 +75,26 @@ export default class LanguageEnUS extends Language {
       - Cancel pagination using ⏹.
       - View this information page with ℹ.
       `,
+
       RFCS_EMBED_TITLE: title => `VueJS RFC - ${title}`,
-      RFCS_REFRESH: 'refresh rfcs',
+
+      RFCS_REFRESH_SUCCESS: ttl => oneLine`
+        I refetched the RFCs from the Github API and re-cached them to disk.
+
+        The cache TTL is ${ttl}.
+      `,
+
+      RFCS_REFRESH_FAILURE: force => oneLine`
+        Sorry, something went wrong while fetching the RFCs from Github.
+      `,
+
+      RFCS_REFRESH_LACKING_PERMISSION: oneLine`
+        Sorry, you don't have permission to refresh the RFC cache.
+      `,
+
+      RFCS_DUMP_CLIENT_LACKS_PERMISSIONS: oneLine`
+        Sorry,  I don't have permission to attach files.
+      `,
     }
   }
 

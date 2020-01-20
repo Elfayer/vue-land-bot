@@ -5,9 +5,10 @@ import {
   Command,
   CommandStore,
 } from 'klasa'
-import { MessageEmbed } from 'discord.js'
+import { MessageEmbed, MessageAttachment } from 'discord.js'
 import { PullsListResponseItem } from '@octokit/rest'
 
+import { PATHS } from '@libraries/constants'
 import RFCService, { PullRequestState } from '@base/services/RFCService'
 import createVueTemplate from '@templates/VueTemplate'
 
@@ -17,7 +18,7 @@ export default class RFCCommand extends Command {
   constructor(store: CommandStore, file: string[], directory: string) {
     super(store, file, directory, {
       name: 'rfc',
-      usage: '<list|refresh|view:default> (query:query)',
+      usage: '<list|refresh|default:default> (query:query)',
       runIn: ['text', 'dm'],
       description: language => language.get('RFCS_COMMAND_DESCRIPTION'),
       extendedHelp: language => language.get('RFCS_COMMAND_EXTENDED_HELP'),
@@ -40,6 +41,10 @@ export default class RFCCommand extends Command {
         [subcommand]: any[]
       ) => {
         if (subcommand === 'list' || subcommand === 'refresh') {
+          return undefined
+        }
+
+        if (message.flagArgs.dump) {
           return undefined
         }
 
@@ -89,7 +94,7 @@ export default class RFCCommand extends Command {
       if (rfcs.length) {
         for (const rfc of rfcs) {
           response.addPage((embed: MessageEmbed) =>
-            this.buildRFCPage(rfc, embed)
+            this.buildRFCPage(rfc, embed, message)
           )
         }
       } else {
@@ -112,61 +117,106 @@ export default class RFCCommand extends Command {
   }
 
   /**
-   * Search for specific fields via flag arguments, or via the fuzzy searcher
-   * if no flag arguments are provided.
+   * Refresh the RFCs from Github.
    */
-  view(message: KlasaMessage, [query]: [string]) {
+  async refresh(message: KlasaMessage) {
+    if (!message.member?.hasPermission('ADMINISTRATOR')) {
+      throw message.language.get('RFCS_REFRESH_LACKING_PERMISSION')
+    }
+
+    try {
+      await this.service.cacheRFCs(true)
+      return message.sendLocale('RFCS_REFRESH_SUCCESS', [
+        this.service.getCacheTTLHuman(),
+      ])
+    } catch (error) {
+      return message.sendLocale('RFCS_REFRESH_FAILURE')
+    }
+  }
+
+  /**
+   *
+   */
+  default(message: KlasaMessage, [query]: [string]) {
+    if (message.flagArgs.dump) {
+      return this.dump(message)
+    }
+
     return message.sendLocale('RFCS_VIEW', [query])
   }
 
   /**
-   * Refresh the RFCs from Github.
+   * Dump the RFC-related settings, for debugging purposes.
    */
-  refresh(message: KlasaMessage) {
-    return message.sendLocale('RFCS_REFRESH')
+  dump(message: KlasaMessage) {
+    if (
+      message.channel.type !== 'dm' &&
+      message.guild.members
+        .get(this.client.user.id)
+        .hasPermission('ATTACH_FILES')
+    ) {
+      throw message.language.get('RFCS_DUMP_CLIENT_LACKS_PERMISSIONS')
+    }
+
+    const pretty = message.flagArgs.pretty
+    const data = JSON.stringify(
+      this.client.settings.get('rfcs'),
+      null,
+      pretty ? 2 : 0
+    )
+
+    return message.sendMessage(
+      new MessageAttachment(Buffer.from(data, 'utf8'), 'rfcs.json')
+    )
   }
 
   /**
    * Build a single RFC page.
    */
-  private buildRFCPage(rfc: PullsListResponseItem, embed: MessageEmbed) {
-    embed
-      .setURL(rfc.html_url)
-      .setTitle(`RFC #${rfc.number} - ${rfc.title}`)
-      .addField('Author', rfc.user.login, true)
-      .addField('Status', rfc.state, true)
-      .setDescription(rfc.body.substring(0, 2040))
+  private buildRFCPage(
+    rfc: PullsListResponseItem,
+    embed: MessageEmbed,
+    message: KlasaMessage
+  ) {
+    embed.setURL(rfc.html_url).setTitle(`RFC #${rfc.number} - ${rfc.title}`)
 
-    if (rfc.labels.length) {
-      embed.addField(
-        'Labels',
-        rfc.labels.map(label => label.name).join(', '),
-        true
+    if (!message.flagArgs.short) {
+      embed
+        .setDescription(rfc.body.substring(0, 2040))
+        .addField('Author', rfc.user.login, true)
+        .addField('Status', rfc.state, true)
+
+      if (rfc.labels.length) {
+        embed.addField(
+          'Labels',
+          rfc.labels.map(label => label.name).join(', '),
+          true
+        )
+      }
+
+      if (rfc.created_at) {
+        embed.addField(
+          'Created',
+          new Date(rfc.created_at).toLocaleDateString(),
+          true
+        )
+      }
+
+      if (rfc.updated_at) {
+        embed.addField(
+          'Updated',
+          new Date(rfc.updated_at).toLocaleDateString(),
+          true
+        )
+      }
+
+      let labelsWithColours = rfc.labels.filter(label =>
+        ['core', 'vuex', 'router'].includes(label.name)
       )
-    }
 
-    if (rfc.created_at) {
-      embed.addField(
-        'Created',
-        new Date(rfc.created_at).toLocaleDateString(),
-        true
-      )
-    }
-
-    if (rfc.updated_at) {
-      embed.addField(
-        'Updated',
-        new Date(rfc.updated_at).toLocaleDateString(),
-        true
-      )
-    }
-
-    let labelsWithColours = rfc.labels.filter(label =>
-      ['core', 'vuex', 'router'].includes(label.name)
-    )
-
-    if (labelsWithColours.length) {
-      embed.setColor(`#${labelsWithColours[0].color}`)
+      if (labelsWithColours.length) {
+        embed.setColor(`#${labelsWithColours[0].color}`)
+      }
     }
 
     return embed
