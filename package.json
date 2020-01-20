@@ -10,7 +10,16 @@
     "type": "git",
     "url": "git+https://github.com/Elfayer/vue-land-bot.git"
   },
-  "keywords": [],
+  "keywords": [
+    "vue",
+    "vuejs",
+    "official",
+    "discord",
+    "discord.js",
+    "klasa",
+    "typescript",
+    "bot"
+  ],
   "author": "Elfayer",
   "contributors": [
     "Elfayer",
