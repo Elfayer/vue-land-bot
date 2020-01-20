@@ -49,11 +49,13 @@ export default function createVueTemplate(
     ])
   }
 
-  if (options.addAuthor && message?.member) {
-    embed.setAuthor(
-      `${message?.member.displayName} requested:`,
-      message.author.avatarURL()
-    )
+  if (options.addAuthor) {
+    const author =
+      message.channel.type === 'dm'
+        ? 'You'
+        : message.member?.displayName ?? message.author.username
+
+    embed.setAuthor(`${author} requested:`, message.author.avatarURL())
   }
 
   return embed
