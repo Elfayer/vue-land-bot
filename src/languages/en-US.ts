@@ -88,12 +88,12 @@ export default class LanguageEnUS extends Language {
         Sorry, something went wrong while fetching the RFCs from Github.
       `,
 
-      RFCS_REFRESH_LACKING_PERMISSION: oneLine`
-        Sorry, you don't have permission to refresh the RFC cache.
+      VUEBOT_USER_LACKS_PERMISSION: permissions => oneLine`
+        Sorry but you lack the permissions required (${permissions}) to perform that action.
       `,
 
-      RFCS_DUMP_CLIENT_LACKS_PERMISSIONS: oneLine`
-        Sorry,  I don't have permission to attach files.
+      VUEBOT_BOT_LACKS_PERMISSION: permissions => oneLine`
+        Sorry but I lack the permissions required (${permissions}) to perform that action.
       `,
     }
   }

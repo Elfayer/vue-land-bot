@@ -87,11 +87,13 @@ export default class RFCCommand extends Command {
   }
 
   /**
-   * Refresh the RFCs from Github.
+   * Force-refresh the RFCs from Github, requires `ADMINISTRATOR` permission.
    */
   async refresh(message: KlasaMessage) {
     if (!message.member?.hasPermission('ADMINISTRATOR')) {
-      throw message.language.get('RFCS_REFRESH_LACKING_PERMISSION')
+      throw message.language.get('VUEBOT_USER_LACKS_PERMISSION', [
+        ['`ADMINISTRATOR`'],
+      ])
     }
 
     try {
@@ -125,7 +127,9 @@ export default class RFCCommand extends Command {
         .get(this.client.user.id)
         .hasPermission('ATTACH_FILES')
     ) {
-      throw message.language.get('RFCS_DUMP_CLIENT_LACKS_PERMISSIONS')
+      throw message.language.get('VUEBOT_BOT_LACKS_PERMISSION', [
+        ['`ADMINISTRATOR`'],
+      ])
     }
 
     const data = JSON.stringify(
