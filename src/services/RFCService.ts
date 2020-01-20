@@ -374,7 +374,7 @@ const FUSE_OPTIONS: FuseOptions<PullsListResponseItem> = {
     },
     {
       name: 'body',
-      weight: 0.9,
+      weight: 0.75,
     },
     {
       name: 'user.login',
