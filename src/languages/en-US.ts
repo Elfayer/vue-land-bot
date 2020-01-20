@@ -49,9 +49,8 @@ export default class LanguageEnUS extends Language {
         For more information consult the help command - \`${prefix}help rfc\`.
       `,
 
-      RFCS_VIEW: query => oneLine`
-        view rfc - ${query}
-      `,
+      RFCS_NO_MATCHS_TITLE: `VueJS RFC Search`,
+      RFCS_NO_MATCHS_DESCRIPTION: `No results found!`,
 
       RFC_LIST_INVALID_FILTER: (filter, validFilters) =>
         oneLine`
@@ -63,17 +62,14 @@ export default class LanguageEnUS extends Language {
           No results found matching filter \`${filter}\`
         `,
 
-      RFCS_LIST_INFO_PAGE_TITLE: oneLine`
-        VueJS Requests for Comments
+      RFCS_INFO_PAGE_TITLE: oneLine`
+        VueJS - Requests for Comments
       `,
-
-      RFCS_LIST_INFO_PAGE_DESCRIPTION: filterAdjective => stripIndent`
-      You are viewing ${filterAdjective} RFCs.
-
-      - Use the ⏮, ◀, ▶ & ⏭ buttons to navigate between the pages.
-      - Jump to an arbitrary page using 🔢.
-      - Cancel pagination using ⏹.
-      - View this information page with ℹ.
+      RFCS_INFO_PAGE_DESCRIPTION: stripIndent`
+        • Use the ⏮, ◀, ▶ & ⏭ buttons to navigate between the pages.
+        • Jump to an arbitrary page using 🔢.
+        • Cancel pagination using ⏹.
+        • View this information page with ℹ.
       `,
 
       RFCS_EMBED_TITLE: title => `VueJS RFC - ${title}`,
