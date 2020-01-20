@@ -62,3 +62,6 @@ typings/
 
 # Project files
 src/config.json
+
+# Built TypeScript
+dist/
