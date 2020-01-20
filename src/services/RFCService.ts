@@ -33,7 +33,7 @@ export default class RFCService extends Service {
         owner: RFCService.OWNER,
         repo: RFCService.REPO,
         state: PullRequestState.ALL,
-        sort: 'popularity',
+        sort: PullRequestSort.POPULARITY,
       })
       rfcs = this.extractRelevantData(rfcs)
 
@@ -242,6 +242,10 @@ export enum PullRequestState {
   ALL = 'all',
   MERGED = 'merged',
   POPULAR = 'popular',
+}
+
+export enum PullRequestSort {
+  POPULARITY = 'popularity',
 }
 
 enum RFCFilter {
