@@ -12,6 +12,8 @@ import RFCService, { PullRequestState } from '@base/services/RFCService'
 import createVueTemplate from '@templates/VueTemplate'
 
 export default class RFCCommand extends Command {
+  service: RFCService
+
   constructor(store: CommandStore, file: string[], directory: string) {
     super(store, file, directory, {
       name: 'rfc',
@@ -22,6 +24,8 @@ export default class RFCCommand extends Command {
       subcommands: true,
       usageDelim: ' ',
     })
+
+    this.service = this.client.services.get('RFCService') as RFCService
 
     this.customizeResponse('query', message =>
       message.language.get('RFCS_ARGUMENT_QUERY', [this.client.options.prefix])
@@ -55,7 +59,6 @@ export default class RFCCommand extends Command {
     try {
       const filter: PullRequestState =
         (message.flagArgs.state as PullRequestState) || PullRequestState.ALL
-      const service = this.client.services.get('RFCService') as RFCService
 
       if (!(filter.toUpperCase() in PullRequestState)) {
         return message.sendLocale('RFC_LIST_INVALID_FILTER', [
@@ -66,7 +69,7 @@ export default class RFCCommand extends Command {
         ])
       }
 
-      const rfcs = await service.getRFCsByState(filter)
+      const rfcs = await this.service.getRFCsByState(filter)
 
       const response = new RichDisplay(
         createVueTemplate(message, {
