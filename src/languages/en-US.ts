@@ -13,7 +13,7 @@ export default class LanguageEnUS extends Language {
     this.language = {
       CMD_INFO_CODE_DESCRIPTION: 'Show code highlighting tips.',
       CMD_INFO_CODE_EXTENDED_HELP: stripIndent`
-        You can optionally send the
+        • You can (optionally) send the code highlighting tips to a user by mentioning them.
       `,
 
       INFO_CODE_TITLE_INPUT: 'Code Highlighting Guide - Input',
