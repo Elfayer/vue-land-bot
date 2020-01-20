@@ -229,6 +229,7 @@ export default class RFCService extends Service {
         description: label.description,
       })),
       number: rfc.number,
+      html_url: rfc.html_url,
       created_at: rfc.created_at,
       updated_at: rfc.updated_at,
       merged_at: rfc.merged_at,
