@@ -36,11 +36,11 @@ export default class RFCService extends Service {
         sort: 'popularity',
       })
 
-      this.client.settings.update('rfcs.cachedAt', Date.now())
-      this.client.settings.update('rfcs.cache', rfcs, {
-        arrayAction: 'overwrite',
-      })
-
+      await this.client.settings.reset('rfcs.cache')
+      await this.client.settings.update([
+        ['rfcs.cachedAt', Date.now()],
+        ['rfcs.cache', rfcs],
+      ])
       this.updateFuzzySearcher()
 
       this.rfcs = rfcs
