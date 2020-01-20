@@ -4,7 +4,18 @@
   "description": "Official VueLand bot.",
   "main": "src/client.js",
   "scripts": {
-    "serve": "node -r esm -r dotenv/config ./src/index.js"
+    "dev": "npm run build && pm2 start ecosystem.config.js --only vuebot --env development --watch",
+    "start": "node -r dotenv/config -r esm dist/vuebot.js",
+    "watch": "tsc -p . -w",
+    "build": "tsc -p .",
+    "build:clean": "rm -rf dist && tsc -p .",
+    "install:clean": "rm -rf node_modules && npm install",
+    "install:nuke": "rm -rf node_modules && rm -f package-lock.json && npm install",
+    "pm2:start": "pm2 start ecosystem.config.js --only vuebot && pm2:logs",
+    "pm2:stop": "pm2 stop vuebot",
+    "pm2:info": "pm2 info vuebot",
+    "pm2:restart": "pm2 restart vuebot",
+    "pm2:logs": "pm2 logs vuebot --lines=200"
   },
   "repository": {
     "type": "git",
