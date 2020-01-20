@@ -61,10 +61,25 @@
     "jest": "^24.9.0",
     "standard": "^12.0.1"
   },
-  "standard": {
-    "env": [
-      "jest"
-    ]
+  "_moduleAliases": {
+    "@base": "dist",
+    "@arguments": "dist/arguments",
+    "@commands": "dist/commands",
+    "@events": "dist/events",
+    "@extendables": "dist/extendables",
+    "@finalizers": "dist/finalizers",
+    "@inhibitors": "dist/inhibitors",
+    "@languages": "dist/languages",
+    "@libraries": "dist/lib",
+    "@monitors": "dist/monitors",
+    "@providers": "dist/providers",
+    "@schemas": "dist/schemas",
+    "@serializers": "dist/serializers",
+    "@constants": "dist/lib/constants",
+    "@services": "dist/lib/services",
+    "@structures": "dist/lib/structures",
+    "@templates": "dist/lib/templates",
+    "@utilities": "dist/lib/utilities"
   },
   "engines": {
     "node": ">=10"
