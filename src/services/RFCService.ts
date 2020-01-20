@@ -201,20 +201,23 @@ export default class RFCService extends Service {
     let filtered: PullsListResponseItem[] = []
     const rfcs = existing ?? this.rfcs
 
-    if (filter === 'id') {
+    if (filter === RFCFilter.ID) {
       try {
         filtered = [await this.getRFC(value)]
       } catch (e) {
         /* eslint-disable no-empty */
       }
-    } else if (filter === 'title') {
-      filtered = this.rfcs.filter(rfc =>
-        rfc.title.toLowerCase().includes(value)
-      )
-    } else if (filter === 'body') {
-      filtered = this.rfcs.filter(rfc => rfc.body.toLowerCase().includes(value))
-    } else if (filter === 'author') {
-      filtered = this.rfcs.filter(rfc =>
+    } else if (filter === RFCFilter.TITLE) {
+      filtered = rfcs.filter(rfc => rfc.title.toLowerCase().includes(value))
+    } else if (filter === RFCFilter.BODY) {
+      filtered = rfcs.filter(rfc => {
+        if (rfc.body.toLowerCase().includes(value)) {
+        }
+
+        return rfc.body.toLowerCase().includes(value)
+      })
+    } else if (filter === RFCFilter.AUTHOR) {
+      filtered = rfcs.filter(rfc =>
         rfc.user.login.toLowerCase().includes(value)
       )
     } else if (filter === RFCFilter.LABEL) {
