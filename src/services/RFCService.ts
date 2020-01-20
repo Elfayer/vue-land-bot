@@ -112,7 +112,7 @@ export default class RFCService extends Service {
     state: PullRequestState = PullRequestState.ALL
   ): Promise<PullsListResponseItem[]> {
     try {
-      this.cacheRFCs(false)
+      await this.cacheRFCs(false)
       return this.rfcs
     } catch (error) {
       console.error(error)
@@ -127,7 +127,7 @@ export default class RFCService extends Service {
     state: PullRequestState = PullRequestState.ALL
   ): Promise<PullsListResponseItem[]> {
     try {
-      this.cacheRFCs(false)
+      await this.cacheRFCs(false)
 
       const rfcs = await this.getAllRFCs()
 
@@ -162,7 +162,7 @@ export default class RFCService extends Service {
    * Note that this is **not** the same as the internal PK (id).
    */
   async getRFC(number: any): Promise<PullsListResponseItem | undefined> {
-    this.cacheRFCs(false)
+    await this.cacheRFCs(false)
 
     return this.rfcs.find(
       rfc => rfc.number === parseInt(number.replace('#', ''))
@@ -172,8 +172,8 @@ export default class RFCService extends Service {
   /**
    * Find a value via fuzzy search.
    */
-  findFuzzy(value: string): PullsListResponseItem[] {
-    this.cacheRFCs(false)
+  async findFuzzy(value: string): Promise<PullsListResponseItem[]> {
+    await this.cacheRFCs(false)
 
     // FIXME: Without the cast we get a very long and confusing error on `map`.
     return (this.fuse.search(value) as FuseResultWithMatches<
@@ -190,7 +190,7 @@ export default class RFCService extends Service {
     filter: RFCFilter,
     value: string
   ): Promise<PullsListResponseItem[]> {
-    this.cacheRFCs(false)
+    await this.cacheRFCs(false)
 
     value = value.toLowerCase()
     let filtered: PullsListResponseItem[] = []
