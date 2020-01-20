@@ -1,6 +1,7 @@
 import * as Fuse from 'fuse.js' // SEE: https://fusejs.io/#using-in-typescript
 import { FuseOptions, FuseResultWithMatches } from 'fuse.js'
 import { PullsListResponseItem } from '@octokit/rest'
+import { formatDistance } from 'date-fns'
 
 import '@schemas/RFCSchema'
 import Service from '@structures/Service'
@@ -19,16 +20,33 @@ export default class RFCService extends Service {
   run() {}
 
   async init() {
-    await this.cacheRFCs()
+    const didRefresh = await this.cacheRFCs()
+
+    this.client.console.log(
+      didRefresh
+        ? `${this} Refreshed the cache.`
+        : `${this} Cache still valid (TTL).`
+    )
   }
 
   /**
    * Cache the RFCs to disk and then return them.
    *
-   * Does not check the `CACHE_TTL` as {@link getAllRFCs} does.
+   * @param ignoreTTL If `false`, the RFCs will only be recached if the cache expired.
+   * @returns Whether or not the cache was refreshed.
    */
-  async cacheRFCs(): Promise<PullsListResponseItem[]> {
+  async cacheRFCs(ignoreTTL = false): Promise<boolean> {
     try {
+      if (!ignoreTTL && !this.didCacheExpire()) {
+        if (!this.isCachePrimed()) {
+          this.rfcs = this.client.settings.get(
+            'rfcs.cache'
+          ) as PullsListResponseItem[]
+        }
+
+        return false
+      }
+
       let rfcs = await github.paginate('GET /repos/:owner/:repo/issues', {
         owner: RFCService.OWNER,
         repo: RFCService.REPO,
@@ -45,10 +63,10 @@ export default class RFCService extends Service {
       this.updateFuzzySearcher()
 
       this.rfcs = rfcs
-      return this.rfcs
+      return true
     } catch (error) {
       console.error(error)
-      return []
+      return false
     }
   }
 
@@ -60,10 +78,31 @@ export default class RFCService extends Service {
   }
 
   /**
+   * Did the cache expire yet?
+   */
+  didCacheExpire(): boolean {
+    return Date.now() >= this.getCachedAtTime() + this.getCacheTTL()
+  }
+
+  /**
+   * Does the cache *seem* valid (i.e. does it have at least one entry)?
+   */
+  isCachePrimed(): boolean {
+    return !!this.rfcs.length
+  }
+
+  /**
    * How long is the cache valid for (milliseconds)?
    */
   getCacheTTL(): number {
     return this.client.settings.get('rfcs.cacheTTL') as number
+  }
+
+  /**
+   * How long is the cache valid for (human-readable)?
+   */
+  getCacheTTLHuman(): string {
+    return formatDistance(new Date(0), this.getCacheTTL())
   }
 
   /**
@@ -73,9 +112,7 @@ export default class RFCService extends Service {
     state: PullRequestState = PullRequestState.ALL
   ): Promise<PullsListResponseItem[]> {
     try {
-      if (Date.now() >= this.getCachedAtTime() + this.getCacheTTL()) {
-        await this.cacheRFCs()
-      }
+      this.cacheRFCs(false)
       return this.rfcs
     } catch (error) {
       console.error(error)
@@ -90,13 +127,11 @@ export default class RFCService extends Service {
     state: PullRequestState = PullRequestState.ALL
   ): Promise<PullsListResponseItem[]> {
     try {
-      if (!this.rfcs.length) {
-        await this.cacheRFCs()
-      }
+      this.cacheRFCs(false)
 
       const rfcs = await this.getAllRFCs()
 
-      return rfcs.filter(rfc => {
+      return rfcs.filter((rfc, index) => {
         switch (state) {
           case PullRequestState.OPEN:
           case PullRequestState.CLOSED:
@@ -106,8 +141,8 @@ export default class RFCService extends Service {
             return Boolean(rfc.merged_at)
             break
           case PullRequestState.POPULAR:
-            this.client.console.warn('Popular filter not yet implemented.')
-            return false
+            // NOTE: We sort by popularity by default.
+            return index <= Math.floor(Math.log(rfcs.length) * 4)
             break
           default:
           case PullRequestState.ALL:
@@ -127,9 +162,7 @@ export default class RFCService extends Service {
    * Note that this is **not** the same as the internal PK (id).
    */
   async getRFC(number: any): Promise<PullsListResponseItem | undefined> {
-    if (!this.rfcs.length) {
-      await this.cacheRFCs()
-    }
+    this.cacheRFCs(false)
 
     return this.rfcs.find(rfc => rfc.number === parseInt(number))
   }
@@ -138,6 +171,8 @@ export default class RFCService extends Service {
    * Find a value via fuzzy search.
    */
   findFuzzy(value: string): PullsListResponseItem[] {
+    this.cacheRFCs(false)
+
     // FIXME: Without the cast we get a very long and confusing error on `map`.
     return (this.fuse.search(value) as FuseResultWithMatches<
       PullsListResponseItem
@@ -153,6 +188,8 @@ export default class RFCService extends Service {
     filter: RFCFilter,
     value: string
   ): Promise<PullsListResponseItem[]> {
+    this.cacheRFCs(false)
+
     value = value.toLowerCase()
     let filtered: PullsListResponseItem[] = []
 
@@ -234,6 +271,10 @@ export default class RFCService extends Service {
       updated_at: rfc.updated_at,
       merged_at: rfc.merged_at,
     }))
+  }
+
+  toString() {
+    return '[RFCService]'
   }
 }
 
