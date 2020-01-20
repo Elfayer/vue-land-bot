@@ -211,14 +211,16 @@ export default class RFCService extends Service {
       filtered = this.rfcs.filter(rfc =>
         rfc.user.login.toLowerCase().includes(value)
       )
-    } else if (filter === 'label') {
+    } else if (filter === RFCFilter.LABEL) {
       let labels: Array<string>
+      let mode: LabelOptions = LabelOptions.OR
 
       if (!Array.isArray(value)) {
-        if (value.includes(',')) {
-          labels = value.split(',')
-        } else if (value.includes('|')) {
-          labels = value.split('|')
+        if (value.includes('&')) {
+          mode = LabelOptions.AND
+          labels = value.split('&')
+        } else if (value.match(/[|,]+/)) {
+          labels = value.split('[|,]')
         } else {
           labels = [value]
         }
@@ -226,15 +228,43 @@ export default class RFCService extends Service {
         labels = value
       }
 
-      labels = labels.map(label => label.trim())
+      labels = labels.map(label => label.trim().toLowerCase())
 
-      filtered = this.rfcs.filter(rfc =>
-        labels.every(labelName =>
-          rfc.labels.find(
-            (label: any) => label.name.toLowerCase() === labelName
+      filtered = rfcs.filter(rfc => {
+        if (mode === LabelOptions.AND) {
+          return labels.every(labelName =>
+            rfc.labels.find((label: PullsListResponseItemLabelsItem) =>
+              label.name.toLowerCase().includes(labelName)
+            )
           )
-        )
-      )
+        } else if (mode === LabelOptions.OR) {
+          return labels.some(labelName =>
+            rfc.labels.find((label: PullsListResponseItemLabelsItem) =>
+              label.name.toLowerCase().includes(labelName)
+            )
+          )
+        }
+      })
+    } else if (filter === RFCFilter.STATE) {
+      filtered = rfcs.filter((rfc, index) => {
+        switch (value) {
+          case PullRequestState.OPEN:
+          case PullRequestState.CLOSED:
+            console.log(`checking that ${rfc.state} is ${value}`)
+            return rfc.state === value
+          case PullRequestState.MERGED:
+            return Boolean(rfc.merged_at)
+
+          case PullRequestState.POPULAR:
+            // NOTE: We sort by popularity by default.
+            return index <= Math.floor(Math.log(rfcs.length) * 4)
+
+          default:
+          case PullRequestState.ALL:
+            filtered = rfcs
+            break
+        }
+      })
     }
 
     return filtered
@@ -301,6 +331,15 @@ enum RFCFilter {
   BODY = 'body',
   AUTHOR = 'author',
   LABEL = 'label',
+
+/**
+ * Options for labels.
+ *
+ * @see findBy
+ */
+enum LabelOptions {
+  OR,
+  AND,
 }
 
 const FUSE_OPTIONS: FuseOptions<PullsListResponseItem> = {
