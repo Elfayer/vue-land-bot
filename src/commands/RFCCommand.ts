@@ -40,14 +40,17 @@ export default class RFCCommand extends Command {
         message: KlasaMessage,
         [subcommand]: any[]
       ) => {
+        // No query argument is required for these sub-commands.
         if (subcommand === 'list' || subcommand === 'refresh') {
           return undefined
         }
 
+        // No query argument is required when dumping RFC JSON via --dump.
         if (message.flagArgs.dump) {
           return undefined
         }
 
+        // The query is required - run the argument as a string.
         return this.client.arguments
           .get('string')!
           .run(argument, possible, message)
