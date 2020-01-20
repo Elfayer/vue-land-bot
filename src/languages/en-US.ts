@@ -11,6 +11,28 @@ export default class LanguageEnUS extends Language {
     super(store, file, directory, options)
 
     this.language = {
+      CMD_INFO_CODE_DESCRIPTION: 'Show code highlighting tips.',
+      CMD_INFO_CODE_EXTENDED_HELP: stripIndent`
+        You can optionally send the
+      `,
+
+      INFO_CODE_TITLE_INPUT: 'Code Highlighting Guide - Input',
+      INFO_CODE_TITLE_OUTPUT: 'Code Highlighting Guide - Output',
+      INFO_CODE_INFO_PAGE_CONTENT: stripIndent`
+        • Most languages work in code block (\`js\`, \`css\` etc.).
+        • You need to use \`html\` for Vue Single File Components.
+      `,
+      INFO_CODE_FIELD_NAME_INLINE: 'Inline Code',
+      INFO_CODE_FIELD_VALUE_INLINE: `\\\`Math.random()\\\``,
+      INFO_CODE_FIELD_NAME_BLOCK: 'Code Blocks',
+      INFO_CODE_FIELD_VALUE_BLOCK: stripIndent`
+        \\\`\\\`\\\`html
+        <template></template>
+        <script></script>
+        <style></style>
+        \\\`\\\`\\\`
+      `,
+
       RFCS_COMMAND_DESCRIPTION: oneLine`
         Interact with VueJS Requests for Comments.
       `,
@@ -82,12 +104,19 @@ export default class LanguageEnUS extends Language {
         Sorry, something went wrong while fetching the RFCs from Github.
       `,
 
+      VUEBOT_GENERIC_ERROR: stripIndent`
+        Sorry, something went wrong!
+
+        The error has been logged and hopefully we'll get to fixing it soon.
+      `,
       VUEBOT_USER_LACKS_PERMISSION: permissions => oneLine`
         Sorry but you lack the permissions required (${permissions}) to perform that action.
       `,
-
       VUEBOT_BOT_LACKS_PERMISSION: permissions => oneLine`
         Sorry but I lack the permissions required (${permissions}) to perform that action.
+      `,
+      VUEBOT_DM_SENT: oneLine`
+        Okay, I've sent them a DM about that as you requested.
       `,
     }
   }
