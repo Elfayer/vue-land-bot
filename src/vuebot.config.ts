@@ -3,23 +3,7 @@ import { resolve } from 'path'
 import { KlasaClientOptions } from 'klasa'
 import { oneLine } from 'common-tags'
 
-import { getVersion } from '@utilities/miscellaneous'
-
-const {
-  NAME = 'VueBot',
-  PREFIX = '!',
-  NODE_ENV = 'development',
-  LANGUAGE = 'en-US',
-} = process.env
-const DEV = NODE_ENV === 'development'
-
-let VERSION: string
-try {
-  VERSION = getVersion()
-} catch (error) {
-  console.error(error)
-  VERSION = 'unknown'
-}
+import { DEV, NAME, PREFIX, VERSION, LANGUAGE } from '@libraries/constants'
 
 /**
  * The options that will be passed to the {@link VueClient},
