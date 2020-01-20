@@ -29,12 +29,13 @@ export default class RFCService extends Service {
    */
   async cacheRFCs(): Promise<PullsListResponseItem[]> {
     try {
-      const rfcs = await github.paginate('GET /repos/:owner/:repo/issues', {
+      let rfcs = await github.paginate('GET /repos/:owner/:repo/issues', {
         owner: RFCService.OWNER,
         repo: RFCService.REPO,
         state: PullRequestState.ALL,
         sort: 'popularity',
       })
+      rfcs = this.extractRelevantData(rfcs)
 
       await this.client.settings.reset('rfcs.cache')
       await this.client.settings.update([
@@ -205,6 +206,31 @@ export default class RFCService extends Service {
    */
   private updateFuzzySearcher() {
     this.fuse = new Fuse(this.rfcs, FUSE_OPTIONS)
+  }
+
+  /**
+   * Extract only the data we care about.
+   */
+  private extractRelevantData(rfcs: PullsListResponseItem[]) {
+    return rfcs.map(rfc => ({
+      user: {
+        login: rfc.user.login,
+        html_url: rfc.user.html_url,
+        avatar_url: rfc.user.avatar_url,
+      },
+      body: rfc.body,
+      title: rfc.title,
+      state: rfc.state,
+      labels: rfc.labels.map(label => ({
+        name: label.name,
+        color: label.color,
+        description: label.description,
+      })),
+      number: rfc.number,
+      created_at: rfc.created_at,
+      updated_at: rfc.updated_at,
+      merged_at: rfc.merged_at,
+    }))
   }
 }
 
