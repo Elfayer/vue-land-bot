@@ -65,3 +65,6 @@ src/config.json
 
 # Built TypeScript
 dist/
+
+# JSON provider storage
+data/providers/json
