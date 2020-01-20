@@ -78,41 +78,8 @@ export default class RFCCommand extends Command {
       }
 
       const rfcs = await this.service.getRFCsByState(filter)
-
-      const response = new RichDisplay(
-        createVueTemplate(message, {
-          addLogo: true,
-          addAuthor: true,
-        })
-      )
-
-      response.setInfoPage(
-        createVueTemplate(message)
-          .setTitle(message.language.get('RFCS_LIST_INFO_PAGE_TITLE'))
-          .setDescription(
-            message.language.get('RFCS_LIST_INFO_PAGE_DESCRIPTION', [filter])
-          )
-      )
-
-      if (rfcs.length) {
-        for (const rfc of rfcs) {
-          response.addPage((embed: MessageEmbed) =>
-            this.buildRFCPage(rfc, embed, message)
-          )
-        }
-      } else {
-        return message.sendEmbed(
-          createVueTemplate(message).setDescription(
-            message.language.get('RFCS_LIST_FILTER_NO_RESULTS', [filter])
-          )
-        )
-      }
-
-      return response.run(message, {
-        filter(_reaction, user) {
-          return user.id === message.author.id
-        },
-      })
+      const response = this.buildResponse(message, rfcs)
+      return this.sendResponse(message, response)
     } catch (error) {
       this.client.console.error(error)
       return message.sendLocale('RFCS_LIST_ERROR')
@@ -171,6 +138,58 @@ export default class RFCCommand extends Command {
     return message.sendMessage(
       new MessageAttachment(Buffer.from(data, 'utf8'), 'rfcs.json')
     )
+  }
+
+  /**
+   * Send the response MessageEmbed or run the response RichDisplay.
+   */
+  private sendResponse(
+    message: KlasaMessage,
+    response: MessageEmbed | RichDisplay
+  ): Promise<KlasaMessage | ReactionHandler> {
+    if (response instanceof MessageEmbed) {
+      return message.sendEmbed(response)
+    }
+
+    return response.run(message, {
+      filter(_reaction, user) {
+        return user.id === message.author.id
+      },
+    })
+  }
+
+  /**
+   * Build the response based on the passed RFC(s).
+   */
+  private buildResponse(
+    message: KlasaMessage,
+    rfcs: PullsListResponseItem[]
+  ): MessageEmbed | RichDisplay {
+    const template = createVueTemplate(message)
+
+    if (rfcs.length === 0) {
+      return template
+        .setTitle(message.language.get('RFCS_NO_MATCHS_TITLE'))
+        .setDescription(message.language.get('RFCS_NO_MATCHS_DESCRIPTION'))
+    } else if (rfcs.length === 1) {
+      return this.buildRFCPage(rfcs[0], template, message)
+    }
+
+    const display = new RichDisplay(template)
+
+    for (const rfc of rfcs) {
+      display.addPage((embed: MessageEmbed) =>
+        this.buildRFCPage(rfc, embed, message)
+      )
+    }
+
+    display.setInfoPage(
+      createVueTemplate(message)
+        .setTitle(message.language.get('RFCS_INFO_PAGE_TITLE'))
+        .setDescription(message.language.get('RFCS_INFO_PAGE_DESCRIPTION'))
+    )
+
+    return display
   }
 
   /**
