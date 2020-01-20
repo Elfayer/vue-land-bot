@@ -24,7 +24,7 @@ export default class RFCCommand extends Command {
     })
 
     this.customizeResponse('query', message =>
-      message.language.get('RFCS_ARGUMENT_QUERY', ['!'])
+      message.language.get('RFCS_ARGUMENT_QUERY', [this.client.options.prefix])
     )
 
     this.createCustomResolver(
