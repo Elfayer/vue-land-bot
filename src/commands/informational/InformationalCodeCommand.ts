@@ -1,58 +1,18 @@
-import { KlasaMessage, CommandStore, Command, ReactionHandler } from 'klasa'
+import {
+  KlasaMessage,
+  CommandStore,
+  Command,
+  ReactionHandler,
+  RichDisplay,
+} from 'klasa'
 import { GuildMember, MessageEmbed } from 'discord.js'
 
 import createVueTemplate from '@templates/VueTemplate'
-import { RichDisplay } from 'klasa'
+import InformationalCommand from '@structures/InformationalCommand'
 
-export default class InformationalCodeCommand extends Command {
+export default class InformationalCodeCommand extends InformationalCommand {
   constructor(store: CommandStore, file: string[], directory: string) {
-    super(store, file, directory, {
-      name: 'code',
-      usage: '[member:member]',
-      runIn: ['text', 'dm'],
-      description: language => language.get('CMD_INFO_CODE_DESCRIPTION'),
-      extendedHelp: language => language.get('CMD_INFO_CODE_EXTENDED_HELP'),
-    })
-  }
-
-  /**
-   * Show code highlighting tips.
-   */
-  async run(message: KlasaMessage, [member]: [GuildMember]) {
-    try {
-      if (member && message.guild?.members.find(member => member === member)) {
-        const dm = await member.createDM()
-
-        this.sendResponse(
-          await dm.sendMessage('Loading...'),
-          this.createDisplay(message)
-        )
-
-        const response = await message.sendLocale('VUEBOT_DM_SENT')
-        message.delete({ timeout: 5000 })
-        response.delete({ timeout: 5000 })
-        return response
-      } else {
-        this.sendResponse(message, this.createDisplay(message))
-      }
-    } catch (error) {
-      message.sendLocale('VUEBOT_GENERIC_ERROR')
-      console.error(error)
-    }
-  }
-
-  /**
-   * Send the RichDisplay response.
-   */
-  sendResponse(
-    message: KlasaMessage,
-    response: RichDisplay
-  ): Promise<ReactionHandler> {
-    return response.run(message, {
-      jump: false,
-      stop: false,
-      firstLast: false,
-    })
+    super(store, file, directory, { name: 'code' })
   }
 
   /**
