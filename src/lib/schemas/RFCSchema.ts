@@ -8,30 +8,26 @@ Client.defaultGuildSchema.add('rfcs', rfcs => {
   return (
     rfcs
       /**
-       * Is the RFCService enabled for this guild?
+       * Are RFC lookups enabled for this guild?
        */
       .add('enabled', 'Boolean', { default: true })
+  )
+})
+
+Client.defaultClientSchema.add('rfcs', rfcs => {
+  return (
+    rfcs
       /**
        * How long to wait before refetching the RFCs from Github?
        */
-      .add('cacheTTL', 'Duration', { default: '4h' })
+      .add('cacheTTL', 'number', { default: 1000 * 60 * 60 * 4 })
       /**
-       * Who/what can use the RFCService, and/or where?
+       * At what time were the RFCs cached?
        */
-      .add('whitelist', whitelist => {
-        return whitelist
-          .add('roles', 'Role', { array: true })
-          .add('users', 'User', { array: true })
-          .add('channels', 'TextChanel', { array: true })
-      })
+      .add('cachedAt', 'number')
       /**
-       * Who/what can NOT use the RFCService, and/or where?
+       * The RFC cache.
        */
-      .add('blacklist', blacklist => {
-        return blacklist
-          .add('roles', 'Role', { array: true })
-          .add('users', 'User', { array: true })
-          .add('channels', 'TextChanel', { array: true })
-      })
+      .add('cache', 'any', { array: true })
   )
 })
