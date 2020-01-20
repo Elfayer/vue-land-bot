@@ -128,11 +128,10 @@ export default class RFCCommand extends Command {
       throw message.language.get('RFCS_DUMP_CLIENT_LACKS_PERMISSIONS')
     }
 
-    const pretty = message.flagArgs.pretty
     const data = JSON.stringify(
       this.client.settings.get('rfcs'),
       null,
-      pretty ? 2 : 0
+      Boolean(message.flagArgs.pretty) ? 2 : 0
     )
 
     return message.sendMessage(
