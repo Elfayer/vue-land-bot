@@ -16,16 +16,14 @@ export default class LanguageEnUS extends Language {
       `,
 
       RFCS_COMMAND_EXTENDED_HELP: stripIndent`
-        • The query argument is only required for the view command.
-        • Look for exact matches using the --number, --title, --author and --labels flags.
-          • Fuzzy search by simply not specifying a flag.
-          • You can use | (or) as well as & (and) for the label flag.
-        • You can filter the results using the --filter flag, for the list command.
+        • Fuzzy search using !rfc <query> OR
+        • Look for exact matches using filters
+          • Available Filters: --number, --title, --body, --author, --label, --state
+          • You can | (or) as well as & (and) for the label filter.
         Examples ::
         • Fuzzy Searching RFCs
-          • !rfc attr fallthrough
-          • !rfc attr fallthrough
           • !rfc #7
+          • !rfc attr fallthrough
           • !rfc better v-for
           • !rfc posva
           • !rfc router
