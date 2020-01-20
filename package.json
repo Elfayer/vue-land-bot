@@ -1,8 +1,8 @@
 {
   "name": "vue-land-bot",
-  "version": "0.1.0-beta-1",
-  "description": "Official VueLand bot.",
-  "main": "src/client.js",
+  "version": "0.2.0",
+  "description": "Official VueLand Discord bot.",
+  "main": "dist/vuebot.js",
   "scripts": {
     "dev": "npm run build && pm2 start ecosystem.config.js --only vuebot --env development --watch",
     "start": "node -r dotenv/config -r esm dist/vuebot.js",
@@ -88,7 +88,5 @@
     "@templates": "dist/lib/templates",
     "@utilities": "dist/lib/utilities"
   },
-  "engines": {
-    "node": ">=10"
-  }
+  "private": true
 }
