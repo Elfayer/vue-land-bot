@@ -164,7 +164,9 @@ export default class RFCService extends Service {
   async getRFC(number: any): Promise<PullsListResponseItem | undefined> {
     this.cacheRFCs(false)
 
-    return this.rfcs.find(rfc => rfc.number === parseInt(number))
+    return this.rfcs.find(
+      rfc => rfc.number === parseInt(number.replace('#', ''))
+    )
   }
 
   /**
