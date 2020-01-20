@@ -107,7 +107,8 @@ export default class RFCCommand extends Command {
   }
 
   /**
-   *
+   * The default sub-command, which simply delegates to either
+   * `dump` or `search` depending on the presence of flagArgs.
    */
   default(message: KlasaMessage, [query]: [string]) {
     if (message.flagArgs.dump) {
@@ -118,7 +119,7 @@ export default class RFCCommand extends Command {
   }
 
   /**
-   * Dump the RFC-related settings, for debugging purposes.
+   * Dump the RFC-related settings, primarily for debugging purposes.
    */
   dump(message: KlasaMessage) {
     if (
