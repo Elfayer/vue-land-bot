@@ -1,4 +1,5 @@
-import Fuse, { FuseOptions, FuseResultWithMatches } from 'fuse.js'
+import * as Fuse from 'fuse.js' // SEE: https://fusejs.io/#using-in-typescript
+import { FuseOptions, FuseResultWithMatches } from 'fuse.js'
 import { PullsListResponseItem } from '@octokit/rest'
 
 import '@schemas/RFCSchema'
@@ -202,7 +203,6 @@ export default class RFCService extends Service {
   /**
    * Update the fuzzy searcher, should be called whenever the RFCs are set/updated.
    */
-  // FIXME: For some reason the import doesn't work, needs investigation.
   private updateFuzzySearcher() {
     this.fuse = new Fuse(this.rfcs, FUSE_OPTIONS)
   }
