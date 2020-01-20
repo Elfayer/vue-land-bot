@@ -294,7 +294,7 @@ export default class RFCCommand extends Command {
     if (!message.flagArgs.short) {
       embed
         .setDescription(rfc.body.substring(0, 2040))
-        .addField('Author', rfc.user.login, true)
+        .addField('Author', `[${rfc.user.login}](${rfc.user.html_url})`, true)
         .addField('Status', rfc.state, true)
 
       if (rfc.labels.length) {
