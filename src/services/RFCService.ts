@@ -343,6 +343,8 @@ export enum RFCFilter {
   BODY = 'body',
   AUTHOR = 'author',
   LABEL = 'label',
+  STATE = 'state',
+}
 
 /**
  * Options for labels.
