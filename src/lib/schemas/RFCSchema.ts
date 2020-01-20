@@ -22,7 +22,7 @@ Client.defaultGuildSchema.add('rfcs', rfcs => {
         return whitelist
           .add('roles', 'Role', { array: true })
           .add('users', 'User', { array: true })
-          .add('channel', 'TextChanel', { array: true })
+          .add('channels', 'TextChanel', { array: true })
       })
       /**
        * Who/what can NOT use the RFCService, and/or where?
@@ -31,7 +31,7 @@ Client.defaultGuildSchema.add('rfcs', rfcs => {
         return blacklist
           .add('roles', 'Role', { array: true })
           .add('users', 'User', { array: true })
-          .add('channel', 'TextChanel', { array: true })
+          .add('channels', 'TextChanel', { array: true })
       })
   )
 })
