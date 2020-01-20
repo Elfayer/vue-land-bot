@@ -1,6 +1,9 @@
 import * as Fuse from 'fuse.js' // SEE: https://fusejs.io/#using-in-typescript
 import { FuseOptions, FuseResultWithMatches } from 'fuse.js'
-import { PullsListResponseItem } from '@octokit/rest'
+import {
+  PullsListResponseItem,
+  PullsListResponseItemLabelsItem,
+} from '@octokit/rest'
 import { formatDistance } from 'date-fns'
 
 import '@schemas/RFCSchema'
