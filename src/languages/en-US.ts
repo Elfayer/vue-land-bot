@@ -38,7 +38,7 @@ export default class LanguageEnUS extends Language {
       `,
 
       RFCS_COMMAND_EXTENDED_HELP: stripIndent`
-        • Fuzzy search using !rfc <query> OR
+        • Fuzzy search using !rfc <query> AND/OR
         • Look for exact matches using filters
           • Available Filters: --number, --title, --body, --author, --label, --state
           • You can | (or) as well as & (and) for the label filter.
