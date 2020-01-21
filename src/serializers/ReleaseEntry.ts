@@ -29,7 +29,7 @@ export default class ReleaseEntrySerializer extends Serializer {
       return data
     }
 
-    throw language.get('VUEBOT_RESOLVER_INVALID_REPO', entry.key, data)
+    throw language.get('VUEBOT_RESOLVER_INVALID_RELEASE_ENTRY', entry.key, data)
   }
 }
 
