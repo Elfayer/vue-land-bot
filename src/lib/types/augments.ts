@@ -21,5 +21,7 @@ declare module 'klasa' {
     log(...logs: any[]): void
     warn(...logs: any[]): void
     debug(...logs: any[]): void
+    verbose(...logs: any[]): void
+    formatLogs(logs: any[]): string[]
   }
 }
