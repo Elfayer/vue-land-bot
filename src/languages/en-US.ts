@@ -113,6 +113,45 @@ export default class LanguageEnUS extends Language {
         This Code of Conduct is adapted from the [Contributor Covenant, version 1.4](https://www.contributor-covenant.org/version/1/4/code-of-conduct.html)
       `,
 
+      INFO_ETIQUETTE_TITLE_PINGING: 'Pinging',
+      INFO_ETIQUETTE_DESC_PINGING: stripIndent`
+        You don't need to \`@\` someone who responded to you after every message.
+
+        They'll see your responses and respond when they can.
+
+        Additionally, please don't ping people immediately when asking your question (unless you're sure they are the **only** person who can help).
+      `,
+      INFO_ETIQUETTE_TITLE_AMBIGUITY: 'Ambiguity',
+      INFO_ETIQUETTE_DESC_AMBIGUITY: stripIndent`
+        Try not to make your question super vague / broad.
+
+        If you can, narrow it down to just one main thing that you're struggling with rather than "Can you help me integrate X with Y".
+
+        It will be easier for people to help.
+      `,
+      INFO_ETIQUETTE_TITLE_POSTING: 'Cross-posting',
+      INFO_ETIQUETTE_DESC_POSTING: stripIndent`
+        Please don't post the same question in multiple channels quickly in succession, see \`!dry\`.
+      `,
+      INFO_ETIQUETTE_TITLE_VOLUNTEERS: 'Volunteers',
+      INFO_ETIQUETTE_DESC_VOLUNTEERS: stripIndent`
+        Remember that everyone here is a volunteer - they aren't getting paid to help you.
+      `,
+      INFO_ETIQUETTE_TITLE_DMS: 'DMs',
+      INFO_ETIQUETTE_DESC_DMS: stripIndent`
+        Please do not DM (private message) people soliciting help without first asking their permission.
+      `,
+      INFO_ETIQUETTE_TITLE_FORMATTING: 'Formatting',
+      INFO_ETIQUETTE_DESC_FORMATTING: stripIndent`
+        Please use proper code formatting when sharing code snippets, see \`!code\`.
+      `,
+      INFO_ETIQUETTE_TITLE_SHARING: 'Sharing',
+      INFO_ETIQUETTE_DESC_SHARING: stripIndent`
+        If possible, provide a reproduction of the issue, see \`!sharing\`.
+
+        It'll be much easier to help if you do!
+      `,
+
       RFCS_COMMAND_DESCRIPTION: oneLine`
         Interact with VueJS Requests for Comments.
       `,
