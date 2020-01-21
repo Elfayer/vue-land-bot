@@ -14,6 +14,8 @@ if (!BOT_TOKEN) {
   throw new Error('[VueClient] BOT_TOKEN must be defined.')
 }
 
+import '@schemas/ReleaseSchema'
+
 /**
  * The VueClient just adds our custom piece stores
  * (for now, just the {@link Service}s), to the KlasaClient.
