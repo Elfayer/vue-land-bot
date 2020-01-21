@@ -6,9 +6,9 @@ import {
 } from 'klasa'
 
 import createVueTemplate from '@templates/VueTemplate'
-import InformationalCommand from '@structures/InformationalCommand'
+import InfoCommand from '@structures/InfoCommand'
 
-export default class InformationalCodeOfConductCommand extends InformationalCommand {
+export default class InfoEtiquetteCommand extends InfoCommand {
   constructor(store: CommandStore, file: string[], directory: string) {
     super(store, file, directory, { name: 'etiquette' })
   }

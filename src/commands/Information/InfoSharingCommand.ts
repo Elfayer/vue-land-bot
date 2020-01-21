@@ -1,10 +1,10 @@
 import { KlasaMessage, CommandStore, RichDisplay } from 'klasa'
 
 import createVueTemplate from '@templates/VueTemplate'
-import InformationalCommand from '@structures/InformationalCommand'
+import InfoCommand from '@structures/InfoCommand'
 import { URLS } from '@libraries/constants'
 
-export default class InformationalCodeOfConductCommand extends InformationalCommand {
+export default class InfoSharingCommand extends InfoCommand {
   constructor(store: CommandStore, file: string[], directory: string) {
     super(store, file, directory, { name: 'sharing' })
   }

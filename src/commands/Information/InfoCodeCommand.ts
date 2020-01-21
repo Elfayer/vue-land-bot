@@ -6,9 +6,9 @@ import {
 } from 'klasa'
 
 import createVueTemplate from '@templates/VueTemplate'
-import InformationalCommand from '@structures/InformationalCommand'
+import InfoCommand from '@structures/InfoCommand'
 
-export default class InformationalCodeCommand extends InformationalCommand {
+export default class InfoCodeCommand extends InfoCommand {
   richDisplayOptions: RichDisplayRunOptions = {
     jump: false,
     stop: false,

@@ -1,10 +1,10 @@
 import { KlasaMessage, CommandStore, RichDisplay } from 'klasa'
 
 import createVueTemplate from '@templates/VueTemplate'
-import InformationalCommand from '@structures/InformationalCommand'
+import InfoCommand from '@structures/InfoCommand'
 import { MessageEmbed } from 'discord.js'
 
-export default class InformationalDontRepeatYourselfCommand extends InformationalCommand {
+export default class InfoDRYCommand extends InfoCommand {
   constructor(store: CommandStore, file: string[], directory: string) {
     super(store, file, directory, { name: 'dry' })
   }

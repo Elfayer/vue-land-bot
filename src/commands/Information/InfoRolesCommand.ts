@@ -1,12 +1,12 @@
 import { KlasaMessage, CommandStore, RichDisplay } from 'klasa'
 
 import createVueTemplate from '@templates/VueTemplate'
-import InformationalCommand from '@structures/InformationalCommand'
+import InfoCommand from '@structures/InfoCommand'
 import { ROLES } from '@libraries/constants'
 import { ROLES_NAMES, ROLES_FRIENDLY_NAMES } from '@libraries/types/roles'
 import { roleMention } from '@utilities/miscellaneous'
 
-export default class InformationalRolesCommand extends InformationalCommand {
+export default class InfoRolesCommand extends InfoCommand {
   constructor(store: CommandStore, file: string[], directory: string) {
     super(store, file, directory, { name: 'roles' })
   }
