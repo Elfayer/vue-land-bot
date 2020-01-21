@@ -1,11 +1,9 @@
 import {
   KlasaMessage,
   CommandStore,
-  Command,
-  ReactionHandler,
   RichDisplay,
+  RichDisplayRunOptions,
 } from 'klasa'
-import { GuildMember, MessageEmbed } from 'discord.js'
 
 import createVueTemplate from '@templates/VueTemplate'
 import InformationalCommand from '@structures/InformationalCommand'
