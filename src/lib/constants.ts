@@ -62,6 +62,13 @@ export const PATHS = {
 }
 
 /**
+ * Various noteworthy URLs.
+ */
+export const URLS = {
+  COC: 'https://vuejs.org/coc',
+}
+
+/**
  * Noteworthy roles.
  */
 export const ROLES = Object.freeze(
