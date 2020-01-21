@@ -9,6 +9,12 @@ import createVueTemplate from '@templates/VueTemplate'
 import InformationalCommand from '@structures/InformationalCommand'
 
 export default class InformationalCodeCommand extends InformationalCommand {
+  richDisplayOptions: RichDisplayRunOptions = {
+    jump: false,
+    stop: false,
+    firstLast: false,
+  }
+
   constructor(store: CommandStore, file: string[], directory: string) {
     super(store, file, directory, { name: 'code' })
   }
