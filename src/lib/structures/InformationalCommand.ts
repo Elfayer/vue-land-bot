@@ -30,11 +30,11 @@ export default abstract class InformationalCommand extends Command {
       util.mergeDefault(
         {
           usage: '[member:member]',
-          description: language =>
+          description: (language: Language) =>
             language.get(
               `CMD_INFO_${options.name.toLocaleUpperCase()}_DESCRIPTION`
             ),
-          extendedHelp: language =>
+          extendedHelp: (language: Language) =>
             language.get(
               `CMD_INFO_${options.name.toLocaleUpperCase()}_EXTENDED_HELP`
             ),
