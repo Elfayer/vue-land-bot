@@ -23,17 +23,17 @@
       "@finalizers/*": ["src/finalizers/*"],
       "@inhibitors/*": ["src/inhibitors/*"],
       "@languages/*": ["src/languages/*"],
-      "@libraries/*": ["src/lib/*"],
       "@monitors/*": ["src/monitors/*"],
       "@providers/*": ["src/providers/*"],
       "@serializers/*": ["src/serializers/*"],
-      "@schemas/*": ["src/lib/schemas/*"],
+      "@libraries/*": ["src/lib/*"],
       "@constants/*": ["src/lib/constants/*"],
-      "@services/*": ["src/lib/services/*"],
+      "@schemas/*": ["src/lib/schemas/*"],
+      "@services/*": ["src/services/*"],
+      "@structures/*": ["src/lib/structures/*"],
       "@templates/*": ["src/lib/templates/*"],
-      "@utilities/*": ["src/lib/utilities/*"],
       "@typings/*": ["src/lib/types/*"],
-      "@structures/*": ["src/lib/structures/*"]
+      "@utilities/*": ["src/lib/utilities/*"]
     }
   },
   "include": ["./src/**/*", "./data/**/*"],
