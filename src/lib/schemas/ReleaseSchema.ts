@@ -23,9 +23,15 @@ Client.defaultGuildSchema.add('releases', releases => {
        */
       .add('repos', 'vuejs-repo', { array: true })
       /**
-       * How often should we check for new releases?
+       * How often should we check for new releases, in hours.
+       *
+       * Note that if NODE_ENV is development then will become minutes, for ease of testing.
        */
-      .add('schedule', 'number')
+      .add('schedule', 'number', { min: 1, default: 6, max: 24 * 7 })
+      /**
+       * When was the last release announced?
+       */
+      .add('lastRelease', 'number')
       /**
        * Keeps track of which version each repository is currently on.
        */
