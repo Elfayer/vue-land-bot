@@ -7,6 +7,7 @@ import {
 } from 'klasa'
 
 import { VALID_VUEJS_REPOS } from '@libraries/constants'
+import { ReleaseEntry } from '@libraries/types/releases'
 
 export default class ReleaseEntrySerializer extends Serializer {
   constructor(store: SerializerStore, file: string[], directory: string) {
@@ -31,10 +32,4 @@ export default class ReleaseEntrySerializer extends Serializer {
 
     throw language.get('VUEBOT_RESOLVER_INVALID_RELEASE_ENTRY', entry.key, data)
   }
-}
-
-interface ReleaseEntry {
-  repo: string
-  version: string
-  announced: number | string
 }
