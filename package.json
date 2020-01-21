@@ -4,7 +4,7 @@
   "description": "Official VueLand Discord bot.",
   "main": "dist/vuebot.js",
   "scripts": {
-    "dev": "npm run build && pm2 start ecosystem.config.js --only vuebot --env development --watch",
+    "dev": "npm run build && pm2 start ecosystem.config.js --only vuebot --env development --watch && npm run pm2:logs",
     "start": "node -r dotenv/config -r esm dist/vuebot.js",
     "watch": "tsc -p . -w",
     "build": "tsc -p .",
