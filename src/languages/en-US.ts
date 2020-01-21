@@ -33,6 +33,26 @@ export default class LanguageEnUS extends Language {
         \\\`\\\`\\\`
       `,
 
+      INFO_ROLES_TITLE: 'Vue Land Roles',
+      INFO_ROLES_ROLE_CORE_TEAM_DESCRIPTION: role => oneLine`
+        The ${role} are the Vue.js developers. They mostly frequent the #vue2-internals and #vue3-discussions channels.
+      `,
+      INFO_ROLES_ROLE_MODERATORS_DESCRIPTION: role => oneLine`
+        The ${role} are the keepers of peace and order. Feel free to ping (or preferably DM) them if there is any issue which requires their attention.
+      `,
+      INFO_ROLES_ROLE_MVPS_DESCRIPTION: role => oneLine`
+        The ${role} are people who've proven to be helpful or knowledgeable on the server and may assist you with your issue, if they're available. They generally frequent #code-help and #code-help-too.
+      `,
+      INFO_ROLES_ROLE_LIBRARY_MAINTAINERS_DESCRIPTION: role => oneLine`
+        The ${role} are people who are maintainers or contributors of popular/important Vue.js libraries, frameworks and tools.
+      `,
+      INFO_ROLES_ROLE_COMMUNITY_LEADERS_DESCRIPTION: role => oneLine`
+        The ${role} are in charge of organising and running things like meetups, events and conferences, or notable community projects and resources.
+      `,
+      INFO_ROLES_ROLE_NITRO_BOOSTERS_DESCRIPTION: role => oneLine`
+        The ${role} role consists of people who have boosted the server with their Discord Nitro membership (thanks)!
+      `,
+
       RFCS_COMMAND_DESCRIPTION: oneLine`
         Interact with VueJS Requests for Comments.
       `,

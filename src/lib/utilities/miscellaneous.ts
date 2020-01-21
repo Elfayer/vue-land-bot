@@ -13,3 +13,10 @@ export function getVersion() {
     .toString('utf8')
     .trim()
 }
+
+/**
+ * Turn a role ID into a role mention.
+ */
+export function roleMention(roleId: string) {
+  return `<@&${roleId}>`
+}
