@@ -1,20 +1,22 @@
 import {
-  KlasaMessage,
-  CommandStore,
   Command,
-  ReactionHandler,
+  CommandStore,
   CommandOptions,
+  KlasaMessage,
+  Language,
+  ReactionHandler,
+  RichDisplay,
+  RichDisplayRunOptions,
   util,
 } from 'klasa'
-import { GuildMember, MessageEmbed } from 'discord.js'
-
-import createVueTemplate from '@templates/VueTemplate'
-import { RichDisplay } from 'klasa'
+import { GuildMember } from 'discord.js'
 
 /**
  * Contains shared functionality for informational commands.
  */
 export default abstract class InformationalCommand extends Command {
+  richDisplayOptions: RichDisplayRunOptions
+
   constructor(
     store: CommandStore,
     file: string[],
