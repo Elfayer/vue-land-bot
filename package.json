@@ -83,10 +83,11 @@
     "@monitors": "dist/monitors",
     "@providers": "dist/providers",
     "@serializers": "dist/serializers",
-    "@services": "dist/services",
+    "@settings": "dist/settings",
     "@libraries": "dist/lib",
     "@constants": "dist/lib/constants",
     "@schemas": "dist/lib/schemas",
+    "@services": "dist/lib/services",
     "@structures": "dist/lib/structures",
     "@templates": "dist/lib/templates",
     "@utilities": "dist/lib/utilities"
