@@ -295,6 +295,11 @@ export default class LanguageEnUS extends Language {
       VUEBOT_DM_SENT: oneLine`
         Okay, I've sent them a DM about that as you requested.
       `,
+      VUEBOT_RESOLVER_INVALID_REPO: (key, value) => stripIndent`
+        Sorry but ${value} is not a valid value for \`${key}\` - it must be a valid repository under the VueJS organization.
+
+        Note that repositories which are archived, not currently maintained or don't use Github releases are also classed as invalid.
+      `,
     }
   }
 
