@@ -9,7 +9,7 @@ import {
   RichDisplayRunOptions,
   util,
 } from 'klasa'
-import { GuildMember } from 'discord.js'
+import { GuildMember, MessageEmbed } from 'discord.js'
 
 /**
  * Contains shared functionality for informational commands.
@@ -75,10 +75,17 @@ export default abstract class InformationalCommand extends Command {
    */
   sendResponse(
     message: KlasaMessage,
-    response: RichDisplay
-  ): Promise<ReactionHandler> {
-    return response.run(message, this.richDisplayOptions)
+    response: RichDisplay | MessageEmbed
+  ): Promise<ReactionHandler | KlasaMessage> {
+    if (response instanceof RichDisplay) {
+      return response.run(message, this.richDisplayOptions)
+    } else {
+      return message.sendEmbed(response)
+    }
   }
 
-  abstract createDisplay(message: KlasaMessage, isDM: boolean): RichDisplay
+  abstract createDisplay(
+    message: KlasaMessage,
+    isDM: boolean
+  ): RichDisplay | MessageEmbed
 }
