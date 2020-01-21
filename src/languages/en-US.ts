@@ -200,6 +200,17 @@ export default class LanguageEnUS extends Language {
           • Multiple files
       `,
 
+      INFO_DRY_TITLE: "Don't Repeat Yourself",
+      INFO_DRY_DESC: codeHelpChannel => stripIndent`
+        When you copy-paste your question in multiple channels, it just leads to duplicated efforts.
+
+        One person might have already answered your question in the first channel.
+
+        Meanwhile, someone in another channel sees your unanswered question and unnecessarily begins to answer.
+
+        If you're not sure where to post your question, just ask. Otherwise, ${codeHelpChannel} is always a safe bet!
+      `,
+
       RFCS_COMMAND_DESCRIPTION: oneLine`
         Interact with VueJS Requests for Comments.
       `,
