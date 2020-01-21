@@ -50,8 +50,8 @@ export default abstract class InformationalCommand extends Command {
         const dm = await member.createDM()
 
         this.sendResponse(
-          await dm.sendMessage('Loading...'),
-          this.createDisplay(message)
+          await dm.sendMessage('\u200b'),
+          this.createDisplay(message, true)
         )
 
         const response = await message.sendLocale('VUEBOT_DM_SENT')
@@ -59,7 +59,10 @@ export default abstract class InformationalCommand extends Command {
         response.delete({ timeout: 5000 })
         return response
       } else {
-        this.sendResponse(message, this.createDisplay(message))
+        this.sendResponse(
+          message,
+          this.createDisplay(message, message.channel.type === 'dm')
+        )
       }
     } catch (error) {
       message.sendLocale('VUEBOT_GENERIC_ERROR')
@@ -81,5 +84,5 @@ export default abstract class InformationalCommand extends Command {
     })
   }
 
-  abstract createDisplay(message: KlasaMessage): RichDisplay
+  abstract createDisplay(message: KlasaMessage, isDM: boolean): RichDisplay
 }
