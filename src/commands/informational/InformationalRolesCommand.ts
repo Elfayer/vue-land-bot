@@ -6,7 +6,7 @@ import { ROLES } from '@libraries/constants'
 import { ROLES_NAMES, ROLES_FRIENDLY_NAMES } from '@libraries/types/roles'
 import { roleMention } from '@utilities/miscellaneous'
 
-export default class InformationalCodeCommand extends InformationalCommand {
+export default class InformationalRolesCommand extends InformationalCommand {
   constructor(store: CommandStore, file: string[], directory: string) {
     super(store, file, directory, { name: 'roles' })
   }
