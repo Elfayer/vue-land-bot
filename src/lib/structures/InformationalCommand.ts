@@ -77,11 +77,7 @@ export default abstract class InformationalCommand extends Command {
     message: KlasaMessage,
     response: RichDisplay
   ): Promise<ReactionHandler> {
-    return response.run(message, {
-      jump: false,
-      stop: false,
-      firstLast: false,
-    })
+    return response.run(message, this.richDisplayOptions)
   }
 
   abstract createDisplay(message: KlasaMessage, isDM: boolean): RichDisplay
