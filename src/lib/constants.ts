@@ -66,6 +66,10 @@ export const PATHS = {
  */
 export const URLS = {
   COC: 'https://vuejs.org/coc',
+  JSFIDDLE: 'https://jsfiddle.net/boilerplate/vue',
+  CODESANDBOX: 'https://codesandbox.io/s/vue',
+  CODEPEN: 'https://codepen.io/',
+  GIST: 'https://gist.github.com/',
 }
 
 /**

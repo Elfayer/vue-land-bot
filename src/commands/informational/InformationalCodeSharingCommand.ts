@@ -1,20 +1,16 @@
-import {
-  KlasaMessage,
-  CommandStore,
-  RichDisplay,
-  RichDisplayRunOptions,
-} from 'klasa'
+import { KlasaMessage, CommandStore, RichDisplay } from 'klasa'
 
 import createVueTemplate from '@templates/VueTemplate'
 import InformationalCommand from '@structures/InformationalCommand'
+import { URLS } from '@libraries/constants'
 
 export default class InformationalCodeOfConductCommand extends InformationalCommand {
   constructor(store: CommandStore, file: string[], directory: string) {
-    super(store, file, directory, { name: 'etiquette' })
+    super(store, file, directory, { name: 'sharing' })
   }
 
   /**
-   * Create the RichDisplay, which consists of a page for each etiquette heading.
+   * Create the RichDisplay, which consists of a page for each sharing heading.
    */
   createDisplay(message: KlasaMessage): RichDisplay {
     const display = new RichDisplay(createVueTemplate(message))
@@ -22,10 +18,9 @@ export default class InformationalCodeOfConductCommand extends InformationalComm
     for (const section of Object.values(SECTION_NAMES)) {
       display.addPage(
         createVueTemplate(message)
-          .setTitle(message.language.get(`INFO_ETIQUETTE_TITLE_${section}`))
-          .setDescription(
-            message.language.get(`INFO_ETIQUETTE_DESC_${section}`)
-          )
+          .setTitle(message.language.get(`INFO_SHARING_TITLE_${section}`))
+          .setDescription(message.language.get(`INFO_SHARING_DESC_${section}`))
+          .setURL(URLS[section])
       )
     }
 
