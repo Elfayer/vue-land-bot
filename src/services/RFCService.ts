@@ -23,13 +23,11 @@ export default class RFCService extends Service {
   run() {}
 
   async init() {
+    this.log('Initialised.')
+
     const didRefresh = await this.cacheRFCs()
 
-    this.client.console.log(
-      didRefresh
-        ? `${this} Refreshed the cache.`
-        : `${this} Cache still valid (TTL).`
-    )
+    this.log(didRefresh ? 'Refreshed the cache.' : 'Cache still valid (TTL).')
   }
 
   /**
@@ -312,10 +310,6 @@ export default class RFCService extends Service {
       updated_at: rfc.updated_at,
       merged_at: rfc.merged_at,
     }))
-  }
-
-  toString() {
-    return '[RFCService]'
   }
 }
 
