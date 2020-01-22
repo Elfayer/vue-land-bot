@@ -11,6 +11,7 @@
       "node",
       "node-fetch",
       "lunr",
+      "common-tags",
       "@discordjs/collection",
       "discord.js",
       "klasa"
