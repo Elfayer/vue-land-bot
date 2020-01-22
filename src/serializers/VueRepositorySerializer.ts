@@ -6,7 +6,7 @@ import {
   KlasaGuild,
 } from 'klasa'
 
-import { VALID_VUEJS_REPOS } from '@libraries/constants'
+import { ValidVueRepositories } from '@libraries/types/MiscTypes'
 
 export default class extends Serializer {
   constructor(store: SerializerStore, file: string[], directory: string) {
@@ -14,12 +14,12 @@ export default class extends Serializer {
   }
 
   async deserialize(
-    data: string,
+    data: ValidVueRepositories,
     entry: SchemaEntry,
     language: Language,
     guild?: KlasaGuild
   ) {
-    if (VALID_VUEJS_REPOS.includes(data)) {
+    if (Object.values(ValidVueRepositories).includes(data)) {
       return data
     }
 

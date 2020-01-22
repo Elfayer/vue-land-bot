@@ -1,27 +1,38 @@
 import ServiceStore from '@structures/ServiceStore'
+import { CustomGet } from '@settings/shared'
 
 /**
  * Augment the Klasa typings, when/where necessary.
  */
 declare module 'klasa' {
   /**
-   * @see /src/VueClient
+   * @see VueClient
    */
-  export interface PieceDefaults {
+  interface PieceDefaults {
     services?: PieceOptions
   }
-  export interface KlasaClient {
+  interface KlasaClient {
     services: ServiceStore
   }
 
   /**
-   * @see /src/extendables/Piece
+   * @see PieceExtendable
    */
-  export interface Piece {
+  interface Piece {
     log(...logs: any[]): void
     warn(...logs: any[]): void
     debug(...logs: any[]): void
     verbose(...logs: any[]): void
     formatLogs(logs: any[]): string[]
+  }
+
+  /**
+   * See src/lib/settings/shared for more info.
+   *
+   * @see T
+   * @see CustomGet
+   */
+  interface SettingsFolder {
+    get<K extends string, S>(key: CustomGet<K, S>): S
   }
 }

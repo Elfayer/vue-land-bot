@@ -19,6 +19,7 @@ import RFCService, {
 } from '@base/services/RFCService'
 import createVueTemplate from '@templates/VueTemplate'
 import { ReactionHandler } from 'klasa'
+import { RFCSettings } from '@base/lib/settings/RFCSettings'
 
 const EMPTY_QUERY = Symbol('EMPTY_QUERY')
 
@@ -219,7 +220,7 @@ export default class RFCCommand extends Command {
     }
 
     const data = JSON.stringify(
-      this.client.settings.get('rfcs'),
+      this.client.settings.get(RFCSettings.Client.CACHE),
       null,
       Boolean(message.flagArgs.pretty) ? 2 : 0
     )

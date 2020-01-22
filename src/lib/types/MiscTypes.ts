@@ -1,0 +1,43 @@
+/**
+ * A list of non-archived/still-maintained VueJS repositories. Additionally,
+ * repos that simply don't use Github releases are also excluded.
+ *
+ * @see VueRepositorySerializer
+ */
+export enum ValidVueRepositories {
+  BABEL_PRESET_VUE = 'babel-preset-vue',
+  COMPONENT_COMPILER_UTILS = 'component-compiler-utils',
+  COMPOSITION_API = 'composition-api',
+  ESLINT_CONFIG_AIRBNB = 'eslint-config-airbnb',
+  ESLINT_PLUGIN_VUE_LIBS = 'eslint-plugin-vue-libs',
+  ESLINT_PLUGIN_VUE = 'eslint-plugin-vue',
+  FORK_TS_CHECKER_WEBPACK_PLUGIN = 'fork-ts-checker-webpack-plugin',
+  JSX = 'jsx',
+  ROLLUP_PLUGIN_VUE = 'rollup-plugin-vue',
+  TS_LOADER = 'ts-loader',
+  UI = 'ui',
+  VETUR = 'vetur',
+  VUE_APOLLO = 'vue-apollo',
+  VUE_CLASS_COMPONENT = 'vue-class-component',
+  VUE_CLI = 'vue-cli',
+  VUE_COMPONENT_COMPILER = 'vue-component-compiler',
+  VUE_DEVTOOLS = 'vue-devtools',
+  VUE_HACKERNEWS = 'vue-hackernews',
+  VUE_HOT_RELOAD_API = 'vue-hot-reload-api',
+  VUE_JEST = 'vue-jest',
+  VUE_LOADER = 'vue-loader',
+  VUE_MIGRATION_HELPER = 'vue-migration-helper',
+  VUE_NEXT = 'vue-next',
+  VUE_ROUTER = 'vue-router',
+  VUE_RX = 'vue-rx',
+  VUE_STYLE_LOADER = 'vue-style-loader',
+  VUE_SYNTAX_HIGHLIGHT = 'vue-syntax-highlight',
+  VUE_TEMPLATE_ES2015_COMPILER = 'vue-template-es2015-compiler',
+  VUE_TEST_UTILS = 'vue-test-utils',
+  VUE_WEB_COMPONENT_WRAPPER = 'vue-web-component-wrapper',
+  VUE = 'vue',
+  VUEFIRE = 'vuefire',
+  VUEJS_ORG = 'vuejs.org',
+  VUEPRESS = 'vuepress',
+  VUEX = 'vuex',
+}

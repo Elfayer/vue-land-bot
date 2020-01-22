@@ -5,9 +5,10 @@ import {
   Language,
   KlasaGuild,
 } from 'klasa'
+import semver from 'semver'
 
-import { VALID_VUEJS_REPOS } from '@libraries/constants'
-import { ReleaseEntry } from '@libraries/types/releases'
+import { ValidVueRepositories } from '@libraries/types/MiscTypes'
+import { ReleaseEntry } from '@libraries/types/ReleaseTypes'
 
 export default class ReleaseEntrySerializer extends Serializer {
   constructor(store: SerializerStore, file: string[], directory: string) {
@@ -22,10 +23,9 @@ export default class ReleaseEntrySerializer extends Serializer {
   ) {
     const { repo, version, announced } = data
     if (
-      VALID_VUEJS_REPOS.includes(repo) &&
-      typeof version === 'string' &&
-      version.length &&
-      !isNaN(parseInt(announced as string))
+      Object.values(ValidVueRepositories).includes(repo) &&
+      semver.valid(version) &&
+      !isNaN(parseInt((announced as unknown) as string))
     ) {
       return data
     }

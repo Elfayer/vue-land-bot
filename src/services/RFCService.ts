@@ -9,6 +9,7 @@ import { formatDistance } from 'date-fns'
 import '@schemas/RFCSchema'
 import Service from '@structures/Service'
 import github from '@libraries/GithubClient'
+import { RFCSettings } from '@base/lib/settings/RFCSettings'
 
 /**
  * The RFCService is responsible for any and all things relating to RFCs.
@@ -40,9 +41,7 @@ export default class RFCService extends Service {
     try {
       if (!ignoreTTL && !this.didCacheExpire()) {
         if (!this.isCachePrimed()) {
-          this.rfcs = this.client.settings.get(
-            'rfcs.cache'
-          ) as PullsListResponseItem[]
+          this.rfcs = this.client.settings.get(RFCSettings.Client.CACHE)
           this.updateFuzzySearcher()
         }
 
@@ -57,10 +56,10 @@ export default class RFCService extends Service {
       })
       rfcs = this.extractRelevantData(rfcs)
 
-      await this.client.settings.reset('rfcs.cache')
+      await this.client.settings.reset(RFCSettings.Client.CACHE)
       await this.client.settings.update([
-        ['rfcs.cachedAt', Date.now()],
-        ['rfcs.cache', rfcs],
+        [RFCSettings.Client.CACHED_AT, Date.now()],
+        [RFCSettings.Client.CACHE, rfcs],
       ])
       this.updateFuzzySearcher()
 
@@ -75,8 +74,8 @@ export default class RFCService extends Service {
   /**
    * When was the cache written (unix time)?
    */
-  getCachedAtTime(): number {
-    return this.client.settings.get('rfcs.cachedAt') as number
+  getCachedAtTime() {
+    return this.client.settings.get(RFCSettings.Client.CACHED_AT)
   }
 
   /**
@@ -96,8 +95,8 @@ export default class RFCService extends Service {
   /**
    * How long is the cache valid for (milliseconds)?
    */
-  getCacheTTL(): number {
-    return this.client.settings.get('rfcs.cacheTTL') as number
+  getCacheTTL() {
+    return this.client.settings.get(RFCSettings.Client.CACHE_TTL)
   }
 
   /**
