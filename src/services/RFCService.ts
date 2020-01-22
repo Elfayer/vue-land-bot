@@ -1,5 +1,4 @@
-import * as Fuse from 'fuse.js' // SEE: https://fusejs.io/#using-in-typescript
-import { FuseOptions, FuseResultWithMatches } from 'fuse.js'
+import * as Lunr from 'lunr'
 import {
   PullsListResponseItem,
   PullsListResponseItemLabelsItem,
@@ -17,8 +16,9 @@ import { RFCSettings } from '@base/lib/settings/RFCSettings'
 export default class RFCService extends Service {
   static REPO = 'rfcs'
   static OWNER = 'vuejs'
+  static DEFAULT_CACHE_TTL = 1000 * 60 * 60 * 4
 
-  fuse: Fuse<PullsListResponseItem, FuseOptions<PullsListResponseItem>>
+  lunr: Lunr.Index
   rfcs: PullsListResponseItem[] = []
 
   async init() {
@@ -59,9 +59,9 @@ export default class RFCService extends Service {
         [RFCSettings.Client.CACHED_AT, Date.now()],
         [RFCSettings.Client.CACHE, rfcs],
       ])
+      this.rfcs = rfcs
       this.updateFuzzySearcher()
 
-      this.rfcs = rfcs
       return true
     } catch (error) {
       console.error(error)
@@ -73,7 +73,7 @@ export default class RFCService extends Service {
    * When was the cache written (unix time)?
    */
   getCachedAtTime() {
-    return this.client.settings.get(RFCSettings.Client.CACHED_AT)
+    return this.client.settings.get(RFCSettings.Client.CACHED_AT) ?? 0
   }
 
   /**
@@ -94,7 +94,10 @@ export default class RFCService extends Service {
    * How long is the cache valid for (milliseconds)?
    */
   getCacheTTL() {
-    return this.client.settings.get(RFCSettings.Client.CACHE_TTL)
+    return (
+      this.client.settings.get(RFCSettings.Client.CACHE_TTL) ??
+      RFCService.DEFAULT_CACHE_TTL
+    )
   }
 
   /**
@@ -174,12 +177,13 @@ export default class RFCService extends Service {
   async findFuzzy(value: string): Promise<PullsListResponseItem[]> {
     await this.cacheRFCs(false)
 
-    // FIXME: Without the cast we get a very long and confusing error on `map`.
-    return (this.fuse.search(value) as FuseResultWithMatches<
-      PullsListResponseItem
-    >[]).map(
-      (result: FuseResultWithMatches<PullsListResponseItem>) => result.item
-    )
+    const results = this.lunr.search(value)
+
+    return results.map(result => {
+      const rfc = this.rfcs.find(rfc => rfc.number === parseInt(result.ref))
+
+      return Object.assign({}, rfc, { metadata: result.matchData })
+    })
   }
 
   /**
@@ -255,7 +259,6 @@ export default class RFCService extends Service {
         switch (value) {
           case PullRequestState.OPEN:
           case PullRequestState.CLOSED:
-            console.log(`checking that ${rfc.state} is ${value}`)
             return rfc.state === value
           case PullRequestState.MERGED:
             return Boolean(rfc.merged_at)
@@ -281,7 +284,18 @@ export default class RFCService extends Service {
    * Should be called whenever the RFCs are set/updated.
    */
   private updateFuzzySearcher() {
-    this.fuse = new Fuse(this.rfcs, FUSE_OPTIONS)
+    const rfcs = this.rfcs
+
+    this.lunr = Lunr(function() {
+      this.ref('number')
+      this.field('title')
+      this.field('body')
+      // this.metadataWhitelist = ['position']
+
+      for (const rfc of rfcs) {
+        this.add(rfc)
+      }
+    })
   }
 
   /**
@@ -349,32 +363,4 @@ export enum RFCFilter {
 enum LabelOptions {
   OR,
   AND,
-}
-
-const FUSE_OPTIONS: FuseOptions<PullsListResponseItem> = {
-  shouldSort: true,
-  includeScore: true,
-  threshold: 0.35,
-  location: 0,
-  distance: 2000,
-  maxPatternLength: 32,
-  minMatchCharLength: 3,
-  keys: [
-    {
-      name: 'title',
-      weight: 1.0,
-    },
-    {
-      name: 'body',
-      weight: 0.75,
-    },
-    {
-      name: 'user.login',
-      weight: 0.3,
-    },
-    {
-      name: 'labels.name',
-      weight: 0.3,
-    },
-  ],
 }

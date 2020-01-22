@@ -54,6 +54,7 @@
     "fuse.js": "^3.4.6",
     "hjson": "^3.1.2",
     "klasa": "github:dirigeants/klasa#settings",
+    "lunr": "^2.3.8",
     "module-alias": "^2.2.2",
     "node-fetch": "^2.6.0"
   },
@@ -63,6 +64,7 @@
     "@types/node": "^13.1.7",
     "@types/node-fetch": "^2.5.4",
     "@types/ws": "^7.2.0",
+    "@types/lunr": "^2.3.2",
     "babel-eslint": "^10.0.3",
     "eslint": "^6.3.0",
     "eslint-plugin-prettier": "^3.1.0",

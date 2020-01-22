@@ -10,6 +10,7 @@
     "types": [
       "node",
       "node-fetch",
+      "lunr",
       "@discordjs/collection",
       "discord.js",
       "klasa"

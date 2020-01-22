@@ -5,12 +5,7 @@ import {
   Command,
   CommandStore,
 } from 'klasa'
-import {
-  MessageEmbed,
-  MessageAttachment,
-  Message,
-  PermissionString,
-} from 'discord.js'
+import { MessageEmbed, MessageAttachment } from 'discord.js'
 import { PullsListResponseItem } from '@octokit/rest'
 
 import RFCService, {
@@ -35,12 +30,12 @@ export default class RFCCommand extends Command {
   constructor(store: CommandStore, file: string[], directory: string) {
     super(store, file, directory, {
       name: 'rfc',
-      usage: '<list|refresh|default:default> (query:query)',
+      usage: '<list|refresh|default:default> (query:query) [...]',
       runIn: ['text', 'dm'],
       description: language => language.get(Language.DESC),
       extendedHelp: language => language.get(Language.HELP),
       subcommands: true,
-      usageDelim: ' ',
+      usageDelim: '',
     })
 
     this.service = this.client.services.get('RFCService') as RFCService
@@ -75,7 +70,7 @@ export default class RFCCommand extends Command {
             Object.values(RFCFilter).includes(flag as RFCFilter)
           )
         ) {
-          return undefined
+          return argument ?? undefined
         }
 
         // The query is required - run the argument as a string.
