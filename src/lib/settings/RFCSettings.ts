@@ -16,7 +16,7 @@ export namespace RFCSettings {
     /**
      * Are RFC lookups enabled for this guild?
      */
-    export const ENABLED = T<boolean>('enabled')
+    export const ENABLED = T<boolean>('rfcs.enabled')
   }
 
   /**
@@ -26,16 +26,16 @@ export namespace RFCSettings {
     /**
      * How long to wait before refetching the RFCs from Github?
      */
-    export const CACHE_TTL = T<number>('cacheTTL')
+    export const CACHE_TTL = T<number>('rfcs.cacheTTL')
 
     /**
      * At what time were the RFCs cached?
      */
-    export const CACHED_AT = T<number>('cacheAt')
+    export const CACHED_AT = T<number>('rfcs.cachedAt')
 
     /**
      * The RFC cache.
      */
-    export const CACHE = T<PullsListResponseItem[]>('cache')
+    export const CACHE = T<PullsListResponseItem[]>('rfcs.cache')
   }
 }
