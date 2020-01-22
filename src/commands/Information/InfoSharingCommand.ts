@@ -3,10 +3,21 @@ import { KlasaMessage, CommandStore, RichDisplay } from 'klasa'
 import createVueTemplate from '@templates/VueTemplate'
 import InfoCommand from '@structures/InfoCommand'
 import { URLS } from '@libraries/constants'
+import { I18n } from '@libraries/types/I18n'
+
+const {
+  Cmd: {
+    Info: { Sharing: Language },
+  },
+} = I18n
 
 export default class InfoSharingCommand extends InfoCommand {
   constructor(store: CommandStore, file: string[], directory: string) {
-    super(store, file, directory, { name: 'sharing' })
+    super(store, file, directory, {
+      name: 'sharing',
+      description: language => language.get(Language.DESC),
+      extendedHelp: language => language.get(Language.HELP),
+    })
   }
 
   /**
@@ -15,22 +26,15 @@ export default class InfoSharingCommand extends InfoCommand {
   createDisplay(message: KlasaMessage): RichDisplay {
     const display = new RichDisplay(createVueTemplate(message))
 
-    for (const section of Object.values(SECTION_NAMES)) {
+    for (const section of Object.values(Language.SectionNames)) {
       display.addPage(
         createVueTemplate(message)
-          .setTitle(message.language.get(`INFO_SHARING_TITLE_${section}`))
-          .setDescription(message.language.get(`INFO_SHARING_DESC_${section}`))
+          .setTitle(message.language.get(Language[`TITLE_${section}`]))
+          .setDescription(message.language.get(Language[`DESC_${section}`]))
           .setURL(URLS[section])
       )
     }
 
     return display
   }
-}
-
-export enum SECTION_NAMES {
-  JSFIDDLE = 'JSFIDDLE',
-  CODESANDBOX = 'CODESANDBOX',
-  CODEPEN = 'CODEPEN',
-  GIST = 'GIST',
 }

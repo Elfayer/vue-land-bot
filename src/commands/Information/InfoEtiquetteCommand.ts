@@ -7,10 +7,21 @@ import {
 
 import createVueTemplate from '@templates/VueTemplate'
 import InfoCommand from '@structures/InfoCommand'
+import { I18n } from '@libraries/types/I18n'
+
+const {
+  Cmd: {
+    Info: { Etiquette: Language },
+  },
+} = I18n
 
 export default class InfoEtiquetteCommand extends InfoCommand {
   constructor(store: CommandStore, file: string[], directory: string) {
-    super(store, file, directory, { name: 'etiquette' })
+    super(store, file, directory, {
+      name: 'etiquette',
+      description: language => language.get(Language.DESC),
+      extendedHelp: language => language.get(Language.HELP),
+    })
   }
 
   /**
@@ -19,13 +30,11 @@ export default class InfoEtiquetteCommand extends InfoCommand {
   createDisplay(message: KlasaMessage): RichDisplay {
     const display = new RichDisplay(createVueTemplate(message))
 
-    for (const section of Object.values(SECTION_NAMES)) {
+    for (const section of Object.values(Language.SectionNames)) {
       display.addPage(
         createVueTemplate(message)
-          .setTitle(message.language.get(`INFO_ETIQUETTE_TITLE_${section}`))
-          .setDescription(
-            message.language.get(`INFO_ETIQUETTE_DESC_${section}`)
-          )
+          .setTitle(message.language.get(Language[`TITLE_${section}`]))
+          .setDescription(message.language.get(Language[`DESC_${section}`]))
       )
     }
 

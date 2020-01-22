@@ -7,6 +7,13 @@ import {
 
 import createVueTemplate from '@templates/VueTemplate'
 import InfoCommand from '@structures/InfoCommand'
+import { I18n } from '@libraries/types/I18n'
+
+const {
+  Cmd: {
+    Info: { Code: Language },
+  },
+} = I18n
 
 export default class InfoCodeCommand extends InfoCommand {
   richDisplayOptions: RichDisplayRunOptions = {
@@ -16,7 +23,11 @@ export default class InfoCodeCommand extends InfoCommand {
   }
 
   constructor(store: CommandStore, file: string[], directory: string) {
-    super(store, file, directory, { name: 'code' })
+    super(store, file, directory, {
+      name: 'code',
+      description: language => language.get(Language.DESC),
+      extendedHelp: language => language.get(Language.HELP),
+    })
   }
 
   /**
@@ -26,49 +37,37 @@ export default class InfoCodeCommand extends InfoCommand {
    *   - an information page, which explains things in slightly more detail
    */
   createDisplay(message: KlasaMessage): RichDisplay {
-    const display = new RichDisplay(
-      createVueTemplate(message)
-        .setTitle(message.language.get('INFO_CODE_TITLE'))
-        .setDescription(message.language.get('INFO_CODE_DESCRIPTION'))
-    )
+    const display = new RichDisplay(createVueTemplate(message))
 
     display.setInfoPage(
       createVueTemplate(message).setDescription(
-        message.language.get('INFO_CODE_INFO_PAGE_CONTENT')
+        message.language.get(Language.INFO_PAGE_CONTENT)
       )
     )
 
     return display
       .addPage(
         createVueTemplate(message)
-          .setTitle(message.language.get('INFO_CODE_TITLE_INPUT'))
+          .setTitle(message.language.get(Language.TITLE_INPUT))
           .addField(
-            message.language.get('INFO_CODE_FIELD_NAME_INLINE'),
-            message.language.get('INFO_CODE_FIELD_VALUE_INLINE')
+            message.language.get(Language.FIELD_NAME_INLINE),
+            message.language.get(Language.FIELD_VALUE_INLINE)
           )
           .addField(
-            message.language.get('INFO_CODE_FIELD_NAME_BLOCK'),
-            message.language.get('INFO_CODE_FIELD_VALUE_BLOCK')
+            message.language.get(Language.FIELD_NAME_BLOCK),
+            message.language.get(Language.FIELD_VALUE_BLOCK)
           )
       )
       .addPage(
         createVueTemplate(message)
-          .setTitle(message.language.get('INFO_CODE_TITLE_OUTPUT'))
+          .setTitle(message.language.get(Language.TITLE_OUTPUT))
           .addField(
-            message.language
-              .get('INFO_CODE_FIELD_NAME_INLINE')
-              .replace(/\\/g, ''),
-            message.language
-              .get('INFO_CODE_FIELD_VALUE_INLINE')
-              .replace(/\\/g, '')
+            message.language.get(Language.FIELD_NAME_INLINE).replace(/\\/g, ''),
+            message.language.get(Language.FIELD_VALUE_INLINE).replace(/\\/g, '')
           )
           .addField(
-            message.language
-              .get('INFO_CODE_FIELD_NAME_BLOCK')
-              .replace(/\\/g, ''),
-            message.language
-              .get('INFO_CODE_FIELD_VALUE_BLOCK')
-              .replace(/\\/g, '')
+            message.language.get(Language.FIELD_NAME_BLOCK).replace(/\\/g, ''),
+            message.language.get(Language.FIELD_VALUE_BLOCK).replace(/\\/g, '')
           )
       )
   }

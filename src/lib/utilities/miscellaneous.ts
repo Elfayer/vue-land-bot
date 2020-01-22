@@ -1,5 +1,6 @@
 import { execSync } from 'child_process'
 import { oneLine } from 'common-tags'
+import { PREFIX } from '../constants'
 
 /**
  * Return the current tag, branch or commit - whichever is found first.
@@ -19,4 +20,12 @@ export function getVersion() {
  */
 export function roleMention(roleId: string) {
   return `<@&${roleId}>`
+}
+
+export function inlineCode(input: string) {
+  return '`' + input + '`'
+}
+
+export function command(command: string) {
+  return inlineCode(`${PREFIX}${command}`)
 }
