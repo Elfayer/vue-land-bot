@@ -35,11 +35,4 @@ declare module 'klasa' {
   interface SettingsFolder {
     get<K extends string, S>(key: CustomGet<K, S>): S
   }
-
-  interface Language {
-    get<T = string, A extends readonly unknown[] = readonly unknown[]>(
-      term: string | Symbol,
-      ...args: A
-    ): T
-  }
 }
