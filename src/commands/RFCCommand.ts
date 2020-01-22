@@ -20,6 +20,12 @@ import RFCService, {
 import createVueTemplate from '@templates/VueTemplate'
 import { ReactionHandler } from 'klasa'
 import { RFCSettings } from '@base/lib/settings/RFCSettings'
+import { I18n } from '@libraries/types/I18n'
+
+const {
+  Cmd: { RFC: Language },
+  Misc,
+} = I18n
 
 const EMPTY_QUERY = Symbol('EMPTY_QUERY')
 
@@ -31,8 +37,8 @@ export default class RFCCommand extends Command {
       name: 'rfc',
       usage: '<list|refresh|default:default> (query:query)',
       runIn: ['text', 'dm'],
-      description: language => language.get('RFCS_COMMAND_DESCRIPTION'),
-      extendedHelp: language => language.get('RFCS_COMMAND_EXTENDED_HELP'),
+      description: language => language.get(Language.DESC),
+      extendedHelp: language => language.get(Language.HELP),
       subcommands: true,
       usageDelim: ' ',
     })
@@ -40,7 +46,9 @@ export default class RFCCommand extends Command {
     this.service = this.client.services.get('RFCService') as RFCService
 
     this.customizeResponse('query', message =>
-      message.language.get('RFCS_ARGUMENT_QUERY', [this.client.options.prefix])
+      message.language.get(Language.ARGUMENT_QUERY, [
+        this.client.options.prefix,
+      ])
     )
 
     this.createCustomResolver(
@@ -89,7 +97,7 @@ export default class RFCCommand extends Command {
         (message.flagArgs.state as PullRequestState) || PullRequestState.ALL
 
       if (!(filter.toUpperCase() in PullRequestState)) {
-        return message.sendLocale('RFC_LIST_INVALID_FILTER', [
+        return message.sendLocale(Language.LIST_FILTER_INVALID, [
           filter,
           Object.keys(PullRequestState)
             .map(key => PullRequestState[key])
@@ -102,7 +110,7 @@ export default class RFCCommand extends Command {
       return this.sendResponse(message, response)
     } catch (error) {
       this.client.console.error(error)
-      return message.sendLocale('RFCS_LIST_ERROR')
+      return message.sendLocale(Misc.ERROR_GENERIC)
     }
   }
 
@@ -111,18 +119,16 @@ export default class RFCCommand extends Command {
    */
   async refresh(message: KlasaMessage) {
     if (!message.member?.hasPermission('ADMINISTRATOR')) {
-      throw message.language.get('VUEBOT_USER_LACKS_PERMISSION', [
-        ['`ADMINISTRATOR`'],
-      ])
+      throw message.language.get(Misc.ERROR_PERM_USER, [['`ADMINISTRATOR`']])
     }
 
     try {
       await this.service.cacheRFCs(true)
-      return message.sendLocale('RFCS_REFRESH_SUCCESS', [
+      return message.sendLocale(Language.REFRESH_SUCCESS, [
         this.service.getCacheTTLHuman(),
       ])
     } catch (error) {
-      return message.sendLocale('RFCS_REFRESH_FAILURE')
+      return message.sendLocale(Language.REFRESH_FAILURE)
     }
   }
 
@@ -210,24 +216,27 @@ export default class RFCCommand extends Command {
   dump(message: KlasaMessage) {
     if (
       message.channel.type !== 'dm' &&
-      message.guild.members
+      !message.guild.members
         .get(this.client.user.id)
         .hasPermission('ATTACH_FILES')
     ) {
-      throw message.language.get('VUEBOT_BOT_LACKS_PERMISSION', [
-        ['`ADMINISTRATOR`'],
-      ])
+      throw message.language.get(Misc.ERROR_PERM_BOT, [['`ATTACH_FILES`']])
     }
 
-    const data = JSON.stringify(
-      this.client.settings.get(RFCSettings.Client.CACHE),
-      null,
-      Boolean(message.flagArgs.pretty) ? 2 : 0
-    )
+    try {
+      const data = JSON.stringify(
+        this.client.settings.get(RFCSettings.Client.CACHE),
+        null,
+        Boolean(message.flagArgs.pretty) ? 2 : 0
+      )
 
-    return message.sendMessage(
-      new MessageAttachment(Buffer.from(data, 'utf8'), 'rfcs.json')
-    )
+      return message.sendMessage(
+        new MessageAttachment(Buffer.from(data, 'utf8'), 'rfcs.json')
+      )
+    } catch (error) {
+      console.error(error)
+      return message.sendLocale(Misc.ERROR_GENERIC)
+    }
   }
 
   /**
@@ -290,17 +299,25 @@ export default class RFCCommand extends Command {
     embed: MessageEmbed,
     message: KlasaMessage
   ) {
-    embed.setURL(rfc.html_url).setTitle(`RFC #${rfc.number} - ${rfc.title}`)
+    embed
+      .setURL(rfc.html_url)
+      .setTitle(
+        message.language.get(Language.TITLE_EMBED, rfc.number, rfc.title)
+      )
 
     if (!message.flagArgs.short) {
       embed
         .setDescription(rfc.body.substring(0, 2040))
-        .addField('Author', `[${rfc.user.login}](${rfc.user.html_url})`, true)
-        .addField('Status', rfc.state, true)
+        .addField(
+          message.language.get(Misc.AUTHOR),
+          `[${rfc.user.login}](${rfc.user.html_url})`,
+          true
+        )
+        .addField(message.language.get(Misc.STATUS), rfc.state, true)
 
       if (rfc.labels.length) {
         embed.addField(
-          'Labels',
+          message.language.get(Misc.LABELS),
           rfc.labels.map(label => label.name).join(', '),
           true
         )
@@ -308,7 +325,7 @@ export default class RFCCommand extends Command {
 
       if (rfc.created_at) {
         embed.addField(
-          'Created',
+          message.language.get(Misc.CREATED_AT),
           new Date(rfc.created_at).toLocaleDateString(),
           true
         )
@@ -316,7 +333,7 @@ export default class RFCCommand extends Command {
 
       if (rfc.updated_at) {
         embed.addField(
-          'Updated',
+          message.language.get(Misc.UPDATED_AT),
           new Date(rfc.updated_at).toLocaleDateString(),
           true
         )

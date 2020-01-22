@@ -21,6 +21,8 @@ export default class LanguageEnUS extends Language {
     super(store, file, directory, options)
 
     this.language = {
+      DEFAULT: key => `UNLOCALISED_${key}_EN_US`,
+
       /**
        * Code command section.
        */
@@ -286,26 +288,21 @@ export default class LanguageEnUS extends Language {
           • !rfc list --state='closed'
           • !rfc list --state="popular"
       `,
-
       [RFC.ARGUMENT_QUERY]: prefix => oneLine`
         You must specify a valid query.
 
-        For more information consult the help command - \`${prefix}help rfc\`.
+        For more information consult the help command - ${command('help rfc')}.
       `,
-
       [RFC.TITLE_NO_MATCHS]: `VueJS RFC Search`,
       [RFC.DESC_NO_MATCHS]: `No results found!`,
-
       [RFC.LIST_FILTER_INVALID]: (filter, validFilters) =>
         oneLine`
           You specified an invalid filter (\`${filter}\`), valid filters are: ${validFilters}.
         `,
-
       [RFC.LIST_FILTER_NO_RESULTS]: filter =>
         oneLine`
           No results found matching filter \`${filter}\`
         `,
-
       [RFC.TITLE_INFO_PAGE]: oneLine`
         VueJS - Requests for Comments
       `,
@@ -315,14 +312,12 @@ export default class LanguageEnUS extends Language {
         • Cancel pagination using ⏹.
         • View this information page with ℹ.
       `,
-      [RFC.TITLE_EMBED]: title => `VueJS RFC - ${title}`,
-
+      [RFC.TITLE_EMBED]: (number, title) => `RFC #${number} - ${title}`,
       [RFC.REFRESH_SUCCESS]: ttl => oneLine`
         I refetched the RFCs from the Github API and re-cached them to disk.
 
         The cache TTL is ${ttl}.
       `,
-
       [RFC.REFRESH_FAILURE]: force => oneLine`
         Sorry, something went wrong while fetching the RFCs from Github.
       `,
@@ -351,6 +346,10 @@ export default class LanguageEnUS extends Language {
       [Misc.RESOLVER_INVALID_RELEASE_ENTRY]: (key, value) => stripIndent`
         Invalid value \`${value}\` for key \`${key}\`.
       `,
+      [Misc.AUTHOR]: 'Author',
+      [Misc.CREATED_AT]: 'Created',
+      [Misc.UPDATED_AT]: 'Updated',
+      [Misc.STATUS]: 'Status',
     }
   }
 
