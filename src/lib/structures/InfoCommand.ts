@@ -78,10 +78,32 @@ export default abstract class InformationalCommand extends Command {
     response: RichDisplay | MessageEmbed
   ): Promise<ReactionHandler | KlasaMessage> {
     if (response instanceof RichDisplay) {
-      return response.run(message, this.richDisplayOptions)
-    } else {
-      return message.sendEmbed(response)
+      if (message.channel.type !== 'dm') {
+        return response.run(message, this.richDisplayOptions)
+      }
+
+      response = this.restructureDisplayForDM(response)
     }
+
+    return message.sendEmbed(response)
+  }
+
+  /**
+   * RichDisplays in DMs are officially WONTFIX, so we need to do some juggling.
+   */
+
+  private restructureDisplayForDM(display: RichDisplay) {
+    const response = display.template
+
+    for (const page of display.pages) {
+      response.addField(page.title ?? '\u200b', page.description ?? '\u200b')
+
+      if (page.fields.length) {
+        response.fields = [...response.fields, ...page.fields]
+      }
+    }
+
+    return response
   }
 
   abstract createDisplay(
