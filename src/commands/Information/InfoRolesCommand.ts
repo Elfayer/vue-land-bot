@@ -3,7 +3,7 @@ import { KlasaMessage, CommandStore, RichDisplay } from 'klasa'
 import createVueTemplate from '@templates/VueTemplate'
 import InfoCommand from '@structures/InfoCommand'
 import { ROLES } from '@libraries/constants'
-import { ROLES_NAMES, ROLES_FRIENDLY_NAMES } from '@libraries/types/roles'
+import { ROLES_NAMES, ROLES_FRIENDLY_NAMES } from '@libraries/types/Roles'
 import { roleMention } from '@utilities/miscellaneous'
 
 export default class InfoRolesCommand extends InfoCommand {
