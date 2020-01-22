@@ -350,6 +350,7 @@ export default class LanguageEnUS extends Language {
       [Misc.CREATED_AT]: 'Created',
       [Misc.UPDATED_AT]: 'Updated',
       [Misc.STATUS]: 'Status',
+      [Misc.LABELS]: 'Labels',
     }
   }
 
