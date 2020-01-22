@@ -15,13 +15,11 @@ import { RFCSettings } from '@base/lib/settings/RFCSettings'
  * The RFCService is responsible for any and all things relating to RFCs.
  */
 export default class RFCService extends Service {
-  static OWNER = 'vuejs'
   static REPO = 'rfcs'
+  static OWNER = 'vuejs'
 
   fuse: Fuse<PullsListResponseItem, FuseOptions<PullsListResponseItem>>
   rfcs: PullsListResponseItem[] = []
-
-  run() {}
 
   async init() {
     this.log('Initialised.')
@@ -185,7 +183,8 @@ export default class RFCService extends Service {
   }
 
   /**
-   * Find an RFC based on a specific filter key and value.
+   * Find an RFC based on a specific filter key and value, note that
+   * it works by lower-casing both strings, then using `includes`.
    */
   async findBy(
     filter: RFCFilter,
