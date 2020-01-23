@@ -51,6 +51,7 @@ export default class RFCService extends Service {
         repo: RFCService.REPO,
         state: PullRequestState.ALL,
         sort: PullRequestSort.POPULARITY,
+        direction: PullRequestSortDirection.ASCENDING,
       })
       rfcs = this.extractRelevantData(rfcs)
 
@@ -341,6 +342,14 @@ export enum PullRequestState {
  */
 export enum PullRequestSort {
   POPULARITY = 'popularity',
+}
+
+/**
+ * The valid sorting options for pull requests.
+ */
+export enum PullRequestSortDirection {
+  ASCENDING = 'asc',
+  DESCENDING = 'desc',
 }
 
 /**
