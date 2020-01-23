@@ -326,6 +326,7 @@ export default class LanguageEnUS extends Language {
       [RFC.REFRESH_FAILURE]: force => oneLine`
         Sorry, something went wrong while fetching the RFCs from Github.
       `,
+      [RFC.MERGED_AT]: `Merged`,
 
       /**
        * Miscellaneous section.
@@ -342,6 +343,9 @@ export default class LanguageEnUS extends Language {
       [Misc.ERROR_PERM_BOT]: permissions => oneLine`
         Sorry but I lack the permissions required (${permissions}) to perform that action.
       `,
+      [Misc.ERROR_NO_DMS]: oneLine`
+        Sorry but you're not allowed to do that in a DM.
+      `,
       [Misc.DM_SENT]: oneLine`
         Okay, I've sent them a DM about that as you requested.
       `,
@@ -356,6 +360,8 @@ export default class LanguageEnUS extends Language {
       [Misc.UPDATED_AT]: 'Updated',
       [Misc.STATUS]: 'Status',
       [Misc.LABELS]: 'Labels',
+      [Misc.COMMENTS]: 'Comments',
+      [Misc.NONE]: 'None',
     }
   }
 
