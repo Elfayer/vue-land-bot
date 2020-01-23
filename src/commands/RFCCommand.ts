@@ -15,7 +15,7 @@ import RFCService, {
 } from '@base/services/RFCService'
 import createVueTemplate from '@templates/VueTemplate'
 import { excerpt } from '@utilities/miscellaneous'
-import { RFCSettings } from '@base/lib/settings/RFCSettings'
+import { RFCSettings } from '@settings/RFCSettings'
 import { I18n } from '@libraries/types/I18n'
 
 const {
