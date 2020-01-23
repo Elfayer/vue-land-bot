@@ -111,6 +111,11 @@ export enum KnownDocs {
 }
 
 /**
+ * Represents an entire API document.
+ */
+export type APIDocument = { categories: APICategory[] }
+
+/**
  * Represents a category.
  */
 export interface APICategory {
