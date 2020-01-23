@@ -1,6 +1,6 @@
 import { Client } from 'klasa'
 
-import { KnownAPIs } from '@services/DocsService'
+import { KnownAPIs } from '@services/DocService'
 
 /**
  * Extend the client-specific schema with settings relating to API lookups.

@@ -1,6 +1,6 @@
 import { T } from './shared'
 
-import { KnownAPIs } from '@services/DocsService'
+import { KnownAPIs } from '@services/DocService'
 
 /**
  * The API-related settings for the DocsSchema/DocsService.
