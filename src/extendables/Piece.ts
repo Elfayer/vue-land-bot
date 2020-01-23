@@ -16,7 +16,11 @@ export default class PieceExtendable extends Extendable {
   }
 
   warn(...logs: any[]) {
-    return (this.client as Client).console.log(...this.formatLogs(logs))
+    return (this.client as Client).console.warn(...this.formatLogs(logs))
+  }
+
+  error(...logs: any[]) {
+    return (this.client as Client).console.error(...this.formatLogs(logs))
   }
 
   debug(...logs: any[]) {

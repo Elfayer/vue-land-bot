@@ -21,6 +21,7 @@ declare module 'klasa' {
   interface Piece {
     log(...logs: any[]): void
     warn(...logs: any[]): void
+    error(...logs: any[]): void
     debug(...logs: any[]): void
     verbose(...logs: any[]): void
     formatLogs(logs: any[]): string[]
