@@ -46,7 +46,7 @@ export default class RFCService extends Service {
         return false
       }
 
-      let rfcs = await github.paginate('GET /repos/:owner/:repo/issues', {
+      let rfcs = await github.paginate('GET /repos/:owner/:repo/pulls', {
         owner: RFCService.OWNER,
         repo: RFCService.REPO,
         state: PullRequestState.ALL,
