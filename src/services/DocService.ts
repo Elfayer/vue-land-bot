@@ -109,3 +109,44 @@ export enum KnownAPIs {
 export enum KnownDocs {
   VUE = 'vue',
 }
+
+/**
+ * Represents a category.
+ */
+export interface APICategory {
+  title: string
+  items: APIItem[]
+}
+
+/**
+ * Represents an item within a category.
+ */
+export interface APIItem {
+  id?: string
+  title: string
+  status?: APIStatus
+  description?: string
+  props?: string[]
+  aliases?: string[]
+  arguments?: string[]
+  returns?: string
+  type?: string
+  default?: string
+  link?: string
+  version?: string
+  usage?: APIUsage
+  see?: string[]
+}
+
+/**
+ * Represents a usage example.
+ */
+export interface APIUsage {
+  lang: string
+  code: string
+}
+
+/**
+ * The status of this part of the API.
+ */
+export type APIStatus = 'deprecated' | 'removed'
