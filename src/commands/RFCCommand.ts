@@ -4,6 +4,7 @@ import {
   RichDisplay,
   Command,
   CommandStore,
+  ReactionHandler,
 } from 'klasa'
 import { MessageEmbed, MessageAttachment } from 'discord.js'
 import { PullsListResponseItem } from '@octokit/rest'
@@ -13,7 +14,7 @@ import RFCService, {
   PullRequestState,
 } from '@base/services/RFCService'
 import createVueTemplate from '@templates/VueTemplate'
-import { ReactionHandler } from 'klasa'
+import { excerpt } from '@utilities/miscellaneous'
 import { RFCSettings } from '@base/lib/settings/RFCSettings'
 import { I18n } from '@libraries/types/I18n'
 
@@ -30,12 +31,10 @@ export default class RFCCommand extends Command {
   constructor(store: CommandStore, file: string[], directory: string) {
     super(store, file, directory, {
       name: 'rfc',
-      usage: '<list|refresh|default:default> (query:query) [...]',
-      runIn: ['text', 'dm'],
+      usage: '(query:query) [...]',
+      runIn: ['text'],
       description: language => language.get(Language.DESC),
       extendedHelp: language => language.get(Language.HELP),
-      subcommands: true,
-      usageDelim: '',
     })
 
     this.service = this.client.services.get('RFCService') as RFCService
@@ -54,13 +53,8 @@ export default class RFCCommand extends Command {
         message: KlasaMessage,
         [subcommand]: any[]
       ) => {
-        // No query argument is required for these sub-commands.
-        if (subcommand === 'list' || subcommand === 'refresh') {
-          return undefined
-        }
-
-        // No query argument is required when dumping RFC JSON via --dump.
-        if (message.flagArgs.dump) {
+        // No query argument is required with these flags.
+        if (message.flagArgs.dump || message.flagArgs.refresh) {
           return undefined
         }
 
@@ -70,7 +64,7 @@ export default class RFCCommand extends Command {
             Object.values(RFCFilter).includes(flag as RFCFilter)
           )
         ) {
-          return argument ?? undefined
+          return undefined
         }
 
         // The query is required - run the argument as a string.
@@ -82,35 +76,7 @@ export default class RFCCommand extends Command {
   }
 
   /**
-   * By default lists all RFCs but accepts a --state flag argument.
-   *
-   * @see PullRequestState Valid states to filter by.
-   */
-  async list(message: KlasaMessage) {
-    try {
-      const filter: PullRequestState =
-        (message.flagArgs.state as PullRequestState) || PullRequestState.ALL
-
-      if (!(filter.toUpperCase() in PullRequestState)) {
-        return message.sendLocale(Language.LIST_FILTER_INVALID, [
-          filter,
-          Object.keys(PullRequestState)
-            .map(key => PullRequestState[key])
-            .join(', '),
-        ])
-      }
-
-      const rfcs = await this.service.getRFCsByState(filter)
-      const response = this.buildResponse(message, rfcs)
-      return this.sendResponse(message, response)
-    } catch (error) {
-      this.client.console.error(error)
-      return message.sendLocale(Misc.ERROR_GENERIC)
-    }
-  }
-
-  /**
-   * Force-refresh the RFCs from Github, requires `ADMINISTRATOR` permission.
+   * Force-refresh the RFC cache, requires `ADMINISTRATOR` permission.
    */
   async refresh(message: KlasaMessage) {
     if (!message.member?.hasPermission('ADMINISTRATOR')) {
@@ -128,15 +94,16 @@ export default class RFCCommand extends Command {
   }
 
   /**
-   * The default sub-command, which simply delegates to either
-   * `dump` or `search` depending on the presence of flagArgs.
+   * Delegates to dump, refresh or search depending on flagArgs.
    */
-  default(message: KlasaMessage, [query]: [string]) {
+  run(message: KlasaMessage, [query]: [string]) {
     if (message.flagArgs.dump) {
       return this.dump(message)
+    } else if (message.flagArgs.refresh) {
+      return this.refresh(message)
+    } else {
+      this.search(message, query)
     }
-
-    return this.search(message, query)
   }
 
   /**
@@ -209,8 +176,11 @@ export default class RFCCommand extends Command {
    * Dump the RFC-related settings, primarily for debugging purposes.
    */
   dump(message: KlasaMessage) {
+    if (!message.member?.hasPermission('ADMINISTRATOR')) {
+      throw message.language.get(Misc.ERROR_PERM_USER, [['`ADMINISTRATOR`']])
+    }
+
     if (
-      message.channel.type !== 'dm' &&
       !message.guild.members
         .get(this.client.user.id)
         .hasPermission('ATTACH_FILES')
@@ -302,7 +272,11 @@ export default class RFCCommand extends Command {
 
     if (!message.flagArgs.short) {
       embed
-        .setDescription(rfc.body.substring(0, 2040))
+        .setDescription(
+          message.flagArgs.excerpt
+            ? excerpt(rfc.body, 127)
+            : rfc.body.substring(0, 2040)
+        )
         .addField(
           message.language.get(Misc.AUTHOR),
           `[${rfc.user.login}](${rfc.user.html_url})`,
@@ -310,13 +284,13 @@ export default class RFCCommand extends Command {
         )
         .addField(message.language.get(Misc.STATUS), rfc.state, true)
 
-      if (rfc.labels.length) {
-        embed.addField(
-          message.language.get(Misc.LABELS),
-          rfc.labels.map(label => label.name).join(', '),
-          true
-        )
-      }
+      embed.addField(
+        message.language.get(Misc.LABELS),
+        rfc.labels.length
+          ? rfc.labels.map(label => label.name).join(', ')
+          : message.language.get(Misc.NONE),
+        true
+      )
 
       if (rfc.created_at) {
         embed.addField(
@@ -330,6 +304,14 @@ export default class RFCCommand extends Command {
         embed.addField(
           message.language.get(Misc.UPDATED_AT),
           new Date(rfc.updated_at).toLocaleDateString(),
+          true
+        )
+      }
+
+      if (rfc.merged_at) {
+        embed.addField(
+          message.language.get(Language.MERGED_AT),
+          new Date(rfc.merged_at).toLocaleDateString(),
           true
         )
       }
