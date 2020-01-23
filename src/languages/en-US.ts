@@ -8,6 +8,7 @@ const {
     Info: { Code, Roles, CoC, DRY, Etiquette, Sharing },
     RFC,
   },
+  Services: { Doc: DocService },
   Misc,
 } = I18n
 
@@ -327,6 +328,19 @@ export default class LanguageEnUS extends Language {
         Sorry, something went wrong while fetching the RFCs from Github.
       `,
       [RFC.MERGED_AT]: `Merged`,
+
+      /**
+       * Services section.
+       */
+
+      [DocService.ERROR_CLIENT_DISABLED]: oneLine`
+        Sorry, lookups are currently globally disabled.
+
+        This may be due to maintenance, try again later.
+      `,
+      [DocService.ERROR_GUILD_DISABLED]: guild => oneLine`
+        Sorry, lookups are disabled for ${guild}.
+      `,
 
       /**
        * Miscellaneous section.

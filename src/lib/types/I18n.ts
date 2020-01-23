@@ -178,6 +178,16 @@ export const I18n = {
   },
 
   /**
+   * I18n keys for services.
+   */
+  Services: {
+    Doc: {
+      ERROR_CLIENT_DISABLED: 'DOC_ERROR_CLIENT_DISABLED',
+      ERROR_GUILD_DISABLED: 'DOC_ERROR_GUILD_DISABLED',
+    },
+  },
+
+  /**
    * Miscellaneous I18n keys that don't fit anywhere else.
    */
   Misc: {

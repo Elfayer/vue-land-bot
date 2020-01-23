@@ -1,5 +1,7 @@
 import { join } from 'path'
 
+import { KlasaGuild } from 'klasa'
+import { oneLine } from 'common-tags'
 import * as Lunr from 'lunr'
 
 import '@schemas/APISchema'
@@ -7,8 +9,14 @@ import '@schemas/DocSchema'
 import Service from '@structures/Service'
 import { PATHS } from '@libraries/constants'
 import github from '@libraries/GithubClient'
-import { APISettings } from '@base/lib/settings/APISettings'
-import { DocSettings } from '@base/lib/settings/DocSettings'
+import { APISettings } from '@settings/APISettings'
+import { DocSettings } from '@settings/DocSettings'
+import { I18n } from '@libraries/types/I18n'
+
+const {
+  Services: { Doc: Language },
+  Misc,
+} = I18n
 
 /**
  * The DocService is responsible for any and all things
@@ -37,12 +45,55 @@ export default class DocsService extends Service {
   /**
    * Look something up in one of our APIs.
    */
-  async lookupAPI(api: KnownAPIs, query: string) {}
+  async lookupAPI(guild: KlasaGuild, query: string, api?: KnownAPIs) {
+    if (!this.client.settings.get(APISettings.Client.ENABLED)) {
+      throw new LookupDisabledError(
+        guild.language.get(Language.ERROR_CLIENT_DISABLED)
+      )
+    }
+
+    if (!guild.settings.get(APISettings.Guild.ENABLED)) {
+      throw new LookupDisabledError(
+        guild.language.get(Language.ERROR_GUILD_DISABLED, [guild.name])
+      )
+    }
+
+    // do look up
+  }
 
   /**
    * Look something up in one of our docs/guides.
    */
-  async lookupDocs(api: KnownDocs, query: string) {}
+  async lookupDocs(guild: KlasaGuild, query: string, api: KnownDocs) {
+    if (!this.client.settings.get(DocSettings.Client.ENABLED)) {
+      throw new LookupDisabledError(
+        guild.language.get(Language.ERROR_CLIENT_DISABLED)
+      )
+    }
+
+    if (!guild.settings.get(DocSettings.Guild.ENABLED)) {
+      throw new LookupDisabledError(
+        guild.language.get(Language.ERROR_GUILD_DISABLED, [guild.name])
+      )
+    }
+
+    // do look up
+  }
+}
+
+/**
+ * Thrown when lookups are disabled for the client, or a specific guild.
+ */
+export class LookupDisabledError extends Error {
+  constructor(...params: any[]) {
+    super(...params)
+
+    if (Error.captureStackTrace) {
+      Error.captureStackTrace(this, LookupDisabledError)
+    }
+
+    this.name = this.constructor.name
+  }
 }
 
 /**
