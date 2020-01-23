@@ -22,10 +22,30 @@ export function roleMention(roleId: string) {
   return `<@&${roleId}>`
 }
 
+/**
+ * Wrap a string in backticks.
+ */
 export function inlineCode(input: string) {
   return '`' + input + '`'
 }
 
-export function command(command: string) {
-  return inlineCode(`${PREFIX}${command}`)
+/**
+ * Add the command prefix to a string, and optionally wrap it in backticks.
+ *
+ * Primarily used for command usage examples in extended help sections.
+ */
+export function command(command: string, wrap = false) {
+  return wrap ? inlineCode(`${PREFIX}${command}`) : `${PREFIX}${command}`
+}
+
+/**
+ * Shorten a string, if necessary.
+ */
+// FIXME: Would be nice if it wouldn't split in the middle of Markdown links.
+export function excerpt(input: string, length: number = 63) {
+  if (input.length <= length) {
+    return input
+  }
+
+  return input.substring(0, length) + '…'
 }
