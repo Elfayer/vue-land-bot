@@ -264,29 +264,34 @@ export default class LanguageEnUS extends Language {
         Interact with VueJS Requests for Comments.
       `,
       [RFC.HELP]: stripIndent`
-        • Fuzzy search using !rfc <query> AND/OR
-        • Look for exact matches using filters
-          • Available Filters: --number, --title, --body, --author, --label, --state
-          • You can | (or) as well as & (and) for the label filter.
-        Examples ::
-        • Fuzzy Searching RFCs
-          • !rfc #7
-          • !rfc attr fallthrough
-          • !rfc better v-for
-          • !rfc posva
-          • !rfc router
-        • Filtering RFCs precisely
-          • !rfc --number=7
-          • !rfc --title="better v-for"
-          • !rfc --author="posva"
-          • !rfc --labels=router
-          • !rfc --labels=router&core
-          • !rfc --labels='router | core'
-        • Listing RFCs by state
-          • !rfc list
-          • !rfc --state=open list
-          • !rfc list --state='closed'
-          • !rfc list --state="popular"
+        There are 3 methods of searching.
+
+        1. By number (the number displayed on the Github UI)
+        2. A true fuzzy search, which also supports optional wildcards
+        3. A filter search, which checks if a key contains/includes a string
+
+        #2 and #3 **can** be combined and the filters/wildcards can be chained.
+
+        By Number
+
+          • ${command('rfc #7')} - find RFC #7
+
+        Fuzzy Searching
+
+          • ${command('rfc router vuex')} - find one term OR the other
+          • ${command('rfc router +vuex')} - find router (vuex MUST be present)
+          • ${command('rfc -router vuex')} - find vuex (but EXCLUDE router)
+          • ${command('rfc +router +vuex')} - both terms MUST be present
+
+        Filter Searching
+
+          • ${command('rfc --state=open|closed|merged|popular')} - by state
+          • ${command('rfc --title=vue')} - by title
+          • ${command('rfc --body="aliasing props"')} - by body
+          • ${command('rfc --author=yyx')} - by author
+          • ${command('rfc --label=vuex')} - by label
+          • ${command('rfc --label=vue|vuex')} - by label [or] label
+          • ${command('rfc --label=vue&vuex')} - by label [and] label
       `,
       [RFC.ARGUMENT_QUERY]: prefix => oneLine`
         You must specify a valid query.
