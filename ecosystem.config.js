@@ -14,7 +14,7 @@ module.exports = {
         '.git',
         '.github',
         'assets',
-        'data',
+        'data/providers/json',
         'logs',
         'node_modules',
         'src',
