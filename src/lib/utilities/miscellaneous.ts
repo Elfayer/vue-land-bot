@@ -23,10 +23,17 @@ export function roleMention(roleId: string) {
 }
 
 /**
- * Wrap a string in backticks.
+ * Wrap a string in single backticks.
  */
 export function inlineCode(input: string) {
   return '`' + input + '`'
+}
+
+/**
+ * Wrap a string in triple backticks.
+ */
+export function blockCode(input: string, language: string = '') {
+  return '```' + (language ?? '') + '\n' + input + '\n```'
 }
 
 /**
