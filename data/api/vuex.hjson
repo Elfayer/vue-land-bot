@@ -6,6 +6,9 @@
         {
           title: state
           description: The root state object for the Vuex store.
+          aliases: [
+            state
+          ]
           type: Object | Function
           link: https://vuex.vuejs.org/api/#state
           see: [
@@ -44,6 +47,10 @@
         {
           title: getters
           description: Register getters on the store.
+          aliases: [
+            getter
+            getters
+          ]
           type: '{ [key: string]: Function }'
           see: [
             {
@@ -89,6 +96,13 @@
         {
           title: devtools
           description: Turn the devtools on or off for a particular Vuex instance.
+          aliases: [
+            devtools
+          ]
+          keywords: [
+            development
+            tools
+          ]
           type: Boolean
         }
       ]
@@ -99,11 +113,18 @@
         {
           title: state
           description: The root state. Read only.
+          aliases: [
+            state
+          ]
           type: Object
         }
         {
           title: getters
           description: Exposes registered getters. Read only.
+          aliases: [
+            getter
+            getters
+          ]
           type: Object
         }
       ]
@@ -163,6 +184,9 @@
         {
           title: watch
           description: Reactively watch `fn`'s return value, and call the `callback` when the value changes.
+          aliases: [
+            watch
+          ]
           arguments: [
             'fn: Function',
             'callback: Function'
@@ -223,6 +247,10 @@
         {
           title: hotUpdate
           description: Hot-swap new actions and mutations.
+          keywords: [
+            hot
+            update
+          ]
           arguments: [
             newOptions: Object
           ]
@@ -241,6 +269,9 @@
         {
           title: mapState
           description: Create component computed options that return the sub tree of the Vuex store.
+          keywords: [
+            map
+          ]
           arguments: [
             namespace: string
             map: string[] | { [key: string]: Function }
@@ -260,6 +291,9 @@
         {
           title: mapGetters
           description: Create component computed options that return the evaluated value of a getter.
+          keywords: [
+            map
+          ]
           arguments: [
             namespace?: string
             map: string[] | { [key string]: string }
@@ -279,6 +313,9 @@
         {
           title: mapMutations
           description: Create component methods options that commit a mutation.
+          keywords: [
+            map
+          ]
           arguments: [
             namespace?: string
             map: string[] | { [key: string]: Function }

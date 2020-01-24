@@ -48,6 +48,9 @@
           title: devtools
           description: Configure whether to allow vue-devtools inspection.
           type: boolean
+          aliases: [
+            devtools
+          ]
           keywords: [
             development
             tools
@@ -381,6 +384,9 @@
         {
           title: data
           description: The data object for the Vue instance. Vue will recursively convert its properties into getter/setters to make it “reactive”.
+          aliases: [
+            state
+          ]
           type: Object | Function
           link: https://vuejs.org/v2/api/#data
           see: [
@@ -442,6 +448,9 @@
           title: watch
           description: An object where keys are expressions to watch and values are the corresponding callbacks.
           type: '{ [key: string]: string | Function | Object | Array }'
+          aliases: [
+            watch
+          ]
           link: https://vuejs.org/v2/api/#watch
           see: [
             {
