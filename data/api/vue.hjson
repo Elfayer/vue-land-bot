@@ -163,7 +163,7 @@
             Vue.extend
           ]
           arguments: [
-            '{Object} options'
+            'options: Object'
           ]
           link: https://vuejs.org/v2/api/#Vue-extend
           see: [
@@ -181,8 +181,8 @@
             Vue.nextTick
           ]
           arguments: [
-            '{Function} [callback]'
-            '{Object} [context]'
+            'callback?: Function'
+            'context?: Object'
           ]
           link: https://vuejs.org/v2/api/#Vue-nextTick
           see: [
@@ -200,9 +200,9 @@
             Vue.set
           ]
           arguments: [
-          '{Object | Array} target'
-          '{string | number} propertyName/index'
-          '{any} value'
+          'target: Object | Array'
+          'nameOrIndex: string | number'
+          'value: any'
           ]
           returns: the set value
           link: https://vuejs.org/v2/api/#Vue-set
@@ -221,8 +221,8 @@
             Vue.delete
           ]
           arguments: [
-            '{Object | Array} target'
-            '{string | number} propertyName/index'
+            'target: Object | Array'
+            'nameOrIndex: string | number'
           ]
           link: https://vuejs.org/v2/api/#Vue-delete
           see: [
@@ -240,8 +240,8 @@
             Vue.directive
           ]
           arguments: [
-            '{string} id'
-            '{Function | Object} [definition]'
+            'id: string'
+            'definition?: Function | Object'
           ]
           link: https://vuejs.org/v2/api/#Vue-directive
           see: [
@@ -259,8 +259,8 @@
             Vue.filter
           ]
           arguments: [
-          '{string} id'
-          '{Function} [definition]'
+          'id: string'
+          'definition?: Function'
           ]
           link: https://vuejs.org/v2/api/#Vue-filter
           see: [
@@ -282,8 +282,8 @@
             Vue.component
           ]
           arguments: [
-            '{string} id'
-            '{Function | Object} [definition]'
+            'id: string'
+            'definition?: Function | Object'
           ]
           link: https://vuejs.org/v2/api/#Vue-component
           see: [
@@ -301,7 +301,7 @@
             Vue.use
           ]
           arguments: [
-            '{Object | Function} plugin'
+            'plugin: Object | Function'
           ]
           link: https://vuejs.org/v2/api/#Vue-use
           see: [
@@ -319,7 +319,7 @@
             Vue.mixin
           ]
           arguments: [
-            '{Object} mixin'
+            'mixin: Object'
           ]
           link: https://vuejs.org/v2/api/#Vue-mixin
           see: [
@@ -337,7 +337,7 @@
             Vue.compile
           ]
           arguments: [
-            '{string} template'
+            'template: string'
           ]
           link: https://vuejs.org/v2/api/#Vue-compile
           see: [
@@ -355,7 +355,7 @@
             Vue.observable
           ]
           arguments: [
-            '{Object} object'
+            'object: Object'
           ]
           link: https://vuejs.org/v2/api/#Vue-observable
           see: [
@@ -441,7 +441,7 @@
         {
           title: watch
           description: An object where keys are expressions to watch and values are the corresponding callbacks.
-          type: '{ [key: string]: string | Function | Object | Array}'
+          type: '{ [key: string]: string | Function | Object | Array }'
           link: https://vuejs.org/v2/api/#watch
           see: [
             {
@@ -502,7 +502,7 @@
         {
           title: renderError
           description: Provide an alternative render output when the default `render` function encounters an error.
-          type: (createElement: () => VNode, error: Error) => Vnode
+          type: (createElement: () => VNode, error: Error) => VNode
           version: 2.2.0+
           link: https://vuejs.org/v2/api/#renderError
           see: [
@@ -732,7 +732,7 @@
         {
           title: mixins
           description: Accepts an array of mixin objects, which can contain instance options (like normal instance objects), to be merged against the eventual options, as in `Vue.extend()`.
-          type: Array<Object>
+          type: Object[]
           link: https://vuejs.org/v2/api/#mixins
           see: [
             {
@@ -798,7 +798,7 @@
           keywords: [
             delim
           ]
-          type: Array<string>
+          type: string[]
           default: '["{{", "}}"]'
           link: https://vuejs.org/v2/api/#delimiters
           usage: {
@@ -906,7 +906,7 @@
             vm.$parent
             $parent
           ]
-          type: Vue instance
+          type: Vue
           link: https://vuejs.org/v2/api/#vm-parent
         }
         {
@@ -917,7 +917,7 @@
             vm.$root
             $root
           ]
-          type: Vue instance
+          type: Vue
           link: https://vuejs.org/v2/api/#vm-root
         }
         {
@@ -928,7 +928,7 @@
             $children
             vm.$children
           ]
-          type: Array<Vue instance>
+          type: Vue[]
           link: https://vuejs.org/v2/api/#vm-children
         }
         {
@@ -939,7 +939,7 @@
             $slots
             vm.$slots
           ]
-          type: '{ [name: string]: ?Array<VNode> }'
+          type: '{ [name: string]: VNode[] }'
           link: https://vuejs.org/v2/api/#vm-slots
           see: [
             {
@@ -964,7 +964,7 @@
             $scopedSlots
             vm.$scopedSlots
           ]
-          type: '{ [name: string]: props => Array<VNode> | undefined }'
+          type: '{ [name: string]: props => VNode[] | undefined }'
           link: https://vuejs.org/v2/api/#vm-scopedSlots
           version: 2.1.0+
           see: [
@@ -1059,13 +1059,11 @@
             vm.$watch
           ]
           arguments: [
-            '{string | Function} expOrFn'
-            '{Function | Object} callback'
-            '{Object} [options]'
-              // {boolean} deep
-              // {boolean} immediate
+            'expOrFn: string | Function'
+            'callback: Function | Object'
+            'options?: { deep: boolean, immediate: boolean }'
           ]
-          returns: '{Function} unwatch'
+          returns: 'Function'
           link: https://vuejs.org/v2/api/#vm-watch
         }
         {
@@ -1078,9 +1076,9 @@
             vm.$set
           ]
           arguments: [
-            '{Object | Array} target'
-            '{string | number} propertyName/index'
-            '{any} value'
+            'target: Object | Array'
+            'nameOrIndex: string | number'
+            'value: any'
           ]
           returns: the set value
           link: https://vuejs.org/v2/api/#vm-set
@@ -1101,8 +1099,8 @@
             vm.$delete
           ]
           arguments: [
-            '{Object | Array} target'
-            '{string | number} propertyName/index'
+            'target: Object | Array'
+            'nameOrIndex: string | number'
           ]
           returns: .
           link: https://vuejs.org/v2/api/#vm-delete
@@ -1121,15 +1119,19 @@
         {
           id: vm.$on
           title: vm.$on( event, callback )
-          description: Listen for a custom event on the current vm.
+          description: '''
+            Listen for a custom event on the current vm.
+
+            **NOTE:** Array argument only supported in 2.2.0+.
+          '''
           aliases: [
             vm
             $on
             vm.$on
           ]
           arguments: [
-            '{string | Array<string>} event (array only supported in 2.2.0+)'
-            '{Function} callback'
+            'event: string | Array<string>'
+            'callback: Function'
           ]
           link: https://vuejs.org/v2/api/#vm-on
         }
@@ -1143,23 +1145,27 @@
             vm.$once
           ]
           arguments: [
-            '{string} event'
-            '{Function} callback'
+            'event: string'
+            'callback: Function'
           ]
           link: https://vuejs.org/v2/api/#vm-once
         }
         {
           id: vm.$off
           title: vm.$off( [event, callback] )
-          description: Remove custom event listener(s).
+          description: '''
+            Remove custom event listener(s).
+
+            **NOTE:** Array argument only supported in 2.2.2+.
+          '''
           aliases: [
             vm
             $off
             vm.$off
           ]
           arguments: [
-            '{string | Array<string>} event (array only supported in 2.2.2+)'
-            '{Function} [callback]'
+            'event: string | Array<string>'
+            'callback?: Function'
           ]
           link: https://vuejs.org/v2/api/#vm-once
         }
@@ -1173,8 +1179,8 @@
             vm.$emit
           ]
           arguments: [
-            '{string} eventName'
-            '[...args]'
+            'eventName: string'
+            '...args: any'
           ]
           link: https://vuejs.org/v2/api/#vm-emit
         }
@@ -1193,8 +1199,8 @@
             vm.$mount
           ]
           arguments: [
-            '{Element | string} [elementOrSelector]'
-            '{boolean} [hydrating]'
+            'elementOrSelector: Element | string'
+            'hydrating?: boolean'
           ]
           returns: vm - the instance itself
           link: https://vuejs.org/v2/api/#vm-mount
@@ -1230,7 +1236,7 @@
             vm.$nextTick
           ]
           arguments: [
-            '{Function} [callback]'
+            'callback?: Function'
           ]
           link: https://vuejs.org/v2/api/#vm-nextTick
           see: [
@@ -1726,8 +1732,8 @@
             <component>
           ]
           props: [
-            'is: string | ComponentDefinition | ComponentConstructor'
-            'inline-template: Boolean'
+            is: string | ComponentDefinition | ComponentConstructor
+            inline-template: boolean
           ]
           link: https://vuejs.org/v2/api/#component
           see: [
@@ -1763,9 +1769,8 @@
             group
           ]
           props: [
-            'tag: string'
-            'move-class: string - overwrite CSS class applied during moving transition.'
-            'exposes the same props as <transition> except mode.'
+            tag: string
+            move-class: string
           ]
           link: https://vuejs.org/v2/api/#transition-group
           see: [
@@ -1783,9 +1788,9 @@
             <keep-alive>
           ]
           props: [
-            'include: string'
-            'exclude: string'
-            'max: number'
+            include: string
+            exclude: string
+            max: number
           ]
           link: https://vuejs.org/v2/api/#keep-alive
           see: [
@@ -1818,7 +1823,7 @@
           ]
           link: https://vuejs.org/v2/api/#slot
           props: [
-            'name: string'
+            name: string
           ]
           see: [
             {
