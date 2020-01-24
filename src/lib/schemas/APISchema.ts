@@ -6,7 +6,7 @@ import { KnownAPIs } from '@services/DocService'
  * Extend the client-specific schema with settings relating to API lookups.
  */
 Client.defaultClientSchema.add('apis', apis => {
-  return apis.add('enabled', 'boolean', { default: false })
+  return apis.add('enabled', 'boolean', { default: true })
 })
 
 /**
@@ -14,7 +14,7 @@ Client.defaultClientSchema.add('apis', apis => {
  */
 Client.defaultGuildSchema.add('apis', apis => {
   return apis
-    .add('enabled', 'boolean', { default: false })
+    .add('enabled', 'boolean', { default: true })
     .add('channels', 'channel', { array: true })
     .add('projects', 'string', { array: true })
 })

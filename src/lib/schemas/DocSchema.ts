@@ -6,7 +6,7 @@ import { KnownDocs } from '@services/DocService'
  * Extend the client-specific schema with settings relating to docs/guide lookups.
  */
 Client.defaultClientSchema.add('docs', docs => {
-  return docs.add('enabled', 'boolean', { default: false })
+  return docs.add('enabled', 'boolean', { default: true })
 })
 
 /**
@@ -14,7 +14,7 @@ Client.defaultClientSchema.add('docs', docs => {
  */
 Client.defaultGuildSchema.add('docs', docs => {
   return docs
-    .add('enabled', 'boolean', { default: false })
+    .add('enabled', 'boolean', { default: true })
     .add('channels', 'channel', { array: true })
     .add('projects', 'string', { array: true })
 })
