@@ -21,9 +21,12 @@
           description: Define custom merging strategies for options.
           type: '{ [key: string]: Function }'
           default: '{}'
-          link: https://vuejs.org/v2/api/#optionMergeStrategies
+          links: https://vuejs.org/v2/api/#optionMergeStrategies
           see: [
-            https://vuejs.org/v2/guide/mixins.html#Custom-Option-Merge-Strategies
+            {
+              text: Guide - Mixins - Custom Option Merge Strategies
+              link: https://vuejs.org/v2/guide/mixins.html#Custom-Option-Merge-Strategies
+            }
           ]
         }
         {
@@ -32,7 +35,10 @@
           default: 'true (false in production)'
           link: https://vuejs.org/v2/api/#devtools
           see: [
-            https://github.com/vuejs/vue-devtools
+            {
+              text: Github (vuejs/vue-devtools)
+              link: https://github.com/vuejs/vue-devtools
+            }
           ]
           usage: {
             lang: js
@@ -66,7 +72,7 @@
               Vue.config.warnHandler = function(msg, vm, trace) {}
             '''
           }
-          
+
         }
         {
           title: ignoredElements
@@ -107,7 +113,10 @@
           version: 2.2.0+
           link: https://vuejs.org/v2/api/#performance
           see: [
-            https://developer.mozilla.org/en-US/docs/Web/API/Performance/mark
+            {
+              text: MDN - `performance.mark()`
+              link: https://developer.mozilla.org/en-US/docs/Web/API/Performance/mark
+            }
           ]
         }
         {
@@ -135,7 +144,10 @@
           ]
           link: https://vuejs.org/v2/api/#Vue-extend
           see: [
-            https://vuejs.org/v2/guide/components.html
+            {
+              text: Guide - Components
+              link: https://vuejs.org/v2/guide/components.html
+            }
           ]
         }
         {
@@ -151,7 +163,10 @@
           ]
           link: https://vuejs.org/v2/api/#Vue-nextTick
           see: [
-            https://vuejs.org/v2/guide/reactivity.html#Async-Update-Queue
+            {
+              text: Guide - Reactivity - Async Update Queue
+              link: https://vuejs.org/v2/guide/reactivity.html#Async-Update-Queue
+            }
           ]
         }
         {
@@ -169,7 +184,10 @@
           returns: the set value
           link: https://vuejs.org/v2/api/#Vue-set
           see: [
-            https://vuejs.org/v2/guide/reactivity.html
+            {
+              text: Guide - Reactivity
+              link: https://vuejs.org/v2/guide/reactivity.html
+            }
           ]
         }
         {
@@ -185,7 +203,10 @@
           ]
           link: https://vuejs.org/v2/api/#Vue-delete
           see: [
-            https://vuejs.org/v2/guide/reactivity.html
+            {
+              text: Guide - Reactivity
+              link: https://vuejs.org/v2/guide/reactivity.html
+            }
           ]
         }
         {
@@ -201,7 +222,10 @@
           ]
           link: https://vuejs.org/v2/api/#Vue-directive
           see: [
-            https://vuejs.org/v2/guide/custom-directive.html
+            {
+              text: Guide - Custom Directives
+              link: https://vuejs.org/v2/guide/custom-directive.html
+            }
           ]
         }
         {
@@ -217,7 +241,10 @@
           ]
           link: https://vuejs.org/v2/api/#Vue-filter
           see: [
-            https://vuejs.org/v2/guide/filters.html
+            {
+              text: Guide - Filters
+              link: https://vuejs.org/v2/guide/filters.html
+            }
           ]
         }
         {
@@ -237,7 +264,10 @@
           ]
           link: https://vuejs.org/v2/api/#Vue-component
           see: [
-            https://vuejs.org/v2/guide/components.html
+            {
+              text: Guide - Components
+              link: https://vuejs.org/v2/guide/components.html
+            }
           ]
         }
         {
@@ -252,7 +282,10 @@
           ]
           link: https://vuejs.org/v2/api/#Vue-use
           see: [
-            https://vuejs.org/v2/guide/plugins.html
+            {
+              text: Guide - Plugins
+              link: https://vuejs.org/v2/guide/plugins.html
+            }
           ]
         }
         {
@@ -267,7 +300,10 @@
           ]
           link: https://vuejs.org/v2/api/#Vue-mixin
           see: [
-            https://vuejs.org/v2/guide/mixins.html#Global-Mixin
+            {
+              text: Guide - Mixins - Global Mixins
+              link: https://vuejs.org/v2/guide/mixins.html#Global-Mixin
+            }
           ]
         }
         {
@@ -282,7 +318,10 @@
           ]
           link: https://vuejs.org/v2/api/#Vue-compile
           see: [
-            https://vuejs.org/v2/guide/render-function.html
+            {
+              text: Guide - Render Functions
+              link: https://vuejs.org/v2/guide/render-function.html
+            }
           ]
         }
         {
@@ -297,7 +336,10 @@
           ]
           link: https://vuejs.org/v2/api/#Vue-observable
           see: [
-            https://vuejs.org/v2/guide/reactivity.html
+            {
+              text: Guide - Reactivity
+              link: https://vuejs.org/v2/guide/reactivity.html
+            }
           ]
         }
         {
@@ -319,7 +361,10 @@
           type: Object | Function
           link: https://vuejs.org/v2/api/#data
           see: [
-            https://vuejs.org/v2/guide/reactivity.html
+            {
+              text: Guide - Reactivity
+              link: https://vuejs.org/v2/guide/reactivity.html
+            }
           ]
         }
         {
@@ -328,7 +373,10 @@
           type: Array<string> | Object
           link: https://vuejs.org/v2/api/#props
           see: [
-            https://vuejs.org/v2/guide/components-props.html
+            {
+              text: Guide - Component Props
+              link: https://vuejs.org/v2/guide/components-props.html
+            }
           ]
         }
         {
@@ -343,7 +391,10 @@
           type: '{ [key: string]: Function | { get: Function, set: Function } }'
           link: https://vuejs.org/v2/api/#computed
           see: [
-            https://vuejs.org/v2/guide/computed.html
+            {
+              text: Guide - Computed Properties
+              link: https://vuejs.org/v2/guide/computed.html
+            }
           ]
         }
         {
@@ -352,7 +403,10 @@
           type: '{ [key: string]: Function'
           link: https://vuejs.org/v2/api/#methods
           see: [
-            https://vuejs.org/v2/guide/events.html
+            {
+              text: Guide - Events
+              link: https://vuejs.org/v2/guide/events.html
+            }
           ]
         }
         {
@@ -361,7 +415,10 @@
           type: '{ [key: string]: string | Function | Object | Array}'
           link: https://vuejs.org/v2/api/#watch
           see: [
-            https://vuejs.org/v2/api/#vm-watch
+            {
+              text: API - `vm.$watch()`
+              link: https://vuejs.org/v2/api/#vm-watch
+            }
           ]
         }
       ]
@@ -375,8 +432,14 @@
           type: string | Element
           link: https://vuejs.org/v2/api/#el
           see: [
-            https://vuejs.org/v2/guide/instance.html#Lifecycle-Diagram
-            https://vuejs.org/v2/guide/installation.html#Runtime-Compiler-vs-Runtime-only
+            {
+              text: Guide - Instance - Lifecycle Diagram
+              link: https://vuejs.org/v2/guide/instance.html#Lifecycle-Diagram
+            }
+            {
+              text: Guide - Installation - Runtime Compiler vs. Runtime Only
+              link: https://vuejs.org/v2/guide/installation.html#Runtime-Compiler-vs-Runtime-only
+            }
           ]
         }
         {
@@ -385,8 +448,14 @@
           type: string
           link: https://vuejs.org/v2/api/#template
           see: [
-            https://vuejs.org/v2/guide/instance.html#Lifecycle-Diagram
-            https://vuejs.org/v2/guide/components.html#Content-Distribution-with-Slots
+            {
+              text: Guide - Instance - Lifecycle Diagram
+              link: https://vuejs.org/v2/guide/instance.html#Lifecycle-Diagram
+            }
+            {
+              text: Guide - Components - Content Distribution with Slots
+              link: https://vuejs.org/v2/guide/components.html#Content-Distribution-with-Slots
+            }
           ]
         }
         {
@@ -395,7 +464,10 @@
           type: (createElement: () => VNode) => VNode
           link: https://vuejs.org/v2/api/#render
           see: [
-            https://vuejs.org/v2/guide/render-function.html
+            {
+              text: Guide - Render Functions
+              link: https://vuejs.org/v2/guide/render-function.html
+            }
           ]
         }
         {
@@ -405,7 +477,10 @@
           version: 2.2.0+
           link: https://vuejs.org/v2/api/#renderError
           see: [
-            https://vuejs.org/v2/guide/render-function.html
+            {
+              text: Guide - Render Functions
+              link: https://vuejs.org/v2/guide/render-function.html
+            }
           ]
         }
       ]
@@ -422,7 +497,10 @@
           type: Function
           link: https://vuejs.org/v2/api/#beforeCreate
           see: [
-            https://vuejs.org/v2/guide/instance.html#Lifecycle-Diagram
+            {
+              text: Guide - Instance - Lifecycle Diagram
+              link: https://vuejs.org/v2/guide/instance.html#Lifecycle-Diagram
+            }
           ]
         }
         {
@@ -431,7 +509,10 @@
           type: Function
           link: https://vuejs.org/v2/api/#created
           see: [
-            https://vuejs.org/v2/guide/instance.html#Lifecycle-Diagram
+            {
+              text: Guide - Instance - Lifecycle Diagram
+              link: https://vuejs.org/v2/guide/instance.html#Lifecycle-Diagram
+            }
           ]
         }
         {
@@ -443,7 +524,10 @@
           type: Function
           link: https://vuejs.org/v2/api/#beforeMount
           see: [
-            https://vuejs.org/v2/guide/instance.html#Lifecycle-Diagram
+            {
+              text: Guide - Instance - Lifecycle Diagram
+              link: https://vuejs.org/v2/guide/instance.html#Lifecycle-Diagram
+            }
           ]
         }
         {
@@ -452,7 +536,10 @@
           type: Function
           link: https://vuejs.org/v2/api/#mounted
           see: [
-            https://vuejs.org/v2/guide/instance.html#Lifecycle-Diagram
+            {
+              text: Guide - Instance - Lifecycle Diagram
+              link: https://vuejs.org/v2/guide/instance.html#Lifecycle-Diagram
+            }
           ]
         }
         {
@@ -464,7 +551,10 @@
           type: Function
           link: https://vuejs.org/v2/api/#beforeUpdate
           see: [
-            https://vuejs.org/v2/guide/instance.html#Lifecycle-Diagram
+            {
+              text: Guide - Instance - Lifecycle Diagram
+              link: https://vuejs.org/v2/guide/instance.html#Lifecycle-Diagram
+            }
           ]
         }
         {
@@ -473,7 +563,10 @@
           type: Function
           link: https://vuejs.org/v2/api/#updated
           see: [
-            https://vuejs.org/v2/guide/instance.html#Lifecycle-Diagram
+            {
+              text: Guide - Instance - Lifecycle Diagram
+              link: https://vuejs.org/v2/guide/instance.html#Lifecycle-Diagram
+            }
           ]
         }
         {
@@ -482,18 +575,30 @@
           type: Function
           link: https://vuejs.org/v2/api/#activated
           see: [
-            https://vuejs.org/v2/api/#keep-alive
-            https://vuejs.org/v2/guide/components.html#keep-alive
+            {
+              text: API - `<keep-alive>`
+              link: https://vuejs.org/v2/api/#keep-alive
+            }
+            {
+              text: Guide - Components - `<keep-alive>`
+              link: https://vuejs.org/v2/guide/components.html#keep-alive
+            }
           ]
         }
         {
           title: deactivated
-          description: Called when a kept-alive component is deactivated. 
+          description: Called when a kept-alive component is deactivated.
           type: Function
           link: https://vuejs.org/v2/api/#deactivated
           see: [
-            https://vuejs.org/v2/api/#keep-alive
-            https://vuejs.org/v2/guide/components.html#keep-alive
+            {
+              text: API - `<keep-alive>`
+              link: https://vuejs.org/v2/api/#keep-alive
+            }
+            {
+              text: Guide - Components - `<keep-alive>`
+              link: https://vuejs.org/v2/guide/components.html#keep-alive
+            }
           ]
         }
         {
@@ -505,7 +610,10 @@
           type: Function
           link: https://vuejs.org/v2/api/#beforeDestroy
           see: [
-            https://vuejs.org/v2/guide/instance.html#Lifecycle-Diagram
+            {
+              text: Guide - Instance - Lifecycle Diagram
+              link: https://vuejs.org/v2/guide/instance.html#Lifecycle-Diagram
+            }
           ]
         }
         {
@@ -514,7 +622,10 @@
           type: Function
           link: https://vuejs.org/v2/api/#destroyed
           see: [
-            https://vuejs.org/v2/guide/instance.html#Lifecycle-Diagram
+            {
+              text: Guide - Instance - Lifecycle Diagram
+              link: https://vuejs.org/v2/guide/instance.html#Lifecycle-Diagram
+            }
           ]
         }
         {
@@ -525,9 +636,6 @@
           ]
           type: '(err: Error, vm: Component, info: string) => ?boolean'
           link: https://vuejs.org/v2/api/#errorCaptured
-          see: [
-            
-          ]
         }
       ]
     }
@@ -540,7 +648,10 @@
           type: Object
           link: https://vuejs.org/v2/api/#directives
           see: [
-            https://vuejs.org/v2/guide/custom-directive.html
+            {
+              text: Guide - Custom Directives
+              link: https://vuejs.org/v2/guide/custom-directive.html
+            }
           ]
         }
         {
@@ -549,7 +660,10 @@
           type: Object
           link: https://vuejs.org/v2/api/#filters
           see: [
-            https://vuejs.org/v2/api/#Vue-filter
+            {
+              text: API - `Vue.filter`
+              link: https://vuejs.org/v2/api/#Vue-filter
+            }
           ]
         }
         {
@@ -558,7 +672,10 @@
           type: Object
           link: https://vuejs.org/v2/api/#components
           see: [
-            https://vuejs.org/v2/guide/components.html
+            {
+              text: Guide - Components
+              link: https://vuejs.org/v2/guide/components.html
+            }
           ]
         }
       ]
@@ -578,7 +695,10 @@
           type: Array<Object>
           link: https://vuejs.org/v2/api/#mixins
           see: [
-            https://vuejs.org/v2/guide/mixins.html
+            {
+              text: Guide - Mixins
+              link: https://vuejs.org/v2/guide/mixins.html
+            }
           ]
         }
         {
@@ -604,7 +724,7 @@
           title: inject
           description: '''
             Allow an ancestor component to serve as a dependency injector for all its descendants, regardless of how deep the component hierarchy is, as long as they are in the same parent chain.
-            
+
             **NOTE:** See also `!api provide`.
           '''
           type: Array<string> | { [key: string]: string | Symbol | Object }
@@ -642,7 +762,10 @@
           type: boolean
           link: https://vuejs.org/v2/api/#functional
           see: [
-            https://vuejs.org/v2/guide/render-function.html#Functional-Components
+            {
+              text: Guide - Render Functions - Functional Components
+              link: https://vuejs.org/v2/guide/render-function.html#Functional-Components
+            }
           ]
         }
         {
@@ -744,9 +867,18 @@
           type: '{ [name: string]: ?Array<VNode> }'
           link: https://vuejs.org/v2/api/#vm-slots
           see: [
-            https://vuejs.org/v2/api/#slot
-            https://vuejs.org/v2/guide/components.html#Content-Distribution-with-Slots
-            https://vuejs.org/v2/guide/render-function.html#Slots
+            {
+              text: API - `<slot>`
+              link: https://vuejs.org/v2/api/#slot
+            }
+            {
+              text: Guide - Components - Content Distribution with Slots
+              link: https://vuejs.org/v2/guide/components.html#Content-Distribution-with-Slots
+            }
+            {
+              text: Guide - Render Functions - Slots
+              link: https://vuejs.org/v2/guide/render-function.html#Slots
+            }
           ]
         }
         {
@@ -759,9 +891,18 @@
           link: https://vuejs.org/v2/api/#vm-scopedSlots
           version: 2.1.0+
           see: [
-            https://vuejs.org/v2/api/#slot
-            https://vuejs.org/v2/guide/components.html#Scoped-Slots
-            https://vuejs.org/v2/guide/render-function.html#Slots
+            {
+              text: API - `<slot>`
+              link: https://vuejs.org/v2/api/#slot
+            }
+            {
+              text: Guide - Components - Scoped Slots
+              link: https://vuejs.org/v2/guide/components.html#Scoped-Slots
+            }
+            {
+              text: Guide - Render Functions - Slots
+              link: https://vuejs.org/v2/guide/render-function.html#Slots
+            }
           ]
         }
         {
@@ -773,8 +914,14 @@
           type: Object
           link: https://vuejs.org/v2/api/#vm-refs
           see: [
-            https://vuejs.org/v2/guide/components.html#Child-Component-Refs
-            https://vuejs.org/v2/api/#ref
+            {
+              text: Guide - Components - Child Component Refs
+              link: https://vuejs.org/v2/guide/components.html#Child-Component-Refs
+            }
+            {
+              text: API - Refs
+              link: https://vuejs.org/v2/api/#ref
+            }
           ]
         }
         {
@@ -786,7 +933,10 @@
           type: boolean
           link: https://vuejs.org/v2/api/#vm-isServer
           see: [
-            https://vuejs.org/v2/guide/ssr.html
+            {
+              text: Guide - SSR
+              link: https://vuejs.org/v2/guide/ssr.html
+            }
           ]
         }
         {
@@ -817,7 +967,7 @@
         {
           id: vm.$watch
           title: vm.$watch (expOrFn, callback, [options] )
-          description: Watch an expression or a computed function on the Vue instance for changes. 
+          description: Watch an expression or a computed function on the Vue instance for changes.
           aliases: [
             $watch
           ]
@@ -846,7 +996,10 @@
           returns: the set value
           link: https://vuejs.org/v2/api/#vm-set
           see: [
-            https://vuejs.org/v2/api/#Vue-set
+            {
+              text: API - `Vue.set`
+              link: https://vuejs.org/v2/api/#Vue-set
+            }
           ]
         }
         {
@@ -863,7 +1016,10 @@
           returns: .
           link: https://vuejs.org/v2/api/#vm-delete
           see: [
-            https://vuejs.org/v2/api/#Vue-delete
+            {
+              text: API - `Vue.delete`
+              link: https://vuejs.org/v2/api/#Vue-delete
+            }
           ]
         }
       ]
@@ -942,8 +1098,14 @@
           returns: vm - the instance itself
           link: https://vuejs.org/v2/api/#vm-mount
           see: [
-            https://vuejs.org/v2/guide/instance.html#Lifecycle-Diagram
-            https://vuejs.org/v2/guide/ssr.html
+            {
+              text: Guide - Instance - Lifecycle Diagram
+              link: https://vuejs.org/v2/guide/instance.html#Lifecycle-Diagram
+            }
+            {
+              text: Guide - Server Side Rendering
+              link: https://vuejs.org/v2/guide/ssr.html
+            }
           ]
         }
         {
@@ -967,20 +1129,29 @@
           ]
           link: https://vuejs.org/v2/api/#vm-nextTick
           see: [
-            https://vuejs.org/v2/api/#Vue-nextTick
-            https://vuejs.org/v2/guide/reactivity.html#Async-Update-Queue
+            {
+              text: API - `Vue.$nextTick`
+              link: https://vuejs.org/v2/api/#Vue-nextTick
+            }
+            {
+              text: Guide - Reactivity - Async Update Queue
+              link: https://vuejs.org/v2/guide/reactivity.html#Async-Update-Queue
+            }
           ]
         }
         {
           id: vm.$destroy
           title: vm.$destroy()
-          description: Completely destroy a vm. 
+          description: Completely destroy a vm.
           aliases: [
             $destroy
           ]
           link: https://vuejs.org/v2/api/#vm-destroy
           see: [
-            https://vuejs.org/v2/guide/instance.html#Lifecycle-Diagram
+            {
+              text: Guide - Instance - Lifecycle Diagram
+              link: https://vuejs.org/v2/guide/instance.html#Lifecycle-Diagram
+            }
           ]
         }
       ]
@@ -996,7 +1167,10 @@
           ]
           link: https://vuejs.org/v2/api/#v-text
           see: [
-            https://vuejs.org/v2/guide/syntax.html#Text
+            {
+              text: Guide - Syntax -  Text
+              link: https://vuejs.org/v2/guide/syntax.html#Text
+            }
           ]
           usage: {
             lang: html
@@ -1010,7 +1184,10 @@
           description: Updates the element's `innerHTML`.
           link: https://vuejs.org/v2/api/#v-html
           see: [
-            https://vuejs.org/v2/guide/syntax.html#Raw-HTML
+            {
+              text: Guide - Syntax - Raw HTML
+              link: https://vuejs.org/v2/guide/syntax.html#Raw-HTML
+            }
           ]
           usage: {
             lang: html
@@ -1024,7 +1201,10 @@
           description: Toggles the element’s `display` CSS property based on the truthy-ness of the expression value.
           link: https://vuejs.org/v2/api/#v-show
           see: [
-            https://vuejs.org/v2/guide/conditional.html#v-show
+            {
+              text: Guide - Conditional Rendering - `v-show`
+              link: https://vuejs.org/v2/guide/conditional.html#v-show
+            }
           ]
           usage: {
             lang: html
@@ -1035,13 +1215,16 @@
         }
         {
           title: v-if
-          description: Conditionally render the element based on the truthy-ness of the expression value. 
+          description: Conditionally render the element based on the truthy-ness of the expression value.
           aliases: [
             if
           ]
           link: https://vuejs.org/v2/api/#v-if
           see: [
-            https://vuejs.org/v2/guide/conditional.html
+            {
+              text: Guide - Conditional Rendering
+              link: https://vuejs.org/v2/guide/conditional.html
+            }
           ]
           usage: {
             lang: html
@@ -1058,7 +1241,10 @@
           ]
           link: https://vuejs.org/v2/api/#v-else
           see: [
-            https://vuejs.org/v2/guide/conditional.html#v-else
+            {
+              text: Guide - Conditional Rendering -`v-else`
+              link: https://vuejs.org/v2/guide/conditional.html#v-else
+            }
           ]
         }
         {
@@ -1071,7 +1257,10 @@
           link: https://vuejs.org/v2/api/#v-else-if
           version: 2.1.0+
           see: [
-            https://vuejs.org/v2/guide/conditional.html#v-else-if
+            {
+              text: Guide - Conditional Rendering -`v-else-if`
+              link: https://vuejs.org/v2/guide/conditional.html#v-else-if
+            }
           ]
         }
         {
@@ -1082,8 +1271,14 @@
           ]
           link: https://vuejs.org/v2/api/#v-for
           see: [
-            https://vuejs.org/v2/guide/list.html
-            https://vuejs.org/v2/guide/list.html#key
+            {
+              text: Guide - List Rendering
+              link: https://vuejs.org/v2/guide/list.html
+            }
+            {
+              text: Guide - List Rendering - Maintaining State
+              link: https://vuejs.org/v2/guide/list.html#key
+            }
           ]
           usage: {
             lang: html
@@ -1103,8 +1298,14 @@
           ]
           link: https://vuejs.org/v2/api/#v-on
           see: [
-            https://vuejs.org/v2/guide/events.html
-            https://vuejs.org/v2/guide/components.html#Custom-Events
+            {
+              text: Guide - Events
+              link: https://vuejs.org/v2/guide/events.html
+            }
+            {
+              text: Guide - Components - Custom Events
+              link: https://vuejs.org/v2/guide/components.html#Custom-Events
+            }
           ]
           usage: {
             lang: html
@@ -1123,9 +1324,18 @@
           ]
           link: https://vuejs.org/v2/api/#v-bind
           see: [
-            https://vuejs.org/v2/guide/class-and-style.html
-            https://vuejs.org/v2/guide/components.html#Props
-            https://vuejs.org/v2/guide/components.html#sync-Modifier
+            {
+              text: Guide - Class and Style
+              link: https://vuejs.org/v2/guide/class-and-style.html
+            }
+            {
+              text: Guide - Components - Props
+              link: https://vuejs.org/v2/guide/components.html#Props
+            }
+            {
+              text: Guide - Components - `.sync` Modifier
+              link: https://vuejs.org/v2/guide/components.html#sync-Modifier
+            }
           ]
           usage: {
             lang: html
@@ -1139,8 +1349,14 @@
           description: Create a two-way binding on a form input element or a component.
           link: https://vuejs.org/v2/api/#v-model
           see: [
-            https://vuejs.org/v2/guide/forms.html
-            https://vuejs.org/v2/guide/components.html#Form-Input-Components-using-Custom-Events
+            {
+              text: Guide - Forms
+              link: https://vuejs.org/v2/guide/forms.html
+            }
+            {
+              text: Guide - Components - Form Input Components using Custom Events
+              link: https://vuejs.org/v2/guide/components.html#Form-Input-Components-using-Custom-Events
+            }
           ]
           usage: {
             lang: html
@@ -1157,8 +1373,14 @@
           ]
           link: https://vuejs.org/v2/api/#v-slot
           see: [
-            https://vuejs.org/v2/guide/components-slots.html
-            https://github.com/vuejs/rfcs/blob/master/active-rfcs/0001-new-slot-syntax.md
+            {
+              text: Guide - Components - Component Slots
+              link: https://vuejs.org/v2/guide/components-slots.html
+            }
+            {
+              text: Github (vuejs/rfcs) #1 - New Slot Syntax
+              link: https://github.com/vuejs/rfcs/blob/master/active-rfcs/0001-new-slot-syntax.md
+            }
           ]
           usage: {
             lang: html
@@ -1203,8 +1425,14 @@
           description: Render the element and component once only.
           link: https://vuejs.org/v2/api/#v-once
           see: [
-            https://vuejs.org/v2/guide/syntax.html#Text
-            https://vuejs.org/v2/guide/components.html#Cheap-Static-Components-with-v-once
+            {
+              text: Guide - Syntax - Text
+              link: https://vuejs.org/v2/guide/syntax.html#Text
+            }
+            {
+              text: Guide - Components - Cheap Static Components with `v-once`
+              link: https://vuejs.org/v2/guide/components.html#Cheap-Static-Components-with-v-once
+            }
           ]
           usage: {
             lang: html
@@ -1225,7 +1453,10 @@
           description: Used as a hint for Vue’s virtual DOM algorithm, to identify VNodes when diffing the new list of nodes against the old list.
           link: https://vuejs.org/v2/api/#key
           see: [
-            https://vuejs.org/v2/guide/list.html#Maintaining-State
+            {
+              text: Guide - List Rendering - Maintaing State
+              link: https://vuejs.org/v2/guide/list.html#Maintaining-State
+            }
           ]
         }
         {
@@ -1236,7 +1467,10 @@
           ]
           link: https://vuejs.org/v2/api/#ref
           see: [
-            https://vuejs.org/v2/guide/components.html#Child-Component-Refs
+            {
+              text: Guide - Components - Child Component Refs
+              link: https://vuejs.org/v2/guide/components.html#Child-Component-Refs
+            }
           ]
         }
         {
@@ -1244,8 +1478,14 @@
           description: Used for dynamic components and to work around limitations in-DOM templates.
           link: https://vuejs.org/v2/api/#is
           see: [
-            https://vuejs.org/v2/guide/components.html#Dynamic-Components
-            https://vuejs.org/v2/guide/components.html#DOM-Template-Parsing-Caveats
+            {
+              text: Guide - Components - Dynamic Components
+              link: https://vuejs.org/v2/guide/components.html#Dynamic-Components
+            }
+            {
+              text: Guide - Components - DOM Template Parsing Caveats
+              link: https://vuejs.org/v2/guide/components.html#DOM-Template-Parsing-Caveats
+            }
           ]
         }
         {
@@ -1263,8 +1503,14 @@
           link: https://vuejs.org/v2/api/#slot-deprecated
           status: deprecated
           see: [
-            https://vuejs.org/v2/api/#v-slot
-            https://vuejs.org/v2/guide/components.html#Named-Slots-with-slot
+            {
+              text: API - `v-slot`
+              link: https://vuejs.org/v2/api/#v-slot
+            }
+            {
+              text: Guide - Components - Content Distribution with Slots
+              link: https://vuejs.org/v2/guide/components.html#Content-Distribution-with-Slots
+            }
           ]
         }
         {
@@ -1273,8 +1519,14 @@
           link: https://vuejs.org/v2/api/#slot-scope-deprecated
           status: deprecated
           see: [
-            https://vuejs.org/v2/api/#slot-scope-deprecated
-            https://vuejs.org/v2/guide/components.html#Scoped-Slots-with-slot-scope
+            {
+              text: API - `slot-scope` (deprecated)
+              link: https://vuejs.org/v2/api/#slot-scope-deprecated
+            }
+            {
+              text: Guide - Components - Content Distribution with Slots
+              link: https://vuejs.org/v2/guide/components.html#Content-Distribution-with-Slots
+            }
           ]
         }
         {
@@ -1283,8 +1535,14 @@
           link: https://vuejs.org/v2/api/#scope-removed
           status: removed
           see: [
-            https://vuejs.org/v2/api/#slot-scope
-            https://vuejs.org/v2/api/#v-slot
+            {
+              text: API - `slot-scope` (deprecated)
+              link: https://vuejs.org/v2/api/#slot-scope
+            }
+            {
+              text: API - `v-slot`
+              link: https://vuejs.org/v2/api/#v-slot
+            }
           ]
         }
       ]
@@ -1299,12 +1557,15 @@
             component
           ]
           props: [
-            'is - string | ComponentDefinition | ComponentConstructor'
-            'inline-template - boolean'
+            'is: string | ComponentDefinition | ComponentConstructor'
+            'inline-template: Boolean'
           ]
           link: https://vuejs.org/v2/api/#component
           see: [
-            https://vuejs.org/v2/guide/components.html#Dynamic-Components
+            {
+              text: Guide - Components - Dynamic Components
+              link: https://vuejs.org/v2/guide/components.html#Dynamic-Components
+            }
           ]
         }
         {
@@ -1315,23 +1576,29 @@
           ]
           link: https://vuejs.org/v2/api/#transition
           see: [
-            https://vuejs.org/v2/guide/transitions.html
+            {
+              text: Guide - Transitions
+              link: https://vuejs.org/v2/guide/transitions.html
+            }
           ]
         }
         {
           title: <transition-group>
-          description: Serves as transition effects for multiple elements/components. 
+          description: Serves as transition effects for multiple elements/components.
           aliases: [
             transition-group
           ]
           props: [
-            'tag - string, defaults to span.'
-            'move-class - overwrite CSS class applied during moving transition.'
+            'tag: string'
+            'move-class: string - overwrite CSS class applied during moving transition.'
             'exposes the same props as <transition> except mode.'
           ]
           link: https://vuejs.org/v2/api/#transition-group
           see: [
-            https://vuejs.org/v2/guide/transitions.html
+            {
+              text: Guide - Transitions
+              link: https://vuejs.org/v2/guide/transitions.html
+            }
           ]
         }
         {
@@ -1341,13 +1608,16 @@
             keep-alive
           ]
           props: [
-            'include - string'
-            'exclude - string'
-            'max - number'
+            'include: string'
+            'exclude: string'
+            'max: number'
           ]
           link: https://vuejs.org/v2/api/#keep-alive
           see: [
-            https://vuejs.org/v2/guide/components.html#keep-alive
+            {
+              text: Guide - Components - `<keep-alive>` with Dynamic Components
+              link: https://vuejs.org/v2/guide/components.html#keep-alive
+            }
           ]
           usage: {
             lang: html
@@ -1371,10 +1641,13 @@
           ]
           link: https://vuejs.org/v2/api/#slot
           props: [
-            'name - string'
+            'name: string'
           ]
           see: [
-            https://vuejs.org/v2/guide/components.html#Content-Distribution-with-Slots
+            {
+              text: Guide - Components - Content Distribution with Slots
+              link: https://vuejs.org/v2/guide/components.html#Content-Distribution-with-Slots
+            }
           ]
         }
       ]
@@ -1388,11 +1661,11 @@
       - expects?
       - arguments?
       - limited to?
-    
+
     Components:
       - props?
       - events?
-    
+
     Other:
       - maybe add some more info. for some of the smaller/shorter items?
 */
