@@ -13,11 +13,11 @@
           link: https://vuex.vuejs.org/api/#state
           see: [
             {
-              text: State
+              text: Guide - State
               link: https://vuex.vuejs.org/guide/state.html
             }
             {
-              text: Module Reuse
+              text: Guide - Module Reuse
               link: https://vuex.vuejs.org/guide/modules.html#module-reuse
             }
           ]
@@ -29,7 +29,7 @@
           type: '{ [type: string]: Function }'
           see: [
             {
-              text: Mutations
+              text: Guide - Mutations
               link: https://vuex.vuejs.org/guide/mutations.html
             }
           ]
@@ -41,7 +41,7 @@
           type: '{ [type: string]: Function }'
           see: [
             {
-              text: Actions
+              text: Guide - Actions
               link: https://vuex.vuejs.org/guide/actions.html
             }
           ]
@@ -57,7 +57,7 @@
           type: '{ [key: string]: Function }'
           see: [
             {
-              text: Getters
+              text: Guide - Getters
               link: https://vuex.vuejs.org/guide/getters.html
             }
           ]
@@ -69,7 +69,7 @@
           type: Object
           see: [
             {
-              text: Modules
+              text: Guide - Modules
               link: https://vuex.vuejs.org/guide/modules.html
             }
           ]
@@ -81,7 +81,7 @@
           type: Function[]
           see: [
             {
-              text: Plugins
+              text: Guide - Plugins
               link: https://vuex.vuejs.org/guide/plugins.html
             }
           ]
@@ -94,7 +94,7 @@
           default: 'false'
           see: [
             {
-              text: Strict Mode
+              text: Guide - Strict Mode
               link: https://vuex.vuejs.org/guide/strict.html
             }
           ]
@@ -158,7 +158,7 @@
           ]
           see: [
             {
-              text: Mutations
+              text: Guide - Mutations
               link: https://vuex.vuejs.org/guide/mutations.html
             }
           ]
@@ -180,7 +180,7 @@
           ]
           see: [
             {
-              text: Actions
+              text: Guide - Actions
               link: https://vuex.vuejs.org/guide/actions.html
             }
           ]
@@ -226,7 +226,7 @@
           version: 2.5.0+
           see: [
             {
-              text: Plugins
+              text: Guide - Plugins
               link: https://vuex.vuejs.org/guide/plugins.html
             }
           ]
@@ -242,7 +242,7 @@
           ]
           see: [
             {
-              text: Modules - Dynamic Module Registration
+              text: Guide - Modules - Dynamic Module Registration
               link: https://vuex.vuejs.org/guide/modules.html#dynamic-module-registration
             }
           ]
@@ -256,7 +256,7 @@
           ]
           see: [
             {
-              text: Modules - Dynamic Module Registration
+              text: Guide - Modules - Dynamic Module Registration
               link: https://vuex.vuejs.org/guide/modules.html#dynamic-module-registration
             }
           ]
@@ -274,7 +274,7 @@
           ]
           see: [
             {
-              text: Hot Reloading
+              text: Guide - Hot Reloading
               link: https://vuex.vuejs.org/guide/hot-reload.html
             }
           ]
@@ -298,11 +298,11 @@
           returns: Object
           see: [
             {
-              text: State - The `mapState` helper
+              text: Guide - State - The `mapState` helper
               link: https://vuex.vuejs.org/guide/state.html#the-mapstate-helper
             }
             {
-              text: Modules - Binding Helpers with Namespaces
+              text: Guide - Modules - Binding Helpers with Namespaces
               link: https://vuex.vuejs.org/guide/modules.html#binding-helpers-with-namespace
             }
           ]
@@ -321,11 +321,11 @@
           returns: Object
           see: [
             {
-              text: Getters - The `mapGetters` helper
+              text: Guide - Getters - The `mapGetters` helper
               link: https://vuex.vuejs.org/guide/getters.html#the-mapgetters-helper
             }
             {
-              text: Modules - Binding Helpers with Namespaces
+              text: Guide - Modules - Binding Helpers with Namespaces
               link: https://vuex.vuejs.org/guide/modules.html#binding-helpers-with-namespace
             }
           ]
@@ -344,11 +344,11 @@
           returns: Object
           see: [
             {
-              text: Mutations - Committing Mutations in Components
+              text: Guide - Mutations - Committing Mutations in Components
               link: https://vuex.vuejs.org/guide/mutations.html#committing-mutations-in-components
             }
             {
-              text: Modules - Binding Helpers with Namespaces
+              text: Guide - Modules - Binding Helpers with Namespaces
               link: https://vuex.vuejs.org/guide/modules.html#binding-helpers-with-namespace
             }
           ]
@@ -363,7 +363,7 @@
           returns: Object
           see: [
             {
-              text: Modules - Binding Helpers with Namespaces
+              text: Guide - Modules - Binding Helpers with Namespaces
               link: https://vuex.vuejs.org/guide/modules.html#binding-helpers-with-namespace
             }
           ]
