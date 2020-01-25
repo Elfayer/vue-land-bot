@@ -1,11 +1,12 @@
 import { Language, LanguageStore, LanguageOptions, util } from 'klasa'
 import { stripIndent, oneLine } from 'common-tags'
 
-import { command } from '@libraries/utilities/miscellaneous'
+import { command, inlineCode } from '@libraries/utilities/miscellaneous'
 import { I18n } from '@libraries/types/I18n'
 const {
   Cmd: {
     Info: { Code, Roles, CoC, DRY, Etiquette, Sharing },
+    Docs: { API, Doc },
     RFC,
   },
   Services: { Doc: DocService },
@@ -330,6 +331,24 @@ export default class LanguageEnUS extends Language {
       [RFC.MERGED_AT]: `Merged`,
 
       /**
+       * Documentation command section.
+       */
+      [API.INFO_PAGE_TITLE]: 'Multiple API Results Found',
+      [API.INFO_PAGE_DESC]: stripIndent`
+        We found multiple matches for your search query.
+
+        You could try using the ${inlineCode(
+          'only'
+        )} flag, to limit the results:
+
+        • ${command('api <query> --only=vue', true)}
+        • ${command('api <query> --only=vuex', true)}
+        • ${command('api <query> --only=vue-router', true)}
+
+        Alternatively, prefix a term with ${inlineCode('-')} to exclude it.
+      `,
+
+      /**
        * Services section.
        */
 
@@ -346,6 +365,19 @@ export default class LanguageEnUS extends Language {
        * Miscellaneous section.
        */
 
+      [Misc.TITLE_NO_MATCHES]: 'No Results Found',
+      [Misc.DESC_NO_MATCHES]: (cmd, query) => stripIndent`
+        We couldn't find any matches for your query "${query}".
+
+        Try using wildcards such as ${inlineCode('-')}, ${inlineCode(
+        '+'
+      )} or ${inlineCode('*')} - See ${command(
+        `help ${cmd}`,
+        true
+      )} for more info.
+
+        **NOTE:** Edit your message above to attempt another search!
+      `,
       [Misc.ERROR_GENERIC]: stripIndent`
         Sorry, something went wrong!
 

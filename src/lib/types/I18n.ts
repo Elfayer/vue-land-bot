@@ -158,6 +158,23 @@ export const I18n = {
       },
     },
 
+    /**
+     * I18n keys for commands in the documentation category.
+     */
+    Docs: {
+      Doc: {
+        DESC: 'DOC_DESC',
+        HELP: 'DOC_HELP',
+      },
+
+      API: {
+        DESC: 'API_DESC',
+        HELP: 'API_HELP',
+        INFO_PAGE_TITLE: 'INFO_PAGE_TITLE',
+        INFO_PAGE_DESC: 'INFO_PAGE_DESC',
+      },
+    },
+
     RFC: {
       PREFIX: 'RFC',
 
@@ -207,5 +224,7 @@ export const I18n = {
     AUTHOR: 'MISC_AUTHOR',
     COMMENTS: 'MISC_COMMENTS',
     NONE: 'MISC_NONE',
+    TITLE_NO_MATCHES: 'MISC_TITLE_NO_MATCHES',
+    DESC_NO_MATCHES: 'DESC_TITLE_NO_MATCHES',
   },
 } as const
