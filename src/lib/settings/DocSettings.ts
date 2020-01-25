@@ -1,6 +1,6 @@
 import { T } from './shared'
 
-import { KnownDocs } from '@services/DocService'
+import { KnownGuides } from '@services/DocService'
 
 /**
  * The settings for the DocsSchema/DocsService.
@@ -36,6 +36,6 @@ export const DocSettings = {
     /**
      * Which projects are lookups enabled for?
      */
-    PROJECTS: T<KnownDocs[]>('docs.projects'),
+    PROJECTS: T<KnownGuides[]>('docs.projects'),
   },
 }

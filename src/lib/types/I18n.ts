@@ -162,16 +162,18 @@ export const I18n = {
      * I18n keys for commands in the documentation category.
      */
     Docs: {
-      Doc: {
-        DESC: 'DOC_DESC',
-        HELP: 'DOC_HELP',
+      Guide: {
+        DESC: 'GUIDE_DESC',
+        HELP: 'GUIDE_HELP',
+        INFO_PAGE_TITLE: 'GUIDE_INFO_PAGE_TITLE',
+        INFO_PAGE_DESC: 'GUIDE_INFO_PAGE_DESC',
       },
 
       API: {
         DESC: 'API_DESC',
         HELP: 'API_HELP',
-        INFO_PAGE_TITLE: 'INFO_PAGE_TITLE',
-        INFO_PAGE_DESC: 'INFO_PAGE_DESC',
+        INFO_PAGE_TITLE: 'API_INFO_PAGE_TITLE',
+        INFO_PAGE_DESC: 'API_INFO_PAGE_DESC',
       },
     },
 

@@ -6,7 +6,7 @@ import { I18n } from '@libraries/types/I18n'
 const {
   Cmd: {
     Info: { Code, Roles, CoC, DRY, Etiquette, Sharing },
-    Docs: { API, Doc },
+    Docs: { API, Guide },
     RFC,
   },
   Services: { Doc: DocService },
@@ -314,7 +314,7 @@ export default class LanguageEnUS extends Language {
         VueJS - Requests for Comments
       `,
       [RFC.DESC_INFO_PAGE]: stripIndent`
-        • Use the ⏮, ◀, ▶ & ⏭ buttons to navigate between the pages.
+        • Use the buttons to navigate between the pages.
         • Jump to an arbitrary page using 🔢.
         • Cancel pagination using ⏹.
         • View this information page with ℹ.
@@ -333,6 +333,7 @@ export default class LanguageEnUS extends Language {
       /**
        * Documentation command section.
        */
+
       [API.INFO_PAGE_TITLE]: 'Multiple API Results Found',
       [API.INFO_PAGE_DESC]: stripIndent`
         We found multiple matches for your search query.
@@ -344,6 +345,21 @@ export default class LanguageEnUS extends Language {
         • ${command('api <query> --only=vue', true)}
         • ${command('api <query> --only=vuex', true)}
         • ${command('api <query> --only=vue-router', true)}
+
+        Alternatively, prefix a term with ${inlineCode('-')} to exclude it.
+      `,
+
+      [Guide.INFO_PAGE_TITLE]: 'Multiple Guide Results Found',
+      [Guide.INFO_PAGE_DESC]: stripIndent`
+        We found multiple matches for your search query.
+
+        You could try using the ${inlineCode(
+          'only'
+        )} flag, to limit the results:
+
+        • ${command('guide <query> --only=vue', true)}
+        • ${command('guide <query> --only=vuex', true)}
+        • ${command('guide <query> --only=vue-router', true)}
 
         Alternatively, prefix a term with ${inlineCode('-')} to exclude it.
       `,

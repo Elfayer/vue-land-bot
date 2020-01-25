@@ -34,7 +34,7 @@ export default class DocService extends Service {
   /**
    * Where are the docs/guide definition files stored?
    */
-  static DOC_DEFINITION_PATH = join(PATHS.DATA, 'doc')
+  static GUIDE_DEFINITION_PATH = join(PATHS.DATA, 'docs')
 
   /**
    * Where are the git submodules for the official repositories stored?
@@ -42,57 +42,72 @@ export default class DocService extends Service {
   static GIT_SUBMODULE_PATH = join(PATHS.BASE, 'packages')
 
   /**
-   * The Lunr search index.
+   * The API/guide entries.
    */
-  lunr: Lunr.Index
-
-  /**
-   * The docs/guide entries.
-   */
-  private docs: { [k: string]: any[] }
-
-  /**
-   * The API entries.
-   */
-  private apis: APIItem[] = []
-
-  /**
-   * The docs/guide alias map.
-   */
-  private docAliases: { [k: string]: string[] } = {}
-
-  /**
-   * The API alias map.
-   */
-  private apiAliases: { [k: string]: string[] } = {}
-
-  async init() {
-    for (const api of Object.values(KnownAPIs)) {
-      this.loadAPI(api)
-    }
-
-    this.createIndex()
-
-    this.log('Initialised.')
+  private entities: Entities = {
+    [EntityType.API]: [],
+    [EntityType.GUIDE]: [],
   }
 
   /**
-   * Load and parse an API definition file.
+   * The alias maps.
    */
-  loadAPI(api: KnownAPIs) {
-    let data: APIDocument
-    try {
-      data = HJSON.parse(
-        readFileSync(
-          join(DocService.API_DEFINITION_PATH, `${api}.hjson`),
-          'utf8'
-        )
+  private aliases: Aliases = {
+    [EntityType.API]: {},
+    [EntityType.GUIDE]: {},
+  }
+
+  /**
+   * The Lunr search indexes.
+   */
+  private indexes: Indexes = {
+    [EntityType.API]: null,
+    [EntityType.GUIDE]: null,
+  }
+
+  async init() {
+    for (const api of Object.values(KnownAPIs)) {
+      this.entities[EntityType.API] = this.entities[EntityType.API].concat(
+        ...this.loadAPI(api)
       )
-      this.parseAPI(api, data)
-      this.log(`Loaded API docs for ${api}.`)
+    }
+
+    for (const guide of Object.values(KnownGuides)) {
+      this.entities[EntityType.GUIDE] = this.entities[EntityType.GUIDE].concat(
+        ...this.loadGuide(guide)
+      )
+    }
+
+    this.createIndexes()
+    this.log('Initialised.')
+  }
+
+  private loadAPI(api: KnownAPIs) {
+    return this.loadEntity(api, EntityType.API) as APIItem[]
+  }
+
+  private loadGuide(doc: KnownGuides) {
+    return this.loadEntity(doc, EntityType.GUIDE) as GuideItem[]
+  }
+
+  /**
+   * Load and parse an API/ or docs/guide definition file.
+   */
+  private loadEntity(entity: KnownAPIs | KnownGuides, type: EntityType) {
+    let data: APIDocument | GuideDocument
+    const path =
+      type === EntityType.API
+        ? DocService.API_DEFINITION_PATH
+        : DocService.GUIDE_DEFINITION_PATH
+
+    try {
+      data = HJSON.parse(readFileSync(join(path, `${entity}.hjson`), 'utf8'))
+      const parsed = this.parseEntity(entity, type, data)
+      this.log(`Loaded ${type} docs for ${entity}.`)
+      return parsed
     } catch (error) {
       this.error(
-        `Couldn't load API docs for ${api}, is the file corrupted?`,
+        `Couldn't load ${type} docs for ${entity}, is the file corrupted?`,
         error.message
       )
     }
@@ -101,8 +116,12 @@ export default class DocService extends Service {
   /*
     Flatten and extend the data and build the alias map.
   */
-  parseAPI(api: KnownAPIs, data: APIDocument) {
-    let apis: APIItem[] = []
+  private parseEntity(
+    api: KnownAPIs | KnownGuides,
+    type: EntityType,
+    data: APIDocument | GuideDocument
+  ) {
+    let entities: APIItem[] | GuideItem[] = []
 
     for (const category of data.categories) {
       for (let item of category.items) {
@@ -115,87 +134,52 @@ export default class DocService extends Service {
         if (item.keywords) {
           /*
             NOTE: Lunr does not seem to support searching inside arrays or
-            sub-properties so we just build a string. ¯\_(ツ)_/¯
+            sub-properties, so we just build a string. ¯\_(ツ)_/¯
           */
           item.keywords = ((item.keywords as unknown) as string[]).join(' ')
         }
 
         if (item.aliases) {
           for (const alias of item.aliases) {
-            if (!(alias in this.apiAliases)) {
-              this.apiAliases[alias] = []
+            if (!(alias in this.aliases[type])) {
+              this.aliases[type][alias] = []
             }
 
-            this.apiAliases[alias].push(item.uuid)
+            this.aliases[type][alias].push(item.uuid)
           }
         }
 
-        apis.push(item)
+        entities.push(item)
       }
     }
 
-    this.apis.push(...apis)
+    return entities
   }
 
   /**
-   *
+   * Look something up in one/all of our APIs.
    */
-  loadDoc(doc: KnownDocs) {}
-
-  /**
-   * Look something up in one/all of our APIs. Uses Lunr to search through the
-   * title, description and keywords (unless the query matches any aliases).
-   */
-  async lookupAPI(guild: KlasaGuild, query: string, api?: KnownAPIs) {
-    if (!this.client.settings.get(APISettings.Client.ENABLED)) {
-      throw new LookupDisabledError(
-        guild.language.get(Language.ERROR_CLIENT_DISABLED)
-      )
-    }
-
-    if (!guild.settings.get(APISettings.Guild.ENABLED)) {
-      throw new LookupDisabledError(
-        guild.language.get(Language.ERROR_GUILD_DISABLED, [guild.name])
-      )
-    }
-
-    try {
-      const aliasMatch = this.apiAliases[query]
-      if (Array.isArray(aliasMatch) && aliasMatch.length) {
-        return this.apis.filter(api => aliasMatch.includes(api.uuid))
-      }
-
-      return this.lunr.search(query).map(result => {
-        return this.apis.find(api => api.uuid === result.ref)
-      })
-    } catch (error) {
-      console.error(error)
-      return []
-    }
+  lookupAPI(guild: KlasaGuild, query: string, filter?: string) {
+    return this.lookup(guild, query, EntityType.API, filter as KnownAPIs)
   }
 
   /**
-   * Create the search index.
+   * Look something up in one of our guides.
    */
-  private createIndex() {
-    const apis = this.apis
-
-    this.lunr = Lunr(function() {
-      this.ref('uuid')
-      this.field('title')
-      this.field('keywords')
-      this.field('description')
-
-      for (const api of apis) {
-        this.add(api)
-      }
-    })
+  lookupGuide(guild: KlasaGuild, query: string, filter?: string) {
+    return this.lookup(guild, query, EntityType.GUIDE, filter as KnownGuides)
   }
 
   /**
-   * Look something up in one of our docs/guides.
+   * Look up an entity. Uses Lunr to search through the title, description
+   * and keywords (unless the query matches any aliases).
    */
-  async lookupDocs(guild: KlasaGuild, query: string, api: KnownDocs) {
+  private lookup(
+    guild: KlasaGuild,
+    query: string,
+    type: EntityType,
+    filter?: KnownGuides | KnownAPIs
+  ) {
     if (!this.client.settings.get(DocSettings.Client.ENABLED)) {
       throw new LookupDisabledError(
         guild.language.get(Language.ERROR_CLIENT_DISABLED)
@@ -208,15 +192,78 @@ export default class DocService extends Service {
       )
     }
 
-    // do look up
+    try {
+      const aliasMatch = this.aliases[type][query]
+
+      if (Array.isArray(aliasMatch) && aliasMatch.length) {
+        console.debug('Found aliases, just returning those.')
+        return this.entities[type].filter(api => aliasMatch.includes(api.uuid))
+      }
+
+      return this.indexes[type]
+        .search(query)
+        .map(result => {
+          return this.entities[type].find(api => api.uuid === result.ref)
+        })
+        .filter(entity => {
+          this.debug(`Checking if ${entity.api} === filter ${filter}.`)
+          return filter ? entity.api === filter : true
+        })
+    } catch (error) {
+      console.error(error)
+      return []
+    }
   }
 
   /**
-   * Get all API items, optionally filtered down to a specific api.
+   * Create the search index.
+   */
+  private createIndexes() {
+    const apis = this.entities[EntityType.API]
+    const guides = this.entities[EntityType.GUIDE]
+
+    this.indexes[EntityType.API] = Lunr(function() {
+      this.ref('uuid')
+      this.field('title')
+      this.field('keywords')
+      this.field('description')
+
+      for (const api of apis) {
+        this.add(api)
+      }
+    })
+
+    this.indexes[EntityType.GUIDE] = Lunr(function() {
+      this.ref('uuid')
+      this.field('title')
+      this.field('keywords')
+      this.field('description')
+
+      for (const guide of guides) {
+        this.add(guide)
+      }
+    })
+  }
+
+  /**
+   * Get all API items, optionally filtered down to a specific API.
    */
   getAPIs(only?: string) {
-    return this.apis.filter(({ api }) => {
+    return this.entities[EntityType.API].filter(({ api }) => {
       if (Object.values(KnownAPIs).includes(only as KnownAPIs)) {
+        return api === only
+      }
+
+      return true
+    })
+  }
+
+  /**
+   * Get all guide items, optionally filtered down to a specific API.
+   */
+  getGuides(only?: string) {
+    return this.entities[EntityType.GUIDE].filter(({ api }) => {
+      if (Object.values(KnownGuides).includes(only as KnownGuides)) {
         return api === only
       }
 
@@ -251,14 +298,19 @@ export enum KnownAPIs {
 /**
  * Represents which docs/guides we have/can serve documentation for.
  */
-export enum KnownDocs {
+export enum KnownGuides {
   VUE = 'vue',
 }
 
 /**
- * Represents an entire API document.
+ * Represents an entire API document (i.e. the raw HJSON).
  */
 export type APIDocument = { categories: APICategory[] }
+
+/**
+ * Represents an entire guide document (i.e. the raw HJSON).
+ */
+export type GuideDocument = { categories: GuideCategory[] }
 
 /**
  * Represents an API category.
@@ -269,40 +321,65 @@ export interface APICategory {
 }
 
 /**
+ * Represents a guide category.
+ */
+export interface GuideCategory {
+  title: string
+  items: GuideItem[]
+}
+
+/**
  * Represents an API item.
  */
 export interface APIItem {
   api: string
-  uuid: string
-  title: string
   category: string
-  status?: APIStatus
-  description?: string
-  keywords: string
-  props?: string[]
+  description: string
+  link: string
+  title: string
+  uuid: string
+
   aliases?: string[]
   arguments?: APIArguments
-  returns?: string
-  type?: string
   default?: string
-  link?: string
-  version?: string
+  keywords?: string
+  props?: string[]
+  returns?: string
+  see?: SeeAlsoLink[]
+  status?: APIStatus
+  type?: string
   usage?: APIUsage
-  see?: APILink[]
+  version?: string
+}
+
+/**
+ * Represents a guide item.
+ */
+export interface GuideItem {
+  api: string
+  category: string
+  description: string
+  link: string
+  title: string
+  uuid: string
+
+  aliases?: string[]
+  keywords?: string
+  see?: SeeAlsoLink[]
 }
 
 /**
  * Represents an API item usage example.
  */
 export interface APIUsage {
-  lang: string
   code: string
+  lang: string
 }
 
 /**
- * Represents an API item "see also" link.
+ * Represents a "see also" link.
  */
-export interface APILink {
+export interface SeeAlsoLink {
   text: string
   link: string
 }
@@ -316,3 +393,26 @@ export type APIStatus = 'deprecated' | 'removed'
  * Represents an API item's method signature(s).
  */
 export type APIArguments = string[] | string[][]
+
+/**
+ * Represents the different types of doc-related entities which the DocService manages.
+ */
+enum EntityType {
+  API = 'api',
+  GUIDE = 'guide',
+}
+
+type Aliases = {
+  [EntityType.API]: { [k: string]: string[] }
+  [EntityType.GUIDE]: { [k: string]: string[] }
+}
+
+type Entities = {
+  [EntityType.API]: APIItem[]
+  [EntityType.GUIDE]: GuideItem[]
+}
+
+type Indexes = {
+  [EntityType.API]: Lunr.Index
+  [EntityType.GUIDE]: Lunr.Index
+}

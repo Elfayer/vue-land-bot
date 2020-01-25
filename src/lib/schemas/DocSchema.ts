@@ -1,6 +1,6 @@
 import { Client } from 'klasa'
 
-import { KnownDocs } from '@services/DocService'
+import { KnownGuides } from '@services/DocService'
 
 /**
  * Extend the client-specific schema with settings relating to docs/guide lookups.
