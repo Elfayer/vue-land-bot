@@ -54,7 +54,7 @@
         }
         {
           title: Class & Style Bindings
-          alises: [
+          aliases: [
             classes
           ]
           link: https://vuejs.org/v2/guide/class-and-style.html
