@@ -5,14 +5,12 @@ import {
   Command,
   CommandStore,
   ReactionHandler,
-  util,
 } from 'klasa'
 import { MessageEmbed, MessageAttachment } from 'discord.js'
 
 import DocService, { APIItem, LookupDisabledError } from '@services/DocService'
 import createVueTemplate from '@templates/VueTemplate'
 import { excerpt, inlineCode, blockCode } from '@utilities/miscellaneous'
-import { APISettings } from '@settings/APISettings'
 import { I18n } from '@libraries/types/I18n'
 
 const {
