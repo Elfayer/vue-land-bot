@@ -46,7 +46,11 @@
         }
         {
           title: devtools
-          description: Configure whether to allow vue-devtools inspection.
+          description: '''
+            Configure whether to allow vue-devtools inspection.
+
+            **NOTE:** Defaults to `false` in production.
+          '''
           type: boolean
           aliases: [
             devtools
@@ -55,7 +59,7 @@
             development
             tools
           ]
-          default: 'true (false in production)'
+          default: 'true'
           link: https://vuejs.org/v2/api/#devtools
           see: [
             {
