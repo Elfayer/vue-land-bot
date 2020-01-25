@@ -73,7 +73,11 @@ export default class APICommand extends Command {
    */
   async search(message: KlasaMessage, query?: string) {
     try {
-      const apis = await this.service.lookupAPI(message.guild, query)
+      const apis = await this.service.lookupAPI(
+        message.guild,
+        query,
+        message.flagArgs.only
+      )
       const response = this.buildResponse(message, apis, query)
       return this.sendResponse(message, response)
     } catch (error) {
