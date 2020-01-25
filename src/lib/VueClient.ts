@@ -14,6 +14,7 @@ if (!BOT_TOKEN) {
   throw new Error('[VueClient] BOT_TOKEN must be defined.')
 }
 
+import '@schemas/MiscSchema'
 import '@schemas/ReleaseSchema'
 
 /**

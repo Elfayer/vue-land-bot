@@ -98,3 +98,44 @@ export const ROLES = Object.freeze(
         BOT_DEVELOPERS: '-1',
       }
 )
+
+/**
+ * The default statuses. The bot will automatically cycle through them.
+ */
+export const STATUSES = [
+  ['PLAYING', 'with the Composition API 💖'],
+  ['PLAYING', 'with the the TypeScript nightly build'],
+  ['PLAYING', 'with Webpack config files'],
+  ['PLAYING', 'with fractals'],
+  ['PLAYING', 'with natural language processing'],
+  ['PLAYING', 'with machine learning'],
+  ['PLAYING', 'games with Akryum'],
+  ['LISTENING', 'to workout music with Dobromir 💪'],
+  ['LISTENING', 'to dial-up modems 🎵'],
+  ['LISTENING', 'to the gentle hum of the data center 🎵'],
+  ['LISTENING', 'to gamma rays 🎵'],
+  ['LISTENING', 'to algorithmic music 🎵'],
+  ['LISTENING', 'to FullStack Radio 📻'],
+  ['LISTENING', 'to Syntax FM 📻'],
+  ['LISTENING', 'to CodePen Radio 📻'],
+  ['LISTENING', 'to JavaScript Jabber 📻'],
+  ['LISTENING', 'to Frontend Happy Hour 📻'],
+  ['WATCHING', 'dotJS talks ⏯️'],
+  ['WATCHING', 'JSConf talks ⏯️'],
+  ['WATCHING', 'Frontend Love talks ⏯️'],
+  ['WATCHING', 'YGLF talks ⏯️'],
+  ['WATCHING', 'for spammers 👀'],
+  ['WATCHING', 'for gusto tweets 👀'],
+  ['WATCHING', 'for evan tweets 👀'],
+  ['WATCHING', 'for Vue 3 announcements 👀'],
+  ['WATCHING', 'anime with evan'],
+  ['WATCHING', 'Macross 😎'],
+  ['WATCHING', 'Level E 😎'],
+  ['WATCHING', 'Kill la Kill 😎'],
+  ['WATCHING', "JoJo's Bizarre Adventure 😎"],
+  ['WATCHING', 'Evangelion 😎'],
+  ['WATCHING', 'Dragon Ball 😎'],
+  ['WATCHING', 'Cowboy Bebop 😎'],
+  ['WATCHING', 'Blade Runner 😎'],
+  ['WATCHING', 'Animatrix 😎'],
+]
