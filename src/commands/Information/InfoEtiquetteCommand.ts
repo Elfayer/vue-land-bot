@@ -7,7 +7,7 @@ import {
 
 import createVueTemplate from '@templates/VueTemplate'
 import InfoCommand from '@structures/InfoCommand'
-import { I18n } from '@libraries/types/I18n'
+import { I18n, EtiquetteSections } from '@libraries/types/I18n'
 
 const {
   Cmd: {
@@ -30,7 +30,7 @@ export default class InfoEtiquetteCommand extends InfoCommand {
   createDisplay(message: KlasaMessage): RichDisplay {
     const display = new RichDisplay(createVueTemplate(message))
 
-    for (const section of Object.values(Language.SectionNames)) {
+    for (const section of Object.values(EtiquetteSections)) {
       display.addPage(
         createVueTemplate(message)
           .setTitle(message.language.get(Language[`TITLE_${section}`]))

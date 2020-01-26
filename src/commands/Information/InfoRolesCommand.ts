@@ -5,6 +5,7 @@ import InfoCommand from '@structures/InfoCommand'
 import { ROLES } from '@libraries/constants'
 import { roleMention } from '@utilities/miscellaneous'
 import { I18n } from '@libraries/types/I18n'
+import { ROLES_NAMES, ROLES_FRIENDLY_NAMES } from '@libraries/types/Roles'
 
 const {
   Cmd: {
@@ -29,18 +30,12 @@ export default class InfoRolesCommand extends InfoCommand {
       createVueTemplate(message).setTitle(message.language.get(Language.TITLE))
     )
 
-    for (const role of Object.values(Language.ROLES_NAMES)) {
-      console.log(
-        isDM,
-        Language.ROLES_FRIENDLY_NAMES[role],
-        roleMention(ROLES[role])
-      )
+    for (const role of Object.values(ROLES_NAMES)) {
+      console.log(isDM, ROLES_FRIENDLY_NAMES[role], roleMention(ROLES[role]))
       display.addPage(
         createVueTemplate(message).setDescription(
           message.language.get(Language[`DESC_${role}`], [
-            isDM
-              ? Language.ROLES_FRIENDLY_NAMES[role]
-              : roleMention(ROLES[role]),
+            isDM ? ROLES_FRIENDLY_NAMES[role] : roleMention(ROLES[role]),
           ])
         )
       )

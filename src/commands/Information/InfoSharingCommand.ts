@@ -3,7 +3,7 @@ import { KlasaMessage, CommandStore, RichDisplay } from 'klasa'
 import createVueTemplate from '@templates/VueTemplate'
 import InfoCommand from '@structures/InfoCommand'
 import { URLS } from '@libraries/constants'
-import { I18n } from '@libraries/types/I18n'
+import { I18n, SharingSections } from '@libraries/types/I18n'
 
 const {
   Cmd: {
@@ -26,7 +26,7 @@ export default class InfoSharingCommand extends InfoCommand {
   createDisplay(message: KlasaMessage): RichDisplay {
     const display = new RichDisplay(createVueTemplate(message))
 
-    for (const section of Object.values(Language.SectionNames)) {
+    for (const section of Object.values(SharingSections)) {
       display.addPage(
         createVueTemplate(message)
           .setTitle(message.language.get(Language[`TITLE_${section}`]))
