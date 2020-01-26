@@ -1,5 +1,7 @@
 /**
  * Represents I18n language keys.
+ *
+ * The rationale for doing this is that an invalid key is now a type error.
  */
 export const I18n = {
   /**
@@ -216,3 +218,10 @@ export const SharingSections = {
   CODEPEN: 'CODEPEN',
   GIST: 'GIST',
 } as const
+
+type I18nKey = DeepAllValues<typeof I18n, string>
+type I18nValue = string | string[] | ((...args: any[]) => string | string[])
+type Helper<T, U> = {
+  [K in keyof T]: T[K] extends U ? T[K] : DeepAllValues<T[K], U>
+}
+type DeepAllValues<T, U> = Helper<T, U>[keyof Helper<T, U>]

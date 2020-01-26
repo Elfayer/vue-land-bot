@@ -2,7 +2,7 @@ import { Language, LanguageStore, LanguageOptions, util } from 'klasa'
 import { stripIndent, oneLine } from 'common-tags'
 
 import { command, inlineCode } from '@libraries/utilities/miscellaneous'
-import { I18n } from '@libraries/types/I18n'
+import { I18n, Translations } from '@libraries/types/I18n'
 const {
   Cmd: {
     Info: { Code, Roles, CoC, DRY, Etiquette, Sharing },
@@ -10,10 +10,13 @@ const {
     RFC,
   },
   Services: { Doc: DocService },
+  Tasks,
   Misc,
 } = I18n
 
 export default class LanguageEnUS extends Language {
+  language: Translations
+
   constructor(
     store: LanguageStore,
     file: string[],
@@ -25,9 +28,7 @@ export default class LanguageEnUS extends Language {
     this.language = {
       DEFAULT: key => `UNLOCALISED_${key}_EN_US`,
 
-      /**
-       * Code command section.
-       */
+      /* #region Commands - Code */
 
       [Code.DESC]: 'Show code highlighting tips.',
       [Code.HELP]: stripIndent`
@@ -50,12 +51,13 @@ export default class LanguageEnUS extends Language {
         \\\`\\\`\\\`
       `,
 
-      /**
-       * Roles command section.
-       */
+      /* #endregion */
+
+      /* #region Command - Role */
 
       [Roles.DESC]: "View a description of Vue Land's roles.",
       [Roles.TITLE]: 'Vue Land Roles',
+      [Roles.HELP]: 'No extended help available.',
       [Roles.DESC_CORE_TEAM]: role => oneLine`
         The ${role} are the Vue.js developers. They mostly frequent the #vue2-internals and #vue3-discussions channels.
       `,
@@ -75,12 +77,13 @@ export default class LanguageEnUS extends Language {
         The ${role} role consists of people who have boosted the server with their Discord Nitro membership (thanks)!
       `,
 
-      /**
-       * Code of Conduct command section.
-       */
+      /* #endregion */
+
+      /* #region Command - CoC */
 
       [CoC.DESC]: 'Display the Code of Conduct.',
       [CoC.TITLE]: 'VueJS Code of Conduct',
+      [CoC.HELP]: 'No extended help available.',
       [CoC.TITLE_PLEDGE]: 'Our Pledge',
       [CoC.DESC_PLEDGE]: oneLine`
         In the interest of fostering an open and welcoming environment, we as contributors and maintainers pledge to
@@ -140,11 +143,12 @@ export default class LanguageEnUS extends Language {
         This Code of Conduct is adapted from the [Contributor Covenant, version 1.4](https://www.contributor-covenant.org/version/1/4/code-of-conduct.html)
       `,
 
-      /**
-       * Etiquette command section.
-       */
+      /* #endregion */
+
+      /* #region Command - Etiquette */
 
       [Etiquette.DESC]: 'Explain the etiquette regarding asking for help.',
+      [Etiquette.HELP]: 'No extended help available.',
       [Etiquette.TITLE_PINGING]: 'Pinging',
       [Etiquette.DESC_PINGING]: stripIndent`
         You don't need to \`@\` someone who responded to you after every message.
@@ -190,10 +194,13 @@ export default class LanguageEnUS extends Language {
         It'll be much easier to help if you do!
       `,
 
-      /**
-       * Sharing command section.
-       */
+      /* #endregion */
 
+      /* #region Command - Sharing */
+
+      [Sharing.DESC]:
+        'View information about how to share your code with others.',
+      [Sharing.HELP]: 'No extended help available.',
       [Sharing.TITLE_JSFIDDLE]: 'JSFiddle',
       [Sharing.DESC_JSFIDDLE]: stripIndent`
         JSFiddle is a great choice for sharing a problem or showing off a demo, so long as you aren't using \`vue-cli\`.
@@ -242,12 +249,13 @@ export default class LanguageEnUS extends Language {
           • Multiple files
       `,
 
-      /**
-       * DRY command section.
-       */
+      /* #endregion */
+
+      /* #region Command - DRY */
 
       [DRY.DESC]: 'Explain etiquette relating to copy-pasting messages.',
       [DRY.TITLE]: "Don't Repeat Yourself",
+      [DRY.HELP]: 'No extended help available.',
       [DRY.BODY]: codeHelpChannel => stripIndent`
         When you copy-paste your question in multiple channels, it just leads to duplicated efforts.
 
@@ -258,10 +266,11 @@ export default class LanguageEnUS extends Language {
         If you're not sure where to post your question, just ask. Otherwise, ${codeHelpChannel} is always a safe bet!
       `,
 
-      /**
-       * RFC command section.
-       */
+      /* #endregion */
 
+      /* #region Command - RFC */
+
+      [RFC.HELP]: 'No extended help available.',
       [RFC.DESC]: oneLine`
         Interact with VueJS Requests for Comments.
       `,
@@ -330,10 +339,12 @@ export default class LanguageEnUS extends Language {
       `,
       [RFC.MERGED_AT]: `Merged`,
 
-      /**
-       * Documentation command section.
-       */
+      /* #endregion */
 
+      /* #region Command - API */
+
+      [API.DESC]: 'Look up API documentation.',
+      [API.HELP]: 'No extended help available.',
       [API.INFO_PAGE_TITLE]: 'Multiple API Results Found',
       [API.INFO_PAGE_DESC]: stripIndent`
         We found multiple matches for your search query.
@@ -349,6 +360,12 @@ export default class LanguageEnUS extends Language {
         Alternatively, prefix a term with ${inlineCode('-')} to exclude it.
       `,
 
+      /* #endregion */
+
+      /* #region Command - Guide */
+
+      [Guide.DESC]: 'Look up guide documentation.',
+      [Guide.HELP]: 'No extended help available.',
       [Guide.INFO_PAGE_TITLE]: 'Multiple Guide Results Found',
       [Guide.INFO_PAGE_DESC]: stripIndent`
         We found multiple matches for your search query.
@@ -364,9 +381,9 @@ export default class LanguageEnUS extends Language {
         Alternatively, prefix a term with ${inlineCode('-')} to exclude it.
       `,
 
-      /**
-       * Services section.
-       */
+      /* #endregion */
+
+      /* #region Service - Doc */
 
       [DocService.ERROR_CLIENT_DISABLED]: oneLine`
         Sorry, lookups are currently globally disabled.
@@ -377,9 +394,16 @@ export default class LanguageEnUS extends Language {
         Sorry, lookups are disabled for ${guild}.
       `,
 
-      /**
-       * Miscellaneous section.
-       */
+      /* #endregion */
+
+      /* #region Task - Release */
+
+      [Tasks.Release
+        .NO_CHANNEL_WARNING]: `Release notifications are enabled but no channel is set!`,
+
+      /* #endregion */
+
+      /* #region Miscellaneous */
 
       [Misc.TITLE_NO_MATCHES]: 'No Results Found',
       [Misc.DESC_NO_MATCHES]: (cmd, query) => stripIndent`
@@ -424,6 +448,8 @@ export default class LanguageEnUS extends Language {
       [Misc.LABELS]: 'Labels',
       [Misc.COMMENTS]: 'Comments',
       [Misc.NONE]: 'None',
+
+      /* #endregion */
     }
   }
 
