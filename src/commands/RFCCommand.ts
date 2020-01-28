@@ -1,0 +1,330 @@
+import {
+  KlasaMessage,
+  Possible,
+  RichDisplay,
+  Command,
+  CommandStore,
+  ReactionHandler,
+} from 'klasa'
+import { MessageEmbed, MessageAttachment } from 'discord.js'
+import { PullsListResponseItem } from '@octokit/rest'
+
+import RFCService, {
+  RFCFilter,
+  PullRequestState,
+} from '@base/services/RFCService'
+import createVueTemplate from '@templates/VueTemplate'
+import { excerpt } from '@utilities/miscellaneous'
+import { RFCSettings } from '@settings/RFCSettings'
+import { I18n } from '@libraries/types/I18n'
+
+const {
+  Cmd: { RFC: Language },
+  Misc,
+} = I18n
+
+const EMPTY_QUERY = Symbol('EMPTY_QUERY')
+
+export default class RFCCommand extends Command {
+  service: RFCService
+
+  constructor(store: CommandStore, file: string[], directory: string) {
+    super(store, file, directory, {
+      name: 'rfc',
+      usage: '(query:query) [...]',
+      runIn: ['text'],
+      description: language => language.get(Language.DESC),
+      extendedHelp: language => language.get(Language.HELP),
+    })
+
+    this.service = this.client.services.get('RFCService') as RFCService
+
+    this.customizeResponse('query', message =>
+      message.language.get(Language.ARGUMENT_QUERY, [
+        this.client.options.prefix,
+      ])
+    )
+
+    this.createCustomResolver(
+      'query',
+      (
+        argument: string,
+        possible: Possible,
+        message: KlasaMessage,
+        [subcommand]: any[]
+      ) => {
+        // No query argument is required with these flags.
+        if (message.flagArgs.dump || message.flagArgs.refresh) {
+          return undefined
+        }
+
+        // No query argument is required if any RFCFilter flags are provided.
+        if (
+          Object.keys(message.flagArgs).some(flag =>
+            Object.values(RFCFilter).includes(flag as RFCFilter)
+          )
+        ) {
+          return undefined
+        }
+
+        // The query is required - run the argument as a string.
+        return this.client.arguments
+          .get('string')!
+          .run(argument, possible, message)
+      }
+    )
+  }
+
+  /**
+   * Force-refresh the RFC cache, requires `ADMINISTRATOR` permission.
+   */
+  async refresh(message: KlasaMessage) {
+    if (!message.member?.hasPermission('ADMINISTRATOR')) {
+      throw message.language.get(Misc.ERROR_PERM_USER, [['`ADMINISTRATOR`']])
+    }
+
+    try {
+      await this.service.cacheRFCs(true)
+      return message.sendLocale(Language.REFRESH_SUCCESS, [
+        this.service.getCacheTTLHuman(),
+      ])
+    } catch (error) {
+      return message.sendLocale(Language.REFRESH_FAILURE)
+    }
+  }
+
+  /**
+   * Delegates to dump, refresh or search depending on flagArgs.
+   */
+  run(message: KlasaMessage, [query]: [string]) {
+    if (message.flagArgs.dump) {
+      return this.dump(message)
+    } else if (message.flagArgs.refresh) {
+      return this.refresh(message)
+    } else {
+      this.search(message, query)
+    }
+  }
+
+  /**
+   * Search for RFCs via the fuzzy searcher, and/or via filter flagArgs.
+   *
+   * The difference is that the fuzzy searcher is, well, fuzzy, whereas
+   * the filters use `Array.prototype.includes`.
+   *
+   * The query is optional (but only if at least one filter flagArg is present).
+   */
+  async search(message: KlasaMessage, query?: string) {
+    try {
+      const rfcs = await this.applyFilterFlags(
+        message,
+        typeof query === 'undefined' ? EMPTY_QUERY : query
+      )
+      const response = this.buildResponse(message, rfcs)
+      return this.sendResponse(message, response)
+    } catch (error) {
+      console.error(error)
+      return message.sendMessage(error.message)
+    }
+  }
+
+  /**
+   * Apply any of the filter flagArgs to the fuzzy search resultset.
+   *
+   * If there is no search query then the resultset is set to all RFCs.
+   *
+   * For every active filter, the resultset will keep being narrowed down for each.
+   *
+   * @see RFCFilter
+   */
+  async applyFilterFlags(
+    message: KlasaMessage,
+    query?: string | Symbol
+  ): Promise<PullsListResponseItem[]> {
+    let results: PullsListResponseItem[]
+
+    // The query is empty, so we'll start with *all* RFCs and go from there.
+    if (query === EMPTY_QUERY) {
+      results = await this.service.getAllRFCs()
+    } else {
+      query = query as string
+
+      // We are looking for a specific RFC by its number.
+      if (query.startsWith('#') || !isNaN(parseInt(query))) {
+        const result = await this.service.findBy(RFCFilter.ID, query)
+        return result
+      } else {
+        results = await this.service.findFuzzy(query)
+      }
+    }
+
+    const filtersToApply = Object.keys(RFCFilter).filter(
+      filter => RFCFilter[filter] in message.flagArgs
+    )
+
+    for (const filterKey of filtersToApply) {
+      const filterName = RFCFilter[filterKey]
+      const filterValue = message.flagArgs[filterName]
+
+      results = await this.service.findBy(filterName, filterValue, results)
+    }
+
+    return results
+  }
+
+  /**
+   * Dump the RFC-related settings, primarily for debugging purposes.
+   */
+  dump(message: KlasaMessage) {
+    if (!message.member?.hasPermission('ADMINISTRATOR')) {
+      throw message.language.get(Misc.ERROR_PERM_USER, [['`ADMINISTRATOR`']])
+    }
+
+    if (
+      !message.guild.members
+        .get(this.client.user.id)
+        .hasPermission('ATTACH_FILES')
+    ) {
+      throw message.language.get(Misc.ERROR_PERM_BOT, [['`ATTACH_FILES`']])
+    }
+
+    try {
+      const data = JSON.stringify(
+        this.client.settings.get(RFCSettings.Client.CACHE),
+        null,
+        Boolean(message.flagArgs.pretty) ? 2 : 0
+      )
+
+      return message.sendMessage(
+        new MessageAttachment(Buffer.from(data, 'utf8'), 'rfcs.json')
+      )
+    } catch (error) {
+      console.error(error)
+      return message.sendLocale(Misc.ERROR_GENERIC)
+    }
+  }
+
+  /**
+   * Send the response MessageEmbed or run the response RichDisplay.
+   */
+  private sendResponse(
+    message: KlasaMessage,
+    response: MessageEmbed | RichDisplay
+  ): Promise<KlasaMessage | ReactionHandler> {
+    if (response instanceof MessageEmbed) {
+      return message.sendEmbed(response)
+    }
+
+    return response.run(message, {
+      filter(_reaction, user) {
+        return user.id === message.author.id
+      },
+    })
+  }
+
+  /**
+   * Build the response based on the passed RFC(s).
+   */
+  private buildResponse(
+    message: KlasaMessage,
+    rfcs: PullsListResponseItem[]
+  ): MessageEmbed | RichDisplay {
+    const template = createVueTemplate(message)
+
+    if (rfcs.length === 0) {
+      return template
+        .setTitle(message.language.get('RFCS_NO_MATCHS_TITLE'))
+        .setDescription(message.language.get('RFCS_NO_MATCHS_DESCRIPTION'))
+    } else if (rfcs.length === 1) {
+      return this.buildRFCPage(rfcs[0], template, message)
+    }
+
+    const display = new RichDisplay(template)
+
+    for (const rfc of rfcs) {
+      display.addPage((embed: MessageEmbed) =>
+        this.buildRFCPage(rfc, embed, message)
+      )
+    }
+
+    display.setInfoPage(
+      createVueTemplate(message)
+        .setTitle(message.language.get('RFCS_INFO_PAGE_TITLE'))
+        .setDescription(message.language.get('RFCS_INFO_PAGE_DESCRIPTION'))
+    )
+
+    return display
+  }
+
+  /**
+   * Build a single RFC page.
+   */
+  private buildRFCPage(
+    rfc: PullsListResponseItem,
+    embed: MessageEmbed,
+    message: KlasaMessage
+  ) {
+    embed
+      .setURL(rfc.html_url)
+      .setTitle(
+        message.language.get(Language.TITLE_EMBED, rfc.number, rfc.title)
+      )
+
+    if (!message.flagArgs.short) {
+      embed
+        .setDescription(
+          message.flagArgs.excerpt
+            ? excerpt(rfc.body, 127)
+            : rfc.body.substring(0, 2040)
+        )
+        .addField(
+          message.language.get(Misc.AUTHOR),
+          `[${rfc.user.login}](${rfc.user.html_url})`,
+          true
+        )
+        .addField(message.language.get(Misc.STATUS), rfc.state, true)
+
+      embed.addField(
+        message.language.get(Misc.LABELS),
+        rfc.labels.length
+          ? rfc.labels.map(label => label.name).join(', ')
+          : message.language.get(Misc.NONE),
+        true
+      )
+
+      if (rfc.created_at) {
+        embed.addField(
+          message.language.get(Misc.CREATED_AT),
+          new Date(rfc.created_at).toLocaleDateString(),
+          true
+        )
+      }
+
+      if (rfc.updated_at) {
+        embed.addField(
+          message.language.get(Misc.UPDATED_AT),
+          new Date(rfc.updated_at).toLocaleDateString(),
+          true
+        )
+      }
+
+      if (rfc.merged_at) {
+        embed.addField(
+          message.language.get(Language.MERGED_AT),
+          new Date(rfc.merged_at).toLocaleDateString(),
+          true
+        )
+      }
+
+      let labelsWithColours = rfc.labels.filter(label =>
+        ['core', 'vuex', 'router'].includes(label.name)
+      )
+
+      if (labelsWithColours.length) {
+        embed.setColor(`#${labelsWithColours[0].color}`)
+      }
+    }
+
+    return embed
+  }
+}

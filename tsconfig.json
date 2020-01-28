@@ -1,0 +1,44 @@
+{
+  "compilerOptions": {
+    "target": "es2020",
+    "outDir": "./dist",
+    "baseUrl": ".",
+    "sourceMap": true,
+    "module": "CommonJS",
+    "moduleResolution": "Node",
+    "allowSyntheticDefaultImports": true,
+    "types": [
+      "node",
+      "node-fetch",
+      "lunr",
+      "common-tags",
+      "@discordjs/collection",
+      "discord.js",
+      "klasa"
+    ],
+    "paths": {
+      "@base/*": ["src/*"],
+      "@arguments/*": ["src/arguments/*"],
+      "@commands/*": ["src/commands/*"],
+      "@events/*": ["src/events/*"],
+      "@extendables/*": ["src/extendables/*"],
+      "@finalizers/*": ["src/finalizers/*"],
+      "@inhibitors/*": ["src/inhibitors/*"],
+      "@languages/*": ["src/languages/*"],
+      "@monitors/*": ["src/monitors/*"],
+      "@providers/*": ["src/providers/*"],
+      "@serializers/*": ["src/serializers/*"],
+      "@services/*": ["src/services/*"],
+      "@libraries/*": ["src/lib/*"],
+      "@constants/*": ["src/lib/constants/*"],
+      "@schemas/*": ["src/lib/schemas/*"],
+      "@settings/*": ["src/lib/settings/*"],
+      "@structures/*": ["src/lib/structures/*"],
+      "@templates/*": ["src/lib/templates/*"],
+      "@typings/*": ["src/lib/types/*"],
+      "@utilities/*": ["src/lib/utilities/*"]
+    }
+  },
+  "include": ["./src/**/*", "./data/**/*"],
+  "exclude": ["**/node_modules", "**/dist"]
+}

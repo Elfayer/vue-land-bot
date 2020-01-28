@@ -1,0 +1,374 @@
+{
+  categories: [
+    {
+      title: Store Constructor Options
+      items: [
+        {
+          title: state
+          description: The root state object for the Vuex store.
+          aliases: [
+            state
+          ]
+          type: Object | Function
+          link: https://vuex.vuejs.org/api/#state
+          see: [
+            {
+              text: Guide - State
+              link: https://vuex.vuejs.org/guide/state.html
+            }
+            {
+              text: Guide - Module Reuse
+              link: https://vuex.vuejs.org/guide/modules.html#module-reuse
+            }
+          ]
+        }
+        {
+          title: mutations
+          description: Register mutations on the store.
+          link: https://vuex.vuejs.org/api/#mutations
+          type: '{ [type: string]: Function }'
+          see: [
+            {
+              text: Guide - Mutations
+              link: https://vuex.vuejs.org/guide/mutations.html
+            }
+          ]
+        }
+        {
+          title: actions
+          description: Register actions on the store.
+          link: https://vuex.vuejs.org/api/#actions
+          type: '{ [type: string]: Function }'
+          see: [
+            {
+              text: Guide - Actions
+              link: https://vuex.vuejs.org/guide/actions.html
+            }
+          ]
+        }
+        {
+          title: getters
+          description: Register getters on the store.
+          link: https://vuex.vuejs.org/api/#getters
+          aliases: [
+            getter
+            getters
+          ]
+          type: '{ [key: string]: Function }'
+          see: [
+            {
+              text: Guide - Getters
+              link: https://vuex.vuejs.org/guide/getters.html
+            }
+          ]
+        }
+        {
+          title: modules
+          description: An object containing sub modules to be merged into the store.
+          link: https://vuex.vuejs.org/api/#modules
+          type: Object
+          see: [
+            {
+              text: Guide - Modules
+              link: https://vuex.vuejs.org/guide/modules.html
+            }
+          ]
+        }
+        {
+          title: plugins
+          description: An array of plugin functions to be applied to the store.
+          link: https://vuex.vuejs.org/api/#plugins
+          type: Function[]
+          see: [
+            {
+              text: Guide - Plugins
+              link: https://vuex.vuejs.org/guide/plugins.html
+            }
+          ]
+        }
+        {
+          title: strict
+          description: Force the Vuex store into strict mode. In strict mode any mutations to Vuex state outside of mutation handlers will throw an Error.
+          link: https://vuex.vuejs.org/api/#strict
+          type: Boolean
+          default: 'false'
+          see: [
+            {
+              text: Guide - Strict Mode
+              link: https://vuex.vuejs.org/guide/strict.html
+            }
+          ]
+        }
+        {
+          title: devtools
+          description: Turn the devtools on or off for a particular Vuex instance.
+          link: https://vuex.vuejs.org/api/#devtools
+          aliases: [
+            devtools
+          ]
+          keywords: [
+            development
+            tools
+          ]
+          type: Boolean
+        }
+      ]
+    }
+    {
+      title: Store Instance Properties
+      items: [
+        {
+          title: state
+          description: The root state. Read only.
+          aliases: [
+            state
+          ]
+          link: https://vuex.vuejs.org/api/#state-2
+          type: Object
+        }
+        {
+          title: getters
+          description: Exposes registered getters. Read only.
+          aliases: [
+            getter
+            getters
+          ]
+          link: https://vuex.vuejs.org/api/#getters-2
+          type: Object
+        }
+      ]
+    }
+    {
+      title: Store Instance Methods
+      items: [
+        {
+          title: commit
+          description: Commit a mutation.
+          link: https://vuex.vuejs.org/api/#commit
+          arguments: [
+            [
+              type: string
+              payload?: any
+              options?: Object
+            ]
+            [
+              mutation: Object
+              options?: Object
+            ]
+          ]
+          see: [
+            {
+              text: Guide - Mutations
+              link: https://vuex.vuejs.org/guide/mutations.html
+            }
+          ]
+        }
+        {
+          title: dispatch
+          description: Dispatch an action
+          link: https://vuex.vuejs.org/api/#dispatch
+          arguments: [
+            [
+              type: string
+              payload?: any
+              options: Object
+            ]
+            [
+              action: Object
+              options?: Object
+            ]
+          ]
+          see: [
+            {
+              text: Guide - Actions
+              link: https://vuex.vuejs.org/guide/actions.html
+            }
+          ]
+        }
+        {
+          title: replaceState
+          description: Replace the store's root state. Use this only for state hydration / time-travel purposes.
+          link: https://vuex.vuejs.org/api/#replacestate
+          arguments: [
+            state: Object
+          ]
+        }
+        {
+          title: watch
+          description: Reactively watch `fn`'s return value, and call the `callback` when the value changes.
+          link: https://vuex.vuejs.org/api/#watch
+          aliases: [
+            watch
+          ]
+          arguments: [
+            'fn: Function',
+            'callback: Function'
+            'options?: { deep: boolean, watch: boolean }'
+          ]
+          returns: 'Function'
+        }
+        {
+          title: subscribe
+          description: Subscribe to store mutations. The `handler` is called after every mutation.
+          link: https://vuex.vuejs.org/api/#subscribe
+          arguments: [
+            'handler: Function'
+          ]
+          returns: 'Function'
+        }
+        {
+          title: subscribeAction
+          description: Subscribe to store actions. The `handler` is called for every dispatched action and receives the action descriptor and current store state as arguments.
+          link: https://vuex.vuejs.org/api/#subscribeaction
+          arguments: [
+            handler: Function
+          ]
+          version: 2.5.0+
+          see: [
+            {
+              text: Guide - Plugins
+              link: https://vuex.vuejs.org/guide/plugins.html
+            }
+          ]
+        }
+        {
+          title: registerModule
+          description: Register a dynamic module. Useful with Server Side Rendering.
+          link: https://vuex.vuejs.org/api/#registermodule
+          arguments: [
+            'path: string | string[]'
+            'module: Module'
+            'options?: { preserveState: boolean }'
+          ]
+          see: [
+            {
+              text: Guide - Modules - Dynamic Module Registration
+              link: https://vuex.vuejs.org/guide/modules.html#dynamic-module-registration
+            }
+          ]
+        }
+        {
+          title: unregisterModule
+          description: Unregister a dynamic module.
+          link: https://vuex.vuejs.org/api/#unregistermodule
+          arguments: [
+            'path: string | string[]'
+          ]
+          see: [
+            {
+              text: Guide - Modules - Dynamic Module Registration
+              link: https://vuex.vuejs.org/guide/modules.html#dynamic-module-registration
+            }
+          ]
+        }
+        {
+          title: hotUpdate
+          description: Hot-swap new actions and mutations.
+          keywords: [
+            hot
+            update
+          ]
+          link: https://vuex.vuejs.org/api/#hotupdate
+          arguments: [
+            newOptions: Object
+          ]
+          see: [
+            {
+              text: Guide - Hot Reloading
+              link: https://vuex.vuejs.org/guide/hot-reload.html
+            }
+          ]
+        }
+      ]
+    }
+    {
+      title: Component Binding Helpers
+      items: [
+        {
+          title: mapState
+          description: Create component computed options that return the sub tree of the Vuex store.
+          keywords: [
+            map
+          ]
+          link: https://vuex.vuejs.org/api/#mapstate
+          arguments: [
+            namespace: string
+            map: string[] | { [key: string]: Function }
+          ]
+          returns: Object
+          see: [
+            {
+              text: Guide - State - The `mapState` helper
+              link: https://vuex.vuejs.org/guide/state.html#the-mapstate-helper
+            }
+            {
+              text: Guide - Modules - Binding Helpers with Namespaces
+              link: https://vuex.vuejs.org/guide/modules.html#binding-helpers-with-namespace
+            }
+          ]
+        }
+        {
+          title: mapGetters
+          description: Create component computed options that return the evaluated value of a getter.
+          keywords: [
+            map
+          ]
+          link: https://vuex.vuejs.org/api/#mapgetters
+          arguments: [
+            namespace?: string
+            map: string[] | { [key string]: string }
+          ]
+          returns: Object
+          see: [
+            {
+              text: Guide - Getters - The `mapGetters` helper
+              link: https://vuex.vuejs.org/guide/getters.html#the-mapgetters-helper
+            }
+            {
+              text: Guide - Modules - Binding Helpers with Namespaces
+              link: https://vuex.vuejs.org/guide/modules.html#binding-helpers-with-namespace
+            }
+          ]
+        }
+        {
+          title: mapMutations
+          description: Create component methods options that commit a mutation.
+          keywords: [
+            map
+          ]
+          link: https://vuex.vuejs.org/api/#mapmutations
+          arguments: [
+            namespace?: string
+            map: string[] | { [key: string]: Function }
+          ]
+          returns: Object
+          see: [
+            {
+              text: Guide - Mutations - Committing Mutations in Components
+              link: https://vuex.vuejs.org/guide/mutations.html#committing-mutations-in-components
+            }
+            {
+              text: Guide - Modules - Binding Helpers with Namespaces
+              link: https://vuex.vuejs.org/guide/modules.html#binding-helpers-with-namespace
+            }
+          ]
+        }
+        {
+          title: createNamespacedHelpers
+          description: Create namespaced component binding helpers.
+          link: https://vuex.vuejs.org/api/#createnamespacedhelpers
+          arguments: [
+            namespace: string
+          ]
+          returns: Object
+          see: [
+            {
+              text: Guide - Modules - Binding Helpers with Namespaces
+              link: https://vuex.vuejs.org/guide/modules.html#binding-helpers-with-namespace
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
