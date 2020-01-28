@@ -29,10 +29,13 @@ const DEFAULT_OPTIONS: VueTemplateOptions = {
  * @param message The message containing the author, if `addAuthor` is `true`.
  */
 export default function createVueTemplate(
-  message: KlasaMessage,
+  message: KlasaMessage | VueTemplateOptions,
   options?: VueTemplateOptions
 ): MessageEmbed {
-  options = util.mergeDefault(DEFAULT_OPTIONS, options)
+  options = util.mergeDefault(
+    DEFAULT_OPTIONS,
+    message instanceof KlasaMessage ? options : message
+  )
 
   const embed = new MessageEmbed().setColor(SIDEBAR_COLOUR)
 
@@ -49,7 +52,9 @@ export default function createVueTemplate(
     ])
   }
 
-  if (options.addAuthor) {
+  if (options.addAuthor && message) {
+    message = message as KlasaMessage
+
     const author =
       message.channel.type === 'dm'
         ? 'You'

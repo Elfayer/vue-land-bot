@@ -1,5 +1,10 @@
 import { execSync } from 'child_process'
+
+import { KlasaGuild } from 'klasa'
 import { oneLine } from 'common-tags'
+
+import { PREFIX } from '@libraries/constants'
+import { I18nKey } from '@libraries/types/I18n'
 import { PREFIX } from '../constants'
 
 /**
@@ -55,4 +60,18 @@ export function excerpt(input: string, length: number = 63) {
   }
 
   return input.substring(0, length) + '…'
+}
+
+/**
+ * Warn a guild owner about something.
+ *
+ * @param guild The guild.
+ * @param key A valid i18n key.
+ * @param params Params to pass to i18n.
+ */
+export function warnOwner(guild: KlasaGuild, key: I18nKey, params: any[]) {
+  return guild?.owner
+    ?.createDM()
+    .then(dm => dm.sendMessage(guild.language.get(key, ...params)))
+    .catch(console.error)
 }

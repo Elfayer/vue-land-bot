@@ -398,8 +398,39 @@ export default class LanguageEnUS extends Language {
 
       /* #region Task - Release */
 
-      [Tasks.Release
-        .NO_CHANNEL_WARNING]: `Release notifications are enabled but no channel is set!`,
+      // prettier-ignore
+      [Tasks.Release.WARN_NO_CHANNEL]: guild => stripIndent`
+        Release notifications are enabled for your guild "${guild}" but no channel is set!
+
+        You should probably run e.g. ${command('conf set releases.channel #announcements', true)}
+
+        **NOTE:** This will only work from inside your guild.
+
+        Alternatively, disable release notifications - ${command('conf set releases.enabled false', true)}
+      `,
+      // prettier-ignore
+      [Tasks.Release.WARN_NO_SCHEDULE]: guild => stripIndent`
+        Release notifications are enabled for your guild "${guild}" but no schedule is set!
+
+        You should probably run e.g. ${command('conf set releases.schedule 4', true)} (this is in hours).
+
+        **NOTE:** This will only work from inside your guild.
+
+        Alternatively, disable release notifications - ${command('conf set releases.enabled false', true)}
+      `,
+      // prettier-ignore
+      [Tasks.Release.WARN_NO_REPOS]: guild => stripIndent`
+        Release notifications are enabled for your guild "${guild}" but you haven't configured any repositories!
+
+        You should probably run e.g. ${command('conf set releases.repos vue', true)}.
+
+        • If you want to add multiple repositories, add them one at a time
+        • You can replace ${inlineCode('set')} with ${inlineCode('remove')} to remove a repo
+
+        **NOTE:** This will only work from inside your guild.
+
+        Alternatively, disable release notifications - ${command('conf set releases.enabled false', true)}
+      `,
 
       /* #endregion */
 
@@ -444,6 +475,8 @@ export default class LanguageEnUS extends Language {
       [Misc.AUTHOR]: 'Author',
       [Misc.CREATED_AT]: 'Created',
       [Misc.UPDATED_AT]: 'Updated',
+      [Misc.ANNOUNCED_AT]: 'Announced',
+      [Misc.RELEASED_AT]: 'Released',
       [Misc.STATUS]: 'Status',
       [Misc.LABELS]: 'Labels',
       [Misc.COMMENTS]: 'Comments',

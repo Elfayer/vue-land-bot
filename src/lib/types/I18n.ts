@@ -9,7 +9,9 @@ export const I18n = {
    */
   Tasks: {
     Release: {
-      NO_CHANNEL_WARNING: 'TASK_RELEASE_NO_CHANNEL_WARNING',
+      WARN_NO_CHANNEL: 'TASK_RELEASE_WARN_NO_CHANNEL',
+      WARN_NO_SCHEDULE: 'TASK_RELEASE_WARN_NO_SCHEDULE',
+      WARN_NO_REPOS: 'TASK_RELEASE_WARN_NO_REPOS',
     },
   },
 
@@ -188,6 +190,8 @@ export const I18n = {
     RESOLVER_INVALID_RELEASE_ENTRY: 'MISC_RESOLVER_INVALID_RELEASE_ENTRY',
     UPDATED_AT: 'MISC_UPDATED_AT',
     CREATED_AT: 'MISC_CREATED_AT',
+    RELEASED_AT: 'MISC_RELEASED_AT',
+    ANNOUNCED_AT: 'MISC_ANNOUNCED_AT',
     LABELS: 'MISC_LABELS',
     STATUS: 'MISC_STATUS',
     AUTHOR: 'MISC_AUTHOR',
@@ -200,6 +204,11 @@ export const I18n = {
   DEFAULT: 'DEFAULT',
 } as const
 
+export type I18nKey = DeepAllValues<typeof I18n, string>
+export type I18nValue =
+  | string
+  | string[]
+  | ((...args: any[]) => string | string[])
 export type Translations = Record<I18nKey, I18nValue>
 
 export const EtiquetteSections = {
@@ -219,8 +228,6 @@ export const SharingSections = {
   GIST: 'GIST',
 } as const
 
-type I18nKey = DeepAllValues<typeof I18n, string>
-type I18nValue = string | string[] | ((...args: any[]) => string | string[])
 type Helper<T, U> = {
   [K in keyof T]: T[K] extends U ? T[K] : DeepAllValues<T[K], U>
 }

@@ -17,5 +17,5 @@ Client.defaultGuildSchema.add('releases', releases => {
       max: 24 * 7,
     })
     .add('lastRelease', 'number')
-    .add('versions', 'any', { configurable: false })
+    .add('versions', 'any', { array: true, configurable: false })
 })
