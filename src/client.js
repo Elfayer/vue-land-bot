@@ -50,6 +50,10 @@ for (const file of jobFiles) {
 */
 client.registry.registerGroups([
   {
+    id: 'announcements',
+    name: 'Announcements',
+  },
+  {
     id: 'documentation',
     name: 'Documentation',
   },
