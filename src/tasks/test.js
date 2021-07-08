@@ -1,6 +1,6 @@
-import Job from '../lib/job'
+import Task from '../lib/task'
 
-export default class TestJob extends Job {
+export default class TestTask extends Task {
   constructor(client) {
     super(client, {
       name: 'test',
@@ -9,7 +9,7 @@ export default class TestJob extends Job {
     })
   }
 
-  run() {
-    console.log('test job executed')
+  run(msg) {
+    msg.reply('[TestTask] Executed!')
   }
 }

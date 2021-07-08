@@ -1,24 +1,23 @@
 import { Command } from 'discord.js-commando'
 import { RichEmbed } from 'discord.js'
 import {
-  EMPTY_MESSAGE,
   OWNER_IDS,
   BOT_DEVELOPER_IDS,
   MODERATOR_ROLE_IDS,
 } from '../../utils/constants'
+import { reset } from '../../services/tasks'
 
 const ALLOWED_ROLES = [...MODERATOR_ROLE_IDS]
 const ALLOWED_USERS = [...OWNER_IDS, ...BOT_DEVELOPER_IDS]
 
-module.exports = class JobsEnableCommand extends Command {
+module.exports = class TasksEnableCommand extends Command {
   constructor(client) {
     super(client, {
-      name: 'list-jobs',
-      group: 'jobs',
-      aliases: ['jl'],
+      name: 'reset-tasks',
+      group: 'tasks',
       guildOnly: true,
-      memberName: 'list',
-      description: 'List all jobs.',
+      memberName: 'reset',
+      description: 'Reset task configurations.',
     })
   }
 
@@ -31,16 +30,13 @@ module.exports = class JobsEnableCommand extends Command {
   }
 
   async run(msg) {
-    const embed = new RichEmbed()
-    embed.setTitle('Job List')
-    embed.setDescription(
-      'Jobs are basically micro-tasks which are executed for every message.'
+    reset()
+
+    msg.channel.send(
+      new RichEmbed()
+        .setTitle('Reset Tasks')
+        .setColor('GREEN')
+        .setDescription('Reset task configurations to defaults in task files.')
     )
-
-    this.client.jobs.forEach(job => {
-      embed.addField(job.name, job.getStatus(), true)
-    })
-
-    return msg.channel.send(EMPTY_MESSAGE, { embed })
   }
 }

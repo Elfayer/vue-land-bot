@@ -3,13 +3,25 @@ import { resolve } from 'path'
 const { NODE_ENV = 'development' } = process.env
 const IMPORT_FILE = `./${NODE_ENV}.js`
 
-const {
-  USERS,
-  ROLES,
-  OWNER_IDS,
-  BOT_DEVELOPER_IDS,
-  PROTECTED_USER_IDS,
-} = require(IMPORT_FILE)
+const { ROLES, OWNER_IDS, BOT_DEVELOPER_IDS } = require(IMPORT_FILE)
+
+/*
+  Various important and or noteworthy user IDs.
+*/
+const USERS = Object.freeze({
+  BOT: '619109039166717972',
+  EVAN: '269617876036616193',
+  GUSTO: '287377476647124992',
+  ELFAYER: '248017273950830593',
+  SUSTAINED: '136620462821081088',
+})
+
+/*
+  Protected user IDs.
+
+    - moderation-related commands have no effect
+*/
+const PROTECTED_USER_IDS = Object.freeze([USERS.EVAN, USERS.GUSTO])
 
 /*
   Protected roles.
@@ -45,6 +57,9 @@ const EMPTY_MESSAGE = '\u200b'
 
 const DATA_DIR = resolve(__dirname, '../../../data')
 
+/*
+  Configuration relating to the messages utility.
+*/
 const AUTOMATICALLY_DELETE_ERRORS = true
 const AUTOMATICALLY_DELETE_INVOCATIONS = true
 const DELETE_ERRORS_AFTER_MS = 30000
@@ -72,6 +87,19 @@ const EMOJIS = {
     FIRST: '661289441171865660',
     LAST: '661289441218002984',
   },
+  ENABLED: '661514135573495818',
+  DISABLED: '661514135594467328',
+}
+
+EMOJIS.SUCCESS = EMOJIS.ENABLED
+EMOJIS.FAILURE = EMOJIS.DISABLED
+
+const TEST_GUILD = '617839535727968282'
+const LIVE_GUILD = '325477692906536972'
+let GUILDS = {
+  TEST: TEST_GUILD,
+  LIVE: LIVE_GUILD,
+  CURRENT: process.env.NODE_ENV === 'production' ? LIVE_GUILD : TEST_GUILD,
 }
 
 const CDN_BASE_URL =
@@ -80,6 +108,7 @@ const CDN_BASE_URL =
 export {
   USERS,
   ROLES,
+  GUILDS,
   EMOJIS,
   CDN_BASE_URL,
   OWNER_IDS,

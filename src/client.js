@@ -2,9 +2,21 @@ import { readdirSync } from 'fs'
 import { join } from 'path'
 import { Collection } from 'discord.js'
 import { CommandoClient } from 'discord.js-commando'
+import { setDefaults } from './services/tasks'
+
+/*
+  Ensure that NODE_ENV is set to development if it is unset.
+*/
+if (!process.env.NODE_ENV) {
+  process.env.NODE_ENV = 'development'
+}
 
 const { NODE_ENV, COMMAND_PREFIX = '!' } = process.env
 
+/*
+  We allow a comma-separated list of owner IDs, so check for 
+  that and apply it back onto process.env if found.
+*/
 let OWNER_IDS = process.env.OWNER_IDS || '269617876036616193' // Default to @evan#9589
 if (OWNER_IDS.includes(',')) {
   OWNER_IDS = OWNER_IDS.split(',')
@@ -13,7 +25,7 @@ if (OWNER_IDS.includes(',')) {
 }
 process.env.OWNER_IDS = OWNER_IDS
 
-const PATH_JOBS = join(__dirname, 'jobs')
+const PATH_TASKS = join(__dirname, 'tasks')
 const PATH_TYPES = join(__dirname, 'types')
 const PATH_COMMANDS = join(__dirname, 'commands')
 
@@ -23,25 +35,30 @@ const client = new CommandoClient({
 })
 
 /*
-  Initialise jobs.
+  Initialise tasks.
 */
 
-client.jobs = new Collection()
+client.tasks = new Collection()
 
-const jobFiles = readdirSync(PATH_JOBS).filter(file => file.endsWith('.js'))
+const taskFiles = readdirSync(PATH_TASKS).filter(file => file.endsWith('.js'))
 
-for (const file of jobFiles) {
+for (const file of taskFiles) {
   try {
-    const { default: jobDefinition } = require(`./jobs/${file}`)
+    const { default: taskDefinition } = require(`./tasks/${file}`)
 
-    const jobInstance = new jobDefinition(client)
+    const taskInstance = new taskDefinition(client)
 
-    client.jobs.set(jobInstance.name, jobInstance)
+    client.tasks.set(taskInstance.name, taskInstance)
   } catch (e) {
-    console.warn('Could not load job file: ' + file)
+    console.warn('Could not load task file: ' + file)
     console.error(e)
   }
 }
+
+/*
+  Write configuration file if applicable (DB doesn't yet exist).
+*/
+setDefaults(client.tasks)
 
 /*
   Register command groups.
@@ -62,18 +79,18 @@ client.registry.registerGroups([
     name: 'Moderation',
   },
   {
-    id: 'jobs',
-    name: 'Jobs',
+    id: 'tasks',
+    name: 'Tasks',
   },
   {
     id: 'rfcs',
     name: 'RFCs',
   },
-  {
-    id: 'development',
-    name: 'development',
-  },
 ])
+
+if (NODE_ENV === 'development') {
+  client.registry.registerGroup('development', 'development')
+}
 
 /*
   Register default command groups, commands and argument types.
@@ -86,7 +103,11 @@ client.registry.registerGroups([
 */
 client.registry.registerDefaults()
 client.registry.registerTypesIn(PATH_TYPES)
-client.registry.registerCommandsIn(PATH_COMMANDS)
+client.registry.registerCommandsIn({
+  dirname: PATH_COMMANDS,
+  // NOTE: Exclude any commands in the development group, when in production.
+  excludeDirs: NODE_ENV === 'production' ? '^\\..*|development$' : undefined,
+})
 
 if (NODE_ENV === 'production') {
   const evalCommand = client.registry.findCommands('eval')
@@ -95,10 +116,10 @@ if (NODE_ENV === 'production') {
     client.registry.unregisterCommand(evalCommand[0])
   }
 }
+
 /*
   Set up some global error handling and some purely informational event handlers.
 */
-
 client.on('warn', console.warn)
 client.on('error', console.error)
 
@@ -118,11 +139,22 @@ client.on('message', msg => {
     return
   }
 
-  client.jobs
-    .filter(job => job.enabled)
-    .forEach(job => {
-      if (job.shouldExecute(msg)) {
-        job.run(msg)
+  client.tasks
+    .filter(task => {
+      if (!task.enabled) {
+        return false
+      }
+
+      // Check for guild-specific tasks.
+      if (task.guild && msg.guild && task.guild !== msg.guild.id) {
+        return false
+      }
+
+      return true
+    })
+    .forEach(task => {
+      if (task.shouldExecute(msg)) {
+        task.run(msg)
       }
     })
 })

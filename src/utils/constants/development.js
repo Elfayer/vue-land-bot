@@ -1,14 +1,4 @@
 /*
-  Various important and or noteworthy user IDs.
-*/
-export const USERS = Object.freeze({
-  EVAN: '269617876036616193',
-  GUSTO: '287377476647124992',
-  ELFAYER: '248017273950830593',
-  SUSTAINED: '136620462821081088',
-})
-
-/*
   Various important and or noteworthy role IDs.
 */
 export const ROLES = Object.freeze({
@@ -41,10 +31,3 @@ export const BOT_DEVELOPER_IDS = Object.freeze([
     - can run commands set as ownerOnly
 */
 export const OWNER_IDS = Object.freeze(BOT_DEVELOPER_IDS)
-
-/*
-  Protected roles.
-
-    - moderation-related commands have no effect
-*/
-export const PROTECTED_USER_IDS = Object.freeze([USERS.EVAN, USERS.GUSTO])
